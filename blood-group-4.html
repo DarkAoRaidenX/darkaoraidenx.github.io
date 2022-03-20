@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Blood 4 Group</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/bloods.ico">
+	
+<script src="scripts/jquery/3.6.0.js"></script> 
+
+<script src="scripts/jquery/ui-1.13.1.js"></script>	
+	
+<script>
+<!--
+function toggleDiv(divId) {
+   $("#"+divId).toggle();
+}
+//-->
+</script>
+
+
+<!-- Kiriak -->
+<script>
+$(document).ready(function ()
+{
+
+    $('.buttonLink').each(function ()
+    {
+
+$(this).click(function ()
+    {
+	console.log('clicked');
+        var content=$(this).find(".dotPlus").html();
+        if (content=='+') content='-';
+        else content='+';
+       $(this).find(".dotPlus").html(content);
+
+    });
+    });
+	
+});
+</script>
+<!-- Kiriak Script -->
+
+</head>
+<body id="home-page">
+
+<!-- blood-group-4-container -->
+<div id="blood-group-4-container" class="container bloods" draggable="true" ondragstart="drag(event)">
+
+<!-- blood-group-4 ButtonT0 -->
+<div class="redBg button t0 top">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-group-4-items');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div>
+
+<img class="icons icons1" src="images/icons/bloods/bg4/troll.png" alt="Icon" />
+Blood Group 4
+</a>
+
+<div class="right">
+<a title="Blood Group 4" class="links" href="https://bdocodex.com/us/materialgroup/16/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- blood-group-4 ButtonT0 End-->
+
+<!-- blood-group-4-items -->
+<div id="blood-group-4-items" class="hidden">
+
+
+<!-- bg4-bear ButtonT0 -->
+<div class="button darkBg t0">
+
+<a title="Bear Blood" class="links2" href="https://bdocodex.com/us/item/6213/" target="_blank">
+
+<img class="icons icons1" src="images/icons/bloods/bg4/bear.png" alt="Icon" />
+
+Bear
+</a>
+
+</div>
+<!-- bg4-bear ButtonT0 -->
+
+
+<!-- bg4-dinosaur ButtonT0 -->
+<div class="button darkBg t0">
+
+<a title="Dinosaur Blood" class="links2" href="https://bdocodex.com/us/item/6207/" target="_blank">
+
+<img class="icons icons1" src="images/icons/bloods/bg4/dinosaur.png" alt="Icon" />
+
+Dinosaur (Obsolete item?)
+</a>
+
+</div>
+<!-- bg4-dinosaur ButtonT0 -->
+
+
+<!-- bg4-lion ButtonT0 -->
+<div class="button darkBg t0">
+
+<a title="Lion Blood" class="links2" href="https://bdocodex.com/us/item/6223/" target="_blank">
+
+<img class="icons icons1" src="images/icons/bloods/bg4/lion.png" alt="Icon" />
+
+Lion
+</a>
+
+</div>
+<!-- bg4-lion ButtonT0 -->
+
+
+<!-- bg4-ogre ButtonT0 -->
+<div class="button darkBg t0">
+
+<a title="Ogre Blood" class="links2" href="https://bdocodex.com/us/item/6221/" target="_blank">
+
+<img class="icons icons1" src="images/icons/bloods/bg4/ogre.png" alt="Icon" />
+
+Ogre
+</a>
+
+</div>
+<!-- bg4-ogre ButtonT0 -->
+
+
+<!-- bg4-troll ButtonT0 -->
+<div class="button darkBg t0">
+
+<a title="Troll Blood" class="links2" href="https://bdocodex.com/us/item/6220/" target="_blank">
+
+<img class="icons icons1" src="images/icons/bloods/bg4/troll.png" alt="Icon" />
+
+Troll
+</a>
+
+</div>
+<!-- bg4-troll ButtonT0 -->
+
+
+<!-- bg4-yak ButtonT0 -->
+<div class="button darkBg t0">
+
+<a title="Yak Blood" class="links2" href="https://bdocodex.com/us/item/6225/" target="_blank">
+
+<img class="icons icons1" src="images/icons/bloods/bg4/yak.png" alt="Icon" />
+
+Yak
+</a>
+
+</div>
+<!-- bg4-yak ButtonT0 -->
+
+
+
+
+
+</div>
+<!-- blood-group-4-items End -->
+
+
+</div>
+<!-- blood-group-4-container End -->
+
+</body>
+</html>

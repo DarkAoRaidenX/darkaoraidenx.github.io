@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Party Pot</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/pots.ico">
+	
+<script src="scripts/jquery/3.6.0.js"></script> 
+
+<script src="scripts/jquery/ui-1.13.1.js"></script>	
+	
+<script>
+<!--
+function toggleDiv(divId) {
+   $("#"+divId).toggle();
+}
+//-->
+</script>
+
+<!-- Kiriak -->
+<script>
+$(document).ready(function ()
+{
+
+    $('.buttonLink').each(function ()
+    {
+
+$(this).click(function ()
+    {
+	console.log('clicked');
+        var content=$(this).find(".dotPlus").html();
+        if (content=='+') content='-';
+        else content='+';
+       $(this).find(".dotPlus").html(content);
+
+    });
+    });
+	
+});
+</script>
+<!-- Kiriak Script -->
+
+</head>
+<body id="home-page" class="common">
+
+<!-- potPartyUpgrade -->
+<div id="potPartyUpgrade" class="container pots" draggable="true" ondragstart="drag(event)">
+
+
+<!-- potPartyUpgrade ButtonT1 -->
+<div class="darkBg button t1 top">
+
+<a title="Content Button" class="buttonLink blue" href="javascript:toggleDiv('PartyUpgrade');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/menu/party3.png" alt="Icon" />
+Party Version
+</a>
+
+<div class="right">
+&nbsp;
+</div>
+
+</div>
+<!-- PartyUpgrade ButtonT1 End-->
+
+<!-- PartyUpgrade -->
+<div id="PartyUpgrade" class="hidden">
+
+
+<div class="btnNoIcon button t3">
+
+<div class="alignR">
+Any <span class="green">Green</span> or <span class="blue">Blue</span> Pot
+
+<div class="dots">
+<span class="circleText amount">2</span>
+</div>
+
+</div>
+
+
+<div class="right">
+&nbsp;
+</div>
+
+</div>
+<!-- PartyUpgrade End -->
+
+<!-- potAT -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potAT');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/vendor/aals-tear.png" alt="Icon" />
+Aal's Tear
+</a>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<img title="Simple Alchemy" class="icons icons1" src="images/icons/processing/simple-alchemy.png" alt="Icon" />
+
+<div class="right">
+<a title="Aal's Tear" class="links" href="https://bdocodex.com/us/item/4914/" target="_blank">🔗</a>
+</div>
+
+</div>
+
+<div id="potAT" class="hidden">
+- Material Vendor
+</div>
+<!-- potAT End -->
+
+
+
+</div>
+<!-- PartyUpgrade End-->
+
+
+</div>
+<!-- potPartyUpgrade End -->
+
+</body>
+</html>

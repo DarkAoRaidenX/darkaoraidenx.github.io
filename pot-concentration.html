@@ -1,0 +1,855 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Concentration Elixir</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	
+<script src="scripts/jquery/3.6.0.js"></script> 
+
+<script src="scripts/jquery/ui-1.13.1.js"></script>	
+	
+<script>
+<!--
+function toggleDiv(divId) {
+   $("#"+divId).toggle();
+}
+//-->
+</script>
+
+<!-- Kiriak -->
+<script>
+$(document).ready(function ()
+{
+
+    $('.buttonLink').each(function ()
+    {
+
+$(this).click(function ()
+    {
+	console.log('clicked');
+        var content=$(this).find(".dotPlus").html();
+        if (content=='+') content='-';
+        else content='+';
+       $(this).find(".dotPlus").html(content);
+
+    });
+    });
+	
+});
+</script>
+<!-- Kiriak Script -->
+
+</head>
+<body id="home-page">
+
+
+<!-- pot-concentration-Container -->
+<div id="pot-concentration-Container" class="container pots" draggable="true" ondragstart="drag(event)">
+
+<!-- pot-concentration-Recipe ButtonT1 -->
+<div class="button darkBg t1 top">
+
+<a title="Content Button" class="buttonLink green" href="javascript:toggleDiv('pot-concentration-Recipe-Container');">
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+<img class="icons icons1" src="images/icons/pots/concentration.png" alt="Icon" />
+Concentration (Accuracy +8)
+</a>
+
+<div class="right">
+<a title="Elixir of Concentration" class="links" href="https://bdocodex.com/us/item/700/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- pot-concentration-Recipe ButtonT1 End -->
+
+<!-- pot-concentration-Recipe-Container -->
+<div id="pot-concentration-Recipe-Container" class="hidden">
+
+
+
+<!-- recipe-pot-concentration-clr ButtonT1 -->
+<div class="button t1">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('recipe-pot-concentration-clr');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+ <img class="icons icons1" src="images/icons/alchemy/clear-liquid-reagent.png" alt="Icon" />
+Clear Liquid Reagent
+</a>
+
+<div class="right">
+<a title="Clear Liquid Reagent" class="links" href="https://bdocodex.com/us/item/5301/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+</div>
+<!-- recipe-pot-concentration-clr ButtonT1 End -->
+
+<!-- recipe-pot-concentration-clr -->
+<div id="recipe-pot-concentration-clr" class="hidden">
+
+
+<!-- pot-concentration-clr-Grass ButtonT4 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-concentration-clr-Grass');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/gathering/weeds.png" alt="Icon" />
+Grass
+</a>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<div class="right">
+<a title="Weeds" class="links" href="https://bdocodex.com/us/item/5439/" target="_blank">🔗</a>
+<a title="Wild Grass" class="links" href="https://bdocodex.com/us/item/5600/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- pot-concentration-clr-Grass ButtonT4  End -->
+
+
+<!-- pot-concentration-clr-Grass -->
+<div id="pot-concentration-clr-Grass" class="hidden">
+
+
+<a title="Weeds" class="links2" href="https://bdocodex.com/us/item/5600/" target="_blank">
+<img class="icons icons1" src="images/icons/gathering/weeds.png" alt="Icon" />
+Weeds
+</a>
+&nbsp;<img title="Bare Hand Gathering" class="icons icons1" src="images/icons/menu/energy-recov.png" alt="Icon" />
+
+<br />
+
+<a title="Wild Grass" class="links2" href="https://bdocodex.com/us/item/5600/" target="_blank">
+<img class="icons icons1" src="images/icons/gathering/wild-grass.png" alt="Icon" />
+WIld Grass
+</a>
+&nbsp;<img title="Hoe at Behr" class="icons icons3" src="images/icons/tools/manos-hoe.png" alt="Icon" />
+
+
+</div>
+<!-- pot-concentration-clr-Grass End-->
+
+
+<!-- pot-concentration-clr-PW ButtonT4 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-concentration-clr-PW');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/waters/purified.png" alt="Icon" />
+Purified Water
+</a>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<div class="right">
+<a title="Purified Water" class="links" href="https://bdocodex.com/us/item/6656/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- pot-concentration-clr-PW ButtonT4  End -->
+
+<!-- pot-concentration-clr-PW -->
+<div id="pot-concentration-clr-PW" class="hidden">
+
+
+<!-- pot-concentration-clr-CW Button -->
+<div class="button noBg">
+
+<a title="Bottle of Clean Water" class="links2" href="https://bdocodex.com/us/item/6655/" target="_blank">
+
+
+<img class="icons icons1" src="images/icons/waters/clean.png" alt="Icon" />
+Bottle of Clean Water
+</a>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+
+<img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
+
+
+</div>
+<!-- pot-concentration-clr-CW Button End -->
+
+<!-- pot-concentration-clr-RW Button -->
+<div class="button noBg">
+
+<a title="Bottle of River Water" class="links2" href="https://bdocodex.com/us/item/6653/" target="_blank">
+
+
+<img class="icons icons1" src="images/icons/waters/river.png" alt="Icon" />
+Bottle of River Water
+</a>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+
+<img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
+
+
+</div>
+<!-- pot-concentration-clr-RW Button End -->
+
+
+
+</div>
+<!-- pot-concentration-clr-PW End-->
+
+<!-- pot-concentration-clr-Salt ButtonT4 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-concentration-clr-Salt');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/vendor/salt.png" alt="Icon" />
+Salt
+</a>
+
+<div class="right">
+<a title="Salt" class="links" href="https://bdocodex.com/us/item/9001/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+</div>
+<!-- pot-concentration-clr-Salt ButtonT4  End -->
+
+<!-- pot-concentration-clr-Salt -->
+<div id="pot-concentration-clr-Salt" class="hidden">
+
+NPC Food Vendor or Innkeeper.
+
+</div>
+<!-- pot-concentration-clr-Salt End-->
+
+
+<!-- pot-concentration-clr-SRH ButtonT4 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-concentration-clr-SRH');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+ <img class="icons icons1" src="images/icons/nodes/plants/sunrise-herb.png" alt="Icon" />
+Sunrise Herb
+</a>
+
+<div class="right">
+<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+</div>
+<!-- pot-concentration-clr-SRH ButtonT4 End -->
+
+<!-- pot-concentration-clr-SRH -->
+<div id="pot-concentration-clr-SRH" class="hidden">
+
+<p class="h2 gold2">4CP Velia</p>
+
+<a title="Balenos Forest" class="links2" href="https://www.somethinglovely.net/bdo/#node/44" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Balenos Forest
+</a>
+
+<p class="h2 gold2">5CP Velia</p>
+
+<a title="Cron Castle Site" class="links2" href="https://www.somethinglovely.net/bdo/#node/3" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Cron Castle Site
+</a>
+</div>
+<!-- pot-concentration-clr-SRH -->
+
+
+
+
+</div>
+<!-- recipe-pot-concentration-clr End -->
+
+
+<!-- pot-concentration-Grass ButtonT2 -->
+<div class="button t2">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-concentration-Grass');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/gathering/weeds.png" alt="Icon" />
+Grass
+</a>
+
+<div class="dots">
+	<span class="circleText amount">2</span>
+</div>
+
+<div class="right">
+<a title="Weeds" class="links" href="https://bdocodex.com/us/item/5439/" target="_blank">🔗</a>
+<a title="Wild Grass" class="links" href="https://bdocodex.com/us/item/5600/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- pot-concentration-Grass ButtonT2  End -->
+
+
+<!-- pot-concentration-Grass -->
+<div id="pot-concentration-Grass" class="hidden">
+
+
+<a title="Weeds" class="links2" href="https://bdocodex.com/us/item/5600/" target="_blank">
+<img class="icons icons1" src="images/icons/gathering/weeds.png" alt="Icon" />
+Weeds
+</a>
+&nbsp;<img title="Bare Hand Gathering" class="icons icons1" src="images/icons/menu/energy-recov.png" alt="Icon" />
+
+<br />
+
+<a title="Wild Grass" class="links2" href="https://bdocodex.com/us/item/5600/" target="_blank">
+<img class="icons icons1" src="images/icons/gathering/wild-grass.png" alt="Icon" />
+WIld Grass
+</a>
+&nbsp;<img title="Hoe at Behr" class="icons icons3" src="images/icons/tools/manos-hoe.png" alt="Icon" />
+
+
+</div>
+<!-- pot-concentration-Grass End-->
+
+
+<!-- pot-concentration-PS ButtonT2 -->
+<div class="button t2">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-concentration-PS');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+ <img class="icons icons1" src="images/icons/saps/pine.png" alt="Icon" />
+Pine Sap
+</a>
+
+<div class="right">
+<a title="Pine Sap" class="links" href="https://bdocodex.com/us/item/5003/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+<span class="circleText amount">5</span>
+</div>
+
+</div>
+<!-- pot-concentration-PS ButtonT2 End -->
+
+<!-- pot-concentration-PS -->
+<div id="pot-concentration-PS" class="hidden">
+
+
+<p class="h2 gold2">8CP Keplan</p>
+
+<a title="Marie Cave" class="links2" href="https://www.somethinglovely.net/bdo/#node/910" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Marie Cave
+</a>
+
+<p class="h2 gold2">10CP Tarif/11CP Duvencrune</p>
+
+<a title="Khimut Lumber Camp" class="links2" href="https://www.somethinglovely.net/bdo/#node/1685" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Khimut Lumber Camp
+</a>
+
+
+</div>
+<!-- pot-concentration-PS End -->
+
+
+<!-- pot-concentration-DMG ButtonT2 -->
+<div class="button t2">
+
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-concentration-DMG');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+ <img class="icons icons1" src="images/icons/nodes/plants/dry-mane-grass.png" alt="Icon" />
+Dry Mane Grass
+</a>
+
+<div class="right">
+<a title="Dry Mane Grass" class="links" href="https://www.somethinglovely.net/bdo/#node/1668" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+<span class="circleText amount">7</span>
+</div>
+
+</div>
+<!-- pot-concentration-DMG ButtonT2 End -->
+
+<!-- pot-concentration-DMG -->
+<div id="pot-concentration-DMG" class="hidden">
+
+
+<p class="h2 gold2">4CP Duvencrune</p>
+
+<a title="Tshira Ruins" class="links2" href="https://www.somethinglovely.net/bdo/#node/1144" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Tshira Ruins
+</a>
+
+
+</div>
+<!-- pot-concentration-DMG End -->
+
+
+
+<!-- pot-concentration-Notes ButtonT1 -->
+<div class="button t1">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-concentration-Notes');">
+
+<div class="left top">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+Notes
+<img class="icons icons6" src="images/icons/menu/notes.png" alt="Icon" />
+</a>
+
+</div>
+<!-- pot-concentration-Notes ButtonT1 End -->
+
+
+<!-- pot-concentration-Notes -->
+<div id="pot-concentration-Notes" class="notes hidden">
+
+<!-- pot-concentration-Notes-Upgraded ButtonT0 -->
+<div class="button darkBg t0">
+
+<a title="Advanced Concentration" class="links2 blue" href="https://bdocodex.com/us/item/701/" target="_blank">
+
+<img class="icons icons1" src="images/icons/pots/concentration-advanced.png" alt="Icon" />
+
+Advanced Concentration (Acc. +12)
+</a>
+
+</div>
+<!-- pot-concentration-Notes-Upgraded ButtonT0 End -->
+
+<!-- pot-concentration-Notes-Cheapest ButtonT1 -->
+<div class="button h1 t2">
+
+<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('pot-concentration-Notes-Cheapest');">
+
+<div class="left top">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+Cheapest CP Nodes
+<img class="icons icons6" src="images/icons/nodes/connect2.png" alt="Icon" />
+</a>
+
+<div class="dots">
+	<span class="amount">20</span>
+</div>
+<span class="spacer">&nbsp;</span>
+
+</div>
+<!-- pot-concentration-Notes-Cheapest ButtonT1 End -->
+
+<!-- pot-concentration-Notes-Cheapest -->
+<div id="pot-concentration-Notes-Cheapest" class="hidden">
+
+<!-- pot-concentration-PoD-notes ButtonT3 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-concentration-PoD-notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/powder/darkness.png" alt="Icon" />
+Powder of Darkness
+</a>
+
+<div class="right">
+<a title="Powder of Darkness" class="links" href="https://bdocodex.com/us/item/4801/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+</div>
+<!-- pot-concentration-PoD-notes ButtonT3 End -->
+
+<!-- pot-concentration-PoD-notes -->
+<div id="pot-concentration-PoD-notes" class="hidden">
+
+<p class="h2 gold2">1CP Velia</p>
+
+<a title="Coastal Cave" class="links2" href="https://www.somethinglovely.net/bdo/#node/46" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Coastal Cave
+</a>
+
+<p class="h2 gold2">2CP Velia</p>
+
+<a title="Coastal Cliff" class="links2" href="https://www.somethinglovely.net/bdo/#node/49" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Coastal Cliff
+</a>
+
+<p class="h2 gold2">3CP Altinova</p>
+
+<a title="Abandoned Iron Mine" class="links2" href="https://www.somethinglovely.net/bdo/#node/1144" target="_blank">
+<img class="icons icons6" src="images/icons/nodes/triangle.png" alt="Icon" />
+Abandoned Iron Mine 
+</a>
+
+<p class="h2 gold2">4CP Heidel</p>
+
+<a title="Northern Heidel Quarry" class="links2" href="https://www.somethinglovely.net/bdo/#node/326" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Northern Heidel Quarry
+</a>
+
+
+
+</div>
+<!-- pot-concentration-PoD-notes -->
+
+
+<!-- pot-concentration-SL-notes ButtonT3 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-concentration-SL-notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/nodes/plants/spirits-leaf.png" alt="Icon" />
+Spirit's Leaf
+</a>
+
+<div class="right">
+<a title="Spirit's Leaf" class="links" href="https://bdocodex.com/us/item/5006/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+</div>
+<!-- pot-concentration-SL-notes ButtonT3 End -->
+
+<!-- pot-concentration-SL-notes -->
+<div id="pot-concentration-SL-notes" class="hidden">
+
+<p class="h2 gold2">1CP Trent</p>
+
+<a title="Lumberjack's Rest Area" class="links2" href="https://www.somethinglovely.net/bdo/#node/718" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Lumberjack's Rest Area
+</a>
+
+
+<p class="h2 gold2">4CP Velia</p>
+
+<a title="Balenos Forest" class="links2" href="https://www.somethinglovely.net/bdo/#node/44" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Balenos Forest
+</a>
+
+
+<p class="h2 gold2">4CP Velia</p>
+
+<a title="Goblin Cave" class="links2" href="https://www.somethinglovely.net/bdo/#node/23" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Goblin Cave
+</a>
+
+
+
+</div>
+<!-- pot-concentration-SL-notes -->
+
+
+
+<!-- pot-concentration-PoF-notes ButtonT3 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-concentration-PoF-notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+ <img class="icons icons1" src="images/icons/powder/flame.png" alt="Icon" />
+Powder of Flame
+</a>
+
+<div class="right">
+<a title="Powder of Flame" class="links" href="https://bdocodex.com/us/item/4802/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+</div>
+<!-- pot-concentration-PoF-notes ButtonT3 End -->
+
+<!-- pot-concentration-PoF-notes -->
+<div id="pot-concentration-PoF-notes" class="hidden">
+
+<p class="h2 gold2">3CP Velia</p>
+
+<a title="Imp Cave" class="links2" href="https://www.somethinglovely.net/bdo/#node/25" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Imp Cave
+</a>
+
+<p class="h2 gold2">4CP Heidel</p>
+
+<a title="Northern Heidel Quarry" class="links2" href="https://www.somethinglovely.net/bdo/#node/326" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Northern Heidel Quarry
+</a>
+
+
+</div>
+<!-- pot-concentration-PoF-notes -->
+
+
+
+<!-- pot-concentration-SRH-notes ButtonT3 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-concentration-SRH-notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+ <img class="icons icons1" src="images/icons/nodes/plants/sunrise-herb.png" alt="Icon" />
+Sunrise Herb
+</a>
+
+<div class="right">
+<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+</div>
+<!-- pot-concentration-SRH-notes ButtonT3 End -->
+
+<!-- pot-concentration-SRH-notes -->
+<div id="pot-concentration-SRH-notes" class="hidden">
+
+<p class="h2 gold2">3CP Velia</p>
+
+<a title="Cron Castle Site" class="links2" href="https://www.somethinglovely.net/bdo/#node/41" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Cron Castle Site
+</a>
+
+<p class="h2 gold2">4CP Velia</p>
+
+<a title="Balenos Forest" class="links2" href="https://www.somethinglovely.net/bdo/#node/44" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Balenos Forest
+</a>
+
+
+
+</div>
+<!-- pot-concentration-SRH-notes -->
+
+
+<!-- pot-concentration-DMG-notes ButtonT3 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-concentration-DMG-notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+ <img class="icons icons1" src="images/icons/nodes/plants/dry-mane-grass.png" alt="Icon" />
+Dry Mane Grass
+</a>
+
+<div class="right">
+<a title="Dry Mane Grass" class="links" href="https://www.somethinglovely.net/bdo/#node/1668" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+<span class="circleText amount">4</span>
+</div>
+
+</div>
+<!-- pot-concentration-DMG-notes ButtonT3 End -->
+
+<!-- pot-concentration-DMG-notes -->
+<div id="pot-concentration-DMG-notes" class="hidden">
+
+<p class="h2 gold2">4CP Duvencrune</p>
+
+<a title="Tshira Ruins" class="links2" href="https://www.somethinglovely.net/bdo/#node/1144" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Tshira Ruins
+</a>
+
+
+</div>
+<!-- pot-concentration-DMG-notes End -->
+
+
+<!-- pot-concentration-PS-notes ButtonT3 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-concentration-PS-notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/saps/pine.png" alt="Icon" />
+Pine Sap
+</a>
+
+<div class="right">
+<a title="Pine Sap" class="links" href="https://bdocodex.com/us/item/5003/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+<span class="circleText amount">8</span>
+</div>
+
+</div>
+<!-- pot-concentration-PS-notes ButtonT3 End -->
+
+<!-- pot-concentration-PS-notes -->
+<div id="pot-concentration-PS-notes" class="hidden">
+
+<p class="h2 gold2">8CP Keplan</p>
+
+<a title="Marie Cave" class="links2" href="https://www.somethinglovely.net/bdo/#node/910" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Marie Cave
+</a>
+
+<p class="h2 gold2">10CP Tarif/11CP Duvencrune</p>
+
+<a title="Khimut Lumber Camp" class="links2" href="https://www.somethinglovely.net/bdo/#node/1685" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Khimut Lumber Camp
+</a>
+
+
+</div>
+<!-- pot-concentration-PS-notes End -->
+
+
+
+</div>
+<!-- pot-concentration-Notes-Cheapest End -->
+
+
+
+</div>
+<!-- pot-concentration-Notes End -->
+
+
+</div>
+<!-- pot-concentration-Recipe-Container End-->
+
+</div>
+<!-- pot-concentration-Container End -->
+
+
+</body>
+</html>

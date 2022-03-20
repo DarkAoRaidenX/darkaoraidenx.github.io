@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Blood 5 Group</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/bloods.ico">
+	
+<script src="scripts/jquery/3.6.0.js"></script> 
+
+<script src="scripts/jquery/ui-1.13.1.js"></script>	
+	
+<script>
+<!--
+function toggleDiv(divId) {
+   $("#"+divId).toggle();
+}
+//-->
+</script>
+
+
+<!-- Kiriak -->
+<script>
+$(document).ready(function ()
+{
+
+    $('.buttonLink').each(function ()
+    {
+
+$(this).click(function ()
+    {
+	console.log('clicked');
+        var content=$(this).find(".dotPlus").html();
+        if (content=='+') content='-';
+        else content='+';
+       $(this).find(".dotPlus").html(content);
+
+    });
+    });
+	
+});
+</script>
+<!-- Kiriak Script -->
+
+</head>
+<body id="home-page">
+
+<!-- blood-group-5-container -->
+<div id="blood-group-5-container" class="container bloods" draggable="true" ondragstart="drag(event)">
+
+<!-- blood-group-5 ButtonT0 -->
+<div class="redBg button t0 top">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-group-5-items');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div>
+
+<img class="icons icons1" src="images/icons/bloods/bg5/lizard.png" alt="Icon" />
+Blood Group 5
+</a>
+
+<div class="right">
+<a title="Blood Group 5" class="links" href="https://bdocodex.com/us/materialgroup/16/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- blood-group-5 ButtonT0 End-->
+
+<!-- blood-group-5-items -->
+<div id="blood-group-5-items" class="hidden">
+
+
+<!-- bg5-bat ButtonT0 -->
+<div class="button darkBg t0">
+
+<a title="Bat Blood" class="links2" href="https://bdocodex.com/us/item/6219/" target="_blank">
+
+<img class="icons icons1" src="images/icons/bloods/bg5/bat.png" alt="Icon" />
+
+Bat
+</a>
+
+</div>
+<!-- bg5-bat ButtonT0 -->
+
+
+<!-- bg5-cobra ButtonT0 -->
+<div class="button darkBg t0">
+
+<a title="Cobra Blood" class="links2" href="https://bdocodex.com/us/item/6222/" target="_blank">
+
+<img class="icons icons1" src="images/icons/bloods/bg5/cobra.png" alt="Icon" />
+
+Cobra
+</a>
+
+</div>
+<!-- bg5-cobra ButtonT0 -->
+
+
+<!-- bg5-kuku-bird ButtonT0 -->
+<div class="button darkBg t0">
+
+<a title="Kuku Bird Blood" class="links2" href="https://bdocodex.com/us/item/6204/" target="_blank">
+
+<img class="icons icons1" src="images/icons/bloods/bg5/kuku-bird.png" alt="Icon" />
+
+Kuku Bird
+</a>
+
+</div>
+<!-- bg5-kuku-bird ButtonT0 -->
+
+
+<!-- bg5-lizard ButtonT0 -->
+<div class="button darkBg t0">
+
+<a title="Lizard Blood" class="links2" href="https://bdocodex.com/us/item/6208/" target="_blank">
+
+<img class="icons icons1" src="images/icons/bloods/bg5/lizard.png" alt="Icon" />
+
+Lizard
+</a>
+
+</div>
+<!-- bg5-lizard ButtonT0 -->
+
+
+<!-- bg5-worm ButtonT0 -->
+<div class="button darkBg t0">
+
+<a title="Worm Blood" class="links2" href="https://bdocodex.com/us/item/6209/" target="_blank">
+
+<img class="icons icons1" src="images/icons/bloods/bg5/worm.png" alt="Icon" />
+
+Worm
+</a>
+
+</div>
+<!-- bg5-worm ButtonT0 -->
+
+
+</div>
+<!-- blood-group-5-items End -->
+
+
+</div>
+<!-- blood-group-5-container End -->
+
+</body>
+</html>

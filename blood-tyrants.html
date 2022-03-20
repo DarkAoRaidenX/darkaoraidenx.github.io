@@ -1,0 +1,737 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Tyrant's Blood</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/bloods.ico">
+	
+<script src="scripts/jquery/3.6.0.js"></script> 
+
+<script src="scripts/jquery/ui-1.13.1.js"></script>	
+	
+<script>
+<!--
+function toggleDiv(divId) {
+   $("#"+divId).toggle();
+}
+//-->
+</script>
+
+<!-- Kiriak -->
+<script>
+$(document).ready(function ()
+{
+
+    $('.buttonLink').each(function ()
+    {
+
+$(this).click(function ()
+    {
+	console.log('clicked');
+        var content=$(this).find(".dotPlus").html();
+        if (content=='+') content='-';
+        else content='+';
+       $(this).find(".dotPlus").html(content);
+
+    });
+    });
+	
+});
+</script>
+<!-- Kiriak Script -->
+
+</head>
+<body id="home-page">
+
+<!-- blood-Tyrants -->
+<div id="blood-Tyrants" class="container bloods" draggable="true" ondragstart="drag(event)">
+
+
+<!-- blood-Tyrants-recipe ButtonT1 -->
+<div class="redBg button t1 top">
+
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-Tyrants-recipe');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div>
+
+<img class="icons icons1" src="images/icons/bloods/tyrants.png" alt="Icon" />
+Tyrant's Blood
+</a>
+
+<div class="right">
+<a title="Tyrant's Blood" class="links" href="https://bdocodex.com/us/item/6352/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- blood-Tyrants-recipe ButtonT1 End-->
+
+
+<!-- blood-Tyrants-recipe -->
+<div id="blood-Tyrants-recipe" class="hidden">
+
+
+<!-- blood-Tyrants-MB ButtonT2 -->
+<div class="button t2">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-Tyrants-MB');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+ <img class="icons icons1" src="images/icons/nodes/plants/monks-branch.png" alt="Icon" />
+Monk's Branch
+</a>
+
+<div class="right">
+<a title="Monk's Branch" class="links" href="https://bdocodex.com/us/item/5007/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+</div>
+<!-- blood-Tyrants-MB ButtonT2 End -->
+
+<!-- blood-Tyrants-MB -->
+<div id="blood-Tyrants-MB" class="hidden">
+
+<p class="h2 gold2">5CP Heidel/Keplan</p>
+
+<a title="Oze Pass" class="links2" href="https://www.somethinglovely.net/bdo/#node/952" target="_blank">
+<img class="icons icons6" src="images/icons/nodes/triangle.png" alt="Icon" />
+Oze Pass
+</a>
+
+<p class="h2 gold2">6CP Glish/8CP Duven/10 Heidel</p>
+<a title="Serendia Shrine" class="links2" href="https://www.somethinglovely.net/bdo/#node/455" target="_blank">
+<img class="icons icons6" src="images/icons/nodes/triangle.png" alt="Icon" />
+Serendia Shrine
+</a>
+
+<p class="h2 gold2">7CP Velia</p>
+
+<a title="Forest of Seclusion" class="links2" href="https://www.somethinglovely.net/bdo/#node/183" target="_blank">
+<img class="icons icons6" src="images/icons/nodes/triangle.png" alt="Icon" />
+Forest of Seclusion
+</a>
+
+</div>
+<!-- blood-Tyrants-MB End -->
+
+
+<!-- blood-Tyrants-PPR ButtonT2 -->
+<div class="button t2">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-Tyrants-PPR');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+ <img class="icons icons1" src="images/icons/alchemy/pure-powder-reagent.png" alt="Icon" />
+Pure Powder Reagent
+</a>
+
+<div class="right">
+<a title="Pure Powder Reagent" class="links" href="https://bdocodex.com/us/recipe/48/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+</div>
+<!-- blood-Tyrants-PPR ButtonT2 End -->
+
+<!-- blood-Tyrants-PPR -->
+<div id="blood-Tyrants-PPR" class="hidden">
+
+<!-- blood-Tyrants-Grass ButtonT3 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-Tyrants-Grass');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/gathering/weeds.png" alt="Icon" />
+Grass
+</a>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<div class="right">
+<a title="Weeds" class="links" href="https://bdocodex.com/us/item/5439/" target="_blank">🔗</a>
+<a title="Wild Grass" class="links" href="https://bdocodex.com/us/item/5600/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- blood-Tyrants-Grass ButtonT3  End -->
+
+<!-- blood-Tyrants-Grass -->
+<div id="blood-Tyrants-Grass" class="hidden">
+
+<a title="Weeds" class="links2" href="https://bdocodex.com/us/item/5600/" target="_blank">
+<img class="icons icons1" src="images/icons/gathering/weeds.png" alt="Icon" />
+Weeds
+</a>
+&nbsp;<img title="Bare Hand Gathering" class="icons icons1" src="images/icons/menu/energy-recov.png" alt="Icon" />
+
+<br />
+
+<a title="Wild Grass" class="links2" href="https://bdocodex.com/us/item/5600/" target="_blank">
+<img class="icons icons1" src="images/icons/gathering/wild-grass.png" alt="Icon" />
+WIld Grass
+</a>
+&nbsp;<img title="Hoe at Behr" class="icons icons3" src="images/icons/tools/manos-hoe.png" alt="Icon" />
+
+
+</div>
+<!-- blood-Tyrants-Grass End-->
+
+
+<!-- blood-Tyrants-PW ButtonT3 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-Tyrants-PW');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/waters/purified.png" alt="Icon" />
+Purified Water
+</a>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<div class="right">
+<a title="Purified Water" class="links" href="https://bdocodex.com/us/item/6656/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- blood-Tyrants-PW ButtonT3  End -->
+
+<!-- blood-Tyrants-PW -->
+<div id="blood-Tyrants-PW" class="hidden potLinks">
+
+<div class="button">
+<a title="Bottle of Clean Water" class="links2" href="https://bdocodex.com/us/item/6655/" target="_blank">
+<img class="icons icons1" src="images/icons/waters/clean.png" alt="Icon" />
+Bottle of Clean Water
+</a>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
+
+<br />
+
+<a title="Bottle of River Water" class="links2" href="https://bdocodex.com/us/item/6653/" target="_blank">
+<img class="icons icons1" src="images/icons/waters/river.png" alt="Icon" />
+Bottle of River Water
+</a>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
+</div>
+
+</div>
+<!-- blood-Tyrants-PW End-->
+
+<!-- blood-Tyrants-Sugar ButtonT3 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-Tyrants-Sugar');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/vendor/sugar.png" alt="Icon" />
+Sugar
+</a>
+
+<div class="right">
+<a title="Sugar" class="links" href="https://bdocodex.com/us/item/9002/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+</div>
+<!-- blood-Tyrants-Sugar ButtonT3  End -->
+
+<!-- blood-Tyrants-Sugar -->
+<div id="blood-Tyrants-Sugar" class="hidden">
+
+NPC Food Vendor or Innkeeper.
+
+</div>
+<!-- blood-Tyrants-Sugar End-->
+
+
+<!-- blood-Tyrants-SA ButtonT3 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-Tyrants-SA');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+ <img class="icons icons1" src="images/icons/nodes/plants/silver-azalea.png" alt="Icon" />
+Silver Azalea
+</a>
+
+<div class="right">
+<a title="Silver Azalea" class="links" href="https://bdocodex.com/us/item/5402/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+</div>
+<!-- blood-Tyrants-SA ButtonT3 End -->
+
+<!-- blood-Tyrants-SA -->
+<div id="blood-Tyrants-SA" class="hidden">
+
+<p class="h2 gold2">2CP Heidel</p>
+
+<a title="Lynch Farm Ruins" class="links2" href="https://www.somethinglovely.net/bdo/#node/487" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Lynch Farm Ruins
+</a>
+
+<p class="h2 gold2">3CP Heidel</p>
+
+<a title="Northern Plain of Serendia" class="links2" href="https://www.somethinglovely.net/bdo/#node/463" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+N. Plain of Serendia
+</a>
+
+</div>
+<!-- blood-Tyrants-SA -->
+
+
+</div>
+<!-- blood-Tyrants-PPR End -->
+
+
+<!-- blood-Tyrants-ToS ButtonT2 -->
+<div class="button t2">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-Tyrants-ToS');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+ <img class="icons icons1" src="images/icons/traces/savagery.png" alt="Icon" />
+Trace of Savagery
+</a>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<div class="right">
+<a title="Trace of Savagery" class="links" href="https://bdocodex.com/us/item/5956/" target="_blank">🔗</a>
+</div>
+
+
+
+</div>
+<!-- blood-Tyrants-ToS ButtonT2 End -->
+
+<!-- blood-Tyrants-ToS -->
+<div id="blood-Tyrants-ToS" class="hidden">
+
+<p class="h2 gold2">2CP Heidel</p>
+
+<a title="Lynch Farm Ruins - Excavation" class="links2" href="https://www.somethinglovely.net/bdo/#node/488" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/mining.png" alt="Icon" />
+Lynch Farm Ruins - Excavation
+</a>
+<p class="red smallTxt">
+Required: 35 Energy from Zara Lynch
+<br />
+(Lynch Farm Ruins Node Manager)
+</p>
+
+</div>
+<!-- blood-Tyrants-ToS End -->
+
+
+<!-- blood-Tyrants-BG4 ButtonT2 -->
+<div class="button t2">
+
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-Tyrants-BG4');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div>
+
+<img class="icons icons1" src="images/icons/bloods/bg4/troll.png" alt="Icon" />
+Blood Group 4
+</a>
+
+<div class="dots">
+	<span class="circleText amount">2</span>
+</div>
+
+<div class="right">
+<a title="Blood Group 4" class="links" href="https://bdocodex.com/us/materialgroup/15/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- blood-Tyrants-BG4 ButtonT2 End-->
+
+<!-- blood-Tyrants-BG4 -->
+<div id="blood-Tyrants-BG4" class="hidden">
+
+<a title="Bears" class="links2" href="https://bdocodex.com/us/item/6213/" target="_blank">
+<img class="icons icons2" src="images/icons/mobs/bear.png" alt="Icon" />
+Bears
+</a>
+<img title="Fluid Collector" class="icons icons3" src="images/icons/tools/manos-fluid.png" alt="Icon" />
+
+<br />
+
+<a title="Lions" class="links2" href="https://bdocodex.com/us/item/6223/" target="_blank">
+<img class="icons icons2" src="images/icons/mobs/lion-shadow.png" alt="Icon" />
+Lions (Shadow)
+</a>
+<img title="Butcher Knife" class="icons icons1" src="images/icons/tools/manos-butcher-knife.png" alt="Icon" />
+<img title="Fluid Collector" class="icons icons3" src="images/icons/tools/manos-fluid.png" alt="Icon" />
+<img title="Hunting Matchlock" class="icons icons1" src="images/icons/tools/matchlock-master.png" alt="Icon" />
+
+<br />
+
+<a title="Lions" class="links2" href="https://bdocodex.com/us/item/6223/" target="_blank">
+<img class="icons icons2" src="images/icons/mobs/lion-valencian.png" alt="Icon" />
+Lions (Valencian)
+</a>
+<img title="Butcher Knife" class="icons icons1" src="images/icons/tools/manos-butcher-knife.png" alt="Icon" />
+<img title="Fluid Collector" class="icons icons3" src="images/icons/tools/manos-fluid.png" alt="Icon" />
+<img title="Hunting Matchlock" class="icons icons1" src="images/icons/tools/matchlock-master.png" alt="Icon" />
+
+
+<br />
+
+<a title="Trolls" class="links2" href="https://bdocodex.com/us/item/6220/" target="_blank">
+<img class="icons icons2" src="images/icons/mobs/troll.png" alt="Icon" />
+Trolls (Quint Hill)
+</a>
+<img title="Fluid Collector" class="icons icons3" src="images/icons/tools/manos-fluid.png" alt="Icon" />
+
+
+
+
+</div>
+<!-- blood-Tyrants-BG4 -->
+
+
+
+<!-- blood-Tyrants-Notes ButtonT1 -->
+<div class="button t1">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-Tyrants-Notes');">
+
+<div class="left top">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+Notes
+<img class="icons icons6" src="images/icons/menu/notes.png" alt="Icon" />
+</a>
+
+</div>
+<!-- blood-Tyrants-Notes ButtonT1 End -->
+
+
+<!-- blood-Tyrants-Notes -->
+<div id="blood-Tyrants-Notes" class="notes hidden">
+
+
+<!-- blood-Tyrants-Notes-Cheapest ButtonT1 -->
+<div class="button h1 t2">
+
+<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('blood-Tyrants-Notes-Cheapest');">
+
+<div class="left top">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+Cheapest CP Nodes
+<img class="icons icons6" src="images/icons/nodes/connect2.png" alt="Icon" />
+</a>
+
+<div class="dots">
+	<span class="amount">9</span>
+</div>
+<span class="spacer">&nbsp;</span>
+
+</div>
+<!-- blood-Tyrants-Notes-Cheapest ButtonT1 End -->
+
+<!-- blood-Tyrants-Notes-Cheapest -->
+<div id="blood-Tyrants-Notes-Cheapest" class="hidden">
+
+
+<!-- Tyrants-SA-notes ButtonT4 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Tyrants-SA-notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/nodes/plants/silver-azalea.png" alt="Icon">
+Silver Azalea
+</a>
+
+<div class="right">
+<a title="Silver Azalea" class="links" href="https://bdocodex.com/us/item/5402/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">2</span>
+</div>
+
+</div>
+<!-- Tyrants-SA-notes ButtonT4 End -->
+
+<!-- Tyrants-SA-notes -->
+<div id="Tyrants-SA-notes" class="hidden">
+
+<p class="h2 gold2">2CP Heidel</p>
+
+<a title="Lynch Farm Ruins" class="links2" href="https://www.somethinglovely.net/bdo/#node/487" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Lynch Farm Ruins
+</a>
+
+<p class="h2 gold2">3CP Heidel</p>
+
+<a title="Northern Plain of Serendia" class="links2" href="https://www.somethinglovely.net/bdo/#node/463" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+N. Plain of Serendia
+</a>
+
+
+</div>
+<!-- Tyrants-SA-notes -->
+
+
+<!-- blood-Tyrants-ToS-notes ButtonT3 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-Tyrants-ToS-notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/traces/savagery.png" alt="Icon">
+Trace of Savagery
+</a>
+
+<div class="right">
+<a title="Trace of Savagery" class="links" href="https://bdocodex.com/us/item/5956/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">2</span>
+</div>
+
+</div>
+<!-- blood-Tyrants-ToS-notes ButtonT3 End -->
+
+<!-- blood-Tyrants-ToS-notes -->
+<div id="blood-Tyrants-ToS-notes" class="hidden">
+
+<p class="h2 gold2">2CP Heidel</p>
+
+<a title="Lynch Farm Ruins - Excavation" class="links2" href="https://www.somethinglovely.net/bdo/#node/488" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/mining.png" alt="Icon" />
+Lynch Farm Ruins - Excavation
+</a>
+<p class="red smallTxt">
+Required: 35 Energy from Zara Lynch
+<br />
+(Lynch Farm Ruins Node Manager)
+</p>
+
+</div>
+<!-- blood-Tyrants-ToS-notes End -->
+
+
+<!-- blood-Tyrants-MB-notes ButtonT4 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-Tyrants-MB-notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/nodes/plants/monks-branch.png" alt="Icon" />
+Monk's Branch
+</a>
+
+<div class="right">
+<a title="Monk's Branch" class="links" href="https://bdocodex.com/us/item/5007/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">5</span>
+</div>
+
+</div>
+<!-- blood-Tyrants-MB-notes ButtonT4 End -->
+
+<!-- blood-Tyrants-MB-notes -->
+<div id="blood-Tyrants-MB-notes" class="hidden">
+
+<p class="h2 gold2">5CP Heidel/Keplan</p>
+
+<a title="Oze Pass" class="links2" href="https://www.somethinglovely.net/bdo/#node/952" target="_blank">
+<img class="icons icons6" src="images/icons/nodes/triangle.png" alt="Icon" />
+Oze Pass
+</a>
+
+<p class="h2 gold2">6CP Glish/8CP Duven/10 Heidel</p>
+<a title="Serendia Shrine" class="links2" href="https://www.somethinglovely.net/bdo/#node/455" target="_blank">
+<img class="icons icons6" src="images/icons/nodes/triangle.png" alt="Icon" />
+Serendia Shrine
+</a>
+
+<p class="h2 gold2">7CP Velia</p>
+
+<a title="Forest of Seclusion" class="links2" href="https://www.somethinglovely.net/bdo/#node/183" target="_blank">
+<img class="icons icons6" src="images/icons/nodes/triangle.png" alt="Icon" />
+Forest of Seclusion
+</a>
+
+
+
+</div>
+<!-- blood-Tyrants-MB-notes -->
+
+
+
+</div>
+<!-- blood-Tyrants-Notes-Cheapest End -->
+
+
+<!-- blood-Tyrants-Notes-UsedInButtonT2 -->
+<div class="button h1 t2">
+
+<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('blood-Tyrants-Notes-UsedIn');">
+
+<div class="left top">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+Used In Recipe
+<img class="icons icons6" src="images/icons/menu/checklist-notes.png" alt="Icon" />
+</a>
+
+
+<div class="right">
+<a title="Clown's Blood" class="links" href="https://bdocodex.com/us/item/6353/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- blood-Tyrants-Notes-UsedInButtonT2 End -->
+
+<!-- blood-Tyrants-Notes-UsedIn -->
+<div id="blood-Tyrants-Notes-UsedIn" class="hidden">
+
+
+<a title="Oil of Storms" class="links2" href="https://bdocodex.com/us/item/6602/" target="_blank">
+<img class="icons icons1" src="images/icons/oil/storms.png" alt="Icon" />
+Oil of Storms
+</a>
+
+<br />
+
+<a title="Oil of the Abyss" class="links2" href="https://bdocodex.com/us/item/6606/" target="_blank">
+<img class="icons icons1" src="images/icons/oil/abyss.png" alt="Icon" />
+Oil of the Abyss
+</a>
+
+<br />
+<a title="Tyrant's Blood" class="links" href="https://bdocodex.com/us/item/6352/" target="_blank">And More...</a>
+</div>
+<!-- blood-Tyrants-Notes-UsedIn End -->
+
+</div>
+<!-- blood-Tyrants-Notes End -->
+
+
+
+
+</div>
+<!-- blood-Tyrants-recipe End -->
+
+
+</div>
+<!-- blood-Tyrants End -->
+
+</body>
+</html>

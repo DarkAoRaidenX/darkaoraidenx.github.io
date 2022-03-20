@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Blue Pot Upgrade</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/pots.ico">
+	
+<script src="scripts/jquery/3.6.0.js"></script> 
+
+<script src="scripts/jquery/ui-1.13.1.js"></script>	
+	
+<script>
+<!--
+function toggleDiv(divId) {
+   $("#"+divId).toggle();
+}
+//-->
+</script>
+
+<!-- Kiriak -->
+<script>
+$(document).ready(function ()
+{
+
+    $('.buttonLink').each(function ()
+    {
+
+$(this).click(function ()
+    {
+	console.log('clicked');
+        var content=$(this).find(".dotPlus").html();
+        if (content=='+') content='-';
+        else content='+';
+       $(this).find(".dotPlus").html(content);
+
+    });
+    });
+	
+});
+</script>
+<!-- Kiriak Script -->
+
+
+</head>
+<body id="home-page" class="common">
+
+<!-- potBlueUpgrade -->
+<div id="potBlueUpgrade" class="container pots" draggable="true" ondragstart="drag(event)">
+
+<!-- potBlue ButtonT1 -->
+<div class="darkBg button t1 top">
+
+
+<a title="Content Button" class="buttonLink blue" href="javascript:toggleDiv('potBlue');">
+
+<div class="left top">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/menu/dot-blue2.png" alt="Icon" />
+Blue Version
+</a>
+
+<div class="right top">
+&nbsp;
+</div>
+
+</div>
+<!-- potBlue ButtonT1 End-->
+
+<!-- potBlue -->
+<div id="potBlue" class="hidden">
+
+<span class="button headerBox">
+- Byproduct of making a Pot or Recipe▼
+</span>
+
+<div class="btnNoIcon button t3">
+
+<div class="alignR">
+Any <span class="green">Green</span> Pot
+
+<div class="dots">
+<span class="circleText amount">3</span>
+</div>
+
+</div>
+
+
+<div class="right">
+&nbsp;
+</div>
+
+</div>
+<!-- potBlue End -->
+
+<!-- potBR ButtonT3 End -->
+<div class="button t3">
+
+
+<a class="buttonLink" href="javascript:toggleDiv('potBR');">
+<img class="icons icons1" src="images/icons/alchemy/blue-reagent.png" alt="Icon" />
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+Blue Reagent
+
+</a>
+
+
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<div class="right">
+<a title="Blue Reagent" class="links" href="https://bdocodex.com/us/item/4916/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- potBR ButtonT3 End -->
+
+<!-- potBR -->
+<div id="potBR" class="hidden">
+- Material Vendor
+</div>
+<!-- potBR End -->
+
+
+</div>
+<!-- potBlue End -->
+
+
+</div>
+<!-- potBlueUpgrade End -->
+
+</body>
+</html>

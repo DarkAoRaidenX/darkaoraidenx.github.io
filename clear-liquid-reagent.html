@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Clear Liquid Reagent</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	
+<script src="scripts/jquery/3.6.0.js"></script> 
+
+<script src="scripts/jquery/ui-1.13.1.js"></script>	
+	
+<script>
+<!--
+function toggleDiv(divId) {
+   $("#"+divId).toggle();
+}
+//-->
+</script>
+
+<!-- Kiriak -->
+<script>
+$(document).ready(function ()
+{
+
+    $('.buttonLink').each(function ()
+    {
+
+$(this).click(function ()
+    {
+	console.log('clicked');
+        var content=$(this).find(".dotPlus").html();
+        if (content=='+') content='-';
+        else content='+';
+       $(this).find(".dotPlus").html(content);
+
+    });
+    });
+	
+});
+</script>
+<!-- Kiriak Script -->
+
+
+</head>
+<body id="home-page">
+
+<!-- item-CLR -->
+<div id="item-CLR" class="container" draggable="true" ondragstart="drag(event)">
+
+
+<!-- recipe-CLR ButtonT1 -->
+<div class="button t1 top">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('recipe-CLR');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+ <img class="icons icons1" src="images/icons/alchemy/clear-liquid-reagent.png" alt="Icon" />
+Clear Liquid Reagent
+</a>
+
+<div class="right">
+<a title="Clear Liquid Reagent" class="links" href="https://bdocodex.com/us/item/5301/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+</div>
+<!-- recipe-CLR ButtonT1 End -->
+
+<!-- recipe-CLR -->
+<div id="recipe-CLR" class="hidden">
+
+
+<!-- CLR-Grass ButtonT4 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('CLR-Grass');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/gathering/weeds.png" alt="Icon" />
+Grass
+</a>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<div class="right">
+<a title="Weeds" class="links" href="https://bdocodex.com/us/item/5439/" target="_blank">🔗</a>
+<a title="Wild Grass" class="links" href="https://bdocodex.com/us/item/5600/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- CLR-Grass ButtonT4  End -->
+
+
+<!-- CLR-Grass -->
+<div id="CLR-Grass" class="hidden">
+
+
+<a title="Weeds" class="links2" href="https://bdocodex.com/us/item/5600/" target="_blank">
+<img class="icons icons1" src="images/icons/gathering/weeds.png" alt="Icon" />
+Weeds
+</a>
+&nbsp;<img title="Bare Hand Gathering" class="icons icons1" src="images/icons/menu/energy-recov.png" alt="Icon" />
+
+<br />
+
+<a title="Wild Grass" class="links2" href="https://bdocodex.com/us/item/5600/" target="_blank">
+<img class="icons icons1" src="images/icons/gathering/wild-grass.png" alt="Icon" />
+WIld Grass
+</a>
+&nbsp;<img title="Hoe at Behr" class="icons icons3" src="images/icons/tools/manos-hoe.png" alt="Icon" />
+
+
+</div>
+<!-- CLR-Grass End-->
+
+
+<!-- CLR-PW ButtonT4 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('CLR-PW');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/waters/purified.png" alt="Icon" />
+Purified Water
+</a>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<div class="right">
+<a title="Purified Water" class="links" href="https://bdocodex.com/us/item/6656/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- CLR-PW ButtonT4  End -->
+
+<!-- CLR-PW -->
+<div id="CLR-PW" class="hidden">
+
+
+<!-- CLR-CW Button -->
+<div class="button noBg">
+
+<a title="Bottle of Clean Water" class="links2" href="https://bdocodex.com/us/item/6655/" target="_blank">
+
+
+<img class="icons icons1" src="images/icons/waters/clean.png" alt="Icon" />
+Bottle of Clean Water
+</a>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+
+<img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
+
+
+</div>
+<!-- CLR-CW Button End -->
+
+<!-- CLR-RW Button -->
+<div class="button noBg">
+
+<a title="Bottle of River Water" class="links2" href="https://bdocodex.com/us/item/6653/" target="_blank">
+
+
+<img class="icons icons1" src="images/icons/waters/river.png" alt="Icon" />
+Bottle of River Water
+</a>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+
+<img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
+
+
+</div>
+<!-- CLR-RW Button End -->
+
+
+
+</div>
+<!-- CLR-PW End-->
+
+<!-- CLR-Salt ButtonT4 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('CLR-Salt');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/vendor/salt.png" alt="Icon" />
+Salt
+</a>
+
+<div class="right">
+<a title="Salt" class="links" href="https://bdocodex.com/us/item/9001/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+</div>
+<!-- CLR-Salt ButtonT4  End -->
+
+<!-- CLR-Salt -->
+<div id="CLR-Salt" class="hidden">
+
+NPC Food Vendor or Innkeeper.
+
+</div>
+<!-- CLR-Salt End-->
+
+
+<!-- CLR-SRH ButtonT4 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('CLR-SRH');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+ <img class="icons icons1" src="images/icons/nodes/plants/sunrise-herb.png" alt="Icon" />
+Sunrise Herb
+</a>
+
+<div class="right">
+<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+</div>
+<!-- CLR-SRH ButtonT4 End -->
+
+<!-- CLR-SRH -->
+<div id="CLR-SRH" class="hidden">
+
+<p class="h2 gold2">4CP Velia</p>
+
+<a title="Balenos Forest" class="links2" href="https://www.somethinglovely.net/bdo/#node/44" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Balenos Forest
+</a>
+
+<p class="h2 gold2">5CP Velia</p>
+
+<a title="Cron Castle Site" class="links2" href="https://www.somethinglovely.net/bdo/#node/3" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Cron Castle Site
+</a>
+</div>
+<!-- CLR-SRH -->
+
+
+<!-- CLR-Notes ButtonT1 -->
+<div class="button t1">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('CLR-Notes');">
+
+<div class="left top">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+Notes
+<img class="icons icons6" src="images/icons/menu/notes.png" alt="Icon" />
+</a>
+
+</div>
+<!-- CLR-Notes ButtonT1 End -->
+
+
+<!-- CLR-Notes -->
+<div id="CLR-Notes" class="notes hidden">
+
+
+<!-- CLR-Notes-Cheapest ButtonT2 -->
+<div class="button h1 t2">
+
+<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('CLR-Notes-Cheapest');">
+
+<div class="left top">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+Cheapest CP Nodes
+<img class="icons icons6" src="images/icons/nodes/connect2.png" alt="Icon" />
+</a>
+
+<div class="dots">
+	<span class="amount">4</span>
+</div>
+<span class="spacer">&nbsp;</span>
+
+</div>
+<!-- CLR-Notes-Cheapest ButtonT2 End -->
+
+<!-- CLR-Notes-Cheapest -->
+<div id="CLR-Notes-Cheapest" class="hidden">
+
+<!-- CLR-SRH-notes ButtonT3 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('CLR-SRH-notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+ <img class="icons icons1" src="images/icons/nodes/plants/sunrise-herb.png" alt="Icon" />
+Sunrise Herb
+</a>
+
+<div class="right">
+<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">4</span>
+</div>
+
+</div>
+<!-- CLR-SRH-notes ButtonT3 End -->
+
+<!-- CLR-SRH-notes -->
+<div id="CLR-SRH-notes" class="hidden">
+
+<p class="h2 gold2">4CP Velia</p>
+
+<a title="Balenos Forest" class="links2" href="https://www.somethinglovely.net/bdo/#node/44" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Balenos Forest
+</a>
+
+<p class="h2 gold2">5CP Velia</p>
+
+<a title="Cron Castle Site" class="links2" href="https://www.somethinglovely.net/bdo/#node/3" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Cron Castle Site
+</a>
+
+
+
+</div>
+<!-- CLR-SRH-notes -->
+
+</div>
+<!-- CLR-Notes-Cheapest End -->
+
+
+<!-- CLR-Notes-UsedInButtonT2 -->
+<div class="button h1 t2">
+
+<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('CLR-Notes-UsedIn');">
+
+<div class="left top">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+Used In Recipe
+<img class="icons icons6" src="images/icons/menu/checklist-notes.png" alt="Icon" />
+</a>
+
+
+<div class="right">
+<a title="Clear Liquid Reagent" class="links" href="https://bdocodex.com/us/item/5301/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- CLR-Notes-UsedInButtonT2 End -->
+
+<!-- CLR-Notes-UsedIn -->
+<div id="CLR-Notes-UsedIn" class="hidden">
+
+<a title="Clown’s Blood" class="links2" href="https://bdocodex.com/us/item/6353/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/clowns.png" alt="Icon" />
+Clown's Blood
+</a>
+
+<br />
+
+<a title="Accuracy +8" class="links2" href="https://bdocodex.com/us/item/700/" target="_blank">
+<img class="icons icons1" src="images/icons/pots/concentration.png" alt="Icon" />
+Concentration Elixir
+</a>
+
+<br />
+
+<a title="Damage Reduction +5" class="links2" href="https://bdocodex.com/us/item/716/" target="_blank">
+<img class="icons icons1" src="images/icons/pots/defense.png" alt="Icon" />
+Defense Elixir
+</a>
+
+
+<br />
+
+<a title="HP+3 per Critical Hit" class="links2" href="https://bdocodex.com/us/item/676/" target="_blank">
+<img class="icons icons1" src="images/icons/pots/draining.png" alt="Icon" />
+Draining Elixir
+</a>
+
+
+<br />
+
+<a title="All DP -5/All AP +10" class="links2" href="https://bdocodex.com/us/item/672/" target="_blank">
+<img class="icons icons1" src="images/icons/pots/frenzy.png" alt="Icon" />
+Frenzy Elixir
+</a>
+
+
+<br />
+
+<a title="Oil of Fortitude" class="links2" href="https://bdocodex.com/us/item/6603/" target="_blank">
+<img class="icons icons1" src="images/icons/oil/fortitude.png" alt="Icon" />
+Oil of Fortitude
+</a>
+
+<br />
+
+<a title="Defense Nullifying Damage +5 per Back Attack" class="links2" href="https://bdocodex.com/us/item/680/" target="_blank">
+<img class="icons icons1" src="images/icons/pots/perforation.png" alt="Icon" />
+Perforation
+</a>
+
+<br />
+
+<a title="Sinner's Blood" class="links2" href="https://bdocodex.com/us/item/6354/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/sinners.png" alt="Icon" />
+Sinner's Blood
+</a>
+
+<br />
+
+<a title="Wise Man's Blood" class="links2" href="https://bdocodex.com/us/item/6355/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/wise-mans.png" alt="Icon" />
+Wise Man's Blood
+</a>
+
+<br />
+<a title="Clear Liquid Reagent" class="links2" href="https://bdocodex.com/us/item/5301/" target="_blank">And More...</a>
+</div>
+<!-- CLR-Notes-UsedIn End -->
+
+</div>
+<!-- CLR-Notes End -->
+
+</div>
+<!-- recipe-CLR End -->
+
+
+</div>
+<!-- item-CLR End -->
+
+
+</body>
+</html>

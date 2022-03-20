@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Blood 1 Group</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/bloods.ico">
+	
+<script src="scripts/jquery/3.6.0.js"></script> 
+
+<script src="scripts/jquery/ui-1.13.1.js"></script>	
+	
+<script>
+<!--
+function toggleDiv(divId) {
+   $("#"+divId).toggle();
+}
+//-->
+</script>
+
+
+<!-- Kiriak -->
+<script>
+$(document).ready(function ()
+{
+
+    $('.buttonLink').each(function ()
+    {
+
+$(this).click(function ()
+    {
+	console.log('clicked');
+        var content=$(this).find(".dotPlus").html();
+        if (content=='+') content='-';
+        else content='+';
+       $(this).find(".dotPlus").html(content);
+
+    });
+    });
+	
+});
+</script>
+<!-- Kiriak Script -->
+
+</head>
+<body id="home-page">
+
+<!-- blood-group-1-container -->
+<div id="blood-group-1-container" class="container bloods" draggable="true" ondragstart="drag(event)">
+
+<!-- blood-group-1 ButtonT0 -->
+<div class="redBg button t0 top">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-group-1-items');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div>
+
+<img class="icons icons1" src="images/icons/bloods/bg1/wolf.png" alt="Icon" />
+Blood Group 1
+</a>
+
+<div class="right">
+<a title="Blood Group 1" class="links" href="https://bdocodex.com/us/materialgroup/16/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- blood-group-1 ButtonT0 End-->
+
+<!-- blood-group-1-items -->
+<div id="blood-group-1-items" class="hidden">
+
+
+<!-- bg1-cheetah-dragon ButtonT0 -->
+<div class="button darkBg t0">
+
+<a title="Cheetah Dragon Blood" class="links2" href="https://bdocodex.com/us/item/6216/" target="_blank">
+
+<img class="icons icons1" src="images/icons/bloods/bg1/cheetah-dragon.png" alt="Icon" />
+
+Cheetah Dragon
+</a>
+
+</div>
+<!-- bg1-cheetah-dragon ButtonT0 -->
+
+<!-- bg1-flamingo ButtonT0 -->
+<div class="button darkBg t0">
+
+<a title="Flamingo Blood" class="links2" href="https://bdocodex.com/us/item/6218/" target="_blank">
+
+<img class="icons icons1" src="images/icons/bloods/bg1/flamingo.png" alt="Icon" />
+
+Flamingo
+</a>
+
+</div>
+<!-- bg1-flamingo ButtonT0 -->
+
+<!-- bg1-rhino ButtonT0 -->
+<div class="button darkBg t0">
+
+<a title="Rhino Blood" class="links2" href="https://bdocodex.com/us/item/6204/" target="_blank">
+
+<img class="icons icons1" src="images/icons/bloods/bg1/rhino.png" alt="Icon" />
+
+Rhino
+</a>
+
+</div>
+<!-- bg1-rhino ButtonT0 -->
+
+
+<!-- bg1-wolf ButtonT0 -->
+<div class="button darkBg t0">
+
+<a title="Wolf Blood" class="links2" href="https://bdocodex.com/us/item/6214/" target="_blank">
+
+<img class="icons icons1" src="images/icons/bloods/bg1/wolf.png" alt="Icon" />
+
+Wolf
+</a>
+
+</div>
+<!-- bg1-wolf ButtonT0 -->
+
+
+</div>
+<!-- blood-group-1-items End -->
+
+
+</div>
+<!-- blood-group-1-container End -->
+
+</body>
+</html>

@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Pure Powder Reagent</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	
+<script src="scripts/jquery/3.6.0.js"></script> 
+
+<script src="scripts/jquery/ui-1.13.1.js"></script>	
+	
+<script>
+<!--
+function toggleDiv(divId) {
+   $("#"+divId).toggle();
+}
+//-->
+</script>
+
+<!-- Kiriak -->
+<script>
+$(document).ready(function ()
+{
+
+    $('.buttonLink').each(function ()
+    {
+
+$(this).click(function ()
+    {
+	console.log('clicked');
+        var content=$(this).find(".dotPlus").html();
+        if (content=='+') content='-';
+        else content='+';
+       $(this).find(".dotPlus").html(content);
+
+    });
+    });
+	
+});
+</script>
+<!-- Kiriak Script -->
+
+
+</head>
+<body id="home-page">
+
+<!-- item-PPR -->
+<div id="item-PPR" class="container" draggable="true" ondragstart="drag(event)">
+
+
+<!-- recipe-PPR ButtonT1 -->
+<div class="button t1 top">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('recipe-PPR');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+ <img class="icons icons1" src="images/icons/alchemy/pure-powder-reagent.png" alt="Icon" />
+Pure Powder Reagent
+</a>
+
+<div class="right">
+<a title="Pure Powder Reagent" class="links" href="https://bdocodex.com/us/item/5302/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+</div>
+<!-- recipe-PPR ButtonT1 End -->
+
+<!-- recipe-PPR -->
+<div id="recipe-PPR" class="hidden">
+
+<!-- PPR-Grass ButtonT3 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PPR-Grass');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/gathering/weeds.png" alt="Icon" />
+Grass
+</a>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<div class="right">
+<a title="Weeds" class="links" href="https://bdocodex.com/us/item/5439/" target="_blank">🔗</a>
+<a title="Wild Grass" class="links" href="https://bdocodex.com/us/item/5600/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- PPR-Grass ButtonT3  End -->
+
+<!-- PPR-Grass -->
+<div id="PPR-Grass" class="hidden">
+
+<a title="Weeds" class="links2" href="https://bdocodex.com/us/item/5600/" target="_blank">
+<img class="icons icons1" src="images/icons/gathering/weeds.png" alt="Icon" />
+Weeds
+</a>
+&nbsp;<img title="Bare Hand Gathering" class="icons icons1" src="images/icons/menu/energy-recov.png" alt="Icon" />
+
+<br />
+
+<a title="Wild Grass" class="links2" href="https://bdocodex.com/us/item/5600/" target="_blank">
+<img class="icons icons1" src="images/icons/gathering/wild-grass.png" alt="Icon" />
+WIld Grass
+</a>
+&nbsp;<img title="Hoe at Behr" class="icons icons3" src="images/icons/tools/manos-hoe.png" alt="Icon" />
+
+
+</div>
+<!-- PPR-Grass End-->
+
+
+<!-- PPR-PW ButtonT3 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PPR-PW');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/waters/purified.png" alt="Icon" />
+Purified Water
+</a>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<div class="right">
+<a title="Purified Water" class="links" href="https://bdocodex.com/us/item/6656/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- PPR-PW ButtonT3  End -->
+
+<!-- PPR-PW -->
+<div id="PPR-PW" class="hidden potLinks">
+
+<div class="button">
+<a title="Bottle of Clean Water" class="links2" href="https://bdocodex.com/us/item/6655/" target="_blank">
+<img class="icons icons1" src="images/icons/waters/clean.png" alt="Icon" />
+Bottle of Clean Water
+</a>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
+
+<br />
+
+<a title="Bottle of River Water" class="links2" href="https://bdocodex.com/us/item/6653/" target="_blank">
+<img class="icons icons1" src="images/icons/waters/river.png" alt="Icon" />
+Bottle of River Water
+</a>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
+</div>
+
+</div>
+<!-- PPR-PW End-->
+
+<!-- PPR-Sugar ButtonT3 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PPR-Sugar');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/vendor/sugar.png" alt="Icon" />
+Sugar
+</a>
+
+<div class="right">
+<a title="Sugar" class="links" href="https://bdocodex.com/us/item/9002/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+</div>
+<!-- PPR-Sugar ButtonT3  End -->
+
+<!-- PPR-Sugar -->
+<div id="PPR-Sugar" class="hidden">
+
+NPC Food Vendor or Innkeeper.
+
+</div>
+<!-- PPR-Sugar End-->
+
+
+<!-- PPR-SA ButtonT3 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PPR-SA');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+ <img class="icons icons1" src="images/icons/nodes/plants/silver-azalea.png" alt="Icon" />
+Silver Azalea
+</a>
+
+<div class="right">
+<a title="Silver Azalea" class="links" href="https://bdocodex.com/us/item/5402/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+</div>
+<!-- PPR-SA ButtonT3 End -->
+
+<!-- PPR-SA -->
+<div id="PPR-SA" class="hidden">
+
+<p class="h2 gold2">2CP Heidel</p>
+
+<a title="Cron Castle Site" class="links2" href="https://www.somethinglovely.net/bdo/#node/487" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Lynch Farm Ruins
+</a>
+
+<p class="h2 gold2">3CP Heidel</p>
+
+<a title="Northern Plain of Serendia" class="links2" href="https://www.somethinglovely.net/bdo/#node/463" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Nothern Plain of Serendia
+</a>
+
+</div>
+<!-- PPR-SA -->
+
+<!-- PPR-Notes ButtonT1 -->
+<div class="button t1">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PPR-Notes');">
+
+<div class="left top">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+Notes
+<img class="icons icons6" src="images/icons/menu/notes.png" alt="Icon" />
+</a>
+
+</div>
+<!-- PPR-Notes ButtonT1 End -->
+
+
+<!-- PPR-Notes -->
+<div id="PPR-Notes" class="notes hidden">
+
+<!-- PPR-Notes-Cheapest ButtonT2 -->
+<div class="button h1 t2">
+
+<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('PPR-Notes-Cheapest');">
+
+<div class="left top">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+Cheapest CP Nodes
+<img class="icons icons6" src="images/icons/nodes/connect2.png" alt="Icon" />
+</a>
+
+<div class="dots">
+	<span class="amount">2</span>
+</div>
+<span class="spacer">&nbsp;</span>
+
+</div>
+<!-- PPR-Notes-Cheapest ButtonT2 End -->
+
+<!-- PPR-Notes-Cheapest -->
+<div id="PPR-Notes-Cheapest" class="hidden">
+
+<!-- PPR-SA-notes ButtonT4 -->
+<div class="button t3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PPR-SA-notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/nodes/plants/silver-azalea.png" alt="Icon" />
+Silver Azalea
+</a>
+
+<div class="right">
+<a title="Silver Azalea" class="links" href="https://bdocodex.com/us/item/5402/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">2</span>
+</div>
+
+</div>
+<!-- PPR-SA-notes ButtonT4 End -->
+
+<!-- PPR-SA-notes -->
+<div id="PPR-SA-notes" class="hidden">
+
+
+<p class="h2 gold2">2CP Heidel</p>
+
+<a title="Cron Castle Site" class="links2" href="https://www.somethinglovely.net/bdo/#node/487" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Lynch Farm Ruins
+</a>
+
+<p class="h2 gold2">3CP Heidel</p>
+
+<a title="Northern Plain of Serendia" class="links2" href="https://www.somethinglovely.net/bdo/#node/463" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Nothern Plain of Serendia
+</a>
+
+
+
+</div>
+<!-- PPR-SA-notes -->
+
+</div>
+<!-- PPR-Notes-Cheapest End -->
+
+
+<!-- PPR-Notes-UsedInButtonT1 -->
+<div class="button h1 t2">
+
+<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('PPR-Notes-UsedIn');">
+
+<div class="left top">
+	<div class="dots">
+	<span class="dotPlus white">+</span>
+	</div>
+</div> 
+
+Used In Recipe
+<img class="icons icons6" src="images/icons/menu/checklist-notes.png" alt="Icon" />
+</a>
+
+
+<div class="right">
+<a title="Pure Powder Reagent" class="links" href="https://bdocodex.com/us/item/5302/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- PPR-Notes-UsedInButtonT1 End -->
+
+<!-- PPR-Notes-UsedIn -->
+<div id="PPR-Notes-UsedIn" class="hidden">
+
+
+<a title="Back Attack Damage +10%" class="links2" href="https://bdocodex.com/us/item/696/" target="_blank">
+<img class="icons icons1" src="images/icons/pots/assassination.png" alt="Icon" />
+Elixir of Assassination
+</a>
+
+<br />
+
+<a title="Critical Hit Damage +10%" class="links2" href="https://bdocodex.com/us/item/698/" target="_blank">
+<img class="icons icons1" src="images/icons/pots/detection.png" alt="Icon" />
+Elixir of Detection
+</a>
+
+<br />
+
+<a title="Damage Received from Monsters -7.5%" class="links2" href="https://bdocodex.com/us/item/702/" target="_blank">
+<img class="icons icons1" src="images/icons/pots/will.png" alt="Icon" />
+Elixir of Will
+</a>
+
+<br />
+
+<a title="HP Recovery +1 per Hit" class="links2" href="https://bdocodex.com/us/item/712/" target="_blank">
+<img class="icons icons1" src="images/icons/pots/grim-reapers.png" alt="Icon" />
+Grim Reaper's Elixir
+</a>
+
+<br />
+
+<a title="Legendary Beast's Blood" class="links2" href="https://bdocodex.com/us/item/6351/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/legendary-beasts.png" alt="Icon" />
+Legendary Beast's Blood
+</a>
+
+<br />
+
+<a title="Tyrant's Blood" class="links2" href="https://bdocodex.com/us/item/6352/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/tyrants.png" alt="Icon" />
+Tyrant's Blood
+</a>
+
+<br />
+<a title="Pure Powder Reagent" class="links2" href="https://bdocodex.com/us/item/5302/" target="_blank">And More...</a>
+</div>
+<!-- PPR-Notes-UsedIn End -->
+
+</div>
+<!-- PPR-Notes End -->
+
+</div>
+<!-- recipe-PPR End -->
+
+
+</div>
+<!-- item-PPR End -->
+
+
+</body>
+</html>
