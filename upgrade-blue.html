@@ -6,59 +6,26 @@
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<link rel="stylesheet" href="scripts/css/common.css" />
-	<link rel="icon" type="image/x-icon" href="images/pots.ico">
-	
-<script src="scripts/jquery/3.6.0.js"></script> 
-
-<script src="scripts/jquery/ui-1.13.1.js"></script>	
-	
-<script>
-<!--
-function toggleDiv(divId) {
-   $("#"+divId).toggle();
-}
-//-->
-</script>
-
-<!-- Kiriak -->
-<script>
-$(document).ready(function ()
-{
-
-    $('.buttonLink').each(function ()
-    {
-
-$(this).click(function ()
-    {
-	console.log('clicked');
-        var content=$(this).find(".dotPlus").html();
-        if (content=='+') content='-';
-        else content='+';
-       $(this).find(".dotPlus").html(content);
-
-    });
-    });
-	
-});
-</script>
-<!-- Kiriak Script -->
-
-
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="scripts/jquery/3.6.0.js"></script> 
+	<script src="scripts/jquery/plus-minus.js"></script>
+	<script src="scripts/jquery/toggle-div.js"></script>
+	<script src="scripts/jquery/ui-1.13.1.js"></script>	
 </head>
 <body id="home-page" class="common">
 
-<!-- potBlueUpgrade -->
-<div id="potBlueUpgrade" class="container pots" draggable="true" ondragstart="drag(event)">
+<!-- pot-Blue-Upgrade -->
+<div id="pot-Blue-Upgrade" class="container pots" draggable="true" ondragstart="drag(event)">
 
-<!-- potBlue ButtonT1 -->
-<div class="darkBg button t1 top">
+<!-- pot-Blue Button -->
+<div class="button darkBg1 top">
 
 
-<a title="Content Button" class="buttonLink blue" href="javascript:toggleDiv('potBlue');">
+<a title="Content Button" class="buttonLink blue1" href="javascript:toggleDiv('pot-Blue');">
 
-<div class="left top">
+<div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -71,19 +38,19 @@ Blue Version
 </div>
 
 </div>
-<!-- potBlue ButtonT1 End-->
+<!-- pot-Blue Button End-->
 
-<!-- potBlue -->
-<div id="potBlue" class="hidden">
+<!-- pot-Blue -->
+<div id="pot-Blue" class="hidden">
 
 <span class="button headerBox">
-- Byproduct of making a Pot or Recipe▼
+- Byproduct of making a Pot or Recipe<span class="blue1">▼</span>
 </span>
 
-<div class="btnNoIcon button t3">
+<div class="blueBg3 button">
 
 <div class="alignR">
-Any <span class="green">Green</span> Pot
+Any <span class="green1">Green</span> Pot
 
 <div class="dots">
 <span class="circleText amount">3</span>
@@ -97,25 +64,22 @@ Any <span class="green">Green</span> Pot
 </div>
 
 </div>
-<!-- potBlue End -->
+<!-- pot-Blue End -->
 
-<!-- potBR ButtonT3 End -->
-<div class="button t3">
-
+<!-- potBR Button End -->
+<div class="blueBg3 button">
 
 <a class="buttonLink" href="javascript:toggleDiv('potBR');">
 <img class="icons icons1" src="images/icons/alchemy/blue-reagent.png" alt="Icon" />
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
 Blue Reagent
-
 </a>
-
 
 
 <div class="dots">
@@ -127,21 +91,21 @@ Blue Reagent
 </div>
 
 </div>
-<!-- potBR ButtonT3 End -->
+<!-- potBR Button End -->
 
 <!-- potBR -->
-<div id="potBR" class="hidden">
+<div id="potBR" class="info hidden">
 - Material Vendor
 </div>
 <!-- potBR End -->
 
 
 </div>
-<!-- potBlue End -->
+<!-- pot-Blue End -->
 
 
 </div>
-<!-- potBlueUpgrade End -->
+<!-- pot-Blue-Upgrade End -->
 
 </body>
 </html>

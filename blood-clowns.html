@@ -7,57 +7,24 @@
 	<meta name="description" content="" />
 	<link rel="stylesheet" href="scripts/css/common.css" />
 	<link rel="icon" type="image/x-icon" href="images/fav/bloods.ico">
-	
-<script src="scripts/jquery/3.6.0.js"></script> 
-
-<script src="scripts/jquery/ui-1.13.1.js"></script>	
-	
-<script>
-<!--
-function toggleDiv(divId) {
-   $("#"+divId).toggle();
-}
-//-->
-</script>
-
-
-<!-- Kiriak -->
-<script>
-$(document).ready(function ()
-{
-
-    $('.buttonLink').each(function ()
-    {
-
-$(this).click(function ()
-    {
-	console.log('clicked');
-        var content=$(this).find(".dotPlus").html();
-        if (content=='+') content='-';
-        else content='+';
-       $(this).find(".dotPlus").html(content);
-
-    });
-    });
-	
-});
-</script>
-<!-- Kiriak Script -->
-
+	<script src="scripts/jquery/3.6.0.js"></script> 
+	<script src="scripts/jquery/plus-minus.js"></script>
+	<script src="scripts/jquery/toggle-div.js"></script>
+	<script src="scripts/jquery/ui-1.13.1.js"></script>	
 </head>
 <body id="home-page">
 
-<!-- blood-clowns-blood -->
-<div id="blood-clowns" class="container bloods" draggable="true" ondragstart="drag(event)">
+<!-- blood-CB-blood -->
+<div id="blood-CB" class="container bloods" draggable="true" ondragstart="drag(event)">
 
-<!-- blood-clowns-recipe ButtonT2 -->
-<div class="redBg button t2 top">
+<!-- blood-CB-Recipe Button -->
+<div class="button redBg1 top">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-clowns-recipe');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-CB-Recipe');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div>
 
@@ -66,73 +33,210 @@ Clown's Blood
 </a>
 
 <div class="right">
+
+<div class="dots">
+<span class="circleText amount">1</span>
+</div>
+
 <a title="Clown's Blood" class="links" href="https://bdocodex.com/us/item/6353/" target="_blank">🔗</a>
 </div>
 
 </div>
-<!-- blood-clowns-recipe ButtonT2 End-->
+<!-- blood-CB-Recipe Button End-->
 
-<!-- blood-clowns-recipe -->
-<div id="blood-clowns-recipe" class="hidden">
+<!-- blood-CB-Recipe -->
+<div id="blood-CB-Recipe" class="hidden">
 
-<!-- clr-blood-clowns ButtonT2 -->
-<div class="button t2">
+<!-- blood-CB-PoD Button -->
+<div class="button blueBg3">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('clr-blood-clowns');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-CB-PoD');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
- <img class="icons icons1" src="images/icons/alchemy/clear-liquid-reagent.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/powder/darkness.png" alt="Icon" />
+Powder of Darkness
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<a title="Powder of Darkness" class="links" href="https://bdocodex.com/us/item/4801/" target="_blank">🔗</a>
+
+</div>
+
+
+
+</div>
+<!-- blood-CB-PoD Button End -->
+
+<!-- blood-CB-PoD -->
+<div id="blood-CB-PoD" class="info hidden">
+
+<p class="h2 gold2">1CP Velia</p>
+
+<a title="Coastal Cave" class="links2" href="https://www.somethinglovely.net/bdo/#node/46" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Coastal Cave
+</a>
+
+<p class="h2 gold2">2CP Velia</p>
+
+<a title="Coastal Cliff" class="links2" href="https://www.somethinglovely.net/bdo/#node/49" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Coastal Cliff
+</a>
+
+<p class="h2 gold2">3CP Altinova</p>
+
+<a title="Abandoned Iron Mine" class="links2" href="https://www.somethinglovely.net/bdo/#node/1144" target="_blank">
+<img class="icons icons6" src="images/icons/nodes/triangle.png" alt="Icon" />
+Abandoned Iron Mine (Altinova)
+</a>
+
+<p class="h2 gold2">4CP Heidel</p>
+
+<a title="Northern Heidel Quarry" class="links2" href="https://www.somethinglovely.net/bdo/#node/326" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Northern Heidel Quarry
+</a>
+
+</div>
+<!-- blood-CB-PoD End -->
+
+
+<!-- blood-CB-SL Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-CB-SL');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/nodes/plants/spirits-leaf.png" alt="Icon" />
+Spirit's Leaf
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<a title="Spirit's Leaf" class="links" href="https://bdocodex.com/us/item/5006/" target="_blank">🔗</a>
+
+</div>
+
+
+</div>
+<!-- blood-CB-SL Button End -->
+
+<!-- blood-CB-SL -->
+<div id="blood-CB-SL" class="info hidden">
+
+<p class="h2 gold2">1CP Trent</p>
+
+<a title="Lumberjack's Rest Area" class="links2" href="https://www.somethinglovely.net/bdo/#node/718" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Lumberjack's Rest Area
+</a>
+
+
+<p class="h2 gold2">4CP Velia</p>
+
+<a title="Goblin Cave" class="links2" href="https://www.somethinglovely.net/bdo/#node/23" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Goblin Cave
+</a>
+
+
+<p class="h2 gold2">5CP Velia</p>
+
+<a title="Balenos Forest" class="links2" href="https://www.somethinglovely.net/bdo/#node/44" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect2.png" alt="Icon" />
+Balenos Forest
+</a>
+
+</div>
+<!-- blood-CB-SL End -->
+
+
+<!-- blood-CB-CLR Button -->
+<div class="button clr">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-CB-CLR');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/alchemy/clear-liquid-reagent.png" alt="Icon" />
 Clear Liquid Reagent
 </a>
 
 <div class="right">
-<a title="Clear Liquid Reagent" class="links" href="https://bdocodex.com/us/recipe/47/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
+<a title="Clear Liquid Reagent" class="links" href="https://bdocodex.com/us/item/5301/" target="_blank">🔗</a>
+
 </div>
-<!-- clr-blood-clowns ButtonT2 End -->
 
-<!-- clr-blood-clowns -->
-<div id="clr-blood-clowns" class="hidden">
 
-<!-- blood-clowns-Grass ButtonT4 -->
-<div class="button t4">
+</div>
+<!-- blood-CB-CLR Button End -->
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-clowns-Grass');">
+<!-- blood-CB-CLR -->
+<div id="blood-CB-CLR" class="hidden">
+
+
+<!-- blood-CB-CLR-Grass Button -->
+<div class="button blueBg4">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-CB-CLR-Grass');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
-<img class="icons icons1" src="images/icons/gathering/weeds.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/gathering/wild-grass.png" alt="Icon" />
 Grass
 </a>
+
+
+<div class="right">
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-<div class="right">
-<a title="Weeds" class="links" href="https://bdocodex.com/us/item/5439/" target="_blank">🔗</a>
 <a title="Wild Grass" class="links" href="https://bdocodex.com/us/item/5600/" target="_blank">🔗</a>
+
 </div>
 
 </div>
-<!-- blood-clowns-Grass ButtonT4  End -->
+<!-- blood-CB-CLR-Grass Button  End -->
 
-<!-- blood-clowns-Grass -->
-<div id="blood-clowns-Grass" class="hidden">
+
+<!-- blood-CB-CLR-Grass -->
+<div id="blood-CB-CLR-Grass" class="info hidden">
+
 
 <a title="Weeds" class="links2" href="https://bdocodex.com/us/item/5600/" target="_blank">
 <img class="icons icons1" src="images/icons/gathering/weeds.png" alt="Icon" />
@@ -150,17 +254,17 @@ WIld Grass
 
 
 </div>
-<!-- blood-clowns-Grass End-->
+<!-- blood-CB-CLR-Grass End-->
 
 
-<!-- blood-clowns-PW ButtonT4 -->
-<div class="button t4">
+<!-- blood-CB-CLR-PW Button -->
+<div class="button blueBg4">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-clowns-PW');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-CB-CLR-PW');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -168,22 +272,28 @@ WIld Grass
 Purified Water
 </a>
 
+
+<div class="right">
+
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-<div class="right">
 <a title="Purified Water" class="links" href="https://bdocodex.com/us/item/6656/" target="_blank">🔗</a>
-</div>
 
 </div>
-<!-- blood-clowns-PW ButtonT4  End -->
 
-<!-- blood-clowns-PW -->
-<div id="blood-clowns-PW" class="hidden potLinks">
+</div>
+<!-- blood-CB-CLR-PW Button  End -->
 
-<div class="button">
+<!-- blood-CB-CLR-PW -->
+<div id="blood-CB-CLR-PW" class="info hidden">
+
+
+<!-- blood-CB-CLR-CW Button -->
+
 <a title="Bottle of Clean Water" class="links2" href="https://bdocodex.com/us/item/6655/" target="_blank">
+
 <img class="icons icons1" src="images/icons/waters/clean.png" alt="Icon" />
 Bottle of Clean Water
 </a>
@@ -194,31 +304,42 @@ Bottle of Clean Water
 
 <img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
 
+
+<!-- blood-CB-CLR-CW Button End -->
+
 <br />
 
+<!-- blood-CB-CLR-RW Button -->
+
 <a title="Bottle of River Water" class="links2" href="https://bdocodex.com/us/item/6653/" target="_blank">
+
 <img class="icons icons1" src="images/icons/waters/river.png" alt="Icon" />
 Bottle of River Water
 </a>
+
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
 <img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
-</div>
+
+
+<!-- blood-CB-CLR-RW Button End -->
+
+
 
 </div>
-<!-- blood-clowns-PW End-->
+<!-- blood-CB-CLR-PW End-->
 
-<!-- blood-clowns-Salt ButtonT4 -->
-<div class="button t4">
+<!-- blood-CB-CLR-Salt Button -->
+<div class="button blueBg4">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-clowns-Salt');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-CB-CLR-Salt');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -227,58 +348,64 @@ Salt
 </a>
 
 <div class="right">
-<a title="Salt" class="links" href="https://bdocodex.com/us/item/9001/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-</div>
-<!-- blood-clowns-Salt ButtonT4  End -->
+<a title="Salt" class="links" href="https://bdocodex.com/us/item/9001/" target="_blank">🔗</a>
 
-<!-- blood-clowns-Salt -->
-<div id="blood-clowns-Salt" class="hidden">
+</div>
+
+
+</div>
+<!-- blood-CB-CLR-Salt Button  End -->
+
+<!-- blood-CB-CLR-Salt -->
+<div id="blood-CB-CLR-Salt" class="info hidden">
 
 NPC Food Vendor or Innkeeper.
 
 </div>
-<!-- blood-clowns-Salt End-->
+<!-- blood-CB-CLR-Salt End-->
 
 
-<!-- blood-clowns-SRH ButtonT4 -->
-<div class="button t4">
+<!-- blood-CB-CLR-SRH Button -->
+<div class="button blueBg4">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-clowns-SRH');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-CB-CLR-SRH');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
- <img class="icons icons1" src="images/icons/nodes/plants/sunrise-herb.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/nodes/plants/sunrise-herb.png" alt="Icon" />
 Sunrise Herb
 </a>
 
 <div class="right">
-<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-</div>
-<!-- blood-clowns-SRH ButtonT4 End -->
+<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
 
-<!-- blood-clowns-SRH -->
-<div id="blood-clowns-SRH" class="hidden">
+</div>
+
+
+</div>
+<!-- blood-CB-CLR-SRH Button End -->
+
+<!-- blood-CB-CLR-SRH -->
+<div id="blood-CB-CLR-SRH" class="info hidden">
 
 <p class="h2 gold2">4CP Velia</p>
 
 <a title="Balenos Forest" class="links2" href="https://www.somethinglovely.net/bdo/#node/44" target="_blank">
-<img class="icons icons1" src="images/icons/nodes/connect4.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
 Balenos Forest
 </a>
 
@@ -288,142 +415,22 @@ Balenos Forest
 <img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
 Cron Castle Site
 </a>
-
 </div>
-<!-- blood-clowns-SRH -->
-
-
+<!-- blood-CB-CLR-SRH -->
 
 
 </div>
-<!-- clr-blood-clowns End -->
+<!-- blood-CB-CLR End -->
 
 
-<!-- blood-clowns-PoD ButtonT3 -->
-<div class="button t3">
+<!-- blood-CB-blood-group-1 Button -->
+<div class="button redBg1">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-clowns-PoD');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-CB-blood-group-1-items');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
-	</div>
-</div> 
-
- <img class="icons icons1" src="images/icons/powder/darkness.png" alt="Icon" />
-Powder of Darkness
-</a>
-
-<div class="right">
-<a title="Powder of Darkness" class="links" href="https://bdocodex.com/us/item/4801/" target="_blank">🔗</a>
-</div>
-
-<div class="dots">
-	<span class="circleText amount">1</span>
-</div>
-
-</div>
-<!-- blood-clowns-PoD ButtonT3 End -->
-
-<!-- blood-clowns-PoD -->
-<div id="blood-clowns-PoD" class="hidden">
-
-<p class="h2 gold2">1CP Velia</p>
-
-<a title="Coastal Cave" class="links2" href="https://www.somethinglovely.net/bdo/#node/46" target="_blank">
-<img class="icons icons5" src="images/icons/nodes/connect3.png" alt="Icon" />
-Coastal Cave
-</a>
-
-<p class="h2 gold2">2CP Velia</p>
-
-<a title="Coastal Cliff" class="links2" href="https://www.somethinglovely.net/bdo/#node/49" target="_blank">
-<img class="icons icons5" src="images/icons/nodes/connect3.png" alt="Icon" />
-Coastal Cliff
-</a>
-
-<p class="h2 gold2">3CP Altinova</p>
-
-<a title="Abandoned Iron Mine" class="links2" href="https://www.somethinglovely.net/bdo/#node/1144" target="_blank">
-<img class="icons icons6" src="images/icons/nodes/triangle.png" alt="Icon" />
-Abandoned Iron Mine (Altinova)
-</a>
-
-<p class="h2 gold2">4CP Heidel</p>
-
-<a title="Northern Heidel Quarry" class="links2" href="https://www.somethinglovely.net/bdo/#node/326" target="_blank">
-<img class="icons icons5" src="images/icons/nodes/connect3.png" alt="Icon" />
-Northern Heidel Quarry
-</a>
-
-</div>
-<!-- blood-clowns-PoD End -->
-
-
-<!-- blood-clowns-SL ButtonT3 -->
-<div class="button t3">
-
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-clowns-SL');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus white">+</span>
-	</div>
-</div> 
-
- <img class="icons icons1" src="images/icons/nodes/plants/spirits-leaf.png" alt="Icon" />
-Spirit's Leaf
-</a>
-
-<div class="right">
-<a title="Spirit's Leaf" class="links" href="https://bdocodex.com/us/item/5006/" target="_blank">🔗</a>
-</div>
-
-<div class="dots">
-	<span class="circleText amount">1</span>
-</div>
-
-</div>
-<!-- blood-clowns-SL ButtonT3 End -->
-
-<!-- blood-clowns-SL -->
-<div id="blood-clowns-SL" class="hidden">
-
-<p class="h2 gold2">1CP Trent</p>
-
-<a title="Lumberjack's Rest Area" class="links2" href="https://www.somethinglovely.net/bdo/#node/718" target="_blank">
-<img class="icons icons5" src="images/icons/nodes/connect3.png" alt="Icon" />
-Lumberjack's Rest Area
-</a>
-
-
-<p class="h2 gold2">4CP Velia</p>
-
-<a title="Goblin Cave" class="links2" href="https://www.somethinglovely.net/bdo/#node/23" target="_blank">
-<img class="icons icons5" src="images/icons/nodes/connect3.png" alt="Icon" />
-Goblin Cave
-</a>
-
-
-<p class="h2 gold2">5CP Velia</p>
-
-<a title="Balenos Forest" class="links2" href="https://www.somethinglovely.net/bdo/#node/44" target="_blank">
-<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
-Balenos Forest
-</a>
-
-</div>
-<!-- blood-clowns-SL End -->
-
-
-<!-- blood-clowns-BG1 ButtonT3 -->
-<div class="button t3">
-
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-clowns-BG1');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div>
 
@@ -431,106 +438,119 @@ Balenos Forest
 Blood Group 1
 </a>
 
-<div class="dots">
-	<span class="circleText amount">2</span>
-</div>
-
 <div class="right">
+
+<div class="dots">
+<span class="circleText amount">2</span>
+</div>
+
 <a title="Blood Group 1" class="links" href="https://bdocodex.com/us/materialgroup/16/" target="_blank">🔗</a>
-</div>
 
 </div>
-<!-- blood-clowns-BG1 ButtonT3 End-->
 
-<!-- blood-clowns-BG1 -->
-<div id="blood-clowns-BG1" class="hidden">
+</div>
+<!-- blood-CB-blood-group-1 Button End-->
 
-<a title="Grey Wolves" class="links2" href="https://bdocodex.com/us/npc/20045/" target="_blank">
-<img class="icons icons2" src="images/icons/mobs/gray-wolf.png" alt="Icon" />
-Grey Wolves 
+<!-- blood-CB-blood-group-1-items -->
+<div id="blood-CB-blood-group-1-items" class="info hidden">
+
+
+<a title="Cheetah Dragon Blood" class="links2" href="https://bdocodex.com/us/item/6216/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg1/cheetah-dragon.png" alt="Icon" />
+Cheetah Dragon
 </a>
-<img title="Fluid Collector" class="icons icons3" src="images/icons/tools/manos-fluid.png" alt="Icon" />
 
 <br />
 
-<a title="Feather Wolves Hunting" class="links2 gold" href="https://bdocodex.com/us/npc/27641/" target="_blank">
-<img title="Feather Wolves" class="icons icons2" src="images/icons/mobs/feather-wolf.png" alt="Icon" />
-Feather Wolves 
+<a title="Flamingo Blood" class="links2" href="https://bdocodex.com/us/item/6218/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg1/flamingo.png" alt="Icon" />
+Flamingo
 </a>
-<img title="Hunting Matchlock" class="icons icons1" src="images/icons/tools/matchlock-master.png" alt="Icon" />
-<img title="Butcher Knife" class="icons icons1" src="images/icons/tools/manos-butcher-knife.png" alt="Icon" />
+
 <br />
 
-<a title="Feather Wolves" class="links2" href="https://bdocodex.com/us/npc/21523/" target="_blank">
-<img title="Feather Wolves" class="icons icons2" src="images/icons/mobs/feather-wolf.png" alt="Icon" />
-Feather Wolves 
+<a title="Rhino Blood" class="links2" href="https://bdocodex.com/us/item/6204/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg1/rhino.png" alt="Icon" />
+Rhino
 </a>
-<img title="Fluid Collector" class="icons icons3" src="images/icons/tools/manos-fluid.png" alt="Icon" />
 
+<br />
+
+
+<a title="Wolf Blood" class="links2" href="https://bdocodex.com/us/item/6214/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg1/wolf.png" alt="Icon" />
+Wolf
+</a>
 
 
 
 </div>
-<!-- blood-clowns-BG1 -->
+<!-- blood-CB-blood-group-1-items End -->
 
 
-<!-- blood-clowns-Notes ButtonT1 -->
-<div class="button t1">
+<!-- blood-CB-Notes Button-->
+<div class="button notes">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-clowns-Notes');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-CB-Notes');">
 
-<div class="left top">
+<div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
 Notes
-<img class="icons icons6" src="images/icons/menu/notes.png" alt="Icon" />
+<img class="icons icons6" src="images/icons/menu/Notes.png" alt="Icon" />
 </a>
 
 </div>
-<!-- blood-clowns-Notes ButtonT1 End -->
+<!-- blood-CB-Notes Button End -->
 
 
-<!-- blood-clowns-Notes -->
-<div id="blood-clowns-Notes" class="notes hidden">
+<!-- blood-CB-Notes -->
+<div id="blood-CB-Notes" class="hidden notes-container">
 
 
-<!-- blood-clowns-Notes-Cheapest ButtonT1 -->
-<div class="button h1 t2">
+<!-- blood-CB-Cheapest Button-->
+<div class="button cheapest">
 
-<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('blood-clowns-Notes-Cheapest');">
+<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('blood-CB-Cheapest');">
 
-<div class="left top">
+<div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
 Cheapest CP Nodes
-<img class="icons icons6" src="images/icons/nodes/connect2.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/nodes/connect2.png" alt="Icon" />
 </a>
 
+
+<div class="right">
+
 <div class="dots">
-	<span class="amount">6</span>
+	<span class="circleText amount">6</span>
 </div>
-<span class="spacer">&nbsp;</span>
+
+<a title="Somethinglovely.net" class="links" href="https://www.somethinglovely.net/" target="_blank">🔗</a>
 
 </div>
-<!-- blood-clowns-Notes-Cheapest ButtonT1 End -->
 
-<!-- blood-clowns-Notes-Cheapest -->
-<div id="blood-clowns-Notes-Cheapest" class="hidden">
+</div>
+<!-- blood-CB-Cheapest Button End -->
 
-<!-- blood-clowns-PoD-notes ButtonT3 -->
-<div class="button t3">
+<!-- blood-CB-Cheapest -->
+<div id="blood-CB-Cheapest" class="hidden">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-clowns-PoD-notes');">
+<!-- blood-CB-PoD-Notes Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-CB-PoD-Notes');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -539,18 +559,21 @@ Powder of Darkness
 </a>
 
 <div class="right">
-<a title="Powder of Darkness" class="links" href="https://bdocodex.com/us/item/4801/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-</div>
-<!-- blood-clowns-PoD-notes ButtonT3 End -->
+<a title="Powder of Darkness" class="links" href="https://bdocodex.com/us/item/4801/" target="_blank">🔗</a>
 
-<!-- blood-clowns-PoD-notes -->
-<div id="blood-clowns-PoD-notes" class="hidden">
+</div>
+
+
+</div>
+<!-- blood-CB-PoD-Notes Button End -->
+
+<!-- blood-CB-PoD-Notes -->
+<div id="blood-CB-PoD-Notes" class="hidden">
 
 <p class="h2 gold2">1CP Velia</p>
 
@@ -583,17 +606,17 @@ Northern Heidel Quarry
 
 
 </div>
-<!-- blood-clowns-PoD-notes -->
+<!-- blood-CB-PoD-Notes -->
 
 
-<!-- blood-clowns-SL-notes ButtonT3 -->
-<div class="button t3">
+<!-- blood-CB-SL-Notes Button -->
+<div class="button blueBg3">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-clowns-SL-notes');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-CB-SL-Notes');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -602,18 +625,21 @@ Spirit's Leaf
 </a>
 
 <div class="right">
-<a title="Spirit's Leaf" class="links" href="https://bdocodex.com/us/item/5006/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-</div>
-<!-- blood-clowns-SL-notes ButtonT3 End -->
+<a title="Spirit's Leaf" class="links" href="https://bdocodex.com/us/item/5006/" target="_blank">🔗</a>
 
-<!-- blood-clowns-SL-notes -->
-<div id="blood-clowns-SL-notes" class="hidden">
+</div>
+
+
+</div>
+<!-- blood-CB-SL-Notes Button End -->
+
+<!-- blood-CB-SL-Notes -->
+<div id="blood-CB-SL-Notes" class="hidden">
 
 <p class="h2 gold2">1CP Trent</p>
 
@@ -634,48 +660,51 @@ Goblin Cave
 <p class="h2 gold2">5CP Velia</p>
 
 <a title="Balenos Forest" class="links2" href="https://www.somethinglovely.net/bdo/#node/44" target="_blank">
-<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/nodes/connect2.png" alt="Icon" />
 Balenos Forest
 </a>
 
 
 </div>
-<!-- blood-clowns-SL-notes -->
+<!-- blood-CB-SL-Notes -->
 
 
-<!-- blood-clowns-SRH-notes ButtonT3 -->
-<div class="button t3">
+<!-- blood-CB-SRH-Notes Button -->
+<div class="button blueBg3">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-clowns-SRH-notes');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-CB-SRH-Notes');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
- <img class="icons icons1" src="images/icons/nodes/plants/sunrise-herb.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/nodes/plants/sunrise-herb.png" alt="Icon" />
 Sunrise Herb
 </a>
 
 <div class="right">
-<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">4</span>
 </div>
 
-</div>
-<!-- blood-clowns-SRH-notes ButtonT3 End -->
+<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
 
-<!-- blood-clowns-SRH-notes -->
-<div id="blood-clowns-SRH-notes" class="hidden">
+</div>
+
+
+</div>
+<!-- blood-CB-SRH-Notes Button End -->
+
+<!-- blood-CB-SRH-Notes -->
+<div id="blood-CB-SRH-Notes" class="hidden">
 
 <p class="h2 gold2">4CP Velia</p>
 
 <a title="Balenos Forest" class="links2" href="https://www.somethinglovely.net/bdo/#node/44" target="_blank">
-<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/nodes/connect2.png" alt="Icon" />
 Balenos Forest
 </a>
 
@@ -689,25 +718,25 @@ Cron Castle Site
 
 
 </div>
-<!-- blood-clowns-SRH-notes -->
+<!-- blood-CB-SRH-Notes -->
 
 </div>
-<!-- blood-clowns-Notes-Cheapest End -->
+<!-- blood-CB-Cheapest End -->
 
 
-<!-- blood-clowns-Notes-UsedInButtonT2 -->
-<div class="button h1 t2">
+<!-- blood-CB-UsedIn Button -->
+<div class="button usedin">
 
-<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('blood-clowns-Notes-UsedIn');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-CB-UsedIn');">
 
-<div class="left top">
+<div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
 Used In Recipe
-<img class="icons icons6" src="images/icons/menu/checklist-notes.png" alt="Icon" />
+<img class="icons icons6" src="images/icons/menu/checklist-Notes.png" alt="Icon" />
 </a>
 
 
@@ -716,10 +745,10 @@ Used In Recipe
 </div>
 
 </div>
-<!-- blood-clowns-Notes-UsedInButtonT2 End -->
+<!-- blood-CB-UsedInButton End -->
 
-<!-- blood-clowns-Notes-UsedIn -->
-<div id="blood-clowns-Notes-UsedIn" class="hidden">
+<!-- blood-CB-UsedIn -->
+<div id="blood-CB-UsedIn" class="hidden usedin-container">
 
 
 <a title="Extra Damage to Humans +6" class="links2" href="https://bdocodex.com/us/item/670/" target="_blank">
@@ -752,20 +781,20 @@ Oil of Fortitude
 <br />
 <a title="Clown's Blood" class="links" href="https://bdocodex.com/us/item/6353/" target="_blank">And More...</a>
 </div>
-<!-- blood-clowns-Notes-UsedIn End -->
+<!-- blood-CB-UsedInEnd -->
 
 </div>
-<!-- blood-clowns-Notes End -->
+<!-- blood-CB-Notes End -->
 
 
-
-
-</div>
-<!-- blood-clowns-recipe End -->
 
 
 </div>
-<!-- blood-clowns-blood End -->
+<!-- blood-CB-Recipe End -->
+
+
+</div>
+<!-- blood-CB-blood End -->
 
 </body>
 </html>

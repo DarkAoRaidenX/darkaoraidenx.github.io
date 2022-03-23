@@ -6,58 +6,26 @@
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<link rel="stylesheet" href="scripts/css/common.css" />
-	<link rel="icon" type="image/x-icon" href="images/pots.ico">
-	
-<script src="scripts/jquery/3.6.0.js"></script> 
-
-<script src="scripts/jquery/ui-1.13.1.js"></script>	
-	
-<script>
-<!--
-function toggleDiv(divId) {
-   $("#"+divId).toggle();
-}
-//-->
-</script>
-
-<!-- Kiriak -->
-<script>
-$(document).ready(function ()
-{
-
-    $('.buttonLink').each(function ()
-    {
-
-$(this).click(function ()
-    {
-	console.log('clicked');
-        var content=$(this).find(".dotPlus").html();
-        if (content=='+') content='-';
-        else content='+';
-       $(this).find(".dotPlus").html(content);
-
-    });
-    });
-	
-});
-</script>
-<!-- Kiriak Script -->
-
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="scripts/jquery/3.6.0.js"></script> 
+	<script src="scripts/jquery/plus-minus.js"></script>
+	<script src="scripts/jquery/toggle-div.js"></script>
+	<script src="scripts/jquery/ui-1.13.1.js"></script>	
 </head>
 <body id="home-page" class="common">
 
-<!-- potPartyUpgrade -->
-<div id="potPartyUpgrade" class="container pots" draggable="true" ondragstart="drag(event)">
+<!-- pot-Party-Upgrade -->
+<div id="pot-Party-Upgrade" class="container pots" draggable="true" ondragstart="drag(event)">
 
 
-<!-- potPartyUpgrade ButtonT1 -->
-<div class="darkBg button t1 top">
+<!-- pot-Party-Upgrade Button -->
+<div class="button darkBg1 top">
 
-<a title="Content Button" class="buttonLink blue" href="javascript:toggleDiv('PartyUpgrade');">
+<a title="Content Button" class="buttonLink blue1" href="javascript:toggleDiv('Party-Upgrade');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -70,19 +38,18 @@ Party Version
 </div>
 
 </div>
-<!-- PartyUpgrade ButtonT1 End-->
+<!-- Party-Upgrade Button End-->
 
-<!-- PartyUpgrade -->
-<div id="PartyUpgrade" class="hidden">
+<!-- Party-Upgrade -->
+<div id="Party-Upgrade" class="hidden">
 
-
-<div class="btnNoIcon button t3">
+<div class="button blueBg3">
 
 <div class="alignR">
-Any <span class="green">Green</span> or <span class="blue">Blue</span> Pot
+Any <span class="green1">Green</span> or <span class="blue1">Blue</span> Pot
 
 <div class="dots">
-<span class="circleText amount">2</span>
+	<span class="circleText amount">2</span>
 </div>
 
 </div>
@@ -93,16 +60,16 @@ Any <span class="green">Green</span> or <span class="blue">Blue</span> Pot
 </div>
 
 </div>
-<!-- PartyUpgrade End -->
+<!-- Party-Upgrade End -->
 
-<!-- potAT -->
-<div class="button t3">
+<!-- pot-AT -->
+<div class="blueBg3 button">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potAT');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-AT');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -122,19 +89,19 @@ Aal's Tear
 
 </div>
 
-<div id="potAT" class="hidden">
+<div id="pot-AT" class="info hidden">
 - Material Vendor
 </div>
-<!-- potAT End -->
+<!-- pot-AT End -->
 
 
 
 </div>
-<!-- PartyUpgrade End-->
+<!-- Party-Upgrade End-->
 
 
 </div>
-<!-- potPartyUpgrade End -->
+<!-- pot-Party-Upgrade End -->
 
 </body>
 </html>

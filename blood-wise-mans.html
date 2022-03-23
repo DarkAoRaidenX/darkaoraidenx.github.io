@@ -7,42 +7,10 @@
 	<meta name="description" content="" />
 	<link rel="stylesheet" href="scripts/css/common.css" />
 	<link rel="icon" type="image/x-icon" href="images/fav/bloods.ico">
-	
-<script src="scripts/jquery/3.6.0.js"></script> 
-
-<script src="scripts/jquery/ui-1.13.1.js"></script>	
-	
-<script>
-<!--
-function toggleDiv(divId) {
-   $("#"+divId).toggle();
-}
-//-->
-</script>
-
-<!-- Kiriak -->
-<script>
-$(document).ready(function ()
-{
-
-    $('.buttonLink').each(function ()
-    {
-
-$(this).click(function ()
-    {
-	console.log('clicked');
-        var content=$(this).find(".dotPlus").html();
-        if (content=='+') content='-';
-        else content='+';
-       $(this).find(".dotPlus").html(content);
-
-    });
-    });
-	
-});
-</script>
-<!-- Kiriak Script -->
-
+	<script src="scripts/jquery/3.6.0.js"></script> 
+	<script src="scripts/jquery/plus-minus.js"></script>
+	<script src="scripts/jquery/toggle-div.js"></script>
+	<script src="scripts/jquery/ui-1.13.1.js"></script>	
 </head>
 <body id="home-page">
 
@@ -50,15 +18,15 @@ $(this).click(function ()
 <div id="blood-WM" class="container bloods" draggable="true" ondragstart="drag(event)">
 
 
-<!-- blood-WM-Recipe ButtonT1 -->
-<div class="redBg button t1 top">
+<!-- blood-WM-Recipe Button -->
+<div class="redBg1 button top">
 
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-WM-Recipe');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div>
 
@@ -67,266 +35,51 @@ Wise Man's Blood
 </a>
 
 <div class="right">
-<a title="Wise Man's Blood" class="links" href="https://bdocodex.com/us/recipe/56/" target="_blank">🔗</a>
+
+<div class="dots">
+	<span class="amount">1</span>
+</div>
+
+<a title="Wise Man's Blood" class="links" href="https://bdocodex.com/us/item/6355/" target="_blank">🔗</a>
+
 </div>
 
 </div>
-<!-- blood-WM-Recipe ButtonT1 End-->
+<!-- blood-WM-Recipe Button End-->
 
 
 <!-- blood-WM-Recipe -->
 <div id="blood-WM-Recipe" class="hidden">
 
-<!-- WM-CLR ButtonT2 -->
-<div class="button t2">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('WM-CLR');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus white">+</span>
-	</div>
-</div> 
-
- <img class="icons icons1" src="images/icons/alchemy/clear-liquid-reagent.png" alt="Icon" />
-Clear Liquid Reagent
-</a>
-
-<div class="right">
-<a title="Clear Liquid Reagent" class="links" href="https://bdocodex.com/us/recipe/47/" target="_blank">🔗</a>
-</div>
-
-<div class="dots">
-	<span class="circleText amount">1</span>
-</div>
-
-</div>
-<!-- WM-CLR ButtonT2 End -->
-
-<!-- WM-CLR -->
-<div id="WM-CLR" class="hidden">
-
-<!-- WM-Grass ButtonT4 -->
-<div class="button t3">
-
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('WM-Grass');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus white">+</span>
-	</div>
-</div> 
-
-<img class="icons icons1" src="images/icons/gathering/weeds.png" alt="Icon" />
-Grass
-</a>
-
-<div class="dots">
-	<span class="circleText amount">1</span>
-</div>
-
-<div class="right">
-<a title="Weeds" class="links" href="https://bdocodex.com/us/item/5439/" target="_blank">🔗</a>
-<a title="Wild Grass" class="links" href="https://bdocodex.com/us/item/5600/" target="_blank">🔗</a>
-</div>
-
-</div>
-<!-- WM-Grass ButtonT4  End -->
-
-<!-- WM-Grass -->
-<div id="WM-Grass" class="hidden">
-
-<a title="Weeds" class="links2" href="https://bdocodex.com/us/item/5600/" target="_blank">
-<img class="icons icons1" src="images/icons/gathering/weeds.png" alt="Icon" />
-Weeds
-</a>
-&nbsp;<img title="Bare Hand Gathering" class="icons icons1" src="images/icons/menu/energy-recov.png" alt="Icon" />
-
-<br />
-
-<a title="Wild Grass" class="links2" href="https://bdocodex.com/us/item/5600/" target="_blank">
-<img class="icons icons1" src="images/icons/gathering/wild-grass.png" alt="Icon" />
-WIld Grass
-</a>
-&nbsp;<img title="Hoe at Behr" class="icons icons3" src="images/icons/tools/manos-hoe.png" alt="Icon" />
-
-
-</div>
-<!-- WM-Grass End-->
-
-
-<!-- WM-PW ButtonT4 -->
-<div class="button t3">
-
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('WM-PW');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus white">+</span>
-	</div>
-</div> 
-
-<img class="icons icons1" src="images/icons/waters/purified.png" alt="Icon" />
-Purified Water
-</a>
-
-<div class="dots">
-	<span class="circleText amount">1</span>
-</div>
-
-<div class="right">
-<a title="Purified Water" class="links" href="https://bdocodex.com/us/item/6656/" target="_blank">🔗</a>
-</div>
-
-</div>
-<!-- WM-PW ButtonT4  End -->
-
-<!-- WM-PW -->
-<div id="WM-PW" class="hidden potLinks">
-
-<div class="button">
-<a title="Bottle of Clean Water" class="links2" href="https://bdocodex.com/us/item/6655/" target="_blank">
-<img class="icons icons1" src="images/icons/waters/clean.png" alt="Icon" />
-Bottle of Clean Water
-</a>
-
-<div class="dots">
-	<span class="circleText amount">1</span>
-</div>
-
-<img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
-
-<br />
-
-<a title="Bottle of River Water" class="links2" href="https://bdocodex.com/us/item/6653/" target="_blank">
-<img class="icons icons1" src="images/icons/waters/river.png" alt="Icon" />
-Bottle of River Water
-</a>
-
-<div class="dots">
-	<span class="circleText amount">1</span>
-</div>
-
-<img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
-</div>
-
-</div>
-<!-- WM-PW End-->
-
-<!-- WM-Salt ButtonT4 -->
-<div class="button t3">
-
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('WM-Salt');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus white">+</span>
-	</div>
-</div> 
-
-<img class="icons icons1" src="images/icons/vendor/salt.png" alt="Icon" />
-Salt
-</a>
-
-<div class="right">
-<a title="Salt" class="links" href="https://bdocodex.com/us/item/9001/" target="_blank">🔗</a>
-</div>
-
-<div class="dots">
-	<span class="circleText amount">1</span>
-</div>
-
-</div>
-<!-- WM-Salt ButtonT4  End -->
-
-<!-- WM-Salt -->
-<div id="WM-Salt" class="hidden">
-
-NPC Food Vendor or Innkeeper.
-
-</div>
-<!-- WM-Salt End-->
-
-
-<!-- WM-SRH ButtonT4 -->
-<div class="button t3">
-
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('WM-SRH');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus white">+</span>
-	</div>
-</div> 
-
- <img class="icons icons1" src="images/icons/nodes/plants/sunrise-herb.png" alt="Icon" />
-Sunrise Herb
-</a>
-
-<div class="right">
-<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
-</div>
-
-<div class="dots">
-	<span class="circleText amount">1</span>
-</div>
-
-</div>
-<!-- WM-SRH ButtonT4 End -->
-
-<!-- WM-SRH -->
-<div id="WM-SRH" class="hidden">
-
-<p class="h2 gold2">4CP Velia</p>
-
-<a title="Balenos Forest" class="links2" href="https://www.somethinglovely.net/bdo/#node/44" target="_blank">
-<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
-Balenos Forest
-</a>
-
-<p class="h2 gold2">5CP Velia</p>
-
-<a title="Cron Castle Site" class="links2" href="https://www.somethinglovely.net/bdo/#node/3" target="_blank">
-<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
-Cron Castle Site
-</a>
-
-</div>
-<!-- WM-SRH -->
-
-
-
-
-</div>
-<!-- WM-CLR End -->
-
-
-
-<!-- blood-WM-MB ButtonT2 -->
-<div class="button t2">
+<!-- blood-WM-MB Button -->
+<div class="button blueBg3">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-WM-MB');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
- <img class="icons icons1" src="images/icons/nodes/plants/monks-branch.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/nodes/plants/monks-branch.png" alt="Icon" />
 Monk's Branch
 </a>
 
 <div class="right">
-<a title="Monk's Branch" class="links" href="https://bdocodex.com/us/item/5007/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
+<a title="Monk's Branch" class="links" href="https://bdocodex.com/us/item/5007/" target="_blank">🔗</a>
+
 </div>
-<!-- blood-WM-MB ButtonT2 End -->
+
+
+</div>
+<!-- blood-WM-MB Button End -->
 
 <!-- blood-WM-MB -->
 <div id="blood-WM-MB" class="hidden">
@@ -354,32 +107,34 @@ Forest of Seclusion
 <!-- blood-WM-MB End -->
 
 
-
-<!-- blood-WM-ToA ButtonT2 -->
-<div class="button t2">
+<!-- blood-WM-ToA Button -->
+<div class="button blueBg3">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-WM-ToA');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
- <img class="icons icons1" src="images/icons/traces/ascension.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/traces/ascension.png" alt="Icon" />
 Trace of Ascension
 </a>
+
+
+<div class="right">
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-<div class="right">
 <a title="Trace of Ascension" class="links" href="https://bdocodex.com/us/item/5955/" target="_blank">🔗</a>
+
 </div>
 
 </div>
-<!-- blood-WM-ToA ButtonT2 End -->
+<!-- blood-WM-ToA Button End -->
 
 <!-- blood-WM-ToA -->
 <div id="blood-WM-ToA" class="hidden">
@@ -400,15 +155,266 @@ Required: 10 Energy from Jarette Domongatt
 <!-- blood-WM-ToA End -->
 
 
-<!-- blood-WM-BG3 ButtonT2 -->
-<div class="button t2">
+<!-- blood-WM-CLR Button -->
+<div class="button clr">
 
-
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-WM-BG3');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-WM-CLR');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/alchemy/clear-liquid-reagent.png" alt="Icon" />
+Clear Liquid Reagent
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<a title="Clear Liquid Reagent" class="links" href="https://bdocodex.com/us/item/5301/" target="_blank">🔗</a>
+
+</div>
+
+
+</div>
+<!-- blood-WM-CLR Button End -->
+
+<!-- blood-WM-CLR -->
+<div id="blood-WM-CLR" class="hidden">
+
+
+<!-- blood-WM-CLR-Grass Button -->
+<div class="button blueBg4">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-WM-CLR-Grass');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/gathering/wild-grass.png" alt="Icon" />
+Grass
+</a>
+
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<a title="Wild Grass" class="links" href="https://bdocodex.com/us/item/5600/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- blood-WM-CLR-Grass Button  End -->
+
+
+<!-- blood-WM-CLR-Grass -->
+<div id="blood-WM-CLR-Grass" class="info hidden">
+
+
+<a title="Weeds" class="links2" href="https://bdocodex.com/us/item/5600/" target="_blank">
+<img class="icons icons1" src="images/icons/gathering/weeds.png" alt="Icon" />
+Weeds
+</a>
+&nbsp;<img title="Bare Hand Gathering" class="icons icons1" src="images/icons/menu/energy-recov.png" alt="Icon" />
+
+<br />
+
+<a title="Wild Grass" class="links2" href="https://bdocodex.com/us/item/5600/" target="_blank">
+<img class="icons icons1" src="images/icons/gathering/wild-grass.png" alt="Icon" />
+WIld Grass
+</a>
+&nbsp;<img title="Hoe at Behr" class="icons icons3" src="images/icons/tools/manos-hoe.png" alt="Icon" />
+
+
+</div>
+<!-- blood-WM-CLR-Grass End-->
+
+
+<!-- blood-WM-CLR-PW Button -->
+<div class="button blueBg4">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-WM-CLR-PW');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/waters/purified.png" alt="Icon" />
+Purified Water
+</a>
+
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<a title="Purified Water" class="links" href="https://bdocodex.com/us/item/6656/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- blood-WM-CLR-PW Button  End -->
+
+<!-- blood-WM-CLR-PW -->
+<div id="blood-WM-CLR-PW" class="info hidden">
+
+
+<!-- blood-WM-CLR-CW Button -->
+
+<a title="Bottle of Clean Water" class="links2" href="https://bdocodex.com/us/item/6655/" target="_blank">
+
+<img class="icons icons1" src="images/icons/waters/clean.png" alt="Icon" />
+Bottle of Clean Water
+</a>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
+
+
+<!-- blood-WM-CLR-CW Button End -->
+
+<br />
+
+<!-- blood-WM-CLR-RW Button -->
+
+<a title="Bottle of River Water" class="links2" href="https://bdocodex.com/us/item/6653/" target="_blank">
+
+<img class="icons icons1" src="images/icons/waters/river.png" alt="Icon" />
+Bottle of River Water
+</a>
+
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
+
+
+<!-- blood-WM-CLR-RW Button End -->
+
+
+
+</div>
+<!-- blood-WM-CLR-PW End-->
+
+<!-- blood-WM-CLR-Salt Button -->
+<div class="button blueBg4">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-WM-CLR-Salt');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/vendor/salt.png" alt="Icon" />
+Salt
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<a title="Salt" class="links" href="https://bdocodex.com/us/item/9001/" target="_blank">🔗</a>
+
+</div>
+
+
+</div>
+<!-- blood-WM-CLR-Salt Button  End -->
+
+<!-- blood-WM-CLR-Salt -->
+<div id="blood-WM-CLR-Salt" class="info hidden">
+
+NPC Food Vendor or Innkeeper.
+
+</div>
+<!-- blood-WM-CLR-Salt End-->
+
+
+<!-- blood-WM-CLR-SRH Button -->
+<div class="button blueBg4">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-WM-CLR-SRH');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/nodes/plants/sunrise-herb.png" alt="Icon" />
+Sunrise Herb
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
+
+</div>
+
+
+</div>
+<!-- blood-WM-CLR-SRH Button End -->
+
+<!-- blood-WM-CLR-SRH -->
+<div id="blood-WM-CLR-SRH" class="info hidden">
+
+<p class="h2 gold2">4CP Velia</p>
+
+<a title="Balenos Forest" class="links2" href="https://www.somethinglovely.net/bdo/#node/44" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Balenos Forest
+</a>
+
+<p class="h2 gold2">5CP Velia</p>
+
+<a title="Cron Castle Site" class="links2" href="https://www.somethinglovely.net/bdo/#node/3" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Cron Castle Site
+</a>
+</div>
+<!-- blood-WM-CLR-SRH -->
+
+
+</div>
+<!-- blood-WM-CLR End -->
+
+
+<!-- blood-WM-blood-group-3 Button -->
+<div class="button redBg1">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-WM-blood-group-3-items');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
 	</div>
 </div>
 
@@ -416,40 +422,71 @@ Required: 10 Energy from Jarette Domongatt
 Blood Group 3
 </a>
 
-<div class="dots">
-	<span class="circleText amount">2</span>
-</div>
-
 <div class="right">
-<a title="Blood Group 5" class="links" href="https://bdocodex.com/us/materialgroup/19/" target="_blank">🔗</a>
+
+<div class="dots">
+<span class="circleText amount">2</span>
+</div>
+
+<a title="Blood Group 3" class="links" href="https://bdocodex.com/us/materialgroup/18/" target="_blank">🔗</a>
+
 </div>
 
 </div>
-<!-- blood-WM-BG3 ButtonT2 End-->
+<!-- blood-WM-blood-group-3 Button End-->
 
-<!-- blood-WM-BG3 -->
-<div id="blood-WM-BG3" class="hidden">
+<!-- blood-WM-blood-group-3-items -->
+<div id="blood-WM-blood-group-3-items" class="hidden">
 
-<a title="Gray Fox (Forest of Seclusion)" class="links2" href="https://bdocodex.com/us/npc/20044/" target="_blank">
-<img class="icons icons2" src="images/icons/mobs/gray-fox.png" alt="Icon" />
-Gray Foxes
+
+<a title="Fox Blood" class="links2" href="https://bdocodex.com/us/item/6203/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg3/fox.png" alt="Icon" />
+Fox
 </a>
 
-<img title="Fluid Collector" class="icons icons3" src="images/icons/tools/manos-fluid.png" alt="Icon" />
+<br />
+
+<a title="Marmot Blood" class="links2" href="https://bdocodex.com/us/item/6226/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg3/marmot.png" alt="Icon" />
+Marmot
+</a>
+
+<br />
+
+<a title="Raccoon Blood" class="links2" href="https://bdocodex.com/us/item/6210/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg3/raccoon.png" alt="Icon" />
+Raccoon
+</a>
+
+<br />
+
+<a title="Scorpion Blood" class="links2" href="https://bdocodex.com/us/item/6224/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg3/scorpion.png" alt="Icon" />
+Scorpion
+</a>
+
+<br />
+
+<a title="Weasel Blood" class="links2" href="https://bdocodex.com/us/item/6212/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg3/weasel.png" alt="Icon" />
+Weasel
+</a>
+
+
+
 
 </div>
-<!-- WM-BG3 -->
+<!-- blood-WM-blood-group-3-items End -->
 
 
-
-<!-- blood-WM-Notes ButtonT1 -->
-<div class="button t1">
+<!-- blood-WM-Notes Button -->
+<div class="button notes">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-WM-Notes');">
 
-<div class="left top">
+<div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -458,21 +495,21 @@ Notes
 </a>
 
 </div>
-<!-- blood-WM-Notes ButtonT1 End -->
+<!-- blood-WM-Notes Button End -->
 
 
 <!-- blood-WM-Notes -->
-<div id="blood-WM-Notes" class="notes hidden">
+<div id="blood-WM-Notes" class="hidden notes-container">
 
 
-<!-- blood-WM-Notes-Cheapest ButtonT1 -->
-<div class="button h1 t2">
+<!-- blood-WM-Notes-Cheapest Button -->
+<div class="button cheapest">
 
 <a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('blood-WM-Notes-Cheapest');">
 
-<div class="left top">
+<div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -480,45 +517,52 @@ Cheapest CP Nodes
 <img class="icons icons6" src="images/icons/nodes/connect2.png" alt="Icon" />
 </a>
 
+<div class="right">
+
 <div class="dots">
 	<span class="amount">17</span>
 </div>
-<span class="spacer">&nbsp;</span>
+<a title="Somethinglovely.net" class="links" href="https://www.somethinglovely.net/" target="_blank">🔗</a>
 
 </div>
-<!-- blood-WM-Notes-Cheapest ButtonT1 End -->
+
+</div>
+<!-- blood-WM-Notes-Cheapest Button End -->
 
 <!-- blood-WM-Notes-Cheapest -->
 <div id="blood-WM-Notes-Cheapest" class="hidden">
 
-<!-- blood-WM-SRH-notes ButtonT4 -->
-<div class="button t3">
+<!-- blood-WM-SRH-notes Button -->
+<div class="button blueBg3">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('WM-SRH-notes');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-WM-SRH-notes');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
- <img class="icons icons1" src="images/icons/nodes/plants/sunrise-herb.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/nodes/plants/sunrise-herb.png" alt="Icon" />
 Sunrise Herb
 </a>
 
 <div class="right">
-<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">4</span>
 </div>
 
-</div>
-<!-- blood-WM-SRH-notes ButtonT4 End -->
+<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
 
-<!-- blood-WM-SRH-notes -->
-<div id="WM-SRH-notes" class="hidden">
+</div>
+
+
+</div>
+<!-- blood-WM-SRH-notes Button End -->
+
+<!-- blood-WM-SRH-notes Button -->
+<div id="blood-WM-SRH-notes" class="hidden">
 
 <p class="h2 gold2">4CP Velia</p>
 
@@ -536,17 +580,17 @@ Cron Castle Site
 
 
 </div>
-<!-- blood-WM-SRH-notes -->
+<!-- blood-WM-SRH-notes Button -->
 
 
-<!-- blood-WM-MB-notes ButtonT4 -->
-<div class="button t3">
+<!-- blood-WM-MB-notes Button -->
+<div class="button blueBg3">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-WM-MB-notes');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -555,17 +599,20 @@ Monk's Branch
 </a>
 
 <div class="right">
-<a title="Monk's Branch" class="links" href="https://bdocodex.com/us/item/5007/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">5</span>
 </div>
 
-</div>
-<!-- blood-WM-MB-notes ButtonT4 End -->
+<a title="Monk's Branch" class="links" href="https://bdocodex.com/us/item/5007/" target="_blank">🔗</a>
 
-<!-- blood-WM-MB-notes -->
+</div>
+
+
+</div>
+<!-- blood-WM-MB-notes Button End -->
+
+<!-- blood-WM-MB-notes Button -->
 <div id="blood-WM-MB-notes" class="hidden">
 
 <p class="h2 gold2">5CP Heidel/Keplan</p>
@@ -591,17 +638,17 @@ Forest of Seclusion
 
 
 </div>
-<!-- blood-WM-MB-notes -->
+<!-- blood-WM-MB-notes Button -->
 
 
-<!-- blood-WM-ToA-notes ButtonT4 -->
-<div class="button t3">
+<!-- blood-WM-ToA-notes Button -->
+<div class="button blueBg3">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-WM-ToA-notes');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -610,17 +657,20 @@ Trace of Ascension
 </a>
 
 <div class="right">
-<a title="Trace of Ascension" class="links" href="https://bdocodex.com/us/item/5955/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">8</span>
 </div>
 
-</div>
-<!-- blood-WM-ToA-notes ButtonT4 End -->
+<a title="Trace of Ascension" class="links" href="https://bdocodex.com/us/item/5955/" target="_blank">🔗</a>
 
-<!-- blood-WM-ToA-notes -->
+</div>
+
+
+</div>
+<!-- blood-WM-ToA-notes Button End -->
+
+<!-- blood-WM-ToA-notes Button -->
 <div id="blood-WM-ToA-notes" class="hidden">
 
 <p class="h2 gold2">8CP Velia</p>
@@ -638,20 +688,20 @@ Required: 10 Energy from Jarette Domongatt
 
 
 </div>
-<!-- blood-WM-ToA-notes -->
+<!-- blood-WM-ToA-notes Button -->
 
 </div>
 <!-- blood-WM-Notes-Cheapest End -->
 
 
-<!-- blood-WM-Notes-UsedInButtonT1 -->
-<div class="button h1 t2">
+<!-- blood-WM-Notes-UsedInButton -->
+<div class="button usedin">
 
 <a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('blood-WM-Notes-UsedIn');">
 
-<div class="left top">
+<div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -665,10 +715,10 @@ Used In Recipe
 </div>
 
 </div>
-<!-- blood-WM-Notes-UsedInButtonT1 End -->
+<!-- blood-WM-Notes-UsedInButton End -->
 
 <!-- blood-WM-Notes-UsedIn -->
-<div id="blood-WM-Notes-UsedIn" class="hidden">
+<div id="blood-WM-Notes-UsedIn" class="hidden usedin-container">
 
 
 <a title="Skill EXP +10% & Movement Speed -2%" class="links2" href="https://bdocodex.com/us/item/1152/" target="_blank">

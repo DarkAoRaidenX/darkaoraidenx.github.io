@@ -7,57 +7,24 @@
 	<meta name="description" content="" />
 	<link rel="stylesheet" href="scripts/css/common.css" />
 	<link rel="icon" type="image/x-icon" href="images/fav/bloods.ico">
-	
-<script src="scripts/jquery/3.6.0.js"></script> 
-
-<script src="scripts/jquery/ui-1.13.1.js"></script>	
-	
-<script>
-<!--
-function toggleDiv(divId) {
-   $("#"+divId).toggle();
-}
-//-->
-</script>
-
-
-<!-- Kiriak -->
-<script>
-$(document).ready(function ()
-{
-
-    $('.buttonLink').each(function ()
-    {
-
-$(this).click(function ()
-    {
-	console.log('clicked');
-        var content=$(this).find(".dotPlus").html();
-        if (content=='+') content='-';
-        else content='+';
-       $(this).find(".dotPlus").html(content);
-
-    });
-    });
-	
-});
-</script>
-<!-- Kiriak Script -->
-
+	<script src="scripts/jquery/3.6.0.js"></script> 
+	<script src="scripts/jquery/plus-minus.js"></script>
+	<script src="scripts/jquery/toggle-div.js"></script>
+	<script src="scripts/jquery/ui-1.13.1.js"></script>
 </head>
 <body id="home-page">
 
 <!-- blood-group-2-container -->
 <div id="blood-group-2-container" class="container bloods" draggable="true" ondragstart="drag(event)">
 
-<!-- blood-group-2 ButtonT0 -->
-<div class="redBg button t0 top">
+<!-- blood-group-2 Button -->
+<div class="button redBg1 top">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-group-2-items');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div>
 
@@ -66,109 +33,138 @@ Blood Group 2
 </a>
 
 <div class="right">
+
+<div class="dots">
+<span class="circleText amount">1</span>
+</div>
+
 <a title="Blood Group 2" class="links" href="https://bdocodex.com/us/materialgroup/17/" target="_blank">🔗</a>
+
 </div>
 
 </div>
-<!-- blood-group-2 ButtonT0 End-->
+<!-- blood-group-2 Button End-->
 
 <!-- blood-group-2-items -->
-<div id="blood-group-2-items" class="hidden">
-
-
-<!-- bg2-deer ButtonT0 -->
-<div class="button darkBg t0">
+<div id="blood-group-2-items" class="info hidden">
 
 <a title="Deer Blood" class="links2" href="https://bdocodex.com/us/item/6201/" target="_blank">
-
 <img class="icons icons1" src="images/icons/bloods/bg2/deer.png" alt="Icon" />
-
 Deer
 </a>
 
-</div>
-<!-- bg2-deer ButtonT0 -->
-
-<!-- bg2-goat ButtonT0 -->
-<div class="button darkBg t0">
+<br />
 
 <a title="Goat Blood" class="links2" href="https://bdocodex.com/us/item/6228/" target="_blank">
-
 <img class="icons icons1" src="images/icons/bloods/bg2/goat.png" alt="Icon" />
-
 Goat
 </a>
 
-</div>
-<!-- bg2-goat ButtonT0 -->
-
-<!-- bg2-llama ButtonT0 -->
-<div class="button darkBg t0">
+<br />
 
 <a title="Llama Blood" class="links2" href="https://bdocodex.com/us/item/6227/" target="_blank">
-
 <img class="icons icons1" src="images/icons/bloods/bg2/llama.png" alt="Icon" />
-
 Llama
 </a>
 
-</div>
-<!-- bg2-llama ButtonT0 -->
-
-
-<!-- bg2-ox ButtonT0 -->
-<div class="button darkBg t0">
+<br />
 
 <a title="Ox Blood" class="links2" href="https://bdocodex.com/us/item/6206/" target="_blank">
-
 <img class="icons icons1" src="images/icons/bloods/bg2/ox.png" alt="Icon" />
-
 Ox
 </a>
 
-</div>
-<!-- bg2-ox ButtonT0 -->
-
-
-<!-- bg2-pig ButtonT0 -->
-<div class="button darkBg t0">
+<br />
 
 <a title="Pig Blood" class="links2" href="https://bdocodex.com/us/item/6205/" target="_blank">
-
 <img class="icons icons1" src="images/icons/bloods/bg2/pig.png" alt="Icon" />
-
 Pig
 </a>
 
-</div>
-<!-- bg2-pig ButtonT0 -->
-
-<!-- bg2-sheep ButtonT0 -->
-<div class="button darkBg t0">
+<br />
 
 <a title="Sheep Blood" class="links2" href="https://bdocodex.com/us/item/6202/" target="_blank">
 
 <img class="icons icons1" src="images/icons/bloods/bg2/sheep.png" alt="Icon" />
-
 Sheep
 </a>
 
-</div>
-<!-- bg2-sheep ButtonT0 -->
-
-<!-- bg2-waragon ButtonT0 -->
-<div class="button darkBg t0">
+<br />
 
 <a title="Waragon Blood" class="links2" href="https://bdocodex.com/us/item/6215/" target="_blank">
-
 <img class="icons icons1" src="images/icons/bloods/bg2/waragon.png" alt="Icon" />
-
 Waragon
 </a>
 
-</div>
-<!-- bg2-waragon ButtonT0 -->
 
+<!-- blood-group-2-notes Button -->
+<div class="button notes">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-group-2-notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+Notes
+<img class="icons icons6" src="images/icons/menu/notes.png" alt="Icon" />
+</a>
+
+</div>
+<!-- blood-group-2-notes Button End -->
+
+
+<!-- blood-group-2-notes Button -->
+<div id="blood-group-2-notes" class="hidden notes-container">
+
+
+<!-- blood-group-2-UsedIn Button -->
+<div class="button usedin">
+
+<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('blood-group-2-UsedIn');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+Used In Recipe
+<img class="icons icons6" src="images/icons/menu/checklist-notes.png" alt="Icon" />
+</a>
+
+
+<div class="right">
+<a title="Blood Group 2" class="links" href="https://bdocodex.com/us/materialgroup/17/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- blood-group-2-UsedIn Button End -->
+
+<!-- blood-group-2-UsedIn -->
+<div id="blood-group-2-UsedIn" class="hidden usedin-container">
+
+<a title="All Damage Reduction +5" class="links2" href="https://bdocodex.com/us/item/716/" target="_blank">
+<img class="icons icons1" src="images/icons/pots/defense.png" alt="Icon" />
+Defense Elixir
+</a>
+
+<br />
+
+<a title="Sinner's Blood" class="links2" href="https://bdocodex.com/us/item/6354/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/sinners.png" alt="Icon" />
+Sinner's Blood
+</a>
+
+<br />
+<a title="Blood Group 2" class="links" href="https://bdocodex.com/us/materialgroup/17/" target="_blank">And More...</a>
+</div>
+<!-- blood-group-2-UsedIn End -->
+
+</div>
+<!-- blood-group-2-notes Button End -->
 
 </div>
 <!-- blood-group-2-items End -->

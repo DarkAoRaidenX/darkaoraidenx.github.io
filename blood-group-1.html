@@ -7,57 +7,25 @@
 	<meta name="description" content="" />
 	<link rel="stylesheet" href="scripts/css/common.css" />
 	<link rel="icon" type="image/x-icon" href="images/fav/bloods.ico">
-	
-<script src="scripts/jquery/3.6.0.js"></script> 
-
-<script src="scripts/jquery/ui-1.13.1.js"></script>	
-	
-<script>
-<!--
-function toggleDiv(divId) {
-   $("#"+divId).toggle();
-}
-//-->
-</script>
-
-
-<!-- Kiriak -->
-<script>
-$(document).ready(function ()
-{
-
-    $('.buttonLink').each(function ()
-    {
-
-$(this).click(function ()
-    {
-	console.log('clicked');
-        var content=$(this).find(".dotPlus").html();
-        if (content=='+') content='-';
-        else content='+';
-       $(this).find(".dotPlus").html(content);
-
-    });
-    });
-	
-});
-</script>
-<!-- Kiriak Script -->
-
+	<script src="scripts/jquery/3.6.0.js"></script> 
+	<script src="scripts/jquery/plus-minus.js"></script>
+	<script src="scripts/jquery/toggle-div.js"></script>
+	<script src="scripts/jquery/ui-1.13.1.js"></script>
 </head>
 <body id="home-page">
 
 <!-- blood-group-1-container -->
 <div id="blood-group-1-container" class="container bloods" draggable="true" ondragstart="drag(event)">
 
-<!-- blood-group-1 ButtonT0 -->
-<div class="redBg button t0 top">
+
+<!-- blood-group-1 Button -->
+<div class="button redBg1 top">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-group-1-items');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div>
 
@@ -66,68 +34,134 @@ Blood Group 1
 </a>
 
 <div class="right">
+
+<div class="dots">
+<span class="circleText amount">1</span>
+</div>
+
+<a title="Blood Group 1" class="links" href="https://bdocodex.com/us/materialgroup/16/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- blood-group-1 Button End-->
+
+<!-- blood-group-1-items -->
+<div id="blood-group-1-items" class="info hidden">
+
+
+<a title="Cheetah Dragon Blood" class="links2" href="https://bdocodex.com/us/item/6216/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg1/cheetah-dragon.png" alt="Icon" />
+Cheetah Dragon
+</a>
+
+<br />
+
+<a title="Flamingo Blood" class="links2" href="https://bdocodex.com/us/item/6218/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg1/flamingo.png" alt="Icon" />
+Flamingo
+</a>
+
+<br />
+
+<a title="Rhino Blood" class="links2" href="https://bdocodex.com/us/item/6204/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg1/rhino.png" alt="Icon" />
+Rhino
+</a>
+
+<br />
+
+
+<a title="Wolf Blood" class="links2" href="https://bdocodex.com/us/item/6214/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg1/wolf.png" alt="Icon" />
+Wolf
+</a>
+
+
+
+<!-- blood-group-1-notes Button -->
+<div class="button notes">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-group-1-notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+Notes
+<img class="icons icons6" src="images/icons/menu/notes.png" alt="Icon" />
+</a>
+
+</div>
+<!-- blood-group-1-notes Button End -->
+
+
+<!-- blood-group-1-notes Button -->
+<div id="blood-group-1-notes" class="hidden notes-container">
+
+
+<!-- blood-group-1-UsedIn Button -->
+<div class="button usedin">
+
+<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('blood-group-1-UsedIn');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+Used In Recipe
+<img class="icons icons6" src="images/icons/menu/checklist-notes.png" alt="Icon" />
+</a>
+
+
+<div class="right">
 <a title="Blood Group 1" class="links" href="https://bdocodex.com/us/materialgroup/16/" target="_blank">🔗</a>
 </div>
 
 </div>
-<!-- blood-group-1 ButtonT0 End-->
+<!-- blood-group-1-UsedIn Button End -->
 
-<!-- blood-group-1-items -->
-<div id="blood-group-1-items" class="hidden">
+<!-- blood-group-1-UsedIn -->
+<div id="blood-group-1-UsedIn" class="hidden usedin-container">
 
-
-<!-- bg1-cheetah-dragon ButtonT0 -->
-<div class="button darkBg t0">
-
-<a title="Cheetah Dragon Blood" class="links2" href="https://bdocodex.com/us/item/6216/" target="_blank">
-
-<img class="icons icons1" src="images/icons/bloods/bg1/cheetah-dragon.png" alt="Icon" />
-
-Cheetah Dragon
+<a title="Clown's Blood" class="links2" href="https://bdocodex.com/us/item/6353/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/clowns.png" alt="Icon" />
+Clown's Blood
 </a>
 
-</div>
-<!-- bg1-cheetah-dragon ButtonT0 -->
+<br />
 
-<!-- bg1-flamingo ButtonT0 -->
-<div class="button darkBg t0">
-
-<a title="Flamingo Blood" class="links2" href="https://bdocodex.com/us/item/6218/" target="_blank">
-
-<img class="icons icons1" src="images/icons/bloods/bg1/flamingo.png" alt="Icon" />
-
-Flamingo
+<a title="Debuff Resistance Against Monsters +10%" class="links2" href="https://bdocodex.com/us/item/706/" target="_blank">
+<img class="icons icons1" src="images/icons/pots/resistance.png" alt="Icon" />
+Elixir of Resistance
 </a>
 
-</div>
-<!-- bg1-flamingo ButtonT0 -->
+<br />
 
-<!-- bg1-rhino ButtonT0 -->
-<div class="button darkBg t0">
-
-<a title="Rhino Blood" class="links2" href="https://bdocodex.com/us/item/6204/" target="_blank">
-
-<img class="icons icons1" src="images/icons/bloods/bg1/rhino.png" alt="Icon" />
-
-Rhino
+<a title="Underwater Breathing +10 sec" class="links2" href="https://bdocodex.com/us/item/694/" target="_blank">
+<img class="icons icons1" src="images/icons/pots/seal.png" alt="Icon" />
+Elixir of Seal
 </a>
 
-</div>
-<!-- bg1-rhino ButtonT0 -->
+<br />
 
-
-<!-- bg1-wolf ButtonT0 -->
-<div class="button darkBg t0">
-
-<a title="Wolf Blood" class="links2" href="https://bdocodex.com/us/item/6214/" target="_blank">
-
-<img class="icons icons1" src="images/icons/bloods/bg1/wolf.png" alt="Icon" />
-
-Wolf
+<a title="Damage Received from Monsters -7.5%" class="links2" href="https://bdocodex.com/us/item/702/" target="_blank">
+<img class="icons icons1" src="images/icons/pots/will.png" alt="Icon" />
+Elixir of Will
 </a>
 
+<br />
+<a title="Blood Group 1" class="links" href="https://bdocodex.com/us/materialgroup/16/" target="_blank">And More...</a>
 </div>
-<!-- bg1-wolf ButtonT0 -->
+<!-- blood-group-1-UsedIn End -->
+
+</div>
+<!-- blood-group-1-notes Button End -->
+
 
 
 </div>

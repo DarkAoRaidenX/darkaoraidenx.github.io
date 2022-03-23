@@ -7,43 +7,10 @@
 	<meta name="description" content="" />
 	<link rel="stylesheet" href="scripts/css/common.css" />
 	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
-	
-<script src="scripts/jquery/3.6.0.js"></script> 
-
-<script src="scripts/jquery/ui-1.13.1.js"></script>	
-	
-<script>
-<!--
-function toggleDiv(divId) {
-   $("#"+divId).toggle();
-}
-//-->
-</script>
-
-<!-- Kiriak -->
-<script>
-$(document).ready(function ()
-{
-
-    $('.buttonLink').each(function ()
-    {
-
-$(this).click(function ()
-    {
-	console.log('clicked');
-        var content=$(this).find(".dotPlus").html();
-        if (content=='+') content='-';
-        else content='+';
-       $(this).find(".dotPlus").html(content);
-
-    });
-    });
-	
-});
-</script>
-<!-- Kiriak Script -->
-
-
+	<script src="scripts/jquery/3.6.0.js"></script> 
+	<script src="scripts/jquery/plus-minus.js"></script>
+	<script src="scripts/jquery/toggle-div.js"></script>
+	<script src="scripts/jquery/ui-1.13.1.js"></script>	
 </head>
 <body id="home-page">
 
@@ -51,61 +18,65 @@ $(this).click(function ()
 <div id="item-PPR" class="container" draggable="true" ondragstart="drag(event)">
 
 
-<!-- recipe-PPR ButtonT1 -->
-<div class="button t1 top">
+<!-- recipe-PPR Button -->
+<div class="button ppr top">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('recipe-PPR');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
- <img class="icons icons1" src="images/icons/alchemy/pure-powder-reagent.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/alchemy/pure-powder-reagent.png" alt="Icon" />
 Pure Powder Reagent
 </a>
 
 <div class="right">
-<a title="Pure Powder Reagent" class="links" href="https://bdocodex.com/us/item/5302/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
+<a title="Pure Powder Reagent" class="links" href="https://bdocodex.com/us/item/5302/" target="_blank">🔗</a>
+
 </div>
-<!-- recipe-PPR ButtonT1 End -->
+
+
+</div>
+<!-- recipe-PPR Button End -->
 
 <!-- recipe-PPR -->
 <div id="recipe-PPR" class="hidden">
 
-<!-- PPR-Grass ButtonT3 -->
-<div class="button t3">
+<!-- PPR-Grass Button -->
+<div class="button blueBg4">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PPR-Grass');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
-<img class="icons icons1" src="images/icons/gathering/weeds.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/gathering/wild-grass.png" alt="Icon" />
 Grass
 </a>
+
+<div class="right">
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-<div class="right">
-<a title="Weeds" class="links" href="https://bdocodex.com/us/item/5439/" target="_blank">🔗</a>
 <a title="Wild Grass" class="links" href="https://bdocodex.com/us/item/5600/" target="_blank">🔗</a>
+
 </div>
 
 </div>
-<!-- PPR-Grass ButtonT3  End -->
+<!-- PPR-Grass Button  End -->
 
 <!-- PPR-Grass -->
 <div id="PPR-Grass" class="hidden">
@@ -129,14 +100,14 @@ WIld Grass
 <!-- PPR-Grass End-->
 
 
-<!-- PPR-PW ButtonT3 -->
-<div class="button t3">
+<!-- PPR-PW Button -->
+<div class="button blueBg4">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PPR-PW');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -144,21 +115,23 @@ WIld Grass
 Purified Water
 </a>
 
+<div class="right">
+
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-<div class="right">
 <a title="Purified Water" class="links" href="https://bdocodex.com/us/item/6656/" target="_blank">🔗</a>
+
 </div>
 
 </div>
-<!-- PPR-PW ButtonT3  End -->
+<!-- PPR-PW Button  End -->
 
 <!-- PPR-PW -->
 <div id="PPR-PW" class="hidden potLinks">
 
-<div class="button">
+<div class="button blueBg4">
 <a title="Bottle of Clean Water" class="links2" href="https://bdocodex.com/us/item/6655/" target="_blank">
 <img class="icons icons1" src="images/icons/waters/clean.png" alt="Icon" />
 Bottle of Clean Water
@@ -187,14 +160,14 @@ Bottle of River Water
 </div>
 <!-- PPR-PW End-->
 
-<!-- PPR-Sugar ButtonT3 -->
-<div class="button t3">
+<!-- PPR-Sugar Button -->
+<div class="button blueBg4">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PPR-Sugar');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -203,15 +176,18 @@ Sugar
 </a>
 
 <div class="right">
-<a title="Sugar" class="links" href="https://bdocodex.com/us/item/9002/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
+<a title="Sugar" class="links" href="https://bdocodex.com/us/item/9002/" target="_blank">🔗</a>
+
 </div>
-<!-- PPR-Sugar ButtonT3  End -->
+
+
+</div>
+<!-- PPR-Sugar Button  End -->
 
 <!-- PPR-Sugar -->
 <div id="PPR-Sugar" class="hidden">
@@ -222,31 +198,34 @@ NPC Food Vendor or Innkeeper.
 <!-- PPR-Sugar End-->
 
 
-<!-- PPR-SA ButtonT3 -->
-<div class="button t3">
+<!-- PPR-SA Button -->
+<div class="button blueBg4">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PPR-SA');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
- <img class="icons icons1" src="images/icons/nodes/plants/silver-azalea.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/nodes/plants/silver-azalea.png" alt="Icon" />
 Silver Azalea
 </a>
 
 <div class="right">
-<a title="Silver Azalea" class="links" href="https://bdocodex.com/us/item/5402/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
+<a title="Silver Azalea" class="links" href="https://bdocodex.com/us/item/5402/" target="_blank">🔗</a>
+
 </div>
-<!-- PPR-SA ButtonT3 End -->
+
+
+</div>
+<!-- PPR-SA Button End -->
 
 <!-- PPR-SA -->
 <div id="PPR-SA" class="hidden">
@@ -262,20 +241,20 @@ Lynch Farm Ruins
 
 <a title="Northern Plain of Serendia" class="links2" href="https://www.somethinglovely.net/bdo/#node/463" target="_blank">
 <img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
-Nothern Plain of Serendia
+Northern Plain of Serendia
 </a>
 
 </div>
 <!-- PPR-SA -->
 
-<!-- PPR-Notes ButtonT1 -->
-<div class="button t1">
+<!-- PPR-Notes Button -->
+<div class="button notes">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PPR-Notes');">
 
-<div class="left top">
+<div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -284,20 +263,20 @@ Notes
 </a>
 
 </div>
-<!-- PPR-Notes ButtonT1 End -->
+<!-- PPR-Notes Button End -->
 
 
 <!-- PPR-Notes -->
-<div id="PPR-Notes" class="notes hidden">
+<div id="PPR-Notes" class="hidden notes-container">
 
-<!-- PPR-Notes-Cheapest ButtonT2 -->
-<div class="button h1 t2">
+<!-- PPR-Notes-Cheapest Button -->
+<div class="button cheapest">
 
 <a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('PPR-Notes-Cheapest');">
 
-<div class="left top">
+<div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -305,25 +284,31 @@ Cheapest CP Nodes
 <img class="icons icons6" src="images/icons/nodes/connect2.png" alt="Icon" />
 </a>
 
+<div class="right">
+
 <div class="dots">
-	<span class="amount">2</span>
+	<span class="circleText amount">2</span>
 </div>
-<span class="spacer">&nbsp;</span>
+
+<a title="Somethinglovely.net" class="links" href="https://www.somethinglovely.net/bdo/" target="_blank">🔗</a>
 
 </div>
-<!-- PPR-Notes-Cheapest ButtonT2 End -->
+
+
+</div>
+<!-- PPR-Notes-Cheapest Button End -->
 
 <!-- PPR-Notes-Cheapest -->
-<div id="PPR-Notes-Cheapest" class="hidden">
+<div id="PPR-Notes-Cheapest" class="cheapest-container hidden">
 
-<!-- PPR-SA-notes ButtonT4 -->
-<div class="button t3">
+<!-- PPR-SA-notes Button -->
+<div class="button blueBg3">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PPR-SA-notes');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -332,17 +317,18 @@ Silver Azalea
 </a>
 
 <div class="right">
-<a title="Silver Azalea" class="links" href="https://bdocodex.com/us/item/5402/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">2</span>
 </div>
 
+<a title="Silver Azalea" class="links" href="https://bdocodex.com/us/item/5402/" target="_blank">🔗</a>
 </div>
-<!-- PPR-SA-notes ButtonT4 End -->
 
-<!-- PPR-SA-notes -->
+</div>
+<!-- PPR-SA-notes Button End -->
+
+<!-- PPR-SA-notes Button -->
 <div id="PPR-SA-notes" class="hidden">
 
 
@@ -363,20 +349,20 @@ Nothern Plain of Serendia
 
 
 </div>
-<!-- PPR-SA-notes -->
+<!-- PPR-SA-notes Button -->
 
 </div>
 <!-- PPR-Notes-Cheapest End -->
 
 
-<!-- PPR-Notes-UsedInButtonT1 -->
-<div class="button h1 t2">
+<!-- PPR-Notes-UsedInButton -->
+<div class="button usedin">
 
 <a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('PPR-Notes-UsedIn');">
 
-<div class="left top">
+<div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -390,10 +376,10 @@ Used In Recipe
 </div>
 
 </div>
-<!-- PPR-Notes-UsedInButtonT1 End -->
+<!-- PPR-Notes-UsedInButton End -->
 
 <!-- PPR-Notes-UsedIn -->
-<div id="PPR-Notes-UsedIn" class="hidden">
+<div id="PPR-Notes-UsedIn" class="hidden usedin-container">
 
 
 <a title="Back Attack Damage +10%" class="links2" href="https://bdocodex.com/us/item/696/" target="_blank">
@@ -446,6 +432,8 @@ Tyrant's Blood
 
 </div>
 <!-- recipe-PPR End -->
+
+
 
 
 </div>

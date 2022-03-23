@@ -7,42 +7,10 @@
 	<meta name="description" content="" />
 	<link rel="stylesheet" href="scripts/css/common.css" />
 	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
-	
-<script src="scripts/jquery/3.6.0.js"></script> 
-
-<script src="scripts/jquery/ui-1.13.1.js"></script>	
-	
-<script>
-<!--
-function toggleDiv(divId) {
-   $("#"+divId).toggle();
-}
-//-->
-</script>
-
-<!-- Kiriak -->
-<script>
-$(document).ready(function ()
-{
-
-    $('.buttonLink').each(function ()
-    {
-
-$(this).click(function ()
-    {
-	console.log('clicked');
-        var content=$(this).find(".dotPlus").html();
-        if (content=='+') content='-';
-        else content='+';
-       $(this).find(".dotPlus").html(content);
-
-    });
-    });
-	
-});
-</script>
-<!-- Kiriak Script -->
-
+	<script src="scripts/jquery/3.6.0.js"></script> 
+	<script src="scripts/jquery/plus-minus.js"></script>
+	<script src="scripts/jquery/toggle-div.js"></script>
+	<script src="scripts/jquery/ui-1.13.1.js"></script>
 </head>
 <body id="home-page">
 
@@ -50,13 +18,13 @@ $(this).click(function ()
 <!-- potExp-Container -->
 <div id="potExp-Container" class="container pots" draggable="true" ondragstart="drag(event)">
 
-<!-- potExp-Recipe ButtonT1 -->
-<div class="button darkBg t1 top">
+<!-- potExp-Recipe Button -->
+<div class="button darkBg1 top">
 
-<a title="Content Button" class="buttonLink green" href="javascript:toggleDiv('potExp-Recipe-Container');">
+<a title="Content Button" class="buttonLink green1" href="javascript:toggleDiv('potExp-Recipe-Container');">
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 <img class="icons icons1" src="images/icons/pots/exp.png" alt="Icon" />
@@ -68,20 +36,20 @@ EXP Elixir (10% Exp)
 </div>
 
 </div>
-<!-- potExp-Recipe ButtonT1 End -->
+<!-- potExp-Recipe Button End -->
 
 <!-- potExp-Recipe-Container -->
 <div id="potExp-Recipe-Container" class="hidden">
 
 
-<!-- potExp-blood-clowns-recipe ButtonT2 -->
-<div class="redBg button t2">
+<!-- Pot-Exp-CB-Recipe Button -->
+<div class="button redBg1">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potExp-blood-clowns-recipe');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Pot-Exp-CB-Recipe');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div>
 
@@ -90,73 +58,86 @@ Clown's Blood
 </a>
 
 <div class="right">
+
+<div class="dots">
+<span class="circleText amount">1</span>
+</div>
+
 <a title="Clown's Blood" class="links" href="https://bdocodex.com/us/item/6353/" target="_blank">🔗</a>
 </div>
 
 </div>
-<!-- potExp-blood-clowns-recipe ButtonT2 End-->
+<!-- Pot-Exp-CB-Recipe Button End-->
 
-<!-- potExp-blood-clowns-recipe -->
-<div id="potExp-blood-clowns-recipe" class="hidden">
+<!-- Pot-Exp-CB-Recipe -->
+<div id="Pot-Exp-CB-Recipe" class="hidden">
 
-<!-- potExp-clr-blood-clowns ButtonT2 -->
-<div class="button t2">
+<!-- Pot-Exp-CB-CLR Button -->
+<div class="button clr">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potExp-clr-blood-clowns');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Pot-Exp-CB-CLR');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
- <img class="icons icons1" src="images/icons/alchemy/clear-liquid-reagent.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/alchemy/clear-liquid-reagent.png" alt="Icon" />
 Clear Liquid Reagent
 </a>
 
 <div class="right">
-<a title="Clear Liquid Reagent" class="links" href="https://bdocodex.com/us/recipe/47/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
+<a title="Clear Liquid Reagent" class="links" href="https://bdocodex.com/us/item/5301/" target="_blank">🔗</a>
+
 </div>
-<!-- potExp-clr-blood-clowns ButtonT2 End -->
 
-<!-- potExp-clr-blood-clowns -->
-<div id="potExp-clr-blood-clowns" class="hidden">
 
-<!-- potExp-blood-clowns-Grass ButtonT4 -->
-<div class="button t4">
+</div>
+<!-- Pot-Exp-CB-CLR Button End -->
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potExp-blood-clowns-Grass');">
+<!-- Pot-Exp-CB-CLR -->
+<div id="Pot-Exp-CB-CLR" class="hidden">
+
+
+<!-- CLR-Grass Button -->
+<div class="button blueBg4">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('CLR-Grass');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
-<img class="icons icons1" src="images/icons/gathering/weeds.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/gathering/wild-grass.png" alt="Icon" />
 Grass
 </a>
+
+
+<div class="right">
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-<div class="right">
-<a title="Weeds" class="links" href="https://bdocodex.com/us/item/5439/" target="_blank">🔗</a>
 <a title="Wild Grass" class="links" href="https://bdocodex.com/us/item/5600/" target="_blank">🔗</a>
+
 </div>
 
 </div>
-<!-- potExp-blood-clowns-Grass ButtonT4  End -->
+<!-- CLR-Grass Button  End -->
 
-<!-- potExp-blood-clowns-Grass -->
-<div id="potExp-blood-clowns-Grass" class="hidden">
+
+<!-- CLR-Grass -->
+<div id="CLR-Grass" class="info hidden">
+
 
 <a title="Weeds" class="links2" href="https://bdocodex.com/us/item/5600/" target="_blank">
 <img class="icons icons1" src="images/icons/gathering/weeds.png" alt="Icon" />
@@ -174,17 +155,17 @@ WIld Grass
 
 
 </div>
-<!-- potExp-blood-clowns-Grass End-->
+<!-- CLR-Grass End-->
 
 
-<!-- potExp-blood-clowns-PW ButtonT4 -->
-<div class="button t4">
+<!-- CLR-PW Button -->
+<div class="button blueBg4">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potExp-blood-clowns-PW');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('CLR-PW');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -192,22 +173,28 @@ WIld Grass
 Purified Water
 </a>
 
+
+<div class="right">
+
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-<div class="right">
 <a title="Purified Water" class="links" href="https://bdocodex.com/us/item/6656/" target="_blank">🔗</a>
-</div>
 
 </div>
-<!-- potExp-blood-clowns-PW ButtonT4  End -->
 
-<!-- potExp-blood-clowns-PW -->
-<div id="potExp-blood-clowns-PW" class="hidden potLinks">
+</div>
+<!-- CLR-PW Button  End -->
 
-<div class="button">
+<!-- CLR-PW -->
+<div id="CLR-PW" class="info hidden">
+
+
+<!-- CLR-CW Button -->
+
 <a title="Bottle of Clean Water" class="links2" href="https://bdocodex.com/us/item/6655/" target="_blank">
+
 <img class="icons icons1" src="images/icons/waters/clean.png" alt="Icon" />
 Bottle of Clean Water
 </a>
@@ -218,31 +205,42 @@ Bottle of Clean Water
 
 <img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
 
+
+<!-- CLR-CW Button End -->
+
 <br />
 
+<!-- CLR-RW Button -->
+
 <a title="Bottle of River Water" class="links2" href="https://bdocodex.com/us/item/6653/" target="_blank">
+
 <img class="icons icons1" src="images/icons/waters/river.png" alt="Icon" />
 Bottle of River Water
 </a>
+
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
 <img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
-</div>
+
+
+<!-- CLR-RW Button End -->
+
+
 
 </div>
-<!-- potExp-blood-clowns-PW End-->
+<!-- CLR-PW End-->
 
-<!-- potExp-blood-clowns-Salt ButtonT4 -->
-<div class="button t4">
+<!-- CLR-Salt Button -->
+<div class="button blueBg4">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potExp-blood-clowns-Salt');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('CLR-Salt');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -251,60 +249,59 @@ Salt
 </a>
 
 <div class="right">
-<a title="Salt" class="links" href="https://bdocodex.com/us/item/9001/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-</div>
-<!-- potExp-blood-clowns-Salt ButtonT4  End -->
+<a title="Salt" class="links" href="https://bdocodex.com/us/item/9001/" target="_blank">🔗</a>
 
-<!-- potExp-blood-clowns-Salt -->
-<div id="potExp-blood-clowns-Salt" class="hidden">
+</div>
+
+
+</div>
+<!-- CLR-Salt Button  End -->
+
+<!-- CLR-Salt -->
+<div id="CLR-Salt" class="info hidden">
 
 NPC Food Vendor or Innkeeper.
 
 </div>
-<!-- potExp-blood-clowns-Salt End-->
+<!-- CLR-Salt End-->
 
 
-<!-- potExp-blood-clowns-SRH ButtonT4 -->
-<div class="button t4">
+<!-- CLR-SRH Button -->
+<div class="button blueBg4">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potExp-blood-clowns-SRH');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('CLR-SRH');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
- <img class="icons icons1" src="images/icons/nodes/plants/sunrise-herb.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/nodes/plants/sunrise-herb.png" alt="Icon" />
 Sunrise Herb
 </a>
 
 <div class="right">
-<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
+<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
+
 </div>
-<!-- potExp-blood-clowns-SRH ButtonT4 End -->
 
-<!-- potExp-blood-clowns-SRH -->
-<div id="potExp-blood-clowns-SRH" class="hidden">
 
-<p class="h2 gold2">3CP Velia</p>
+</div>
+<!-- CLR-SRH Button End -->
 
-<a title="Cron Castle Site" class="links2" href="https://www.somethinglovely.net/bdo/#node/41" target="_blank">
-<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
-Cron Castle Site
-</a>
+<!-- CLR-SRH -->
+<div id="CLR-SRH" class="info hidden">
 
 <p class="h2 gold2">4CP Velia</p>
 
@@ -313,58 +310,63 @@ Cron Castle Site
 Balenos Forest
 </a>
 
+<p class="h2 gold2">5CP Velia</p>
+
+<a title="Cron Castle Site" class="links2" href="https://www.somethinglovely.net/bdo/#node/3" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Cron Castle Site
+</a>
+</div>
+<!-- CLR-SRH -->
 
 
 </div>
-<!-- potExp-blood-clowns-SRH -->
+<!-- Pot-Exp-CB-CLR End -->
 
+<!-- Pot-Exp-CB-PoD Button -->
+<div class="button blueBg3">
 
-
-
-</div>
-<!-- potExp-clr-blood-clowns End -->
-
-
-<!-- potExp-blood-clowns-PoD ButtonT3 -->
-<div class="button t3">
-
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potExp-blood-clowns-PoD');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Pot-Exp-CB-PoD');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
- <img class="icons icons1" src="images/icons/powder/darkness.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/powder/darkness.png" alt="Icon" />
 Powder of Darkness
 </a>
 
 <div class="right">
-<a title="Powder of Darkness" class="links" href="https://bdocodex.com/us/item/4801/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-</div>
-<!-- potExp-blood-clowns-PoD ButtonT3 End -->
+<a title="Powder of Darkness" class="links" href="https://bdocodex.com/us/item/4801/" target="_blank">🔗</a>
 
-<!-- potExp-blood-clowns-PoD -->
-<div id="potExp-blood-clowns-PoD" class="hidden">
+</div>
+
+
+
+</div>
+<!-- Pot-Exp-CB-PoD Button End -->
+
+<!-- Pot-Exp-CB-PoD -->
+<div id="Pot-Exp-CB-PoD" class="info hidden">
 
 <p class="h2 gold2">1CP Velia</p>
 
 <a title="Coastal Cave" class="links2" href="https://www.somethinglovely.net/bdo/#node/46" target="_blank">
-<img class="icons icons5" src="images/icons/nodes/connect3.png" alt="Icon" />
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
 Coastal Cave
 </a>
 
 <p class="h2 gold2">2CP Velia</p>
 
 <a title="Coastal Cliff" class="links2" href="https://www.somethinglovely.net/bdo/#node/49" target="_blank">
-<img class="icons icons5" src="images/icons/nodes/connect3.png" alt="Icon" />
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
 Coastal Cliff
 </a>
 
@@ -372,48 +374,51 @@ Coastal Cliff
 
 <a title="Abandoned Iron Mine" class="links2" href="https://www.somethinglovely.net/bdo/#node/1144" target="_blank">
 <img class="icons icons6" src="images/icons/nodes/triangle.png" alt="Icon" />
-Abandoned Iron Mine 
+Abandoned Iron Mine (Altinova)
 </a>
 
 <p class="h2 gold2">4CP Heidel</p>
 
 <a title="Northern Heidel Quarry" class="links2" href="https://www.somethinglovely.net/bdo/#node/326" target="_blank">
-<img class="icons icons5" src="images/icons/nodes/connect3.png" alt="Icon" />
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
 Northern Heidel Quarry
 </a>
 
 </div>
-<!-- potExp-blood-clowns-PoD End -->
+<!-- Pot-Exp-CB-PoD End -->
 
 
-<!-- potExp-blood-clowns-SL ButtonT3 -->
-<div class="button t3">
+<!-- Pot-Exp-CB-SL Button -->
+<div class="button blueBg3">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potExp-blood-clowns-SL');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Pot-Exp-CB-SL');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
- <img class="icons icons1" src="images/icons/nodes/plants/spirits-leaf.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/nodes/plants/spirits-leaf.png" alt="Icon" />
 Spirit's Leaf
 </a>
 
 <div class="right">
-<a title="Spirit's Leaf" class="links" href="https://bdocodex.com/us/item/5006/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-</div>
-<!-- potExp-blood-clowns-SL ButtonT3 End -->
+<a title="Spirit's Leaf" class="links" href="https://bdocodex.com/us/item/5006/" target="_blank">🔗</a>
 
-<!-- potExp-blood-clowns-SL -->
-<div id="potExp-blood-clowns-SL" class="hidden">
+</div>
+
+
+</div>
+<!-- Pot-Exp-CB-SL Button End -->
+
+<!-- Pot-Exp-CB-SL -->
+<div id="Pot-Exp-CB-SL" class="info hidden">
 
 <p class="h2 gold2">1CP Trent</p>
 
@@ -425,32 +430,31 @@ Lumberjack's Rest Area
 
 <p class="h2 gold2">4CP Velia</p>
 
-<a title="Balenos Forest" class="links2" href="https://www.somethinglovely.net/bdo/#node/44" target="_blank">
-<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
-Balenos Forest
-</a>
-
-
-<p class="h2 gold2">4CP Velia</p>
-
 <a title="Goblin Cave" class="links2" href="https://www.somethinglovely.net/bdo/#node/23" target="_blank">
 <img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
 Goblin Cave
 </a>
 
 
+<p class="h2 gold2">5CP Velia</p>
+
+<a title="Balenos Forest" class="links2" href="https://www.somethinglovely.net/bdo/#node/44" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect2.png" alt="Icon" />
+Balenos Forest
+</a>
+
 </div>
-<!-- potExp-blood-clowns-SL End -->
+<!-- Pot-Exp-CB-SL End -->
 
 
-<!-- potExp-blood-clowns-BG1 ButtonT3 -->
-<div class="button t3">
+<!-- Pot-Exp-CB-blood-group-1 Button -->
+<div class="button redBg1">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potExp-blood-clowns-BG1');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Pot-Exp-CB-blood-group-1-items');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div>
 
@@ -458,80 +462,91 @@ Goblin Cave
 Blood Group 1
 </a>
 
-<div class="dots">
-	<span class="circleText amount">2</span>
-</div>
-
 <div class="right">
-<a title="Blood Group 1" class="links" href="https://bdocodex.com/us/materialgroup/16/" target="_blank">🔗</a>
-</div>
-
-</div>
-<!-- potExp-blood-clowns-BG1 ButtonT3 End-->
-
-<!-- potExp-blood-clowns-BG1 -->
-<div id="potExp-blood-clowns-BG1" class="hidden">
-
-<a title="Grey Wolves" class="links2" href="https://bdocodex.com/us/npc/20045/" target="_blank">
-<img class="icons icons2" src="images/icons/mobs/gray-wolf.png" alt="Icon" />
-Grey Wolves 
-</a>
-<img title="Fluid Collector" class="icons icons3" src="images/icons/tools/manos-fluid.png" alt="Icon" />
-
-<br />
-
-<a title="Feather Wolves Hunting" class="links2 gold" href="https://bdocodex.com/us/npc/27641/" target="_blank">
-<img title="Feather Wolves" class="icons icons2" src="images/icons/mobs/feather-wolf.png" alt="Icon" />
-Feather Wolves 
-</a>
-<img title="Hunting Matchlock" class="icons icons1" src="images/icons/tools/matchlock-master.png" alt="Icon" />
-<img title="Butcher Knife" class="icons icons1" src="images/icons/tools/manos-butcher-knife.png" alt="Icon" />
-<br />
-
-<a title="Feather Wolves" class="links2" href="https://bdocodex.com/us/npc/21523/" target="_blank">
-<img title="Feather Wolves" class="icons icons2" src="images/icons/mobs/feather-wolf.png" alt="Icon" />
-Feather Wolves 
-</a>
-<img title="Fluid Collector" class="icons icons3" src="images/icons/tools/manos-fluid.png" alt="Icon" />
-
-
-
-
-</div>
-<!-- potExp-blood-clowns-BG1 -->
-
-
-
-
-</div>
-<!-- potExp-blood-clowns-recipe End -->
-
-
-<!-- potExp-PoF ButtonT2 -->
-<div class="button t2">
-
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potExp-PoF');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus white">+</span>
-	</div>
-</div> 
-
- <img class="icons icons1" src="images/icons/powder/flame.png" alt="Icon" />
-Powder of Flame
-</a>
-
-<div class="right">
-<a title="Powder of Flame" class="links" href="https://bdocodex.com/us/item/4802/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 <span class="circleText amount">2</span>
 </div>
 
+<a title="Blood Group 1" class="links" href="https://bdocodex.com/us/materialgroup/16/" target="_blank">🔗</a>
+
 </div>
-<!-- potExp-PoF ButtonT2 End -->
+
+</div>
+<!-- Pot-Exp-CB-blood-group-1 Button End-->
+
+<!-- Pot-Exp-CB-blood-group-1-items -->
+<div id="Pot-Exp-CB-blood-group-1-items" class="info hidden">
+
+
+<a title="Cheetah Dragon Blood" class="links2" href="https://bdocodex.com/us/item/6216/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg1/cheetah-dragon.png" alt="Icon" />
+Cheetah Dragon
+</a>
+
+<br />
+
+<a title="Flamingo Blood" class="links2" href="https://bdocodex.com/us/item/6218/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg1/flamingo.png" alt="Icon" />
+Flamingo
+</a>
+
+<br />
+
+<a title="Rhino Blood" class="links2" href="https://bdocodex.com/us/item/6204/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg1/rhino.png" alt="Icon" />
+Rhino
+</a>
+
+<br />
+
+
+<a title="Wolf Blood" class="links2" href="https://bdocodex.com/us/item/6214/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg1/wolf.png" alt="Icon" />
+Wolf
+</a>
+
+
+
+</div>
+<!-- Pot-Exp-CB-blood-group-1-items End -->
+
+
+
+
+
+</div>
+<!-- Pot-Exp-CB-Recipe End -->
+
+
+<!-- potExp-PoF Button -->
+<div class="button blueBg2">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potExp-PoF');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/powder/flame.png" alt="Icon" />
+Powder of Flame
+</a>
+
+<div class="right">
+
+<div class="dots">
+<span class="circleText amount">2</span>
+</div>
+
+<a title="Powder of Flame" class="links" href="https://bdocodex.com/us/item/4802/" target="_blank">🔗</a>
+
+</div>
+
+
+</div>
+<!-- potExp-PoF Button End -->
 
 <!-- potExp-PoF -->
 <div id="potExp-PoF" class="hidden">
@@ -554,31 +569,34 @@ Northern Heidel Quarry
 <!-- potExp-PoF End -->
 
 
-<!-- potExp-PS ButtonT2 -->
-<div class="button t2">
+<!-- potExp-PS Button -->
+<div class="button blueBg2">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potExp-PS');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
- <img class="icons icons1" src="images/icons/saps/pine.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/saps/pine.png" alt="Icon" />
 Pine Sap
 </a>
 
 <div class="right">
-<a title="Pine Sap" class="links" href="https://bdocodex.com/us/item/5003/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 <span class="circleText amount">5</span>
 </div>
 
+<a title="Pine Sap" class="links" href="https://bdocodex.com/us/item/5003/" target="_blank">🔗</a>
+
 </div>
-<!-- potExp-PS ButtonT2 End -->
+
+
+</div>
+<!-- potExp-PS Button End -->
 
 <!-- potExp-PS -->
 <div id="potExp-PS" class="hidden">
@@ -603,32 +621,35 @@ Khimut Lumber Camp
 <!-- potExp-PS End -->
 
 
-<!-- potExp-DMG ButtonT2 -->
-<div class="button t2">
+<!-- potExp-DMG Button -->
+<div class="button blueBg2">
 
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potExp-DMG');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
- <img class="icons icons1" src="images/icons/nodes/plants/dry-mane-grass.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/nodes/plants/dry-mane-grass.png" alt="Icon" />
 Dry Mane Grass
 </a>
 
 <div class="right">
-<a title="Dry Mane Grass" class="links" href="https://www.somethinglovely.net/bdo/#node/1668" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 <span class="circleText amount">7</span>
 </div>
 
+<a title="Dry Mane Grass" class="links" href="https://www.somethinglovely.net/bdo/#node/1668" target="_blank">🔗</a>
+
 </div>
-<!-- potExp-DMG ButtonT2 End -->
+
+
+</div>
+<!-- potExp-DMG Button End -->
 
 <!-- potExp-DMG -->
 <div id="potExp-DMG" class="hidden">
@@ -647,14 +668,15 @@ Tshira Ruins
 
 
 
-<!-- potExp-Notes ButtonT1 -->
-<div class="button t1">
+
+<!-- potExp-Notes Button -->
+<div class="button notes">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potExp-Notes');">
 
-<div class="left top">
+<div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -663,16 +685,16 @@ Notes
 </a>
 
 </div>
-<!-- potExp-Notes ButtonT1 End -->
+<!-- potExp-Notes Button End -->
 
 
 <!-- potExp-Notes -->
-<div id="potExp-Notes" class="notes hidden">
+<div id="potExp-Notes" class="hidden notes-container">
 
-<!-- potExp-Notes-Upgraded ButtonT0 -->
-<div class="button darkBg t0">
+<!-- potExp-Notes-Upgraded Button -->
+<div class="button darkBg1">
 
-<a title="Splendid EXP" class="links2 blue" href="https://bdocodex.com/us/item/715/" target="_blank">
+<a title="Splendid EXP" class="links2 blue1" href="https://bdocodex.com/us/item/715/" target="_blank">
 
 <img class="icons icons1" src="images/icons/pots/exp-splendid.png" alt="Icon" />
 
@@ -680,16 +702,16 @@ Splendid EXP (15% Exp)
 </a>
 
 </div>
-<!-- potExp-Notes-Upgraded ButtonT0 End -->
+<!-- potExp-Notes-Upgraded Button End -->
 
-<!-- potExp-Notes-Cheapest ButtonT1 -->
-<div class="button h1 t2">
+<!-- potExp-Notes-Cheapest Button -->
+<div class="button cheapest">
 
 <a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('potExp-Notes-Cheapest');">
 
-<div class="left top">
+<div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -697,25 +719,31 @@ Cheapest CP Nodes
 <img class="icons icons6" src="images/icons/nodes/connect2.png" alt="Icon" />
 </a>
 
+<div class="right">
+
 <div class="dots">
 	<span class="amount">20</span>
 </div>
-<span class="spacer">&nbsp;</span>
+
+<a title="Somethinglovely.net" class="links" href="https://www.somethinglovely.net/" target="_blank">🔗</a>
 
 </div>
-<!-- potExp-Notes-Cheapest ButtonT1 End -->
+
+
+</div>
+<!-- potExp-Notes-Cheapest Button End -->
 
 <!-- potExp-Notes-Cheapest -->
 <div id="potExp-Notes-Cheapest" class="hidden">
 
-<!-- potExp-PoD-notes ButtonT3 -->
-<div class="button t3">
+<!-- potExp-PoD-notes Button -->
+<div class="button blueBg2">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potExp-PoD-notes');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -724,17 +752,20 @@ Powder of Darkness
 </a>
 
 <div class="right">
-<a title="Powder of Darkness" class="links" href="https://bdocodex.com/us/item/4801/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-</div>
-<!-- potExp-PoD-notes ButtonT3 End -->
+<a title="Powder of Darkness" class="links" href="https://bdocodex.com/us/item/4801/" target="_blank">🔗</a>
 
-<!-- potExp-PoD-notes -->
+</div>
+
+
+</div>
+<!-- potExp-PoD-notes Button End -->
+
+<!-- potExp-PoD-notes Button -->
 <div id="potExp-PoD-notes" class="hidden">
 
 <p class="h2 gold2">1CP Velia</p>
@@ -768,17 +799,17 @@ Northern Heidel Quarry
 
 
 </div>
-<!-- potExp-PoD-notes -->
+<!-- potExp-PoD-notes Button -->
 
 
-<!-- potExp-SL-notes ButtonT3 -->
-<div class="button t3">
+<!-- potExp-SL-notes Button -->
+<div class="button blueBg2">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potExp-SL-notes');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -787,17 +818,20 @@ Spirit's Leaf
 </a>
 
 <div class="right">
-<a title="Spirit's Leaf" class="links" href="https://bdocodex.com/us/item/5006/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-</div>
-<!-- potExp-SL-notes ButtonT3 End -->
+<a title="Spirit's Leaf" class="links" href="https://bdocodex.com/us/item/5006/" target="_blank">🔗</a>
 
-<!-- potExp-SL-notes -->
+</div>
+
+
+</div>
+<!-- potExp-SL-notes Button End -->
+
+<!-- potExp-SL-notes Button -->
 <div id="potExp-SL-notes" class="hidden">
 
 <p class="h2 gold2">1CP Trent</p>
@@ -811,7 +845,7 @@ Lumberjack's Rest Area
 <p class="h2 gold2">4CP Velia</p>
 
 <a title="Balenos Forest" class="links2" href="https://www.somethinglovely.net/bdo/#node/44" target="_blank">
-<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/nodes/connect2.png" alt="Icon" />
 Balenos Forest
 </a>
 
@@ -826,37 +860,40 @@ Goblin Cave
 
 
 </div>
-<!-- potExp-SL-notes -->
+<!-- potExp-SL-notes Button -->
 
 
 
-<!-- potExp-PoF-notes ButtonT3 -->
-<div class="button t3">
+<!-- potExp-PoF-notes Button -->
+<div class="button blueBg2">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potExp-PoF-notes');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
- <img class="icons icons1" src="images/icons/powder/flame.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/powder/flame.png" alt="Icon" />
 Powder of Flame
 </a>
 
 <div class="right">
-<a title="Powder of Flame" class="links" href="https://bdocodex.com/us/item/4802/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">3</span>
 </div>
 
-</div>
-<!-- potExp-PoF-notes ButtonT3 End -->
+<a title="Powder of Flame" class="links" href="https://bdocodex.com/us/item/4802/" target="_blank">🔗</a>
 
-<!-- potExp-PoF-notes -->
+</div>
+
+
+</div>
+<!-- potExp-PoF-notes Button End -->
+
+<!-- potExp-PoF-notes Button -->
 <div id="potExp-PoF-notes" class="hidden">
 
 <p class="h2 gold2">3CP Velia</p>
@@ -875,37 +912,40 @@ Northern Heidel Quarry
 
 
 </div>
-<!-- potExp-PoF-notes -->
+<!-- potExp-PoF-notes Button -->
 
 
 
-<!-- potExp-SRH-notes ButtonT3 -->
-<div class="button t3">
+<!-- potExp-SRH-notes Button -->
+<div class="button blueBg2">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potExp-SRH-notes');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
- <img class="icons icons1" src="images/icons/nodes/plants/sunrise-herb.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/nodes/plants/sunrise-herb.png" alt="Icon" />
 Sunrise Herb
 </a>
 
 <div class="right">
-<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">3</span>
 </div>
 
-</div>
-<!-- potExp-SRH-notes ButtonT3 End -->
+<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
 
-<!-- potExp-SRH-notes -->
+</div>
+
+
+</div>
+<!-- potExp-SRH-notes Button End -->
+
+<!-- potExp-SRH-notes Button -->
 <div id="potExp-SRH-notes" class="hidden">
 
 <p class="h2 gold2">3CP Velia</p>
@@ -918,43 +958,46 @@ Cron Castle Site
 <p class="h2 gold2">4CP Velia</p>
 
 <a title="Balenos Forest" class="links2" href="https://www.somethinglovely.net/bdo/#node/44" target="_blank">
-<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/nodes/connect2.png" alt="Icon" />
 Balenos Forest
 </a>
 
 
 
 </div>
-<!-- potExp-SRH-notes -->
+<!-- potExp-SRH-notes Button -->
 
 
-<!-- potExp-DMG-notes ButtonT3 -->
-<div class="button t3">
+<!-- potExp-DMG-notes Button -->
+<div class="button blueBg2">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potExp-DMG-notes');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
- <img class="icons icons1" src="images/icons/nodes/plants/dry-mane-grass.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/nodes/plants/dry-mane-grass.png" alt="Icon" />
 Dry Mane Grass
 </a>
 
 <div class="right">
-<a title="Dry Mane Grass" class="links" href="https://www.somethinglovely.net/bdo/#node/1668" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 <span class="circleText amount">4</span>
 </div>
 
-</div>
-<!-- potExp-DMG-notes ButtonT3 End -->
+<a title="Dry Mane Grass" class="links" href="https://www.somethinglovely.net/bdo/#node/1668" target="_blank">🔗</a>
 
-<!-- potExp-DMG-notes -->
+</div>
+
+
+</div>
+<!-- potExp-DMG-notes Button End -->
+
+<!-- potExp-DMG-notes Button -->
 <div id="potExp-DMG-notes" class="hidden">
 
 <p class="h2 gold2">4CP Duvencrune</p>
@@ -966,17 +1009,17 @@ Tshira Ruins
 
 
 </div>
-<!-- potExp-DMG-notes End -->
+<!-- potExp-DMG-notes Button End -->
 
 
-<!-- potExp-PS-notes ButtonT3 -->
-<div class="button t3">
+<!-- potExp-PS-notes Button -->
+<div class="button blueBg2">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potExp-PS-notes');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -985,17 +1028,20 @@ Pine Sap
 </a>
 
 <div class="right">
-<a title="Pine Sap" class="links" href="https://bdocodex.com/us/item/5003/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 <span class="circleText amount">8</span>
 </div>
 
-</div>
-<!-- potExp-PS-notes ButtonT3 End -->
+<a title="Pine Sap" class="links" href="https://bdocodex.com/us/item/5003/" target="_blank">🔗</a>
 
-<!-- potExp-PS-notes -->
+</div>
+
+
+</div>
+<!-- potExp-PS-notes Button End -->
+
+<!-- potExp-PS-notes Button -->
 <div id="potExp-PS-notes" class="hidden">
 
 <p class="h2 gold2">8CP Keplan</p>
@@ -1014,7 +1060,7 @@ Khimut Lumber Camp
 
 
 </div>
-<!-- potExp-PS-notes End -->
+<!-- potExp-PS-notes Button End -->
 
 
 

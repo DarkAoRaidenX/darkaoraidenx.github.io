@@ -1,0 +1,1081 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Oil of Fortitude</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	
+<script src="scripts/jquery/3.6.0.js"></script> 
+
+<script src="scripts/jquery/ui-1.13.1.js"></script>	
+	
+<script>
+<!--
+function toggleDiv(divId) {
+   $("#"+divId).toggle();
+}
+//-->
+</script>
+
+<!-- Kiriak -->
+<script>
+$(document).ready(function ()
+{
+
+    $('.buttonLink').each(function ()
+    {
+
+$(this).click(function ()
+    {
+	console.log('clicked');
+        var content=$(this).find(".dotPlus").html();
+        if (content=='+') content='-';
+        else content='+';
+       $(this).find(".dotPlus").html(content);
+
+    });
+    });
+	
+});
+</script>
+<!-- Kiriak Script -->
+
+</head>
+<body id="home-page">
+
+
+<!-- OoF-Container -->
+<div id="OoF-Container" class="container pots" draggable="true" ondragstart="drag(event)">
+
+<!-- OoF-Recipe Button -->
+<div class="button darkBg1 top">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoF-Recipe-Container');">
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+<img class="icons icons1" src="images/icons/oil/fortitude.png" alt="Icon" />
+Oil of Fortitude
+</a>
+
+<div class="right">
+<a title="Oil of Fortitude" class="links" href="https://bdocodex.com/us/item/714/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- OoF-Recipe Button End -->
+
+<!-- OoF-Recipe-Container -->
+<div id="OoF-Recipe-Container" class="hidden">
+
+
+<!-- OoF-blood-clowns-recipe Button -->
+<div class="redBg1 button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoF-blood-clowns-recipe');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div>
+
+<img class="icons icons1" src="images/icons/bloods/clowns.png" alt="Icon" />
+Clown's Blood
+</a>
+
+
+
+
+<div class="right">
+
+<div class="dots">
+<span class="circleText amount">1</span>
+</div>
+
+<a title="Clown's Blood" class="links" href="https://bdocodex.com/us/item/6353/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- OoF-blood-clowns-recipe Button End-->
+
+<!-- OoF-blood-clowns-recipe -->
+<div id="OoF-blood-clowns-recipe" class="hidden">
+
+<!-- OoF-CLR-blood-clowns Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoF-CLR-blood-clowns');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/alchemy/clear-liquid-reagent.png" alt="Icon" />
+Clear Liquid Reagent
+</a>
+
+<div class="right">
+<a title="Clear Liquid Reagent" class="links" href="https://bdocodex.com/us/recipe/47/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+</div>
+<!-- OoF-CLR-blood-clowns Button End -->
+
+<!-- OoF-CLR-blood-clowns -->
+<div id="OoF-CLR-blood-clowns" class="hidden">
+
+<!-- OoF-blood-clowns-Grass Button -->
+<div class="button t4">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoF-blood-clowns-Grass');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/gathering/wild-grass.png" alt="Icon" />
+Grass
+</a>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<div class="right">
+<a title="Weeds" class="links" href="https://bdocodex.com/us/item/5439/" target="_blank">🔗</a>
+<a title="Wild Grass" class="links" href="https://bdocodex.com/us/item/5600/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- OoF-blood-clowns-Grass Button  End -->
+
+<!-- OoF-blood-clowns-Grass -->
+<div id="OoF-blood-clowns-Grass" class="hidden">
+
+<a title="Weeds" class="links2" href="https://bdocodex.com/us/item/5600/" target="_blank">
+<img class="icons icons1" src="images/icons/gathering/weeds.png" alt="Icon" />
+Weeds
+</a>
+&nbsp;<img title="Bare Hand Gathering" class="icons icons1" src="images/icons/menu/energy-recov.png" alt="Icon" />
+
+<br />
+
+<a title="Wild Grass" class="links2" href="https://bdocodex.com/us/item/5600/" target="_blank">
+<img class="icons icons1" src="images/icons/gathering/wild-grass.png" alt="Icon" />
+WIld Grass
+</a>
+&nbsp;<img title="Hoe at Behr" class="icons icons3" src="images/icons/tools/manos-hoe.png" alt="Icon" />
+
+
+</div>
+<!-- OoF-blood-clowns-Grass End-->
+
+
+<!-- OoF-blood-clowns-PW Button -->
+<div class="button t4">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoF-blood-clowns-PW');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/waters/purified.png" alt="Icon" />
+Purified Water
+</a>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<div class="right">
+<a title="Purified Water" class="links" href="https://bdocodex.com/us/item/6656/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- OoF-blood-clowns-PW Button  End -->
+
+<!-- OoF-blood-clowns-PW -->
+<div id="OoF-blood-clowns-PW" class="hidden potLinks">
+
+<div class="button blueBg3">
+<a title="Bottle of Clean Water" class="links2" href="https://bdocodex.com/us/item/6655/" target="_blank">
+<img class="icons icons1" src="images/icons/waters/clean.png" alt="Icon" />
+Bottle of Clean Water
+</a>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
+
+<br />
+
+<a title="Bottle of River Water" class="links2" href="https://bdocodex.com/us/item/6653/" target="_blank">
+<img class="icons icons1" src="images/icons/waters/river.png" alt="Icon" />
+Bottle of River Water
+</a>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
+</div>
+
+</div>
+<!-- OoF-blood-clowns-PW End-->
+
+<!-- OoF-blood-clowns-Salt Button -->
+<div class="button t4">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoF-blood-clowns-Salt');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/vendor/salt.png" alt="Icon" />
+Salt
+</a>
+
+<div class="right">
+<a title="Salt" class="links" href="https://bdocodex.com/us/item/9001/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+</div>
+<!-- OoF-blood-clowns-Salt Button  End -->
+
+<!-- OoF-blood-clowns-Salt -->
+<div id="OoF-blood-clowns-Salt" class="hidden">
+
+NPC Food Vendor or Innkeeper.
+
+</div>
+<!-- OoF-blood-clowns-Salt End-->
+
+
+<!-- OoF-blood-clowns-SRH Button -->
+<div class="button t4">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoF-blood-clowns-SRH');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/nodes/plants/sunrise-herb.png" alt="Icon" />
+Sunrise Herb
+</a>
+
+<div class="right">
+<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+</div>
+<!-- OoF-blood-clowns-SRH Button End -->
+
+<!-- OoF-blood-clowns-SRH -->
+<div id="OoF-blood-clowns-SRH" class="hidden">
+
+<p class="h2 gold2">3CP Velia</p>
+
+<a title="Cron Castle Site" class="links2" href="https://www.somethinglovely.net/bdo/#node/41" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Cron Castle Site
+</a>
+
+<p class="h2 gold2">4CP Velia</p>
+
+<a title="Balenos Forest" class="links2" href="https://www.somethinglovely.net/bdo/#node/44" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Balenos Forest
+</a>
+
+
+
+</div>
+<!-- OoF-blood-clowns-SRH -->
+
+
+
+
+</div>
+<!-- OoF-CLR-blood-clowns End -->
+
+
+<!-- OoF-blood-clowns-PoD Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoF-blood-clowns-PoD');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/powder/darkness.png" alt="Icon" />
+Powder of Darkness
+</a>
+
+<div class="right">
+<a title="Powder of Darkness" class="links" href="https://bdocodex.com/us/item/4801/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+</div>
+<!-- OoF-blood-clowns-PoD Button End -->
+
+<!-- OoF-blood-clowns-PoD -->
+<div id="OoF-blood-clowns-PoD" class="hidden">
+
+<p class="h2 gold2">1CP Velia</p>
+
+<a title="Coastal Cave" class="links2" href="https://www.somethinglovely.net/bdo/#node/46" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect3.png" alt="Icon" />
+Coastal Cave
+</a>
+
+<p class="h2 gold2">2CP Velia</p>
+
+<a title="Coastal Cliff" class="links2" href="https://www.somethinglovely.net/bdo/#node/49" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect3.png" alt="Icon" />
+Coastal Cliff
+</a>
+
+<p class="h2 gold2">3CP Altinova</p>
+
+<a title="Abandoned Iron Mine" class="links2" href="https://www.somethinglovely.net/bdo/#node/1144" target="_blank">
+<img class="icons icons6" src="images/icons/nodes/triangle.png" alt="Icon" />
+Abandoned Iron Mine 
+</a>
+
+<p class="h2 gold2">4CP Heidel</p>
+
+<a title="Northern Heidel Quarry" class="links2" href="https://www.somethinglovely.net/bdo/#node/326" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect3.png" alt="Icon" />
+Northern Heidel Quarry
+</a>
+
+</div>
+<!-- OoF-blood-clowns-PoD End -->
+
+
+<!-- OoF-blood-clowns-SL Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoF-blood-clowns-SL');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/nodes/plants/spirits-leaf.png" alt="Icon" />
+Spirit's Leaf
+</a>
+
+<div class="right">
+<a title="Spirit's Leaf" class="links" href="https://bdocodex.com/us/item/5006/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+</div>
+<!-- OoF-blood-clowns-SL Button End -->
+
+<!-- OoF-blood-clowns-SL -->
+<div id="OoF-blood-clowns-SL" class="hidden">
+
+<p class="h2 gold2">1CP Trent</p>
+
+<a title="Lumberjack's Rest Area" class="links2" href="https://www.somethinglovely.net/bdo/#node/718" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Lumberjack's Rest Area
+</a>
+
+
+<p class="h2 gold2">4CP Velia</p>
+
+<a title="Balenos Forest" class="links2" href="https://www.somethinglovely.net/bdo/#node/44" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Balenos Forest
+</a>
+
+
+<p class="h2 gold2">4CP Velia</p>
+
+<a title="Goblin Cave" class="links2" href="https://www.somethinglovely.net/bdo/#node/23" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Goblin Cave
+</a>
+
+
+</div>
+<!-- OoF-blood-clowns-SL End -->
+
+
+<!-- OoF-blood-clowns-BG1 Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoF-blood-clowns-BG1');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div>
+
+<img class="icons icons1" src="images/icons/bloods/bg1/wolf.png" alt="Icon" />
+Blood Group 1
+</a>
+
+<div class="dots">
+	<span class="circleText amount">2</span>
+</div>
+
+<div class="right">
+<a title="Blood Group 1" class="links" href="https://bdocodex.com/us/materialgroup/16/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- OoF-blood-clowns-BG1 Button End-->
+
+<!-- OoF-blood-clowns-BG1 -->
+<div id="OoF-blood-clowns-BG1" class="hidden">
+
+<a title="Grey Wolves" class="links2" href="https://bdocodex.com/us/npc/20045/" target="_blank">
+<img class="icons icons2" src="images/icons/mobs/gray-wolf.png" alt="Icon" />
+Grey Wolves 
+</a>
+<img title="Fluid Collector" class="icons icons3" src="images/icons/tools/manos-fluid.png" alt="Icon" />
+
+<br />
+
+<a title="Feather Wolves Hunting" class="links2 gold" href="https://bdocodex.com/us/npc/27641/" target="_blank">
+<img title="Feather Wolves" class="icons icons2" src="images/icons/mobs/feather-wolf.png" alt="Icon" />
+Feather Wolves 
+</a>
+<img title="Hunting Matchlock" class="icons icons1" src="images/icons/tools/matchlock-master.png" alt="Icon" />
+<img title="Butcher Knife" class="icons icons1" src="images/icons/tools/manos-butcher-knife.png" alt="Icon" />
+<br />
+
+<a title="Feather Wolves" class="links2" href="https://bdocodex.com/us/npc/21523/" target="_blank">
+<img title="Feather Wolves" class="icons icons2" src="images/icons/mobs/feather-wolf.png" alt="Icon" />
+Feather Wolves 
+</a>
+<img title="Fluid Collector" class="icons icons3" src="images/icons/tools/manos-fluid.png" alt="Icon" />
+
+
+
+
+</div>
+<!-- OoF-blood-clowns-BG1 -->
+
+
+
+
+</div>
+<!-- OoF-blood-clowns-recipe End -->
+
+
+<!-- OoF-FoN Button -->
+<div class="button blueBg3">
+
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoF-FoN');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/fruit-of/nature.png" alt="Icon" />
+Fruit of Nature
+</a>
+
+
+
+<div class="right">
+
+<div class="dots">
+<span class="circleText amount">1</span>
+</div>
+
+<a title="Fruit of Nature" class="links" href="https://bdocodex.com/us/item/5205/" target="_blank">🔗</a>
+
+</div>
+
+
+
+</div>
+<!-- OoF-FoN Button End -->
+
+<!-- OoF-FoN -->
+<div id="OoF-FoN" class="hidden">
+
+
+<p class="h2 gold2">Farming (Breeding)</p>
+
+<a title="Acacia Leaf" class="links2" href="https://bdocodex.com/us/item/54020/" target="_blank">
+<img class="icons icons2" src="images/icons/items/seeds/acacia.png" alt="Icon" />
+Acacia Leaf
+</a>
+
+<br />
+
+<a title="Barley" class="links2" href="https://bdocodex.com/us/item/7002/" target="_blank">
+<img class="icons icons2" src="images/icons/items/seeds/barley.png" alt="Icon" />
+Barley
+</a>
+
+<br />
+
+<a title="Bouquet" class="links2" href="https://bdocodex.com/us/item/5489/" target="_blank">
+<img class="icons icons2" src="images/icons/items/seeds/bouquet.png" alt="Icon" />
+Bouquet
+</a>
+
+<br />
+
+<a title="Carrot" class="links2" href="https://bdocodex.com/us/item/54001/" target="_blank">
+<img class="icons icons2" src="images/icons/items/seeds/carrot.png" alt="Icon" />
+Carrot
+</a>
+
+<br />
+
+<a title="Dalvenia Alrea" class="links2" href="https://bdocodex.com/us/item/5486/" target="_blank">
+<img class="icons icons2" src="images/icons/items/seeds/dalvenia-alrea.png" alt="Icon" />
+Dalvenia Alrea
+</a>
+
+<br />
+
+<a title="Leccinum" class="links2" href="https://bdocodex.com/us/item/5490/" target="_blank">
+<img class="icons icons2" src="images/icons/items/seeds/leccinum.png" alt="Icon" />
+Leccinum
+</a>
+
+<br />
+
+<a title="Nolina" class="links2" href="https://bdocodex.com/us/item/5484/" target="_blank">
+<img class="icons icons2" src="images/icons/items/seeds/nolina.png" alt="Icon" />
+Nolina
+</a>
+
+<br />
+
+<a title="Pie Mushroom" class="links2" href="https://bdocodex.com/us/item/5492/" target="_blank">
+<img class="icons icons2" src="images/icons/items/seeds/pie.png" alt="Icon" />
+Pie Mushroom
+</a>
+
+<br />
+
+<a title="Potato" class="links2" href="https://bdocodex.com/us/item/7003/" target="_blank">
+<img class="icons icons2" src="images/icons/items/seeds/potato.png" alt="Icon" />
+Potato
+</a>
+
+<br />
+
+<a title="Purple Mushroom" class="links2" href="https://bdocodex.com/us/item/5491/" target="_blank">
+<img class="icons icons2" src="images/icons/items/seeds/purple.png" alt="Icon" />
+Purple Mushroom
+</a>
+
+<br />
+
+<a title="Sweet Potato" class="links2" href="https://bdocodex.com/us/item/7004/" target="_blank">
+<img class="icons icons2" src="images/icons/items/seeds/sweet-potato.png" alt="Icon" />
+Sweet Potato
+</a>
+
+<br /><br />
+
+<p class="h2 gold2">
+Gathering<img class="icons icons3" src="images/icons/tools/manos-hoe.png" alt="Icon" />
+</p>
+
+<a title="Wild Herb" class="links2" href="https://bdocodex.com/us/gatherable/10218/" target="_blank">
+<img class="icons icons2" src="images/icons/gathering/weeds.png" alt="Icon" />
+Wild Herb (Behr)
+</a>
+
+</div>
+<!-- OoF-FoN End -->
+
+
+<!-- OoF-MB Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoF-MB');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/nodes/plants/monks-branch.png" alt="Icon" />
+Monk's Branch
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<a title="Monk's Branch" class="links" href="https://bdocodex.com/us/item/5007/" target="_blank">🔗</a>
+
+</div>
+
+
+</div>
+<!-- OoF-MB Button End -->
+
+<!-- OoF-MB -->
+<div id="OoF-MB" class="hidden">
+
+<p class="h2 gold2">5CP Heidel/Keplan</p>
+
+<a title="Oze Pass" class="links2" href="https://www.somethinglovely.net/bdo/#node/952" target="_blank">
+<img class="icons icons6" src="images/icons/nodes/triangle.png" alt="Icon" />
+Oze Pass
+</a>
+
+<p class="h2 gold2">6CP Glish/8CP Duven/10 Heidel</p>
+<a title="Serendia Shrine" class="links2" href="https://www.somethinglovely.net/bdo/#node/455" target="_blank">
+<img class="icons icons6" src="images/icons/nodes/triangle.png" alt="Icon" />
+Serendia Shrine
+</a>
+
+<p class="h2 gold2">7CP Velia</p>
+
+<a title="Forest of Seclusion" class="links2" href="https://www.somethinglovely.net/bdo/#node/183" target="_blank">
+<img class="icons icons6" src="images/icons/nodes/triangle.png" alt="Icon" />
+Forest of Seclusion
+</a>
+
+</div>
+<!-- OoF-MB End -->
+
+
+<!-- OoF-PoF Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoF-PoF');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/powder/flame.png" alt="Icon" />
+Powder of Flame
+</a>
+
+<div class="right">
+
+<div class="dots">
+<span class="circleText amount">1</span>
+</div>
+
+<a title="Powder of Flame" class="links" href="https://bdocodex.com/us/item/4802/" target="_blank">🔗</a>
+
+</div>
+
+
+</div>
+<!-- OoF-PoF Button End -->
+
+<!-- OoF-PoF -->
+<div id="OoF-PoF" class="hidden">
+
+<p class="h2 gold2">3CP Velia</p>
+
+<a title="Imp Cave" class="links2" href="https://www.somethinglovely.net/bdo/#node/25" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Imp Cave
+</a>
+
+<p class="h2 gold2">4CP Heidel</p>
+
+<a title="Northern Heidel Quarry" class="links2" href="https://www.somethinglovely.net/bdo/#node/326" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Northern Heidel Quarry
+</a>
+
+</div>
+<!-- OoF-PoF End -->
+
+
+
+
+<!-- OoF-Notes Button -->
+<div class="button notes">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoF-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+Notes
+<img class="icons icons6" src="images/icons/menu/notes.png" alt="Icon" />
+</a>
+
+</div>
+<!-- OoF-Notes Button End -->
+
+
+<!-- OoF-Notes -->
+<div id="OoF-Notes" class="hidden notes-container">
+
+<!-- OoF-Notes-Upgraded Button -->
+<div class="button darkBg1">
+
+<a title="Splendid EXP" class="links2 blue1" href="https://bdocodex.com/us/item/715/" target="_blank">
+
+<img class="icons icons1" src="images/icons/pots/exp-splendid.png" alt="Icon" />
+
+Splendid EXP (15% Exp)
+</a>
+
+</div>
+<!-- OoF-Notes-Upgraded Button End -->
+
+<!-- OoF-Notes-Cheapest Button -->
+<div class="button cheapest">
+
+<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('OoF-Notes-Cheapest');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+Cheapest CP Nodes
+<img class="icons icons6" src="images/icons/nodes/connect2.png" alt="Icon" />
+</a>
+
+<div class="dots">
+	<span class="amount">20</span>
+</div>
+<span class="spacer">&nbsp;</span>
+
+</div>
+<!-- OoF-Notes-Cheapest Button End -->
+
+<!-- OoF-Notes-Cheapest -->
+<div id="OoF-Notes-Cheapest" class="hidden">
+
+
+<!-- OoF-PoF-notes Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoF-PoF-notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/powder/flame.png" alt="Icon" />
+Powder of Flame
+</a>
+
+<div class="right">
+<a title="Powder of Flame" class="links" href="https://bdocodex.com/us/item/4802/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+</div>
+<!-- OoF-PoF-notes Button End -->
+
+<!-- OoF-PoF-notes Button -->
+<div id="OoF-PoF-notes" class="hidden">
+
+<p class="h2 gold2">3CP Velia</p>
+
+<a title="Imp Cave" class="links2" href="https://www.somethinglovely.net/bdo/#node/25" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Imp Cave
+</a>
+
+<p class="h2 gold2">4CP Heidel</p>
+
+<a title="Northern Heidel Quarry" class="links2" href="https://www.somethinglovely.net/bdo/#node/326" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Northern Heidel Quarry
+</a>
+
+
+</div>
+<!-- OoF-PoF-notes Button -->
+
+
+<!-- OoF-SRH-notes Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoF-SRH-notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/nodes/plants/sunrise-herb.png" alt="Icon" />
+Sunrise Herb
+</a>
+
+<div class="right">
+<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+</div>
+<!-- OoF-SRH-notes Button End -->
+
+<!-- OoF-SRH-notes Button -->
+<div id="OoF-SRH-notes" class="hidden">
+
+<p class="h2 gold2">3CP Velia</p>
+
+<a title="Cron Castle Site" class="links2" href="https://www.somethinglovely.net/bdo/#node/41" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Cron Castle Site
+</a>
+
+<p class="h2 gold2">4CP Velia</p>
+
+<a title="Balenos Forest" class="links2" href="https://www.somethinglovely.net/bdo/#node/44" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Balenos Forest
+</a>
+
+
+
+</div>
+<!-- OoF-SRH-notes Button -->
+
+
+
+<!-- OoF-MB-notes Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoF-MB-notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/nodes/plants/monks-branch.png" alt="Icon" />
+Monk's Branch
+</a>
+
+<div class="right">
+<a title="Monk's Branch" class="links" href="https://bdocodex.com/us/item/5007/" target="_blank">🔗</a>
+</div>
+
+<div class="dots">
+	<span class="circleText amount">5</span>
+</div>
+
+</div>
+<!-- OoF-MB-notes Button End -->
+
+<!-- OoF-MB-notes Button -->
+<div id="OoF-MB-notes" class="hidden">
+
+<p class="h2 gold2">5CP Heidel/Keplan</p>
+
+<a title="Oze Pass" class="links2" href="https://www.somethinglovely.net/bdo/#node/952" target="_blank">
+<img class="icons icons6" src="images/icons/nodes/triangle.png" alt="Icon" />
+Oze Pass
+</a>
+
+<p class="h2 gold2">6CP Glish/8CP Duven/10 Heidel</p>
+<a title="Serendia Shrine" class="links2" href="https://www.somethinglovely.net/bdo/#node/455" target="_blank">
+<img class="icons icons6" src="images/icons/nodes/triangle.png" alt="Icon" />
+Serendia Shrine
+</a>
+
+<p class="h2 gold2">7CP Velia</p>
+
+<a title="Forest of Seclusion" class="links2" href="https://www.somethinglovely.net/bdo/#node/183" target="_blank">
+<img class="icons icons6" src="images/icons/nodes/triangle.png" alt="Icon" />
+Forest of Seclusion
+</a>
+
+
+
+</div>
+<!-- OoF-MB-notes Button -->
+
+
+</div>
+<!-- OoF-Notes-Cheapest End -->
+
+
+<!-- OoF-Notes-UsedInButton -->
+<div class="button usedin">
+
+<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('OoF-Notes-UsedIn');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+Used In Recipe
+<img class="icons icons6" src="images/icons/menu/checklist-notes.png" alt="Icon" />
+</a>
+
+
+<div class="right">
+<a title="Oil of Fortitude" class="links" href="https://bdocodex.com/us/item/6603/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- OoF-Notes-UsedInButton End -->
+
+<!-- OoF-Notes-UsedIn -->
+<div id="OoF-Notes-UsedIn" class="hidden usedin-container">
+
+<a title="Clown’s Blood" class="links2" href="https://bdocodex.com/us/item/6353/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/clowns.png" alt="Icon" />
+Clown's Blood
+</a>
+
+<br />
+
+<a title="Accuracy +8" class="links2" href="https://bdocodex.com/us/item/700/" target="_blank">
+<img class="icons icons1" src="images/icons/pots/concentration.png" alt="Icon" />
+Concentration Elixir
+</a>
+
+<br />
+
+<a title="Damage Reduction +5" class="links2" href="https://bdocodex.com/us/item/716/" target="_blank">
+<img class="icons icons1" src="images/icons/pots/defense.png" alt="Icon" />
+Defense Elixir
+</a>
+
+
+<br />
+
+<a title="HP+3 per Critical Hit" class="links2" href="https://bdocodex.com/us/item/676/" target="_blank">
+<img class="icons icons1" src="images/icons/pots/draining.png" alt="Icon" />
+Draining Elixir
+</a>
+
+
+<br />
+
+<a title="All DP -5/All AP +10" class="links2" href="https://bdocodex.com/us/item/672/" target="_blank">
+<img class="icons icons1" src="images/icons/pots/frenzy.png" alt="Icon" />
+Frenzy Elixir
+</a>
+
+
+<br />
+
+<a title="Oil of Fortitude" class="links2" href="https://bdocodex.com/us/item/6603/" target="_blank">
+<img class="icons icons1" src="images/icons/oil/fortitude.png" alt="Icon" />
+Oil of Fortitude
+</a>
+
+<br />
+
+<a title="Defense Nullifying Damage +5 per Back Attack" class="links2" href="https://bdocodex.com/us/item/680/" target="_blank">
+<img class="icons icons1" src="images/icons/pots/perforation.png" alt="Icon" />
+Perforation
+</a>
+
+<br />
+
+<a title="Sinner's Blood" class="links2" href="https://bdocodex.com/us/item/6354/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/sinners.png" alt="Icon" />
+Sinner's Blood
+</a>
+
+<br />
+
+<a title="Wise Man's Blood" class="links2" href="https://bdocodex.com/us/item/6355/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/wise-mans.png" alt="Icon" />
+Wise Man's Blood
+</a>
+
+<br />
+<a title="Clear Liquid Reagent" class="links2" href="https://bdocodex.com/us/item/5301/" target="_blank">And More...</a>
+</div>
+<!-- OoF-Notes-UsedIn End -->
+
+</div>
+<!-- OoF-Notes End -->
+
+
+</div>
+<!-- OoF-Recipe-Container End-->
+
+</div>
+<!-- OoF-Container End -->
+
+
+</body>
+</html>

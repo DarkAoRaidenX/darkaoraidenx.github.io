@@ -7,57 +7,24 @@
 	<meta name="description" content="" />
 	<link rel="stylesheet" href="scripts/css/common.css" />
 	<link rel="icon" type="image/x-icon" href="images/fav/bloods.ico">
-	
-<script src="scripts/jquery/3.6.0.js"></script> 
-
-<script src="scripts/jquery/ui-1.13.1.js"></script>	
-	
-<script>
-<!--
-function toggleDiv(divId) {
-   $("#"+divId).toggle();
-}
-//-->
-</script>
-
-
-<!-- Kiriak -->
-<script>
-$(document).ready(function ()
-{
-
-    $('.buttonLink').each(function ()
-    {
-
-$(this).click(function ()
-    {
-	console.log('clicked');
-        var content=$(this).find(".dotPlus").html();
-        if (content=='+') content='-';
-        else content='+';
-       $(this).find(".dotPlus").html(content);
-
-    });
-    });
-	
-});
-</script>
-<!-- Kiriak Script -->
-
+	<script src="scripts/jquery/3.6.0.js"></script> 
+	<script src="scripts/jquery/plus-minus.js"></script>
+	<script src="scripts/jquery/toggle-div.js"></script>
+	<script src="scripts/jquery/ui-1.13.1.js"></script>
 </head>
 <body id="home-page">
 
 <!-- blood-group-3-container -->
 <div id="blood-group-3-container" class="container bloods" draggable="true" ondragstart="drag(event)">
 
-<!-- blood-group-3 ButtonT0 -->
-<div class="redBg button t0 top">
+<!-- blood-group-3 Button -->
+<div class="button redBg1 top">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-group-3-items');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div>
 
@@ -66,84 +33,120 @@ Blood Group 3
 </a>
 
 <div class="right">
-<a title="Blood Group 3" class="links" href="https://bdocodex.com/us/materialgroup/16/" target="_blank">🔗</a>
+
+<div class="dots">
+<span class="circleText amount">1</span>
+</div>
+
+<a title="Blood Group 3" class="links" href="https://bdocodex.com/us/materialgroup/18/" target="_blank">🔗</a>
+
 </div>
 
 </div>
-<!-- blood-group-3 ButtonT0 End-->
+<!-- blood-group-3 Button End-->
 
 <!-- blood-group-3-items -->
 <div id="blood-group-3-items" class="hidden">
 
 
-<!-- bg3-fox ButtonT0 -->
-<div class="button darkBg t0">
-
 <a title="Fox Blood" class="links2" href="https://bdocodex.com/us/item/6203/" target="_blank">
-
 <img class="icons icons1" src="images/icons/bloods/bg3/fox.png" alt="Icon" />
-
 Fox
 </a>
 
-</div>
-<!-- bg3-fox ButtonT0 -->
-
-
-<!-- bg3-marmot ButtonT0 -->
-<div class="button darkBg t0">
+<br />
 
 <a title="Marmot Blood" class="links2" href="https://bdocodex.com/us/item/6226/" target="_blank">
-
 <img class="icons icons1" src="images/icons/bloods/bg3/marmot.png" alt="Icon" />
-
 Marmot
 </a>
 
-</div>
-<!-- bg3-marmot ButtonT0 -->
-
-
-<!-- bg3-raccoon ButtonT0 -->
-<div class="button darkBg t0">
+<br />
 
 <a title="Raccoon Blood" class="links2" href="https://bdocodex.com/us/item/6210/" target="_blank">
-
 <img class="icons icons1" src="images/icons/bloods/bg3/raccoon.png" alt="Icon" />
-
 Raccoon
 </a>
 
-</div>
-<!-- bg3-raccoon ButtonT0 -->
-
-
-<!-- bg3-scorpion ButtonT0 -->
-<div class="button darkBg t0">
+<br />
 
 <a title="Scorpion Blood" class="links2" href="https://bdocodex.com/us/item/6224/" target="_blank">
-
 <img class="icons icons1" src="images/icons/bloods/bg3/scorpion.png" alt="Icon" />
-
 Scorpion
 </a>
 
-</div>
-<!-- bg3-scorpion ButtonT0 -->
-
-
-<!-- bg3-weasel ButtonT0 -->
-<div class="button darkBg t0">
+<br />
 
 <a title="Weasel Blood" class="links2" href="https://bdocodex.com/us/item/6212/" target="_blank">
-
 <img class="icons icons1" src="images/icons/bloods/bg3/weasel.png" alt="Icon" />
-
 Weasel
 </a>
 
+
+<!-- blood-group-3-notes Button -->
+<div class="button notes">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-group-3-notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+Notes
+<img class="icons icons6" src="images/icons/menu/notes.png" alt="Icon" />
+</a>
+
 </div>
-<!-- bg3-weasel ButtonT0 -->
+<!-- blood-group-3-notes Button End -->
+
+
+<!-- blood-group-3-notes Button -->
+<div id="blood-group-3-notes" class="hidden notes-container">
+
+
+<!-- blood-group-3-UsedIn Button -->
+<div class="button usedin">
+
+<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('blood-group-3-UsedIn');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+Used In Recipe
+<img class="icons icons6" src="images/icons/menu/checklist-notes.png" alt="Icon" />
+</a>
+
+
+<div class="right">
+<a title="Blood Group 3" class="links" href="https://bdocodex.com/us/materialgroup/18/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- blood-group-3-UsedIn Button End -->
+
+<!-- blood-group-3-UsedIn -->
+<div id="blood-group-3-UsedIn" class="hidden usedin-container">
+
+
+<a title="Wise Man's Blood" class="links2" href="https://bdocodex.com/us/item/6355/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/wise-mans.png" alt="Icon" />
+Wise Man's Blood
+</a>
+
+<br />
+<a title="Blood Group 3" class="links" href="https://bdocodex.com/us/materialgroup/18/" target="_blank">And More...</a>
+</div>
+<!-- blood-group-3-UsedIn End -->
+
+</div>
+<!-- blood-group-3-notes Button End -->
+
+
 
 
 </div>

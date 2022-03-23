@@ -7,58 +7,25 @@
 	<meta name="description" content="" />
 	<link rel="stylesheet" href="scripts/css/common.css" />
 	<link rel="icon" type="image/x-icon" href="images/fav/bloods.ico">
-	
-<script src="scripts/jquery/3.6.0.js"></script> 
-
-<script src="scripts/jquery/ui-1.13.1.js"></script>	
-	
-<script>
-<!--
-function toggleDiv(divId) {
-   $("#"+divId).toggle();
-}
-//-->
-</script>
-
-<!-- Kiriak -->
-<script>
-$(document).ready(function ()
-{
-
-    $('.buttonLink').each(function ()
-    {
-
-$(this).click(function ()
-    {
-	console.log('clicked');
-        var content=$(this).find(".dotPlus").html();
-        if (content=='+') content='-';
-        else content='+';
-       $(this).find(".dotPlus").html(content);
-
-    });
-    });
-	
-});
-</script>
-<!-- Kiriak Script -->
-
+	<script src="scripts/jquery/3.6.0.js"></script> 
+	<script src="scripts/jquery/plus-minus.js"></script>
+	<script src="scripts/jquery/toggle-div.js"></script>
+	<script src="scripts/jquery/ui-1.13.1.js"></script>		
 </head>
 <body id="home-page">
 
-<!-- blood-Tyrants -->
-<div id="blood-Tyrants" class="container bloods" draggable="true" ondragstart="drag(event)">
+<!-- blood-TB -->
+<div id="blood-TB" class="container bloods" draggable="true" ondragstart="drag(event)">
 
 
-<!-- blood-Tyrants-recipe ButtonT1 -->
-<div class="redBg button t1 top">
+<!-- blood-TB-recipe Button -->
+<div class="redBg1 button top">
 
-
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-Tyrants-recipe');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-TB-recipe');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div>
 
@@ -67,45 +34,54 @@ Tyrant's Blood
 </a>
 
 <div class="right">
+
+<div class="dots">
+<span class="circleText amount">1</span>
+</div>
+
 <a title="Tyrant's Blood" class="links" href="https://bdocodex.com/us/item/6352/" target="_blank">🔗</a>
-</div>
 
 </div>
-<!-- blood-Tyrants-recipe ButtonT1 End-->
+
+</div>
+<!-- blood-TB-recipe Button End-->
 
 
-<!-- blood-Tyrants-recipe -->
-<div id="blood-Tyrants-recipe" class="hidden">
+<!-- blood-TB-recipe -->
+<div id="blood-TB-recipe" class="hidden">
 
 
-<!-- blood-Tyrants-MB ButtonT2 -->
-<div class="button t2">
+<!-- blood-TB-MB Button -->
+<div class="button blueBg3">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-Tyrants-MB');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-TB-MB');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
- <img class="icons icons1" src="images/icons/nodes/plants/monks-branch.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/nodes/plants/monks-branch.png" alt="Icon" />
 Monk's Branch
 </a>
 
 <div class="right">
-<a title="Monk's Branch" class="links" href="https://bdocodex.com/us/item/5007/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-</div>
-<!-- blood-Tyrants-MB ButtonT2 End -->
+<a title="Monk's Branch" class="links" href="https://bdocodex.com/us/item/5007/" target="_blank">🔗</a>
 
-<!-- blood-Tyrants-MB -->
-<div id="blood-Tyrants-MB" class="hidden">
+</div>
+
+
+</div>
+<!-- blood-TB-MB Button End -->
+
+<!-- blood-TB-MB -->
+<div id="blood-TB-MB" class="hidden">
 
 <p class="h2 gold2">5CP Heidel/Keplan</p>
 
@@ -128,67 +104,123 @@ Forest of Seclusion
 </a>
 
 </div>
-<!-- blood-Tyrants-MB End -->
+<!-- blood-TB-MB End -->
 
 
-<!-- blood-Tyrants-PPR ButtonT2 -->
-<div class="button t2">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-Tyrants-PPR');">
+<!-- blood-TB-ToS Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-TB-ToS');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
- <img class="icons icons1" src="images/icons/alchemy/pure-powder-reagent.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/traces/savagery.png" alt="Icon" />
+Trace of Savagery
+</a>
+
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<a title="Trace of Savagery" class="links" href="https://bdocodex.com/us/item/5956/" target="_blank">🔗</a>
+
+</div>
+
+
+
+</div>
+<!-- blood-TB-ToS Button End -->
+
+<!-- blood-TB-ToS -->
+<div id="blood-TB-ToS" class="hidden">
+
+<p class="h2 gold2">2CP Heidel</p>
+
+<a title="Lynch Farm Ruins - Excavation" class="links2" href="https://www.somethinglovely.net/bdo/#node/488" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/mining.png" alt="Icon" />
+Lynch Farm Ruins - Excavation
+</a>
+<p class="red smallTxt">
+Required: 35 Energy from Zara Lynch
+<br />
+(Lynch Farm Ruins Node Manager)
+</p>
+
+</div>
+<!-- blood-TB-ToS End -->
+
+
+
+<!-- blood-TB-PPR Button -->
+<div class="button ppr">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-TB-PPR');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/alchemy/pure-powder-reagent.png" alt="Icon" />
 Pure Powder Reagent
 </a>
 
 <div class="right">
-<a title="Pure Powder Reagent" class="links" href="https://bdocodex.com/us/recipe/48/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
+<a title="Pure Powder Reagent" class="links" href="https://bdocodex.com/us/item/5302/" target="_blank">🔗</a>
+
 </div>
-<!-- blood-Tyrants-PPR ButtonT2 End -->
 
-<!-- blood-Tyrants-PPR -->
-<div id="blood-Tyrants-PPR" class="hidden">
 
-<!-- blood-Tyrants-Grass ButtonT3 -->
-<div class="button t3">
+</div>
+<!-- blood-TB-PPR Button End -->
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-Tyrants-Grass');">
+<!-- blood-TB-PPR -->
+<div id="blood-TB-PPR" class="hidden">
+
+<!-- blood-TB-PPR-Grass Button -->
+<div class="button blueBg4">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-TB-PPR-Grass');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
-<img class="icons icons1" src="images/icons/gathering/weeds.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/gathering/wild-grass.png" alt="Icon" />
 Grass
 </a>
+
+<div class="right">
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-<div class="right">
-<a title="Weeds" class="links" href="https://bdocodex.com/us/item/5439/" target="_blank">🔗</a>
 <a title="Wild Grass" class="links" href="https://bdocodex.com/us/item/5600/" target="_blank">🔗</a>
+
 </div>
 
 </div>
-<!-- blood-Tyrants-Grass ButtonT3  End -->
+<!-- blood-TB-PPR-Grass Button  End -->
 
-<!-- blood-Tyrants-Grass -->
-<div id="blood-Tyrants-Grass" class="hidden">
+<!-- blood-TB-PPR-Grass -->
+<div id="blood-TB-PPR-Grass" class="hidden">
 
 <a title="Weeds" class="links2" href="https://bdocodex.com/us/item/5600/" target="_blank">
 <img class="icons icons1" src="images/icons/gathering/weeds.png" alt="Icon" />
@@ -206,17 +238,17 @@ WIld Grass
 
 
 </div>
-<!-- blood-Tyrants-Grass End-->
+<!-- blood-TB-PPR-Grass End-->
 
 
-<!-- blood-Tyrants-PW ButtonT3 -->
-<div class="button t3">
+<!-- blood-TB-PPR-PW Button -->
+<div class="button blueBg4">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-Tyrants-PW');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-TB-PPR-PW');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -224,21 +256,23 @@ WIld Grass
 Purified Water
 </a>
 
+<div class="right">
+
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-<div class="right">
 <a title="Purified Water" class="links" href="https://bdocodex.com/us/item/6656/" target="_blank">🔗</a>
-</div>
 
 </div>
-<!-- blood-Tyrants-PW ButtonT3  End -->
 
-<!-- blood-Tyrants-PW -->
-<div id="blood-Tyrants-PW" class="hidden potLinks">
+</div>
+<!-- blood-TB-PPR-PW Button  End -->
 
-<div class="button">
+<!-- blood-TB-PPR-PW -->
+<div id="blood-TB-PPR-PW" class="hidden potLinks">
+
+<div class="button blueBg4">
 <a title="Bottle of Clean Water" class="links2" href="https://bdocodex.com/us/item/6655/" target="_blank">
 <img class="icons icons1" src="images/icons/waters/clean.png" alt="Icon" />
 Bottle of Clean Water
@@ -265,16 +299,16 @@ Bottle of River Water
 </div>
 
 </div>
-<!-- blood-Tyrants-PW End-->
+<!-- blood-TB-PPR-PW End-->
 
-<!-- blood-Tyrants-Sugar ButtonT3 -->
-<div class="button t3">
+<!-- blood-TB-PPR-Sugar Button -->
+<div class="button blueBg4">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-Tyrants-Sugar');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-TB-PPR-Sugar');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -283,57 +317,63 @@ Sugar
 </a>
 
 <div class="right">
-<a title="Sugar" class="links" href="https://bdocodex.com/us/item/9002/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-</div>
-<!-- blood-Tyrants-Sugar ButtonT3  End -->
+<a title="Sugar" class="links" href="https://bdocodex.com/us/item/9002/" target="_blank">🔗</a>
 
-<!-- blood-Tyrants-Sugar -->
-<div id="blood-Tyrants-Sugar" class="hidden">
+</div>
+
+
+</div>
+<!-- blood-TB-PPR-Sugar Button  End -->
+
+<!-- blood-TB-PPR-Sugar -->
+<div id="blood-TB-PPR-Sugar" class="hidden">
 
 NPC Food Vendor or Innkeeper.
 
 </div>
-<!-- blood-Tyrants-Sugar End-->
+<!-- blood-TB-PPR-Sugar End-->
 
 
-<!-- blood-Tyrants-SA ButtonT3 -->
-<div class="button t3">
+<!-- blood-TB-PPR-SA Button -->
+<div class="button blueBg4">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-Tyrants-SA');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-TB-PPR-SA');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
- <img class="icons icons1" src="images/icons/nodes/plants/silver-azalea.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/nodes/plants/silver-azalea.png" alt="Icon" />
 Silver Azalea
 </a>
 
 <div class="right">
-<a title="Silver Azalea" class="links" href="https://bdocodex.com/us/item/5402/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-</div>
-<!-- blood-Tyrants-SA ButtonT3 End -->
+<a title="Silver Azalea" class="links" href="https://bdocodex.com/us/item/5402/" target="_blank">🔗</a>
 
-<!-- blood-Tyrants-SA -->
-<div id="blood-Tyrants-SA" class="hidden">
+</div>
+
+
+</div>
+<!-- blood-TB-PPR-SA Button End -->
+
+<!-- blood-TB-PPR-SA -->
+<div id="blood-TB-PPR-SA" class="hidden">
 
 <p class="h2 gold2">2CP Heidel</p>
 
-<a title="Lynch Farm Ruins" class="links2" href="https://www.somethinglovely.net/bdo/#node/487" target="_blank">
+<a title="Cron Castle Site" class="links2" href="https://www.somethinglovely.net/bdo/#node/487" target="_blank">
 <img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
 Lynch Farm Ruins
 </a>
@@ -342,73 +382,26 @@ Lynch Farm Ruins
 
 <a title="Northern Plain of Serendia" class="links2" href="https://www.somethinglovely.net/bdo/#node/463" target="_blank">
 <img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
-N. Plain of Serendia
+Northern Plain of Serendia
 </a>
 
 </div>
-<!-- blood-Tyrants-SA -->
+<!-- blood-TB-PPR-SA -->
+
 
 
 </div>
-<!-- blood-Tyrants-PPR End -->
+<!-- blood-TB-PPR End -->
 
 
-<!-- blood-Tyrants-ToS ButtonT2 -->
-<div class="button t2">
+<!-- blood-TB-blood-group-4 Button -->
+<div class="button redBg1">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-Tyrants-ToS');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-TB-blood-group-4-items');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
-	</div>
-</div> 
-
- <img class="icons icons1" src="images/icons/traces/savagery.png" alt="Icon" />
-Trace of Savagery
-</a>
-
-<div class="dots">
-	<span class="circleText amount">1</span>
-</div>
-
-<div class="right">
-<a title="Trace of Savagery" class="links" href="https://bdocodex.com/us/item/5956/" target="_blank">🔗</a>
-</div>
-
-
-
-</div>
-<!-- blood-Tyrants-ToS ButtonT2 End -->
-
-<!-- blood-Tyrants-ToS -->
-<div id="blood-Tyrants-ToS" class="hidden">
-
-<p class="h2 gold2">2CP Heidel</p>
-
-<a title="Lynch Farm Ruins - Excavation" class="links2" href="https://www.somethinglovely.net/bdo/#node/488" target="_blank">
-<img class="icons icons1" src="images/icons/nodes/mining.png" alt="Icon" />
-Lynch Farm Ruins - Excavation
-</a>
-<p class="red smallTxt">
-Required: 35 Energy from Zara Lynch
-<br />
-(Lynch Farm Ruins Node Manager)
-</p>
-
-</div>
-<!-- blood-Tyrants-ToS End -->
-
-
-<!-- blood-Tyrants-BG4 ButtonT2 -->
-<div class="button t2">
-
-
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-Tyrants-BG4');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div>
 
@@ -416,71 +409,78 @@ Required: 35 Energy from Zara Lynch
 Blood Group 4
 </a>
 
-<div class="dots">
-	<span class="circleText amount">2</span>
-</div>
-
 <div class="right">
+
+<div class="dots">
+<span class="circleText amount">2</span>
+</div>
+
 <a title="Blood Group 4" class="links" href="https://bdocodex.com/us/materialgroup/15/" target="_blank">🔗</a>
-</div>
 
 </div>
-<!-- blood-Tyrants-BG4 ButtonT2 End-->
 
-<!-- blood-Tyrants-BG4 -->
-<div id="blood-Tyrants-BG4" class="hidden">
+</div>
+<!-- blood-TB-blood-group-4 Button End-->
 
-<a title="Bears" class="links2" href="https://bdocodex.com/us/item/6213/" target="_blank">
-<img class="icons icons2" src="images/icons/mobs/bear.png" alt="Icon" />
-Bears
+<!-- blood-TB-blood-group-4-items -->
+<div id="blood-TB-blood-group-4-items" class="hidden">
+
+
+<a title="Bear Blood" class="links2" href="https://bdocodex.com/us/item/6213/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg4/bear.png" alt="Icon" />
+Bear
 </a>
-<img title="Fluid Collector" class="icons icons3" src="images/icons/tools/manos-fluid.png" alt="Icon" />
 
 <br />
 
-<a title="Lions" class="links2" href="https://bdocodex.com/us/item/6223/" target="_blank">
-<img class="icons icons2" src="images/icons/mobs/lion-shadow.png" alt="Icon" />
-Lions (Shadow)
+<a title="Dinosaur Blood" class="links2" href="https://bdocodex.com/us/item/6207/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg4/dinosaur.png" alt="Icon" />
+Dinosaur (No more?)
 </a>
-<img title="Butcher Knife" class="icons icons1" src="images/icons/tools/manos-butcher-knife.png" alt="Icon" />
-<img title="Fluid Collector" class="icons icons3" src="images/icons/tools/manos-fluid.png" alt="Icon" />
-<img title="Hunting Matchlock" class="icons icons1" src="images/icons/tools/matchlock-master.png" alt="Icon" />
 
 <br />
 
-<a title="Lions" class="links2" href="https://bdocodex.com/us/item/6223/" target="_blank">
-<img class="icons icons2" src="images/icons/mobs/lion-valencian.png" alt="Icon" />
-Lions (Valencian)
+<a title="Lion Blood" class="links2" href="https://bdocodex.com/us/item/6223/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg4/lion.png" alt="Icon" />
+Lion
 </a>
-<img title="Butcher Knife" class="icons icons1" src="images/icons/tools/manos-butcher-knife.png" alt="Icon" />
-<img title="Fluid Collector" class="icons icons3" src="images/icons/tools/manos-fluid.png" alt="Icon" />
-<img title="Hunting Matchlock" class="icons icons1" src="images/icons/tools/matchlock-master.png" alt="Icon" />
-
 
 <br />
 
-<a title="Trolls" class="links2" href="https://bdocodex.com/us/item/6220/" target="_blank">
-<img class="icons icons2" src="images/icons/mobs/troll.png" alt="Icon" />
-Trolls (Quint Hill)
+<a title="Ogre Blood" class="links2" href="https://bdocodex.com/us/item/6221/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg4/ogre.png" alt="Icon" />
+Ogre
 </a>
-<img title="Fluid Collector" class="icons icons3" src="images/icons/tools/manos-fluid.png" alt="Icon" />
 
+<br />
+
+<a title="Troll Blood" class="links2" href="https://bdocodex.com/us/item/6220/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg4/troll.png" alt="Icon" />
+Troll
+</a>
+
+<br />
+
+<a title="Yak Blood" class="links2" href="https://bdocodex.com/us/item/6225/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg4/yak.png" alt="Icon" />
+Yak
+</a>
 
 
 
 </div>
-<!-- blood-Tyrants-BG4 -->
+<!-- blood-TB-blood-group-4-items End -->
 
 
 
-<!-- blood-Tyrants-Notes ButtonT1 -->
-<div class="button t1">
+<!-- blood-TB-Notes Button -->
+<div class="button notes">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-Tyrants-Notes');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-TB-Notes');">
 
-<div class="left top">
+<div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -489,21 +489,21 @@ Notes
 </a>
 
 </div>
-<!-- blood-Tyrants-Notes ButtonT1 End -->
+<!-- blood-TB-Notes Button End -->
 
 
-<!-- blood-Tyrants-Notes -->
-<div id="blood-Tyrants-Notes" class="notes hidden">
+<!-- blood-TB-Notes -->
+<div id="blood-TB-Notes" class="hidden notes-container">
 
 
-<!-- blood-Tyrants-Notes-Cheapest ButtonT1 -->
-<div class="button h1 t2">
+<!-- blood-TB-Notes-Cheapest Button -->
+<div class="button cheapest">
 
-<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('blood-Tyrants-Notes-Cheapest');">
+<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('blood-TB-Notes-Cheapest');">
 
-<div class="left top">
+<div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -511,26 +511,32 @@ Cheapest CP Nodes
 <img class="icons icons6" src="images/icons/nodes/connect2.png" alt="Icon" />
 </a>
 
+
+<div class="right">
+
 <div class="dots">
 	<span class="amount">9</span>
 </div>
-<span class="spacer">&nbsp;</span>
+
+<a title="Somethinglovely.net" class="links" href="https://www.somethinglovely.net/" target="_blank">🔗</a>
 
 </div>
-<!-- blood-Tyrants-Notes-Cheapest ButtonT1 End -->
 
-<!-- blood-Tyrants-Notes-Cheapest -->
-<div id="blood-Tyrants-Notes-Cheapest" class="hidden">
+</div>
+<!-- blood-TB-Notes-Cheapest Button End -->
+
+<!-- blood-TB-Notes-Cheapest -->
+<div id="blood-TB-Notes-Cheapest" class="hidden">
 
 
-<!-- Tyrants-SA-notes ButtonT4 -->
-<div class="button t3">
+<!-- Tyrants-SA-notes Button -->
+<div class="button blueBg3">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Tyrants-SA-notes');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -539,17 +545,20 @@ Silver Azalea
 </a>
 
 <div class="right">
-<a title="Silver Azalea" class="links" href="https://bdocodex.com/us/item/5402/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">2</span>
 </div>
 
-</div>
-<!-- Tyrants-SA-notes ButtonT4 End -->
+<a title="Silver Azalea" class="links" href="https://bdocodex.com/us/item/5402/" target="_blank">🔗</a>
 
-<!-- Tyrants-SA-notes -->
+</div>
+
+
+</div>
+<!-- Tyrants-SA-notes Button End -->
+
+<!-- Tyrants-SA-notes Button -->
 <div id="Tyrants-SA-notes" class="hidden">
 
 <p class="h2 gold2">2CP Heidel</p>
@@ -568,17 +577,17 @@ N. Plain of Serendia
 
 
 </div>
-<!-- Tyrants-SA-notes -->
+<!-- Tyrants-SA-notes Button -->
 
 
-<!-- blood-Tyrants-ToS-notes ButtonT3 -->
-<div class="button t3">
+<!-- blood-TB-ToS-notes Button -->
+<div class="button blueBg3">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-Tyrants-ToS-notes');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-TB-ToS-notes');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -587,18 +596,21 @@ Trace of Savagery
 </a>
 
 <div class="right">
-<a title="Trace of Savagery" class="links" href="https://bdocodex.com/us/item/5956/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">2</span>
 </div>
 
-</div>
-<!-- blood-Tyrants-ToS-notes ButtonT3 End -->
+<a title="Trace of Savagery" class="links" href="https://bdocodex.com/us/item/5956/" target="_blank">🔗</a>
 
-<!-- blood-Tyrants-ToS-notes -->
-<div id="blood-Tyrants-ToS-notes" class="hidden">
+</div>
+
+
+</div>
+<!-- blood-TB-ToS-notes Button End -->
+
+<!-- blood-TB-ToS-notes Button -->
+<div id="blood-TB-ToS-notes" class="hidden">
 
 <p class="h2 gold2">2CP Heidel</p>
 
@@ -613,17 +625,17 @@ Required: 35 Energy from Zara Lynch
 </p>
 
 </div>
-<!-- blood-Tyrants-ToS-notes End -->
+<!-- blood-TB-ToS-notes Button End -->
 
 
-<!-- blood-Tyrants-MB-notes ButtonT4 -->
-<div class="button t3">
+<!-- blood-TB-MB-notes Button -->
+<div class="button blueBg3">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-Tyrants-MB-notes');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-TB-MB-notes');">
 
 <div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -632,18 +644,21 @@ Monk's Branch
 </a>
 
 <div class="right">
-<a title="Monk's Branch" class="links" href="https://bdocodex.com/us/item/5007/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">5</span>
 </div>
 
-</div>
-<!-- blood-Tyrants-MB-notes ButtonT4 End -->
+<a title="Monk's Branch" class="links" href="https://bdocodex.com/us/item/5007/" target="_blank">🔗</a>
 
-<!-- blood-Tyrants-MB-notes -->
-<div id="blood-Tyrants-MB-notes" class="hidden">
+</div>
+
+
+</div>
+<!-- blood-TB-MB-notes Button End -->
+
+<!-- blood-TB-MB-notes Button -->
+<div id="blood-TB-MB-notes" class="hidden">
 
 <p class="h2 gold2">5CP Heidel/Keplan</p>
 
@@ -668,22 +683,22 @@ Forest of Seclusion
 
 
 </div>
-<!-- blood-Tyrants-MB-notes -->
+<!-- blood-TB-MB-notes Button -->
 
 
 
 </div>
-<!-- blood-Tyrants-Notes-Cheapest End -->
+<!-- blood-TB-Notes-Cheapest End -->
 
 
-<!-- blood-Tyrants-Notes-UsedInButtonT2 -->
-<div class="button h1 t2">
+<!-- blood-TB-Notes-UsedInButton -->
+<div class="button usedin">
 
-<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('blood-Tyrants-Notes-UsedIn');">
+<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('blood-TB-Notes-UsedIn');">
 
-<div class="left top">
+<div class="left">
 	<div class="dots">
-	<span class="dotPlus white">+</span>
+	<span class="dotPlus">+</span>
 	</div>
 </div> 
 
@@ -697,10 +712,10 @@ Used In Recipe
 </div>
 
 </div>
-<!-- blood-Tyrants-Notes-UsedInButtonT2 End -->
+<!-- blood-TB-Notes-UsedInButton End -->
 
-<!-- blood-Tyrants-Notes-UsedIn -->
-<div id="blood-Tyrants-Notes-UsedIn" class="hidden">
+<!-- blood-TB-Notes-UsedIn -->
+<div id="blood-TB-Notes-UsedIn" class="hidden usedin-container">
 
 
 <a title="Oil of Storms" class="links2" href="https://bdocodex.com/us/item/6602/" target="_blank">
@@ -718,20 +733,20 @@ Oil of the Abyss
 <br />
 <a title="Tyrant's Blood" class="links" href="https://bdocodex.com/us/item/6352/" target="_blank">And More...</a>
 </div>
-<!-- blood-Tyrants-Notes-UsedIn End -->
+<!-- blood-TB-Notes-UsedIn End -->
 
 </div>
-<!-- blood-Tyrants-Notes End -->
+<!-- blood-TB-Notes End -->
 
 
-
-
-</div>
-<!-- blood-Tyrants-recipe End -->
 
 
 </div>
-<!-- blood-Tyrants End -->
+<!-- blood-TB-recipe End -->
+
+
+</div>
+<!-- blood-TB End -->
 
 </body>
 </html>
