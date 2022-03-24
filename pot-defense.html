@@ -7,42 +7,10 @@
 	<meta name="description" content="" />
 	<link rel="stylesheet" href="scripts/css/common.css" />
 	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
-	
-<script src="scripts/jquery/3.6.0.js"></script> 
-
-<script src="scripts/jquery/ui-1.13.1.js"></script>	
-	
-<script>
-<!--
-function toggleDiv(divId) {
-   $("#"+divId).toggle();
-}
-//-->
-</script>
-
-<!-- Kiriak -->
-<script>
-$(document).ready(function ()
-{
-
-    $('.buttonLink').each(function ()
-    {
-
-$(this).click(function ()
-    {
-	console.log('clicked');
-        var content=$(this).find(".dotPlus").html();
-        if (content=='+') content='-';
-        else content='+';
-       $(this).find(".dotPlus").html(content);
-
-    });
-    });
-	
-});
-</script>
-<!-- Kiriak Script -->
-
+	<script src="scripts/jquery/3.6.0.js"></script> 
+	<script src="scripts/jquery/plus-minus.js"></script>
+	<script src="scripts/jquery/toggle-div.js"></script>
+	<script src="scripts/jquery/ui-1.13.1.js"></script>
 </head>
 <body id="home-page">
 
@@ -53,18 +21,18 @@ $(this).click(function ()
 <!-- pot-defense-Recipe Button -->
 <div class="button darkBg1 top">
 
-<a title="Content Button" class="buttonLink green" href="javascript:toggleDiv('pot-defense-Recipe-Container');">
+<a title=" All Damage Reduction +5" class="buttonLink green1" href="javascript:toggleDiv('pot-defense-Recipe-Container');">
 <div class="left">
 	<div class="dots">
 	<span class="dotPlus">+</span>
 	</div>
 </div> 
 <img class="icons icons1" src="images/icons/pots/defense.png" alt="Icon" />
-Defense (DR +5)
+Defense Elixir
 </a>
 
 <div class="right">
-<a title="Elixir of Defense" class="links" href="https://bdocodex.com/us/item/700/" target="_blank">🔗</a>
+<a title="Defense Elixir (All Damage Reduction +5)" class="links" href="https://bdocodex.com/us/item/716/" target="_blank">🔗</a>
 </div>
 
 </div>
@@ -73,12 +41,15 @@ Defense (DR +5)
 <!-- pot-defense-Recipe-Container -->
 <div id="pot-defense-Recipe-Container" class="hidden">
 
+<span class="button gold darkBg2">
+All Damage Reduction +5
+</span>
 
 
-<!-- recipe-pot-defense-CLR Button -->
-<div class="button notes">
+<!-- pot-defense-recipe-CLR Button -->
+<div class="button clr">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('recipe-pot-defense-CLR');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-defense-recipe-CLR');">
 
 <div class="left">
 	<div class="dots">
@@ -91,22 +62,25 @@ Clear Liquid Reagent
 </a>
 
 <div class="right">
-<a title="Clear Liquid Reagent" class="links" href="https://bdocodex.com/us/item/5301/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-</div>
-<!-- recipe-pot-defense-CLR Button End -->
+<a title="Clear Liquid Reagent" class="links" href="https://bdocodex.com/us/item/5301/" target="_blank">🔗</a>
 
-<!-- recipe-pot-defense-CLR -->
-<div id="recipe-pot-defense-CLR" class="hidden">
+</div>
+
+
+</div>
+<!-- pot-defense-recipe-CLR Button End -->
+
+<!-- pot-defense-recipe-CLR -->
+<div id="pot-defense-recipe-CLR" class="hidden">
 
 
 <!-- pot-defense-CLR-Grass Button -->
-<div class="button blueBg3">
+<div class="button blueBg4">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-defense-CLR-Grass');">
 
@@ -120,13 +94,15 @@ Clear Liquid Reagent
 Grass
 </a>
 
+
+<div class="right">
+
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-<div class="right">
-<a title="Weeds" class="links" href="https://bdocodex.com/us/item/5439/" target="_blank">🔗</a>
 <a title="Wild Grass" class="links" href="https://bdocodex.com/us/item/5600/" target="_blank">🔗</a>
+
 </div>
 
 </div>
@@ -134,7 +110,7 @@ Grass
 
 
 <!-- pot-defense-CLR-Grass -->
-<div id="pot-defense-CLR-Grass" class="hidden">
+<div id="pot-defense-CLR-Grass" class="info hidden">
 
 
 <a title="Weeds" class="links2" href="https://bdocodex.com/us/item/5600/" target="_blank">
@@ -157,7 +133,7 @@ WIld Grass
 
 
 <!-- pot-defense-CLR-PW Button -->
-<div class="button blueBg3">
+<div class="button blueBg4">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-defense-CLR-PW');">
 
@@ -171,26 +147,27 @@ WIld Grass
 Purified Water
 </a>
 
+
+<div class="right">
+
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-<div class="right">
 <a title="Purified Water" class="links" href="https://bdocodex.com/us/item/6656/" target="_blank">🔗</a>
+
 </div>
 
 </div>
 <!-- pot-defense-CLR-PW Button  End -->
 
 <!-- pot-defense-CLR-PW -->
-<div id="pot-defense-CLR-PW" class="hidden">
+<div id="pot-defense-CLR-PW" class="info hidden">
 
 
 <!-- pot-defense-CLR-CW Button -->
-<div class="button noBg">
 
 <a title="Bottle of Clean Water" class="links2" href="https://bdocodex.com/us/item/6655/" target="_blank">
-
 
 <img class="icons icons1" src="images/icons/waters/clean.png" alt="Icon" />
 Bottle of Clean Water
@@ -200,32 +177,29 @@ Bottle of Clean Water
 	<span class="circleText amount">1</span>
 </div>
 
-
 <img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
 
 
-</div>
 <!-- pot-defense-CLR-CW Button End -->
 
+<br />
+
 <!-- pot-defense-CLR-RW Button -->
-<div class="button noBg">
 
 <a title="Bottle of River Water" class="links2" href="https://bdocodex.com/us/item/6653/" target="_blank">
-
 
 <img class="icons icons1" src="images/icons/waters/river.png" alt="Icon" />
 Bottle of River Water
 </a>
 
+
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-
 <img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
 
 
-</div>
 <!-- pot-defense-CLR-RW Button End -->
 
 
@@ -234,7 +208,7 @@ Bottle of River Water
 <!-- pot-defense-CLR-PW End-->
 
 <!-- pot-defense-CLR-Salt Button -->
-<div class="button blueBg3">
+<div class="button blueBg4">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-defense-CLR-Salt');">
 
@@ -249,18 +223,21 @@ Salt
 </a>
 
 <div class="right">
-<a title="Salt" class="links" href="https://bdocodex.com/us/item/9001/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
+<a title="Salt" class="links" href="https://bdocodex.com/us/item/9001/" target="_blank">🔗</a>
+
+</div>
+
+
 </div>
 <!-- pot-defense-CLR-Salt Button  End -->
 
 <!-- pot-defense-CLR-Salt -->
-<div id="pot-defense-CLR-Salt" class="hidden">
+<div id="pot-defense-CLR-Salt" class="info hidden">
 
 NPC Food Vendor or Innkeeper.
 
@@ -269,7 +246,7 @@ NPC Food Vendor or Innkeeper.
 
 
 <!-- pot-defense-CLR-SRH Button -->
-<div class="button blueBg3">
+<div class="button blueBg4">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-defense-CLR-SRH');">
 
@@ -284,18 +261,21 @@ Sunrise Herb
 </a>
 
 <div class="right">
-<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
+<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
+
+</div>
+
+
 </div>
 <!-- pot-defense-CLR-SRH Button End -->
 
 <!-- pot-defense-CLR-SRH -->
-<div id="pot-defense-CLR-SRH" class="hidden">
+<div id="pot-defense-CLR-SRH" class="info hidden">
 
 <p class="h2 gold2">4CP Velia</p>
 
@@ -313,11 +293,8 @@ Cron Castle Site
 </div>
 <!-- pot-defense-CLR-SRH -->
 
-
-
-
 </div>
-<!-- recipe-pot-defense-CLR End -->
+<!-- pot-defense-recipe-CLR End -->
 
 
 <!-- pot-defense-PW Button -->
@@ -335,11 +312,12 @@ Cron Castle Site
 Purified Water
 </a>
 
+
+<div class="right">
+
 <div class="dots">
 	<span class="circleText amount">3</span>
 </div>
-
-<div class="right">
 
 <a title="Purified Water" class="links" href="https://bdocodex.com/us/item/6656/" target="_blank">🔗</a>
 
@@ -348,16 +326,13 @@ Purified Water
 </div>
 <!-- pot-defense-PW Button  End -->
 
-
 <!-- pot-defense-PW -->
-<div id="pot-defense-PW" class="hidden">
+<div id="pot-defense-PW" class="info hidden">
 
 
-<!-- pot-defense-CW Button -->
-<div class="button noBg">
+<!-- pot-defense-CLR-CW Button -->
 
 <a title="Bottle of Clean Water" class="links2" href="https://bdocodex.com/us/item/6655/" target="_blank">
-
 
 <img class="icons icons1" src="images/icons/waters/clean.png" alt="Icon" />
 Bottle of Clean Water
@@ -367,43 +342,41 @@ Bottle of Clean Water
 	<span class="circleText amount">1</span>
 </div>
 
-
 <img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
 
 
-</div>
-<!-- pot-defense-CW Button End -->
+<!-- pot-defense-CLR-CW Button End -->
 
-<!-- pot-defense-RW Button -->
-<div class="button noBg">
+<br />
+
+<!-- pot-defense-CLR-RW Button -->
 
 <a title="Bottle of River Water" class="links2" href="https://bdocodex.com/us/item/6653/" target="_blank">
-
 
 <img class="icons icons1" src="images/icons/waters/river.png" alt="Icon" />
 Bottle of River Water
 </a>
 
+
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-
 <img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
 
 
-</div>
-<!-- pot-defense-RW Button End -->
+<!-- pot-defense-CLR-RW Button End -->
+
 
 
 </div>
 <!-- pot-defense-PW End-->
 
 
-<!-- blood-group-2-pot-defense Button -->
-<div class="redBg1 button darkBg1">
+<!-- pot-defense-blood-group-2 Button -->
+<div class="button redBg1">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-group-2-pot-defense-items');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-defense-blood-group-2-items');">
 
 <div class="left">
 	<div class="dots">
@@ -415,117 +388,75 @@ Bottle of River Water
 Blood Group 2
 </a>
 
-<div class="dots">
-	<span class="circleText amount">5</span>
-</div>
-
 <div class="right">
+
+<div class="dots">
+<span class="circleText amount">5</span>
+</div>
+
 <a title="Blood Group 2" class="links" href="https://bdocodex.com/us/materialgroup/17/" target="_blank">🔗</a>
-</div>
 
 </div>
-<!-- blood-group-2-pot-defense Button End-->
 
-<!-- blood-group-2-pot-defense-items -->
-<div id="blood-group-2-pot-defense-items" class="hidden">
+</div>
+<!-- pot-defense-blood-group-2 Button End-->
 
-
-<!-- bg2-deer Button -->
-<div class="button darkBg1">
+<!-- pot-defense-blood-group-2-items -->
+<div id="pot-defense-blood-group-2-items" class="info hidden">
 
 <a title="Deer Blood" class="links2" href="https://bdocodex.com/us/item/6201/" target="_blank">
-
 <img class="icons icons1" src="images/icons/bloods/bg2/deer.png" alt="Icon" />
-
 Deer
 </a>
 
-</div>
-<!-- bg2-deer Button -->
-
-<!-- bg2-goat Button -->
-<div class="button darkBg1">
+<br />
 
 <a title="Goat Blood" class="links2" href="https://bdocodex.com/us/item/6228/" target="_blank">
-
 <img class="icons icons1" src="images/icons/bloods/bg2/goat.png" alt="Icon" />
-
 Goat
 </a>
 
-</div>
-<!-- bg2-goat Button -->
-
-<!-- bg2-llama Button -->
-<div class="button darkBg1">
+<br />
 
 <a title="Llama Blood" class="links2" href="https://bdocodex.com/us/item/6227/" target="_blank">
-
 <img class="icons icons1" src="images/icons/bloods/bg2/llama.png" alt="Icon" />
-
 Llama
 </a>
 
-</div>
-<!-- bg2-llama Button -->
-
-
-<!-- bg2-ox Button -->
-<div class="button darkBg1">
+<br />
 
 <a title="Ox Blood" class="links2" href="https://bdocodex.com/us/item/6206/" target="_blank">
-
 <img class="icons icons1" src="images/icons/bloods/bg2/ox.png" alt="Icon" />
-
 Ox
 </a>
 
-</div>
-<!-- bg2-ox Button -->
-
-
-<!-- bg2-pig Button -->
-<div class="button darkBg1">
+<br />
 
 <a title="Pig Blood" class="links2" href="https://bdocodex.com/us/item/6205/" target="_blank">
-
 <img class="icons icons1" src="images/icons/bloods/bg2/pig.png" alt="Icon" />
-
 Pig
 </a>
 
-</div>
-<!-- bg2-pig Button -->
-
-<!-- bg2-sheep Button -->
-<div class="button darkBg1">
+<br />
 
 <a title="Sheep Blood" class="links2" href="https://bdocodex.com/us/item/6202/" target="_blank">
 
 <img class="icons icons1" src="images/icons/bloods/bg2/sheep.png" alt="Icon" />
-
 Sheep
 </a>
 
-</div>
-<!-- bg2-sheep Button -->
-
-<!-- bg2-waragon Button -->
-<div class="button darkBg1">
+<br />
 
 <a title="Waragon Blood" class="links2" href="https://bdocodex.com/us/item/6215/" target="_blank">
-
 <img class="icons icons1" src="images/icons/bloods/bg2/waragon.png" alt="Icon" />
-
 Waragon
 </a>
 
-</div>
-<!-- bg2-waragon Button -->
 
 
+
 </div>
-<!-- blood-group-2-pot-defense-items End -->
+<!-- pot-defense-blood-group-2-items End -->
 
 
 <!-- pot-defense-AS Button -->
@@ -544,11 +475,13 @@ Ash Sap
 </a>
 
 <div class="right">
-<a title="Ash Sap" class="links" href="https://bdocodex.com/us/item/5001/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 <span class="circleText amount">6</span>
+</div>
+
+<a title="Ash Sap" class="links" href="https://bdocodex.com/us/item/5001/" target="_blank">🔗</a>
+
 </div>
 
 </div>
@@ -620,10 +553,14 @@ Cheapest CP Nodes
 <img class="icons icons6" src="images/icons/nodes/connect2.png" alt="Icon" />
 </a>
 
+<div class="right">
+
 <div class="dots">
 	<span class="amount">7</span>
 </div>
-<span class="spacer">&nbsp;</span>
+<a title="Somethinglovely.net" class="links" href="https://www.somethinglovely.net/" target="_blank">🔗</a>
+
+</div>
 
 </div>
 <!-- pot-defense-Notes-Cheapest Button End -->
@@ -647,11 +584,13 @@ Sunrise Herb
 </a>
 
 <div class="right">
-<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">3</span>
+</div>
+
+<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
+
 </div>
 
 </div>
@@ -697,12 +636,15 @@ Ash Sap
 </a>
 
 <div class="right">
-<a title="Ash Sap" class="links" href="https://www.somethinglovely.net/bdo/#node/160" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 <span class="circleText amount">4</span>
 </div>
+
+<a title="Ash Sap" class="links" href="https://www.somethinglovely.net/bdo/#node/160" target="_blank">🔗</a>
+
+</div>
+
 
 </div>
 <!-- pot-defense-AS-notes Button End -->
