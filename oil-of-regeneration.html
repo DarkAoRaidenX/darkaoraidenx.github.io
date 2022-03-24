@@ -1,27 +1,246 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<title>Legendary Beast's Blood</title>
+	<title>Oil of Regeneration</title>
 	<meta charset="UTF-8" />
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<link rel="stylesheet" href="scripts/css/common.css" />
-	<link rel="icon" type="image/x-icon" href="images/fav/bloods.ico">
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
 	<script src="scripts/jquery/3.6.0.js"></script> 
 	<script src="scripts/jquery/plus-minus.js"></script>
 	<script src="scripts/jquery/toggle-div.js"></script>
-	<script src="scripts/jquery/ui-1.13.1.js"></script>		
+	<script src="scripts/jquery/ui-1.13.1.js"></script>
 </head>
 <body id="home-page">
 
-<!-- blood-LB -->
-<div id="blood-LB" class="container bloods" draggable="true" ondragstart="drag(event)">
+
+<!-- OoR-Container -->
+<div id="OoR-Container" class="container pots" draggable="true" ondragstart="drag(event)">
+
+<!-- OoR-Recipe Button -->
+<div class="button darkBg1 top">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoR-Recipe-Container');">
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+<img class="icons icons1" src="images/icons/oil/regeneration.png" alt="Icon" />
+Oil of Regeneration
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="amount">1</span>
+</div>
+
+<a title="Oil of Regeneration" class="links" href="https://bdocodex.com/us/item/6601/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- OoR-Recipe Button End -->
+
+<!-- OoR-Recipe-Container -->
+<div id="OoR-Recipe-Container" class="hidden">
 
 
-<!-- blood-LB-recipe Button -->
-<div class="redBg1 button top">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-LB-recipe');">
+<!-- OoR-FoCF Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoR-FoCF');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/fruit-of/crimson-flame.png" alt="Icon" />
+Fruit of Crimson Flame
+</a>
+
+
+
+<div class="right">
+
+<div class="dots">
+<span class="circleText amount">1</span>
+</div>
+
+<a title="Fruit of Crimson Flame" class="links" href="https://bdocodex.com/us/item/5201/" target="_blank">🔗</a>
+
+</div>
+
+
+
+</div>
+<!-- OoR-FoCF Button End -->
+
+<!-- OoR-FoCF -->
+<div id="OoR-FoCF" class="hidden">
+
+<a title="Garlic" class="links2" href="https://bdocodex.com/us/item/7302/" target="_blank">
+<img class="icons icons2" src="images/icons/items/seeds/garlic.png" alt="Icon" />
+Garlic
+</a>
+
+<br />
+
+<a title="Hot Pepper" class="links2" href="https://bdocodex.com/us/item/7305/" target="_blank">
+<img class="icons icons2" src="images/icons/items/seeds/hot-pepper.png" alt="Icon" />
+Hot Pepper
+</a>
+
+<br />
+
+<a title="Olive" class="links2" href="https://bdocodex.com/us/item/7309/" target="_blank">
+<img class="icons icons2" src="images/icons/items/seeds/olive.png" alt="Icon" />
+Olive
+</a>
+
+<br />
+
+<a title="Pepper" class="links2" href="https://bdocodex.com/us/item/7301/" target="_blank">
+<img class="icons icons2" src="images/icons/items/seeds/pepper.png" alt="Icon" />
+Pepper
+</a>
+
+<br />
+
+<a title="Pumpkin" class="links2" href="https://bdocodex.com/us/item/7306/" target="_blank">
+<img class="icons icons2" src="images/icons/items/seeds/pumpkin.png" alt="Icon" />
+Pumpkin
+</a>
+
+
+<br /><br />
+
+<p class="h2 gold2">
+Gathering<img class="icons icons3" src="images/icons/tools/manos-hoe.png" alt="Icon" />
+</p>
+
+<a title="Wild Herb" class="links2" href="https://bdocodex.com/us/gatherable/10218/" target="_blank">
+<img class="icons icons2" src="images/icons/gathering/weeds.png" alt="Icon" />
+Wild Herb (Behr)
+</a>
+
+</div>
+<!-- OoR-FoCF End -->
+
+
+<!-- OoR-PoC Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoR-PoC');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/powder/crevice.png" alt="Icon" />
+Powder of Crevice
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<a title="Powder of Crevice" class="links" href="https://bdocodex.com/us/item/4803/" target="_blank">🔗</a>
+
+</div>
+
+
+
+</div>
+<!-- OoR-PoC Button End -->
+
+<!-- OoR-PoC -->
+<div id="OoR-PoC" class="info hidden">
+
+<p class="h2 gold2">2CP Keplan</p>
+
+<a title="Keplan Quarry" class="links2" href="https://www.somethinglovely.net/bdo/#node/951" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Keplan Quarry
+</a>
+
+
+</div>
+<!-- OoR-PoC End -->
+
+
+<!-- OoR-RTL Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoR-RTL');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/nodes/plants/red-tree-lump.png" alt="Icon" />
+Red Tree Lump
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<a title="Red Tree Lump" class="links" href="https://bdocodex.com/us/item/5011/" target="_blank">🔗</a>
+
+</div>
+
+
+</div>
+<!-- OoR-RTL Button End -->
+
+<!-- OoR-RTL -->
+<div id="OoR-RTL" class="hidden">
+
+
+<p class="h2 gold2">3CP Heidel</p>
+
+<a title="Northern Plain of Serendia" class="links2" href="https://www.somethinglovely.net/bdo/#node/464" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Northern Plain of Serendia
+</a>
+
+
+<p class="h2 gold2">6CP Calpheon</p>
+
+<a title="Old Dandelion" class="links2" href="https://www.somethinglovely.net/bdo/#node/855" target="_blank">
+<img class="icons icons6" src="images/icons/nodes/triangle.png" alt="Icon" />
+Old Dandelion
+</a>
+
+<p class="h2 gold2">6CP Calpheon</p>
+
+<a title="Quint Hill" class="links2" href="https://www.somethinglovely.net/bdo/#node/834" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Quint Hill
+</a>
+
+</div>
+<!-- OoR-RTL End -->
+
+
+<!-- OoR-blood-LB-recipe Button -->
+<div class="redBg1 button">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoR-blood-LB-recipe');">
 
 <div class="left">
 	<div class="dots">
@@ -44,16 +263,16 @@ Legendary Beast's Blood
 </div>
 
 </div>
-<!-- blood-LB-recipe Button End-->
+<!-- OoR-blood-LB-recipe Button End-->
 
 
-<!-- blood-LB-recipe -->
-<div id="blood-LB-recipe" class="hidden">
+<!-- OoR-blood-LB-recipe -->
+<div id="OoR-blood-LB-recipe" class="hidden">
 
-<!-- blood-LB-SL Button -->
+<!-- OoR-blood-LB-SL Button -->
 <div class="button blueBg3">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-LB-SL');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoR-blood-LB-SL');">
 
 <div class="left">
 	<div class="dots">
@@ -77,10 +296,10 @@ Spirit's Leaf
 
 
 </div>
-<!-- blood-LB-SL Button End -->
+<!-- OoR-blood-LB-SL Button End -->
 
-<!-- blood-LB-SL -->
-<div id="blood-LB-SL" class="hidden">
+<!-- OoR-blood-LB-SL -->
+<div id="OoR-blood-LB-SL" class="hidden">
 
 <p class="h2 gold2">1CP Trent</p>
 
@@ -104,12 +323,12 @@ Balenos Forest
 </a>
 
 </div>
-<!-- blood-LB-SL End -->
+<!-- OoR-blood-LB-SL End -->
 
-<!-- blood-LB-TotE Button -->
+<!-- OoR-blood-LB-TotE Button -->
 <div class="button blueBg3">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-LB-TotE');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoR-blood-LB-TotE');">
 
 <div class="left">
 	<div class="dots">
@@ -133,10 +352,10 @@ Trace of the Earth
 </div>
 
 </div>
-<!-- blood-LB-TotE Button End -->
+<!-- OoR-blood-LB-TotE Button End -->
 
-<!-- blood-LB-TotE -->
-<div id="blood-LB-TotE" class="hidden">
+<!-- OoR-blood-LB-TotE -->
+<div id="OoR-blood-LB-TotE" class="hidden">
 
 <p class="h2 gold2">1CP Trent</p>
 
@@ -159,14 +378,14 @@ Goblin Cave
 Balenos Forest
 </a>
 </div>
-<!-- blood-LB-TotE End -->
+<!-- OoR-blood-LB-TotE End -->
 
 
 
-<!-- blood-LB-PPR Button -->
+<!-- OoR-blood-LB-PPR Button -->
 <div class="button ppr">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-LB-PPR');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoR-blood-LB-PPR');">
 
 <div class="left">
 	<div class="dots">
@@ -190,15 +409,15 @@ Pure Powder Reagent
 
 
 </div>
-<!-- blood-LB-PPR Button End -->
+<!-- OoR-blood-LB-PPR Button End -->
 
-<!-- blood-LB-PPR -->
-<div id="blood-LB-PPR" class="hidden">
+<!-- OoR-blood-LB-PPR -->
+<div id="OoR-blood-LB-PPR" class="hidden">
 
-<!-- blood-LB-PPR-Grass Button -->
+<!-- OoR-blood-LB-PPR-Grass Button -->
 <div class="button blueBg4">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-LB-PPR-Grass');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoR-blood-LB-PPR-Grass');">
 
 <div class="left">
 	<div class="dots">
@@ -221,10 +440,10 @@ Grass
 </div>
 
 </div>
-<!-- blood-LB-PPR-Grass Button  End -->
+<!-- OoR-blood-LB-PPR-Grass Button  End -->
 
-<!-- blood-LB-PPR-Grass -->
-<div id="blood-LB-PPR-Grass" class="hidden">
+<!-- OoR-blood-LB-PPR-Grass -->
+<div id="OoR-blood-LB-PPR-Grass" class="hidden">
 
 <a title="Weeds" class="links2" href="https://bdocodex.com/us/item/5600/" target="_blank">
 <img class="icons icons1" src="images/icons/gathering/weeds.png" alt="Icon" />
@@ -242,13 +461,13 @@ WIld Grass
 
 
 </div>
-<!-- blood-LB-PPR-Grass End-->
+<!-- OoR-blood-LB-PPR-Grass End-->
 
 
-<!-- blood-LB-PPR-PW Button -->
+<!-- OoR-blood-LB-PPR-PW Button -->
 <div class="button blueBg4">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-LB-PPR-PW');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoR-blood-LB-PPR-PW');">
 
 <div class="left">
 	<div class="dots">
@@ -271,10 +490,10 @@ Purified Water
 </div>
 
 </div>
-<!-- blood-LB-PPR-PW Button  End -->
+<!-- OoR-blood-LB-PPR-PW Button  End -->
 
-<!-- blood-LB-PPR-PW -->
-<div id="blood-LB-PPR-PW" class="hidden potLinks">
+<!-- OoR-blood-LB-PPR-PW -->
+<div id="OoR-blood-LB-PPR-PW" class="hidden potLinks">
 
 <div class="button blueBg4">
 <a title="Bottle of Clean Water" class="links2" href="https://bdocodex.com/us/item/6655/" target="_blank">
@@ -303,12 +522,12 @@ Bottle of River Water
 </div>
 
 </div>
-<!-- blood-LB-PPR-PW End-->
+<!-- OoR-blood-LB-PPR-PW End-->
 
-<!-- blood-LB-PPR-Sugar Button -->
+<!-- OoR-blood-LB-PPR-Sugar Button -->
 <div class="button blueBg4">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-LB-PPR-Sugar');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoR-blood-LB-PPR-Sugar');">
 
 <div class="left">
 	<div class="dots">
@@ -332,21 +551,21 @@ Sugar
 
 
 </div>
-<!-- blood-LB-PPR-Sugar Button  End -->
+<!-- OoR-blood-LB-PPR-Sugar Button  End -->
 
-<!-- blood-LB-PPR-Sugar -->
-<div id="blood-LB-PPR-Sugar" class="hidden">
+<!-- OoR-blood-LB-PPR-Sugar -->
+<div id="OoR-blood-LB-PPR-Sugar" class="hidden">
 
 NPC Food Vendor or Innkeeper.
 
 </div>
-<!-- blood-LB-PPR-Sugar End-->
+<!-- OoR-blood-LB-PPR-Sugar End-->
 
 
-<!-- blood-LB-PPR-SA Button -->
+<!-- OoR-blood-LB-PPR-SA Button -->
 <div class="button blueBg4">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-LB-PPR-SA');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoR-blood-LB-PPR-SA');">
 
 <div class="left">
 	<div class="dots">
@@ -370,10 +589,10 @@ Silver Azalea
 
 
 </div>
-<!-- blood-LB-PPR-SA Button End -->
+<!-- OoR-blood-LB-PPR-SA Button End -->
 
-<!-- blood-LB-PPR-SA -->
-<div id="blood-LB-PPR-SA" class="hidden">
+<!-- OoR-blood-LB-PPR-SA -->
+<div id="OoR-blood-LB-PPR-SA" class="hidden">
 
 <p class="h2 gold2">2CP Heidel</p>
 
@@ -390,18 +609,18 @@ Northern Plain of Serendia
 </a>
 
 </div>
-<!-- blood-LB-PPR-SA -->
+<!-- OoR-blood-LB-PPR-SA -->
 
 
 
 </div>
-<!-- blood-LB-PPR End -->
+<!-- OoR-blood-LB-PPR End -->
 
 
-<!-- blood-LB-blood-group-5 Button -->
+<!-- OoR-blood-LB-blood-group-5 Button -->
 <div class="button redBg1">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-LB-blood-group-5-items');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoR-blood-LB-blood-group-5-items');">
 
 <div class="left">
 	<div class="dots">
@@ -424,10 +643,10 @@ Blood Group 5
 </div>
 
 </div>
-<!-- blood-LB-blood-group-5 Button End-->
+<!-- OoR-blood-LB-blood-group-5 Button End-->
 
-<!-- blood-LB-blood-group-5-items -->
-<div id="blood-LB-blood-group-5-items" class="hidden">
+<!-- OoR-blood-LB-blood-group-5-items -->
+<div id="OoR-blood-LB-blood-group-5-items" class="hidden">
 
 
 <a title="Bat Blood" class="links2" href="https://bdocodex.com/us/item/6219/" target="_blank">
@@ -465,14 +684,18 @@ Worm
 
 
 </div>
-<!-- blood-LB-blood-group-5-items End -->
+<!-- OoR-blood-LB-blood-group-5-items End -->
 
 
 
-<!-- blood-LB-Notes Button -->
+</div>
+<!-- OoR-blood-LB-recipe End -->
+
+
+<!-- OoR-Notes Button -->
 <div class="button notes">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-LB-Notes');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoR-Notes');">
 
 <div class="left">
 	<div class="dots">
@@ -485,17 +708,17 @@ Notes
 </a>
 
 </div>
-<!-- blood-LB-Notes Button End -->
+<!-- OoR-Notes Button End -->
 
 
-<!-- blood-LB-Notes -->
-<div id="blood-LB-Notes" class="hidden notes-container">
+<!-- OoR-Notes -->
+<div id="OoR-Notes" class="hidden notes-container">
 
 
-<!-- blood-LB-Notes-Cheapest Button -->
+<!-- OoR-Notes-Cheapest Button -->
 <div class="button cheapest">
 
-<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('blood-LB-Notes-Cheapest');">
+<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('OoR-Notes-Cheapest');">
 
 <div class="left">
 	<div class="dots">
@@ -510,24 +733,23 @@ Cheapest CP Nodes
 <div class="right">
 
 <div class="dots">
-	<span class="circleText amount">4</span>
+	<span class="amount">9</span>
 </div>
-
 <a title="Somethinglovely.net" class="links" href="https://www.somethinglovely.net/" target="_blank">🔗</a>
 
 </div>
 
-
 </div>
-<!-- blood-LB-Notes-Cheapest Button End -->
+<!-- OoR-Notes-Cheapest Button End -->
 
-<!-- blood-LB-Notes-Cheapest -->
-<div id="blood-LB-Notes-Cheapest" class="hidden">
+<!-- OoR-Notes-Cheapest -->
+<div id="OoR-Notes-Cheapest" class="hidden">
 
-<!-- blood-LB-SL-notes Button -->
+
+<!-- OoR-SL-Notes Button -->
 <div class="button blueBg3">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-LB-SL-notes');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoR-SL-Notes');">
 
 <div class="left">
 	<div class="dots">
@@ -551,10 +773,10 @@ Spirit's Leaf
 
 
 </div>
-<!-- blood-LB-SL-notes Button End -->
+<!-- OoR-SL-Notes Button End -->
 
-<!-- blood-LB-SL-notes Button -->
-<div id="blood-LB-SL-notes" class="hidden">
+<!-- OoR-SL-Notes -->
+<div id="OoR-SL-Notes" class="hidden">
 
 <p class="h2 gold2">1CP Trent</p>
 
@@ -563,6 +785,7 @@ Spirit's Leaf
 Lumberjack's Rest Area
 </a>
 
+
 <p class="h2 gold2">4CP Velia</p>
 
 <a title="Goblin Cave" class="links2" href="https://www.somethinglovely.net/bdo/#node/23" target="_blank">
@@ -570,22 +793,23 @@ Lumberjack's Rest Area
 Goblin Cave
 </a>
 
+
 <p class="h2 gold2">5CP Velia</p>
 
 <a title="Balenos Forest" class="links2" href="https://www.somethinglovely.net/bdo/#node/44" target="_blank">
-<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+<img class="icons icons1" src="images/icons/nodes/connect2.png" alt="Icon" />
 Balenos Forest
 </a>
 
 
 </div>
-<!-- blood-LB-SL-notes Button End -->
+<!-- OoR-SL-Notes -->
 
 
-<!-- blood-LB-TotE-notes Button -->
+<!-- OoR-blood-LB-TotE-notes Button -->
 <div class="button blueBg3">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-LB-TotE-notes');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoR-blood-LB-TotE-notes');">
 
 <div class="left">
 	<div class="dots">
@@ -609,10 +833,10 @@ Trace of the Earth
 
 
 </div>
-<!-- blood-LB-TotE-notes Button End -->
+<!-- OoR-blood-LB-TotE-notes Button End -->
 
-<!-- blood-LB-TotE-notes Button -->
-<div id="blood-LB-TotE-notes" class="hidden">
+<!-- OoR-blood-LB-TotE-notes Button -->
+<div id="OoR-blood-LB-TotE-notes" class="hidden">
 
 <p class="h2 gold2">1CP Trent</p>
 
@@ -636,13 +860,57 @@ Balenos Forest
 </a>
 
 </div>
-<!-- blood-LB-TotE-notes Button End -->
+<!-- OoR-blood-LB-TotE-notes Button End -->
 
 
-<!-- blood-LB-SA-notes Button -->
+<!-- OoR-PoC-Notes Button -->
 <div class="button blueBg3">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-LB-SA-notes');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoR-PoC-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/powder/crevice.png" alt="Icon" />
+Powder of Crevice
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">2</span>
+</div>
+
+<a title="Powder of Crevice" class="links" href="https://bdocodex.com/us/item/4803/" target="_blank">🔗</a>
+
+</div>
+
+
+</div>
+<!-- OoR-PoC-Notes Button End -->
+
+<!-- OoR-PoC-Notes -->
+<div id="OoR-PoC-Notes" class="hidden">
+
+<p class="h2 gold2">2CP Keplan</p>
+
+<a title="Keplan Quarry" class="links2" href="https://www.somethinglovely.net/bdo/#node/951" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Keplan Quarry
+</a>
+
+
+</div>
+<!-- OoR-PoC-Notes -->
+
+
+<!-- OoR-SA-notes Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoR-SA-notes');">
 
 <div class="left">
 	<div class="dots">
@@ -666,10 +934,10 @@ Silver Azalea
 
 
 </div>
-<!-- blood-LB-SA-notes Button End -->
+<!-- OoR-SA-notes Button End -->
 
-<!-- blood-LB-SA-notes Button -->
-<div id="blood-LB-SA-notes" class="hidden">
+<!-- OoR-SA-notes Button -->
+<div id="OoR-SA-notes" class="hidden">
 
 <p class="h2 gold2">2CP Heidel</p>
 
@@ -687,16 +955,81 @@ N. Plain of Serendia
 
 
 </div>
-<!-- blood-LB-SA-notes Button -->
+<!-- OoR-SA-notes Button -->
+
+
+
+
+
+
+<!-- OoR-RTL-notes Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('OoR-RTL-notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/nodes/plants/bloody-tree-knot.png" alt="Icon">
+Red Tree Lump
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+<a title="Red Tree Lump" class="links" href="https://bdocodex.com/us/item/5005/" target="_blank">🔗</a>
 
 </div>
-<!-- blood-LB-Notes-Cheapest End -->
 
 
-<!-- blood-LB-Notes-UsedInButton -->
+</div>
+<!-- OoR-RTL-notes Button End -->
+
+<!-- OoR-RTL-notes Button -->
+<div id="OoR-RTL-notes" class="hidden">
+
+<p class="h2 gold2">3CP Heidel</p>
+
+<a title="Northern Plain of Serendia" class="links2" href="https://www.somethinglovely.net/bdo/#node/464" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Northern Plain of Serendia
+</a>
+
+
+<p class="h2 gold2">6CP Calpheon</p>
+
+<a title="Old Dandelion" class="links2" href="https://www.somethinglovely.net/bdo/#node/855" target="_blank">
+<img class="icons icons6" src="images/icons/nodes/triangle.png" alt="Icon" />
+Old Dandelion
+</a>
+
+<p class="h2 gold2">6CP Calpheon</p>
+
+<a title="Quint Hill" class="links2" href="https://www.somethinglovely.net/bdo/#node/834" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Quint Hill
+</a>
+
+</div>
+<!-- OoR-RTL-notes Button -->
+
+
+
+
+</div>
+<!-- OoR-Notes-Cheapest End -->
+
+
+<!-- OoR-Notes-UsedInButton -->
 <div class="button usedin">
 
-<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('blood-LB-Notes-UsedIn');">
+<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('OoR-Notes-UsedIn');">
 
 <div class="left">
 	<div class="dots">
@@ -710,60 +1043,46 @@ Used In Recipe
 
 
 <div class="right">
-<a title="Clown's Blood" class="links" href="https://bdocodex.com/us/item/6353/" target="_blank">🔗</a>
+<a title="Oil of Regeneration" class="links" href="https://bdocodex.com/us/item/6601/" target="_blank">🔗</a>
 </div>
 
 </div>
-<!-- blood-LB-Notes-UsedInButton End -->
+<!-- OoR-Notes-UsedInButton End -->
 
-<!-- blood-LB-Notes-UsedIn -->
-<div id="blood-LB-Notes-UsedIn" class="hidden usedin-container">
+<!-- OoR-Notes-UsedIn -->
+<div id="OoR-Notes-UsedIn" class="hidden usedin-container">
 
 
-<a title="Amity +20%" class="links2" href="https://bdocodex.com/us/item/664/" target="_blank">
-<img class="icons icons1" src="images/icons/pots/amity.png" alt="Icon" />
-Elixir of Amity
+<a title="Back Attack Damage +10%" class="links2" href="https://bdocodex.com/us/item/696/" target="_blank">
+
+<img class="icons icons1" src="images/icons/pots/assassination.png" alt="Icon" />
+Elixir of Assassination
 </a>
 
 <br />
 
-<a title="Movement Speed +2" class="links2" href="https://bdocodex.com/us/item/690/" target="_blank">
-<img class="icons icons1" src="images/icons/pots/swiftness.png" alt="Icon" />
-Elixir of Swiftness
-</a>
+<a title="All DP -5 & All AP +10" class="links2" href="https://bdocodex.com/us/item/712/" target="_blank">
 
-<br />
-
-<a title="Horse EXP +8%" class="links2" href="https://bdocodex.com/us/item/753/" target="_blank">
-<img class="icons icons1" src="images/icons/pots/training.png" alt="Icon" />
-Elixir of Training
-</a>
-
-<br />
-
-<a title="Oil of Regeneration" class="links2" href="https://bdocodex.com/us/item/6601/" target="_blank">
-<img class="icons icons1" src="images/icons/oil/regeneration.png" alt="Icon" />
-Oil of Regeneration
+<img class="icons icons1" src="images/icons/pots/frenzy.png" alt="Icon" />
+Elixir of Frenzy
 </a>
 
 
 <br />
-<a title="Legendary Beast's Blood" class="links" href="https://bdocodex.com/us/item/6351/" target="_blank">And More...</a>
+<a title="Oil of Regeneration" class="links2" href="https://bdocodex.com/us/item/6601/" target="_blank">And More...</a>
 </div>
-<!-- blood-LB-Notes-UsedIn End -->
+<!-- OoR-Notes-UsedIn End -->
 
 </div>
-<!-- blood-LB-Notes End -->
-
-
+<!-- OoR-Notes End -->
 
 
 </div>
-<!-- blood-LB-recipe End -->
-
+<!-- OoR-Recipe-Container End-->
 
 </div>
-<!-- blood-LB End -->
+<!-- OoR-Container End -->
+
 
 </body>
 </html>
