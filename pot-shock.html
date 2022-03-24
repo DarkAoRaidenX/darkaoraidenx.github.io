@@ -7,78 +7,50 @@
 	<meta name="description" content="" />
 	<link rel="stylesheet" href="scripts/css/common.css" />
 	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
-	
-<script src="scripts/jquery/3.6.0.js"></script> 
-
-<script src="scripts/jquery/ui-1.13.1.js"></script>	
-	
-<script>
-<!--
-function toggleDiv(divId) {
-   $("#"+divId).toggle();
-}
-//-->
-</script>
-
-<!-- Kiriak -->
-<script>
-$(document).ready(function ()
-{
-
-    $('.buttonLink').each(function ()
-    {
-
-$(this).click(function ()
-    {
-	console.log('clicked');
-        var content=$(this).find(".dotPlus").html();
-        if (content=='+') content='-';
-        else content='+';
-       $(this).find(".dotPlus").html(content);
-
-    });
-    });
-	
-});
-</script>
-<!-- Kiriak Script -->
-
+	<script src="scripts/jquery/3.6.0.js"></script> 
+	<script src="scripts/jquery/plus-minus.js"></script>
+	<script src="scripts/jquery/toggle-div.js"></script>
+	<script src="scripts/jquery/ui-1.13.1.js"></script>
 </head>
 <body id="home-page">
 
 
-<!-- potShock-Container -->
-<div id="potShock-Container" class="container pots" draggable="true" ondragstart="drag(event)">
+<!-- pot-Shock-Container -->
+<div id="pot-Shock-Container" class="container pots" draggable="true" ondragstart="drag(event)">
 
-<!-- potShock-Recipe Button -->
+<!-- pot-Shock-Recipe Button -->
 <div class="button darkBg1 top">
 
-<a title="Content Button" class="buttonLink green" href="javascript:toggleDiv('potShock-Recipe-Container');">
+<a title="Critical Hit Rate +2" class="buttonLink green1" href="javascript:toggleDiv('pot-Shock-Recipe-Container');">
 <div class="left">
 	<div class="dots">
 	<span class="dotPlus">+</span>
 	</div>
 </div> 
 <img class="icons icons1" src="images/icons/pots/shock.png" alt="Icon" />
-Elixir of Shock (Crit. Hit Rate +2)
+Elixir of Shock
 </a>
 
 <div class="right">
-<a title="Elixir of Shock" class="links" href="https://bdocodex.com/us/item/762/" target="_blank">🔗</a>
+<a title="Elixir of Shock (Critical Hit Rate +2)" class="links" href="https://bdocodex.com/us/item/762/" target="_blank">🔗</a>
 </div>
 
 </div>
-<!-- potShock-Recipe Button End -->
+<!-- pot-Shock-Recipe Button End -->
 
 
-<!-- potShock-Recipe-Container -->
-<div id="potShock-Recipe-Container" class="hidden">
+<!-- pot-Shock-Recipe-Container -->
+<div id="pot-Shock-Recipe-Container" class="hidden">
+
+<span class="button gold darkBg2">
+Critical Hit Rate +2
+</span>
 
 
-<!-- potShock-blood-clowns-recipe Button -->
-<div class="redBg1 button blueBg3">
+<!-- Pot-Shock-CB-Recipe Button -->
+<div class="button redBg1">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potShock-blood-clowns-recipe');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Pot-Shock-CB-Recipe');">
 
 <div class="left">
 	<div class="dots">
@@ -91,19 +63,24 @@ Clown's Blood
 </a>
 
 <div class="right">
+
+<div class="dots">
+<span class="circleText amount">1</span>
+</div>
+
 <a title="Clown's Blood" class="links" href="https://bdocodex.com/us/item/6353/" target="_blank">🔗</a>
 </div>
 
 </div>
-<!-- potShock-blood-clowns-recipe Button End-->
+<!-- Pot-Shock-CB-Recipe Button End-->
 
-<!-- potShock-blood-clowns-recipe -->
-<div id="potShock-blood-clowns-recipe" class="hidden">
+<!-- Pot-Shock-CB-Recipe -->
+<div id="Pot-Shock-CB-Recipe" class="hidden">
 
-<!-- potShock-CLR-blood-clowns Button -->
-<div class="button blueBg3">
+<!-- Pot-Shock-CB-CLR Button -->
+<div class="button clr">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potShock-CLR-blood-clowns');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Pot-Shock-CB-CLR');">
 
 <div class="left">
 	<div class="dots">
@@ -116,23 +93,27 @@ Clear Liquid Reagent
 </a>
 
 <div class="right">
-<a title="Clear Liquid Reagent" class="links" href="https://bdocodex.com/us/recipe/47/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
+<a title="Clear Liquid Reagent" class="links" href="https://bdocodex.com/us/item/5301/" target="_blank">🔗</a>
+
 </div>
-<!-- potShock-CLR-blood-clowns Button End -->
 
-<!-- potShock-CLR-blood-clowns -->
-<div id="potShock-CLR-blood-clowns" class="hidden">
 
-<!-- potShock-blood-clowns-Grass Button -->
-<div class="button t4">
+</div>
+<!-- Pot-Shock-CB-CLR Button End -->
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potShock-blood-clowns-Grass');">
+<!-- Pot-Shock-CB-CLR -->
+<div id="Pot-Shock-CB-CLR" class="hidden">
+
+
+<!-- Pot-Shock-CB-CLR-Grass Button -->
+<div class="button blueBg4">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Pot-Shock-CB-CLR-Grass');">
 
 <div class="left">
 	<div class="dots">
@@ -144,20 +125,24 @@ Clear Liquid Reagent
 Grass
 </a>
 
+
+<div class="right">
+
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-<div class="right">
-<a title="Weeds" class="links" href="https://bdocodex.com/us/item/5439/" target="_blank">🔗</a>
 <a title="Wild Grass" class="links" href="https://bdocodex.com/us/item/5600/" target="_blank">🔗</a>
+
 </div>
 
 </div>
-<!-- potShock-blood-clowns-Grass Button  End -->
+<!-- Pot-Shock-CB-CLR-Grass Button  End -->
 
-<!-- potShock-blood-clowns-Grass -->
-<div id="potShock-blood-clowns-Grass" class="hidden">
+
+<!-- Pot-Shock-CB-CLR-Grass -->
+<div id="Pot-Shock-CB-CLR-Grass" class="info hidden">
+
 
 <a title="Weeds" class="links2" href="https://bdocodex.com/us/item/5600/" target="_blank">
 <img class="icons icons1" src="images/icons/gathering/weeds.png" alt="Icon" />
@@ -175,13 +160,13 @@ WIld Grass
 
 
 </div>
-<!-- potShock-blood-clowns-Grass End-->
+<!-- Pot-Shock-CB-CLR-Grass End-->
 
 
-<!-- potShock-blood-clowns-PW Button -->
-<div class="button t4">
+<!-- Pot-Shock-CB-CLR-PW Button -->
+<div class="button blueBg4">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potShock-blood-clowns-PW');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Pot-Shock-CB-CLR-PW');">
 
 <div class="left">
 	<div class="dots">
@@ -193,22 +178,28 @@ WIld Grass
 Purified Water
 </a>
 
+
+<div class="right">
+
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-<div class="right">
 <a title="Purified Water" class="links" href="https://bdocodex.com/us/item/6656/" target="_blank">🔗</a>
-</div>
 
 </div>
-<!-- potShock-blood-clowns-PW Button  End -->
 
-<!-- potShock-blood-clowns-PW -->
-<div id="potShock-blood-clowns-PW" class="hidden potLinks">
+</div>
+<!-- Pot-Shock-CB-CLR-PW Button  End -->
 
-<div class="button blueBg3">
+<!-- Pot-Shock-CB-CLR-PW -->
+<div id="Pot-Shock-CB-CLR-PW" class="info hidden">
+
+
+<!-- Pot-Shock-CB-CLR-CW Button -->
+
 <a title="Bottle of Clean Water" class="links2" href="https://bdocodex.com/us/item/6655/" target="_blank">
+
 <img class="icons icons1" src="images/icons/waters/clean.png" alt="Icon" />
 Bottle of Clean Water
 </a>
@@ -219,27 +210,38 @@ Bottle of Clean Water
 
 <img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
 
+
+<!-- Pot-Shock-CB-CLR-CW Button End -->
+
 <br />
 
+<!-- Pot-Shock-CB-CLR-RW Button -->
+
 <a title="Bottle of River Water" class="links2" href="https://bdocodex.com/us/item/6653/" target="_blank">
+
 <img class="icons icons1" src="images/icons/waters/river.png" alt="Icon" />
 Bottle of River Water
 </a>
+
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
 <img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
-</div>
+
+
+<!-- Pot-Shock-CB-CLR-RW Button End -->
+
+
 
 </div>
-<!-- potShock-blood-clowns-PW End-->
+<!-- Pot-Shock-CB-CLR-PW End-->
 
-<!-- potShock-blood-clowns-Salt Button -->
-<div class="button t4">
+<!-- Pot-Shock-CB-CLR-Salt Button -->
+<div class="button blueBg4">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potShock-blood-clowns-Salt');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Pot-Shock-CB-CLR-Salt');">
 
 <div class="left">
 	<div class="dots">
@@ -252,29 +254,32 @@ Salt
 </a>
 
 <div class="right">
-<a title="Salt" class="links" href="https://bdocodex.com/us/item/9001/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-</div>
-<!-- potShock-blood-clowns-Salt Button  End -->
+<a title="Salt" class="links" href="https://bdocodex.com/us/item/9001/" target="_blank">🔗</a>
 
-<!-- potShock-blood-clowns-Salt -->
-<div id="potShock-blood-clowns-Salt" class="hidden">
+</div>
+
+
+</div>
+<!-- Pot-Shock-CB-CLR-Salt Button  End -->
+
+<!-- Pot-Shock-CB-CLR-Salt -->
+<div id="Pot-Shock-CB-CLR-Salt" class="info hidden">
 
 NPC Food Vendor or Innkeeper.
 
 </div>
-<!-- potShock-blood-clowns-Salt End-->
+<!-- Pot-Shock-CB-CLR-Salt End-->
 
 
-<!-- potShock-blood-clowns-SRH Button -->
-<div class="button t4">
+<!-- Pot-Shock-CB-CLR-SRH Button -->
+<div class="button blueBg4">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potShock-blood-clowns-SRH');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Pot-Shock-CB-CLR-SRH');">
 
 <div class="left">
 	<div class="dots">
@@ -287,25 +292,21 @@ Sunrise Herb
 </a>
 
 <div class="right">
-<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
+<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
+
 </div>
-<!-- potShock-blood-clowns-SRH Button End -->
 
-<!-- potShock-blood-clowns-SRH -->
-<div id="potShock-blood-clowns-SRH" class="hidden">
 
-<p class="h2 gold2">3CP Velia</p>
+</div>
+<!-- Pot-Shock-CB-CLR-SRH Button End -->
 
-<a title="Cron Castle Site" class="links2" href="https://www.somethinglovely.net/bdo/#node/41" target="_blank">
-<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
-Cron Castle Site
-</a>
+<!-- Pot-Shock-CB-CLR-SRH -->
+<div id="Pot-Shock-CB-CLR-SRH" class="info hidden">
 
 <p class="h2 gold2">4CP Velia</p>
 
@@ -314,22 +315,23 @@ Cron Castle Site
 Balenos Forest
 </a>
 
+<p class="h2 gold2">5CP Velia</p>
+
+<a title="Cron Castle Site" class="links2" href="https://www.somethinglovely.net/bdo/#node/3" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Cron Castle Site
+</a>
+</div>
+<!-- Pot-Shock-CB-CLR-SRH -->
 
 
 </div>
-<!-- potShock-blood-clowns-SRH -->
+<!-- Pot-Shock-CB-CLR End -->
 
-
-
-
-</div>
-<!-- potShock-CLR-blood-clowns End -->
-
-
-<!-- potShock-blood-clowns-PoD Button -->
+<!-- Pot-Shock-CB-PoD Button -->
 <div class="button blueBg3">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potShock-blood-clowns-PoD');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Pot-Shock-CB-PoD');">
 
 <div class="left">
 	<div class="dots">
@@ -342,30 +344,34 @@ Powder of Darkness
 </a>
 
 <div class="right">
-<a title="Powder of Darkness" class="links" href="https://bdocodex.com/us/item/4801/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-</div>
-<!-- potShock-blood-clowns-PoD Button End -->
+<a title="Powder of Darkness" class="links" href="https://bdocodex.com/us/item/4801/" target="_blank">🔗</a>
 
-<!-- potShock-blood-clowns-PoD -->
-<div id="potShock-blood-clowns-PoD" class="hidden">
+</div>
+
+
+
+</div>
+<!-- Pot-Shock-CB-PoD Button End -->
+
+<!-- Pot-Shock-CB-PoD -->
+<div id="Pot-Shock-CB-PoD" class="info hidden">
 
 <p class="h2 gold2">1CP Velia</p>
 
 <a title="Coastal Cave" class="links2" href="https://www.somethinglovely.net/bdo/#node/46" target="_blank">
-<img class="icons icons5" src="images/icons/nodes/connect3.png" alt="Icon" />
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
 Coastal Cave
 </a>
 
 <p class="h2 gold2">2CP Velia</p>
 
 <a title="Coastal Cliff" class="links2" href="https://www.somethinglovely.net/bdo/#node/49" target="_blank">
-<img class="icons icons5" src="images/icons/nodes/connect3.png" alt="Icon" />
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
 Coastal Cliff
 </a>
 
@@ -373,24 +379,24 @@ Coastal Cliff
 
 <a title="Abandoned Iron Mine" class="links2" href="https://www.somethinglovely.net/bdo/#node/1144" target="_blank">
 <img class="icons icons6" src="images/icons/nodes/triangle.png" alt="Icon" />
-Abandoned Iron Mine 
+Abandoned Iron Mine (Altinova)
 </a>
 
 <p class="h2 gold2">4CP Heidel</p>
 
 <a title="Northern Heidel Quarry" class="links2" href="https://www.somethinglovely.net/bdo/#node/326" target="_blank">
-<img class="icons icons5" src="images/icons/nodes/connect3.png" alt="Icon" />
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
 Northern Heidel Quarry
 </a>
 
 </div>
-<!-- potShock-blood-clowns-PoD End -->
+<!-- Pot-Shock-CB-PoD End -->
 
 
-<!-- potShock-blood-clowns-SL Button -->
+<!-- Pot-Shock-CB-SL Button -->
 <div class="button blueBg3">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potShock-blood-clowns-SL');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Pot-Shock-CB-SL');">
 
 <div class="left">
 	<div class="dots">
@@ -403,18 +409,21 @@ Spirit's Leaf
 </a>
 
 <div class="right">
-<a title="Spirit's Leaf" class="links" href="https://bdocodex.com/us/item/5006/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-</div>
-<!-- potShock-blood-clowns-SL Button End -->
+<a title="Spirit's Leaf" class="links" href="https://bdocodex.com/us/item/5006/" target="_blank">🔗</a>
 
-<!-- potShock-blood-clowns-SL -->
-<div id="potShock-blood-clowns-SL" class="hidden">
+</div>
+
+
+</div>
+<!-- Pot-Shock-CB-SL Button End -->
+
+<!-- Pot-Shock-CB-SL -->
+<div id="Pot-Shock-CB-SL" class="info hidden">
 
 <p class="h2 gold2">1CP Trent</p>
 
@@ -426,28 +435,27 @@ Lumberjack's Rest Area
 
 <p class="h2 gold2">4CP Velia</p>
 
-<a title="Balenos Forest" class="links2" href="https://www.somethinglovely.net/bdo/#node/44" target="_blank">
-<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
-Balenos Forest
-</a>
-
-
-<p class="h2 gold2">4CP Velia</p>
-
 <a title="Goblin Cave" class="links2" href="https://www.somethinglovely.net/bdo/#node/23" target="_blank">
 <img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
 Goblin Cave
 </a>
 
 
+<p class="h2 gold2">5CP Velia</p>
+
+<a title="Balenos Forest" class="links2" href="https://www.somethinglovely.net/bdo/#node/44" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect2.png" alt="Icon" />
+Balenos Forest
+</a>
+
 </div>
-<!-- potShock-blood-clowns-SL End -->
+<!-- Pot-Shock-CB-SL End -->
 
 
-<!-- potShock-blood-clowns-BG1 Button -->
-<div class="button blueBg3">
+<!-- Pot-Shock-CB-blood-group-1 Button -->
+<div class="button redBg1">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potShock-blood-clowns-BG1');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Pot-Shock-CB-blood-group-1-items');">
 
 <div class="left">
 	<div class="dots">
@@ -459,59 +467,66 @@ Goblin Cave
 Blood Group 1
 </a>
 
-<div class="dots">
-	<span class="circleText amount">2</span>
-</div>
-
 <div class="right">
+
+<div class="dots">
+<span class="circleText amount">2</span>
+</div>
+
 <a title="Blood Group 1" class="links" href="https://bdocodex.com/us/materialgroup/16/" target="_blank">🔗</a>
-</div>
 
 </div>
-<!-- potShock-blood-clowns-BG1 Button End-->
 
-<!-- potShock-blood-clowns-BG1 -->
-<div id="potShock-blood-clowns-BG1" class="hidden">
+</div>
+<!-- Pot-Shock-CB-blood-group-1 Button End-->
 
-<a title="Grey Wolves" class="links2" href="https://bdocodex.com/us/npc/20045/" target="_blank">
-<img class="icons icons2" src="images/icons/mobs/gray-wolf.png" alt="Icon" />
-Grey Wolves 
+<!-- Pot-Shock-CB-blood-group-1-items -->
+<div id="Pot-Shock-CB-blood-group-1-items" class="info hidden">
+
+
+<a title="Cheetah Dragon Blood" class="links2" href="https://bdocodex.com/us/item/6216/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg1/cheetah-dragon.png" alt="Icon" />
+Cheetah Dragon
 </a>
-<img title="Fluid Collector" class="icons icons3" src="images/icons/tools/manos-fluid.png" alt="Icon" />
 
 <br />
 
-<a title="Feather Wolves Hunting" class="links2 gold" href="https://bdocodex.com/us/npc/27641/" target="_blank">
-<img title="Feather Wolves" class="icons icons2" src="images/icons/mobs/feather-wolf.png" alt="Icon" />
-Feather Wolves 
+<a title="Flamingo Blood" class="links2" href="https://bdocodex.com/us/item/6218/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg1/flamingo.png" alt="Icon" />
+Flamingo
 </a>
-<img title="Hunting Matchlock" class="icons icons1" src="images/icons/tools/matchlock-master.png" alt="Icon" />
-<img title="Butcher Knife" class="icons icons1" src="images/icons/tools/manos-butcher-knife.png" alt="Icon" />
+
 <br />
 
-<a title="Feather Wolves" class="links2" href="https://bdocodex.com/us/npc/21523/" target="_blank">
-<img title="Feather Wolves" class="icons icons2" src="images/icons/mobs/feather-wolf.png" alt="Icon" />
-Feather Wolves 
+<a title="Rhino Blood" class="links2" href="https://bdocodex.com/us/item/6204/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg1/rhino.png" alt="Icon" />
+Rhino
 </a>
-<img title="Fluid Collector" class="icons icons3" src="images/icons/tools/manos-fluid.png" alt="Icon" />
+
+<br />
+
+
+<a title="Wolf Blood" class="links2" href="https://bdocodex.com/us/item/6214/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg1/wolf.png" alt="Icon" />
+Wolf
+</a>
+
+
+
+</div>
+<!-- Pot-Shock-CB-blood-group-1-items End -->
+
 
 
 
 
 </div>
-<!-- potShock-blood-clowns-BG1 -->
+<!-- Pot-Shock-CB-Recipe End -->
 
-
-
-
-</div>
-<!-- potShock-blood-clowns-recipe End -->
-
-
-<!-- potShock-PoT Button -->
+<!-- pot-Shock-PoT Button -->
 <div class="button blueBg3">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potShock-PoT');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-Shock-PoT');">
 
 <div class="left">
 	<div class="dots">
@@ -524,18 +539,21 @@ Powder of Time
 </a>
 
 <div class="right">
-<a title="Powder of Time" class="links" href="https://bdocodex.com/us/item/4805/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 <span class="circleText amount">3</span>
 </div>
 
-</div>
-<!-- potShock-PoT Button End -->
+<a title="Powder of Time" class="links" href="https://bdocodex.com/us/item/4805/" target="_blank">🔗</a>
 
-<!-- potShock-PoT -->
-<div id="potShock-PoT" class="hidden">
+</div>
+
+
+</div>
+<!-- pot-Shock-PoT Button End -->
+
+<!-- pot-Shock-PoT -->
+<div id="pot-Shock-PoT" class="hidden">
 
 <p class="h2 gold2">2CP Glish</p>
 
@@ -575,14 +593,14 @@ Ancient Fissure
 </a>
 
 </div>
-<!-- potShock-PoT End -->
+<!-- pot-Shock-PoT End -->
 
 
-<!-- potShock-TM Button -->
+<!-- pot-Shock-TM Button -->
 <div class="button blueBg3">
 
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potShock-TM');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-Shock-TM');">
 
 <div class="left">
 	<div class="dots">
@@ -595,18 +613,21 @@ Tiger Mushroom
 </a>
 
 <div class="right">
-<a title="Tiger Mushroom" class="links" href="https://bdocodex.com/us/item/5412/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 <span class="circleText amount">5</span>
 </div>
 
-</div>
-<!-- potShock-TM Button End -->
+<a title="Tiger Mushroom" class="links" href="https://bdocodex.com/us/item/5412/" target="_blank">🔗</a>
 
-<!-- potShock-TM -->
-<div id="potShock-TM" class="hidden">
+</div>
+
+
+</div>
+<!-- pot-Shock-TM Button End -->
+
+<!-- pot-Shock-TM -->
+<div id="pot-Shock-TM" class="hidden">
 
 
 <p class="h2 gold2">6CP Tariff/7CP Heidel</p>
@@ -625,12 +646,12 @@ Bree Tree Ruins
 
 
 </div>
-<!-- potShock-TM End -->
+<!-- pot-Shock-TM End -->
 
-<!-- potShock-CS Button -->
+<!-- pot-Shock-CS Button -->
 <div class="button blueBg3">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potShock-CS');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-Shock-CS');">
 
 <div class="left">
 	<div class="dots">
@@ -643,18 +664,20 @@ Cedar Sap
 </a>
 
 <div class="right">
-<a title="Cedar Sap" class="links" href="https://bdocodex.com/us/item/5010/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 <span class="circleText amount">7</span>
 </div>
 
+<a title="Cedar Sap" class="links" href="https://bdocodex.com/us/item/5010/" target="_blank">🔗</a>
 </div>
-<!-- potShock-CS Button End -->
 
-<!-- potShock-CS -->
-<div id="potShock-CS" class="hidden">
+
+</div>
+<!-- pot-Shock-CS Button End -->
+
+<!-- pot-Shock-CS -->
+<div id="pot-Shock-CS" class="hidden">
 
 
 <p class="h2 gold2">6CP Trent</p>
@@ -666,15 +689,15 @@ Longleaf Tree Forest
 
 
 </div>
-<!-- potShock-CS End -->
+<!-- pot-Shock-CS End -->
 
 
 
 
-<!-- potShock-Notes Button -->
+<!-- pot-Shock-Notes Button -->
 <div class="button notes">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potShock-Notes');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-Shock-Notes');">
 
 <div class="left">
 	<div class="dots">
@@ -687,13 +710,13 @@ Notes
 </a>
 
 </div>
-<!-- potShock-Notes Button End -->
+<!-- pot-Shock-Notes Button End -->
 
 
-<!-- potShock-Notes -->
-<div id="potShock-Notes" class="hidden notes-container">
+<!-- pot-Shock-Notes -->
+<div id="pot-Shock-Notes" class="hidden notes-container">
 
-<!-- potShock-Notes-Upgraded Button -->
+<!-- pot-Shock-Notes-Upgraded Button -->
 <div class="button darkBg1">
 
 <a title="Elixir of Strong Shock" class="links2 blue1" href="https://bdocodex.com/us/item/763/" target="_blank">
@@ -703,13 +726,13 @@ Strong Shock (Crit. Hit Rate +3)
 </a>
 
 </div>
-<!-- potShock-Notes-Upgraded Button End -->
+<!-- pot-Shock-Notes-Upgraded Button End -->
 
 
-<!-- potShock-Notes-Cheapest Button -->
+<!-- pot-Shock-Cheapest Button -->
 <div class="button cheapest">
 
-<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('potShock-Notes-Cheapest');">
+<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('pot-Shock-Cheapest');">
 
 <div class="left">
 	<div class="dots">
@@ -727,15 +750,15 @@ Cheapest CP Nodes
 <span class="spacer">&nbsp;</span>
 
 </div>
-<!-- potShock-Notes-Cheapest Button End -->
+<!-- pot-Shock-Cheapest Button End -->
 
-<!-- potShock-Notes-Cheapest -->
-<div id="potShock-Notes-Cheapest" class="hidden">
+<!-- pot-Shock-Cheapest -->
+<div id="pot-Shock-Cheapest" class="hidden">
 
-<!-- potShock-PoD-notes Button -->
+<!-- pot-Shock-PoD-notes Button -->
 <div class="button blueBg3">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potShock-PoD-notes');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-Shock-PoD-notes');">
 
 <div class="left">
 	<div class="dots">
@@ -748,18 +771,21 @@ Powder of Darkness
 </a>
 
 <div class="right">
-<a title="Powder of Darkness" class="links" href="https://bdocodex.com/us/item/4801/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-</div>
-<!-- potShock-PoD-notes Button End -->
+<a title="Powder of Darkness" class="links" href="https://bdocodex.com/us/item/4801/" target="_blank">🔗</a>
 
-<!-- potShock-PoD-notes Button -->
-<div id="potShock-PoD-notes" class="hidden">
+</div>
+
+
+</div>
+<!-- pot-Shock-PoD-notes Button End -->
+
+<!-- pot-Shock-PoD-notes Button -->
+<div id="pot-Shock-PoD-notes" class="hidden">
 
 <p class="h2 gold2">1CP Velia</p>
 
@@ -792,13 +818,13 @@ Northern Heidel Quarry
 
 
 </div>
-<!-- potShock-PoD-notes Button -->
+<!-- pot-Shock-PoD-notes Button -->
 
 
-<!-- potShock-SL-notes Button -->
+<!-- pot-Shock-SL-notes Button -->
 <div class="button blueBg3">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potShock-SL-notes');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-Shock-SL-notes');">
 
 <div class="left">
 	<div class="dots">
@@ -811,18 +837,21 @@ Spirit's Leaf
 </a>
 
 <div class="right">
-<a title="Spirit's Leaf" class="links" href="https://bdocodex.com/us/item/5006/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-</div>
-<!-- potShock-SL-notes Button End -->
+<a title="Spirit's Leaf" class="links" href="https://bdocodex.com/us/item/5006/" target="_blank">🔗</a>
 
-<!-- potShock-SL-notes Button -->
-<div id="potShock-SL-notes" class="hidden">
+</div>
+
+
+</div>
+<!-- pot-Shock-SL-notes Button End -->
+
+<!-- pot-Shock-SL-notes Button -->
+<div id="pot-Shock-SL-notes" class="hidden">
 
 <p class="h2 gold2">1CP Trent</p>
 
@@ -850,14 +879,14 @@ Goblin Cave
 
 
 </div>
-<!-- potShock-SL-notes Button -->
+<!-- pot-Shock-SL-notes Button -->
 
 
 
-<!-- potShock-PoT-notes Button -->
+<!-- pot-Shock-PoT-notes Button -->
 <div class="button blueBg3">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potShock-PoT-notes');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-Shock-PoT-notes');">
 
 <div class="left">
 	<div class="dots">
@@ -870,18 +899,21 @@ Powder of Time
 </a>
 
 <div class="right">
-<a title="Powder of Time" class="links" href="https://bdocodex.com/us/item/4805/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">2</span>
 </div>
 
-</div>
-<!-- potShock-PoT-notes Button End -->
+<a title="Powder of Time" class="links" href="https://bdocodex.com/us/item/4805/" target="_blank">🔗</a>
 
-<!-- potShock-PoT-notes Button -->
-<div id="potShock-PoT-notes" class="hidden">
+</div>
+
+
+</div>
+<!-- pot-Shock-PoT-notes Button End -->
+
+<!-- pot-Shock-PoT-notes Button -->
+<div id="pot-Shock-PoT-notes" class="hidden">
 
 <p class="h2 gold2">3CP Velia</p>
 
@@ -921,14 +953,14 @@ Ancient Fissure
 </a>
 
 </div>
-<!-- potShock-PoT-notes Button -->
+<!-- pot-Shock-PoT-notes Button -->
 
 
 
-<!-- potShock-SRH-notes Button -->
+<!-- pot-Shock-SRH-notes Button -->
 <div class="button blueBg3">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potShock-SRH-notes');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-Shock-SRH-notes');">
 
 <div class="left">
 	<div class="dots">
@@ -941,18 +973,21 @@ Sunrise Herb
 </a>
 
 <div class="right">
-<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">3</span>
 </div>
 
-</div>
-<!-- potShock-SRH-notes Button End -->
+<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
 
-<!-- potShock-SRH-notes Button -->
-<div id="potShock-SRH-notes" class="hidden">
+</div>
+
+
+</div>
+<!-- pot-Shock-SRH-notes Button End -->
+
+<!-- pot-Shock-SRH-notes Button -->
+<div id="pot-Shock-SRH-notes" class="hidden">
 
 <p class="h2 gold2">3CP Velia</p>
 
@@ -971,13 +1006,13 @@ Balenos Forest
 
 
 </div>
-<!-- potShock-SRH-notes Button -->
+<!-- pot-Shock-SRH-notes Button -->
 
 
-<!-- potShock-CS-notes Button -->
+<!-- pot-Shock-CS-notes Button -->
 <div class="button blueBg3">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potShock-CS-notes');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-Shock-CS-notes');">
 
 <div class="left">
 	<div class="dots">
@@ -990,18 +1025,21 @@ Cedar Sap
 </a>
 
 <div class="right">
-<a title="Cedar Sap" class="links" href="https://bdocodex.com/us/item/5010/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 <span class="circleText amount">6</span>
 </div>
 
-</div>
-<!-- potShock-CS-notes Button End -->
+<a title="Cedar Sap" class="links" href="https://bdocodex.com/us/item/5010/" target="_blank">🔗</a>
 
-<!-- potShock-CS-notes Button -->
-<div id="potShock-CS-notes" class="hidden">
+</div>
+
+
+</div>
+<!-- pot-Shock-CS-notes Button End -->
+
+<!-- pot-Shock-CS-notes Button -->
+<div id="pot-Shock-CS-notes" class="hidden">
 
 
 <p class="h2 gold2">6CP Trent</p>
@@ -1013,13 +1051,13 @@ Longleaf Tree Forest
 
 
 </div>
-<!-- potShock-CS-notes Button End -->
+<!-- pot-Shock-CS-notes Button End -->
 
 
-<!-- potShock-TM-notes Button -->
+<!-- pot-Shock-TM-notes Button -->
 <div class="button blueBg3">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('potShock-TM-notes');">
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-Shock-TM-notes');">
 
 <div class="left">
 	<div class="dots">
@@ -1032,18 +1070,21 @@ Tiger Mushroom
 </a>
 
 <div class="right">
-<a title="Tiger Mushroom" class="links" href="https://www.somethinglovely.net/bdo/#node/1668" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 <span class="circleText amount">6</span>
 </div>
 
-</div>
-<!-- potShock-TM-notes Button End -->
+<a title="Tiger Mushroom" class="links" href="https://www.somethinglovely.net/bdo/#node/1668" target="_blank">🔗</a>
 
-<!-- potShock-TM-notes Button -->
-<div id="potShock-TM-notes" class="hidden">
+</div>
+
+
+</div>
+<!-- pot-Shock-TM-notes Button End -->
+
+<!-- pot-Shock-TM-notes Button -->
+<div id="pot-Shock-TM-notes" class="hidden">
 
 <p class="h2 gold2">6CP Tariff/7CP Heidel</p>
 
@@ -1061,22 +1102,22 @@ Bree Tree Ruins
 
 
 </div>
-<!-- potShock-TM-notes Button End -->
+<!-- pot-Shock-TM-notes Button End -->
 
 </div>
-<!-- potShock-Notes-Cheapest End -->
+<!-- pot-Shock-Cheapest End -->
 
-
-
-</div>
-<!-- potShock-Notes End -->
 
 
 </div>
-<!-- potShock-Recipe-Container End-->
+<!-- pot-Shock-Notes End -->
+
 
 </div>
-<!-- potShock-Container End -->
+<!-- pot-Shock-Recipe-Container End-->
+
+</div>
+<!-- pot-Shock-Container End -->
 
 
 </body>

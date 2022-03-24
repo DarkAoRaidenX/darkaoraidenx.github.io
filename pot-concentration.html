@@ -7,42 +7,10 @@
 	<meta name="description" content="" />
 	<link rel="stylesheet" href="scripts/css/common.css" />
 	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
-	
-<script src="scripts/jquery/3.6.0.js"></script> 
-
-<script src="scripts/jquery/ui-1.13.1.js"></script>	
-	
-<script>
-<!--
-function toggleDiv(divId) {
-   $("#"+divId).toggle();
-}
-//-->
-</script>
-
-<!-- Kiriak -->
-<script>
-$(document).ready(function ()
-{
-
-    $('.buttonLink').each(function ()
-    {
-
-$(this).click(function ()
-    {
-	console.log('clicked');
-        var content=$(this).find(".dotPlus").html();
-        if (content=='+') content='-';
-        else content='+';
-       $(this).find(".dotPlus").html(content);
-
-    });
-    });
-	
-});
-</script>
-<!-- Kiriak Script -->
-
+	<script src="scripts/jquery/3.6.0.js"></script> 
+	<script src="scripts/jquery/plus-minus.js"></script>
+	<script src="scripts/jquery/toggle-div.js"></script>
+	<script src="scripts/jquery/ui-1.13.1.js"></script>
 </head>
 <body id="home-page">
 
@@ -53,18 +21,18 @@ $(this).click(function ()
 <!-- pot-concentration-Recipe Button -->
 <div class="button darkBg1 top">
 
-<a title="Content Button" class="buttonLink green" href="javascript:toggleDiv('pot-concentration-Recipe-Container');">
+<a title="Accuracy +8" class="buttonLink green1" href="javascript:toggleDiv('pot-concentration-Recipe-Container');">
 <div class="left">
 	<div class="dots">
 	<span class="dotPlus">+</span>
 	</div>
 </div> 
 <img class="icons icons1" src="images/icons/pots/concentration.png" alt="Icon" />
-Concentration (Accuracy +8)
+Elixir of Concentration
 </a>
 
 <div class="right">
-<a title="Elixir of Concentration" class="links" href="https://bdocodex.com/us/item/700/" target="_blank">🔗</a>
+<a title="Elixir of Concentration (Accuracy +8)" class="links" href="https://bdocodex.com/us/item/700/" target="_blank">🔗</a>
 </div>
 
 </div>
@@ -73,11 +41,92 @@ Concentration (Accuracy +8)
 <!-- pot-concentration-Recipe-Container -->
 <div id="pot-concentration-Recipe-Container" class="hidden">
 
+<span class="button gold darkBg2">
+Accuracy +8
+</span>
 
-<!-- recipe-pot-concentration-CLR Button -->
-<div class="button notes">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('recipe-pot-concentration-CLR');">
+<!-- pot-concentration-BG-4 Button -->
+<div class="button redBg1">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-concentration-BG-4-items');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div>
+
+<img class="icons icons1" src="images/icons/bloods/bg4/troll.png" alt="Icon" />
+Blood Group 4
+</a>
+
+<div class="right">
+
+<div class="dots">
+<span class="circleText amount">1</span>
+</div>
+
+<a title="Blood Group 4" class="links" href="https://bdocodex.com/us/materialgroup/15/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- pot-concentration-BG-4 Button End-->
+
+<!-- pot-concentration-BG-4-items -->
+<div id="pot-concentration-BG-4-items" class="hidden">
+
+
+<a title="Bear Blood" class="links2" href="https://bdocodex.com/us/item/6213/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg4/bear.png" alt="Icon" />
+Bear
+</a>
+
+<br />
+
+<a title="Dinosaur Blood" class="links2" href="https://bdocodex.com/us/item/6207/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg4/dinosaur.png" alt="Icon" />
+Dinosaur (No more?)
+</a>
+
+<br />
+
+<a title="Lion Blood" class="links2" href="https://bdocodex.com/us/item/6223/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg4/lion.png" alt="Icon" />
+Lion
+</a>
+
+<br />
+
+<a title="Ogre Blood" class="links2" href="https://bdocodex.com/us/item/6221/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg4/ogre.png" alt="Icon" />
+Ogre
+</a>
+
+<br />
+
+<a title="Troll Blood" class="links2" href="https://bdocodex.com/us/item/6220/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg4/troll.png" alt="Icon" />
+Troll
+</a>
+
+<br />
+
+<a title="Yak Blood" class="links2" href="https://bdocodex.com/us/item/6225/" target="_blank">
+<img class="icons icons1" src="images/icons/bloods/bg4/yak.png" alt="Icon" />
+Yak
+</a>
+
+
+
+</div>
+<!-- pot-concentration-BG-4-items End -->
+
+<!-- pot-concentration-recipe-CLR Button -->
+<div class="button clr">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-concentration-recipe-CLR');">
 
 <div class="left">
 	<div class="dots">
@@ -90,22 +139,25 @@ Clear Liquid Reagent
 </a>
 
 <div class="right">
-<a title="Clear Liquid Reagent" class="links" href="https://bdocodex.com/us/item/5301/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-</div>
-<!-- recipe-pot-concentration-CLR Button End -->
+<a title="Clear Liquid Reagent" class="links" href="https://bdocodex.com/us/item/5301/" target="_blank">🔗</a>
 
-<!-- recipe-pot-concentration-CLR -->
-<div id="recipe-pot-concentration-CLR" class="hidden">
+</div>
+
+
+</div>
+<!-- pot-concentration-recipe-CLR Button End -->
+
+<!-- pot-concentration-recipe-CLR -->
+<div id="pot-concentration-recipe-CLR" class="hidden">
 
 
 <!-- pot-concentration-CLR-Grass Button -->
-<div class="button blueBg3">
+<div class="button blueBg4">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-concentration-CLR-Grass');">
 
@@ -119,13 +171,15 @@ Clear Liquid Reagent
 Grass
 </a>
 
+
+<div class="right">
+
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-<div class="right">
-<a title="Weeds" class="links" href="https://bdocodex.com/us/item/5439/" target="_blank">🔗</a>
 <a title="Wild Grass" class="links" href="https://bdocodex.com/us/item/5600/" target="_blank">🔗</a>
+
 </div>
 
 </div>
@@ -133,7 +187,7 @@ Grass
 
 
 <!-- pot-concentration-CLR-Grass -->
-<div id="pot-concentration-CLR-Grass" class="hidden">
+<div id="pot-concentration-CLR-Grass" class="info hidden">
 
 
 <a title="Weeds" class="links2" href="https://bdocodex.com/us/item/5600/" target="_blank">
@@ -156,7 +210,7 @@ WIld Grass
 
 
 <!-- pot-concentration-CLR-PW Button -->
-<div class="button blueBg3">
+<div class="button blueBg4">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-concentration-CLR-PW');">
 
@@ -170,26 +224,27 @@ WIld Grass
 Purified Water
 </a>
 
+
+<div class="right">
+
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-<div class="right">
 <a title="Purified Water" class="links" href="https://bdocodex.com/us/item/6656/" target="_blank">🔗</a>
+
 </div>
 
 </div>
 <!-- pot-concentration-CLR-PW Button  End -->
 
 <!-- pot-concentration-CLR-PW -->
-<div id="pot-concentration-CLR-PW" class="hidden">
+<div id="pot-concentration-CLR-PW" class="info hidden">
 
 
 <!-- pot-concentration-CLR-CW Button -->
-<div class="button noBg">
 
 <a title="Bottle of Clean Water" class="links2" href="https://bdocodex.com/us/item/6655/" target="_blank">
-
 
 <img class="icons icons1" src="images/icons/waters/clean.png" alt="Icon" />
 Bottle of Clean Water
@@ -199,32 +254,29 @@ Bottle of Clean Water
 	<span class="circleText amount">1</span>
 </div>
 
-
 <img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
 
 
-</div>
 <!-- pot-concentration-CLR-CW Button End -->
 
+<br />
+
 <!-- pot-concentration-CLR-RW Button -->
-<div class="button noBg">
 
 <a title="Bottle of River Water" class="links2" href="https://bdocodex.com/us/item/6653/" target="_blank">
-
 
 <img class="icons icons1" src="images/icons/waters/river.png" alt="Icon" />
 Bottle of River Water
 </a>
 
+
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
-
 <img title="Filtering" class="icons icons1" src="images/icons/processing/filtering.png" alt="Icon" />
 
 
-</div>
 <!-- pot-concentration-CLR-RW Button End -->
 
 
@@ -233,7 +285,7 @@ Bottle of River Water
 <!-- pot-concentration-CLR-PW End-->
 
 <!-- pot-concentration-CLR-Salt Button -->
-<div class="button blueBg3">
+<div class="button blueBg4">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-concentration-CLR-Salt');">
 
@@ -248,18 +300,21 @@ Salt
 </a>
 
 <div class="right">
-<a title="Salt" class="links" href="https://bdocodex.com/us/item/9001/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
+<a title="Salt" class="links" href="https://bdocodex.com/us/item/9001/" target="_blank">🔗</a>
+
+</div>
+
+
 </div>
 <!-- pot-concentration-CLR-Salt Button  End -->
 
 <!-- pot-concentration-CLR-Salt -->
-<div id="pot-concentration-CLR-Salt" class="hidden">
+<div id="pot-concentration-CLR-Salt" class="info hidden">
 
 NPC Food Vendor or Innkeeper.
 
@@ -268,7 +323,7 @@ NPC Food Vendor or Innkeeper.
 
 
 <!-- pot-concentration-CLR-SRH Button -->
-<div class="button blueBg3">
+<div class="button blueBg4">
 
 <a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-concentration-CLR-SRH');">
 
@@ -283,18 +338,21 @@ Sunrise Herb
 </a>
 
 <div class="right">
-<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">1</span>
 </div>
 
+<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
+
+</div>
+
+
 </div>
 <!-- pot-concentration-CLR-SRH Button End -->
 
 <!-- pot-concentration-CLR-SRH -->
-<div id="pot-concentration-CLR-SRH" class="hidden">
+<div id="pot-concentration-CLR-SRH" class="info hidden">
 
 <p class="h2 gold2">4CP Velia</p>
 
@@ -312,11 +370,8 @@ Cron Castle Site
 </div>
 <!-- pot-concentration-CLR-SRH -->
 
-
-
-
 </div>
-<!-- recipe-pot-concentration-CLR End -->
+<!-- pot-concentration-recipe-CLR End -->
 
 
 <!-- pot-concentration-Grass Button -->
@@ -334,13 +389,15 @@ Cron Castle Site
 Grass
 </a>
 
-<div class="dots">
-	<span class="circleText amount">2</span>
-</div>
 
 <div class="right">
-<a title="Weeds" class="links" href="https://bdocodex.com/us/item/5439/" target="_blank">🔗</a>
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
 <a title="Wild Grass" class="links" href="https://bdocodex.com/us/item/5600/" target="_blank">🔗</a>
+
 </div>
 
 </div>
@@ -348,7 +405,7 @@ Grass
 
 
 <!-- pot-concentration-Grass -->
-<div id="pot-concentration-Grass" class="hidden">
+<div id="pot-concentration-Grass" class="info hidden">
 
 
 <a title="Weeds" class="links2" href="https://bdocodex.com/us/item/5600/" target="_blank">
@@ -369,128 +426,6 @@ WIld Grass
 </div>
 <!-- pot-concentration-Grass End-->
 
-
-<!-- blood-group-4-pot-concentration Button -->
-<div class="redBg1 button darkBg1">
-
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('blood-group-4-pot-concentration-items');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div>
-
-<img class="icons icons1" src="images/icons/bloods/bg4/troll.png" alt="Icon" />
-Blood Group 4
-</a>
-
-<div class="dots">
-<span class="circleText amount">3</span>
-</div>
-
-<div class="right">
-<a title="Blood Group 4" class="links" href="https://bdocodex.com/us/materialgroup/16/" target="_blank">🔗</a>
-</div>
-
-</div>
-<!-- blood-group-4-pot-concentration Button End-->
-
-<!-- blood-group-4-pot-concentration-items -->
-<div id="blood-group-4-pot-concentration-items" class="hidden">
-
-
-<!-- bg4-bear Button -->
-<div class="button darkBg1">
-
-<a title="Bear Blood" class="links2" href="https://bdocodex.com/us/item/6213/" target="_blank">
-
-<img class="icons icons1" src="images/icons/bloods/bg4/bear.png" alt="Icon" />
-
-Bear
-</a>
-
-</div>
-<!-- bg4-bear Button -->
-
-
-<!-- bg4-dinosaur Button -->
-<div class="button darkBg1">
-
-<a title="Dinosaur Blood" class="links2" href="https://bdocodex.com/us/item/6207/" target="_blank">
-
-<img class="icons icons1" src="images/icons/bloods/bg4/dinosaur.png" alt="Icon" />
-
-Dinosaur (Obsolete item?)
-</a>
-
-</div>
-<!-- bg4-dinosaur Button -->
-
-
-<!-- bg4-lion Button -->
-<div class="button darkBg1">
-
-<a title="Lion Blood" class="links2" href="https://bdocodex.com/us/item/6223/" target="_blank">
-
-<img class="icons icons1" src="images/icons/bloods/bg4/lion.png" alt="Icon" />
-
-Lion
-</a>
-
-</div>
-<!-- bg4-lion Button -->
-
-
-<!-- bg4-ogre Button -->
-<div class="button darkBg1">
-
-<a title="Ogre Blood" class="links2" href="https://bdocodex.com/us/item/6221/" target="_blank">
-
-<img class="icons icons1" src="images/icons/bloods/bg4/ogre.png" alt="Icon" />
-
-Ogre
-</a>
-
-</div>
-<!-- bg4-ogre Button -->
-
-
-<!-- bg4-troll Button -->
-<div class="button darkBg1">
-
-<a title="Troll Blood" class="links2" href="https://bdocodex.com/us/item/6220/" target="_blank">
-
-<img class="icons icons1" src="images/icons/bloods/bg4/troll.png" alt="Icon" />
-
-Troll
-</a>
-
-</div>
-<!-- bg4-troll Button -->
-
-
-<!-- bg4-yak Button -->
-<div class="button darkBg1">
-
-<a title="Yak Blood" class="links2" href="https://bdocodex.com/us/item/6225/" target="_blank">
-
-<img class="icons icons1" src="images/icons/bloods/bg4/yak.png" alt="Icon" />
-
-Yak
-</a>
-
-</div>
-<!-- bg4-yak Button -->
-
-
-
-
-
-</div>
-<!-- blood-group-4-pot-concentration-items End -->
-
-
 <!-- pot-concentration-CM Button -->
 <div class="button blueBg3">
 
@@ -507,12 +442,15 @@ Cloud Mushroom
 </a>
 
 <div class="right">
-<a title="Cloud Mushroom" class="links" href="https://bdocodex.com/us/item/5410/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 <span class="circleText amount">3</span>
 </div>
+
+<a title="Cloud Mushroom" class="links" href="https://bdocodex.com/us/item/5410/" target="_blank">🔗</a>
+
+</div>
+
 
 </div>
 <!-- pot-concentration-CM Button End -->
@@ -621,12 +559,15 @@ Cloud Mushroom
 </a>
 
 <div class="right">
-<a title="Cloud Mushroom" class="links" href="https://www.somethinglovely.net/bdo/#node/471" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 <span class="circleText amount">2</span>
 </div>
+
+<a title="Cloud Mushroom" class="links" href="https://www.somethinglovely.net/bdo/#node/471" target="_blank">🔗</a>
+
+</div>
+
 
 </div>
 <!-- pot-concentration-CM-notes Button End -->
@@ -668,12 +609,15 @@ Sunrise Herb
 </a>
 
 <div class="right">
-<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
-</div>
 
 <div class="dots">
 	<span class="circleText amount">3</span>
 </div>
+
+<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
+
+</div>
+
 
 </div>
 <!-- pot-concentration-SRH-notes Button End -->

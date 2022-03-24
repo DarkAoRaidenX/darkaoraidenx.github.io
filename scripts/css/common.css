@@ -48,7 +48,7 @@ table,tr,td,th,p,img {
 
 
 .container {
-	background-color: #191919;
+	background-color: #262626;
 	width: 250px;
 	display: inline-block;
 	vertical-align: top;
@@ -176,6 +176,9 @@ scrollbar-width: none;
 	vertical-align: middle;
 }
 
+span.button {
+	line-height: 24px;
+}
 
 .dots {
 	background-color: #262626;
@@ -184,6 +187,14 @@ scrollbar-width: none;
 	line-height: 18px;
 	width: 18px;
 	vertical-align: middle;
+}
+
+.dotBlue {
+	background-color: #0078D7;
+}
+
+.dotGreen {
+	background-color: #5ff369;
 }
 
 
@@ -320,6 +331,10 @@ a.links:hover, a.links2:hover {
 
 
 
+
+
+
+
 .blue1 {
 	color: #05B4F0;	
 }
@@ -330,14 +345,6 @@ a.links:hover, a.links2:hover {
 
 
 
-
-.dotBlue {
-	background-color: #0078D7;
-}
-
-.dotGreen {
-	background-color: #5ff369;
-}
 
 
 .amount, .gold {
@@ -407,7 +414,7 @@ a.links:hover, a.links2:hover {
 }
 
 .darkBg2 {
-	background-color: #2D2D2D;		
+	background-color: #383838;		
 }
 
 .darkBg3 {
