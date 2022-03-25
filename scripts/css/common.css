@@ -180,6 +180,11 @@ span.button {
 	line-height: 24px;
 }
 
+#pot-Griffons-Notes .button.darkBg1 {
+	line-height: 16px;
+}
+
+
 .dots {
 	background-color: #262626;
 	border-radius: 50%;
