@@ -1,0 +1,947 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Beer</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="scripts/jquery/3.6.0.js"></script> 
+	<script src="scripts/jquery/plus-minus.js"></script>
+	<script src="scripts/jquery/toggle-div.js"></script>
+	<script src="scripts/jquery/ui-1.13.1.js"></script>	
+</head>
+<body id="home-page">
+
+
+
+<!-- item-Beer -->
+<div id="item-Beer" class="container" draggable="true" ondragstart="drag(event)">
+
+
+<!-- recipe-Beer Button -->
+<div class="button greenBg1 top">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('recipe-Beer');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cooking/beer.png" alt="Icon" />
+Beer
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<a title="Beer" class="links" href="https://bdocodex.com/us/item/9213/" target="_blank">🔗</a>
+</div>
+
+
+</div>
+<!-- recipe-Beer Button End -->
+
+<!-- recipe-Beer -->
+<div id="recipe-Beer" class="hidden">
+
+
+
+<!-- Beer-Sugar Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Beer-Sugar');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/vendor/sugar.png" alt="Icon" />
+Sugar
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<a title="Sugar" class="links" href="https://bdocodex.com/us/item/9002/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- Beer-Sugar Button End -->
+
+<!-- Beer-Sugar -->
+<div id="Beer-Sugar" class="info hidden">
+
+<p class="h2 gold2">
+It can be bought from a Food Vendor or Innkeeper.
+</p>
+
+</div>
+<!-- Beer-Sugar End -->
+
+
+<!-- Beer-Leaving-Agent Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Leaving-Agent');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/vendor/leavening-agent.png" alt="Icon" />
+Leaving Agent
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">2</span>
+</div>
+
+<a title="Leaving Agent" class="links" href="https://bdocodex.com/us/item/9005/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- Beer-Leaving-Agent Button End -->
+
+
+<!-- Beer-Leaving-Agent -->
+<div id="Leaving-Agent" class="info hidden">
+
+<p class="h2 gold2">
+It can be bought from a Food Vendor or Innkeeper.
+</p>
+
+</div>
+<!-- Beer-Leaving-Agent Button End -->
+
+
+
+<!-- Beer-Cereals Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Cereals');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/potato.png" alt="Icon" />
+Cereals
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">5</span>
+</div>
+
+<a title="Cereals" class="links" href="https://bdocodex.com/us/materialgroup/1/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- Beer-Cereals Button End -->
+
+<!-- Beer-Cereals -->
+<div id="Cereals" class="info hidden">
+
+<!-- Beer-Barley Button -->
+<div class="button blueBg4">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Beer-Barley');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/barley.png" alt="Icon" />
+Barley
+</a>
+
+<div class="right">
+
+<a title="Barley" class="links" href="https://bdocodex.com/us/item/7002/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- Beer-Barley Button End -->
+
+<!-- Beer-Barley -->
+<div id="Beer-Barley" class="info hidden">
+
+<p class="h2 gold2">3CP Duvencrune</p>
+
+<a title="Duvencrune Farmland" class="links2" href="https://www.somethinglovely.net/bdo/#node/1672" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Duvencrune Farmland
+</a>
+
+
+<p class="h2 gold2">3CP Duvencrune</p>
+
+<a title="Marak Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/1673" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Marak Farm
+</a>
+
+<p class="h2 gold2">5CP Calpheon</p>
+
+<a title="Northern Wheat Plantation" class="links2" href="https://www.somethinglovely.net/bdo/#node/853" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/town.png" alt="Icon" />
+Northern Wheat Plantation
+</a>
+
+
+</div>
+<!-- Beer-Barley End -->
+
+<!-- Beer-Corn Button -->
+<div class="button blueBg4">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Beer-Corn');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/corn.png" alt="Icon" />
+Corn
+</a>
+
+<div class="right">
+
+<a title="Corn" class="links" href="https://bdocodex.com/us/item/7005/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- Beer-Corn Button End -->
+
+<!-- Beer-Corn -->
+<div id="Beer-Corn" class="info hidden">
+
+<p class="h2 gold2">3CP Duvencrune</p>
+
+<a title="Duvencrune Farmland" class="links2" href="https://www.somethinglovely.net/bdo/#node/1672" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Duvencrune Farmland
+</a>
+
+
+<p class="h2 gold2">3CP Duvencrune</p>
+
+<a title="Marak Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/1673" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Marak Farm
+</a>
+
+
+<p class="h2 gold2">5CP Velia</p>
+
+<a title="Toscani Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/171" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Toscani Farm (2 Nodes)
+</a>
+
+
+</div>
+<!-- Beer-Corn End -->
+
+
+<!-- Beer-Potato Button -->
+<div class="button blueBg4">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Beer-Potato');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/potato.png" alt="Icon" />
+Potato
+</a>
+
+<div class="right">
+
+<a title="Potato" class="links" href="https://bdocodex.com/us/item/7003/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- Beer-Potato Button End -->
+
+<!-- Beer-Potato -->
+<div id="Beer-Potato" class="info hidden">
+
+<p class="h2 gold2">3CP Velia</p>
+
+<a title="Bartali Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/131" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Bartali Farm
+</a>
+
+
+<p class="h2 gold2">3CP Velia</p>
+
+<a title="Finto Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/135" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Finto Farm
+</a>
+
+
+<p class="h2 gold2">3CP Velia</p>
+
+<a title="Finto Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/151" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Loggia Farm
+</a>
+
+
+<p class="h2 gold2">4CP O'draxxia</p>
+
+<a title="Delmira Plantation" class="links2" href="https://www.somethinglovely.net/bdo/#node/1708" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Delmira Plantation
+</a>
+
+
+
+
+</div>
+<!-- Beer-Potato End -->
+
+
+<!-- Beer-Sweet-Potato Button -->
+<div class="button blueBg4">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Beer-Sweet-Potato');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/sweet-potato.png" alt="Icon" />
+Sweet Potato
+</a>
+
+<div class="right">
+
+
+<a title="Sweet-Potato" class="links" href="https://bdocodex.com/us/item/7004/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- Beer-Sweet-Potato Button End -->
+
+<!-- Beer-Sweet-Potato -->
+<div id="Beer-Sweet-Potato" class="info hidden">
+
+<p class="h2 gold2">8CP Altinova/Tarif</p>
+
+<a title="Shuri Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/1205" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Shuri Farm
+</a>
+
+
+</div>
+<!-- Beer-Sweet-Potato End -->
+
+
+<!-- Beer-Wheat Button -->
+<div class="button blueBg4">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Beer-Wheat');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/wheat.png" alt="Icon" />
+Wheat
+</a>
+
+<div class="right">
+
+<a title="Wheat" class="links" href="https://bdocodex.com/us/item/7001/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- Beer-Wheat Button End -->
+
+<!-- Beer-Wheat -->
+<div id="Beer-Wheat" class="info hidden">
+
+
+<p class="h2 gold2">3CP Heidel</p>
+
+<a title="Moretti Plantation" class="links2" href="https://www.somethinglovely.net/bdo/#node/435" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Moretti Plantation
+</a>
+
+
+<p class="h2 gold2">3CP Heidel</p>
+
+<a title="Costa Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/435" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Costa Farm
+</a>
+
+
+<p class="h2 gold2">3CP Marak Farm</p>
+
+<a title="Marak Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/1673" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Marak Farm
+</a>
+
+
+
+
+<p class="h2 gold2">5CP Calpehon</p>
+
+<a title="Northern Wheat Plantation" class="links2" href="https://www.somethinglovely.net/bdo/#node/853" target="_blank">
+<img class="icons icons2" src="images/icons/nodes/town.png" alt="Icon" />
+Northern Wheat Plantation
+</a>
+
+
+</div>
+<!-- Beer-Wheat End -->
+
+</div>
+<!-- Beer-Cereals End -->
+
+
+<!-- Beer-Mineral-Water Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Beer-Mineral-Water');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/vendor/mineral-water.png" alt="Icon" />
+Mineral Water
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">6</span>
+</div>
+
+<a title="Mineral-Water" class="links" href="https://bdocodex.com/us/item/9059/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- Beer-Mineral-Water Button End -->
+
+<!-- Beer-Mineral-Water -->
+<div id="Beer-Mineral-Water" class="info hidden">
+
+<p class="h2 gold2">
+It can be bought from a Food Vendor or Innkeeper.
+</p>
+
+</div>
+<!-- Beer-Mineral-Water End -->
+
+
+<!-- Beer-Notes Button -->
+<div class="button notes">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Beer-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+Notes
+<img class="icons icons6" src="images/icons/menu/notes.png" alt="Icon" />
+</a>
+
+</div>
+<!-- Beer-Notes Button End -->
+
+
+<!-- Beer-Notes -->
+<div id="Beer-Notes" class="hidden notes-container">
+
+<!-- Beer-Cheapest Button -->
+<div class="button cheapest">
+
+<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('Beer-Cheapest');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+Cheapest CP Nodes
+<img class="icons icons6" src="images/icons/nodes/connect2.png" alt="Icon" />
+</a>
+
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+<a title="Somethinglovely.net" class="links" href="https://www.somethinglovely.net/bdo/" target="_blank">🔗</a>
+
+</div>
+
+
+</div>
+<!-- Beer-Cheapest Button End -->
+
+<!-- Beer-Cheapest -->
+<div id="Beer-Cheapest" class="cheapest-container hidden">
+
+
+<!-- Beer-Cheapest-Cereals Button -->
+<div class="button blueBg2">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Beer-Cheapest-Cereals');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/potato.png" alt="Icon" />
+Cereals
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+<a title="Cereals" class="links" href="https://bdocodex.com/us/materialgroup/1/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- Beer-Cheapest-Cereals Button End -->
+
+<!-- Beer-Cheapest-Cereals -->
+<div id="Beer-Cheapest-Cereals" class="info hidden">
+
+<!-- Beer-Barley-Notes Button -->
+<div class="button blueBg3">
+
+<a title="Content-Notes Button" class="buttonLink" href="javascript:toggleDiv('Beer-Barley-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/barley.png" alt="Icon" />
+Barley
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+<a title="Barley" class="links" href="https://bdocodex.com/us/item/7002/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- Beer-Barley-Notes Button End -->
+
+<!-- Beer-Barley-Notes -->
+<div id="Beer-Barley-Notes" class="info hidden">
+
+<p class="h2 gold2">3CP Duvencrune</p>
+
+<a title="Duvencrune Farmland" class="links2" href="https://www.somethinglovely.net/bdo/#node/1672" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Duvencrune Farmland
+</a>
+
+
+<p class="h2 gold2">3CP Duvencrune</p>
+
+<a title="Marak Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/1673" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Marak Farm
+</a>
+
+<p class="h2 gold2">5CP Calpheon</p>
+
+<a title="Northern Wheat Plantation" class="links2" href="https://www.somethinglovely.net/bdo/#node/853" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/town.png" alt="Icon" />
+Northern Wheat Plantation
+</a>
+
+
+</div>
+<!-- Beer-Barley-Notes End -->
+
+<!-- Beer-Corn-Notes Button -->
+<div class="button blueBg3">
+
+<a title="Content-Notes Button" class="buttonLink" href="javascript:toggleDiv('Beer-Corn-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/corn.png" alt="Icon" />
+Corn
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+<a title="Corn" class="links" href="https://bdocodex.com/us/item/7005/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- Beer-Corn-Notes Button End -->
+
+<!-- Beer-Corn-Notes -->
+<div id="Beer-Corn-Notes" class="info hidden">
+
+<p class="h2 gold2">3CP Duvencrune</p>
+
+<a title="Duvencrune Farmland" class="links2" href="https://www.somethinglovely.net/bdo/#node/1672" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Duvencrune Farmland
+</a>
+
+
+<p class="h2 gold2">3CP Duvencrune</p>
+
+<a title="Marak Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/1673" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Marak Farm
+</a>
+
+
+<p class="h2 gold2">5CP Velia</p>
+
+<a title="Toscani Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/171" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Toscani Farm (2 Nodes)
+</a>
+
+
+</div>
+<!-- Beer-Corn-Notes End -->
+
+
+<!-- Beer-Potato-Notes Button -->
+<div class="button blueBg3">
+
+<a title="Content-Notes Button" class="buttonLink" href="javascript:toggleDiv('Beer-Potato-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/potato.png" alt="Icon" />
+Potato
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+<a title="Potato" class="links" href="https://bdocodex.com/us/item/7003/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- Beer-Potato-Notes Button End -->
+
+<!-- Beer-Potato-Notes -->
+<div id="Beer-Potato-Notes" class="info hidden">
+
+<p class="h2 gold2">3CP Velia</p>
+
+<a title="Bartali Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/131" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Bartali Farm
+</a>
+
+
+<p class="h2 gold2">3CP Velia</p>
+
+<a title="Finto Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/135" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Finto Farm
+</a>
+
+
+<p class="h2 gold2">3CP Velia</p>
+
+<a title="Finto Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/151" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Loggia Farm
+</a>
+
+
+<p class="h2 gold2">4CP O'draxxia</p>
+
+<a title="Delmira Plantation" class="links2" href="https://www.somethinglovely.net/bdo/#node/1708" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Delmira Plantation
+</a>
+
+
+
+
+</div>
+<!-- Beer-Potato-Notes End -->
+
+
+<!-- Beer-Wheat-Notes Button -->
+<div class="button blueBg3">
+
+<a title="Content-Notes Button" class="buttonLink" href="javascript:toggleDiv('Beer-Wheat-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/wheat.png" alt="Icon" />
+Wheat
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+<a title="Wheat" class="links" href="https://bdocodex.com/us/item/7001/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- Beer-Wheat-Notes Button End -->
+
+<!-- Beer-Wheat-Notes -->
+<div id="Beer-Wheat-Notes" class="info hidden">
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+<p class="h2 gold2">3CP Heidel</p>
+
+<a title="Moretti Plantation" class="links2" href="https://www.somethinglovely.net/bdo/#node/435" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Moretti Plantation
+</a>
+
+
+<p class="h2 gold2">3CP Heidel</p>
+
+<a title="Costa Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/435" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Costa Farm
+</a>
+
+
+<p class="h2 gold2">3CP Marak Farm</p>
+
+<a title="Marak Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/1673" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Marak Farm
+</a>
+
+
+
+
+<p class="h2 gold2">5CP Calpehon</p>
+
+<a title="Northern Wheat Plantation" class="links2" href="https://www.somethinglovely.net/bdo/#node/853" target="_blank">
+<img class="icons icons2" src="images/icons/nodes/town.png" alt="Icon" />
+Northern Wheat Plantation
+</a>
+
+
+</div>
+<!-- Beer-Wheat-Notes End -->
+
+
+<!-- Beer-Sweet-Potato-Notes Button -->
+<div class="button blueBg3">
+
+<a title="Content-Notes Button" class="buttonLink" href="javascript:toggleDiv('Beer-Sweet-Potato-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/sweet-potato.png" alt="Icon" />
+Sweet Potato
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">8</span>
+</div>
+
+<a title="Sweet-Potato" class="links" href="https://bdocodex.com/us/item/7004/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- Beer-Sweet-Potato-Notes Button End -->
+
+<!-- Beer-Sweet-Potato-Notes -->
+<div id="Beer-Sweet-Potato-Notes" class="info hidden">
+
+<p class="h2 gold2">8CP Altinova/Tarif</p>
+
+<a title="Shuri Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/1205" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Shuri Farm
+</a>
+
+
+</div>
+<!-- Beer-Sweet-Potato-Notes End -->
+
+</div>
+<!-- Beer-Cheapest-Cereals End -->
+
+
+
+</div>
+<!-- Beer-Cheapest End -->
+
+
+<!-- Beer-Notes-UsedIn Button -->
+<div class="button usedin">
+
+<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('Beer-Notes-UsedIn');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+Used In Recipe
+<img class="icons icons6" src="images/icons/menu/checklist-notes.png" alt="Icon" />
+</a>
+
+
+<div class="right">
+
+<a title="Beer" class="links" href="https://bdocodex.com/us/item/9213/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- Beer-Notes-UsedIn Button End -->
+
+<!-- Beer-Notes-UsedIn -->
+<div id="Beer-Notes-UsedIn" class="hidden usedin-container">
+
+<p class="h2 green1">Cooking</p>
+
+<a title="Balenos Meal" class="gold links2" href="https://bdocodex.com/us/item/9601/" target="_blank">
+<img class="icons icons1" src="images/icons/cooking/balenos-meal.png" alt="Icon" />
+Balenos Meal
+</a>
+
+<br /><br />
+
+<p class="h2 gold2">Processing</p>
+
+
+<br />
+<a title="Beer" class="links2" href="https://bdocodex.com/us/item/9213/" target="_blank">And More...</a>
+</div>
+<!-- Beer-Notes-UsedIn End -->
+
+</div>
+<!-- Beer-Notes End -->
+
+
+</div>
+<!-- recipe-Beer End -->
+
+
+
+</div>
+<!-- item-Beer End -->
+
+
+
+</div>
+<!-- item-Beer End -->
+
+
+</body>
+</html>

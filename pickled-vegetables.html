@@ -1,228 +1,1972 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<title>Cooking</title>
+	<title>Pickled Vegetables</title>
 	<meta charset="UTF-8" />
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<link rel="stylesheet" href="scripts/css/common.css" />
-	<link rel="icon" type="image/x-icon" href="images/cooking.ico">
-	
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>	
-	
-<script type="text/javascript">
-<!--
-function toggleDiv(divId) {
-   $("#"+divId).toggle();
-}
-//-->
-</script>
-
-<script type="text/javascript">
-
-function showonlyone(thechosenone) {
-     $('div[class|="links"]').each(function(index) {
-          if ($(this).attr("id") == thechosenone) {
-               $(this).show();
-          }
-          else {
-               $(this).hide();
-          }
-     });
-}
-</script>
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="scripts/jquery/3.6.0.js"></script> 
+	<script src="scripts/jquery/plus-minus.js"></script>
+	<script src="scripts/jquery/toggle-div.js"></script>
+	<script src="scripts/jquery/ui-1.13.1.js"></script>	
 </head>
 <body id="home-page">
 
-<!-- Pickled Vegetables Container Button -->
-<div class="button notes">
 
-<a title="Show Recipe" class="header-link" href="javascript:toggleDiv('pickled-vegetables-container');">
-+<img class="icons" src="images/icons/cooking/pickled-vegetables.png" />
+<!-- item-PV -->
+<div id="item-PV" class="container" draggable="true" ondragstart="drag(event)">
+
+
+<!-- recipe-PV Button -->
+<div class="button greenBg1 top">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('recipe-PV');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cooking/pickled-vegetables.png" alt="Icon" />
 Pickled Vegetables
 </a>
 
-<a title="Pickled Vegetables" class="links" href="https://bdocodex.com/us/recipe/112/" target="_blank">🔗</a>
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<a title="Pickled Vegetables" class="links" href="https://bdocodex.com/us/item/5301/" target="_blank">🔗</a>
 
 </div>
-<!-- Pickled Vegetables Container End -->
 
-<div id="pickled-vegetables-container" class="container hidden">
 
+</div>
+<!-- recipe-PV Button End -->
+
+<!-- recipe-PV -->
+<div id="recipe-PV" class="hidden">
+
+
+<!-- PV-Leaving-Agent Button -->
+<div class="button blueBg2">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Leaving-Agent');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/vendor/leavening-agent.png" alt="Icon" />
+Leaving Agent
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">2</span>
+</div>
+
+<a title="Leaving Agent" class="links" href="https://bdocodex.com/us/item/9005/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Leaving-Agent Button End -->
+
+
+<!-- PV-Leaving-Agent -->
+<div id="PV-Leaving-Agent" class="info hidden">
+
+<p class="h2 gold2">
+It can be bought from a Food Vendor or Innkeeper.
+</p>
+
+</div>
+<!-- PV-Leaving-Agent Button End -->
+
+
+
+<!-- PV-Sugar Button -->
+<div class="button blueBg2">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Sugar');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/vendor/sugar.png" alt="Icon" />
+Sugar
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">2</span>
+</div>
+
+<a title="Sugar" class="links" href="https://bdocodex.com/us/item/9002/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Sugar Button End -->
+
+<!-- PV-Sugar -->
+<div id="PV-Sugar" class="info hidden">
+
+<p class="h2 gold2">
+It can be bought from a Food Vendor or Innkeeper.
+</p>
+
+</div>
+<!-- PV-Sugar End -->
+
+
+<!-- recipe-PV-Vinegar Button -->
+<div class="button brownBg1 top">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('recipe-PV-Vinegar');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cooking/vinegar.png" alt="Icon" />
+PV-Vinegar
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<a title="PV-Vinegar" class="links" href="https://bdocodex.com/us/item/9066/" target="_blank">🔗</a>
+</div>
+
+
+</div>
+<!-- recipe-PV-Vinegar Button End -->
+
+<!-- recipe-PV-Vinegar -->
+<div id="recipe-PV-Vinegar" class="hidden">
+
+<!-- PV-Vinegar-Cereals Button -->
 <div class="button blueBg3">
 
-<a class="header-link" href="javascript:toggleDiv('vegetables-pv');">
-+<img class="icons" src="images/icons/vegetables/pumpkin.png" />
-Vegetables x8
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Vinegar-Cereals');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/potato.png" alt="Icon" />
+Cereals
 </a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<a title="Cereals" class="links" href="https://bdocodex.com/us/materialgroup/1/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Vinegar-Cereals Button End -->
+
+<!-- PV-Vinegar-Cereals -->
+<div id="PV-Vinegar-Cereals" class="info hidden">
+
+<!-- PV-Vinegar-Barley Button -->
+<div class="button blueBg4">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Vinegar-Barley');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/barley.png" alt="Icon" />
+Barley
+</a>
+
+<div class="right">
+
+<a title="Barley" class="links" href="https://bdocodex.com/us/item/7002/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Vinegar-Barley Button End -->
+
+<!-- PV-Vinegar-Barley -->
+<div id="PV-Vinegar-Barley" class="info hidden">
+
+<p class="h2 gold2">3CP Duvencrune</p>
+
+<a title="Duvencrune Farmland" class="links2" href="https://www.somethinglovely.net/bdo/#node/1672" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Duvencrune Farmland
+</a>
+
+
+<p class="h2 gold2">3CP Duvencrune</p>
+
+<a title="Marak Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/1673" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Marak Farm
+</a>
+
+<p class="h2 gold2">5CP Calpheon</p>
+
+<a title="Northern Wheat Plantation" class="links2" href="https://www.somethinglovely.net/bdo/#node/853" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/town.png" alt="Icon" />
+Northern Wheat Plantation
+</a>
+
+
+</div>
+<!-- PV-Vinegar-Barley End -->
+
+<!-- PV-Vinegar-Corn Button -->
+<div class="button blueBg4">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Vinegar-Corn');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/corn.png" alt="Icon" />
+Corn
+</a>
+
+<div class="right">
+
+<a title="Corn" class="links" href="https://bdocodex.com/us/item/7005/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Vinegar-Corn Button End -->
+
+<!-- PV-Vinegar-Corn -->
+<div id="PV-Vinegar-Corn" class="info hidden">
+
+<p class="h2 gold2">3CP Duvencrune</p>
+
+<a title="Duvencrune Farmland" class="links2" href="https://www.somethinglovely.net/bdo/#node/1672" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Duvencrune Farmland
+</a>
+
+
+<p class="h2 gold2">3CP Duvencrune</p>
+
+<a title="Marak Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/1673" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Marak Farm
+</a>
+
+
+<p class="h2 gold2">5CP Velia</p>
+
+<a title="Toscani Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/171" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Toscani Farm (2 Nodes)
+</a>
+
+
+</div>
+<!-- PV-Vinegar-Corn End -->
+
+
+<!-- PV-Vinegar-Potato Button -->
+<div class="button blueBg4">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Vinegar-Potato');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/potato.png" alt="Icon" />
+Potato
+</a>
+
+<div class="right">
+
+<a title="Potato" class="links" href="https://bdocodex.com/us/item/7003/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Vinegar-Potato Button End -->
+
+<!-- PV-Vinegar-Potato -->
+<div id="PV-Vinegar-Potato" class="info hidden">
+
+<p class="h2 gold2">3CP Velia</p>
+
+<a title="Bartali Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/131" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Bartali Farm
+</a>
+
+
+<p class="h2 gold2">3CP Velia</p>
+
+<a title="Finto Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/135" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Finto Farm
+</a>
+
+
+<p class="h2 gold2">3CP Velia</p>
+
+<a title="Finto Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/151" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Loggia Farm
+</a>
+
+
+<p class="h2 gold2">4CP O'draxxia</p>
+
+<a title="Delmira Plantation" class="links2" href="https://www.somethinglovely.net/bdo/#node/1708" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Delmira Plantation
+</a>
+
+
+
+
+</div>
+<!-- PV-Vinegar-Potato End -->
+
+
+<!-- PV-Vinegar-Sweet-Potato Button -->
+<div class="button blueBg4">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Vinegar-Sweet-Potato');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/sweet-potato.png" alt="Icon" />
+Sweet Potato
+</a>
+
+<div class="right">
+
+
+<a title="Sweet-Potato" class="links" href="https://bdocodex.com/us/item/7004/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Vinegar-Sweet-Potato Button End -->
+
+<!-- PV-Vinegar-Sweet-Potato -->
+<div id="PV-Vinegar-Sweet-Potato" class="info hidden">
+
+<p class="h2 gold2">8CP Altinova/Tarif</p>
+
+<a title="Shuri Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/1205" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Shuri Farm
+</a>
+
+
+</div>
+<!-- PV-Vinegar-Sweet-Potato End -->
+
+
+<!-- PV-Vinegar-Wheat Button -->
+<div class="button blueBg4">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Vinegar-Wheat');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/wheat.png" alt="Icon" />
+Wheat
+</a>
+
+<div class="right">
+
+<a title="Wheat" class="links" href="https://bdocodex.com/us/item/7001/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Vinegar-Wheat Button End -->
+
+<!-- PV-Vinegar-Wheat -->
+<div id="PV-Vinegar-Wheat" class="info hidden">
+
+
+<p class="h2 gold2">3CP Heidel</p>
+
+<a title="Moretti Plantation" class="links2" href="https://www.somethinglovely.net/bdo/#node/435" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Moretti Plantation
+</a>
+
+
+<p class="h2 gold2">3CP Heidel</p>
+
+<a title="Costa Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/435" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Costa Farm
+</a>
+
+
+<p class="h2 gold2">3CP Marak Farm</p>
+
+<a title="Marak Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/1673" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Marak Farm
+</a>
+
+
+
+
+<p class="h2 gold2">5CP Calpehon</p>
+
+<a title="Northern Wheat Plantation" class="links2" href="https://www.somethinglovely.net/bdo/#node/853" target="_blank">
+<img class="icons icons2" src="images/icons/nodes/town.png" alt="Icon" />
+Northern Wheat Plantation
+</a>
+
+
+</div>
+<!-- PV-Vinegar-Wheat End -->
+
+</div>
+<!-- PV-Vinegar-Cereals End -->
+
+
+<!-- PV-Vinegar-Fruits Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Vinegar-Fruits');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/fruits/grape.png" alt="Icon" />
+Fruits
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<a title="Fruits" class="links" href="https://bdocodex.com/us/materialgroup/1/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Vinegar-Fruits Button End -->
+
+
+<!-- PV-Vinegar-Fruits -->
+<div id="PV-Vinegar-Fruits" class="info hidden">
+
+<p class="red smallTxt">
+There are more fruits but these are the easiest/best to get. Grape is best cause of Nodes.
+</p>
+
+<!-- PV-Vinegar-Grape Button -->
+<div class="button blueBg4">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Vinegar-Grape');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/fruits/grape.png" alt="Icon" />
+Grape
+</a>
+
+<div class="right">
+
+<a title="Grape" class="links" href="https://bdocodex.com/us/item/7307/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Vinegar-Grape Button End -->
+
+<!-- PV-Vinegar-Grape -->
+<div id="PV-Vinegar-Grape" class="info hidden">
+
+<p class="h2 gold2">2CP Olivia</p>
+
+<a title="Casta Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/203" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Casta Farm
+</a>
+
+<p class="h2 gold2">4CP O'draxxia</p>
+
+<a title="Delmira Plantation" class="links2" href="https://www.somethinglovely.net/bdo/#node/1707" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Delmira Plantation
+</a>
+
+</div>
+<!-- PV-Vinegar-Grape End -->
+
+
+<!-- PV-Vinegar-Strawberry Button -->
+<div class="button blueBg4">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Vinegar-Strawberry');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/fruits/strawberry.png" alt="Icon" />
+Strawberry
+</a>
+
+<div class="right">
+
+<a title="Strawberry" class="links" href="https://bdocodex.com/us/item/7304/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Vinegar-Strawberry Button End -->
+
+<!-- PV-Vinegar-Strawberry -->
+<div id="PV-Vinegar-Strawberry" class="info hidden">
+
+<p class="h2 gold2">Sold By Fruit Vendor NPCs</p>
+
+
+<p class="h2 gold2">14CP Grána</p>
+
+<a title="Viv Foretta Hamlet" class="links2" href="https://www.somethinglovely.net/bdo/#node/1610" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Viv Foretta Hamlet
+</a>
+
+<p class="red smallTxt">
+I recommend for every cooking lifeskiller to just buy it from a NPC, Kamasylvian node is not worth the CP, even the perfect artisan papu is gathering them way to slow compared to buying it for 700 silver each.
+</p>
+
+</div>
+<!-- PV-Vinegar-Strawberry End -->
+
+
+</div>
+<!-- PV-Vinegar-Fruits End -->
+
+
+
+<!-- PV-Vinegar-Leaving-Agent Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Vinegar-Leaving-Agent');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/vendor/leavening-agent.png" alt="Icon" />
+Leaving Agent
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<a title="Leaving Agent" class="links" href="https://bdocodex.com/us/item/9005/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Vinegar-Leaving-Agent Button End -->
+
+
+<!-- PV-Vinegar-Leaving-Agent -->
+<div id="PV-Vinegar-Leaving-Agent" class="info hidden">
+
+<p class="h2 gold2">
+It can be bought from a Food Vendor or Innkeeper.
+</p>
+
+</div>
+<!-- PV-Vinegar-Leaving-Agent Button End -->
+
+
+
+<!-- PV-Vinegar-Sugar Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Vinegar-Sugar');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/vendor/sugar.png" alt="Icon" />
+Sugar
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">1</span>
+</div>
+
+<a title="Sugar" class="links" href="https://bdocodex.com/us/item/9002/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Vinegar-Sugar Button End -->
+
+<!-- PV-Vinegar-Sugar -->
+<div id="PV-Vinegar-Sugar" class="info hidden">
+
+<p class="h2 gold2">
+It can be bought from a Food Vendor or Innkeeper.
+</p>
+
+</div>
+<!-- PV-Vinegar-Sugar End -->
+
+
+
+
+<!-- PV-Vinegar-Notes Button -->
+<div class="button notes">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Vinegar-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+Notes
+<img class="icons icons6" src="images/icons/menu/notes.png" alt="Icon" />
+</a>
+
+</div>
+<!-- PV-Vinegar-Notes Button End -->
+
+
+<!-- PV-Vinegar-Notes -->
+<div id="PV-Vinegar-Notes" class="hidden notes-container">
+
+<!-- PV-Vinegar-Cheapest Button -->
+<div class="button cheapest">
+
+<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('PV-Vinegar-Cheapest');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+Cheapest CP Nodes
+<img class="icons icons6" src="images/icons/nodes/connect2.png" alt="Icon" />
+</a>
+
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">5</span>
+</div>
+
+<a title="Somethinglovely.net" class="links" href="https://www.somethinglovely.net/bdo/" target="_blank">🔗</a>
+
+</div>
+
+
+</div>
+<!-- PV-Vinegar-Cheapest Button End -->
+
+<!-- PV-Vinegar-Cheapest -->
+<div id="PV-Vinegar-Cheapest" class="cheapest-container hidden">
+
+<!-- PV-Vinegar-Fruits-Notes Button -->
+<div class="button blueBg2">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Vinegar-Fruits-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/fruits/grape.png" alt="Icon" />
+Fruits
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">2</span>
+</div>
+
+<a title="Fruits" class="links" href="https://bdocodex.com/us/materialgroup/1/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Vinegar-Fruits-Notes Button End -->
+
+
+<!-- PV-Vinegar-Fruits-Notes -->
+<div id="PV-Vinegar-Fruits-Notes" class="info hidden">
+
+<!-- PV-Vinegar-Grape-Notes Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Vinegar-Grape-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/fruits/grape.png" alt="Icon" />
+Grape
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">2</span>
+</div>
+
+<a title="Grape" class="links" href="https://bdocodex.com/us/item/7307/" target="_blank">🔗</a>
+
+</div>
+
+
+</div>
+<!-- PV-Vinegar-Grape-Notes Button End -->
+
+
+<!-- PV-Vinegar-Grape-Notes -->
+<div id="PV-Vinegar-Grape-Notes" class="info hidden">
+
+<p class="h2 gold2">2CP Olivia</p>
+
+<a title="Casta Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/203" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Casta Farm
+</a>
+
+<p class="h2 gold2">4CP O'draxxia</p>
+
+<a title="Delmira Plantation" class="links2" href="https://www.somethinglovely.net/bdo/#node/1707" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Delmira Plantation
+</a>
+
+
+</div>
+<!-- PV-Vinegar-Grape-Notes End -->
+
+</div>
+<!-- PV-Vinegar-Fruits-Notes Button -->
+
+
+<!-- PV-Vinegar-Cheapest-Cereals Button -->
+<div class="button blueBg2">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Vinegar-Cheapest-Cereals');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/potato.png" alt="Icon" />
+Cereals
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+<a title="Cereals" class="links" href="https://bdocodex.com/us/materialgroup/1/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Vinegar-Cheapest-Cereals Button End -->
+
+<!-- PV-Vinegar-Cheapest-Cereals -->
+<div id="PV-Vinegar-Cheapest-Cereals" class="info hidden">
+
+<!-- PV-Vinegar-Barley-Notes Button -->
+<div class="button blueBg3">
+
+<a title="Content-Notes Button" class="buttonLink" href="javascript:toggleDiv('PV-Vinegar-Barley-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/barley.png" alt="Icon" />
+Barley
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+<a title="Barley" class="links" href="https://bdocodex.com/us/item/7002/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Vinegar-Barley-Notes Button End -->
+
+<!-- PV-Vinegar-Barley-Notes -->
+<div id="PV-Vinegar-Barley-Notes" class="info hidden">
+
+<p class="h2 gold2">3CP Duvencrune</p>
+
+<a title="Duvencrune Farmland" class="links2" href="https://www.somethinglovely.net/bdo/#node/1672" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Duvencrune Farmland
+</a>
+
+
+<p class="h2 gold2">3CP Duvencrune</p>
+
+<a title="Marak Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/1673" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Marak Farm
+</a>
+
+<p class="h2 gold2">5CP Calpheon</p>
+
+<a title="Northern Wheat Plantation" class="links2" href="https://www.somethinglovely.net/bdo/#node/853" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/town.png" alt="Icon" />
+Northern Wheat Plantation
+</a>
+
+
+</div>
+<!-- PV-Vinegar-Barley-Notes End -->
+
+<!-- PV-Vinegar-Corn-Notes Button -->
+<div class="button blueBg3">
+
+<a title="Content-Notes Button" class="buttonLink" href="javascript:toggleDiv('PV-Vinegar-Corn-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/corn.png" alt="Icon" />
+Corn
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+<a title="Corn" class="links" href="https://bdocodex.com/us/item/7005/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Vinegar-Corn-Notes Button End -->
+
+<!-- PV-Vinegar-Corn-Notes -->
+<div id="PV-Vinegar-Corn-Notes" class="info hidden">
+
+<p class="h2 gold2">3CP Duvencrune</p>
+
+<a title="Duvencrune Farmland" class="links2" href="https://www.somethinglovely.net/bdo/#node/1672" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Duvencrune Farmland
+</a>
+
+
+<p class="h2 gold2">3CP Duvencrune</p>
+
+<a title="Marak Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/1673" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Marak Farm
+</a>
+
+
+<p class="h2 gold2">5CP Velia</p>
+
+<a title="Toscani Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/171" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Toscani Farm (2 Nodes)
+</a>
+
+
+</div>
+<!-- PV-Vinegar-Corn-Notes End -->
+
+
+<!-- PV-Vinegar-Potato-Notes Button -->
+<div class="button blueBg3">
+
+<a title="Content-Notes Button" class="buttonLink" href="javascript:toggleDiv('PV-Vinegar-Potato-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/potato.png" alt="Icon" />
+Potato
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+<a title="Potato" class="links" href="https://bdocodex.com/us/item/7003/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Vinegar-Potato-Notes Button End -->
+
+<!-- PV-Vinegar-Potato-Notes -->
+<div id="PV-Vinegar-Potato-Notes" class="info hidden">
+
+<p class="h2 gold2">3CP Velia</p>
+
+<a title="Bartali Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/131" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Bartali Farm
+</a>
+
+
+<p class="h2 gold2">3CP Velia</p>
+
+<a title="Finto Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/135" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Finto Farm
+</a>
+
+
+<p class="h2 gold2">3CP Velia</p>
+
+<a title="Finto Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/151" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Loggia Farm
+</a>
+
+
+<p class="h2 gold2">4CP O'draxxia</p>
+
+<a title="Delmira Plantation" class="links2" href="https://www.somethinglovely.net/bdo/#node/1708" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Delmira Plantation
+</a>
+
+
+
+
+</div>
+<!-- PV-Vinegar-Potato-Notes End -->
+
+
+<!-- PV-Vinegar-Wheat-Notes Button -->
+<div class="button blueBg3">
+
+<a title="Content-Notes Button" class="buttonLink" href="javascript:toggleDiv('PV-Vinegar-Wheat-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/wheat.png" alt="Icon" />
+Wheat
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+<a title="Wheat" class="links" href="https://bdocodex.com/us/item/7001/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Vinegar-Wheat-Notes Button End -->
+
+<!-- PV-Vinegar-Wheat-Notes -->
+<div id="PV-Vinegar-Wheat-Notes" class="info hidden">
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+<p class="h2 gold2">3CP Heidel</p>
+
+<a title="Moretti Plantation" class="links2" href="https://www.somethinglovely.net/bdo/#node/435" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Moretti Plantation
+</a>
+
+
+<p class="h2 gold2">3CP Heidel</p>
+
+<a title="Costa Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/435" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Costa Farm
+</a>
+
+
+<p class="h2 gold2">3CP Marak Farm</p>
+
+<a title="Marak Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/1673" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Marak Farm
+</a>
+
+
+
+
+<p class="h2 gold2">5CP Calpehon</p>
+
+<a title="Northern Wheat Plantation" class="links2" href="https://www.somethinglovely.net/bdo/#node/853" target="_blank">
+<img class="icons icons2" src="images/icons/nodes/town.png" alt="Icon" />
+Northern Wheat Plantation
+</a>
+
+
+</div>
+<!-- PV-Vinegar-Wheat-Notes End -->
+
+
+<!-- PV-Vinegar-Sweet-Potato-Notes Button -->
+<div class="button blueBg3">
+
+<a title="Content-Notes Button" class="buttonLink" href="javascript:toggleDiv('PV-Vinegar-Sweet-Potato-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/sweet-potato.png" alt="Icon" />
+Sweet Potato
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">8</span>
+</div>
+
+<a title="Sweet-Potato" class="links" href="https://bdocodex.com/us/item/7004/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Vinegar-Sweet-Potato-Notes Button End -->
+
+<!-- PV-Vinegar-Sweet-Potato-Notes -->
+<div id="PV-Vinegar-Sweet-Potato-Notes" class="info hidden">
+
+<p class="h2 gold2">8CP Altinova/Tarif</p>
+
+<a title="Shuri Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/1205" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Shuri Farm
+</a>
+
+
+</div>
+<!-- PV-Vinegar-Sweet-Potato-Notes End -->
+
+</div>
+<!-- PV-Vinegar-Cheapest-Cereals End -->
+
+
+
+
+</div>
+<!-- PV-Vinegar-Cheapest End -->
+
+
+<!-- PV-Vinegar-Notes-UsedIn Button -->
+<div class="button usedin">
+
+<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('PV-Vinegar-Notes-UsedIn');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+Used In Recipe
+<img class="icons icons6" src="images/icons/menu/checklist-notes.png" alt="Icon" />
+</a>
+
+
+<div class="right">
+<a title="PV-Vinegar" class="links" href="https://bdocodex.com/us/item/9066/" target="_blank">🔗</a>
+</div>
+
+</div>
+<!-- PV-Vinegar-Notes-UsedIn Button End -->
+
+<!-- PV-Vinegar-Notes-UsedIn -->
+<div id="PV-Vinegar-Notes-UsedIn" class="hidden usedin-container">
+
+
+<a title="Hunter's Salad" class="blue1" href="https://bdocodex.com/us/item/9459/" target="_blank">
+<img class="icons icons1" src="images/icons/cooking/hunters-salad.png" alt="Icon" />
+Hunter's Salad
+</a>
+
+<br />
+
+<a title="Pickled Vegetables" class="green1" href="https://bdocodex.com/us/item/9202/" target="_blank">
+<img class="icons icons1" src="images/icons/cooking/pickled-vegetables.png" alt="Icon" />
+Pickled Vegetables
+</a>
+
+<br />
+<a title="PV-Vinegar" class="links2" href="https://bdocodex.com/us/item/9066/" target="_blank">And More...</a>
+</div>
+<!-- PV-Vinegar-Notes-UsedIn End -->
+
+</div>
+<!-- PV-Vinegar-Notes End -->
+
+
+</div>
+<!-- recipe-PV-Vinegar End -->
+
+
+<!-- PV-Vegetables Button -->
+<div class="button blueBg2">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Vegetables');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/vegetables/pumpkin.png" alt="Icon" />
+Vegetables
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">8</span>
+</div>
 
 <a title="Vegetables" class="links" href="https://bdocodex.com/us/materialgroup/13/" target="_blank">🔗</a>
 
 </div>
 
-<!-- Vegetables PV -->
 
-<div id="vegetables-pv" class="hidden">
+</div>
+<!-- PV-Vegetables Button  End -->
 
+<!-- PV-Vegetables -->
+<div id="PV-Vegetables" class="info hidden">
+
+<!-- PV-Olives Button -->
 <div class="button blueBg3">
-<a class="header-link" href="javascript:toggleDiv('olive-pv');">
-+<img class="icons" src="images/icons/vegetables/olives.png" />
-Olive
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Olives');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/vegetables/olives.png" alt="Icon" />
+Olives
 </a>
 
-<a title="Vegetables" class="links" href="https://bdocodex.com/us/item/7309/" target="_blank">🔗</a>
-</div>
-
-<div id="olive-pv" class="hidden">
-<img class="icons3" src="images/icons/nodes/connect2.png" />
-<a title="Node 203" class="links" href="https://www.somethinglovely.net/bdo/#node/203" target="_blank">
-Wale Farm (Olvia)
-</div>
+<div class="right">
 
 
-
+<a title="Olive" class="links" href="https://bdocodex.com/us/item/7309/" target="_blank">🔗</a>
 
 </div>
 
-<!-- Vegetables PV End -->
+</div>
+<!-- PV-Olives Button End -->
+
+<!-- PV-Olives -->
+<div id="PV-Olives" class="info hidden">
+
+<p class="h2 gold2">2CP Olivia</p>
+
+<a title="Wale Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/204" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Wale Farm
+</a>
+
+</div>
+<!-- PV-Olives End -->
+
+
+<!-- PV-Pumpkin Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Pumpkin');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/vegetables/pumpkin.png" alt="Icon" />
+Pumpkin
+</a>
+
+<div class="right">
+
+
+<a title="Pumpkin" class="links" href="https://bdocodex.com/us/item/7306/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Pumpkin Button End -->
+
+<!-- PV-Pumpkin -->
+<div id="PV-Pumpkin" class="info hidden">
+
+
+<p class="h2 gold2">3CP Heidel</p>
+
+<a title="Costa Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/436" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Costa Farm
+</a>
+
+<p class="h2 gold2">4CP Heidel</p>
+
+<a title="Alejandro Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/431" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Alejandro Farm
+</a>
+
+
+</div>
+<!-- PV-Pumpkin End -->
+
+</div>
+<!-- PV-Vegetables End -->
 
 
 
 
 
-
-
-
-
-
-
-
-<!-- notes-pv -->
-
+<!-- PV-Notes Button -->
 <div class="button notes">
-<a class="header-link" href="javascript:toggleDiv('notes-exp');">
-+ Notes
-<img class="icons3" src="images/icons/menu/checklist-notes Button.png" />
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+Notes
+<img class="icons icons6" src="images/icons/menu/notes.png" alt="Icon" />
 </a>
 
 </div>
+<!-- PV-Notes Button End -->
 
-<div id="notes-exp" class="hidden">
 
-<p class="h1">Cheapest CP (20)</p>
-<div class="hr"></div>
+<!-- PV-Notes -->
+<div id="PV-Notes" class="hidden notes-container">
 
-<a title="Dry Mane Grass" class="links" href="https://bdocodex.com/us/item/5404/" target="_blank">
-<img class="icons" src="images/icons/nodes-plants/dry-mane-grass.png" />
-Dry Mane Grass
-</a>
+<!-- PV-Cheapest Button -->
+<div class="button cheapest">
 
-<p class="h1">4CP/Duvencrune</p>
+<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('PV-Cheapest');">
 
-<img class="icons3" src="images/icons/nodes/connect2.png" />
-<a title="Tshira Ruins" class="links2" href="https://www.somethinglovely.net/bdo/#node/1668" target="_blank">Tshira Ruins</a>
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
 
-<br /><br />
-
-<a title="Pine Sap" class="links2" href="https://bdocodex.com/us/item/5003/" target="_blank">
-<img class="icons" src="images/icons/saps/pine.png" />
-Pine Sap
-</a>
-
-<p class="h1">8CP/Keplan</p>
-
-<img class="icons3" src="images/icons/nodes/connect2.png" />
-<a title="Marie Cave" class="links2" href="https://www.somethinglovely.net/bdo/#node/910" target="_blank">
-Marie Cave
-</a>
-
-<p class="h1">11CP/Duvencrune</p>
-
-<img class="icons3" src="images/icons/nodes/connect2.png" />
-<a title="Khimut Lumber Camp" class="links2" href="https://www.somethinglovely.net/bdo/#node/1685" target="_blank">
-Khimut Lumber Camp
-</a>
-
-<br /><br />
-
-<a class="links" href="https://bdocodex.com/us/item/4801/">
-<img class="icons" src="images/icons/powder-of/darkness.png" />
-Powder of Darkness
+Cheapest CP Nodes
+<img class="icons icons6" src="images/icons/nodes/connect2.png" alt="Icon" />
 </a>
 
 
+<div class="right">
 
-<p class="h1">1CP/Velia</p>
+<div class="dots">
+	<span class="circleText amount">7</span>
+</div>
 
-<img class="icons3" src="images/icons/nodes/connect2.png" />
-<a title="Coastal Cave" class="links2" href="https://www.somethinglovely.net/bdo/#node/46" target="_blank">
-Coastal Cave</a>
-
-
-<p class="h1">2CP/Velia</p>
-
-<img class="icons3" src="images/icons/nodes/connect2.png" />
-<a title="Coastal Cliff" class="links2" href="https://www.somethinglovely.net/bdo/#node/49" target="_blank">
-Coastal Cliff</a>
-
-<p class="h1">3CP/Altinova</p>
-
-
-<img class="icons3" src="images/icons/nodes/triangle.png" />
-<a title="Abandoned Iron Mine" class="links2" href="https://www.somethinglovely.net/bdo/#node/1144" target="_blank">Abandoned Iron Mine</a>
-
-<p class="h1">4CP/Heidel</p>
-
-<img class="icons3" src="images/icons/nodes/connect2.png" />
-<a title="Northern Heidel Quarry" class="links2" href="https://www.somethinglovely.net/bdo/#node/326" target="_blank">Northern Heidel Quarry</a>
-
-
-<br /><br />
-
-<a title="Powder of Flame" class="links2" href="https://bdocodex.com/us/item/5003/" target="_blank">
-<img class="icons" src="images/icons/powder-of/flame.png" />
-Powder of Flame
-</a>
-<br />
-
-<p class="h1">3CP/Velia</p>
-
-<img class="icons3" src="images/icons/nodes/connect2.png" />
-<a title="Imp Cave" class="links2" href="https://www.somethinglovely.net/bdo/#node/25" target="_blank">
-Imp Cave</a>
-
-<p class="h1">4CP/Heidel</p>
-
-<img class="icons3" src="images/icons/nodes/connect2.png" />
-<a title="Northern Heidel Quarry" class="links2" href="https://www.somethinglovely.net/bdo/#node/326" target="_blank">Northern Heidel Quarry</a>
-
-<br /><br />
-
-<a title="Sunrise Herb" class="links2" href="https://bdocodex.com/us/item/5401/" target="_blank">
-<img class="icons" src="images/icons/nodes-plants/sunrise-herb.png" />
-Sunrise Herb</a>
-
-<p class="h1">4CP Velia/8CP Heidel</p>
-
-<img class="icons4" src="images/icons/nodes/connect3.png" />
-<a title="Balenos Forest" class="links2" href="https://www.somethinglovely.net/bdo/#node/44" target="_blank">Balenos Forest</a>
-
-<p class="h1">5CP Velia</p>
-
-<img class="icons3" src="images/icons/nodes/triangle.png" />
-<a title="Cron Castle Site" class="links2" href="https://www.somethinglovely.net/bdo/#node/3" target="_blank">Cron Castle Site</a>
+<a title="Somethinglovely.net" class="links" href="https://www.somethinglovely.net/bdo/" target="_blank">🔗</a>
 
 </div>
-<!-- notes-pv -->
-
-
 
 
 </div>
+<!-- PV-Cheapest Button End -->
+
+<!-- PV-Cheapest -->
+<div id="PV-Cheapest" class="cheapest-container hidden">
+
+
+<!-- PV-Fruits-Notes Button -->
+<div class="button blueBg2">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Fruits-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/fruits/grape.png" alt="Icon" />
+Fruits
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">2</span>
+</div>
+
+<a title="Fruits" class="links" href="https://bdocodex.com/us/materialgroup/1/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Fruits-Notes Button End -->
+
+
+<!-- PV-Fruits-Notes -->
+<div id="PV-Fruits-Notes" class="info hidden">
+
+<!-- PV-Grape-Notes Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Grape-notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/fruits/grape.png" alt="Icon" />
+Grape
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">2</span>
+</div>
+
+<a title="Grape" class="links" href="https://bdocodex.com/us/item/7307/" target="_blank">🔗</a>
+
+</div>
+
+
+</div>
+<!-- PV-Grape-Notes Button End -->
+
+
+<!-- PV-Grape-Notes -->
+<div id="PV-Grape-Notes" class="info hidden">
+
+<p class="h2 gold2">2CP Olivia</p>
+
+<a title="Casta Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/203" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Casta Farm
+</a>
+
+<p class="h2 gold2">4CP O'draxxia</p>
+
+<a title="Delmira Plantation" class="links2" href="https://www.somethinglovely.net/bdo/#node/1707" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Delmira Plantation
+</a>
+
+
+</div>
+<!-- PV-Grape-Notes End -->
+
+</div>
+<!-- PV-Fruits-Notes Button -->
+
+
+<!-- PV-Vegetables-Notes Button -->
+<div class="button blueBg2">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Vegetables-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/vegetables/pumpkin.png" alt="Icon" />
+Vegetables
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">2</span>
+</div>
+
+<a title="Vegetables-Notes" class="links" href="https://bdocodex.com/us/materialgroup/13/" target="_blank">🔗</a>
+
+</div>
+
+
+</div>
+<!-- PV-Vegetables-Notes Button  End -->
+
+<!-- PV-Vegetables-Notes -->
+<div id="PV-Vegetables-Notes" class="info hidden">
+
+<!-- PV-Olives Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Olives-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/vegetables/olives.png" alt="Icon" />
+Olives
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">2</span>
+</div>
+
+<a title="Olive" class="links" href="https://bdocodex.com/us/item/7309/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Olives Button End -->
+
+<!-- PV-Olives -->
+<div id="PV-Olives-Notes" class="info hidden">
+
+<p class="h2 gold2">2CP Olivia</p>
+
+<a title="Wale Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/204" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Wale Farm
+</a>
+
+</div>
+<!-- PV-Olives End -->
+
+
+<!-- PV-Pumpkin Button -->
+<div class="button blueBg3">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Pumpkin-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/vegetables/pumpkin.png" alt="Icon" />
+Pumpkin
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+<a title="Pumpkin" class="links" href="https://bdocodex.com/us/item/7306/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Pumpkin Button End -->
+
+<!-- PV-Pumpkin -->
+<div id="PV-Pumpkin-Notes" class="info hidden">
+
+
+<p class="h2 gold2">3CP Heidel</p>
+
+<a title="Costa Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/436" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Costa Farm
+</a>
+
+<p class="h2 gold2">4CP Heidel</p>
+
+<a title="Alejandro Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/431" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Alejandro Farm
+</a>
+
+
+</div>
+<!-- PV-Pumpkin End -->
+
+</div>
+<!-- PV-Vegetables-Notes End -->
+
+
+<!-- PV-Cheapest-Cereals Button -->
+<div class="button blueBg2">
+
+<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('PV-Cheapest-Cereals');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/potato.png" alt="Icon" />
+Cereals
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+<a title="Cereals" class="links" href="https://bdocodex.com/us/materialgroup/1/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Cheapest-Cereals Button End -->
+
+<!-- PV-Cheapest-Cereals -->
+<div id="PV-Cheapest-Cereals" class="info hidden">
+
+<!-- PV-Barley-Notes Button -->
+<div class="button blueBg3">
+
+<a title="Content-Notes Button" class="buttonLink" href="javascript:toggleDiv('PV-Barley-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/barley.png" alt="Icon" />
+Barley
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+<a title="Barley" class="links" href="https://bdocodex.com/us/item/7002/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Barley-Notes Button End -->
+
+<!-- PV-Barley-Notes -->
+<div id="PV-Barley-Notes" class="info hidden">
+
+<p class="h2 gold2">3CP Duvencrune</p>
+
+<a title="Duvencrune Farmland" class="links2" href="https://www.somethinglovely.net/bdo/#node/1672" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Duvencrune Farmland
+</a>
+
+
+<p class="h2 gold2">3CP Duvencrune</p>
+
+<a title="Marak Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/1673" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Marak Farm
+</a>
+
+<p class="h2 gold2">5CP Calpheon</p>
+
+<a title="Northern Wheat Plantation" class="links2" href="https://www.somethinglovely.net/bdo/#node/853" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/town.png" alt="Icon" />
+Northern Wheat Plantation
+</a>
+
+
+</div>
+<!-- PV-Barley-Notes End -->
+
+<!-- PV-Corn-Notes Button -->
+<div class="button blueBg3">
+
+<a title="Content-Notes Button" class="buttonLink" href="javascript:toggleDiv('PV-Corn-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/corn.png" alt="Icon" />
+Corn
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+<a title="Corn" class="links" href="https://bdocodex.com/us/item/7005/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Corn-Notes Button End -->
+
+<!-- PV-Corn-Notes -->
+<div id="PV-Corn-Notes" class="info hidden">
+
+<p class="h2 gold2">3CP Duvencrune</p>
+
+<a title="Duvencrune Farmland" class="links2" href="https://www.somethinglovely.net/bdo/#node/1672" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Duvencrune Farmland
+</a>
+
+
+<p class="h2 gold2">3CP Duvencrune</p>
+
+<a title="Marak Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/1673" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Marak Farm
+</a>
+
+
+<p class="h2 gold2">5CP Velia</p>
+
+<a title="Toscani Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/171" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Toscani Farm (2 Nodes)
+</a>
+
+
+</div>
+<!-- PV-Corn-Notes End -->
+
+
+<!-- PV-Potato-Notes Button -->
+<div class="button blueBg3">
+
+<a title="Content-Notes Button" class="buttonLink" href="javascript:toggleDiv('PV-Potato-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/potato.png" alt="Icon" />
+Potato
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+<a title="Potato" class="links" href="https://bdocodex.com/us/item/7003/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Potato-Notes Button End -->
+
+<!-- PV-Potato-Notes -->
+<div id="PV-Potato-Notes" class="info hidden">
+
+<p class="h2 gold2">3CP Velia</p>
+
+<a title="Bartali Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/131" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Bartali Farm
+</a>
+
+
+<p class="h2 gold2">3CP Velia</p>
+
+<a title="Finto Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/135" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Finto Farm
+</a>
+
+
+<p class="h2 gold2">3CP Velia</p>
+
+<a title="Finto Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/151" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Loggia Farm
+</a>
+
+
+<p class="h2 gold2">4CP O'draxxia</p>
+
+<a title="Delmira Plantation" class="links2" href="https://www.somethinglovely.net/bdo/#node/1708" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Delmira Plantation
+</a>
+
+
+
+
+</div>
+<!-- PV-Potato-Notes End -->
+
+
+<!-- PV-Wheat-Notes Button -->
+<div class="button blueBg3">
+
+<a title="Content-Notes Button" class="buttonLink" href="javascript:toggleDiv('PV-Wheat-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/wheat.png" alt="Icon" />
+Wheat
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+<a title="Wheat" class="links" href="https://bdocodex.com/us/item/7001/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Wheat-Notes Button End -->
+
+<!-- PV-Wheat-Notes -->
+<div id="PV-Wheat-Notes" class="info hidden">
+
+<div class="dots">
+	<span class="circleText amount">3</span>
+</div>
+
+<p class="h2 gold2">3CP Heidel</p>
+
+<a title="Moretti Plantation" class="links2" href="https://www.somethinglovely.net/bdo/#node/435" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Moretti Plantation
+</a>
+
+
+<p class="h2 gold2">3CP Heidel</p>
+
+<a title="Costa Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/435" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Costa Farm
+</a>
+
+
+<p class="h2 gold2">3CP Marak Farm</p>
+
+<a title="Marak Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/1673" target="_blank">
+<img class="icons icons5" src="images/icons/nodes/connect2.png" alt="Icon" />
+Marak Farm
+</a>
+
+
+
+
+<p class="h2 gold2">5CP Calpehon</p>
+
+<a title="Northern Wheat Plantation" class="links2" href="https://www.somethinglovely.net/bdo/#node/853" target="_blank">
+<img class="icons icons2" src="images/icons/nodes/town.png" alt="Icon" />
+Northern Wheat Plantation
+</a>
+
+
+</div>
+<!-- PV-Wheat-Notes End -->
+
+
+<!-- PV-Sweet-Potato-Notes Button -->
+<div class="button blueBg3">
+
+<a title="Content-Notes Button" class="buttonLink" href="javascript:toggleDiv('PV-Sweet-Potato-Notes');">
+
+<div class="left">
+	<div class="dots">
+	<span class="dotPlus">+</span>
+	</div>
+</div> 
+
+<img class="icons icons1" src="images/icons/cereals/sweet-potato.png" alt="Icon" />
+Sweet Potato
+</a>
+
+<div class="right">
+
+<div class="dots">
+	<span class="circleText amount">8</span>
+</div>
+
+<a title="Sweet-Potato" class="links" href="https://bdocodex.com/us/item/7004/" target="_blank">🔗</a>
+
+</div>
+
+</div>
+<!-- PV-Sweet-Potato-Notes Button End -->
+
+<!-- PV-Sweet-Potato-Notes -->
+<div id="PV-Sweet-Potato-Notes" class="info hidden">
+
+<p class="h2 gold2">8CP Altinova/Tarif</p>
+
+<a title="Shuri Farm" class="links2" href="https://www.somethinglovely.net/bdo/#node/1205" target="_blank">
+<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
+Shuri Farm
+</a>
+
+
+</div>
+<!-- PV-Sweet-Potato-Notes End -->
+
+</div>
+<!-- PV-Cheapest-Cereals End -->
+
+</div>
+<!-- PV-Cheapest End -->
+
+
+</div>
+<!-- PV-Notes End -->
+
+</div>
+<!-- PV-PV End -->
+
+
+</div>
+<!-- item-PV End -->
 
 
 </body>

@@ -180,7 +180,7 @@ span.button {
 	line-height: 24px;
 }
 
-#pot-Griffons-Notes .button.darkBg1 {
+#pot-Griffons-Notes .button.darkBg1, #pot-Detection-Notes .button.darkBg1 {
 	line-height: 16px;
 }
 
@@ -279,9 +279,14 @@ span.button {
 }
 
 
+.obtaining {
+	margin-left: 32px;
+}
+
 
 .smallTxt {
 	font-size: 10px;
+	margin-bottom: 4px;
 }
 
 
@@ -300,7 +305,7 @@ a.buttonLink,a.buttonLink:hover, a.links  {
 } 
 
 
-a.links:hover, a.links2:hover {
+a.links2:hover {
 	color: #4E86BF;
 }
 
@@ -313,12 +318,8 @@ a.links:hover, a.links2:hover {
  
 }
 
-.amounblueBg4 {
-	position: relative;
-	bottom: 5px;
-}
 
-.amount, .amounblueBg4 {
+.amount {
 	font-size: 12px;	
 	font-weight: bold;
 }
@@ -349,15 +350,53 @@ a.links:hover, a.links2:hover {
 }
 
 
+.fruit-of {
+	background-color: #284664;	
+}
+
+.FoA {
+	background-color: #0097a7;	
+}
+
+.FoCF {
+	background-color: #ad1457;	
+}
+
+.FoD {
+	background-color: #d84315;	
+}
+
+.FoE {
+	background-color: #8e24aa;	
+}
+
+/* Purple 6a1b9a */
+
+.FoMP {
+	background-color: #4527a0;	
+}
+
+.FoN {
+	background-color: #2e7d32;	
+}
+
+.FoP {
+	background-color: #37474f;	
+}
+
+
+.FotS {
+	background-color: #BE8C1E;	
+}
 
 
 
 .amount, .gold {
-	color: #f6c232 !important;	
+	color: #f6c232;	
 }
 
 .gold2 {
-	color: #FFD800 !important;	
+	color: #FFD800;	
 }
 
 
@@ -387,7 +426,7 @@ a.links:hover, a.links2:hover {
 }
 
  .cheapest, .notes, .usedin {
-	background-color: #50413C;	
+	background-color: #66463E;	
 }
 
 .cheapest .buttonLink, .notes .buttonLink, .usedin .buttonLink {
@@ -413,6 +452,11 @@ a.links:hover, a.links2:hover {
 	background-color: #4E86BF;	
 }
 
+.brownBg1 {
+	background-color: #AA820A;
+}
+
+/* Vinegar - AA820A, 96780A, 82640A, 735A0A, 644B0F */
 
 .darkBg1 {
 	background-color: #2D2D2D;		
@@ -430,9 +474,19 @@ a.links:hover, a.links2:hover {
 	background-color: #5B5B5B;		
 }
 
-.greenBg {
+.goldBg1 {
+	background-color: #FFD800 !important;	
+}
+
+.greenBg1 {
 	background-color: #1b5e20 !important;	
 }
+
+.orangeBg1 {
+	background-color: #ff6d00 !important;	
+}
+
+
 
 .purpleBg {
 	background-color: #320064 !important;		
