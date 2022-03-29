@@ -66,7 +66,7 @@ table,tr,td,th,p,img {
 
 .tab {
 	text-align: center;
-	width: 255px !important;
+	width: 300px !important;
 	display: inline-block !important;	
 }
 
@@ -523,6 +523,10 @@ a.links2:hover {
 	background-color: #4E86BF;	
 }
 
+.blueBg5 {
+	background-color: #1565c0;	
+}
+
 .brownBg1 {
 	background-color: #AA820A;
 }
@@ -553,6 +557,12 @@ a.links2:hover {
 	background-color: #1b5e20 !important;	
 }
 
+.greenBg2 {
+	background-color: #2e7d32 !important;	
+}
+
+
+
 .orangeBg1 {
 	background-color: #ff6d00 !important;	
 }
@@ -562,6 +572,12 @@ a.links2:hover {
 .purpleBg {
 	background-color: #320064 !important;		
 }
+
+.purpleBg2 {
+	background-color: #4527a0 !important;		
+}
+
+4527a0
 
 .redBg1 {
 	background-color: #7F0000;		
