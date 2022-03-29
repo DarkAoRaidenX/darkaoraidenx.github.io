@@ -304,12 +304,14 @@ a.buttonLink,a.buttonLink:hover, a.links  {
 	text-decoration: none;
 } 
 
-
 a.links2:hover {
-	color: #4E86BF;
+	color: #757575;
 }
 
-
+/* a.links2:hover {
+	color: #4E86BF;
+}
+ */
 
 
 
@@ -331,12 +333,6 @@ a.links2:hover {
 }
 
 
-.noBG {
-	background-color: transparent !important;
-}
-
-
-
 
 
 
@@ -349,7 +345,59 @@ a.links2:hover {
 	color: #438CCA;	
 }
 
+.dark1 {
+	color: #424242;	
+}
 
+.amount, .gold {
+	color: #f6c232;	
+}
+
+.gold2 {
+	color: #FFD800;	
+}
+
+
+
+.green1 {
+	color: #64dd17;	
+}
+
+.green2 {
+	color: #82A041;	
+}
+
+
+.orange1 {
+	color: #FF8C19;	
+}
+
+.red {
+	color: #D70A37 !important;	
+}
+
+.red2 {
+	color: #D70A37 !important;	
+}
+
+.yellow {
+	color: #438CCA !important;	
+}
+
+.dotPlus, .white {
+	color: #FFFFFF;	
+}
+
+ .cheapest, .notes, .usedin {
+	background-color: #66463E;	
+}
+
+.cheapest .buttonLink, .notes .buttonLink, .usedin .buttonLink {
+	color: #BEA082 !important;
+}
+
+
+/* Fruits of */
 .fruit-of {
 	background-color: #284664;	
 }
@@ -389,49 +437,72 @@ a.links2:hover {
 	background-color: #BE8C1E;	
 }
 
+/* Fruits of End */
 
 
-.amount, .gold {
-	color: #f6c232;	
+/* Traces of */
+
+.ToA {
+	background-color: #558b2f;	
 }
 
-.gold2 {
-	color: #FFD800;	
+.ToB {
+	background-color: #883410;	
 }
 
-
-
-.green1 {
-	color: #64dd17;	
+.ToC {
+	background-color: #424242;	
 }
 
-.green2 {
-	color: #82A041;	
+.ToD {
+	background-color: #eeeeee;	
 }
 
-.red {
-	color: #D70A37 !important;	
+.ToD2 {
+	background-color: #00695c;	
 }
 
-.red2 {
-	color: #D70A37 !important;	
+.TotE {
+	background-color: #5d4037;	
 }
 
-.yellow {
-	color: #438CCA !important;	
+.ToH {
+	background-color: #5c6bc0;	
 }
 
-.dotPlus, .white {
-	color: #FFFFFF;	
+.ToF {
+	background-color: #2e7d32;	
 }
 
- .cheapest, .notes, .usedin {
-	background-color: #66463E;	
+.ToM {
+	background-color: #ffc400;	
 }
 
-.cheapest .buttonLink, .notes .buttonLink, .usedin .buttonLink {
-	color: #BEA082 !important;
+.ToO {
+	background-color: #f48fb1;	
 }
+
+.ToS {
+	background-color: #b71c1c;	
+}
+
+.ToV {
+	background-color: #26a69a;	
+}
+
+.ToW {
+	background-color: #00bcd4;	
+}
+
+/* Fruits of End */
+
+
+
+
+.noBG {
+	background-color: transparent !important;
+}
+
 
 /* Really Dark Blue 19324B */
 
