@@ -66,6 +66,9 @@ table,tr,td,th,p,img {
 	width: 750;
 }
 
+.nav-rows {
+	margin-bottom: 4px;
+}
 
 .hidden {
   display: none;
