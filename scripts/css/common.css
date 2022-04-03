@@ -108,6 +108,11 @@ table,tr,td,th,p,img {
 	color: #283593;
 }
 
+.username {
+	text-align: center;
+	width: 640px;
+}
+
 
 .tab {
 	text-align: center;
