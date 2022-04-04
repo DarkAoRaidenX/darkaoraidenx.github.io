@@ -26,14 +26,7 @@ body {
 	src: url(fonts/roboto-bold.ttf);
 }
 
-/* 
 
-
-Saps
-More recipes
-add hide/show in recipes for categories
-
-*/
 
 
 
@@ -460,6 +453,74 @@ a.links2:hover {
 }
 
 /* Fruits of End */
+
+
+/* Saps */
+
+
+/* Saps End */
+
+.Sap-Acacia {
+	background-color: #616161;	
+}
+
+.Sap-Ash {
+	background-color: #466469;	
+}
+
+.Sap-Birch {
+	background-color: #526043;	
+}
+
+.Sap-Cactus {
+	background-color: #689f38;	
+}
+
+.Sap-Cedar {
+	background-color: #704C40;	
+}
+
+.Sap-Elder {
+	background-color: #8C7D5B;	
+}
+
+.Sap-Fir {
+	background-color: #706848;	
+}
+
+.Sap-Loopy-Tree {
+	background-color: #385468;	
+}
+
+.Sap-Maple {
+	background-color: #386070;	
+}
+
+.Sap-Moss-Tree {
+	background-color: #487468;	
+}
+
+
+.Sap-Palm {
+	background-color: #658C56;	
+}
+
+.Sap-Pine {
+	background-color: #487458;	
+}
+
+.Sap-Thornwood {
+	background-color: #A56965;	
+}
+
+.Sap-Thuja {
+	background-color: #966054;	
+}
+
+.Sap-White-Cedar {
+	background-color: #604868;	
+}
+
 
 
 /* Traces of */
