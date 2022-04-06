@@ -178,7 +178,10 @@ span.button {
 	line-height: 24px;
 }
 
-#pot-Griffons-Notes .button.darkBg1, #pot-Detection-Notes .button.darkBg1 {
+
+#pot-Griffons-Notes .button.darkBg1, 
+#pot-Detection-Notes .button.darkBg1,
+#pot-Will-Notes .button.darkBg1  {
 	line-height: 16px;
 }
 
