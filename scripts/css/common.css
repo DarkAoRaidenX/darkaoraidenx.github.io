@@ -132,13 +132,12 @@ table,tr,td,th,p,img {
 	width: 100%;
 	font-size: 12px;
 	font-weight: bold;
-	vertical-align: middle;
 }
 
-.button .left {
+/* .button .left {
 	width: ;
 
-}
+} */
 
 span.button {
 	line-height: 24px;
