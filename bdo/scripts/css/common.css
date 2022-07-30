@@ -171,7 +171,6 @@ scrollbar-width: none;
 	font-size: 12px;
 	font-weight: bold;
 	text-align: center;
-	vertical-align: middle;
 }
 
 span.button {
@@ -197,11 +196,16 @@ span.button {
 }
 
 .tab {
-	width: 200px !important;
+	width: 250px !important;
 	display: inline-block !important;	
 }
 
-
+.infoBox {
+	position: absolute;
+	left: 1630px;
+	width: 250px;
+	text-align: center;
+}
 
 .dots {
 	background-color: #262626;
