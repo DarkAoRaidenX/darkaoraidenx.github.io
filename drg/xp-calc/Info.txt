@@ -1,0 +1,588 @@
+Missions
+
+Egg Hunt (4) (950 XP) Length 1 / Complexity 1 
+Secondary
+Apoca Bloom (15) (700 XP)
+Alien Fossil(10) (700 XP)	
+Boolo Cap (20) (700 XP)
+Dystrum (100) (685 XP)
+Ebonut (14) (700 XP)
+Fester Fleas (10) (700 XP)
+Gunk Seed (12) (700 XP)
+Hollomite (35) (685 XP)
+
+Egg Hunt (6) (1425 XP) Length (2) / Complexity (2)
+Secondary
+Apoca Bloom (15) (1050 XP)
+Alien Fossil(10) (1050 XP)	
+Boolo Cap (20) (1050 XP)
+Dystrum (100) (1010 XP)
+Ebonut (14) (1050 XP)
+Fester Fleas (10) (1050 XP)
+Gunk Seed (12) (1050 XP)
+Hollomite (35) (1010 XP)
+
+Egg Hunt (8) (1900 XP) Length (3) / Complexity (2)
+Secondary
+Apoca Bloom (15) (1400 XP)
+Alien Fossil(10) (1400 XP)	
+Boolo Cap (20) (1400 XP)
+Dystrum (100) (1335 XP)
+Ebonut (14) (1400 XP)
+Fester Fleas (10) (1400 XP)
+Gunk Seed (12) (1400 XP)
+Hollomite (35) (1335 XP)
+
+Elimination (2 Dreadnaughts) (2100 XP) Length (2) / Complexity (2)
+Secondary
+Apoca Bloom (15) (840 XP)
+Alien Fossil(10) (840 XP)	
+Boolo Cap (20) (840 XP)
+Dystrum (100) (815 XP)
+Ebonut (14) (840 XP)
+Fester Fleas (10) (840 XP)
+Gunk Seed (12) (840 XP)
+Hollomite (35) (815 XP)
+
+Elimination (3 Dreadnaughts) (2975 XP) Length (3) / Complexity (3)
+Secondary
+Apoca Bloom (15) (1190 XP)
+Alien Fossil(10) (1190 XP)	
+Boolo Cap (20) (1190 XP)
+Dystrum (100) (1140 XP)
+Ebonut (14) (1190 XP)
+Fester Fleas (10) (1190 XP)
+Gunk Seed (12) (1190 XP)
+Hollomite (35) (1140 XP)
+
+Escort Duty (1 Stop) (3220 XP) Length (2) / Complexity (2)
+Secondary
+Apoca Bloom (15) (980 XP)
+Alien Fossil(10) (980 XP)	
+Boolo Cap (20) (980 XP)
+Dystrum (100) (945 XP)
+Ebonut (14) (980 XP)
+Fester Fleas (10) (980 XP)
+Gunk Seed (12) (980 XP)
+Hollomite (35) (945 XP)
+
+Escort Duty (1 Stop) (2990 XP) Length (2) / Complexity (3)
+Secondary
+Apoca Bloom (15) (909 XP)
+Alien Fossil(10) (909 XP)	
+Boolo Cap (20) (909 XP)
+Dystrum (100) (879 XP)
+Ebonut (14) (909 XP)
+Fester Fleas (10) (909 XP)
+Gunk Seed (12) (909 XP)
+Hollomite (35) (879 XP)
+
+Escort Duty (2 Stop) (3680 XP) Length (3) / Complexity (2)
+Secondary
+Apoca Bloom (15) (1120 XP)
+Alien Fossil(10) (1120 XP)	
+Boolo Cap (20) (1120 XP)
+Dystrum (100) (1075 XP)
+Ebonut (14) (1120 XP)
+Fester Fleas (10) (1120 XP)
+Gunk Seed (12) (1120 XP)
+Hollomite (35) (1075 XP)
+
+Escort Duty (2 Stop) (4140 XP) Length (3) / Complexity (3)
+Secondary
+Apoca Bloom (15) (1260 XP)
+Alien Fossil(10) (1260 XP)	
+Boolo Cap (20) (1260 XP)
+Dystrum (100) (1205 XP)
+Ebonut (14) (1260 XP)
+Fester Fleas (10) (1260 XP)
+Gunk Seed (12) (1260 XP)
+Hollomite (35) (1205 XP)
+
+Industrial Sabotage (4200 XP) Length (2) / Complexity (2)
+Secondary
+Apoca Bloom (15) (1050 XP)
+Alien Fossil(10) (1050 XP)	
+Boolo Cap (20) (1050 XP)
+Dystrum (100) (1010 XP)
+Ebonut (14) (1050 XP)
+Fester Fleas (10) (1050 XP)
+Gunk Seed (12) (1050 XP)
+Hollomite (35) (1010 XP)
+
+Morkite (200) (1700 XP) Length (1) / Complexity (1)
+Apoca Bloom (15) (700 XP)
+Alien Fossil(10) (700 XP)	
+Boolo Cap (20) (700 XP)
+Dystrum (100) (685 XP)
+Ebonut (14) (700 XP)
+Fester Fleas (10) (700 XP)
+Gunk Seed (12) (700 XP)
+Hollomite (35) (685 XP)
+
+Morkite (225) (1875 XP) Length (2) / Complexity (1)
+Secondary
+Apoca Bloom (15) (770 XP)
+Alien Fossil(10) (770 XP)	
+Boolo Cap (20) (770 XP)
+Dystrum (100) (750 XP)
+Ebonut (14) (770 XP)
+Fester Fleas (10) (770 XP)
+Gunk Seed (12) (770 XP)
+Hollomite (35) (750 XP)
+
+Morkite (250) (2050 XP) Length (2) / Complexity (2)
+Secondary
+Apoca Bloom (15) (840 XP)
+Alien Fossil(10) (784000 XP)	
+Boolo Cap (20) (840 XP)
+Dystrum (100) (815 XP)
+Ebonut (14) (840 XP)
+Fester Fleas (10) (840 XP)
+Gunk Seed (12) (840 XP)
+Hollomite (35) (815 XP)
+
+Morkite (325) (2725 XP) Length (3) / Complexity (3)
+Secondary
+Apoca Bloom (15) (1120 XP)
+Alien Fossil(10) (1120 XP)	
+Boolo Cap (20) (1120 XP)
+Dystrum (100) (1075 XP)
+Ebonut (14) (1120 XP)
+Fester Fleas (10) (1120 XP)
+Gunk Seed (12) (1120 XP)
+Hollomite (35) (1075 XP)
+
+Morkite (400) (3400 XP) Length (3) / Complexity (3)
+Secondary
+Apoca Bloom (15) (1400 XP)
+Alien Fossil(10) (1400 XP)	
+Boolo Cap (20) (1400 XP)
+Dystrum (100) (1335 XP)
+Ebonut (14) (1400 XP)
+Fester Fleas (10) (1400 XP)
+Gunk Seed (12) (1400 XP)
+Hollomite (35) (1335 XP)
+
+Point Extraction (7) (1225 XP) Length (2) / Complexity (3)
+Secondary
+Apoca Bloom (15) (490 XP)
+Alien Fossil(10) (490 XP)	
+Boolo Cap (20) (490 XP)
+Dystrum (100) (490 XP)
+Ebonut (14) (490 XP)
+Fester Fleas (10) (490 XP)
+Gunk Seed (12) (490 XP)
+Hollomite (35) (490 XP)
+
+Point Extraction (10) (1750 XP) Length (3) / Complexity (3)
+Secondary
+Apoca Bloom (15) (700 XP)
+Alien Fossil(10) (700 XP)	
+Boolo Cap (20) (700 XP)
+Dystrum (100) (750 XP)
+Ebonut (14) (700 XP)
+Fester Fleas (10) (700 XP)
+Gunk Seed (12) (700 XP)
+Hollomite (35) (750 XP)
+
+On-site Refining (3) (1800 XP) Length (2) / Complexity (2)
+Secondary
+Apoca Bloom (15) (840 XP)
+Alien Fossil(10) (840 XP)	
+Boolo Cap (20) (840 XP)
+Dystrum (100) (880 XP)
+Ebonut (14) (840 XP)
+Fester Fleas (10) (840 XP)
+Gunk Seed (12) (840 XP)
+Hollomite (35) (880 XP)
+
+On-site Refining (3) (2400 XP) Length (2) / Complexity (3)
+Secondary
+Apoca Bloom (15) (1120 XP)
+Alien Fossil(10) (1120 XP)	
+Boolo Cap (20) (1120 XP)
+Dystrum (100) (1075 XP)
+Ebonut (14) (1120 XP)
+Fester Fleas (10) (1120 XP)
+Gunk Seed (12) (1120 XP)
+Hollomite (35) (1075 XP)
+
+Salvage Operation (2) (1820 XP) Length (2) / Complexity (2)
+Secondary
+Apoca Bloom (15) (980 XP)
+Alien Fossil(10) (980 XP)	
+Boolo Cap (20) (980 XP)
+Dystrum (100) (945 XP)
+Ebonut (14) (980 XP)
+Fester Fleas (10) (980 XP)
+Gunk Seed (12) (980 XP)
+Hollomite (35) (945 XP)
+
+Salvage Operation (3) (2340 XP) Length (3) / Complexity (3)
+Secondary
+Apoca Bloom (15) (1260 XP)
+Alien Fossil(10) (1260 XP)	
+Boolo Cap (20) (1260 XP)
+Dystrum (100) (1205 XP)
+Ebonut (14) (1260 XP)
+Fester Fleas (10) (1260 XP)
+Gunk Seed (12) (1260 XP)
+Hollomite (35) (1205 XP)
+
+
+
+
+
+
+    // if ($("#egg_hunt4_primary option:selected")) {
+    //     $("#apoca_bloom").val("50");
+    //     $("#xp_apoca_bloom span").text("50");
+    // }
+
+    // else if ($("#egg_hunt6_primary option:selected")) {
+    //     $("#apoca_bloom").val("75");
+    //     $("#xp_apoca_bloom span").text("75");
+    // }
+
+
+
+    $('#selectSecondaryObjective').empty();
+    for (var key in secondaryObjectiveArray)
+    { 
+        var sel = "";
+        if (key == 0) sel = "selected";
+
+        $('#selectSecondaryObjective').append
+        (
+            '<option id="'+secondaryObjectiveArray[key][1]+'" value="'+ xpAmount +'" '+ sel +'>' 
+            + secondaryObjectiveArray[key][0] + '(' + xpAmount + ' XP) </option>'
+        );
+    }
+
+
+	    $('#selectSecondaryObjective').empty();
+    for (var key in secondaryObjectiveArray)
+    { 
+        var sel = "";
+        var xpString = "";
+        if (key == 0) sel = "selected";
+        if (index != 0) xpString = '(' + xpAmount + ' XP)';
+        $('#selectSecondaryObjective').append
+        (
+            '<option id="'+secondaryObjectiveArray[key][1]+'" value="'+ xpAmount +'" '+ sel +'>' 
+            + secondaryObjectiveArray[key][0] + xpString + '</option>'
+        );
+    }
+
+
+
+Apoca Bloom (15) (700 XP)
+Alien Fossil(10) (700 XP)	
+Boolo Cap (20) (700 XP)
+Dystrum (100) (700 XP)
+Ebonut (14) (700 XP)
+Fester Fleas (10) (700 XP)
+Gunk Seed (12) (700 XP)
+Hollomite (35) (700 XP)
+
+
+		<option value="0" selected>Select Secondary Objective</option>
+		<option value="" id="apoca_bloom">Apoca Bloom (15) (<span id="xp_apoca_bloom"></span> XP)</option>
+		<option value="" id="alien_fossil">Alien Fossil (10) (<span id="xp_alien_fossil"></span> XP)</option>
+		<option value="" id="boolo_cap">Boolo Cap (20) (<span id="xp_boolo_cap"></span> XP)</option>
+		<option value="" id="dystrum">Dystrum (100) (<span id="xp_dystrum"></span> XP)</option>
+		<option value="" id="ebonut">Ebonut (14) (<span id="xp_ebonut"></span> XP)</option>
+		<option value="" id="fester_fleas">Fester Fleas (10) (<span id="xp_fester_fleas"></span> XP)</option>
+		<option value="" id="gunk_seed">Gunk Seed (12) (<span id="xp_gunk_seed"></span> XP)</option>
+		<option value="" id="hollomite">Hollomite (35) (<span id="xp_hollomite"></span> XP)</option>
+
+
+<select id="primaryObjective" class="xpCalc">
+		<option value="0" selected>Select Primary Objective</option>
+		<option value="950" id="egg_hunt4_primary">Egg Hunt 4 (950 XP)</option>
+		<option value="1425" id="egg_hunt6_primary"> Egg Hunt 6 (1425 XP)</option>
+		<option value="1900" id="egg_hunt8_primary">Egg Hunt 8 (1900 XP)</option>
+	</select>
+
+	<select id="secondaryObjective" class="xpCalc">
+		<option value="0" selected>Select Secondary Objective</option>
+		<option value="" id="apoca_bloom">Apoca Bloom (15) (<span id="xp_apoca_bloom"></span> XP)</option>
+		<option value="" id="alien_fossil">Alien Fossil (10) (<span id="xp_alien_fossil"></span> XP)</option>
+		<option value="" id="boolo_cap">Boolo Cap (20) (<span id="xp_boolo_cap"></span> XP)</option>
+		<option value="" id="dystrum">Dystrum (100) (<span id="xp_dystrum"></span> XP)</option>
+		<option value="" id="ebonut">Ebonut (14) (<span id="xp_ebonut"></span> XP)</option>
+		<option value="" id="fester_fleas">Fester Fleas (10) (<span id="xp_fester_fleas"></span> XP)</option>
+		<option value="" id="gunk_seed">Gunk Seed (12) (<span id="xp_gunk_seed"></span> XP)</option>
+		<option value="" id="hollomite">Hollomite (35) (<span id="xp_hollomite"></span> XP)</option>
+	</select>
+
+	<select id="hazardLevel" class="xpCalc">
+		<option value="0" selected>Select Hazard Level</option>
+		<option value="25">Hazard Level 1 (+25%)</option>
+		<option value="50">Hazard Level 2 (+50%)</option>
+		<option value="75">Hazard Level 3 (+75%)</option>
+		<option value="100">Hazard Level 4 (+100%)</option>
+		<option value="133">Hazard Level 5 (+133%)</option>
+	</select>
+
+	<select id="complexityLevel" class="xpCalc">
+		<option value="0" selected>Select Complexity Level</option>
+		<option value="0">Complexity Level 1 (+0%)</option>
+		<option value="10">ComplexityLevel 2 (+10%)</option>
+		<option value="20">Complexity Level 3 (+20%)</option>
+	</select>
+
+	  <select id="lengthFootSteps" class="xpCalc"> 
+		<option value="0" selected>Select Length</option>
+		<option value="5">Length 1 (+5%)</option>
+		<option value="10">Length 2 (+10%)</option>
+		<option value="15">Length 3 (+15%)</option>
+	  </select>
+
+	  <select id="warningActive" class="xpCalc">
+		<option value="0" selected>Select Warning 1</option>
+		<option value="0">None</option>
+		<option value="15">Cave Leech Cluster (+15%)</option>
+		<option value="30">Elite Threat  (+30%)</option>
+		<option value="20">Exploder Infestation! (+20%)</option>
+		<option value="30">Haunted Cave (+30%)</option>
+		<option value="25">Lethal Enemies (+25%)</option>
+		<option value="50">Lithophage Outbreak (+50%)</option>
+		<option value="20">Low Oxygen (+20%)</option>
+		<option value="20">Mactera Plague (+20%)</option>
+		<option value="15">Parasites (+15%)</option>
+		<option value="15">Regenerative Bugs (+15%)</option>
+		<option value="30">Rival Presence (+30%)</option>
+		<option value="30">Shield Disruption (+30%)</option>
+		<option value="20">Swarmageddon (+20%)</option>
+	  </select>
+
+	  <select id="warningActive2" class="xpCalc">
+		<option value="0" selected>Select Warning 2</option>
+		<option value="0">None</option>
+		<option value="15">Cave Leech Cluster (+15%)</option>
+		<option value="30">Elite Threat  (+30%)</option>
+		<option value="20">Exploder Infestation! (+20%)</option>
+		<option value="30">Haunted Cave (+30%)</option>
+		<option value="25">Lethal Enemies (+25%)</option>
+		<option value="20">Low Oxygen (+20%)</option>
+		<option value="20">Mactera Plague (+20%)</option>
+		<option value="15">Parasites (+15%)</option>
+		<option value="15">Regenerative Bugs (+15%)</option>
+		<option value="30">Rival Presence (+30%)</option>
+		<option value="30">Shield Disruption (+30%)</option>
+		<option value="20">Swarmageddon (+20%)</option>
+	  </select>
+
+	  <select id="doubleXP" class="xpCalc">
+		<option value="0" selected>Double XP?</option>
+		<option value="0">No</option>
+		<option value="50">Yes</option>
+	  </select>
+
+
+
+
+
+		<option value="700" name="egg_hunt4_secondary">Apoca Bloom (15) (700 XP)</option>
+		<option value="700" name="egg_hunt4_secondary">Alien Fossil (10) (700 XP)</option>
+		<option value="700" name="egg_hunt4_secondary">Boolo Cap (20) (700 XP)</option>
+		<option value="685" name="egg_hunt4_secondary">Dystrum (100) (685 XP)</option>
+		<option value="700" name="egg_hunt4_secondary">Ebonut (14) (700 XP)</option>
+		<option value="700" name="egg_hunt4_secondary">Fester Fleas (10) (700 XP)</option>
+		<option value="700" name="egg_hunt4_secondary">Gunk Seed (12) (700 XP)</option>
+		<option value="685" name="egg_hunt4_secondary">Hollomite (35) (685 XP)</option>
+		
+		<option value="1050" name="egg_hunt6_secondary">Apoca Bloom (15) (1050 XP)</option>
+		<option value="1050" name="egg_hunt6_secondary">Alien Fossil (10) (1050 XP)</option>
+		<option value="1050" name="egg_hunt6_secondary">Boolo Cap (20) (1050 XP)</option>
+		<option value="1010" name="egg_hunt6_secondary">Dystrum (100) (1010 XP)</option>
+		<option value="1050" name="egg_hunt6_secondary">Ebonut (14) (1050 XP)</option>
+		<option value="1050" name="egg_hunt6_secondary">Fester Fleas (10) (1050 XP)</option>
+		<option value="1050" name="egg_hunt6_secondary">Gunk Seed (12) (1050 XP)</option>
+		<option value="1010" name="egg_hunt6_secondary">Hollomite (35) (1010 XP)</option>
+
+		<option value="1400" name="egg_hunt8_secondary">Apoca Bloom (15) (1400 XP)</option>
+		<option value="1400" name="egg_hunt8_secondary">Alien Fossil (10) (1400 XP)</option>
+		<option value="1400" name="egg_hunt8_secondary">Boolo Cap (20) (1400 XP)</option>
+		<option value="1335" name="egg_hunt8_secondary">Dystrum (100) (1335 XP)</option>
+		<option value="1400" name="egg_hunt8_secondary">Ebonut (14) (1400 XP)</option>
+		<option value="1400" name="egg_hunt8_secondary">Fester Fleas (10) (1400 XP)</option>
+		<option value="1400" name="egg_hunt8_secondary">Gunk Seed (12) (1400 XP)</option>
+		<option value="1335" name="egg_hunt8_secondary">Hollomite (35) (1335 XP)</option>
+
+	function addClass()
+	{
+		if(option.name == 'egg_hunt4_primary'){
+				var elem = document.getElementsByName("egg_hunt6_secondary");
+				elem.classList.add("hidden");
+		}
+		// var elem = document.getElementsByName("egg_hunt6_secondary");
+		// elem.className += "hidden";
+	}	
+
+	    option: selected == #egg_hunt4_primary"
+
+	$("#primaryObjective").change(function () 
+    {
+        var val = $(this).val();
+        if (val == "egg_hunt4_primary") {
+            $("#apoca_bloom").val("10000");
+        };
+    }
+
+   if ($("#primaryObjective option").attr("id") == "egg_hunt4_primary") 
+    {
+        $("#apoca_bloom option").val("10000");
+
+    };
+
+        if ($("#egg_hunt4_primary option: selected")) {
+
+            $("#apoca_bloom").val("10000");
+
+        };
+
+		<option value="950">
+			Egg Hunt 4 
+			/ <img src="images/length/1.png" class="icons lengthComplexity" alt="Length 1"/>  
+			/ <img src="images/complexity/1.png" class="icons lengthComplexity" alt="Complexity 1"/>  (950 XP)
+		</option>
+		
+		<option value="1425">
+			Egg Hunt 6 
+			/ <img src="images/length/2.png" class="icons lengthComplexity" alt="Length 2"/> 
+			/ <img src="images/complexity/2.png" class="icons lengthComplexity" alt="Complexity 2"/> (1425XP)
+		</option>
+		
+		<option value="1900">
+			Egg Hunt 8 
+			/ <img src="images/length/3.png" class="icons lengthComplexity" alt="Length 3"/> 
+			/ <img src="images/complexity/2.png" class="icons lengthComplexity" alt="Complexity 2"/> (1900)
+		</option>
+		
+
+		<option value="2100">
+			Elimination 2
+			/ <img src="images/length/2.png" class="icons lengthComplexity" alt="Length 2"/> 
+			/ <img src="images/complexity/2.png" class="icons lengthComplexity" alt="Complexity 2"/> (2100)
+		</option>
+		
+		<option value="2975">
+			Elimination 3 
+			/ <img src="images/length/3.png" class="icons lengthComplexity" alt="Length 3"/> 
+			/ <img src="images/complexity/3.png" class="icons lengthComplexity" alt="Complexity 3"/> (2975)
+		</option>
+		
+		<option value="2975">
+			Escort (1 - Stop) 
+			/ <img src="images/length/2.png" class="icons lengthComplexity" alt="Length 2"/> 
+			/ <img src="images/complexity/2.png" class="icons lengthComplexity" alt="Complexity 2"/> (2975)
+		</option>
+		
+		<option value="3220">
+			Escort (1 Stop) 
+			/ <img src="images/length/2.png" class="icons lengthComplexity" alt="Length 2"/> 
+			/ <img src="images/complexity/3.png" class="icons lengthComplexity" alt="Complexity 3"/> (3220)
+		</option>
+		
+		<option value="3680">
+			Escort (2 Stop) 
+			/ <img src="images/length/3.png" class="icons lengthComplexity" alt="Length 3"/> 
+			/ <img src="images/complexity/2.png" class="icons lengthComplexity" alt="Complexity 2"/> (3680)
+		</option>
+		
+		<option value="4140">
+			Escort (2 Stop) 
+			/ <img src="images/length/3.png" class="icons lengthComplexity" alt="Length 3"/> 
+			/ <img src="images/complexity/3.png" alt="Complexity 3"/> (4140)
+		</option>
+	
+		<option value="4200">
+			Industrial Sabotage 
+			/ <img src="images/length/2.png" class="icons lengthComplexity" alt="Length 2"/> 
+			/ <img src="images/complexity/2.png" class="icons lengthComplexity" alt="Complexity 2"/> (4200)
+		</option>
+		
+		<option value="1700">
+			Morkite 200 
+			/ <img src="images/length/1.png" class="icons lengthComplexity" alt="Length 1"/>  
+			/ <img src="images/complexity/1.png" class="icons lengthComplexity" alt="Complexity 1"/>  (1700)
+		</option>
+		
+		<option value="1875">
+			Morkite 225 
+			/ <img src="images/length/2.png" class="icons lengthComplexity" alt="Length 2"/> 
+			/ <img src="images/complexity/1.png" class="icons lengthComplexity" alt="Complexity 1"/>  (1875)
+		</option>
+		
+		<option value="2050">
+			Morkite 250 
+			/ <img src="images/length/2.png" class="icons lengthComplexity" alt="Length 2"/> 
+			/ <img src="images/complexity/2.png" class="icons lengthComplexity" alt="Complexity 2"/> (2050)
+		</option>
+		
+		<option value="2725">
+			Morkite 325 
+			/ <img src="images/length/3.png" class="icons lengthComplexity" alt="Length 3"/> 
+			/ <img src="images/complexity/3.png" class="icons lengthComplexity" alt="Complexity 3"/> (2725)
+		</option>
+		
+		<option value="3400">
+			Morkite 400 
+			/ <img src="images/length/3.png" class="icons lengthComplexity" alt="Length 3"/> 
+			/ <img src="images/complexity/3.png" class="icons lengthComplexity" alt="Complexity 3"/> (3400)
+		</option>
+		
+		<option value="1800">
+			On-site Refining 3 
+			/ <img src="images/length/2.png" class="icons lengthComplexity" alt="Length 2"/> 
+			/ <img src="images/complexity/2.png" class="icons lengthComplexity" alt="Complexity 2"/> (1225)
+		</option>
+		
+		<option value="2400">
+			On-site Refining 3 
+			/ <img src="images/length/2.png" class="icons lengthComplexity" alt="Length 2"/> 
+			/ <img src="images/complexity/3.png" class="icons lengthComplexity" alt="Complexity 3"/> (2400)
+		</option>
+		
+		<option value="1800">
+			Point Extraction 7 
+			/ <img src="images/length/2.png" class="icons lengthComplexity" alt="Length 2"/> 
+			/ <img src="images/complexity/3.png" class="icons lengthComplexity" alt="Complexity 3"/> (1800)
+		</option>
+		
+		<option value="2400">
+			Point Extraction 10 
+			/ <img src="images/length/3.png" class="icons lengthComplexity" alt="Length 3"/> 
+			/ <img src="images/complexity/3.png" class="icons lengthComplexity" alt="Complexity 3"/> (2400)
+		</option>
+		
+		<option value="1820">
+			Salvage Operation 2 
+			/ <img src="images/length/2.png" class="icons lengthComplexity" alt="Length 2"/> 
+			/ <img src="images/complexity/2.png" class="icons lengthComplexity" alt="Complexity 2"/> (1820)
+		</option>
+		
+		<option value="2340">
+			Salvage Operation 3 
+			/ <img src="images/length/3.png" class="icons lengthComplexity" alt="Length 3"/> 
+			/ <img src="images/complexity/3.png" class="icons lengthComplexity" alt="Complexity 3"/> (2340)
+		</option>
+
+
+
+
+
+		    $('#selectSecondaryObjective').empty();
+    for (var key in eggHuntSecondary1)
+    { 
+        var sel = "";
+        if (key == 0) sel = "selected";
+        $('#selectSecondaryObjective').append
+        (
+            '<option id="'+eggHuntSecondary1[key][1]+'" value="'+ xp +'" '+ sel +'>' 
+            + eggHuntSecondary1[key][0] + '(' + xp + ' XP) </option>'
+        );
+    }
