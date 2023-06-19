@@ -87,6 +87,7 @@ p.text-content {
 
 .h1 {
 	font-size: 36px;
+	line-height: 50px;
 }
 
 .h1 a {
@@ -95,54 +96,53 @@ p.text-content {
 
 .equipment .h2 {
 	font-size: 24px;
-	display: inline-block;
-}
-
-#driller-equipment-1 {
-	border: 4px solid #03a9f4;
 }
 
 #driller-equipment-2 {
-	border: 4px solid #de3800;
+	border: 4px solid #03a9f4;
 }
 
 #driller-equipment-3 {
+	border: 4px solid #de3800;
+}
+
+#driller-equipment-4 {
 	border: 4px solid #cddc39;
 }
 
-#engineer-equipment-1 {
+#engineer-equipment-2 {
 	border: 4px solid #8d6e63;
 }
 
-#engineer-equipment-2 {
+#engineer-equipment-3 {
 	border: 4px solid #607d8b;
 }
 
-#engineer-equipment-3 {
+#engineer-equipment-4 {
 	border: 4px solid #2196f3;
 }
 
-#gunner-equipment-1 {
+#gunner-equipment-2 {
 	border: 4px solid #1b5e20;
 }
 
-#gunner-equipment-2 {
+#gunner-equipment-3 {
 	border: 4px solid #263238;
 }
 
-#gunner-equipment-3 {
+#gunner-equipment-4 {
 	border: 4px solid #2e7d32;
 }
 
-#scout-equipment-1 {
+#scout-equipment-2 {
 	border: 4px solid #1e88e5;
 }
 
-#scout-equipment-2 {
+#scout-equipment-3 {
 	border: 4px solid #ba68c8;
 }
 
-#scout-equipment-3 {
+#scout-equipment-4 {
 	border: 4px solid #29b6f6;
 }
 
@@ -423,7 +423,7 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 	overflow-y: auto;
 }
 
-#tabs-0 {
+#tabs-1 {
 	background: 
     url("https://deeprockgalactic.wiki.gg/images/6/62/Skin-Body-Background-PlagueFall.jpg") 
 	top center / 1920px 1080px
@@ -431,7 +431,7 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
     #134717;
 }
 
-#tabs-1 {
+#tabs-2 {
 	background: 
     url("https://deeprockgalactic.wiki.gg/images/b/b0/Site-background-light.png") 
 	top center / 1920px 1080px
@@ -439,7 +439,7 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
     #134717;
 }
 
-#tabs-2 {
+#tabs-3 {
 	background: 
     url("https://i.imgur.com/2epgci6.png") 
 	top center / 1920px 1080px
@@ -447,7 +447,7 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
     #134717;
 }
 
-#tabs-3 {
+#tabs-4 {
 	background: 
     url("https://deeprockgalactic.wiki.gg/images/d/dd/Space_rig.jpg") 
 	top center / 1920px 1080px
@@ -455,7 +455,7 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
     #134717;
 }
 
-#tabs-4 {
+#tabs-5 {
 	background: 
     url("https://deeprockgalactic.wiki.gg/images/6/6b/The_Forge_Front.png") 
 	top center / 1920px 1080px
@@ -463,7 +463,7 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
     #134717;
 }
 
-#tabs-5 {
+#tabs-6 {
 	background: 
     url("https://deeprockgalactic.wiki.gg/images/4/46/Cabin_2.jpg") 
 	top center / 1920px 1080px
@@ -471,29 +471,23 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
     #134717;
 }
 
-#tabs-0 .columns {	
+#tabs-1 .columns {	
 	background: rgba(0,0,0,0.80);
 	height: 860px;
 	width: 1360px;
 
 }
 
-#tabs-1 .columns {	
+#tabs-2 .columns {	
 	background: rgba(0,0,0,0.90);
 	height: 860px;
 	width: 470px;
 }
 
-#tabs-2 .columns {	
-	background: rgba(0,0,0,0.80);
-	height: 860px;
-	width: 800px;
-}
-
 #tabs-3 .columns {	
 	background: rgba(0,0,0,0.80);
 	height: 860px;
-	width: 1360px;
+	width: 800px;
 }
 
 #tabs-4 .columns {	
@@ -503,6 +497,12 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 }
 
 #tabs-5 .columns {	
+	background: rgba(0,0,0,0.80);
+	height: 860px;
+	width: 1360px;
+}
+
+#tabs-6 .columns {	
 	background: rgba(0,0,0,0.80);
 	height: 860px;
 	width: 1360px;

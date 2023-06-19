@@ -16,27 +16,23 @@
 		$( function() {
 		  $( "#tabs" ).tabs();
 		} );
-	</script>
-	<script>
+
 		$( function() {
 		  $( "#driller-equipment" ).tabs();
 		} );
-	</script>
-	<script>
+
 		$( function() {
 		  $( "#engineer-equipment" ).tabs();
 		} );
-	</script>	
-	<script>
+
 		$( function() {
 		  $( "#gunner-equipment" ).tabs();
 		} );
-	</script>	
-	<script>
+
 		$( function() {
 		  $( "#scout-equipment" ).tabs();
 		} );
-	</script>	
+	</script>
 </head>
 <body id="drg-tips" class="common">
 
@@ -46,38 +42,38 @@
 			<!-- #region - Buttons -->
 					<ul id="nav-header">
 						<li>
-							<a title="Classes" id="classes" class="button-link" href="#tabs-0">
-								<img class="buttons" src="images/buttons/welcome-button.webp">
+							<a title="Classes" id="welcome-button" class="button-link" href="#tabs-1">
+								<img class="buttons" src="images/buttons/welcome-button.webp" alt="WELCOME"/>
 							</a>
 						</li>
 
 						<li>
-							<a title="Classes" id="classes" class="button-link" href="#tabs-1">
-								<img class="buttons" src="images/buttons/classes-button.webp">
+							<a title="Classes" id="classes-button" class="button-link" href="#tabs-2">
+								<img class="buttons" src="images/buttons/classes-button.webp" alt="DWARVES (CLASSES)"/>
 							</a>
 						</li>
 
 						<li>
-							<a title="Perk Tips" class="button-link" href="#tabs-2">
-								<img class="buttons" src="images/buttons/perks-button.webp">
+							<a title="Perk Tips" id="perks-button"  class="button-link" href="#tabs-3">
+								<img class="buttons" src="images/buttons/perks-button.webp" alt="PERKS TIPS"/>
 							</a>
 						</li>
 
 						<li>
-							<a title="Mission Tips" class="button-link" href="#tabs-3">
-								<img class="buttons" src="images/buttons/mission-tips.webp">
+							<a title="Mission Tips"  id="missions-tips-button" class="button-link" href="#tabs-4">
+								<img class="buttons" src="images/buttons/mission-tips.webp" alt="MISSION TIPS"/>
 							</a>
 						</li>
 
 						<li>
-							<a title="MODS" class="button-link" href="#tabs-4">
-								<img class="buttons" src="images/buttons/mods-button.webp">
+							<a title="MODS"  id="mod-button" class="button-link" href="#tabs-5">
+								<img class="buttons" src="images/buttons/mods-button.webp" alt="MODS TIPS"/>
 							</a>
 						</li>
 
 						<li>
-							<a title="Notes / Links" class="button-link" href="#tabs-5">
-								<img class="buttons" src="images/buttons/notes-links-button.webp">
+							<a title="Notes / Links"  id="credits-notes-links-button" class="button-link" href="#tabs-6">
+								<img class="buttons" src="images/buttons/notes-links-button.webp" alt="CREDITS/LINKS/NOTES"/>
 							</a>
 						</li>
 					</ul>
@@ -86,7 +82,7 @@
 
 
 		<!-- #region - WELCOME -->
-			<div id="tabs-0" class="tabs-container">
+			<div id="tabs-1" class="tabs-container">
 
 				<div class="nav-content-spacer">&nbsp;</div>
 
@@ -104,7 +100,7 @@
 		<!-- #endregion - WELCOME -->
 
 		<!-- #region - DWARVES (CLASSES)-->
-			<div id="tabs-1" class="hidden tabs-container">
+			<div id="tabs-2" class="hidden tabs-container">
 
 				<div class="nav-content-spacer">&nbsp;</div>
 
@@ -123,7 +119,7 @@
 
 							<div class="portraits">
 								<a title="DRG WIKI - Driller" class="" href="https://deeprockgalactic.wiki.gg/wiki/Driller" target="_blank">
-									<img id="driller" class="dwarves" src="https://deeprockgalactic.wiki.gg/images/c/cf/Driller.png" />
+									<img id="driller" class="dwarves" src="https://deeprockgalactic.wiki.gg/images/c/cf/Driller.png" alt="DRILLER PORTRAIT"/>
 								</a>
 							</div>
 
@@ -169,12 +165,12 @@
 								<!-- Driller Equipment Nav -->
 								<ul>
 									<li>
-										<a title="" class="category" href="#driller-equipment-0">Primary -</a>
+										<a title="" class="category" href="#driller-equipment-1">Primary -</a>
 									</li>
 
 									<li>
 										<div class="h2">
-											<a title="Click To Show" class="header-link" href="#driller-equipment-1">
+											<a title="Click To Show" class="header-link" href="#driller-equipment-2">
 												<span class="cyro">Cyro-Cannon</span>
 											</a> |
 										</div>
@@ -182,7 +178,7 @@
 
 									<li>
 										<div class="h2">
-											<a title="Click To Show" class="header-link" href="#driller-equipment-2">
+											<a title="Click To Show" class="header-link" href="#driller-equipment-3">
 												<span class="flame">Flamethrower</span>
 											</a> |
 										</div>
@@ -190,17 +186,21 @@
 
 									<li>
 										<div class="h2">
-											<a title="Click To Show" class="header-link" href="#driller-equipment-3">
+											<a title="Click To Show" class="header-link" href="#driller-equipment-4">
 												<span class="sludge">Sludge Pump</span>
 											</a>
 										</div>
 									</li>
 								</ul>
 								
-								<!-- Cyro -->
+								<!-- Blank -->
 								<div id="driller-equipment-1" class="hidden">
+								</div> 
+
+								<!-- Cyro -->
+								<div id="driller-equipment-2" class="hidden">
 									<p class="text-content">
-										<span class="spacer"></span>
+										<span class="spacer">&nbsp;</span>
 										<a title="DRG Wiki" class="highlighted cyro" href="https://deeprockgalactic.wiki.gg/wiki/Cryo_Cannon" target="_blank">
 											<span>Cyro-Cannon</span>
 										</a>
@@ -245,7 +245,7 @@
 								</div> 
 
 								<!-- Flamethrower -->
-								<div id="driller-equipment-2" class="hidden">
+								<div id="driller-equipment-3" class="hidden">
 									<p class="text-content">
 										Flamethrower <br />
 										Builds Link Images
@@ -253,7 +253,7 @@
 								</div> 
 
 								<!-- Sludge -->							
-								<div id="driller-equipment-3" class="hidden">
+								<div id="driller-equipment-4" class="hidden">
 									<p class="text-content">
 										Sludge <br />
 										Builds Link Images
@@ -279,7 +279,7 @@
 
 							<div class="portraits">
 								<a title="DRG WIKI - Engineer" class="" href="https://deeprockgalactic.wiki.gg/wiki/Engineer" target="_blank">
-									<img id="engineer" class="dwarves" src="https://deeprockgalactic.wiki.gg/images/d/d8/Engineer.png" />
+									<img id="engineer" class="dwarves" src="https://deeprockgalactic.wiki.gg/images/d/d8/Engineer.png" alt="ENGINEER PORTRAIT"/>
 								</a>
 							</div>
 
@@ -306,11 +306,11 @@
 								<!-- Engineer Equipment Nav -->
 								<ul>
 									<li>
-										<a title="" class="category" href="#">Primary -</a>
+										<a title="" class="category" href="#engineer-equipment-1">Primary -</a>
 									</li>
 									<li>
 										<div class="h2">
-											<a title="Click To Show" class="header-link" href="#engineer-equipment-1">
+											<a title="Click To Show" class="header-link" href="#engineer-equipment-2">
 												<span class="auto-shotgun">Auto Shotgun</span>
 											</a> |
 										</div>
@@ -318,7 +318,7 @@
 
 									<li>
 										<div class="h2">
-											<a title="Click To Show" class="header-link" href="#engineer-equipment-2">
+											<a title="Click To Show" class="header-link" href="#engineer-equipment-3">
 												<span class="smart-rifle">Smart Rifle</span>
 											</a> |
 										</div>
@@ -326,16 +326,22 @@
 
 									<li>
 										<div class="h2">
-											<a title="Click To Show" class="header-link" href="#engineer-equipment-3">
+											<a title="Click To Show" class="header-link" href="#engineer-equipment-4">
 												<span class="stubby-smg">Stubby SMG</span>
 											</a>
 										</div>
 									</li>
 								</ul>
 
+								<!-- Blank -->
+								<div id="engineer-equipment-1" class="hidden">
+									<p class="text-content">
+										
+									</p>
+								</div> 
 
 								<!-- "Warthog" Auto 210 -->
-								<div id="engineer-equipment-1" class="hidden">
+								<div id="engineer-equipment-2" class="hidden">
 									<p class="text-content">
 										"Warthog" Auto 210 <br />
 										Builds Link Images
@@ -343,7 +349,7 @@
 								</div> 
 
 								<!-- LOK-1 Smart Rifle -->
-								<div id="engineer-equipment-2" class="hidden">
+								<div id="engineer-equipment-3" class="hidden">
 									<p class="text-content">
 										LOK-1 Smart Rifle <br />
 										Builds Link Images
@@ -351,7 +357,7 @@
 								</div> 
 
 								<!-- "Stubby" Voltaic SMG -->							
-								<div id="engineer-equipment-3" class="hidden">
+								<div id="engineer-equipment-4" class="hidden">
 									<p class="text-content">
 										"Stubby" Voltaic SMG <br />
 										Builds Link Images
@@ -377,7 +383,7 @@
 
 							<div class="portraits">
 								<a title="DRG WIKI - Gunner" class="" href="https://deeprockgalactic.wiki.gg/wiki/Gunner" target="_blank">
-									<img id="gunner" class="dwarves" src="https://deeprockgalactic.wiki.gg/images/d/d0/Gunner.png" />
+									<img id="gunner" class="dwarves" src="https://deeprockgalactic.wiki.gg/images/d/d0/Gunner.png" alt="GUNNER PORTRAIT"/>
 								</a>
 							</div>
 
@@ -404,11 +410,11 @@
 								<!-- Gunner Equipment Nav -->
 								<ul>
 									<li>
-										<a title="" class="category" href="#">Primary -</a>
+										<a title="" class="category" href="#gunner-equipment-1">Primary -</a>
 									</li>
 									<li>
 										<div class="h2">
-											<a title="Click To Show" class="header-link" href="#gunner-equipment-1">
+											<a title="Click To Show" class="header-link" href="#gunner-equipment-2">
 												<span class="auto-cannon">AutoCannon</span>
 											</a> |
 										</div>
@@ -416,7 +422,7 @@
 
 									<li>
 										<div class="h2">
-											<a title="Click To Show" class="header-link" href="#gunner-equipment-2">
+											<a title="Click To Show" class="header-link" href="#gunner-equipment-3">
 												<span class="minigun">Minigun</span>
 											</a> |
 										</div>
@@ -424,15 +430,22 @@
 
 									<li>
 										<div class="h2">
-											<a title="Click To Show" class="header-link" href="#gunner-equipment-3">
+											<a title="Click To Show" class="header-link" href="#gunner-equipment-4">
 												<span class="hurricane">Hurricane</span>
 											</a>
 										</div>
 									</li>
 								</ul>
 
-								<!-- "Lead Storm" Powered Minigun -->
+								<!-- Blank -->
 								<div id="gunner-equipment-1" class="hidden">
+									<p class="text-content">
+										
+									</p>
+								</div> 
+
+								<!-- "Lead Storm" Powered Minigun -->
+								<div id="gunner-equipment-2" class="hidden">
 									<p class="text-content">
 										"Lead Storm" Powered Minigun <br />
 										Builds Link Images
@@ -440,7 +453,7 @@
 								</div> 
 
 								<!-- "Thunderhead" Heavy Autocannon -->
-								<div id="gunner-equipment-2" class="hidden">
+								<div id="gunner-equipment-3" class="hidden">
 									<p class="text-content">
 										"Thunderhead" Heavy Autocannon <br />
 										Builds Link Images
@@ -448,7 +461,7 @@
 								</div> 
 
 								<!-- "Hurricane" Guided Rocket System -->							
-								<div id="gunner-equipment-3" class="hidden">
+								<div id="gunner-equipment-4" class="hidden">
 									<p class="text-content">
 										"Hurricane" Guided Rocket System <br />
 										Builds Link Images
@@ -474,7 +487,7 @@
 
 							<div class="portraits">
 								<a title="DRG WIKI - Scout" class="" href="https://deeprockgalactic.wiki.gg/wiki/Scout" target="_blank">
-									<img id="scout" class="dwarves" src="https://deeprockgalactic.wiki.gg/images/6/69/Scout.png" />
+									<img id="scout" class="dwarves" src="https://deeprockgalactic.wiki.gg/images/6/69/Scout.png" alt="SCOUT PORTRAIT"/>
 								</a>
 							</div>
 
@@ -502,11 +515,11 @@
 								<!-- Scout Equipment Nav -->
 								<ul>
 									<li>
-										<a title="" class="category" href="#">Primary -</a>
+										<a title="" class="category" href="#scout-equipment-1">Primary -</a>
 									</li>
 									<li>
 										<div class="h2">
-											<a title="Click To Show" class="header-link" href="#scout-equipment-1">
+											<a title="Click To Show" class="header-link" href="#scout-equipment-2">
 												<span class="deepcore-gk2">Deepcore</span>
 											</a> |
 										</div>
@@ -514,7 +527,7 @@
 
 									<li>
 										<div class="h2">
-											<a title="Click To Show" class="header-link" href="#scout-equipment-2">
+											<a title="Click To Show" class="header-link" href="#scout-equipment-3">
 												<span class="drak-25">DRAK-25</span>
 											</a> |
 										</div>
@@ -522,15 +535,22 @@
 
 									<li>
 										<div class="h2">
-											<a title="Click To Show" class="header-link" href="#scout-equipment-3">
+											<a title="Click To Show" class="header-link" href="#scout-equipment-4">
 												<span class="m1000">M1000</span>
 											</a>
 										</div>
 									</li>
 								</ul>
 
-								<!-- Deepcore GK2 -->
+								<!-- Blank -->
 								<div id="scout-equipment-1" class="hidden">
+									<p class="text-content">
+										
+									</p>
+								</div> 
+
+								<!-- Deepcore GK2 -->
+								<div id="scout-equipment-2" class="hidden">
 									<p class="text-content">
 										Deepcore GK2 <br />
 										Builds Link Images
@@ -538,7 +558,7 @@
 								</div> 
 
 								<!-- DRAK-25 Plasma Carbine -->
-								<div id="scout-equipment-2" class="hidden">
+								<div id="scout-equipment-3" class="hidden">
 									<p class="text-content">
 										DRAK-25 Plasma Carbine <br />
 										Builds Link Images
@@ -546,7 +566,7 @@
 								</div> 
 
 								<!-- M1000 Classic -->							
-								<div id="scout-equipment-3" class="hidden">
+								<div id="scout-equipment-4" class="hidden">
 									<p class="text-content">
 										M1000 Classic <br />
 										Builds Link Images
@@ -563,7 +583,7 @@
 
 
 		<!-- #region - PERKS -->
-			<div id="tabs-2" class="hidden tabs-container">
+			<div id="tabs-3" class="hidden tabs-container">
 
 				<div class="nav-content-spacer">&nbsp;</div>
 
@@ -590,7 +610,7 @@
 
 
 		<!-- #region - MISSION TIPS -->
-		<div id="tabs-3" class="hidden tabs-container">
+		<div id="tabs-4" class="hidden tabs-container">
 
 			<div class="nav-content-spacer">&nbsp;</div>
 
@@ -609,7 +629,7 @@
 
 
 		<!-- #region - MODS -->
-			<div id="tabs-4" class="hidden tabs-container">
+			<div id="tabs-5" class="hidden tabs-container">
 				<div class="nav-content-spacer">&nbsp;</div>
 
 				<div id="tab4-content" class="tabs-content">				
@@ -626,7 +646,7 @@
 
 
 		<!-- #region - NOTES LINKS CREDIT -->
-			<div id="tabs-5" class="hidden tabs-container">
+			<div id="tabs-6" class="hidden tabs-container">
 				<div class="nav-content-spacer">&nbsp;</div>
 
 				<div id="tab5-content" class="tabs-content">				
