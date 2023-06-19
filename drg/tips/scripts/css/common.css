@@ -95,6 +95,11 @@ p.text-content {
 	line-height: 32px;
 }
 
+#tabs-1 .columns p.text-content {
+	font-size: 24px;
+	line-height: 32px;
+}
+
 #tabs-6 p.text-content,#tabs-5 p.text-content {
 	font-size: 24px;
 	line-height: 24px;
@@ -218,11 +223,11 @@ p.text-content {
 	color: #673ab7;	
 }
 
-.flame {
+.flame, .sandbox {
 	color: #de3800;
 }
 
-.hurricane, .qol {
+.hurricane, .qol, .verified {
 	color: #2e7d32;
 }
 
@@ -260,7 +265,7 @@ p.text-content {
 
 
 /* #region -  dwarves colors */
-.driller {
+.driller, .approved {
 	color: #fdd835;
 }
 
@@ -493,12 +498,16 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
     #134717;
 }
 
-
-
-#tabs-1 .columns {	
+#tab1-content {	
 	background: rgba(0,0,0,0.80);
 	height: 860px;
 	width: 1450px;
+
+}
+
+#tabs-1 .columns {	
+	height: 860px;
+	width: 470px;
 
 }
 
@@ -527,12 +536,10 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 }
 
 #tabs-5 .columns {
-	height: 675px;
+	height: 520px;
 	width: 450px;
 	border: 2px solid #757575;
 }
-
-
 
 #tabs-6 .columns {	
 	background: rgba(0,0,0,0.80);
