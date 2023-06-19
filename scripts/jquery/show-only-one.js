@@ -1,5 +1,5 @@
 function showonlyone(thechosenone) {
-     $('div[class|="hidden"]').each(function(index) {
+     $('div[class|="showonlyone"]').each(function(index) {
           if ($(this).attr("id") == thechosenone) {
                $(this).show();
           }

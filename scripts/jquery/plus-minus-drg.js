@@ -3,16 +3,16 @@
 $(document).ready(function ()
 {
 
-    $('.button-link').each(function ()
+    $('.hide-show').each(function ()
     {
 
 $(this).click(function ()
     {
 		console.log('clicked');
-        var content=$(this).find(".dot-plus").html();
+        var content=$(this).find(".plus-minus").html();
         if (content=='+') content='-';
         else content='+';
-       $(this).find(".dot-plus").html(content);
+       $(this).find(".plus-minus").html(content);
 
     });
     });
