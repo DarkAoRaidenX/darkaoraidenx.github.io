@@ -1,0 +1,543 @@
+body {
+	color: white;
+	background:
+    #134717;
+	border: 0 solid #000;
+	font-family: rift-soft-bold, arial, helvetica, sans-serif;
+	text-align: center;
+}
+
+@font-face {
+	font-family: rift-soft-bold;
+	src: url(fonts/rift-soft-bold.ttf);
+}
+
+/* #region - global */
+
+img,fieldset {
+	border: none;
+}
+
+/* null margins and padding to give good cross-browser baseline */
+html,body,address,blockquote,div,
+form,fieldset,caption,
+h1,h2,h3,h4,h5,h6,
+hr,ul,li,ol,ul,
+table,tr,td,th,p,img {
+	margin:0;
+	padding:0;
+}
+
+* { 
+	scrollbar-width: none; 
+} 
+
+.hidden, ::-webkit-scrollbar {
+	display: none;
+}
+
+/* #tabs {
+	width: 1800px;
+} */
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	display: inline-block;
+} 
+
+ul#nav-header li {
+	margin-left: 10px;
+	height: 45px;
+}
+
+.spacer {
+	display: block;
+	height: 8px;
+}
+
+.nav-content-spacer {
+	display: block;
+	height: 48px;
+}
+
+/* #region - text */
+
+
+.plus-minus {
+	display: inline-block;
+	top: 5px;
+	position: relative;
+ 	font-size: 48px;
+	color: #fff;
+}
+
+p.text-content {
+	line-height: 20px;
+}
+
+.equipment p.text-content {
+	line-height: 22px;
+	min-height: 700px;
+}
+
+.h1 {
+	font-size: 36px;
+}
+
+.h1 a {
+	color: #F89D06;
+}
+
+.equipment .h2 {
+	font-size: 24px;
+	display: inline-block;
+}
+
+#driller-equipment-1 {
+	border: 4px solid #03a9f4;
+}
+
+#driller-equipment-2 {
+	border: 4px solid #de3800;
+}
+
+#driller-equipment-3 {
+	border: 4px solid #cddc39;
+}
+
+#engineer-equipment-1 {
+	border: 4px solid #8d6e63;
+}
+
+#engineer-equipment-2 {
+	border: 4px solid #607d8b;
+}
+
+#engineer-equipment-3 {
+	border: 4px solid #2196f3;
+}
+
+#gunner-equipment-1 {
+	border: 4px solid #1b5e20;
+}
+
+#gunner-equipment-2 {
+	border: 4px solid #263238;
+}
+
+#gunner-equipment-3 {
+	border: 4px solid #2e7d32;
+}
+
+#scout-equipment-1 {
+	border: 4px solid #1e88e5;
+}
+
+#scout-equipment-2 {
+	border: 4px solid #ba68c8;
+}
+
+#scout-equipment-3 {
+	border: 4px solid #29b6f6;
+}
+
+
+/* #region - items colors */
+
+.active-perk {
+	color: #4BBFA5;
+}
+
+.aquarq {
+	color: #2646FF;
+}
+
+
+.bittergem {
+	color: #e91e63;
+}
+
+
+
+
+/* #region - weapons colors */
+
+.auto-cannon {
+	color: #1b5e20;
+}
+
+.auto-shotgun {
+	color: #8d6e63;
+}
+
+.cyro {
+	color: #03a9f4;
+}
+
+.deepcore-gk2 {
+	color: #1e88e5;
+}
+
+.drak-25 {
+	color: #ba68c8;
+}
+
+.epc {
+	color: #673ab7;	
+}
+
+.flame {
+	color: #de3800;
+}
+
+.hurricane {
+	color: #2e7d32;
+}
+
+.m1000 {
+	color: #29b6f6;
+}
+
+.minigun {
+	color: #37474f;
+}
+
+.sludge {
+	color: #cddc39;
+}
+
+.smart-rifle {
+	color: #607d8b;
+}
+
+.stubby-smg {
+	color: #2196f3;
+}
+
+.wave-cooker {
+	color: #4caf50;	
+}
+
+
+/* #endregion - weapons colors */
+
+
+/* #endregion - items colors */
+
+.playstyle {
+	color: #F89D06;
+}
+
+
+/* #region -  dwarves colors */
+.driller {
+	color: #fdd835;
+}
+
+.engineer {
+	color: red;
+}
+
+.gunner {
+	color: green;
+}
+
+.scout {
+	color: #2646FF;
+}
+
+
+/* #endregion - dwarves colors */
+
+
+/* #region - links */
+
+/* #region - global links */
+
+a.category {
+	font-size: 24px;
+	color: #fff;
+}
+
+a.highlighted {
+	color:#000
+}
+
+a.category,a.header-link,a.imgur,a.highlighted {
+	text-decoration: none;
+}
+
+a.highlighted:hover {
+	text-decoration: underline;
+}
+
+/* #endregion - global links */
+
+a.imgur {
+	font-size: 24px;
+}
+
+a.passive-perk {
+	background-color: #b93253;
+	color: #000;
+}
+
+/* #region - overclocks */
+
+.balanced {
+	background-color: #e9Ca37;
+}
+
+.clean, .imgur {
+	background-color: #379C5d;
+}
+
+.unstable {
+	background-color: #de3800;
+}
+
+/* #endregion - overclocks */
+
+
+/* #region - weapons */
+
+a.auto-cannon {
+	background-color: #1b5e20;
+}
+
+a.auto-shotgun {
+	background-color: #8d6e63;
+}
+
+a.axes {
+	background-color: #78909c;
+}
+
+a.cyro {
+	background-color: #03a9f4;
+}
+
+a.deepcore-gk2 {
+	background-color: #03a9f4;
+}
+
+a.drak-25 {
+	background-color: #03a9f4;
+}
+
+a.epc {
+	background-color: #7e57c2;
+}
+
+a.hurricane {
+	background-color: #2e7d32;
+}
+
+a.m1000 {
+	background-color: #37474f;
+}
+
+a.minigun {
+	background-color: #263238;
+}
+
+a.smart-rifle {
+	background-color: #607d8b;
+}
+
+a.stubby-smg {
+	background-color: #2196f3;
+}
+
+a.wave-cooker {
+	background-color: #4caf50;
+}
+
+/* #endregion - weapons */
+
+
+
+
+
+
+
+
+
+
+
+
+/* #endregion - links */
+
+
+/* #endregion - text */
+
+
+/* #endregion - global */
+
+
+/* #region - nav buttons */
+#nav-buttons {
+	display: flex;
+	justify-content: center;
+}
+
+
+
+ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
+	/* background-image: url("../../images/buttons/button-bg.webp"); */
+	background-color: #f89d06;
+	
+}
+
+/* .ui-state-active {
+	line-height: 64px;
+} */
+
+
+/* #endregion - nav buttons */
+
+/* #region - tabs-content */
+
+.tabs-container {
+	position: absolute;
+	top: 0;
+	z-index: -100;
+	width: 1920px;
+	height: 925px;
+}
+
+.tabs-content {
+	margin: auto;
+	z-index: 200;
+}
+
+.columns {
+	display: inline-block;
+	vertical-align: top;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+#tabs-0 {
+	background: 
+    url("https://deeprockgalactic.wiki.gg/images/6/62/Skin-Body-Background-PlagueFall.jpg") 
+	top center / 1920px 1080px
+	no-repeat
+    #134717;
+}
+
+#tabs-1 {
+	background: 
+    url("https://deeprockgalactic.wiki.gg/images/b/b0/Site-background-light.png") 
+	top center / 1920px 1080px
+	no-repeat
+    #134717;
+}
+
+#tabs-2 {
+	background: 
+    url("https://i.imgur.com/2epgci6.png") 
+	top center / 1920px 1080px
+	no-repeat
+    #134717;
+}
+
+#tabs-3 {
+	background: 
+    url("https://deeprockgalactic.wiki.gg/images/d/dd/Space_rig.jpg") 
+	top center / 1920px 1080px
+	no-repeat
+    #134717;
+}
+
+#tabs-4 {
+	background: 
+    url("https://deeprockgalactic.wiki.gg/images/6/6b/The_Forge_Front.png") 
+	top center / 1920px 1080px
+	no-repeat
+    #134717;
+}
+
+#tabs-5 {
+	background: 
+    url("https://deeprockgalactic.wiki.gg/images/4/46/Cabin_2.jpg") 
+	top center / 1920px 1080px
+	no-repeat
+    #134717;
+}
+
+#tabs-0 .columns {	
+	background: rgba(0,0,0,0.80);
+	height: 860px;
+	width: 1360px;
+
+}
+
+#tabs-1 .columns {	
+	background: rgba(0,0,0,0.90);
+	height: 860px;
+	width: 470px;
+}
+
+#tabs-2 .columns {	
+	background: rgba(0,0,0,0.80);
+	height: 860px;
+	width: 800px;
+}
+
+#tabs-3 .columns {	
+	background: rgba(0,0,0,0.80);
+	height: 860px;
+	width: 1360px;
+}
+
+#tabs-4 .columns {	
+	background: rgba(0,0,0,0.80);
+	height: 860px;
+	width: 1360px;
+}
+
+#tabs-5 .columns {	
+	background: rgba(0,0,0,0.80);
+	height: 860px;
+	width: 1360px;
+}
+
+
+/* #endregion - tabs-content */
+
+
+/* #region - images */
+
+img.buttons {
+	width: 225;
+	height: 45px;
+}
+
+#driller {
+	width: 170px;
+	height: 160px;
+}
+
+#engineer {
+	width: 140px;
+	height: 160px;
+}
+
+#gunner {
+	width: 170px;
+	height: 160px;
+}
+
+#scout {
+	width: 120px;
+	height: 160px;
+}
+
+
+/* #endregion - images */

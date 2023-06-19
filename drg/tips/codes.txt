@@ -1,0 +1,49 @@
+/* .button a {
+	color: whitesmoke;
+	border: 2px solid #F89D06;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 32px;
+	height: 64px;
+} */
+
+/* a.button-link {
+	color: whitesmoke;
+	font-weight: bold;
+	font-size: 32px;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+
+} */
+
+
+
+							<!-- Blank -->
+							<div id="driller-equipment-0" class="hidden">
+								<p class="text-content">
+									
+								</p>
+							</div> 
+
+														<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('driller-playstyle');">
+								<div class="plus-minus">+</div> Playstyle Tips
+							</a>
+
+														<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('driller-equipment');">
+								<div class="plus-minus">-</div> Equipment Tips
+							</a>
+
+								background: 
+    url("https://deeprockgalactic.wiki.gg/images/b/b0/Site-background-light.png") 
+	top center / 1920px 1080px
+	no-repeat
+    #134717;
+
+							<div class="h1">
+							<a title="DRG WIKI - Driller" class="header-link" href="https://deeprockgalactic.wiki.gg/wiki/Driller" target="_blank">
+								<span class="driller">Driller</span>
+							</a>
+						</div>
+

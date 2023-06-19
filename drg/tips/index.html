@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>DRG TIPS</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="../../scripts/jquery/3.6.3.min.js"></script>
+	<script src="../../scripts/jquery/plus-minus-drg.js"></script>
+	<script src="../../scripts/jquery/show-only-one.js"></script>
+	<script src="../../scripts/jquery/toggle-div.js"></script>
+	<script src="../../scripts/jquery/ui-1.13.2.js"></script>
+	<script>
+		$( function() {
+		  $( "#tabs" ).tabs();
+		} );
+
+		$( function() {
+		  $( "#driller-equipment" ).tabs();
+		} );
+
+		$( function() {
+		  $( "#engineer-equipment" ).tabs();
+		} );
+
+		$( function() {
+		  $( "#gunner-equipment" ).tabs();
+		} );
+
+		$( function() {
+		  $( "#scout-equipment" ).tabs();
+		} );
+	</script>
+</head>
+<body id="drg-tips" class="common">
+
+	<div id="tabs">
+
+		<div id="nav-buttons" class="">	
+			<!-- #region - Buttons -->
+					<ul id="nav-header">
+						<li>
+							<a title="Classes" id="classes" class="button-link" href="#tabs-0">
+								<img class="buttons" src="images/buttons/welcome-button.webp">
+							</a>
+						</li>
+
+						<li>
+							<a title="Classes" id="classes" class="button-link" href="#tabs-1">
+								<img class="buttons" src="images/buttons/classes-button.webp">
+							</a>
+						</li>
+
+						<li>
+							<a title="Perk Tips" class="button-link" href="#tabs-2">
+								<img class="buttons" src="images/buttons/perks-button.webp">
+							</a>
+						</li>
+
+						<li>
+							<a title="Mission Tips" class="button-link" href="#tabs-3">
+								<img class="buttons" src="images/buttons/mission-tips.webp">
+							</a>
+						</li>
+
+						<li>
+							<a title="MODS" class="button-link" href="#tabs-4">
+								<img class="buttons" src="images/buttons/mods-button.webp">
+							</a>
+						</li>
+
+						<li>
+							<a title="Notes / Links" class="button-link" href="#tabs-5">
+								<img class="buttons" src="images/buttons/notes-links-button.webp">
+							</a>
+						</li>
+					</ul>
+			<!-- #endregion - Buttons -->
+		</div>
+
+
+		<!-- #region - WELCOME -->
+			<div id="tabs-0" class="tabs-container">
+
+				<div class="nav-content-spacer">&nbsp;</div>
+
+				<div id="tab0-content" class="tabs-content">				
+					<div class="columns">
+						
+						<div class="h1">
+							Welcome
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		<!-- #endregion - WELCOME -->
+
+		<!-- #region - DWARVES (CLASSES)-->
+			<div id="tabs-1" class="hidden tabs-container">
+
+				<div class="nav-content-spacer">&nbsp;</div>
+
+				<div id="tab1-content" class="tabs-content">
+					<!-- Driller -->
+					<div class="columns">
+						<div class="h1">
+							<a title="DRG WIKI - Driller" class="header-link" href="https://deeprockgalactic.wiki.gg/wiki/Driller" target="_blank">
+								<span class="driller">Driller</span>
+							</a>
+						</div>
+
+						<div class="text-content-container">
+							A.K.A.
+							<br />Digger, DrillDozer, Terrorist, Yellow
+
+							<div class="portraits">
+								<a title="DRG WIKI - Driller" class="" href="https://deeprockgalactic.wiki.gg/wiki/Driller" target="_blank">
+									<img id="driller" class="dwarves" src="https://deeprockgalactic.wiki.gg/images/c/cf/Driller.png" />
+								</a>
+							</div>
+
+							<div class="h1 playstyle">
+								<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('driller-playstyle');">
+									<div class="plus-minus">+</div> Playstyle Tips
+								</a>
+							</div>
+
+							<div id="driller-playstyle" class="hidden">
+								<p class="text-content">
+									I try to drill pathways to places &amp; just make things more accessible 
+									<br />
+									to like objectives or to get up places. 
+
+									<br /><br />
+									You can also tunnel under or to team mates to revive
+									<br /> or even to kill or hack enemies.
+									
+									<br /><br />
+									As well as even out the terrain for the team so it's easier to move around. 
+									
+									<br /><br />
+									I am also always on the look out to get the buried Gems.
+									
+									<br /> Like the Aquarqs, Bittergems, Gold Chunks, Jadizs, etc.
+
+									
+									<br /><br />
+									In boss fights like the Dreadnaughts I feel kind of useless. Our weapons don't do much except you can freeze them for a split second or 2 so the team can do damage but it takes a long time to freeze.
+								</p>
+							</div>
+
+
+							<div class="h1 playstyle">
+								<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('driller-equipment');">
+									<div class="plus-minus">-</div> Equipment Tips
+								</a>
+							</div>
+
+							<div id="driller-equipment" class="equipment">
+
+								<!-- Driller Equipment Nav -->
+								<ul>
+									<li>
+										<a title="" class="category" href="#driller-equipment-0">Primary -</a>
+									</li>
+
+									<li>
+										<div class="h2">
+											<a title="Click To Show" class="header-link" href="#driller-equipment-1">
+												<span class="cyro">Cyro-Cannon</span>
+											</a> |
+										</div>
+									</li>
+
+									<li>
+										<div class="h2">
+											<a title="Click To Show" class="header-link" href="#driller-equipment-2">
+												<span class="flame">Flamethrower</span>
+											</a> |
+										</div>
+									</li>
+
+									<li>
+										<div class="h2">
+											<a title="Click To Show" class="header-link" href="#driller-equipment-3">
+												<span class="sludge">Sludge Pump</span>
+											</a>
+										</div>
+									</li>
+								</ul>
+								
+								<!-- Cyro -->
+								<div id="driller-equipment-1" class="hidden">
+									<p class="text-content">
+										<span class="spacer"></span>
+										<a title="DRG Wiki" class="highlighted cyro" href="https://deeprockgalactic.wiki.gg/wiki/Cryo_Cannon" target="_blank">
+											<span>Cyro-Cannon</span>
+										</a>
+										
+										is the best to me because it freezes enemies in their place <br /> and flying enemies die right away when frozen. 
+										
+										<br /><br /> 
+										which makes it easier to escape unlike the Flamethrower where it sets them on fire and they keep coming at you and the Flamethrower has to reload.
+
+										<br /><br />
+										I Mainly use the Cyro-Cannon with the 
+										
+										<a title="DRG Wiki" class="highlighted wave-cooker" href="https://deeprockgalactic.wiki.gg/wiki/Colette_Wave_Cooker" target="_blank">
+											<span>Wave Cooker</span>
+										</a> 
+										
+										<br />to Temperature Shock and the 
+										
+										
+										<a title="Clean Overclock" class="highlighted clean" href="https://deeprockgalactic.wiki.gg/wiki/Colette_Wave_Cooker#Overclocks" target="_blank">Liquid Cooling System</a> Overclock. 
+										
+										<br />or the 
+										<a title="DRG Wiki" class="highlighted epc" href="https://deeprockgalactic.wiki.gg/wiki/Experimental_Plasma_Charger" target="_blank">
+											<span>Experimental Plasma Charger (EPC)</span>
+										</a> 
+
+										with the 
+										<a title="Balanced Overclock" class="highlighted balanced" href="https://deeprockgalactic.wiki.gg/wiki/Colette_Wave_Cooker#Overclocks" target="_blank">Heavy Hitter</a> Overclock 
+										
+										<br />and then take the
+										<a title="DRG Wiki" class="highlighted axes" href="https://deeprockgalactic.wiki.gg/wiki/Impact_Axe" target="_blank">
+											<span>Grenade Impact Axes</span>
+										</a>. 
+										
+										<br /><br />
+										Cyro works well with the <a title="Passive Perk" class="highlighted passive-perk" href="https://deeprockgalactic.wiki.gg/wiki/Vampire">Vampire</a> passive perk. <br />as The grenade Impact Axes and the Drills counts as melee damage.
+
+
+										<br /><br />
+										<a title="Imgur Images" class="highlighted imgur" href="https://imgur.com/a/zVVuqLi" target="_blank">Link to images of builds</a>
+									</p>
+								</div> 
+
+								<!-- Flamethrower -->
+								<div id="driller-equipment-2" class="hidden">
+									<p class="text-content">
+										Flamethrower <br />
+										Builds Link Images
+									</p>
+								</div> 
+
+								<!-- Sludge -->							
+								<div id="driller-equipment-3" class="hidden">
+									<p class="text-content">
+										Sludge <br />
+										Builds Link Images
+									</p>
+								</div> 
+
+							</div>
+						</div>
+					</div>
+
+
+					<!-- Engineer -->				
+					<div class="columns">
+						<div class="h1">
+							<a title="DRG WIKI - Engineer" class="header-link" href="https://deeprockgalactic.wiki.gg/wiki/Engineer" target="_blank">
+								<span class="engineer">Engineer</span>
+							</a>
+						</div>
+
+						<div class="text-content-container">
+							A.K.A.
+							<br />N-G, Red
+
+							<div class="portraits">
+								<a title="DRG WIKI - Engineer" class="" href="https://deeprockgalactic.wiki.gg/wiki/Engineer" target="_blank">
+									<img id="engineer" class="dwarves" src="https://deeprockgalactic.wiki.gg/images/d/d8/Engineer.png" />
+								</a>
+							</div>
+
+							<div class="h1">
+								<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('engineer-playstyle');">
+									<div class="plus-minus">+</div> Playstyle Tips
+								</a>
+							</div>
+
+								<div id="engineer-playstyle" class="hidden">
+									<p class="text-content">
+										How I Play
+									</p>
+								</div>
+
+								<div class="h1">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('engineer-equipment');">
+										<div class="plus-minus">-</div> Equipment Tips
+									</a>
+								</div>
+
+							<div id="engineer-equipment" class="equipment">
+
+								<!-- Engineer Equipment Nav -->
+								<ul>
+									<li>
+										<a title="" class="category" href="#">Primary -</a>
+									</li>
+									<li>
+										<div class="h2">
+											<a title="Click To Show" class="header-link" href="#engineer-equipment-1">
+												<span class="auto-shotgun">Auto Shotgun</span>
+											</a> |
+										</div>
+									</li>
+
+									<li>
+										<div class="h2">
+											<a title="Click To Show" class="header-link" href="#engineer-equipment-2">
+												<span class="smart-rifle">Smart Rifle</span>
+											</a> |
+										</div>
+									</li>
+
+									<li>
+										<div class="h2">
+											<a title="Click To Show" class="header-link" href="#engineer-equipment-3">
+												<span class="stubby-smg">Stubby SMG</span>
+											</a>
+										</div>
+									</li>
+								</ul>
+
+
+								<!-- "Warthog" Auto 210 -->
+								<div id="engineer-equipment-1" class="hidden">
+									<p class="text-content">
+										"Warthog" Auto 210 <br />
+										Builds Link Images
+									</p>
+								</div> 
+
+								<!-- LOK-1 Smart Rifle -->
+								<div id="engineer-equipment-2" class="hidden">
+									<p class="text-content">
+										LOK-1 Smart Rifle <br />
+										Builds Link Images
+									</p>
+								</div> 
+
+								<!-- "Stubby" Voltaic SMG -->							
+								<div id="engineer-equipment-3" class="hidden">
+									<p class="text-content">
+										"Stubby" Voltaic SMG <br />
+										Builds Link Images
+									</p>
+								</div> 
+
+							</div>
+						</div>
+					</div>
+
+
+					<!-- Gunner -->	
+					<div class="columns">
+						<div class="h1">
+							<a title="DRG WIKI - Gunner" class="header-link" href="https://deeprockgalactic.wiki.gg/wiki/Gunner" target="_blank">
+								<span class="gunner">Gunner</span>
+							</a>
+						</div>
+
+						<div class="text-content-container">
+							A.K.A.
+							<br />Green
+
+							<div class="portraits">
+								<a title="DRG WIKI - Gunner" class="" href="https://deeprockgalactic.wiki.gg/wiki/Gunner" target="_blank">
+									<img id="gunner" class="dwarves" src="https://deeprockgalactic.wiki.gg/images/d/d0/Gunner.png" />
+								</a>
+							</div>
+
+							<div class="h1">
+								<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('gunner-playstyle');">
+									<div class="plus-minus">+</div> Playstyle Tips
+								</a>
+							</div>
+
+								<div id="gunner-playstyle" class="hidden">
+									<p class="text-content">
+										How I Play
+									</p>
+								</div>
+
+								<div class="h1">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('gunner-equipment');">
+										<div class="plus-minus">-</div> Equipment Tips
+									</a>
+								</div>
+
+							<div id="gunner-equipment" class="equipment">
+
+								<!-- Gunner Equipment Nav -->
+								<ul>
+									<li>
+										<a title="" class="category" href="#">Primary -</a>
+									</li>
+									<li>
+										<div class="h2">
+											<a title="Click To Show" class="header-link" href="#gunner-equipment-1">
+												<span class="auto-cannon">AutoCannon</span>
+											</a> |
+										</div>
+									</li>
+
+									<li>
+										<div class="h2">
+											<a title="Click To Show" class="header-link" href="#gunner-equipment-2">
+												<span class="minigun">Minigun</span>
+											</a> |
+										</div>
+									</li>
+
+									<li>
+										<div class="h2">
+											<a title="Click To Show" class="header-link" href="#gunner-equipment-3">
+												<span class="hurricane">Hurricane</span>
+											</a>
+										</div>
+									</li>
+								</ul>
+
+								<!-- "Lead Storm" Powered Minigun -->
+								<div id="gunner-equipment-1" class="hidden">
+									<p class="text-content">
+										"Lead Storm" Powered Minigun <br />
+										Builds Link Images
+									</p>
+								</div> 
+
+								<!-- "Thunderhead" Heavy Autocannon -->
+								<div id="gunner-equipment-2" class="hidden">
+									<p class="text-content">
+										"Thunderhead" Heavy Autocannon <br />
+										Builds Link Images
+									</p>
+								</div> 
+
+								<!-- "Hurricane" Guided Rocket System -->							
+								<div id="gunner-equipment-3" class="hidden">
+									<p class="text-content">
+										"Hurricane" Guided Rocket System <br />
+										Builds Link Images
+									</p>
+								</div> 
+
+							</div>
+						</div>
+					</div>
+
+
+					<!-- Scout -->	
+					<div class="columns">
+						<div class="h1">
+							<a title="DRG WIKI - Scout" class="header-link" href="https://deeprockgalactic.wiki.gg/wiki/Scout" target="_blank">
+								<span class="scout">Scout</span>
+							</a>
+						</div>
+
+						<div class="text-content-container">
+							A.K.A.
+							<br />Blue
+
+							<div class="portraits">
+								<a title="DRG WIKI - Scout" class="" href="https://deeprockgalactic.wiki.gg/wiki/Scout" target="_blank">
+									<img id="scout" class="dwarves" src="https://deeprockgalactic.wiki.gg/images/6/69/Scout.png" />
+								</a>
+							</div>
+
+
+							<div class="h1">
+								<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('scout-playstyle');">
+									<div class="plus-minus">+</div> Playstyle Tips
+								</a>
+							</div>
+
+								<div id="scout-playstyle" class="hidden">
+									<p class="text-content">
+										How I Play
+									</p>
+								</div>
+
+								<div class="h1">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('scout-equipment');">
+										<div class="plus-minus">-</div> Equipment Tips
+									</a>
+								</div>
+
+							<div id="scout-equipment" class="equipment">
+
+								<!-- Scout Equipment Nav -->
+								<ul>
+									<li>
+										<a title="" class="category" href="#">Primary -</a>
+									</li>
+									<li>
+										<div class="h2">
+											<a title="Click To Show" class="header-link" href="#scout-equipment-1">
+												<span class="deepcore-gk2">Deepcore</span>
+											</a> |
+										</div>
+									</li>
+
+									<li>
+										<div class="h2">
+											<a title="Click To Show" class="header-link" href="#scout-equipment-2">
+												<span class="drak-25">DRAK-25</span>
+											</a> |
+										</div>
+									</li>
+
+									<li>
+										<div class="h2">
+											<a title="Click To Show" class="header-link" href="#scout-equipment-3">
+												<span class="m1000">M1000</span>
+											</a>
+										</div>
+									</li>
+								</ul>
+
+								<!-- Deepcore GK2 -->
+								<div id="scout-equipment-1" class="hidden">
+									<p class="text-content">
+										Deepcore GK2 <br />
+										Builds Link Images
+									</p>
+								</div> 
+
+								<!-- DRAK-25 Plasma Carbine -->
+								<div id="scout-equipment-2" class="hidden">
+									<p class="text-content">
+										DRAK-25 Plasma Carbine <br />
+										Builds Link Images
+									</p>
+								</div> 
+
+								<!-- M1000 Classic -->							
+								<div id="scout-equipment-3" class="hidden">
+									<p class="text-content">
+										M1000 Classic <br />
+										Builds Link Images
+									</p>
+								</div> 
+
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		<!-- #endregion - DWARVES (CLASSES) -->
+
+
+		<!-- #region - PERKS -->
+			<div id="tabs-2" class="hidden tabs-container">
+
+				<div class="nav-content-spacer">&nbsp;</div>
+
+				<div id="tab2-content" class="tabs-content">				
+					<div class="columns">
+
+						<div class="h1">
+							Active Perks
+						</div>
+
+					</div>
+	
+					<div class="columns">
+
+						<div class="h1">
+							Passive Perks
+						</div>
+						
+					</div>
+				</div>
+
+			</div>
+		<!-- #endregion - PERKS -->
+
+
+		<!-- #region - MISSION TIPS -->
+		<div id="tabs-3" class="hidden tabs-container">
+
+			<div class="nav-content-spacer">&nbsp;</div>
+
+			<div id="tab3-content" class="tabs-content">				
+				<div class="columns">
+					
+					<div class="h1">
+						Mission Tips
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+		<!-- #endregion - MISSION TIPS -->
+
+
+		<!-- #region - MODS -->
+			<div id="tabs-4" class="hidden tabs-container">
+				<div class="nav-content-spacer">&nbsp;</div>
+
+				<div id="tab4-content" class="tabs-content">				
+					<div class="columns">
+						
+						<div class="h1">
+							MODS
+						</div>
+	
+					</div>
+				</div>
+			</div>
+		<!-- #endregion - MODS -->
+
+
+		<!-- #region - NOTES LINKS CREDIT -->
+			<div id="tabs-5" class="hidden tabs-container">
+				<div class="nav-content-spacer">&nbsp;</div>
+
+				<div id="tab5-content" class="tabs-content">				
+					<div class="columns">
+						
+						<div class="h1">
+							Credit/Notes/Links
+						</div>
+	
+					</div>
+				</div>
+			</div>
+		<!-- #endregion - NOTES LINKS CREDIT -->
+
+	
+	
+	
+	</div>
+
+</body>
+</html>
