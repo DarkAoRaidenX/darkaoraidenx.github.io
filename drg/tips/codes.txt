@@ -18,16 +18,19 @@
 
 } */
 
+
+/* .ui-state-active {
+	line-height: 64px;
+} */
+
+
 									<li>
 										<a title="" class="category" href="#driller-equipment-1">Primary -</a>
 									</li>
 
-							<!-- Blank -->
-							<div id="driller-equipment-0" class="hidden">
-								<p class="text-content">
-									
-								</p>
-							</div> 
+								<!-- Blank -->
+								<div id="driller-equipment-1" class="hidden">
+								</div> 
 
 														<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('driller-playstyle');">
 								<div class="plus-minus">+</div> Playstyle Tips

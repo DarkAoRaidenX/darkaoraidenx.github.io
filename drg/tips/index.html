@@ -43,19 +43,19 @@
 					<ul id="nav-header">
 						<li>
 							<a title="Classes" id="welcome-button" class="button-link" href="#tabs-1">
-								<img class="buttons" src="images/buttons/welcome-button.webp" alt="WELCOME"/>
+								<img class="buttons" src="images/buttons/welcome.webp" alt="WELCOME"/>
 							</a>
 						</li>
 
 						<li>
 							<a title="Classes" id="classes-button" class="button-link" href="#tabs-2">
-								<img class="buttons" src="images/buttons/classes-button.webp" alt="DWARVES (CLASSES)"/>
+								<img class="buttons" src="images/buttons/classes.webp" alt="DWARVES (CLASSES)"/>
 							</a>
 						</li>
 
 						<li>
 							<a title="Perk Tips" id="perks-button"  class="button-link" href="#tabs-3">
-								<img class="buttons" src="images/buttons/perks-button.webp" alt="PERKS TIPS"/>
+								<img class="buttons" src="images/buttons/perks.webp" alt="PERKS TIPS"/>
 							</a>
 						</li>
 
@@ -67,13 +67,13 @@
 
 						<li>
 							<a title="MODS"  id="mod-button" class="button-link" href="#tabs-5">
-								<img class="buttons" src="images/buttons/mods-button.webp" alt="MODS TIPS"/>
+								<img class="buttons" src="images/buttons/mods.webp" alt="MODS TIPS"/>
 							</a>
 						</li>
 
 						<li>
 							<a title="Notes / Links"  id="credits-notes-links-button" class="button-link" href="#tabs-6">
-								<img class="buttons" src="images/buttons/notes-links-button.webp" alt="CREDITS/LINKS/NOTES"/>
+								<img class="buttons" src="images/buttons/credits-links.webp" alt="CREDITS/LINKS"/>
 							</a>
 						</li>
 					</ul>
@@ -86,13 +86,18 @@
 
 				<div class="nav-content-spacer">&nbsp;</div>
 
-				<div id="tab0-content" class="tabs-content">				
+				<div id="tab1-content" class="tabs-content">				
 					<div class="columns">
 						
 						<div class="h1">
 							Welcome
 						</div>
 
+						<p class="text-content">
+							Yo, Miners first and foremost, Rock-N-Stone. 
+							<br />
+							I am hoping this could be useful to people. 
+						</p>
 					</div>
 				</div>
 
@@ -104,7 +109,7 @@
 
 				<div class="nav-content-spacer">&nbsp;</div>
 
-				<div id="tab1-content" class="tabs-content">
+				<div id="tab2-content" class="tabs-content">
 					<!-- Driller -->
 					<div class="columns">
 						<div class="h1">
@@ -202,9 +207,9 @@
 								<div id="driller-equipment-2" class="hidden">
 									<p class="text-content">
 										<span class="spacer">&nbsp;</span>
-										<a title="DRG Wiki" class="highlighted cyro" href="https://deeprockgalactic.wiki.gg/wiki/Cryo_Cannon" target="_blank">
-											<span>Cyro-Cannon</span>
-										</a>
+
+										<!--Cyro-Cannon and EPC have whitespace at the end idk why. -->
+										<a title="DRG Wiki" class="highlighted cyro" href="https://deeprockgalactic.wiki.gg/wiki/Cryo_Cannon" target="_blank">Cyro-Cannon</a>
 										
 										is the best to me because it freezes enemies in their place <br /> and flying enemies die right away when frozen. 
 										
@@ -212,21 +217,20 @@
 										which makes it easier to escape unlike the Flamethrower where it sets them on fire and they keep coming at you and the Flamethrower has to reload.
 
 										<br /><br />
-										I Mainly use the Cyro-Cannon with the 
+										I Mainly use the <a title="DRG Wiki" class="highlighted cyro" href="https://deeprockgalactic.wiki.gg/wiki/Cryo_Cannon" target="_blank">Cyro-Cannon</a>
 										
-										<a title="DRG Wiki" class="highlighted wave-cooker" href="https://deeprockgalactic.wiki.gg/wiki/Colette_Wave_Cooker" target="_blank">
-											<span>Wave Cooker</span>
-										</a> 
+										with the 
+										
+										<a title="DRG Wiki" class="highlighted wave-cooker" href="https://deeprockgalactic.wiki.gg/wiki/Colette_Wave_Cooker" target="_blank">Wave Cooker</a> 
 										
 										<br />to Temperature Shock and the 
 										
 										
 										<a title="Clean Overclock" class="highlighted clean" href="https://deeprockgalactic.wiki.gg/wiki/Colette_Wave_Cooker#Overclocks" target="_blank">Liquid Cooling System</a> Overclock. 
 										
-										<br />or the 
-										<a title="DRG Wiki" class="highlighted epc" href="https://deeprockgalactic.wiki.gg/wiki/Experimental_Plasma_Charger" target="_blank">
-											<span>Experimental Plasma Charger (EPC)</span>
-										</a> 
+										<br /><br />
+										or the 
+										<a title="DRG Wiki" class="highlighted epc" href="https://deeprockgalactic.wiki.gg/wiki/Experimental_Plasma_Charger" target="_blank">Experimental Plasma Charger (EPC)</a>
 
 										with the 
 										<a title="Balanced Overclock" class="highlighted balanced" href="https://deeprockgalactic.wiki.gg/wiki/Colette_Wave_Cooker#Overclocks" target="_blank">Heavy Hitter</a> Overclock 
@@ -582,10 +586,10 @@
 
 				<div class="nav-content-spacer">&nbsp;</div>
 
-				<div id="tab2-content" class="tabs-content">				
+				<div id="tab3-content" class="tabs-content">				
 					<div class="columns">
 
-						<div class="h1">
+						<div class="h1 active-perk">
 							Active Perks
 						</div>
 
@@ -593,7 +597,7 @@
 	
 					<div class="columns">
 
-						<div class="h1">
+						<div class="h1 passive-perk">
 							Passive Perks
 						</div>
 
@@ -609,9 +613,10 @@
 
 			<div class="nav-content-spacer">&nbsp;</div>
 
-			<div id="tab3-content" class="tabs-content">				
+			<div id="tab4-content" class="tabs-content">				
 				<div class="columns">
 					
+					<br />
 					<div class="h1">
 						Mission Tips
 					</div>
@@ -627,34 +632,386 @@
 			<div id="tabs-5" class="hidden tabs-container">
 				<div class="nav-content-spacer">&nbsp;</div>
 
-				<div id="tab4-content" class="tabs-content">				
-					<div class="columns">
-						
-						<div class="h1">
-							MODS
+				<div id="tab5-content" class="tabs-content">	
+
+					<br />
+					<div class="h1">
+						MODS
+					</div>
+					<p class="text-content">
+						As of right now I am only using Quality of Life (QoL)/Visual/Audio Mods.
+						<br />
+						You should play the base game too see what you would like there is a ton of mods out there but these Mods I recommend using to improve your mining experience.
+					</p>
+
+					<br />
+
+					<div class="columns-container">
+						<div class="h2 audio-visual">
+							Audio/Visual
 						</div>
-	
+
+						<div id="audio-visual-mods" class="columns">
+
+							<p class="text-content">
+
+								<a title="MOD.IO" class="audio-visual" href="https://mod.io/g/drg/m/stock-and-bosco-weapon-paintjob-unlocker">
+									Bosco + Weapon Paintjob Unlocker
+								</a>
+								<br />
+								Allows you to apply DLC, Armor, Bosco, and Pickaxe paintjobs to your favorite firearms. Vice versa with Pickaxes and Bosco.
+
+								<br /><br />
+								<a title="MOD.IO" class="audio-visual" href="https://mod.io/g/drg/m/blue-flamethrower">
+									Blue Flamethrower
+								</a>
+								<br />
+								Turns the color of the Driller's CRSPR Flamethrower flames into blue.
+
+								<br /><br />
+								<a title="MOD.IO" class="audio-visual" href="https://mod.io/g/drg/m/blue-minigun-muzzle-flash-tracers">
+									Blue Minigun Muzzle Flash + Tracers
+								</a>
+								<br />
+								Changes the color of the Lead Storm's muzzle flash and tracers to blue, for that laser minigun feel.
+
+								<br /><br />
+								<a title="MOD.IO" class="audio-visual" href="https://mod.io/g/drg/m/customizable-ally-outlines">
+									Customizable Ally Outlines
+								</a>
+								<br />
+								Allows you to change the color and duration of outlines in real time per character class and other NPCs. Wish the game added a Green Color.
+
+								<br /><br />
+								<a title="MOD.IO" class="audio-visual" href="https://mod.io/g/drg/m/customizable-ally-outlines">
+									Customizable HUD + Crosshair
+								</a>
+								<br />
+								Make the vanilla HUD your own! 
+
+								<br /><br />
+								<a title="MOD.IO" class="audio-visual" href="https://mod.io/g/drg/m/doom-eternals-shield-sound-for-shield-regenerator">
+									Doom Eternal Shield Sound
+								</a>
+								<br />
+								Basically, it sounds meatier.
+
+								<br /><br />
+								<a title="MOD.IO" class="audio-visual" href="https://mod.io/g/drg/m/gears-of-war-sound-replacer-for-leadstorm-minigun">
+									Gears of War Sound for Leadstorm Minigun
+								</a>
+								<br />
+								Changes the sounds for the Leadstorm minigun to those used by the Mulcher from the Gears of War Franchise.
+
+								<br /><br />
+								<a title="MOD.IO" class="audio-visual" href="https://mod.io/g/drg/m/glowing-equipment">
+									Glowing Equipment
+								</a>
+								<br />
+								Make things like the M.U.L.E and Resupply Pod glow in the dark!
+
+								<br /><br />
+								<a title="MOD.IO" class="audio-visual" href="https://mod.io/g/drg/m/glowing">
+									Glowing Lines
+								</a>
+								<br />
+								this makes Zip Lines glow green like the Gunner and Grappling Hook lines glow blue like the Scout.
+
+								<br /><br />
+								<a title="MOD.IO" class="audio-visual" href="https://mod.io/g/drg/m/ammo-resupply-indicator">
+									Modified Gunner Shield Effect
+								</a>
+								<br />
+								Makes the Gunner Shields easier to see through &amp; looks very bad ass!
+
+								<br /><br />
+								<a title="MOD.IO" class="audio-visual" href="https://mod.io/g/drg/m/sticky-flame-status-icons">
+									Sticky Flame Status Icons
+								</a>
+								<br />
+								This mod enables the CRSPR Flamethrower's sticky flames damage and slowdown to pop up with icons on enemy healthbars. 
+
+								<br /><br />
+								<a title="MOD.IO" class="audio-visual" href="https://mod.io/g/drg/m/wot-large-cannon-firing-sound-for-autocannon">
+									WoT Large Cannon Firing Sound for Autocannon
+								</a>
+								<br />
+								Changes the Autocannon's firing sound to World of Tanks' large cannon firing sound.
+							</p>
+
+						</div>
+					</div>
+
+					<div class="columns-container">
+						<div class="h2 misc-mods">
+							Misc
+						</div>
+
+						<div id="other-mods" class="columns">
+
+							<p class="text-content">
+
+								<a title="MOD.IO" class="misc-mods" href="https://mod.io/g/drg/m/build-inspector">
+									Build Inspector
+								</a>
+								<br />
+								Lets you view the builds of everyone in the lobby.
+
+								<br /><br />
+								<a title="MOD.IO" class="misc-mods" href="https://mod.io/g/drg/m/closer-promotion-terminal-updated">
+									Closer Promotion Terminal
+								</a>
+								<br />
+								For the lazy, this mod adds a promotion terminal to your personal cabin.
+
+								<br /><br />
+								<a title="MOD.IO" class="misc-mods" href="https://mod.io/g/drg/m/fast-forging">
+									Fast Forging
+								</a>
+								<br />
+								Another one for the lazy ones, including me! It skips the overclock forging animation.
+
+								<br /><br />
+								<a title="MOD.IO" class="misc-mods" href="https://mod.io/g/drg/m/motd-stattrack">
+									MOTD + Stat Track
+								</a>
+								<br />
+								Automatically posts a message in chat whenever a person joins your lobby. Stat Track tracks player kills, assists and damage for each enemy type
+
+								<br /><br />
+								<a title="MOD.IO" class="misc-mods" href="https://mod.io/g/drg/m/rancors-rig-hud">
+									Rancor's Rig HUD
+								</a>
+								<br />
+								It will show a summary of such missions on the side of the screen while in the space rig and the current daily special beer and the mission rotation timer.
+
+								<br /><br />
+								<a title="MOD.IO" class="misc-mods" href="https://mod.io/g/drg/m/simpleqol">
+									SimpleQOL
+								</a>
+								<br />
+								A collection of tweaks and QOL improvements to make DRG that much more fun to play!
+							</p>
+
+						</div>
+					</div>
+
+					<div class="columns-container">
+						<div class="h2 qol">
+							Quality of Life (QoL)
+						</div>
+
+						<div id="qol-mods" class="columns">
+
+							<p class="text-content">
+								<a title="MOD.IO" class="qol" href="https://mod.io/g/drg/m/a-better-modding-menu">
+									A Better Modding Menu
+								</a>
+								<br />
+								Adds a Mod Filter and you can copy and share your installed mods.
+
+								<br /><br />
+								<a title="MOD.IO" class="qol" href="https://mod.io/g/drg/m/ammo-resupply-indicator">
+									Ammo Percentage Indicator
+								</a>
+								<br />
+								Displays the currently equipped weapon's ammo as a percentage on the screen.
+
+								<br /><br />
+								<a title="MOD.IO" class="qol" href="https://mod.io/g/drg/m/ammo-resupply-indicator">
+									Ammo Resupply Indicator
+								</a>
+								<br />
+								Indicates when ammo is low enough to resupply without overflowing. As A single resupply will restore up to 50% ammo.
+
+								<br /><br />
+								<a title="MOD.IO" class="qol" href="https://mod.io/g/drg/m/better-contrasting-twins-recolored-arbalest">
+									Better Contrasting Twins / Recolored Arbalest
+								</a>
+								<br />
+								This mod recolors the Arbalest to be blue rather than yellow, which makes it much easier to tell apart from its orange comrade.
+
+								<br /><br />
+								<a title="MOD.IO" class="qol" href="https://mod.io/g/drg/m/better-downed-icon">
+									Better Downed Icon
+								</a>
+								<br />
+								Removes the "X" overlay from the downed icons, allowing you to actually see which dwarf class the downed player is using 
+
+								<br /><br />
+								<a title="MOD.IO" class="qol" href="https://mod.io/g/drg/m/better-explosion-range-indicator">
+									Better Explosion Range Indicator
+								</a>
+								<br />
+								Driller's Satchel Charge (C4) explosion range sphere redesigned and new features added for better visibility and clarity.
+
+								<br /><br />
+								<a title="MOD.IO" class="qol" href="https://mod.io/g/drg/m/better-spectator-reloaded">
+									Better Spectator
+								</a>
+								<br />
+								Improved spectator camera while downed. Lets you freely switch between all players as well as Bosco, Molly, Doretta, and BET-C and freely rotate and zoom around them.
+
+								<br /><br />
+								<a title="MOD.IO" class="qol" href="https://mod.io/g/drg/m/better-unknown-horror-indicator">
+									Better Unknown Horror Indicator
+								</a>
+								<br />
+								The material of Unknown Horror has been redesign to improve visibility and implement a color distance indicator.
+
+								<br /><br />
+								<a title="MOD.IO" class="qol" href="https://mod.io/g/drg/m/brighter-objects">
+									Brighter Objects
+								</a>
+								<br />
+								Visibility of almost all resources has been increased. For now I disabled this to give back the challenge of finding these.
+
+								<br /><br />
+								<a title="MOD.IO" class="qol" href="https://mod.io/g/drg/m/combined-resources">
+									Combined Resources
+								</a>
+								<br />
+								See all of your fellow Dwarves resources combined. No longer need to wonder what needs to be mined!
+
+								<br /><br />
+								<a title="MOD.IO" class="qol" href="https://mod.io/g/drg/m/ammo-resupply-indicator">
+									Display Stabber Vines' HP
+								</a>
+								<br />
+								shows the HP bar of the Stabber Vines in Hollow Bough.
+
+								<br /><br />
+								<a title="MOD.IO" class="qol" href="https://mod.io/g/drg/m/health-and-shield-numbers">
+									Health and Shield Numbers
+								</a>
+								<br />
+								Adds a numeric representation of health and shields to the HUD. Why isn't this in the base game?!
+
+								
+								<br /><br />
+								<a title="MOD.IO" class="qol" href="https://mod.io/g/drg/m/mod-hub">
+									Mod Hub
+								</a>
+								<br />
+								A centralized hub for modding user interfaces.
+
+								<br /><br />
+								<a title="MOD.IO" class="qol" href="https://mod.io/g/drg/m/platform-placement-preview">
+									Platform Placement Preview
+								</a>
+								<br />
+								Adds a preview for platform placement similar to sentry turrets and resupply pods.
+
+								<br /><br />
+								<a title="MOD.IO" class="qol" href="https://mod.io/g/drg/m/steeve-better-visibility">
+									Steeve Better Visibility
+								</a>
+								<br />
+								To avoid the pain and suffer, Steeve's visibility is increased drastically. His/her heart particles can be spotted far away even in big chaotic fights.
+
+								<br /><br />
+								<a title="MOD.IO" class="qol" href="https://mod.io/g/drg/m/platform-placement-preview">
+									Vanity Search
+								</a>
+								<br />
+								Adds a search box to the wardrobe.
+
+								<br /><br />
+								<a title="MOD.IO" class="qol" href="https://mod.io/g/drg/m/platform-placement-preview">
+									Weapon Heat Crosshair
+								</a>
+								<br />
+								Adds a preview for platform placement similar to sentry turrets and resupply pods.
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		<!-- #endregion - MODS -->
 
 
-		<!-- #region - NOTES LINKS CREDIT -->
+		<!-- #region - LINKS CREDITS NOTES -->
 			<div id="tabs-6" class="hidden tabs-container">
 				<div class="nav-content-spacer">&nbsp;</div>
 
-				<div id="tab5-content" class="tabs-content">				
+				<div id="tab6-content" class="tabs-content">				
 					<div class="columns">
 						
+						<br />
 						<div class="h1">
-							Credit/Notes/Links
+							Links/Resources
 						</div>
+					
+						<br />
+					
+						<div class="h2">
+							<a title="https://discord.gg/drg" class="playstyle" href="https://discord.gg/drg">
+								Official DRG Discord
+							</a>
+						</div>
+						<p class="text-content">
+							99% of the time people can be really great and friendly 
+							<br />
+							especially to newer players but like always on the internet there can be trolls.
+						</p>
+
+						<br />
+					
+						<div class="h2">
+							<a title="https://deeprockgalactic.wiki.gg/wiki/" class="playstyle" href="https://deeprockgalactic.wiki.gg/wiki/">
+								Deep Rock Galactic Wiki
+							</a>
+						</div>
+
+						<p class="text-content">
+							Find more info on DRG!
+						</p>
+
+						<br />
+						<div class="h2">							
+							<a title="https://drg-completionist.com/" class="playstyle" href="https://drg-completionist.com/
+							">
+								DRG Drg Completionist
+							</a>
+						</div>
+
+						<p class="text-content">
+							Find out how many skins &amp; overclocks you need!
+						</p>
+
+						<br /><br />
+						<div class="h1">							
+							Contact / Social
+						</div>
+
+						<p class="text-content">
+							<span class="discord">Discord</span>: @<span class="deepcore-gk2">DarkAoRaidenX</span> or through 
+							<a title="https://discord.gg/UccyzVm5Xq" class="playstyle" href="https://discord.gg/UccyzVm5Xq">
+								My Streaming Discord
+							</a>.
+							<br />
+							Also have a <a title="https://discord.gg/UccyzVm5Xq" class="youtube" href="https://www.youtube.com/@raijintribegaming8467">
+								YouTube Channel
+							</a>.
+						</p>
+
+
+						<br /><br />
+						<div class="h1">
+							Credits
+						</div>
+
+						<p class="text-content">
+							Deep Rock Galactic content and materials are the intellectual property of their respective owners. 
+
+							<br /><br />
+							I personally (<span class="deepcore-gk2">DarkAoRaidenX</span>) made the navigation buttons.
+						</p>
 	
 					</div>
 				</div>
 			</div>
-		<!-- #endregion - NOTES LINKS CREDIT -->
+		<!-- #endregion - LINKS CREDITS NOTES  -->
 
 	
 	

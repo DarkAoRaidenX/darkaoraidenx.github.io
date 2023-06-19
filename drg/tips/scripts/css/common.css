@@ -67,6 +67,43 @@ ul#nav-header li {
 
 /* #region - text */
 
+.h1 {
+	font-size: 48px;
+	line-height: 50px;
+}
+
+.h2 {
+	font-size: 36px;
+	line-height: 36px;
+}
+
+.h1, .h1 a, .h2, .playstyle {
+	color: #f89d06;
+}
+
+.equipment .h2 {
+	font-size: 24px;
+}
+
+p.text-content {
+	font-size: 18px;
+	line-height: 20px;
+}
+
+#tabs-1 p.text-content {
+	font-size: 32px;
+	line-height: 32px;
+}
+
+#tabs-6 p.text-content,#tabs-5 p.text-content {
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.equipment p.text-content {
+	line-height: 22px;
+	min-height: 700px;
+}
 
 .plus-minus {
 	display: inline-block;
@@ -76,27 +113,6 @@ ul#nav-header li {
 	color: #fff;
 }
 
-p.text-content {
-	line-height: 20px;
-}
-
-.equipment p.text-content {
-	line-height: 22px;
-	min-height: 700px;
-}
-
-.h1 {
-	font-size: 36px;
-	line-height: 50px;
-}
-
-.h1 a {
-	color: #F89D06;
-}
-
-.equipment .h2 {
-	font-size: 24px;
-}
 
 #driller-equipment-2 {
 	border: 4px solid #03a9f4;
@@ -153,6 +169,14 @@ p.text-content {
 	color: #4BBFA5;
 }
 
+.discord {
+	color: #5865F2;
+}
+
+.passive-perk {
+	color: #b93253;
+}
+
 .aquarq {
 	color: #2646FF;
 }
@@ -162,6 +186,9 @@ p.text-content {
 	color: #e91e63;
 }
 
+.youtube {
+	color: #ff0000;
+}
 
 
 
@@ -183,7 +210,7 @@ p.text-content {
 	color: #1e88e5;
 }
 
-.drak-25 {
+.drak-25, .audio-visual {
 	color: #ba68c8;
 }
 
@@ -195,11 +222,11 @@ p.text-content {
 	color: #de3800;
 }
 
-.hurricane {
+.hurricane, .qol {
 	color: #2e7d32;
 }
 
-.m1000 {
+.m1000, .misc-mods {
 	color: #29b6f6;
 }
 
@@ -229,9 +256,7 @@ p.text-content {
 
 /* #endregion - items colors */
 
-.playstyle {
-	color: #F89D06;
-}
+
 
 
 /* #region -  dwarves colors */
@@ -386,17 +411,9 @@ a.wave-cooker {
 	justify-content: center;
 }
 
-
-
 ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
-	/* background-image: url("../../images/buttons/button-bg.webp"); */
 	background-color: #f89d06;
-	
 }
-
-/* .ui-state-active {
-	line-height: 64px;
-} */
 
 
 /* #endregion - nav buttons */
@@ -416,7 +433,12 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 	z-index: 200;
 }
 
-.columns {
+.columns-container {
+	margin-right: 8px;
+}
+
+
+.columns,.columns-container {
 	display: inline-block;
 	vertical-align: top;
 	overflow-x: hidden;
@@ -471,10 +493,12 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
     #134717;
 }
 
+
+
 #tabs-1 .columns {	
 	background: rgba(0,0,0,0.80);
 	height: 860px;
-	width: 1360px;
+	width: 1450px;
 
 }
 
@@ -490,22 +514,30 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 	width: 800px;
 }
 
-#tabs-4 .columns {	
+#tabs-4 .columns {
 	background: rgba(0,0,0,0.80);
 	height: 860px;
-	width: 1360px;
+	width: 1450px;
 }
 
-#tabs-5 .columns {	
+#tab5-content {
 	background: rgba(0,0,0,0.80);
 	height: 860px;
-	width: 1360px;
+	width: 1450px;
 }
+
+#tabs-5 .columns {
+	height: 675px;
+	width: 450px;
+	border: 2px solid #757575;
+}
+
+
 
 #tabs-6 .columns {	
 	background: rgba(0,0,0,0.80);
 	height: 860px;
-	width: 1360px;
+	width: 1450px;
 }
 
 
