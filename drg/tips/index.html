@@ -209,8 +209,9 @@
 				<div class="nav-content-spacer">&nbsp;</div>
 
 				<div id="tab2-content" class="tabs-content">
+
 					<!-- Driller -->
-					<div class="columns">
+					<div id="driller-container" class="columns">
 						<div class="h1">
 							<a title="DRG WIKI - Driller" class="header-link" href="https://deeprockgalactic.wiki.gg/wiki/Driller" target="_blank">
 								<span class="driller">Driller</span>
@@ -283,7 +284,7 @@
 									<li>
 										<div class="h2">
 											<a title="Click To Show" class="header-link" href="#driller-equipment-3">
-												<span class="flame">Flamethrower</span>
+												<span class="fire">Flamethrower</span>
 											</a> |
 										</div>
 									</li>
@@ -370,7 +371,7 @@
 
 
 					<!-- Engineer -->				
-					<div class="columns">
+					<div id="engineer-container" class="columns">
 						<div class="h1">
 							<a title="DRG WIKI - Engineer" class="header-link" href="https://deeprockgalactic.wiki.gg/wiki/Engineer" target="_blank">
 								<span class="engineer">Engineer</span>
@@ -472,7 +473,7 @@
 
 
 					<!-- Gunner -->	
-					<div class="columns">
+					<div id="gunner-container" class="columns">
 						<div class="h1">
 							<a title="DRG WIKI - Gunner" class="header-link" href="https://deeprockgalactic.wiki.gg/wiki/Gunner" target="_blank">
 								<span class="gunner">Gunner</span>
@@ -574,7 +575,7 @@
 
 
 					<!-- Scout -->	
-					<div class="columns">
+					<div id="scout-container" class="columns">
 						<div class="h1">
 							<a title="DRG WIKI - Scout" class="header-link" href="https://deeprockgalactic.wiki.gg/wiki/Scout" target="_blank">
 								<span class="scout">Scout</span>
@@ -693,6 +694,11 @@
 						</a>
 					</div>
 					
+					<p class="text-content">
+						all the perks for the pros and cons are at max level
+					</p>
+					
+
 					<br />
 					<div class="columns-container">
 						
@@ -724,7 +730,7 @@
 									Iron Will
 								</a>
 								in
-								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Deep_Dives" target="_blank">Deep Dives</a>, as it gives another chance to have successful missions.
+								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Deep_Dives" target="_blank">Deep Dives</a>, <br /> as it gives another chance to have successful missions.
 								
 								<br /><br />
 								I feel these are the most useful
@@ -762,32 +768,31 @@
 								<span class="active-perk">Active</span> 
 								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Perks" target="_blank"> 
 									Perks
-								</a> for solo. 	
-								<a title="DRG Wiki" class="active-perk reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Dash" target="_blank"> 
-									Dash
+								</a> for solo.<br /><br />
+								<a title="DRG Wiki" class="active-perk2 reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Dash" target="_blank"> 
+									Beast Master
 								</a>, 
-								<a title="DRG Wiki" class="active-perk reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Field_Medic" target="_blank"> 
-									Field Medic
+								<a title="DRG Wiki" class="active-perk2 reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Beast_Master" target="_blank"> 
+									Dash
 								</a>, &amp; especially
-								<a title="DRG Wiki" class="active-perk reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Iron_Will" target="_blank"> 
+								<a title="DRG Wiki" class="active-perk2 reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Iron_Will" target="_blank"> 
 									Iron Will
 								</a>
-								in
-								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Deep_Dives" target="_blank">Deep Dives</a>, as it gives another chance to have successful missions.
+								as it gives another chance to have successful missions.
 								
 								<br /><br />
-								In my opinion the most useful <br />
+								In my opinion the most useful
 								<span class="passive-perk">Passive</span> 
 								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Perks" target="_blank"> 
 									Perks
-								</a> for solo. 	
-								<a title="DRG Wiki" class="passive-perk reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Resupplier" target="_blank"> 
+								</a> for solo.<br /> <br />
+								<a title="DRG Wiki" class="passive-perk2 reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Resupplier" target="_blank"> 
 									Resupplier
 								</a>, 
-								<a title="DRG Wiki" class="passive-perk reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Thorns" target="_blank"> 
+								<a title="DRG Wiki" class="passive-perk2 reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Thorns" target="_blank"> 
 									Thorns
 								</a>,
-								<a title="DRG Wiki" class="passive-perk reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Vampire" target="_blank"> 
+								<a title="DRG Wiki" class="passive-perk2 reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Vampire" target="_blank"> 
 									Vampire
 								</a>.
 							</p>
@@ -796,151 +801,349 @@
 
 					</div>
 
-
 					<div class="columns-container">
 						
 						<div class="h2 active-perk">
 							Active Perks
 						</div>
 
-						<div id="active-perks" class="columns">
+						<div id="active-perks" class="columns perks">
+
+							<div id="beast-master-perk-content">
+
+								<div class="h2 active-perk">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('beast-master-text');">
+										<div class="plus-minus">+</div> Beast Master
+									</a>
+									<a title="DRG Wiki" class="link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Beast_Master" target="_blank">🔗</a>
+								</div>
 
 
-							<div class="h2 active-perk">
-								<a title="DRG Wiki" class="header-link" href="https://deeprockgalactic.wiki.gg/wiki/Dash" target="_blank"> 
-									Dash
-								</a>
+								<div id="beast-master-text" class="text-content hidden">
+									Charm a 
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Glyphid_Grunt" target="_blank">
+										Grunt
+									</a>, 
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Glyphid_Grunt_Guard" target="_blank">
+										Grunt Guard
+									</a>, or 
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Glyphid_Grunt_Slasher" target="_blank">
+										Grunt Slasher
+									</a> <br />
+									to become your loyal companion.									
+									
+
+									<br /><br />
+									<div class="h3 green">Pros</div>
+									It takes 0.75s to tame a Grunt.<br />
+									Taming a Grunt fully heals them.<br />
+									isn't affected by Sticky Flames from the <br />
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Driller" target="_blank">
+										Driller's 
+									</a>
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/CRSPR_Flamethrower" target="_blank">
+										CRSPR Flamethrower
+									</a>. 
+									<br />
+									Steeve is affected by Mission 
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/https://deeprockgalactic.wiki.gg/wiki/Mutators" target="_blank">
+										Mutators
+									</a>, 
+									notably regenerating health with 
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Regenerative_Bugs" target="_blank">
+										Regenerative Bugs
+									</a>	, 
+									spawning a Parasite upon death with 
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Parasites" target="_blank">
+										Parasites
+									</a>, 
+									and gaining bonus damage with
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Parasites" target="_blank">
+										Lethal Enemies
+									</a>.
+									<br />
+									Steeve has no target prioritization capability, nor survival instincts, being ignorant to any potential danger.
+
+
+									<br /><br />
+									<div class="h3 red">Cons</div>
+									The tamed Grunt will always have the suffix (Steeve).<br /> 
+									No offense to Steeve but custom names when?<br />
+									Health gets healed but armor stays broken.<br /> 
+									He is still vulnerable to weakspot damage bonuses and armor breaking from the Dwarves.<br />
+									Steeve has no target prioritization capability, nor survival instincts, being ignorant to any potential danger.<br />
+								</div>		
+													
 							</div>
-	
 
-							<p class="text-content">
-								Propel forward with great speed! <br /><br />
-								<span class="green">Pros</span>: <br />
-								Movement Speed: x2.2<br />
-								Slowdown Reduction: 100% (slow won,t affect you at all). <br />
-								You can dash while holding heavy objects (Aquaqs, Eggs, etc.). <br />
-								<br />
-								<span class="red">Cons</span>: <br />
-								Duration: 1.5 seconds. <br />
-								Stun and Electricity slowdowns don't get reduced. <br /> 
-								Can Dash to your death. <br />
-							</p>
+							<div id="berzerker-perk-content">
+							
+								<div class="h2 active-perk">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('berzerker-text');">
+										<div class="plus-minus">+</div> Berzerker
+									</a>
+									<a title="DRG Wiki" class="link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Berzerker" target="_blank">🔗</a>
+								</div>
 
-							<br />
-							<div class="h2 active-perk">
-								<a title="DRG Wiki" class="header-link" href="https://deeprockgalactic.wiki.gg/wiki/Field_Medic" target="_blank"> 
-									Field Medic
-								</a>
+
+								<div id="berzerker-text" class="text-content hidden">
+									Go berzerk for 10 seconds during which you get boosted melee damage 
+									<br />
+									and a lightning-fast pickaxe Power Attack recharge.
+
+									
+									<br /><br />
+									<div class="h3 green">Pros</div>
+									Boosts Power Attack cooldown rate: +2100% of base cooldown rate.<br />
+									Increases the damage of regular Pickaxe strikes by 8 while active.
+
+
+									<br /><br />
+									<div class="h3 red">Cons</div>
+									4 min cooldown. 2-3 minutes when??<br />
+									Damage increase does not provide any real benefit, <br />as it will not reduce the amount of strikes needed to kill most creatures.<br />
+									Damage increase does not apply to Power Attacks, only regular swings.<br />
+									
+								</div>	
+
 							</div>
-							<p class="text-content">
-								Help your fellow Dwarves up!
-								Once per mission, you can get a downed teammate instantly!<br /><br />
-								
-								<span class="green">Pros</span>: <br />
-								You revive teammates 30% faster. <br />
-								The single use active effect will recharge at the beginning of each stage of a 
-								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Deep_Dives" target="_blank">Deep Dive</a>. <br />
-								<br />
-								<span class="red">Cons</span>: <br />
-								Sometimes can misfire the Instant Revive. <br />
-								Once per mission, you can get a downed teammate instantly back on their feet!<br />
-							</p>
 
-							<br />
-							<div class="h2 active-perk">
-								<a title="DRG Wiki" class="header-link" href="https://deeprockgalactic.wiki.gg/wiki/Iron_Will" target="_blank"> 
-									Iron Will
-								</a>
+							<div id="dash-perk-content">
+
+								<div class="h2 active-perk">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('dash-text');">
+										<div class="plus-minus">+</div> Dash
+									</a>
+									<a title="DRG Wiki" class="link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Dash" target="_blank"> 
+										🔗
+									</a>
+								</div>
+		
+								<div id="dash-text" class="text-content hidden">
+									Propel forward with great speed!
+
+
+									<br /><br />
+									<div class="h3 green">Pros</div>
+									Movement Speed: x2.2<br />
+									Slowdown Reduction: 100% (slow won,t affect you at all). <br />
+									You can dash while holding heavy objects (Aquaqs, Eggs, etc.). 
+									
+									
+									<br /><br />
+									<div class="h3 red">Cons</div>
+									Duration: 1.5 seconds. <br />
+									Stun and Electricity slowdowns don't get reduced. <br /> 
+									Can Dash to your death. <br />
+
+								</div>
+
 							</div>
-							<p class="text-content">
-								Never give up! Once per mission, get back into the fight!<br /><br />
-								
-								<span class="green">Pros</span>: <br />
-								Immune to all damage. <br />
-								All weapons are reloaded upon entering Iron Will. <br />
-								Movement Speed: x1.2 <br />
-								Base pickaxe damage: +2.5 <br />
-								Power Attack cooldown rate: +300% of base cooldown rate <br />
-								Slowdown reduction: 30% <br />
-								Obtaining health via any method during Iron Will will prevent the down from occurring after the last stand duration. <br />
-								Works with <a title="Passive Perk" class="highlighted passive-perk" href="https://deeprockgalactic.wiki.gg/wiki/Vampire">Vampire</a>.<br />
-								Dwarves under the effect of Iron Will count as alive for the purpose of mission extraction <br />
-								The single use active effect will recharge at the beginning of each stage of a 
-								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Deep_Dives" target="_blank">Deep Dive</a>.
-								
-								<br /><br />
-								<span class="red">Cons</span>: <br />
-								Shields do not regenerate. <br />
-								Pickaxe damage - Does not apply to power attacks. <br />
-								Sometimes can misfire the Instant Revive. <br />
-							</p>
 
-							<div class="h2 active-perk">
-								<a title="DRG Wiki" class="header-link" href="https://deeprockgalactic.wiki.gg/wiki/Beast_Master" target="_blank"> 
-									Beast Master
-								</a>
+							<div id="field-medic-perk-content">
+
+								<div class="h2 active-perk">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('field-medic-text');">
+										<div class="plus-minus">+</div> Field Medic
+									</a>
+									<a title="DRG Wiki" class="link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Field_Medic" target="_blank"> 
+										🔗
+									</a>
+								</div>
+
+								<div id="field-medic-text" class="text-content hidden">
+									Help your fellow Dwarves up!
+									Once per mission, you can get a downed teammate instantly!
+									
+									
+									<br /><br />
+									<div class="h3 green">Pros</div>
+									You revive teammates 30% faster. <br />
+									It will recharge at the beginning of each stage of a 
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Deep_Dives" target="_blank">Deep Dive</a>. 
+									
+
+									<br /><br />
+									<div class="h3 red">Cons</div>
+									Once per mission.<br />
+									Sometimes can misfire the Instant Revive.<br />
+
+
+
+								</div>
+
 							</div>
-							Charm a 
-							<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Glyphid_Grunt" target="_blank">
-								Grunt
-							</a>, 
-							<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Glyphid_Grunt_Guard" target="_blank">
-								Grunt Guard
-							</a>, or 
-							<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Glyphid_Grunt_Slasher" target="_blank">
-								Grunt Slasher
-							</a>
-							to become your loyal companion.
 
-							<p class="text-content">
-								Propel forward with great speed! <br /><br />
-								<span class="green">Pros</span>: <br />
-								It takes 0.75s to tame a Grunt<br />
-								Taming a Grunt fully heals them.<br />
-								isn't affected by Sticky Flames from the 
-								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Driller" target="_blank">
-									Driller's 
-								</a>
-								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/CRSPR_Flamethrower" target="_blank">
-									CRSPR Flamethrower
-								</a>. 
-								<br />
-								Steeve is affected by Mission 
-								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/https://deeprockgalactic.wiki.gg/wiki/Mutators" target="_blank">
-									Mutators
-								</a>, 
-								notably regenerating health with 
-								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Regenerative_Bugs" target="_blank">
-									Regenerative Bugs
-								</a>	, 
-								spawning a Parasite upon death with 
-								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Parasites" target="_blank">
-									Parasites
-								</a>, 
-								and gaining bonus damage with
-								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Parasites" target="_blank">
-									Lethal Enemies
-								</a>.
-								<br />
-								Steeve has no target prioritization capability, nor survival instincts, being ignorant to any potential danger.<br />
-								<br />
-								<span class="red">Cons</span>: <br />
-								The tamed Grunt will always have the suffix (Steeve). No offense to Steeve but custom names when?<br />
-								Health gets healed but armor stays broken.<br /> 
-								He is still vulnerable to weakspot damage bonuses and armor breaking from the Dwarves.<br />
-								Steeve has no target prioritization capability, nor survival instincts, being ignorant to any potential danger.<br />
-							</p>
+							<div id="heightened-senses-perk-content">
+
+								<div class="h2 active-perk">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('heightened-senses-text');">
+										<div class="plus-minus">+</div> Heightened Senses
+									</a>
+									<a title="DRG Wiki" class="link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Heightened_Senses" target="_blank">🔗</a>
+								</div>
 
 
-							<br />
-							<div class="h2 active-perk">
-								Field Medic
+								<div id="heightened-senses-text" class="text-content hidden">
+									2 times per mission, you can escape after being grabbed, 
+									<br />killing your captor in the process!.
+
+									<br /><br />
+									Enemy Types that trigger's the alert <br />
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Cave_Leech" target="_blank">Cave Leech</a>, 
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Mactera_Grabber" target="_blank">Mactera Grabber</a>, 
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Nemesis" target="_blank">Nemesis</a>, 
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Cave_Leech" target="_blank">Nayaka Trawler</a>.
+
+
+									<br /><br />
+									<div class="h3 green">Pros</div>
+									Instant Kills Enemies.		
+
+
+									<br /><br />
+									<div class="h3 red">Cons</div>
+									Doesn't Instant Kill the 
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Nemesis" target="_blank">Nemesis</a>.<br />
+									Only can work 2 Times.<br />
+								</div>	
+
 							</div>
-	
 
-							<p class="text-content">
-								
-							</p>
+							<div id="hover-boots-perk-content">
+
+								<div class="h2 active-perk">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('hover-boots-text');">
+										<div class="plus-minus">+</div> Hover Boots
+									</a>
+									<a title="DRG Wiki" class="link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Hover_Boots" target="_blank">🔗</a>
+								</div>
+
+
+								<div id="hover-boots-text" class="text-content hidden">
+									Fancy boots that let you hover in midair for 3.5 seconds.
+									
+									<br /><br />
+									<div class="h3 green">Pros</div>
+									While active, you burn any creatures right beneath you.<br />
+
+
+									<br /><br />
+									<div class="h3 red">Cons</div>
+									Lasts only 3.5 seconds.<br />
+									does not immediately halt your momentum <br /> (though it does reduce it very quickly).<br /> As such, you can still slam into the ground (taking fall damage) <br /> if you are going extremely fast or activate it too late!.<br />
+								</div>	
+
+							</div>
+
+							<div id="iron-will-perk-content">
+
+								<div class="h2 active-perk">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('iron-will-text');">
+										<div class="plus-minus">+</div> Iron Will
+									</a>
+									<a title="DRG Wiki" class="link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Iron_Will" target="_blank"> 
+										🔗
+									</a>
+								</div>
+
+								<div id="iron-will-text" class="text-content hidden">
+									Never give up! Once per mission, get back into the fight!
+									
+									
+									<br /><br />
+									<div class="h3 green">Pros</div>
+									Immune to all damage. <br />
+									All weapons are reloaded upon entering Iron Will. <br />
+									Movement Speed: x1.2 <br />
+									Base pickaxe damage: +2.5 <br />
+									Power Attack cooldown rate: +300% of base cooldown rate <br />
+									Slowdown reduction: 30% <br />
+									Obtaining health via any method during Iron Will will prevent the down from occurring after the last stand duration. <br />
+									Works with <a title="Passive Perk" class="highlighted passive-perk2" href="https://deeprockgalactic.wiki.gg/wiki/Vampire">Vampire</a>.<br />
+									Dwarves under the effect of Iron Will count as alive for the purpose of mission extraction <br />
+									The single use active effect will recharge at the beginning of each stage of a 
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Deep_Dives" target="_blank">Deep Dive</a>.
+									
+
+									<br /><br />
+									<div class="h3 red">Cons</div>
+									Shields do not regenerate. <br />
+									Pickaxe damage - Does not apply to power attacks. <br />
+									Sometimes can misfire the Instant Revive. <br />
+
+
+								</div>
+
+							</div>
+
+							<div id="see-you-in-hell-perk-content">
+
+								<div class="h2 active-perk">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('see-you-in-hell-text');">
+										<div class="plus-minus">+</div> See You In Hell
+									</a>
+									<a title="DRG Wiki" class="link-icon" href="https://deeprockgalactic.wiki.gg/wiki/See_You_In_Hell" target="_blank">🔗</a>
+								</div>
+
+
+								<div id="see-you-in-hell-text" class="text-content hidden">
+									You can trigger a large neuro-pulse explosion after you go down. 
+									<br />
+									A residual neuro-electric field will electrocute and scare off enemies.
+									
+									<br /><br />
+									<div class="h3 green">Pros</div>
+									Can 
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Fear" target="_blank">Fear</a>
+									enemies and those usually immune to fear.<br />
+									It will recharge at the beginning of each stage of a 
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Deep_Dives" target="_blank">Deep Dive</a>.
+
+									<br /><br />
+									<div class="h3 red">Cons</div>
+									Only 3 times each mission. 5 times when?<br />
+
+								</div>	
+
+							</div>
+							
+
+							<div id="shield-link-perk-content">
+
+								<div class="h2 active-perk">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('shield-link-text');">
+										<div class="plus-minus">+</div> Shield Link
+									</a>
+									<a title="DRG Wiki" class="link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Shield_Link" target="_blank">🔗</a>
+								</div>
+
+
+								<div id="shield-link-text" class="text-content hidden">
+									You can overcharge a teammate's shield to 300% for 30 seconds.
+									<br />
+									
+									
+									<br /><br />
+									<div class="h3 green">Pros</div>
+									Whenever you are within 4m of a teammate, both of your shields recharge 50% faster!.<br />
+									Instantly regenerate all shield (Single Dwarf).<br />
+
+
+									<br /><br />
+									<div class="h3 red">Cons</div>
+									Only works on a single Dwarf.<br />
+									Add 60 to the maximum shield value of the target (unlike the description it doesn't really triple the shield value).<br />
+									If any damage is taken, the shield will only regenerate up to it's normal value, any overshield used is lost forever..<br />
+									Neither the passive nor the active effect of the perk can stack.<br />
+									Con.<br />
+
+									
+								</div>	
+
+							</div>							
+
+
 						</div>
 					</div>
 
@@ -950,53 +1153,387 @@
 							Passive Perks
 						</div>
 
-						<div id="passive-perks" class="columns">
+						<div id="passive-perks" class="columns perks">
 
-							<br />
-							<div class="h2 passive-perk">
-								Vampire
+							<div id="born-ready-perk-content">
+
+								<div class="h2 passive-perk">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('born-ready-text');">
+										<div class="plus-minus">+</div> Born Ready
+									</a>
+									<a title="DRG Wiki" class="link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Born_Ready" target="_blank">🔗</a>
+								</div>
+
+
+								<div id="born-ready-text" class="text-content hidden">
+									Unequipped weapons automatically reload after 5 seconds.
+									
+									<br /><br />
+									<div class="h3 green">Pros</div>
+									Unequipped weapons automatically reload.	
+
+
+									<br /><br />
+									<div class="h3 red">Cons</div>
+									Unequipped weapons automatically reload. <br />Equipped weapons when?<br />
+
+
+								</div>	
+
+							</div>
+								
+							<div id="deep-pockets-perk-content">
+
+								<div class="h2 passive-perk">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('deep-pockets-text');">
+										<div class="plus-minus">+</div> Deep Pockets
+									</a>
+									<a title="DRG Wiki" class="link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Deep_Pockets" target="_blank">🔗</a>
+								</div>
+
+
+								<div id="deep-pockets-text" class="text-content hidden">
+									Leave nothing behind! Your mineral pouch hold more valuables.
+									
+									<br /><br />
+									<div class="h3 green">Pros</div>
+									Hold more valuables.<br />	
+
+
+									<br /><br />
+									<div class="h3 red">Cons</div>
+									Only 15 more minerals. Hold more when?<br />
+
+
+								</div>	
+
 							</div>
 
-							<p class="text-content">
-								
-							</p>
+							<div id="elemental-insulation-perk-content">
 
-							<br /><br />
-							<div class="h2 passive-perk">
-								Vampire
+								<div class="h2 passive-perk">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('elemental-insulation-text');">
+										<div class="plus-minus">+</div> Elemental Insulation
+									</a>
+									<a title="DRG Wiki" class="link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Elemental_Insulation" target="_blank">🔗</a>
+								</div>
+
+
+								<div id="elemental-insulation-text" class="text-content hidden">
+									Get resistance to all elemental damage.
+									
+									<br /><br />
+									<div class="h3 green">Pros</div>
+									This perk is additive with other resistance bonuses.<br />
+									Provides reduction against Fire, Frost, Electricity, Poison, Radiation, Heat (temperature), and Cold (temperature) effects.
+
+
+									<br /><br />
+									<div class="h3 red">Cons</div>
+
+
+								</div>	
+
 							</div>
 
-							<p class="text-content">
-								
-							</p>
+							<div id="friendly-perk-content">
 
-							<br /><br />
-							<div class="h2 passive-perk">
-								Vampire
+								<div class="h2 passive-perk">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('friendly-text');">
+										<div class="plus-minus">+</div> Friendly
+									</a>
+									<a title="DRG Wiki" class="link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Friendly" target="_blank">🔗</a>
+								</div>
+
+
+								<div id="friendly-text" class="text-content hidden">
+									Through the power of friendship 
+									<br /> you both take and deal 50% less damage from friendly fire!
+									
+									<br /><br />
+									<div class="h3 green">Pros</div>
+									You and Fellow Dwarves take 50% less damage.	
+
+
+									<br /><br />
+									<div class="h3 red">Cons</div>
+									This perk does not stack if both the damage dealer and damage taker have it equipped.<br />
+
+
+								</div>	
+
 							</div>
 
-							<p class="text-content">
-								
-							</p>
+							<div id="its-a-bug-thing-perk-content">
 
-							<br /><br />
-							<div class="h2 passive-perk">
-								Vampire
+								<div class="h2 passive-perk">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('its-a-bug-thing-text');">
+										<div class="plus-minus">+</div> It's a Bug Thing
+									</a>
+									<a title="DRG Wiki" class="link-icon" href="https://deeprockgalactic.wiki.gg/wiki/It's_a_Bug_Thing" target="_blank">🔗</a>
+								</div>
+
+
+								<div id="its-a-bug-thing-text" class="text-content hidden">
+									 
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Loot_Bug" target="_blank">Loot Bugs</a>
+									explode whenever you get within 5m of them…!
+									
+									<br /><br />
+									<div class="h3 green">Pros</div>
+									Uhhhhh.	
+
+
+									<br /><br />
+									<div class="h3 red">Cons</div>
+									Poor things.<br />
+
+
+								</div>	
+
 							</div>
 
-							<p class="text-content">
-								
-							</p>
+							<div id="resupplier-perk-content">
 
-							<br /><br />
-							<div class="h2 passive-perk">
-								Vampire
+								<div class="h2 passive-perk">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('resupplier-text');">
+										<div class="plus-minus">+</div> Resupplier
+									</a>
+									<a title="DRG Wiki" class="link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Resupplier" target="_blank">🔗</a>
+								</div>
+
+
+								<div id="resupplier-text" class="text-content hidden">
+									Stock up on Ammo and Health 50% faster at the Resupply Pod.
+									<br />
+									Regain an extra 25% health when you resupply!.
+									
+									<br /><br />
+									<div class="h3 green">Pros</div>
+									After resupplying, all weapons instantly reload!	
+
+
+									<br /><br />
+									<div class="h3 red">Cons</div>
+
+
+								</div>	
+
 							</div>
-	
 
-							<p class="text-content">
-								
-							</p>
+							<div id="second-wind-perk-content">
+
+								<div class="h2 passive-perk">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('second-wind-text');">
+										<div class="plus-minus">+</div> Second Wind
+									</a>
+									<a title="DRG Wiki" class="link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Second_Wind" target="_blank">🔗</a>
+								</div>
+
+
+								<div id="second-wind-text" class="text-content hidden">
+									Get a 12% sprint speed boost after running for 4 seconds. 
+									
+									<br /><br />
+									<div class="h3 green">Pros</div>
+
+
+									<br /><br />
+									<div class="h3 red">Cons</div>
+									Have to run for 4 seconds to activate. <br />
+									2 seconds when?
+
+
+								</div>	
+
+							</div>
+
+							<div id="strong-arm-perk-content">
+
+								<div class="h2 passive-perk">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('strong-arm-text');">
+										<div class="plus-minus">+</div> Strong Arm
+									</a>
+									<a title="DRG Wiki" class="link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Strong_Arm" target="_blank">🔗</a>
+								</div>
+
+
+								<div id="strong-arm-text" class="text-content hidden">
+									You throw flares with 50% more force.
+									<br />
+									Gems and other heavy objects get 20% bonus throwing force. 
+									
+									<br /><br />
+									<div class="h3 green">Pros</div>
+									Strong Dwarf.<br />
+
+
+									<br /><br />
+									<div class="h3 red">Cons</div>
+									Need more throw force.<br />
+
+								</div>	
+
+							</div>
+
+							<div id="sweet-tooth-perk-content">
+
+								<div class="h2 passive-perk">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('sweet-tooth-text');">
+										<div class="plus-minus">+</div> Sweet Tooth
+									</a>
+									<a title="DRG Wiki" class="link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Sweet_Tooth" target="_blank">🔗</a>
+								</div>
+
+
+								<div id="sweet-tooth-text" class="text-content hidden">
+									Get 30% more healing from consuming 
+									
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Red_Sugar" target="_blank">Red Sugar</a> 
+									
+									<br />
+									and 20% movement speed bonus for 10 seconds after consuming Red Sugar!
+									
+									
+									<br /><br />
+									<div class="h3 green">Pros</div>
+									Movement speed bonus after consuming 
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Red_Sugar" target="_blank">Red Sugar</a>.	
+
+
+									<br /><br />
+									<div class="h3 red">Cons</div>
+									20 second movement speed when?<br />
+									Con.<br />
+									Con.<br />
+									Con.<br />
+									Con.<br />
+
+
+								</div>	
+
+							</div>
+
+							<div id="thorns-perk-content">
+
+								<div class="h2 passive-perk">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('thorns-text');">
+										<div class="plus-minus">+</div> Thorns
+									</a>
+									<a title="DRG Wiki" class="link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Thorns" target="_blank">🔗</a>
+								</div>
+
+
+								<div id="thorns-text" class="text-content hidden">
+									Any time an enemy hits you with a melee attack it will itself take 24 damage.
+									
+									<br /><br />
+									<div class="h3 green">Pros</div>
+
+									Instantly kills at all hazard levels <br />
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Glyphid_Swarmer" target="_blank">Glyphid Swarmer</a> <br />
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Naedocyte_Hatchling" target="_blank">Naedocyte Hatchling</a> <br />
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Naedocyte_Shocker" target="_blank">Naedocyte Shocker</a> <br />
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Rockpox_Larvae" target="_blank">Rockpox Larvae</a> <br />
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Carnivorous_Larva" target="_blank">Carnivorous Larva</a> <br />
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Glyphid_Spawn" target="_blank">Glyphid Spawn</a>	
+
+
+									<br /><br />
+									<div class="h3 red">Cons</div>
+
+
+								</div>	
+
+							</div>
+
+							<div id="unstoppable-perk-content">
+
+								<div class="h2 passive-perk">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('unstoppable-text');">
+										<div class="plus-minus">+</div> Unstoppable
+									</a>
+									<a title="DRG Wiki" class="link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Unstoppable" target="_blank">🔗</a>
+								</div>
+
+
+								<div id="unstoppable-text" class="text-content hidden">
+									Environmental slow-down effects are reduced by up to 50%.
+									<br />
+									You move up to 25% faster while carrying heavy objects.
+									
+									<br /><br />
+									<div class="h3 green">Pros</div>	
+
+
+									<br /><br />
+									<div class="h3 red">Cons</div>
+
+
+								</div>	
+
+							</div>
+
+							<div id="vampire-perk-content">
+
+								<div class="h2 passive-perk">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('vampire-text');">
+										<div class="plus-minus">+</div> Vampire
+									</a>
+									<a title="DRG Wiki" class="link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Vampire" target="_blank">🔗</a>
+								</div>
+
+
+								<div id="vampire-text" class="text-content hidden">
+									Regain 5 health when you kill a medium sized or larger creature with a melee attack!
+									
+									<br /><br />
+									<div class="h3 green">Pros</div>
+									Works with
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Pickaxe" target="_blank">Pickaxe</a> Swing/Power Attack <br />
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Reinforced_Power_Drills" target="_blank">Reinforced Power Drills</a> <br />
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Impact_Axe" target="_blank">Impact Axe</a>.	
+
+
+									<br /><br />
+									<div class="h3 red">Cons</div>
+									Only Gain 5 Max Health. 10 when?<br />
+
+
+								</div>	
+
+							</div>
+
+							<div id="veteran-depositor-perk-content">
+
+								<div class="h2 passive-perk">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('veteran-depositor-text');">
+										<div class="plus-minus">+</div> Veteran Depositor
+									</a>
+									<a title="DRG Wiki" class="link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Veteran_Depositor" target="_blank">🔗</a>
+								</div>
+
+
+								<div id="veteran-depositor-text" class="text-content hidden">
+									You now deposit valuables into the <a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/M.U.L.E." target="_blank">M.U.L.E.</a> and <a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Drop_Pod" target="_blank">Drop Pod</a> up to 50% faster! <br />
+									and up to 30% Damage Reduction within 7m of the MULE or other deposit points!
+									
+									<br /><br />
+									<div class="h3 green">Pros</div>
+									Damage Reduction while Depositing.<br />
+									This perk is multiplicative with other damage reducing perks.
+
+
+									<br /><br />
+									<div class="h3 red">Cons</div>
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Mine_Head" target="_blank">Mine Head</a> doesn't count for depositing?
+
+								</div>	
+
+							</div>
+
+
+						
 						</div>
 					</div>
 

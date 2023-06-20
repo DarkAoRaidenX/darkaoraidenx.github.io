@@ -100,3 +100,91 @@
 							<div class="h2">
 								Most Useful (Single Player)
 							</div>
+								<br /><br />
+									<div class="h3 perk-breakdown">
+										Perk Down
+									</div>
+									Damage per tick: 20.<br />
+									Damage type: Heat.<br />
+									Pro.<br />
+									Pro.<br />
+									Pro.<br />
+									Pro.<br />
+
+									Activate by pressing <span class="presses">[Fire]</span> + <span class="presses">[Mine]</span> while your Power Attack is recharging. 
+
+							<div id="name-perk-content">
+
+								<div class="h2 active-perk">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('name-text');">
+										<div class="plus-minus">+</div> Name
+									</a>
+									<a title="DRG Wiki" class="link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Link" target="_blank">🔗</a>
+								</div>
+
+
+								<div id="name-text" class="text-content hidden">
+									Description.
+									
+									<br /><br />
+									<div class="h3 green">Pros</div>
+									Pro.<br />
+									Pro.<br />
+									Pro.<br />
+									Pro.<br />
+									Pro.<br />
+									Pro.<br />
+									Pro.<br />		
+
+
+									<br /><br />
+									<div class="h3 red">Cons</div>
+									Con.<br />
+									Con.<br />
+									Con.<br />
+									Con.<br />
+									Con.<br />
+
+
+								</div>	
+
+							</div>
+
+	<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Mactera_Grabber" target="_blank">Mactera Grabber</a>
+
+																					<div id="name-perk-content">
+
+								<div class="h2 passive-perk">
+									<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('name-text');">
+										<div class="plus-minus">+</div> Name
+									</a>
+									<a title="DRG Wiki" class="link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Link" target="_blank">🔗</a>
+								</div>
+
+
+								<div id="name-text" class="text-content hidden">
+									Description.
+									
+									<br /><br />
+									<div class="h3 green">Pros</div>
+									Pro.<br />
+									Pro.<br />
+									Pro.<br />
+									Pro.<br />
+									Pro.<br />
+									Pro.<br />
+									Pro.<br />		
+
+
+									<br /><br />
+									<div class="h3 red">Cons</div>
+									Con.<br />
+									Con.<br />
+									Con.<br />
+									Con.<br />
+									Con.<br />
+
+
+								</div>	
+
+							</div>
