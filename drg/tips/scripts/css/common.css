@@ -36,9 +36,6 @@ table,tr,td,th,p,img {
 	display: none;
 }
 
-/* #tabs {
-	width: 1800px;
-} */
 
 ul {
 	list-style-type: none;
@@ -77,8 +74,12 @@ ul#nav-header li {
 	line-height: 36px;
 }
 
-.h1, .h1 a, .h2, .playstyle {
+.h1, .h1 a, .h2, .playstyle, a.header-link,.reg-link {
 	color: #f89d06;
+}
+
+.h2.active-perk a {
+	color: #4bbfa5;
 }
 
 .equipment .h2 {
@@ -100,6 +101,11 @@ p.text-content {
 	line-height: 32px;
 }
 
+#tabs-3 p.text-content  {
+	font-size: 18px;
+	line-height: 20px;
+}
+
 #tabs-6 p.text-content,#tabs-5 p.text-content {
 	font-size: 24px;
 	line-height: 24px;
@@ -118,6 +124,142 @@ p.text-content {
 	color: #fff;
 }
 
+
+/* #region - colors */
+
+
+/* #region - names colors */
+
+.active-perk {
+	color: #4bbfa5;
+}
+
+.discord {
+	color: #5865F2;
+}
+
+#dwarf-speak .grey {
+	background-color: #78909c;
+	color: #f5f5f5;
+}
+
+#dwarf-speak .green {
+	background-color: #1b5e20;
+	color: #fff;
+}
+
+.passive-perk {
+	color: #b93253;
+}
+
+.red, .youtube {
+	color: #ff0000;
+}
+
+#dwarf-speak .white {
+	background-color: #f5f5f5;
+	color: #000;
+}
+
+
+/* #region -  dwarves colors */
+.driller, .approved {
+	color: #fdd835;
+}
+
+.engineer {
+	color: red;
+}
+
+.gunner {
+	color: green;
+}
+
+.scout {
+	color: #2646FF;
+}
+
+
+/* #endregion - dwarves colors */
+
+
+/* #endregion - names colors */
+
+/* #region - gems colors */
+
+
+.aquarq {
+	color: #2646FF;
+}
+
+.bittergem {
+	color: #e91e63;
+}
+
+.jadiz {
+	color: #8bc34a;
+}
+
+
+
+/* #endregion - gems colors */
+
+/* #region - weapons colors */
+.auto-cannon {
+	color: #1b5e20;
+}
+
+.auto-shotgun {
+	color: #8d6e63;
+}
+
+.cyro {
+	color: #03a9f4;
+}
+
+.deepcore-gk2 {
+	color: #1e88e5;
+}
+
+.drak-25, .audio-visual, .suggestion-perks {
+	color: #ba68c8;
+}
+
+.epc {
+	color: #673ab7;	
+}
+
+.flame, .sandbox {
+	color: #de3800;
+}
+
+.hurricane, .green, .qol, .verified {
+	color: #2e7d32;
+}
+
+.m1000, .misc-mods {
+	color: #29b6f6;
+}
+
+.minigun {
+	color: #37474f;
+}
+
+.sludge {
+	color: #cddc39;
+}
+
+.smart-rifle, .grey {
+	color: #607d8b;
+}
+
+.stubby-smg {
+	color: #2196f3;
+}
+
+.wave-cooker {
+	color: #4caf50;	
+}
 
 #driller-equipment-2 {
 	border: 4px solid #03a9f4;
@@ -168,121 +310,10 @@ p.text-content {
 }
 
 
-/* #region - items colors */
-
-.active-perk {
-	color: #4BBFA5;
-}
-
-.discord {
-	color: #5865F2;
-}
-
-.passive-perk {
-	color: #b93253;
-}
-
-.aquarq {
-	color: #2646FF;
-}
-
-
-.bittergem {
-	color: #e91e63;
-}
-
-.youtube {
-	color: #ff0000;
-}
-
-
-
-/* #region - weapons colors */
-
-.auto-cannon {
-	color: #1b5e20;
-}
-
-.auto-shotgun {
-	color: #8d6e63;
-}
-
-.cyro {
-	color: #03a9f4;
-}
-
-.deepcore-gk2 {
-	color: #1e88e5;
-}
-
-.drak-25, .audio-visual {
-	color: #ba68c8;
-}
-
-.epc {
-	color: #673ab7;	
-}
-
-.flame, .sandbox {
-	color: #de3800;
-}
-
-.hurricane, .qol, .verified {
-	color: #2e7d32;
-}
-
-.m1000, .misc-mods {
-	color: #29b6f6;
-}
-
-.minigun {
-	color: #37474f;
-}
-
-.sludge {
-	color: #cddc39;
-}
-
-.smart-rifle {
-	color: #607d8b;
-}
-
-.stubby-smg {
-	color: #2196f3;
-}
-
-.wave-cooker {
-	color: #4caf50;	
-}
-
-
 /* #endregion - weapons colors */
 
 
-/* #endregion - items colors */
-
-
-
-
-/* #region -  dwarves colors */
-.driller, .approved {
-	color: #fdd835;
-}
-
-.engineer {
-	color: red;
-}
-
-.gunner {
-	color: green;
-}
-
-.scout {
-	color: #2646FF;
-}
-
-
-/* #endregion - dwarves colors */
+/* #endregion - colors */
 
 
 /* #region - links */
@@ -298,7 +329,7 @@ a.highlighted {
 	color:#000
 }
 
-a.category,a.header-link,a.imgur,a.highlighted {
+a.category,a.highlighted, a.imgur,#tabs-2 a.header-link {
 	text-decoration: none;
 }
 
@@ -306,28 +337,42 @@ a.highlighted:hover {
 	text-decoration: underline;
 }
 
-/* #endregion - global links */
-
 a.imgur {
 	font-size: 24px;
 }
 
-a.passive-perk {
+
+a.reg-link {
+	text-decoration: underline;
+}
+
+
+/* #endregion - global links */
+
+/* #region - links - backgrounds */
+
+a.active-perk2 {
+	background-color: #4bbfa5;
+	color: #000;
+}
+
+a.passive-perk2 {
 	background-color: #b93253;
 	color: #000;
 }
 
+
 /* #region - overclocks */
 
-.balanced {
+.balanced2 {
 	background-color: #e9Ca37;
 }
 
-.clean, .imgur {
+.clean2, .imgur {
 	background-color: #379C5d;
 }
 
-.unstable {
+.unstable2 {
 	background-color: #de3800;
 }
 
@@ -336,66 +381,61 @@ a.passive-perk {
 
 /* #region - weapons */
 
-a.auto-cannon {
+a.auto-cannon2 {
 	background-color: #1b5e20;
 }
 
-a.auto-shotgun {
+a.auto-shotgun2 {
 	background-color: #8d6e63;
 }
 
-a.axes {
+a.axes2 {
 	background-color: #78909c;
 }
 
-a.cyro {
+a.cyro2 {
 	background-color: #03a9f4;
 }
 
-a.deepcore-gk2 {
+a.deepcore-gk2-2 {
 	background-color: #03a9f4;
 }
 
-a.drak-25 {
+a.drak-25-2 {
 	background-color: #03a9f4;
 }
 
-a.epc {
+a.epc2 {
 	background-color: #7e57c2;
 }
 
-a.hurricane {
+a.hurricane2 {
 	background-color: #2e7d32;
 }
 
-a.m1000 {
+a.m1000-2 {
 	background-color: #37474f;
 }
 
-a.minigun {
+a.minigun2 {
 	background-color: #263238;
 }
 
-a.smart-rifle {
+a.smart-rifle2 {
 	background-color: #607d8b;
 }
 
-a.stubby-smg {
+a.stubby-smg2 {
 	background-color: #2196f3;
 }
 
-a.wave-cooker {
+a.wave-cooker2 {
 	background-color: #4caf50;
 }
 
 /* #endregion - weapons */
 
-
-
-
-
-
-
+/* #end region - links - backgrounds */
 
 
 
@@ -498,18 +538,21 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
     #134717;
 }
 
-#tab1-content {	
-	background: rgba(0,0,0,0.80);
+#tab1-content,#tab3-content,#tab5-content  {	
+	background: rgba(0,0,0,0.85);
 	height: 860px;
 	width: 1450px;
+}
 
+#tabs-1 .columns, #tabs-3 .columns, #tabs-5 .columns {
+	border: 2px solid #757575;
 }
 
 #tabs-1 .columns {	
-	height: 860px;
-	width: 470px;
-
+	height: 675px;
+	width: 460px;
 }
+
 
 #tabs-2 .columns {	
 	background: rgba(0,0,0,0.90);
@@ -518,9 +561,8 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 }
 
 #tabs-3 .columns {	
-	background: rgba(0,0,0,0.80);
-	height: 860px;
-	width: 800px;
+	height: 675px;
+	width: 450px;
 }
 
 #tabs-4 .columns {
@@ -529,16 +571,9 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 	width: 1450px;
 }
 
-#tab5-content {
-	background: rgba(0,0,0,0.80);
-	height: 860px;
-	width: 1450px;
-}
-
 #tabs-5 .columns {
 	height: 520px;
 	width: 450px;
-	border: 2px solid #757575;
 }
 
 #tabs-6 .columns {	
@@ -554,7 +589,7 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 /* #region - images */
 
 img.buttons {
-	width: 225;
+	width: 225px;
 	height: 45px;
 }
 

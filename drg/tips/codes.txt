@@ -77,3 +77,26 @@
 		  $( "#scout-equipment" ).tabs();
 		} );
 	</script>	
+
+	<p class="text-content">
+								Propel forward with great speed! <br /><br />
+								<span class="green">Pros</span>: <br />
+								Movement Speed: x2.2<br />
+								Slowdown Reduction: 100% (slow won,t affect you at all). <br />
+								You can dash while holding heavy objects (Aquaqs, Eggs, etc.). <br />
+								<br />
+								<span class="red">Cons</span>: <br />
+								Duration: 1.5 seconds. <br />
+								Stun and Electricity slowdowns don't get reduced. <br /> 
+								Can Dash to your death. <br />
+							</p>
+
+							
+							<div class="h2">
+								Most Useful (MultiPlayer)
+							</div>
+
+														<br />
+							<div class="h2">
+								Most Useful (Single Player)
+							</div>
