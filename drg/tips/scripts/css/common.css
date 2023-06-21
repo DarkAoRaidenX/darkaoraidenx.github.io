@@ -149,14 +149,18 @@ p.text-content {
 	color: #5865F2;
 }
 
-#dwarf-speak .grey {
+/* #dwarf-speak .grey2 {
 	background-color: #78909c;
 	color: #000;
 }
 
-#dwarf-speak .green {
-	background-color: #1b5e20;
+#dwarf-speak .green2 {
+	background-color: #4caf50;
 	color: #000;
+} */
+
+.grey {
+	color: #9e9e9e;
 }
 
 .passive-perk {
@@ -167,10 +171,10 @@ p.text-content {
 	color: #ff0000;
 }
 
-#dwarf-speak .white {
+/* #dwarf-speak .white {
 	background-color: #f5f5f5;
 	color: #000;
-}
+} */
 
 
 /* #region -  dwarves colors */
@@ -204,7 +208,7 @@ p.text-content {
 }
 
 .bittergem {
-	color: #e91e63;
+	color: #ec407a;
 }
 
 .jadiz {
@@ -260,7 +264,7 @@ p.text-content {
 	color: #cddc39;
 }
 
-.smart-rifle, .grey {
+.smart-rifle {
 	color: #607d8b;
 }
 
