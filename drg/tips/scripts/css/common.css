@@ -603,6 +603,13 @@ img.buttons {
 	height: 45px;
 }
 
+.perk-icons {
+	width: 32px;
+	height: 32px;
+	position: relative;
+	top: 5px;
+}
+
 #driller {
 	width: 170px;
 	height: 160px;

@@ -152,6 +152,10 @@
 
 	<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Mactera_Grabber" target="_blank">Mactera Grabber</a>
 
+	<img class="perk-icons" src="images/icons/perks/active/bg/" alt="&nbsp;"/>
+
+	<img class="perk-icons" src="images/icons/perks/passive/bg/" alt="&nbsp;"/>
+
 																					<div id="name-perk-content">
 
 								<div class="h2 passive-perk">
