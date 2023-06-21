@@ -23,6 +23,10 @@
 	line-height: 64px;
 } */
 
+Mission Tips
+			You can build eng turrets
+
+
 <a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Resupply_Pod" target="_blank">Resupply Pod</a>
 
 <a title="DRG Wiki" class="engineer reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Engineer" target="_blank">Engineer's</a>
