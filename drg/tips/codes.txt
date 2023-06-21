@@ -23,6 +23,12 @@
 	line-height: 64px;
 } */
 
+<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Resupply_Pod" target="_blank">Resupply Pod</a>
+
+<a title="DRG Wiki" class="engineer reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Engineer" target="_blank">Engineer's</a>
+									
+								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Platform_Gun" target="_blank">Platforms</a>
+
 
 									<li>
 										<a title="" class="category" href="#driller-equipment-1">Primary -</a>
@@ -192,3 +198,220 @@
 								</div>	
 
 							</div>
+
+
+	
+
+										<div id="tabs-1" class="tabs-container">
+
+				<div class="nav-content-spacer">&nbsp;</div>
+
+				<div id="tab1-content" class="tabs-content">
+						
+					<div class="h1">
+						Welcome
+					</div>
+
+					<p class="text-content">
+						Yo, Miners first and foremost, Rock-N-Stone.
+						<img title="Rock-N-Stone" class="rock-n-stone" src="https://deeprockgalactic.wiki.gg/images/b/bd/Rocknstone.png" alt="|"/>
+						<br />
+						I am hoping these web pages could be useful to people.
+
+						<br /><br />
+						You have anything to add, have any ideas and/or see anything wrong please let me know.
+
+					</p>
+
+					<br />
+
+
+				</div>
+
+			</div>
+
+				<div id="tab5-content" class="tabs-content">	
+					
+					<div class="h1">
+						Mission Tips
+					</div>
+
+					<p class="text-content">
+						all the perks for the pros and cons are at max level
+					</p>
+
+					<br />
+					<div class="columns-container">
+
+						<div class="h2 suggestion-perks">
+							Header 1
+						</div>
+
+						<div id="name" class="columns">
+		
+							<div class="h2">
+								Header 2
+							</div>
+		
+							<p class="text-content">
+								Text 
+							</p>
+		
+						</div>
+		
+					</div>
+
+				</div>
+
+				ul#nav-missions {
+	width: 520px;
+	text-align: left;
+	position: relative;
+	left: 75px;
+}
+
+ul#nav-missions li {
+	display: block;
+} 
+
+#tabs-5 .columns {
+	position: relative;
+	top: -320px;
+	left: 200px;
+	height: 680px;
+	width: 1000px;
+}
+
+									<div id="mission">
+						<ul id="nav-missions">
+							<li>
+								<a title="" class="category" href=""></a>
+							</li>
+							<li>
+								<div class="h2">
+									<a title="Click To Show" class="header-link" href="#mission-2">
+										
+										<img title="Egg Hunt" class="mission-icons" src="https://deeprockgalactic.wiki.gg/images/c/cf/Egg_collection_icon.png" alt="&nbsp;"/>
+
+										<span class="egg-hunt">Egg Hunt</span>
+									</a>
+								</div>
+							</li>
+
+							<li>
+								<div class="h2">
+									<a title="Click To Show" class="header-link" href="#mission-3">
+										<span class="elimination-dreads">Elimination (Dreadnaughts)</span>
+									</a>
+								</div>
+							</li>
+
+							<li>
+								<div class="h2">
+									<a title="Click To Show" class="header-link" href="#mission-4">
+										<span class="escort-duty">Escort Duty</span>
+									</a>
+								</div>
+							</li>
+
+							<li>
+								<div class="h2">
+									<a title="Click To Show" class="header-link" href="#mission-5">
+
+										<span class="hurricane">Industrial Sabotage</span>
+									</a>
+								</div>
+							</li>
+							
+							<li>
+								<div class="h2">
+									<a title="Click To Show" class="header-link" href="#mission-6">
+										<span class="hurricane">Mining Expedition (Morkite)</span>
+									</a>
+								</div>
+							</li>
+							
+							<li>
+								<div class="h2">
+									<a title="Click To Show" class="header-link" href="#mission-7">
+										<span class="hurricane">Point Extraction</span>
+									</a>
+								</div>
+							</li>
+							
+							<li>
+								<div class="h2">
+									<a title="Click To Show" class="header-link" href="#mission-8">
+										<span class="hurricane">On-site Refining</span>
+									</a>
+								</div>
+							</li>
+							
+							<li>
+								<div class="h2">
+									<a title="Click To Show" class="header-link" href="#mission-9">
+										<span class="hurricane">Salvage Operation</span>
+									</a>
+								</div>
+							</li>
+
+							<li>
+								<div class="h2">
+									<a title="Click To Show" class="header-link" href="#mission-10">
+										<span class="hurricane">Deep Dives</span>
+									</a>
+								</div>
+							</li>
+						</ul>
+
+						<div id="mission-1" class="hidden"></div>
+
+						<div id="mission-2" class="hidden">
+
+							<div id="name1" class="columns">
+			
+								<div class="h2">
+									Header 1
+								</div>
+			
+								<p class="text-content">
+									Text 
+								</p>
+			
+							</div>
+
+						</div>
+
+						<div id="mission-3" class="hidden">
+
+							<div id="name2" class="columns">
+			
+								<div class="h2">
+									Header 2
+								</div>
+			
+								<p class="text-content">
+									Text 
+								</p>
+			
+							</div>
+
+						</div>
+
+						<div id="mission-4" class="hidden">
+
+							<div id="name3" class="columns">
+			
+								<div class="h2">
+									Header 3
+								</div>
+			
+								<p class="text-content">
+									Text 
+								</p>
+			
+							</div>
+
+						</div>
+
+					</div>

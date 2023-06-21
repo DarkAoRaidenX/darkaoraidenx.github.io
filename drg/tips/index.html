@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>DRG TIPS</title>
@@ -6,8 +6,8 @@
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<link rel="stylesheet" href="scripts/css/common.css" />
-	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
-	<script src="../../scripts/jquery/3.6.3.min.js"></script>
+	<link rel="icon" type="image/x-icon" href="images/fav/fav.ico" />
+	<script src="../../scripts/jquery/3.7.0.min.js"></script>
 	<script src="../../scripts/jquery/plus-minus-drg.js"></script>
 	<script src="../../scripts/jquery/show-only-one.js"></script>
 	<script src="../../scripts/jquery/toggle-div.js"></script>
@@ -32,6 +32,11 @@
 		$( function() {
 		  $( "#scout-equipment" ).tabs();
 		} );
+
+		$( function() {
+		  $( "#mission" ).tabs();
+		} );
+
 	</script>
 </head>
 <body id="drg-tips" class="common">
@@ -119,6 +124,7 @@
 			</div>
 		<!-- #endregion - WELCOME -->
 
+		
 		<!-- #region - GENERAL TIPS -->
 			<div id="tabs-2" class="tabs-container hidden">
 
@@ -211,7 +217,7 @@
 								
 								<br /><br />
 								Gold Chunks: 
-								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Gold#Compressed_Gold-0" target="_blank">Compressed Gold</a>
+								<a title="DRG Wiki" class="gold reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Gold#Compressed_Gold-0" target="_blank">Compressed Gold</a>
 						
 								<br /><br />
 								OG/Dredd: Original Dreadnaught
@@ -250,7 +256,7 @@
 
 								<a title="DRG Wiki" class="bittergem reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Bittergem" target="_blank">Bittergems</a>
 								/
-								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Gold#Compressed_Gold-0" target="_blank">Compressed Gold</a>
+								<a title="DRG Wiki" class="gold reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Gold#Compressed_Gold-0" target="_blank">Compressed Gold</a>
 
 								<br /> 
 								and or until Management gets mad.
@@ -284,6 +290,7 @@
 			</div>
 		<!-- #endregion - GENERAL TIPS -->
 
+
 		<!-- #region - DWARVES (CLASSES)-->
 			<div id="tabs-3" class="hidden tabs-container">
 
@@ -300,8 +307,10 @@
 						</div>
 
 						<div class="text-content-container">
-							A.K.A.
-							<br />Digger, DrillDozer, Terrorist, Yellow
+							<div class="aka">
+								A.K.A.
+								<br />"Dirt" Digger, The DrillDozer, Terrorist, Yellow
+							</div>
 
 							<div class="portraits">
 								<a title="DRG WIKI - Driller" class="" href="https://deeprockgalactic.wiki.gg/wiki/Driller" target="_blank">
@@ -460,8 +469,11 @@
 						</div>
 
 						<div class="text-content-container">
-							A.K.A.
-							<br />N-G, Red
+
+							<div class="aka">
+								A.K.A.
+								<br />N-G, Red
+							</div>
 
 							<div class="portraits">
 								<a title="DRG WIKI - Engineer" class="" href="https://deeprockgalactic.wiki.gg/wiki/Engineer" target="_blank">
@@ -562,8 +574,11 @@
 						</div>
 
 						<div class="text-content-container">
-							A.K.A.
-							<br />Green
+
+							<div class="aka">
+								A.K.A.
+								<br />Green
+							</div>
 
 							<div class="portraits">
 								<a title="DRG WIKI - Gunner" class="" href="https://deeprockgalactic.wiki.gg/wiki/Gunner" target="_blank">
@@ -626,21 +641,23 @@
 
 								</div> 
 
-								<!-- "Lead Storm" Powered Minigun -->
-								<div id="gunner-equipment-2" class="hidden">
-									<p class="text-content">
-										"Lead Storm" Powered Minigun <br />
-										Builds Link Images
-									</p>
-								</div> 
+
 
 								<!-- "Thunderhead" Heavy Autocannon -->
-								<div id="gunner-equipment-3" class="hidden">
+								<div id="gunner-equipment-2" class="hidden">
 									<p class="text-content">
 										"Thunderhead" Heavy Autocannon <br />
 										Builds Link Images
 									</p>
 								</div> 
+
+								<!-- "Lead Storm" Powered Minigun -->
+								<div id="gunner-equipment-3" class="hidden">
+									<p class="text-content">
+										"Lead Storm" Powered Minigun <br />
+										Builds Link Images
+									</p>
+								</div> 								
 
 								<!-- "Hurricane" Guided Rocket System -->							
 								<div id="gunner-equipment-4" class="hidden">
@@ -664,8 +681,11 @@
 						</div>
 
 						<div class="text-content-container">
-							A.K.A.
-							<br />Blue
+
+							<div class="aka">
+								A.K.A.
+								<br />Blue
+							</div>
 
 							<div class="portraits">
 								<a title="DRG WIKI - Scout" class="" href="https://deeprockgalactic.wiki.gg/wiki/Scout" target="_blank">
@@ -779,7 +799,6 @@
 						all the perks for the pros and cons are at max level
 					</p>
 					
-
 					<br />
 					<div class="columns-container">
 						
@@ -881,6 +900,7 @@
 						</div>
 
 					</div>
+
 
 					<div class="columns-container">
 						
@@ -1251,10 +1271,12 @@
 
 
 						</div>
+
 					</div>
 
 
 					<div class="columns-container">
+
 						<div class="h2 passive-perk">
 							Passive Perks
 						</div>
@@ -1680,6 +1702,7 @@
 
 						
 						</div>
+
 					</div>
 
 				</div>
@@ -1689,22 +1712,370 @@
 
 
 		<!-- #region - MISSION TIPS -->
-		<div id="tabs-5" class="hidden tabs-container">
+			<div id="tabs-5" class="hidden tabs-container">
 
-			<div class="nav-content-spacer">&nbsp;</div>
+				<div class="nav-content-spacer">&nbsp;</div>
 
-			<div id="tab5-content" class="tabs-content">				
-				<div class="columns">
+				<div id="tab5-content" class="tabs-content">	
 					
-					<br />
 					<div class="h1">
 						Mission Tips
 					</div>
 
-				</div>
-			</div>
+					<p class="text-content">
+						Here is some Mission Info and Tips.
+					</p>
 
-		</div>
+					<br />
+
+
+					<div id="mission">
+						<ul id="nav-missions">
+							<li>
+								<a title="" class="category" href="#"></a>
+							</li>
+							<li>
+								<div class="h2">
+									<a title="Click To Show" class="egg-hunt header-link" href="#mission-2">
+										
+										<img title="Egg Hunt" class="mission-icons" src="https://deeprockgalactic.wiki.gg/images/6/69/Alien_egg_icon.png" alt="&nbsp;"/>
+										Egg Hunt
+
+									</a>
+								</div>
+							</li>
+
+							<li>
+								<div class="h2">
+									<a title="Click To Show" class="elimination-dreads header-link" href="#mission-3">
+
+										<img title="Elimination (Dreadnaughts)" class="mission-icons" src="https://deeprockgalactic.wiki.gg/images/4/42/Kill_Dreadnought_Objective_icon.png" alt="&nbsp;"/>
+										Elimination (Dreadnaughts)
+
+									</a>
+								</div>
+							</li>
+
+							<li>
+								<div class="h2">
+									<a title="Click To Show" class="escort-duty header-link" href="#mission-4">
+
+										<img title="Escort Duty" class="mission-icons" src="https://deeprockgalactic.wiki.gg/images/4/4d/FuelCannister_icon.png" alt="&nbsp;"/>
+										Escort Duty
+
+									</a>
+								</div>
+							</li>
+
+							<li>
+								<div class="h2">
+									<a title="Click To Show" class="industrial-sabotage header-link" href="#mission-5">
+
+										<img title="Industrial Sabotage / Data Rack" class="mission-icons" src="https://deeprockgalactic.wiki.gg/images/9/9c/DataRack_icon.png" alt="&nbsp;"/>
+										Industrial Sabotage
+
+									</a>
+								</div>
+							</li>
+							
+							<li>
+								<div class="h2">
+									<a title="Click To Show" class="morkite header-link" href="#mission-6">
+
+										<img title="Mining Expedition (Morkite)" class="mission-icons" src="https://deeprockgalactic.wiki.gg/images/e/eb/Morkite_icon.png" alt="&nbsp;"/>
+										Mining Expedition (Morkite)
+
+									</a>
+								</div>
+							</li>
+							
+							<li>
+								<div class="h2">
+									<a title="Click To Show" class="point-extraction header-link" href="#mission-7">
+
+										<img title="Point Extraction" class="mission-icons" src="https://deeprockgalactic.wiki.gg/images/8/8e/Aquarq_icon.png" alt="&nbsp;"/>
+										Point Extraction
+
+									</a>
+								</div>
+							</li>
+							
+							<li>
+								<div class="h2">
+									<a title="Click To Show" class="on-site-refining eader-link" href="#mission-8">
+
+										<img title="On-site Refining / Liquid Morkite" class="mission-icons" src="https://deeprockgalactic.wiki.gg/images/6/6d/PumpingJack_icon.png" alt="&nbsp;"/>
+										On-site Refining
+
+									</a>
+								</div>
+							</li>
+							
+							<li>
+								<div class="h2">
+									<a title="Click To Show" class="mules header-link" href="#mission-9">
+
+										<img title="Salvage Operation" class="mission-icons" src="https://deeprockgalactic.wiki.gg/images/b/bb/Salvage_Mules_icon.png" alt="&nbsp;"/>
+										Salvage Operation
+
+									</a>
+								</div>
+							</li>
+
+							<li>
+								<div class="h2">
+									<a title="Click To Show" class="deep-dives header-link" href="#mission-10">
+
+										<img title="Deep Dives" class="mission-icons" src="https://deeprockgalactic.wiki.gg/images/c/c0/DeepDive_Icon.png" alt="&nbsp;"/>
+										Deep Dives
+
+									</a>
+								</div>
+							</li>
+						</ul>
+
+						<div id="mission-1" class="hidden"></div>
+
+						<div id="mission-2" class="hidden">
+
+							<div id="mission-egg-hunt" class="columns">
+			
+								<div class="h2">
+
+									<a title="DRG Wiki" class="egg-hunt reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Egg_Hunt" target="_blank">
+										Egg Hunts
+									</a>
+
+								</div>
+			
+								<p class="text-content">
+									As of right now there is 4, 6, &amp; 8 Egg Hunts
+									<br />
+									each one has a number of Big Swarms.
+									<br />
+									4 has 1 Big Swarm, 6 has 2 Big Swarms, and 8 has 3 Big Swarms.
+								</p>
+			
+							</div>
+
+						</div>
+
+						<div id="mission-3" class="hidden">
+
+							<div id="mission-dreads" class="columns">
+			
+								<div class="h2">
+
+									<a title="DRG Wiki" class="elimination-dreads reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Elimination" target="_blank">
+										Elimination (Dreadnaughts)
+									</a>
+									
+								</div>
+			
+								<p class="text-content">
+									When a Dreadnaught spawns regular waves shouldn't spawn. 
+									<br />
+									The Swarmer Modifier will keep spawning the little bastards.
+								</p>
+			
+							</div>
+
+						</div>
+
+						<div id="mission-4" class="hidden">
+
+							<div id="mission-escort-duty" class="columns">
+			
+								<div class="h2">
+
+									<a title="DRG Wiki" class="escort-duty reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Escort_Duty" target="_blank">
+										Escort Duty
+									</a>	
+
+								</div>
+			
+								<p class="text-content">
+									Drilldozer
+									<br />
+									- It goes faster when more dwarves on it
+									<br />
+									- Repairing the Drilldozer/Dorrieta/Dotty with multiple people doesn't go faster.
+									
+									
+									
+									<br /><br />
+									When the laser beam pillars spawn, the Engineer(NG) can platform the tips so the scout can get on them, the Driller can drill them down, or Gunner can use like the mini gun to break the tips
+ 
+								</p>
+			
+							</div>
+
+						</div>
+
+						<div id="mission-5" class="hidden">
+
+							<div id="mission-industrial-sabotage" class="columns">
+			
+								<div class="h2">
+
+									<a title="DRG Wiki" class="industrial-sabotage reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Industrial_Sabotage" target="_blank">
+										Industrial Sabotage
+									</a>
+									
+								</div>
+			
+								<p class="text-content">
+									Text 
+								</p>
+			
+							</div>
+
+						</div>
+
+						<div id="mission-6" class="hidden">
+
+							<div id="mission-morkite" class="columns">
+			
+								<div class="h2">
+
+									<a title="DRG Wiki" class="morkite reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Mining_Expedition" target="_blank">
+										Mining Expedition (Morkite)
+									</a>
+									
+								</div>
+			
+								<p class="text-content">
+									Text 
+								</p>
+			
+							</div>
+
+						</div>
+
+						<div id="mission-7" class="hidden">
+
+							<div id="mission-aquarqs" class="columns">
+			
+								<div class="h2">
+
+									<a title="DRG Wiki" class="point-extraction reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Point_Extraction" target="_blank">
+										Point Extraction
+									</a>
+
+								</div>
+			
+								<p class="text-content">
+									Text 
+								</p>
+			
+							</div>
+
+						</div>
+
+						<div id="mission-8" class="hidden">
+
+							<div id="mission-liquid-morkite" class="columns">
+			
+								<div class="h2">
+
+									<a title="DRG Wiki" class="on-site-refining reg-link" href="https://deeprockgalactic.wiki.gg/wiki/On-site_Refining" target="_blank">
+										On-site Refining (Liquid Morkite)
+									</a>
+									
+								</div>
+			
+								<p class="text-content">
+									If there's an Event or something you want to grab do not fix the pipe lines <br /> and let the bugs be busy with the broken pipelines 
+								</p>
+			
+							</div>
+
+						</div>
+
+						<div id="mission-9" class="hidden">
+
+							<div id="mission-mules" class="columns">
+			
+								<div class="h2">
+
+									<a title="DRG Wiki" class="mules reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Salvage_Operation" target="_blank">
+										Salvage Operation
+									</a>
+									
+								</div>
+			
+								<p class="text-content">
+									
+									Repairing a Mini M.U.L.E. will reward the team with between 
+									
+									<br /> 
+									
+									40-60 
+									
+									<a title="DRG Wiki" class="nitra reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Resupply_Pod" target="_blank">Nitra</a>
+									
+									and 40-60 
+									
+									<a title="DRG Wiki" class="gold reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Gold" target="_blank">Gold</a>. 
+
+									<br /><br />
+									Coming within 2 meters of a Mini M.U.L.E. for the first time will trigger a large wave of enemies after 12 to 30 seconds. Another, smaller wave of enemies will spawn when one of the legs that are found near each Mini M.U.L.E. is dug out. This leg is picked randomly. 
+									
+									<br /><br />
+									When defending the Black Box or Fuel Lines <br /> the Driller can drill out the walls in like a crescent shape so the barrier fits and so you can move around much better 
+									
+									<br /><br />
+									Also the 
+									
+									<a title="DRG Wiki" class="engineer reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Engineer" target="_blank">Engineer</a> 
+									
+									can use their 
+									
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Platform_Gun" target="_blank">Platforms</a>
+									
+									to platform above the defending area with the Repellant Additive modification, to help funnel bugs.
+
+									<br /><br />
+									When defending the Black Box or Fuel Lines <br /> and you call a 
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Resupply_Pod" target="_blank">Resupply Pod</a>, <br />you can dig it down to stay out of your way.
+
+
+
+								</p>
+								
+			
+							</div>
+
+						</div>
+
+						<div id="mission-10" class="hidden">
+
+							<div id="mission-deep-dives" class="columns">
+			
+								<div class="h2">
+
+									<a title="DRG Wiki" class="deep-dives reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Deep_Dives" target="_blank">
+										Deep Dives
+									</a>
+									
+
+								</div>
+			
+								<p class="text-content">
+									Text 
+								</p>
+			
+							</div>
+
+						</div>
+
+					</div>
+
+
+
+				</div>
+
+			</div>
 		<!-- #endregion - MISSION TIPS -->
 
 

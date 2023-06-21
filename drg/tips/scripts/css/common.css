@@ -36,7 +36,6 @@ table,tr,td,th,p,img {
 	display: none;
 }
 
-
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -47,10 +46,25 @@ ul li {
 	display: inline-block;
 } 
 
+
 ul#nav-header li {
 	margin-left: 10px;
-	height: 45px;
+	height: 
+	45px;
 }
+
+ul#nav-missions {
+	width: 520px;
+	text-align: left;
+	position: relative;
+	left: 60px;
+}
+
+ul#nav-missions li {
+	display: block;
+} 
+
+
 
 .spacer {
 	display: block;
@@ -83,13 +97,17 @@ ul#nav-header li {
 	font-size: 24px;
 }
 
+.aka {
+	font-size: 20px;
+}
+
 /* .lazy-move {
 	display: inline-block;
 	margin-right: 50px;
 } */
 
 p.text-content {
-	font-size: 18px;
+	font-size: 24px;
 	line-height: 20px;
 }
 
@@ -102,6 +120,17 @@ p.text-content {
 	font-size: 24px;
 	line-height: 24px;
 }
+
+#tabs-3 p.text-content {
+	font-size: 20px;
+	line-height: 20px;
+}
+
+#tabs-5 p.text-content {
+	font-size: 28px;
+	line-height: 28px;
+}
+
 
 #tabs-1 .columns p.text-content, #tabs-2 .columns p.text-content {
 	font-size: 24px;
@@ -136,7 +165,7 @@ p.text-content {
 /* #region - colors */
 
 
-.h1, .h1 a, .h2, .h3, .playstyle, a.header-link,.presses,.reg-link {
+.h1, .h2, .h3, .playstyle, .header-link,.presses,.reg-link {
 	color: #f89d06;
 }
 
@@ -193,12 +222,13 @@ p.text-content {
 
 
 /* #region -  dwarves colors */
+
 .driller, .approved {
 	color: #fdd835;
 }
 
 .engineer {
-	color: red;
+	color: #b71c1c;
 }
 
 .gunner {
@@ -209,13 +239,52 @@ p.text-content {
 	color: #2646FF;
 }
 
-
 /* #endregion - dwarves colors */
+
+/* #region -  mission colors */
+
+.egg-hunt {
+	color: #B8008C;
+}
+
+.elimination-dreads {
+	color: #DBDA00;
+}
+
+.escort-duty {
+	color: #03FFA1;
+}
+
+.industrial-sabotage {
+	color: #BB2BFF;
+}
+
+.morkite {
+	color: #FE9603;
+}
+
+.point-extraction {
+	color: #68C900;
+}
+
+.on-site-refining {
+	color: #0070FE;
+}
+
+.mules {
+	color: #00D6D9;
+}
+
+.deep-dives {
+	color: #FFB000;
+}
+
+/* #endregion - mission colors */
 
 
 /* #endregion - names colors */
 
-/* #region - gems colors */
+/* #region - gems / minerals colors */
 
 
 .aquarq {
@@ -226,13 +295,23 @@ p.text-content {
 	color: #ec407a;
 }
 
+.gold {
+	color: #ffa000;
+}
+
 .jadiz {
 	color: #8bc34a;
 }
 
+.nitra {
+	color: #c62828;
+}
 
 
-/* #endregion - gems colors */
+
+
+
+/* #endregion - gems / minerals colors */
 
 /* #region - weapons colors */
 .auto-cannon {
@@ -359,7 +438,7 @@ a.highlighted {
 	color:#000
 }
 
-a.category,a.highlighted, a.imgur,#tabs-3 a.header-link, .perks a.header-link, a.link-icon {
+a.category,a.highlighted, a.imgur,#tabs-3 a.header-link, .perks a.header-link, a.link-icon, ul#nav-missions a {
 	text-decoration: none;
 }
 
@@ -499,7 +578,7 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 	top: 0;
 	z-index: -100;
 	width: 1920px;
-	height: 925px;
+	height: 100%;
 }
 
 .tabs-content {
@@ -519,28 +598,26 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 	overflow-y: auto;
 }
 
-#tabs-1,#tabs-1,#tabs-1,#tabs-1,#tabs-1,#tabs-1,#tabs-1 {
-	background-color: #000;
-}
+
 
 #tabs-1 {
 	background: 
     url("https://i.imgur.com/kqBzB0o.jpg") 
-	top center / 1920px 1080px
+	top center / 1920px 100%
 	no-repeat
 }
 
 #tabs-2 {
 	background: 
     url("https://i.imgur.com/51kKjmk.jpg") 
-	top center / 1920px 1080px
+	top center / 1920px 100%
 	no-repeat
 }
 
 #tabs-3 {
 	background: 
     url("https://deeprockgalactic.wiki.gg/images/b/b0/Site-background-light.png") 
-	top center / 1920px 1080px
+	top center / 1920px 100%
 	no-repeat
 }
 
@@ -554,21 +631,21 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 #tabs-5 {
 	background: 
     url("https://i.imgur.com/piaYCAd.jpg") 
-	top center / 1920px 1080px
+	top center / 1920px 100%
 	no-repeat
 }
 
 #tabs-6 {
 	background: 
     url("https://deeprockgalactic.wiki.gg/images/6/6b/The_Forge_Front.png") 
-	top center / 1920px 1080px
+	top center / 1920px 100%
 	no-repeat
 }
 
 #tabs-7 {
 	background: 
     url("https://deeprockgalactic.wiki.gg/images/4/46/Cabin_2.jpg") 
-	top center / 1920px 1080px
+	top center / 1920px 100%
 	no-repeat
 }
 
@@ -585,13 +662,13 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 }
 
 
-#tab4-content,#tab6-content  {	
+#tab4-content,#tab5-content,#tab6-content   {	
 	background: rgba(0,0,0,0.85);
 	height: 860px;
 	width: 1575px;
 }
 
-#tabs-2 .columns, #tabs-4 .columns, #tabs-6 .columns {
+#tabs-2 .columns,#tabs-5 .columns,#tabs-4 .columns,#tabs-6 .columns {
 	border: 2px solid #757575;
 }
 
@@ -618,9 +695,11 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 }
 
 #tabs-5 .columns {
-	background: rgba(0,0,0,0.80);
-	height: 860px;
-	width: 1575px;
+	position: relative;
+	margin-top: -320px;
+	left: 200px;
+	height: 680px;
+	width: 1000px;
 }
 
 #tabs-6 .columns {
@@ -652,6 +731,8 @@ img.buttons {
 	top: 5px;
 }
 
+
+
 #tabs-1 .rock-n-stone {
 	width: 48px;
 	height: 48px;
@@ -679,6 +760,14 @@ img.buttons {
 	width: 120px;
 	height: 160px;
 }
+
+#tabs-5 .mission-icons, #tabs-5 .deep-dive-icon {
+	width: 32px;
+	height: 32px;
+	position: relative;
+	top: 5px;
+}
+
 
 #tabs-7 .rock-n-stone, #tabs-7 .deep-dive-icon {
 	width: 40px;
