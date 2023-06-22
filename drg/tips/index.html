@@ -18,6 +18,10 @@
 		} );
 
 		$( function() {
+		  $( "#general-tips" ).tabs();
+		} );
+
+		$( function() {
 		  $( "#driller-equipment" ).tabs();
 		} );
 
@@ -134,10 +138,10 @@
 
 				<div class="nav-content-spacer">&nbsp;</div>
 
-				<div id="tab2-content" class="tabs-content">
-						
+				<div id="tab2-content" class="tabs-content">	
+					
 					<div class="h1">
-						General Tips
+						General Info
 					</div>
 
 					<p class="text-content">
@@ -146,170 +150,230 @@
 
 					<br />
 
-					<div class="columns-container">
-						
-						<div class="h2">
-							General Tips
+
+					<div id="general-tips">
+
+						<ul id="nav-general-tips">
+
+							<li>
+								<div class="h1">
+									<a title="Click To Show" class="general-info-tips header-link" href="#general-tips-1">
+										
+										General Info-Tips
+
+									</a>
+								</div>
+							</li>
+
+							<li>
+								<div class="h1">
+									<a title="Click To Show" class="dwarf-lingo header-link" href="#general-tips-2">
+
+										Dwarf Lingo
+
+									</a>
+								</div>
+							</li>
+
+							<li>
+								<div class="h1">
+									<a title="Click To Show" class="dwarf-rituals header-link" href="#general-tips-3">
+
+										Dwarf Rituals
+
+									</a>
+								</div>
+							</li>
+
+						</ul>
+
+
+						<div id="general-tips-1" class="hidden">
+
+							<div id="general-info-tips" class="columns">
+			
+								<div class="h1 general-info-tips">
+
+										General Info-Tips
+
+								</div>
+			
+								<p class="text-content">
+									- Communication is nice. 
+									<br />
+									Talk to your fellow dwarves. 
+
+									<br /><br />
+									Speaking of which...
+
+									<br /><br />
+									- Don't double dip from the 
+									
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Resupply_Pod" target="_blank">Resupply Pod</a>
+									<br />
+									and as well as don't give away somebody else's Resupply.
+									
+									<br /><br />
+									- There is friendly fire!
+
+									<br /><br />
+									- "<span class="general">R</span>" means Ready.
+									
+									<br /><br />
+									- Each Dwarf is special. <br />Get all of them promoted once.
+
+									<br />
+									To see which one you like best.
+
+									<br /><br />
+									- Something was supposed to go here. I forgot...
+									
+									<br /><br />
+									- Buy ALL Gear Modifications on your Armor for boosted Status
+									<br />
+									(Mastery, the Pill/Oblong icons at the bottom)
+								</p>
+			
+							</div>
+
 						</div>
-						<div id="general-tips" class="columns">
 
-							<p class="text-content">
-								- Communication is nice. 
-								<br />
-								Talk to your fellow dwarves. 
+						<div id="general-tips-2" class="hidden">
 
-								<br /><br />
-								Speaking of which...
+							<div id="dwarf-lingo" class="columns">
+			
+								<div class="h1 dwarf-lingo">
 
-								<br /><br />
-								- Don't double dip from the 
-								
-								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Resupply_Pod" target="_blank">Resupply Pod</a>
-								
-								and as well as don't give away somebody else's Resupply.
-								
-								<br /><br />
-								- There is friendly fire!
+										Dwarf Lingo
+	
+								</div>
+			
+								<p class="text-content">
+									
+									Boomerang: 
+									
+									<a title="DRG Wiki" class="scout reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Scout" target="_blank">Scout's</a> 
+									
+									<a title="DRG Wiki" class="scout voltaic-stun-sweeper reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Voltaic_Stun_Sweeper" target="_blank">Voltaic Stun Sweeper</a>
+										
 
-								<br /><br />
-								- "R" means Ready.
-								
-								<br /><br />
-								- Each Dwarf is special. <br />Have at the very least get all of them promoted once. To Bronze 1 Star.
+									<br /><br />
+									"Color" Beards: 
+									<br />
+									Refer to their Player Rank/How long they've been playing/How good they are. Etc. 
 
-								<br /><br />
-								- Something was supposed to go here. I forgot...
-								
-								<br /><br />
-								- Buy ALL Gear Modifications on your Armor for boosted Status
-								<br />
-								(Mastery, the Pill/Oblong icons at the bottom)
-							</p>
+									<br />
+									<span class="green">Green</span>: Newbie <br /> 
+									<span class="grey">Grey</span>: Veteran/Older <br /> 
+									<span class="white">White/Ancient</span> - Veteran/Really Old
 
-						</div>
-					</div>
-
-					<div class="columns-container">
-						<div class="h2">
-							Dwarf Speak
-						</div>
-
-						<div id="dwarf-speak" class="columns">
-
-							<p class="text-content">
-
-								Boomerang: 
-								
-								<a title="DRG Wiki" class="scout reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Scout" target="_blank">Scout's</a> 
-								
-								<a title="DRG Wiki" class="scout voltaic-stun-sweeper reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Voltaic_Stun_Sweeper" target="_blank">Voltaic Stun Sweeper</a>
+									
+									<br /><br />
+									Cheese: 
+									<a title="DRG Wiki" class="engineer reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Engineer" target="_blank">Engineer's</a>
+										
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Platform_Gun" target="_blank">Platforms</a>
 									
 
-								<br /><br />
-								"Color" Beards: 
-								<br />
-								Refer to their Player Rank/How long they've been playing/How good they are. Etc. 
+									<br /><br />
+									Disco Ball/Light Bulb: 
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Enor_Pearl" target="_blank">Enor Pearl</a>
 
-								<br />
-								<span class="green">Green</span>: Newbie <br /> 
-								<span class="grey">Grey</span>: Veteran/Older <br /> 
-								<span class="white">White/Ancient</span> - Veteran/Really Old
-
-								
-								<br /><br />
-								Cheese: 
-								<a title="DRG Wiki" class="engineer reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Engineer" target="_blank">Engineer's</a>
+									<br /><br />
+									EDD: 
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Deep_Dives" target="_blank">Elite Deep Dive</a>
 									
-								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Platform_Gun" target="_blank">Platforms</a>
-								
+									<br /><br />
+									Gold Chunks: 
+									<a title="DRG Wiki" class="gold reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Gold#Compressed_Gold-0" target="_blank">Compressed Gold</a>
 
-								<br /><br />
-								Disco Ball/Light Bulb: 
-								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Enor_Pearl" target="_blank">Enor Pearl</a>
-
-								<br /><br />
-								EDD: 
-								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Deep_Dives" target="_blank">Elite Deep Dive</a>
-								
-								<br /><br />
-								Gold Chunks: 
-								<a title="DRG Wiki" class="gold reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Gold#Compressed_Gold-0" target="_blank">Compressed Gold</a>
-
-								<br /><br />
-								Herald: 
-								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Plagueheart#Rockpox_Corruptor" target="_blank">Rockpox Corruptor</a>
-						
-								<br /><br />
-								OG/Dredd: 
-								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Glyphid_Dreadnought" target="_blank">
-									Original Dreadnaught
-								</a>
-
-
-								<br /><br />
-								Sand Shark: 	
-								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Cave_Leech" target="_blank">Nayaka Trawler</a>
-								
-								<br /><br />
-								Space Pickle: 
-								<a title="DRG Wiki" class="jadiz reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Jadiz" target="_blank">Jadiz</a>
-								
-								<br /><br />
-								
-
-								<br /><br />
-
-								
-								<br /><br />
-
-							</p>
-						</div>
-					</div>
-
-					<div class="columns-container">
-						<div class="h2">
-							Dwarf Traditions
-						</div>
-
-						<div id="dwarf-traditions" class="columns">
-
-
-							<p class="text-content">
-
-								- All Dwarves should Ping <br /> 
-
-								<a title="DRG Wiki" class="bittergem reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Bittergem" target="_blank">Bittergems</a>
-								/
-								<a title="DRG Wiki" class="gold reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Gold#Compressed_Gold-0" target="_blank">Compressed Gold</a>
-
-								<br /> 
-								and or until Management gets mad.
-
-								<br /><br />	
-								Speaking of which... Ping 
-								
-								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/File:BF_Xenofungus_Puffball.png" target="_blank">Mushrooms</a> 
-								
-								<br/>
-								until Management gets mad.
+									<br /><br />
+									Herald: 
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Plagueheart#Rockpox_Corruptor" target="_blank">Rockpox Corruptor</a>
 							
-								<br /><br />
-								It's nice to say Rock-N-Stone when beginning and ending missions or just whenever something good happens.
+									<br /><br />
+									OG/Dredd: 
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Glyphid_Dreadnought" target="_blank">
+										Original Dreadnaught
+									</a>
 
-								<br /><br />
-								When in the 
-								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Drop_Pod" target="_blank">Drop Pod</a>, 
-								<br />
-								Throw your cups in the ceiling aka the cup holders.
-								
-								<br /><br />
-								Speaking of the <a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Drop_Pod" target="_blank">Drop Pod</a>, Slap the Dice.
 
-								<br /><br />
-							</p>
+									<br /><br />
+									Sand Shark: 	
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Cave_Leech" target="_blank">Nayaka Trawler</a>
+									
+									<br /><br />
+									Space Pickle: 
+									<a title="DRG Wiki" class="jadiz reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Jadiz" target="_blank">Jadiz</a>
+									
+									<br /><br />
+									
+
+									<br /><br />
+
+									
+									<br /><br />
+
+								</p>
+			
+							</div>
+
 						</div>
+
+						<div id="general-tips-3" class="hidden">
+
+							<div id="dwarf-rituals" class="columns">
+			
+								<div class="h1 dwarf-rituals">
+
+									Dwarf Rituals
+
+								</div>
+			
+								<p class="text-content">
+
+									- All Dwarves should Ping <br /> 
+
+									<a title="DRG Wiki" class="bittergem reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Bittergem" target="_blank">Bittergems</a>
+									/
+									<a title="DRG Wiki" class="gold reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Gold#Compressed_Gold-0" target="_blank">Compressed Gold</a>
+
+									<br /> 
+									and or until Management gets mad.
+
+									<br /><br />	
+									Speaking of which... Ping 
+									
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/File:BF_Xenofungus_Puffball.png" target="_blank">Mushrooms</a> 
+									
+									<br/>
+									until Management gets mad.
+								
+									<br /><br />
+									It's nice to say Rock-N-Stone when beginning and ending missions or just whenever something good happens.
+
+									<br /><br />
+									When in the 
+									<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Drop_Pod" target="_blank">Drop Pod</a>, 
+									<br />
+									Throw your cups in the ceiling aka the cup holders.
+									
+									<br /><br />
+									Speaking of the <a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Drop_Pod" target="_blank">Drop Pod</a>, Slap the Dice.
+
+									<br /><br />
+ 
+								</p>
+			
+							</div>
+
+						</div>
+
 					</div>
-				</div>
+
+
+
+				</div>				
 
 			</div>
 		<!-- #endregion - GENERAL TIPS -->
@@ -342,6 +406,7 @@
 								</a>
 							</div>
 
+							
 							<div class="h1">
 								<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('driller-playstyle');">
 									<div class="plus-minus">+</div> Playstyle Tips
@@ -1781,7 +1846,7 @@
 								<div class="h2">
 									<a title="Click To Show" class="general header-link" href="#mission-0">
 										
-										<img title="Egg Hunt" class="mission-icons" src="https://deeprockgalactic.wiki.gg/images/e/ea/Icon_MinersManual_Mission_Terminal.png" alt="&nbsp;"/>
+										<img title="General Mission Tips" class="mission-icons" src="https://deeprockgalactic.wiki.gg/images/e/ea/Icon_MinersManual_Mission_Terminal.png" alt="&nbsp;"/>
 										General Tips
 
 									</a>

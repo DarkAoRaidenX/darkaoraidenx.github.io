@@ -49,18 +49,17 @@ ul li {
 
 ul#nav-header li {
 	margin-left: 10px;
-	height: 
-	45px;
+	height: 45px;
 }
 
-ul#nav-missions {
+ul#nav-general-tips,ul#nav-missions {
 	width: 520px;
 	text-align: left;
 	position: relative;
 	left: 60px;
 }
 
-ul#nav-missions li {
+ul#nav-general-tips li,ul#nav-missions li {
 	display: block;
 } 
 
@@ -297,8 +296,8 @@ p.text-content {
 	color: #ec407a;
 }
 
-.gold {
-	color: #ffa000;
+.gold, .dwarf-rituals {
+	color: #ffc107;
 }
 
 .jadiz {
@@ -328,11 +327,11 @@ p.text-content {
 	color: #03a9f4;
 }
 
-.deepcore-gk2, .voltaic-stun-sweeper {
+.deepcore-gk2,.dwarf-lingo, .voltaic-stun-sweeper {
 	color: #1e88e5;
 }
 
-.drak-25, .audio-visual, .suggestion-perks {
+.drak-25,.audio-visual,.suggestion-perks {
 	color: #ba68c8;
 }
 
@@ -368,9 +367,11 @@ p.text-content {
 	color: #2196f3;
 }
 
-.wave-cooker,.green,.qol,.verified  {
+.wave-cooker,.general-info-tips,.green,.qol,.verified  {
 	color: #4caf50;	
 }
+
+/* #region - equipment border colors */
 
 #driller-equipment-2 {
 	border: 4px solid #03a9f4;
@@ -420,6 +421,7 @@ p.text-content {
 	border: 4px solid #29b6f6;
 }
 
+/* #endregion - equipment border colors */
 
 /* #endregion - weapons colors */
 
@@ -437,7 +439,7 @@ a.category {
 }
 
 a.highlighted {
-	color:#000
+	color:#000;
 }
 
 a.category,a.highlighted, a.imgur,#tabs-3 a.header-link, .perks a.header-link, a.link-icon, ul#nav-missions a {
@@ -575,33 +577,6 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 
 /* #region - tabs-content */
 
-.tabs-container {
-	position: absolute;
-	top: 0;
-	z-index: -100;
-	width: 1920px;
-	height: 100%;
-}
-
-.tabs-content {
-	margin: auto;
-	z-index: 200;
-}
-
-.columns-container {
-	margin-right: 8px;
-}
-
-
-.columns,.columns-container {
-	display: inline-block;
-	vertical-align: top;
-	overflow-x: hidden;
-	overflow-y: auto;
-}
-
-
-
 #tabs-1 {
 	background: 
     url("https://i.imgur.com/kqBzB0o.jpg") 
@@ -651,6 +626,32 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 	no-repeat
 }
 
+.tabs-container {
+	position: absolute;
+	top: 0;
+	z-index: -100;
+	width: 1920px;
+	height: 100%;
+}
+
+.tabs-content {
+	margin: auto;
+	z-index: 200;
+}
+
+.columns-container {
+	margin-right: 8px;
+}
+
+
+.columns,.columns-container {
+	display: inline-block;
+	vertical-align: top;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+
 #tab1-content  {	
 	background: rgba(0,0,0,0.85);
 	height: 860px;
@@ -674,12 +675,8 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 	border: 2px solid #757575;
 }
 
-#tabs-1 .columns {	
-	height: 675px;
-	width: 485px;
-}
 
-#tabs-2 .columns {	
+#tabs-1 .columns {	
 	height: 675px;
 	width: 485px;
 }
@@ -696,12 +693,19 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 	width: 485px;
 }
 
-#tabs-5 .columns {
+#tabs-2 .columns,#tabs-5 .columns {
 	position: relative;
-	margin-top: -360px;
-	left: 200px;
+	left: 205px;
 	height: 680px;
 	width: 1000px;
+}
+
+#tabs-2 .columns {
+	margin-top: -150px;
+}
+
+#tabs-5 .columns {
+	margin-top: -360px;
 }
 
 #tabs-6 .columns {

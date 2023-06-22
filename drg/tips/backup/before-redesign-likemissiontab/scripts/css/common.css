@@ -575,33 +575,6 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 
 /* #region - tabs-content */
 
-.tabs-container {
-	position: absolute;
-	top: 0;
-	z-index: -100;
-	width: 1920px;
-	height: 100%;
-}
-
-.tabs-content {
-	margin: auto;
-	z-index: 200;
-}
-
-.columns-container {
-	margin-right: 8px;
-}
-
-
-.columns,.columns-container {
-	display: inline-block;
-	vertical-align: top;
-	overflow-x: hidden;
-	overflow-y: auto;
-}
-
-
-
 #tabs-1 {
 	background: 
     url("https://i.imgur.com/kqBzB0o.jpg") 
@@ -650,6 +623,32 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 	top center / 1920px 100%
 	no-repeat
 }
+
+.tabs-container {
+	position: absolute;
+	top: 0;
+	z-index: -100;
+	width: 1920px;
+	height: 100%;
+}
+
+.tabs-content {
+	margin: auto;
+	z-index: 200;
+}
+
+.columns-container {
+	margin-right: 8px;
+}
+
+
+.columns,.columns-container {
+	display: inline-block;
+	vertical-align: top;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
 
 #tab1-content  {	
 	background: rgba(0,0,0,0.85);
