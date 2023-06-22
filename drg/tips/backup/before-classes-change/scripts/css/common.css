@@ -1,0 +1,782 @@
+body {
+	color: white;
+	background:
+    #000;
+	border: 0 solid #000;
+	font-family: rift-soft-bold, arial, helvetica, sans-serif;
+	text-align: center;
+}
+
+@font-face {
+	font-family: rift-soft-bold;
+	src: url(fonts/rift-soft-bold.ttf);
+}
+
+/* #region - global */
+
+img,fieldset {
+	border: none;
+}
+
+/* null margins and padding to give good cross-browser baseline */
+html,body,address,blockquote,div,
+form,fieldset,caption,
+h1,h2,h3,h4,h5,h6,
+hr,ul,li,ol,ul,
+table,tr,td,th,p,img {
+	margin:0;
+	padding:0;
+}
+
+* { 
+	scrollbar-width: none; 
+} 
+
+.hidden, ::-webkit-scrollbar {
+	display: none;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	display: inline-block;
+} 
+
+
+ul#nav-header li {
+	margin-left: 10px;
+	height: 
+	45px;
+}
+
+ul#nav-missions {
+	width: 520px;
+	text-align: left;
+	position: relative;
+	left: 60px;
+}
+
+ul#nav-missions li {
+	display: block;
+} 
+
+
+
+.spacer {
+	display: block;
+	height: 8px;
+}
+
+.nav-content-spacer {
+	display: block;
+	height: 48px;
+}
+
+/* #region - text */
+
+.h1 {
+	font-size: 48px;
+	line-height: 50px;
+}
+
+.h2 {
+	font-size: 36px;
+	line-height: 36px;
+}
+
+.h3 {
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.equipment .h2 {
+	font-size: 24px;
+}
+
+.aka {
+	font-size: 20px;
+}
+
+/* .lazy-move {
+	display: inline-block;
+	margin-right: 50px;
+} */
+
+p.text-content {
+	font-size: 24px;
+	line-height: 20px;
+}
+
+#tabs-1 p.text-content {
+	font-size: 32px;
+	line-height: 32px;
+}
+
+#tabs-2 p.text-content {
+	font-size: 24px;
+	line-height: 24px;
+}
+
+#tabs-3 p.text-content {
+	font-size: 20px;
+	line-height: 20px;
+}
+
+#tabs-5 p.text-content {
+	font-size: 28px;
+	line-height: 28px;
+}
+
+
+#tabs-1 .columns p.text-content, #tabs-2 .columns p.text-content {
+	font-size: 24px;
+	line-height: 32px;
+}
+
+
+#tabs-4 p.text-content  {
+	font-size: 18px;
+	line-height: 20px;
+}
+
+#tabs-7 p.text-content,#tabs-6 p.text-content {
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.equipment p.text-content {
+	line-height: 22px;
+	min-height: 700px;
+}
+
+.plus-minus {
+	display: inline-block;
+	top: 5px;
+	position: relative;
+ 	font-size: 48px;
+	color: #fff;
+}
+
+
+/* #region - colors */
+
+
+.h1, .h2, .h3, .general, .playstyle, .header-link,.presses,.reg-link {
+	color: #f89d06;
+}
+
+.h2.active-perk a {
+	color: #4bbfa5;
+}
+
+.h2.passive-perk a {
+	color: #b93253;
+}
+
+
+
+/* #region - names colors */
+
+.active-perk {
+	color: #4bbfa5;
+}
+
+.discord {
+	color: #5865F2;
+}
+
+/* #dwarf-speak .grey2 {
+	background-color: #78909c;
+	color: #000;
+}
+
+#dwarf-speak .green2 {
+	background-color: #4caf50;
+	color: #000;
+} */
+
+
+
+.grey {
+	color: #9e9e9e;
+}
+
+.passive-perk {
+	color: #b93253;
+}
+
+.red, .youtube {
+	color: #ff0000;
+}
+
+.white {
+	color: #fff;
+}
+
+/* #dwarf-speak .white {
+	background-color: #f5f5f5;
+	color: #000;
+} */
+
+
+/* #region -  dwarves colors */
+
+.driller, .approved {
+	color: #fdd835;
+}
+
+.engineer {
+	color: #b71c1c;
+}
+
+.gunner {
+	color: green;
+}
+
+.scout {
+	color: #2646FF;
+}
+
+/* #endregion - dwarves colors */
+
+/* #region -  mission colors */
+
+.egg-hunt {
+	color: #B8008C;
+}
+
+.elimination-dreads {
+	color: #DBDA00;
+}
+
+.escort-duty {
+	color: #03FFA1;
+}
+
+.industrial-sabotage {
+	color: #BB2BFF;
+}
+
+.morkite {
+	color: #FE9603;
+}
+
+.point-extraction {
+	color: #68C900;
+}
+
+.on-site-refining {
+	color: #0070FE;
+}
+
+.mules {
+	color: #00D6D9;
+}
+
+.deep-dives {
+	color: #FFB000;
+}
+
+/* #endregion - mission colors */
+
+
+/* #endregion - names colors */
+
+/* #region - gems / minerals colors */
+
+
+.aquarq {
+	color: #2646FF;
+}
+
+.bittergem {
+	color: #ec407a;
+}
+
+.gold {
+	color: #ffa000;
+}
+
+.jadiz {
+	color: #8bc34a;
+}
+
+.nitra {
+	color: #c62828;
+}
+
+
+
+
+
+/* #endregion - gems / minerals colors */
+
+/* #region - weapons colors */
+.auto-cannon {
+	color: #1b5e20;
+}
+
+.auto-shotgun {
+	color: #8d6e63;
+}
+
+.cyro {
+	color: #03a9f4;
+}
+
+.deepcore-gk2, .voltaic-stun-sweeper {
+	color: #1e88e5;
+}
+
+.drak-25, .audio-visual, .suggestion-perks {
+	color: #ba68c8;
+}
+
+.epc {
+	color: #673ab7;	
+}
+
+.fire, .sandbox {
+	color: #de3800;
+}
+
+.hurricane {
+	color: #2e7d32;
+}
+
+.m1000, .misc-mods {
+	color: #29b6f6;
+}
+
+.minigun {
+	color: #37474f;
+}
+
+.sludge {
+	color: #cddc39;
+}
+
+.smart-rifle {
+	color: #607d8b;
+}
+
+.stubby-smg {
+	color: #2196f3;
+}
+
+.wave-cooker,.green,.qol,.verified  {
+	color: #4caf50;	
+}
+
+#driller-equipment-2 {
+	border: 4px solid #03a9f4;
+}
+
+#driller-equipment-3 {
+	border: 4px solid #de3800;
+}
+
+#driller-equipment-4 {
+	border: 4px solid #cddc39;
+}
+
+#engineer-equipment-2 {
+	border: 4px solid #8d6e63;
+}
+
+#engineer-equipment-3 {
+	border: 4px solid #607d8b;
+}
+
+#engineer-equipment-4 {
+	border: 4px solid #2196f3;
+}
+
+#gunner-equipment-2 {
+	border: 4px solid #1b5e20;
+}
+
+#gunner-equipment-3 {
+	border: 4px solid #263238;
+}
+
+#gunner-equipment-4 {
+	border: 4px solid #2e7d32;
+}
+
+#scout-equipment-2 {
+	border: 4px solid #1e88e5;
+}
+
+#scout-equipment-3 {
+	border: 4px solid #ba68c8;
+}
+
+#scout-equipment-4 {
+	border: 4px solid #29b6f6;
+}
+
+
+/* #endregion - weapons colors */
+
+
+/* #endregion - colors */
+
+
+/* #region - links */
+
+/* #region - global links */
+
+a.category {
+	font-size: 24px;
+	color: #fff;
+}
+
+a.highlighted {
+	color:#000
+}
+
+a.category,a.highlighted, a.imgur,#tabs-3 a.header-link, .perks a.header-link, a.link-icon, ul#nav-missions a {
+	text-decoration: none;
+}
+
+a.highlighted:hover {
+	text-decoration: underline;
+}
+
+a.imgur,.perks a.link-icon {
+	font-size: 24px;
+}
+
+a.reg-link {
+	text-decoration: underline;
+}
+
+
+/* #endregion - global links */
+
+/* #region - links - backgrounds */
+
+a.active-perk2 {
+	background-color: #4bbfa5;
+	color: #000;
+}
+
+a.passive-perk2 {
+	background-color: #b93253;
+	color: #000;
+}
+
+
+/* #region - overclocks */
+
+.balanced2 {
+	background-color: #e9Ca37;
+}
+
+.clean2, .imgur {
+	background-color: #379C5d;
+}
+
+.unstable2 {
+	background-color: #de3800;
+}
+
+/* #endregion - overclocks */
+
+
+/* #region - weapons */
+
+a.auto-cannon2 {
+	background-color: #1b5e20;
+}
+
+a.auto-shotgun2 {
+	background-color: #8d6e63;
+}
+
+a.axes2 {
+	background-color: #78909c;
+}
+
+a.cyro2 {
+	background-color: #03a9f4;
+}
+
+a.deepcore-gk2-2 {
+	background-color: #03a9f4;
+}
+
+a.drak-25-2 {
+	background-color: #03a9f4;
+}
+
+a.epc2 {
+	background-color: #7e57c2;
+}
+
+a.hurricane2 {
+	background-color: #2e7d32;
+}
+
+a.m1000-2 {
+	background-color: #37474f;
+}
+
+a.minigun2 {
+	background-color: #263238;
+}
+
+a.smart-rifle2 {
+	background-color: #607d8b;
+}
+
+a.stubby-smg2 {
+	background-color: #2196f3;
+}
+
+a.wave-cooker2 {
+	background-color: #4caf50;
+}
+
+/* #endregion - weapons */
+
+/* #end region - links - backgrounds */
+
+
+
+
+
+/* #endregion - links */
+
+
+/* #endregion - text */
+
+
+/* #endregion - global */
+
+
+/* #region - nav buttons */
+#nav-buttons {
+	display: flex;
+	justify-content: center;
+}
+
+ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
+	background-color: #f89d06;
+}
+
+
+/* #endregion - nav buttons */
+
+/* #region - tabs-content */
+
+.tabs-container {
+	position: absolute;
+	top: 0;
+	z-index: -100;
+	width: 1920px;
+	height: 100%;
+}
+
+.tabs-content {
+	margin: auto;
+	z-index: 200;
+}
+
+.columns-container {
+	margin-right: 8px;
+}
+
+
+.columns,.columns-container {
+	display: inline-block;
+	vertical-align: top;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+
+
+#tabs-1 {
+	background: 
+    url("https://i.imgur.com/kqBzB0o.jpg") 
+	top center / 1920px 100%
+	no-repeat
+}
+
+#tabs-2 {
+	background: 
+    url("https://i.imgur.com/51kKjmk.jpg") 
+	top center / 1920px 100%
+	no-repeat
+}
+
+#tabs-3 {
+	background: 
+    url("https://deeprockgalactic.wiki.gg/images/b/b0/Site-background-light.png") 
+	top center / 1920px 100%
+	no-repeat
+}
+
+#tabs-4 {
+	background: 
+    url("https://i.imgur.com/h6euCEJ.png") 
+	top center / 1920px 1080px
+	no-repeat
+}
+
+#tabs-5 {
+	background: 
+    url("https://i.imgur.com/piaYCAd.jpg") 
+	top center / 1920px 100%
+	no-repeat
+}
+
+#tabs-6 {
+	background: 
+    url("https://deeprockgalactic.wiki.gg/images/6/6b/The_Forge_Front.png") 
+	top center / 1920px 100%
+	no-repeat
+}
+
+#tabs-7 {
+	background: 
+    url("https://deeprockgalactic.wiki.gg/images/4/46/Cabin_2.jpg") 
+	top center / 1920px 100%
+	no-repeat
+}
+
+#tab1-content  {	
+	background: rgba(0,0,0,0.85);
+	height: 860px;
+	width: 1575px;
+}
+
+#tab2-content {	
+	background: rgba(0,0,0,0.75);
+	height: 860px;
+	width: 1575px;
+}
+
+
+#tab4-content,#tab5-content,#tab6-content   {	
+	background: rgba(0,0,0,0.85);
+	height: 860px;
+	width: 1575px;
+}
+
+#tabs-2 .columns,#tabs-5 .columns,#tabs-4 .columns,#tabs-6 .columns {
+	border: 2px solid #757575;
+}
+
+#tabs-1 .columns {	
+	height: 675px;
+	width: 485px;
+}
+
+#tabs-2 .columns {	
+	height: 675px;
+	width: 485px;
+}
+
+
+#tabs-3 .columns {	
+	background: rgba(0,0,0,0.90);
+	height: 860px;
+	width: 470px;
+}
+
+#tabs-4 .columns {	
+	height: 665px;
+	width: 485px;
+}
+
+#tabs-5 .columns {
+	position: relative;
+	margin-top: -360px;
+	left: 200px;
+	height: 680px;
+	width: 1000px;
+}
+
+#tabs-6 .columns {
+	height: 520px;
+	width: 485px;
+}
+
+#tabs-7 .columns {	
+	background: rgba(0,0,0,0.80);
+	height: 860px;
+	width: 1575px;
+}
+
+
+/* #endregion - tabs-content */
+
+
+/* #region - images */
+
+img.buttons {
+	width: 210px;
+	height: 45px;
+}
+
+.perk-icons {
+	width: 32px;
+	height: 32px;
+	position: relative;
+	top: 5px;
+}
+
+
+
+#tabs-1 .rock-n-stone {
+	width: 48px;
+	height: 48px;
+	position: relative;
+	top: 5px;
+	right: 10px;
+}
+
+#driller {
+	width: 170px;
+	height: 160px;
+}
+
+#engineer {
+	width: 140px;
+	height: 160px;
+}
+
+#gunner {
+	width: 170px;
+	height: 160px;
+}
+
+#scout {
+	width: 120px;
+	height: 160px;
+}
+
+#tabs-5 .mission-icons, #tabs-5 .deep-dive-icon {
+	width: 32px;
+	height: 32px;
+	position: relative;
+	top: 5px;
+}
+
+
+#tabs-7 .rock-n-stone, #tabs-7 .deep-dive-icon {
+	width: 40px;
+	height: 40px;
+	position: relative;
+	top: 5px;
+}
+
+
+/* #endregion - images */
