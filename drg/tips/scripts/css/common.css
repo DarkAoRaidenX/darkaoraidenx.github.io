@@ -686,8 +686,20 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 	width: 1575px;
 }
 
-#tabs-2 .columns,#tabs-5 .columns,#tabs-4 .columns,#tabs-6 .columns {
+#tabs-5 .columns,#tabs-4 .columns,#tabs-6 .columns {
 	border: 2px solid #757575;
+}
+
+#tabs-2 #general-info-tips {
+	border: 2px solid #4caf50;
+}
+
+#tabs-2 #dwarf-lingo {
+	border: 2px solid #1e88e5;
+}
+
+#tabs-2 #dwarf-rituals {
+	border: 2px solid #ffc107;
 }
 
 #tabs-3 #dwarf-driller {
