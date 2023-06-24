@@ -766,7 +766,13 @@ img.buttons {
 	top: 5px;
 }
 
-
+.nav-icons {
+	width: 48px;
+	height: 48px;
+	position: relative;
+	top: 8px;
+	left: 10px;
+}
 
 #tabs-1 .rock-n-stone {
 	width: 48px;
