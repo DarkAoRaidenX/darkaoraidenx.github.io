@@ -28,11 +28,15 @@ table,tr,td,th,p,img {
 	padding:0;
 }
 
-* { 
+/* * { 
 	scrollbar-width: none; 
 } 
 
-.hidden, ::-webkit-scrollbar {
+, ::-webkit-scrollbar {
+	display: none;
+} */
+
+.hidden {
 	display: none;
 }
 
@@ -256,7 +260,7 @@ li.separator {
 /* #region -  mission colors */
 
 .egg-hunt {
-	color: #B8008C;
+	color: #b8008c;
 }
 
 .elimination-dreads {
@@ -290,6 +294,52 @@ li.separator {
 .deep-dives {
 	color: #FFB000;
 }
+
+/* #region - mission border colors */
+
+#mission-general-tips {
+	border: 4px solid #f89d06;
+}
+
+#mission-egg-hunt {
+	border: 4px solid #b8008c;
+}
+
+#mission-dreads {
+	border: 4px solid #DBDA00;
+}
+
+#mission-escort-duty {
+	border: 4px solid #03FFA1;
+}
+
+#mission-industrial-sabotage {
+	border: 4px solid #BB2BFF;
+}
+
+#mission-morkite {
+	border: 4px solid #FE9603;
+}
+
+#mission-aquarqs {
+	border: 4px solid #68C900;
+}
+
+#mission-liquid-morkite {
+	border: 4px solid #0070FE;
+}
+
+#mission-mules {
+	border: 4px solid #00D6D9;
+}
+
+#mission-deep-dives {
+	border: 4px solid #FFB000;
+}
+
+/* #endregion - mission border colors */
+
+
 
 /* #endregion - mission colors */
 
@@ -436,6 +486,40 @@ li.separator {
 
 /* #endregion - weapons colors */
 
+/* #region - perks border colors */
+
+#suggested-perks {
+	border: 4px solid #ba68c8;
+}
+
+#active-perks {
+	border: 4px solid #4bbfa5;
+}
+
+#passive-perks {
+	border: 4px solid #b93253;
+}
+
+
+/* #endregion - perks border colors */
+
+
+/* #region - mods border colors */
+
+#audio-visual-mods {
+	border: 4px solid #ba68c8;
+}
+
+#misc-mods {
+	border: 4px solid #29b6f6;
+}
+
+#qol-mods {
+	border: 4px solid #4caf50;
+}
+
+
+/* #endregion - mods border colors */
 
 /* #endregion - colors */
 
@@ -686,36 +770,34 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 	width: 1575px;
 }
 
-#tabs-5 .columns,#tabs-4 .columns,#tabs-6 .columns {
-	border: 2px solid #757575;
-}
+
 
 #tabs-2 #general-info-tips {
-	border: 2px solid #4caf50;
+	border: 4px solid #4caf50;
 }
 
 #tabs-2 #dwarf-lingo {
-	border: 2px solid #1e88e5;
+	border: 4px solid #1e88e5;
 }
 
 #tabs-2 #dwarf-rituals {
-	border: 2px solid #ffc107;
+	border: 4px solid #ffc107;
 }
 
 #tabs-3 #dwarf-driller {
-	border: 2px solid #fdd835;
+	border: 4px solid #fdd835;
 }
 
 #tabs-3 #dwarf-engineer {
-	border: 2px solid #b71c1c;
+	border: 4px solid #b71c1c;
 }
 
 #tabs-3 #dwarf-gunner {
-	border: 2px solid #008000;
+	border: 4px solid #008000;
 }
 
 #tabs-3 #dwarf-scout {
-	border: 2px solid #2646FF;
+	border: 4px solid #2646FF;
 }
 
 
@@ -771,6 +853,13 @@ img.buttons {
 	height: 45px;
 }
 
+.scroll-down {
+	position: absolute;
+	right: 5px;
+	width: 64px;
+	height: 50px;
+}
+
 .perk-icons {
 	width: 32px;
 	height: 32px;
@@ -786,12 +875,11 @@ img.buttons {
 	left: 10px;
 }
 
-#tabs-1 .rock-n-stone {
-	width: 48px;
-	height: 48px;
+#tabs-1 .rock-n-stone,#tabs-2 .rock-n-stone,#tabs-7 .rock-n-stone, #tabs-7 .deep-dive-icon  {
+	width: 40px;
+	height: 52px;
 	position: relative;
 	top: 5px;
-	right: 10px;
 }
 
 #driller-portrait,#engineer-portrait,#gunner-portrait,#scout-portrait {
@@ -817,14 +905,6 @@ img.buttons {
 #tabs-5 .mission-icons, #tabs-5 .deep-dive-icon {
 	width: 32px;
 	height: 32px;
-	position: relative;
-	top: 5px;
-}
-
-
-#tabs-7 .rock-n-stone, #tabs-7 .deep-dive-icon {
-	width: 40px;
-	height: 40px;
 	position: relative;
 	top: 5px;
 }
