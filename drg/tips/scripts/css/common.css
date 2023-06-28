@@ -248,7 +248,7 @@ li.separator {
 }
 
 .gunner {
-	color: green;
+	color: #008000;
 }
 
 .scout {
@@ -346,6 +346,7 @@ li.separator {
 
 /* #endregion - names colors */
 
+
 /* #region - gems / minerals colors */
 
 
@@ -374,6 +375,7 @@ li.separator {
 
 
 /* #endregion - gems / minerals colors */
+
 
 /* #region - weapons colors */
 .auto-cannon {
@@ -485,6 +487,33 @@ li.separator {
 /* #endregion - equipment border colors */
 
 /* #endregion - weapons colors */
+
+
+/* #region - dwarves | tips colors */
+
+ul#driller-tips li.separator {
+	color: #fdd835;
+}
+
+
+ul#engineer-tips li.separator {
+	color: #b71c1c;
+}
+
+
+ul#gunner-tips li.separator {
+	color: #008000;
+}
+
+
+ul#scout-tips li.separator {
+	color: #2646FF;;
+}
+
+
+
+/* #region - dwarves | tips colors */
+
 
 /* #region - perks border colors */
 
