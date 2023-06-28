@@ -1,0 +1,1500 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Legendary Beast's Blood</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/bloods.ico">
+	<script src="../scripts/jquery/3.6.3.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
+</head>
+<body id="lb-blood-page">
+
+<!-- #region - Legendary-Beasts-Blood-Container -->
+	<div id="lb-blood-container" class="items-container bloods recipes" draggable="true" ondragstart="drag(event)">
+
+		<!-- #region - Legendary-Beasts-Blood Button -->
+			<div class="button bloods-button top">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('lb-blood-content');">
+
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div>
+
+					<img class="icons icons1 lb-blood-icon" src="images/icons/bloods/legendary-beasts.webp" alt="Icon" /> Legendary Beast's Blood
+				</a>
+
+				<div class="right">
+					<a title="Legendary Beast's Blood" class="links" href="https://bdocodex.com/us/item/6351/" target="_blank">🔗</a>
+				</div>
+
+			</div>
+		<!-- #endregion - Legendary-Beasts-Blood Button -->
+
+		<!-- #region - Legendary-Beasts-Blood-info -->
+			<div id="lb-blood-content" class="hidden">
+				
+
+				<!-- #region - Legendary-Beasts-Blood-Recipe-Pure-Powder-Reagent Button -->
+					<div class="button ppr-button">
+
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('lb-blood-recipe-lb-blood-ppr');">
+
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div>
+
+							<img class="icons icons1 lb-blood-ppr-icon" src="images/icons/alchemy/pure-powder-reagent.webp" alt="Icon" />
+							Pure Powder Reagent
+						</a>
+
+						<div class="right">
+							<div class="dots">
+								<span class="circleText amount">1</span>
+							</div>
+
+							<a title="Pure Powder Reagent" class="links" href="https://bdocodex.com/us/item/5302/" target="_blank">🔗</a>
+						</div>
+
+
+					</div>
+				<!-- #region - Legendary-Beasts-Blood-Recipe-Pure-Powder-Reagent Button -->
+
+				<!-- #region - Legendary-Beasts-Blood-Recipe-Pure-Powder-Reagent -->
+					<div id="lb-blood-recipe-lb-blood-ppr" class="hidden">
+
+						<!-- #region - Legendary-Beasts-Blood-Recipe-Pure-Powder-Reagent Grass Button -->
+							<div class="button blue-bg4 grass-button">
+
+								<a title="Content Button" class="button-link" href="javascript:toggleDiv('lb-blood-ppr-grass');">
+
+								<div class="left">
+									<div class="dots">
+										<span class="dot-plus">+</span>
+									</div>
+								</div>
+
+								<img class="icons icons1" src="images/icons/gathering/plants/wild-grass.webp" alt="Icon" />
+									Grass
+								</a>
+
+
+								<div class="right">
+									<div class="dots">
+										<span class="circleText amount">1</span>
+									</div>
+
+									<a title="Gathering Guide" class="links" href="https://grumpygreen.cricket/bdo-gathering/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Legendary-Beasts-Blood-Recipe-Pure-Powder-Reagent Grass Button -->
+
+						<!-- #region - Legendary-Beasts-Blood-Recipe-Pure-Powder-Reagent Grass -->
+							<div id="lb-blood-ppr-grass" class="info hidden">
+
+								<div class="item-link">
+									<a title="Weeds" class="links2 grade2" href="https://bdocodex.com/us/item/5600/" target="_blank">
+									<img class="icons icons1" src="images/icons/gathering/plants/weeds.webp" alt="Icon" />
+									Weeds
+									</a>
+									
+
+
+									<a title="Wild Grass" class="links2 grade2" href="https://bdocodex.com/us/item/5600/" target="_blank">
+									<img class="icons icons1" src="images/icons/gathering/plants/wild-grass.webp" alt="Icon" />
+									Wild Grass
+									</a>
+									
+								</div>
+
+							</div>
+						<!-- #endregion - Legendary-Beasts-Blood-Recipe-Pure-Powder-Reagent Grass -->
+
+
+						<!-- #region - Legendary-Beasts-Blood-Recipe-Purified-Water Button -->
+							<div class="button blue-bg4 purified-water-button">
+
+								<a title="Content Button" class="button-link" href="javascript:toggleDiv('lb-blood-ppr-pw');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div>
+
+									<img class="icons icons1" src="images/icons/waters/purified.webp" alt="Icon" />
+									Purified Water
+
+								</a>
+
+
+								<div class="right">
+
+									<div class="dots">
+										<span class="circleText amount">1</span>
+									</div>
+
+									<a title="Purified Water" class="links" href="https://bdocodex.com/us/item/6656/" target="_blank">🔗</a>
+
+								</div>
+
+							</div>
+						<!-- #endregion - Legendary-Beasts-Blood-Recipe-Purified-Water Button -->
+
+						<!-- #region - Legendary-Beasts-Blood-Recipe-Purified-Water -->
+							<div id="lb-blood-ppr-pw" class="info hidden">
+
+									<div class="item-link">
+										<a title="Bottle of Clean Water" class="links2 grade2" href="https://bdocodex.com/us/item/6655/" target="_blank">
+											<img class="icons icons1 bocw-icon" src="images/icons/waters/clean.webp" alt="Icon" />
+											Bottle of Clean Water
+										</a>
+										<div class="right">
+											<div class="dots">
+													<span class="circleText amount">1</span>
+											</div>
+
+											<a title="Filtering - Processing Guide" class="links2 grade2" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">
+												<img class="icons icons1" src="images/icons/processing/filtering.webp" alt="Icon" />
+											</a>
+
+										</div>
+									</div>
+
+									<div class="item-link">
+										<a title="Bottle of River Water" class="links2 grade2" href="https://bdocodex.com/us/item/6653/" target="_blank">
+											<img class="icons icons1 borw-icon" src="images/icons/waters/river.webp" alt="Icon" />
+											Bottle of River Water
+										</a>
+										<div class="right">
+											<div class="dots">
+													<span class="circleText amount">1</span>
+											</div>
+
+											<a title="Filtering - Processing Guide" class="links2 grade2" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">
+												<img class="icons icons1" src="images/icons/processing/filtering.webp" alt="Icon" />
+											</a>
+
+										</div>
+									</div>
+
+							</div>
+						<!-- #endregion - Legendary-Beasts-Blood-Recipe-Purified-Water -->
+
+
+						<!-- #region - Pure-Powder-Reagent-SAZ Button -->
+							<div class="button blue-bg4 silver-azalea-button">
+
+								<a title="Content Button" class="button-link" href="javascript:toggleDiv('lb-blood-ppr-saz');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div>
+
+									<img class="icons icons1" src="images/icons/gathering/plants/silver-azalea.webp" alt="Icon" />
+									Silver Azalea
+
+								</a>
+
+								<div class="right">
+
+									<div class="dots">
+										<span class="circleText amount">1</span>
+									</div>
+
+									<a title="Silver Azalea" class="links" href="https://bdocodex.com/us/item/5402/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Pure-Powder-Reagent-SAZ Button -->
+
+						<!-- #region - Pure-Powder-Reagent-SAZ -->
+							<div id="lb-blood-ppr-saz" class="info hidden">
+
+								<!-- #region - Pure-Powder-Reagent-SAZ-How-To-Get-Nodes Button -->
+									<div class="button nodes-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('lb-blood-ppr-saz-htg-nodes');">
+
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div>
+
+											<img class="icons icons1 nodes-icon" src="images/icons/menu/nodes/nodes.webp" alt="Icon" /> Nodes
+										</a>
+
+										<div class="right">
+											<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+										</div>
+
+									</div>
+								<!-- #endregion - Pure-Powder-Reagent-SAZ-How-To-Get-Nodes Button -->
+									
+								<!-- #region - Pure-Powder-Reagent-SAZ-How-To-Get-Nodes -->
+									<div id="lb-blood-ppr-saz-htg-nodes" class="info hidden">
+										
+										<!-- #region - Pure-Powder-Reagent-SAZ-Nodes-Links -->
+											<div class="links-content">
+
+													<a title="Balenos Forest - Gathering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/168" target="_blank">
+														<img class="icons icons1 nodes-gathering-icon" src="images/icons/menu/nodes/gathering.webp" alt="Icon" />
+														Balenos Forest - Gathering
+													</a>
+
+													<div class="node-selection-content">
+														<select title="Click for all CP Routes" id="lb-blood-ppr-saz-htg-node-selection-1" class="node-selection">
+
+															<option id="lb-blood-ppr-saz-htg-node-cp-route-1" value="5" selected>
+																Cheapest Route To: Heidel (5CP)
+															</option>
+
+															<optgroup label="Start: (0CP) - Heidel">
+																<option id="lb-blood-ppr-saz-htg-node-route-1-option-1" value="1">
+																	(1CP) Bartali Farm
+																</option>
+																<option id="lb-blood-ppr-saz-htg-node-route-1-option-2" value="2">
+																	(2CP) Balenos Forest
+																</option>
+																<option id="lb-blood-ppr-saz-htg-node-route-1-option-3" value="2">
+																	(2CP) Balenos Forest - Gathering
+																</option>
+															</optgroup>
+
+														</select>
+													</div>
+
+													
+													<br />
+													<a title="Cron Castle Site - Gathering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/155" target="_blank">
+														<img class="icons icons1 nodes-gathering-icon" src="images/icons/menu/nodes/gathering.webp" alt="Icon" />
+														Cron Castle Site - Gathering
+													</a>
+
+													<div class="node-selection-content">
+														<select title="Click for all CP Routes" id="lb-blood-ppr-saz-htg-node-selection-2" class="node-selection">
+															
+															<option id="lb-blood-ppr-saz-htg-node-cp-route-2" value="4" selected>
+																Cheapest Route To: Velia (4CP)
+															</option>
+
+															<optgroup label="Start: (0CP) - Velia">
+																<option id="lb-blood-ppr-saz-htg-node-route-2-option-1" value="1">
+																	(1CP) Forest of Plunder
+																</option>
+																<option id="lb-blood-ppr-saz-htg-node-route-2-option-2" value="1">
+																	(1CP) Ehwaz Hill
+																</option>
+																<option id="lb-blood-ppr-saz-htg-node-route-2-option-3" value="1">
+																	(1CP) Cron Castle Site
+																</option>
+																<option id="lb-blood-ppr-saz-htg-node-route-2-option-4" value="1">
+																	(1CP) Cron Castle Site - Gathering
+																</option>
+															</optgroup>
+														</select>
+													</div>
+													
+
+													<br />
+													<a title="Gavinya Coastal Cliff - Gathering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1557" target="_blank">
+														<img class="icons icons1 nodes-gathering-icon" src="images/icons/menu/nodes/gathering.webp" alt="Icon" />
+														Gavinya Coastal Cliff - Gathering
+													</a>
+													<div class="node-selection-content">
+														<select title="Click for all CP Routes" id="lb-blood-ppr-saz-htg-node-selection-3" class="node-selection">
+															
+															<option id="lb-blood-ppr-saz-htg-node-cp-route-3" value="9" selected>
+																Cheapest Route To: Arehaza (9CP)
+															</option>
+
+															<optgroup label="Start: (0CP) - Arehaza">
+																<option id="lb-blood-ppr-saz-htg-node-route-3-option-1" value="1">
+																	(1CP) Nothern Sand Dune
+																</option>
+																<option id="lb-blood-ppr-saz-htg-node-route-3-option-2" value="3">
+																	(3CP) Gavinya Volcano Zone
+																</option>
+																<option id="lb-blood-ppr-saz-htg-node-route-3-option-3" value="2">
+																	(2CP) Gavinya Great Crater
+																</option>
+																<option id="lb-blood-ppr-saz-htg-node-route-3-option-4" value="1">
+																	(1CP) Gavinya Coastal Cliff
+																</option>
+																<option id="lb-blood-ppr-saz-htg-node-route-3-option-5" value="2">
+																	(2CP) Gavinya Coastal Cliff - Gathering
+																</option>
+															</optgroup>
+
+														</select>
+													</div>
+													
+														
+													<br />
+													<a title="Gervish Mountains - Gathering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1676" target="_blank">
+														<img class="icons icons1 nodes-gathering-icon" src="images/icons/menu/nodes/gathering.webp" alt="Icon" />
+														Gervish Mountains - Gathering
+													</a>
+
+													<div class="node-selection-content">
+														<select title="Click for all CP Routes" id="lb-blood-ppr-saz-htg-node-selection-4" class="node-selection">
+															
+															<option id="lb-blood-ppr-saz-htg-node-cp-route-4" value="7" selected>
+																Cheapest Route To: Duvencrune (7CP)
+															</option>
+
+															<optgroup label="Start: (0CP) - Duvencrune">
+																<option id="lb-blood-ppr-saz-htg-node-route-4-option-1" value="2">
+																	(2CP) Night Crow Post
+																</option>
+																<option id="lb-blood-ppr-saz-htg-node-route-4-option-2" value="2">
+																	(2CP) Garmoths Nest
+																</option>
+																<option id="lb-blood-ppr-saz-htg-node-route-4-option-3" value="1">
+																	(1CP) Gervish Mountains
+																</option>
+																<option id="lb-blood-ppr-saz-htg-node-route-4-option-4" value="2">
+																	(2CP) Gervish Mountains - Gathering
+																</option>
+															</optgroup>
+
+														</select>
+													</div>
+
+
+												
+
+											</div>
+										<!-- #endregion - Pure-Powder-Reagent-SAZ-Nodes-Links -->
+
+									</div>
+								<!-- #endregion - Pure-Powder-Reagent-SAZ-How-To-Get-Nodes -->
+
+							</div>
+						<!-- #endregion - Pure-Powder-Reagent-SAZ -->
+
+
+						<!-- #region - Pure-Powder-Reagent-Sugar Button -->
+							<div class="button blue-bg4 sugar-button">
+
+								<a title="Content Button" class="button-link" href="javascript:toggleDiv('lb-blood-ppr-sugar');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div>
+
+									<span class="move-right">
+										<img class="icons icons1" src="images/icons/vendor/sugar.webp" alt="Icon" /> Sugar
+									</span>
+
+								</a>
+
+
+								<div class="right">
+									
+									<img title="NPC Food Vendor or Innkeeper." class="icons icons1 silver-icon" src="images/icons/menu/currency-silver.webp" alt="Icon" />
+
+									<div class="dots">
+										<span class="circleText amount">1</span>
+									</div>
+
+									<a title="Sugar" class="links" href="https://bdocodex.com/us/item/9002/" target="_blank">🔗</a>
+							
+								</div>
+
+
+							</div>
+						<!-- #endregion - Pure-Powder-Reagent-Sugar Button -->
+
+						<!-- #region - Pure-Powder-Reagent-Sugar -->
+							<div id="lb-blood-ppr-sugar" class="info hidden">
+
+								<p class="text">
+									NPC Food Vendor or Innkeeper.
+								</p>
+
+							</div>
+						<!-- #region - Pure-Powder-Reagent-Sugar -->
+
+					</div>
+				<!-- #endregion - Legendary-Beasts-Blood-Recipe-Pure-Powder-Reagent -->
+
+
+				<!-- #region - Legendary-Beasts-Blood-Spirits-Leaf-Content Button -->
+					<div class="button spirits-leaf-button">
+
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('lb-blood-spirits-leaf-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="lb-blood-spirits-leaf">
+								<img class="icons icons1 spirits-leaf-icon" src="images/icons/nodes/plants/spirits-leaf.webp" alt="Icon" /> 
+								Spirit's Leaf
+							</span>
+						</a>
+
+						<div class="right">
+							<div class="dots">
+								<span class="circleText amount">1</span>
+							</div>
+
+							<a title="Spirit's Leaf" class="links" href="https://bdocodex.com/us/item/5006/" target="_blank">🔗</a>
+						</div>
+
+					</div>
+				<!-- #endregion - Legendary-Beasts-Blood-Spirits-Leaf-Content Button -->
+
+				<!-- #region - Legendary-Beasts-Blood-Spirits-Leaf-Content -->
+					<div id="lb-blood-spirits-leaf-content" class="hidden">
+
+						<!-- #region - Legendary-Beasts-Blood-Spirits-Leaf-How-To-Get Button -->
+							<div class="button htg-button">
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('lb-blood-spirits-leaf-htg-content');">
+					
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+					
+									<span class="htg">
+										<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon" /> How to Get 
+									</span>
+								</a>
+							</div>
+						<!-- #endregion - Legendary-Beasts-Blood-Spirits-Leaf-How-To-Get Button -->
+
+						<!-- #region - Legendary-Beasts-Blood-Spirits-Leaf-How-To-Get -->
+							<div id="lb-blood-spirits-leaf-htg-content" class="info hidden">
+
+
+							<!-- #region - Legendary-Beasts-Blood-Spirits-Leaf-How-To-Get-Gathering Button -->
+								<div class="button gathering-button">
+
+									<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('lb-blood-spirits-leaf-htg-gathering-chopping');">
+
+										<div class="left">
+											<div class="dots">
+												<span class="dot-plus">+</span>
+											</div>
+										</div> 
+
+										<span class="gathering-chopping">
+											<img title="Chopping" class="icons icons1 chopping-icon" src="images/icons/menu/interaction/gathering/chopping.webp" alt="Icon" /> Gathering 
+										</span>
+									</a>
+
+									<div class="right">
+										<a title="Nodes / Resource Interactive Map" class="links" href="https://www.somethinglovely.net/bdo/" target="_blank">🔗</a>
+									</div>
+
+								</div>
+							<!-- #endregion - Legendary-Beasts-Blood-Spirits-Leaf-How-To-Get-Gathering Button -->
+
+							<!-- #region - Legendary-Beasts-Blood-Spirits-Leaf-How-To-Get-Gathering -->				
+								<div id="lb-blood-spirits-leaf-htg-gathering-chopping" class="info hidden">
+											
+									<!-- #region - Legendary-Beasts-Blood-Spirits-Leaf - Gathering Chopping Links -->
+										<div class="links-content">
+
+											<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10584/" target="_blank">
+												<img class="icons icons1" src="images/icons/gathering/trees/timber/acacia.webp" alt="Icon" /> Acacia Trees
+											</a>
+
+											<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10537/" target="_blank">
+												<img class="icons icons1" src="images/icons/gathering/trees/timber/ash.webp" alt="Icon" /> Ash Trees
+											</a>
+
+											<br />
+
+											<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10503/" target="_blank">
+												<img class="icons icons1" src="images/icons/gathering/trees/timber/birch.webp" alt="Icon" /> Birch Trees
+											</a>
+
+											<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10656/" target="_blank">
+												<img class="icons icons1" src="images/icons/gathering/trees/cactus.webp" alt="Icon" /> Cactus Trees
+											</a>
+
+											<br />
+
+											<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10511/" target="_blank">
+												<img class="icons icons1" src="images/icons/gathering/trees/timber/cedar.webp" alt="Icon" /> Cedar Trees
+											</a>
+
+											<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10633/" target="_blank">
+												<img class="icons icons1" src="images/icons/gathering/trees/date-palm.webp" alt="Icon" /> Date Palm Trees
+											</a>
+
+											<br />
+
+											<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10578/" target="_blank">
+												<img class="icons icons1" src="images/icons/gathering/trees/timber/elder.webp" alt="Icon" /> Elder Trees
+											</a>
+
+											<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10509/" target="_blank">
+												<img class="icons icons1" src="images/icons/gathering/trees/timber/fir.webp" alt="Icon" /> Fir Trees
+											</a>
+
+											<br />
+
+											<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10649/" target="_blank">
+												<img class="icons icons1" src="images/icons/gathering/trees/timber/loopy-tree.webp" alt="Icon" /> Loopy Trees
+											</a>
+
+											<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10525/" target="_blank">
+												<img class="icons icons1" src="images/icons/gathering/trees/timber/maple.webp" alt="Icon" /> Maple Trees
+											</a>
+
+											<br />
+
+											<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10603/" target="_blank">
+												<img class="icons icons1" src="images/icons/gathering/trees/timber/moss.webp" alt="Icon" /> Moss Trees
+											</a>
+
+											<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10657/" target="_blank">
+												<img class="icons icons1" src="images/icons/gathering/trees/timber/palm.webp" alt="Icon" /> Palm Trees
+											</a>
+
+											<br />
+
+											<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10558/" target="_blank">
+												<img class="icons icons1" src="images/icons/gathering/trees/timber/pine.webp" alt="Icon" /> Pine Trees
+											</a>
+
+											<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10620/" target="_blank">
+												<img class="icons icons1" src="images/icons/gathering/trees/timber/white-cedar.webp" alt="Icon" /> White Cedar Trees
+											</a>
+
+										</div>
+									<!-- #endregion - Legendary-Beasts-Blood-Spirits-Leaf - Gathering Chopping Links -->
+
+								</div>
+							<!-- #endregion - Legendary-Beasts-Blood-Spirits-Leaf-How-To-Get-Gathering -->
+
+
+
+								<!-- #region - Legendary-Beasts-Blood-Spirits-Leaf-How-To-Get-Nodes Button -->
+									<div class="button nodes-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('lb-blood-spirits-leaf-htg-nodes');">
+
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+
+											<img class="icons icons1 nodes-icon" src="images/icons/menu/nodes/nodes.webp" alt="Icon" /> Nodes
+										</a>
+
+										<div class="right">
+											<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+										</div>
+
+									</div>
+								<!-- #endregion - Legendary-Beasts-Blood-Spirits-Leaf-How-To-Get-Nodes Button -->
+								
+								<!-- #region - Legendary-Beasts-Blood-Spirits-Leaf-How-To-Get-Nodes -->
+									<div id="lb-blood-spirits-leaf-htg-nodes" class="info hidden">
+										
+										<!-- #region - Legendary-Beasts-Blood-Spirits-Leaf-Nodes-Links -->			
+											<div class="links-content">
+												<!-- #region - Legendary-Beasts-Blood-Spirits-Leaf-Node-Link1 -->
+													<a title="Balenos Forest - Lumbering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/167" target="_blank">
+														<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+														Balenos Forest - Lumbering
+													</a>
+
+													<div class="node-selection-content">
+														<select title="Click for all CP Routes" id="lb-blood-spirits-leaf-htg-node-selection-1" class="node-selection">
+															
+															<option id="lb-blood-spirits-leaf-htg-node-cp-route-1" value="5" selected>
+																Cheapest Route To: Velia (5CP) 
+															</option>
+					
+															<optgroup label="Start: (0CP) - Velia">
+																<option id="lb-blood-spirits-leaf-htg-node-route-1-option-1" value="2">
+																	(2CP) Bartali Farm
+																</option>
+																<option id="lb-blood-spirits-leaf-htg-node-route-1-option-2" value="2">
+																	(2CP) Balenos Forest
+																</option>
+																<option id="lb-blood-spirits-leaf-htg-node-route-1-option-3" value="1">
+																	(1CP) Balenos Forest - Lumbering
+																</option>
+															</optgroup>
+														</select>
+													</div>
+
+													<br />
+													<a title="Goblin Cave - Lumbering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/142" target="_blank">
+														<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+														Goblin Cave - Lumbering
+													</a>
+
+													<div class="node-selection-content">
+														<select title="Click for all CP Routes" id="lb-blood-spirits-leaf-htg-node-selection-2" class="node-selection">
+															
+															<option id="lb-blood-spirits-leaf-htg-node-cp-route-2" value="4" selected>
+																Cheapest Route To: Velia (4CP) 
+															</option>
+					
+															<optgroup label="Start: (0CP) - Velia">
+																<option id="lb-blood-spirits-leaf-htg-node-route-2-option-1" value="1">
+																	(1CP) Forest of Plunder
+																</option>
+																<option id="lb-blood-spirits-leaf-htg-node-route-2-option-2" value="2">
+																	(2CP) Goblin Cave
+																</option>
+																<option id="lb-blood-spirits-leaf-htg-node-route-2-option-3" value="1">
+																	(1CP) Goblin Cave - Lumbering
+																</option>
+															</optgroup>
+														</select>
+													</div>
+
+													<br />
+													<a title="Lumberjack's Rest Area - Lumbering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/905" target="_blank">
+														<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+														Lumberjack's Rest Area - Lumbering
+													</a>
+
+													<div class="node-selection-content">
+														<select title="Click for all CP Routes" id="lb-blood-spirits-leaf-htg-node-selection-3" class="node-selection">
+															
+															<option id="lb-blood-spirits-leaf-htg-node-cp-route-3" value="2" selected>
+																Cheapest Route To: Trent (2CP) 
+															</option>
+					
+															<optgroup label="Start: (0CP) - Heidel">
+																<option id="lb-blood-spirits-leaf-htg-node-route-3-option-1" value="1">
+																	(1CP) Lumberjack's Rest Area
+																</option>
+																<option id="lb-blood-spirits-leaf-htg-node-route-3-option-2" value="1">
+																	(1CP) Lumberjack's Rest Area - Lumbering
+																</option>
+															</optgroup>
+														</select>
+													</div>
+
+
+												<!-- #endregion - Legendary-Beasts-Blood-Spirits-Leaf-Node-Link1 -->				
+											</div>
+										<!-- #endregion - Legendary-Beasts-Blood-Spirits-Leaf-Nodes-Links -->		
+
+										<br />
+									</div>
+								<!-- #endregion - Legendary-Beasts-Blood-Spirits-Leaf-How-To-Get-Nodes -->
+
+
+							</div>
+						<!-- #endregion - Legendary-Beasts-Blood-Spirits-Leaf-How-To-Get -->
+
+					</div>
+				<!-- #endregion - Legendary-Beasts-Blood-Spirits-Leaf-Content -->
+
+				
+				<!-- #region - Legendary-Beasts-Blood-Trace-of-the-Earth-Content Button -->
+					<div class="button trace-of-the-earth-button">
+
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('lb-blood-trace-of-the-earth-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="lb-blood-trace-of-the-earth">
+								<img class="icons icons1 trace-of-the-earth-icon" src="images/icons/traces/earth.webp" alt="Icon" /> 
+								Trace of Earth
+							</span>
+						</a>
+
+						<div class="right">
+							<div class="dots">
+								<span class="circleText amount">1</span>
+							</div>
+
+							<a title="Trace of Earth" class="links" href="https://bdocodex.com/us/item/5954/" target="_blank">🔗</a>
+						</div>
+
+					</div>
+				<!-- #endregion - Legendary-Beasts-Blood-Trace-of-the-Earth-Content Button -->
+
+				<!-- #region - Legendary-Beasts-Blood-Trace-of-the-Earth-Content -->
+					<div id="lb-blood-trace-of-the-earth-content" class="hidden">
+
+						<!-- #region - Legendary-Beasts-Blood-Trace-of-the-Earth-How-To-Get Button -->
+							<div class="button htg-button">
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('lb-blood-trace-of-the-earth-htg-content');">
+					
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+					
+									<span class="htg">
+										<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon" /> How to Get 
+									</span>
+								</a>
+							</div>
+						<!-- #endregion - Legendary-Beasts-Blood-Trace-of-the-Earth-How-To-Get Button -->
+
+						<!-- #region - Legendary-Beasts-Blood-Trace-of-the-Earth-How-To-Get -->
+							<div id="lb-blood-trace-of-the-earth-htg-content" class="info hidden">
+
+
+								<!-- #region - Legendary-Beasts-Blood-Trace-of-the-Earth-How-To-Get-Item-Box Button -->
+									<div class="button item-box-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('lb-blood-trace-of-the-earth-htg-item-box');">
+
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+
+											<span class="item-box">
+												<img class="icons icons1 item-box-icon" src="images/icons/menu/item-box.webp" alt="Icon" /> 
+												Item Box
+												</a>
+											</span>
+										</a>
+
+										<div class="right">
+
+										</div>
+
+									</div>
+								<!-- #endregion - Legendary-Beasts-Blood-Trace-of-the-Earth-How-To-Get-Item-Box Button -->
+
+								<!-- #region - Legendary-Beasts-Blood-Trace-of-the-Earth-How-To-Get-Item-Box -->				
+									<div id="lb-blood-trace-of-the-earth-htg-item-box" class="info hidden">
+												
+										<!-- #region - Legendary-Beasts-Blood-Trace-of-the-Earth - Item-Box Links -->
+											<div class="links-content">
+
+												<a title="Imperial Trace Box" class="links2 grade5" href="https://bdocodex.com/us/item/8072/" target="_blank">
+													<img class="icons icons1" src="images/icons/items/trace-box.webp" alt="Icon" /> 
+												Imperial Trace Box
+												</a>
+
+												<p class="h2 green1">
+													[Daily] [Alchemy] Striving Towards Imperial Delivery
+												</p>
+
+											</div>
+										<!-- #endregion - Legendary-Beasts-Blood-Trace-of-the-Earth - Item-Box Links -->
+
+									</div>
+								<!-- #endregion - Legendary-Beasts-Blood-Trace-of-the-Earth-How-To-Get-Item-Box -->
+
+
+								<!-- #region - Legendary-Beasts-Blood-Trace-of-the-Earth-How-To-Get-Nodes Button -->
+									<div class="button nodes-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('lb-blood-trace-of-the-earth-htg-nodes');">
+
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+
+											<img class="icons icons1 nodes-icon" src="images/icons/menu/nodes/nodes.webp" alt="Icon" /> Nodes
+										</a>
+
+										<div class="right">
+											<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+										</div>
+
+									</div>
+								<!-- #endregion - Legendary-Beasts-Blood-Trace-of-the-Earth-How-To-Get-Nodes Button -->
+								
+								<!-- #region - Legendary-Beasts-Blood-Trace-of-the-Earth-How-To-Get-Nodes -->
+									<div id="lb-blood-trace-of-the-earth-htg-nodes" class="info hidden">
+										
+										<!-- #region - Legendary-Beasts-Blood-Trace-of-the-Earth-Nodes-Links -->			
+											<div class="links-content">
+												<!-- #region - Legendary-Beasts-Blood-Trace-of-the-Earth-Node-Link1 -->
+
+													<a title="Ancient Ruins Excavation Site - Excavation" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1220" target="_blank">
+														<img class="icons icons1 nodes-excavation-icon" src="images/icons/menu/nodes/excavation.webp" alt="Icon" /> 
+														Ancient Ruins Excavation Site - Excavation
+													</a>
+													<p class="node-notes smalltxt">
+														Required: 35 Energy from Jarette Domongatt <br />(Ancient Stone Chamber Node Manager)
+													</p>
+													<div class="node-selection-content">
+														<select title="Click for all CP Routes" id="lb-blood-trace-of-the-earth-htg-node-selection-1" class="node-selection">
+															
+															<option id="lb-blood-trace-of-the-earth-htg-node-cp-route-1" value="8" selected>
+																Cheapest Route To: Tarif (8CP) 
+															</option>
+					
+															<optgroup label="Start: (0CP) - Tarif">
+																<option id="lb-blood-trace-of-the-earth-htg-node-route-1-option-1" value="1">
+																	(1CP) Soldier's Grave
+																</option>
+																<option id="lb-blood-trace-of-the-earth-htg-node-route-1-option-2" value="1">
+																	(1CP) Castle Ruins
+																</option>
+																<option id="lb-blood-trace-of-the-earth-htg-node-route-1-option-3" value="2">
+																	(2CP) Kamasylve Temple
+																</option>
+																<option id="lb-blood-trace-of-the-earth-htg-node-route-1-option-4" value="1">
+																	(1CP) Ancient Ruins Excavation Site
+																</option>
+																<option id="lb-blood-trace-of-the-earth-htg-node-route-1-option-5" value="3">
+																	(3CP) Ancient Ruins Excavation Site - Excavation
+																</option>
+																<option id="lb-blood-trace-of-the-earth-htg-node-route-1-option-6" value="0">
+																	Req: 35 Energy from the Node Manager
+																</option>
+															</optgroup>
+														</select>
+													</div>
+
+													<div class="node-selection-content">
+														<select title="Click for all CP Routes" id="lb-blood-trace-of-the-earth-htg-node-selection-2" class="node-selection">
+															
+															<option id="lb-blood-trace-of-the-earth-htg-node-cp-route-2" value="9" selected>
+																Cheapest Route To: Heidel (9CP) 
+															</option>
+					
+															<optgroup label="Start: (0CP) - Heidel">
+																<option id="lb-blood-trace-of-the-earth-htg-node-route-2-option-1" value="3">
+																	(3CP) Eastern Border
+																</option>
+																<option id="lb-blood-trace-of-the-earth-htg-node-route-2-option-2" value="2">
+																	(2CP) Kamasylve Temple
+																</option>
+																<option id="lb-blood-trace-of-the-earth-htg-node-route-2-option-3" value="1">
+																	(1CP) Ancient Ruins Excavation Site
+																</option>
+																<option id="lb-blood-trace-of-the-earth-htg-node-route-2-option-4" value="3">
+																	(3CP) Ancient Ruins Excavation Site - Excavation
+																</option>
+																<option id="lb-blood-trace-of-the-earth-htg-node-route-2-option-5" value="0">
+																	Req: 35 Energy from the Node Manager
+																</option>
+															</optgroup>
+														</select>
+													</div>
+
+													<br />
+													<a title="Ancient Stone Chamber - Excavation" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/144" target="_blank">
+														<img class="icons icons1 nodes-excavation-icon" src="images/icons/menu/nodes/excavation.webp" alt="Icon" /> 
+														Ancient Stone Chamber - Excavation
+													</a>
+													<p class="node-notes smalltxt">
+														Required: 10 Energy from Jarette Domongatt <br />(Ancient Stone Chamber Node Manager)
+													</p>
+													<div class="node-selection-content">
+														<select title="Click for all CP Routes" id="trace-of-earth-htg-node-selection-1" class="node-selection">
+															
+															<option id="trace-of-earth-htg-node-cp-route-1" value="8" selected>
+																Cheapest Route To: Velia (8CP) 
+															</option>
+					
+															<optgroup label="Start: (0CP) - Velia">
+																<option id="trace-of-earth-htg-node-route-1-option-1" value="2">
+																	(2CP) Bartali Farm
+																</option>
+																<option id="trace-of-earth-htg-node-route-1-option-2" value="2">
+																	(2CP) Toscani Farm
+																</option>
+																<option id="trace-of-earth-htg-node-route-1-option-3" value="2">
+																	(2CP) Forest of Seclusion
+																</option>
+																<option id="trace-of-earth-htg-node-route-1-option-4" value="1">
+																	(1CP) Ancient Stone Chamber
+																</option>
+																<option id="trace-of-earth-htg-node-route-1-option-5" value="1">
+																	(1CP) Ancient Stone Chamber - Excavation
+																</option>
+																<option id="trace-of-earth-htg-node-route-1-option-6" value="0">
+																	Req: 10 Energy from the Node Manager
+																</option>
+															</optgroup>
+														</select>
+													</div>
+
+													<div class="node-selection-content">
+														<select title="Click for all CP Routes" id="trace-of-earth-htg-node-selection-2" class="node-selection">
+															
+															<option id="trace-of-earth-htg-node-cp-route-2" value="12" selected>
+																Cheapest Route To: Heidel (12CP) 
+															</option>
+					
+															<optgroup label="Start: (0CP) - Heidel">
+																<option id="trace-of-earth-htg-node-route-2-option-1" value="1">
+																	(1CP) Lynch Farm Ruins
+																</option>
+																<option id="trace-of-earth-htg-node-route-2-option-2" value="1">
+																	(1CP) Northern Plain of Serendia
+																</option>
+																<option id="trace-of-earth-htg-node-route-2-option-3" value="3">
+																	(3CP) Biraghi Den
+																</option>
+																<option id="trace-of-earth-htg-node-route-2-option-4" value="3">
+																	(3CP) Bandits Den Byway
+																</option>
+																<option id="trace-of-earth-htg-node-route-2-option-5" value="2">
+																	(2CP) Forest of Seclusion
+																</option>
+																<option id="trace-of-earth-htg-node-route-2-option-6" value="1">
+																	(1CP) Ancient Stone Chamber
+																</option>
+																<option id="trace-of-earth-htg-node-route-2-option-7" value="1">
+																	(1CP) Ancient Stone Chamber - Excavation
+																</option>
+																<option id="trace-of-earth-htg-node-route-2-option-8" value="0">
+																	Req: 10 Energy from the Node Manager
+																</option>
+															</optgroup>
+														</select>
+													</div>
+
+													<div class="node-selection-content">
+														<select title="Click for all CP Routes" id="trace-of-earth-htg-node-selection-3" class="node-selection">
+															
+															<option id="trace-of-earth-htg-node-cp-route-3" value="12" selected>
+																Cheapest Route To: Olvia (12CP) 
+															</option>
+					
+															<optgroup label="Start: (0CP) - Olvia">
+																<option id="trace-of-earth-htg-node-route-3-option-1" value="1">
+																	(1CP) Casta Farm
+																</option>
+																<option id="trace-of-earth-htg-node-route-3-option-2" value="1">
+																	(1CP) Wold Hills
+																</option>
+																<option id="trace-of-earth-htg-node-route-3-option-3" value="3">
+																	(3CP) Western Gateway
+																</option>
+																<option id="trace-of-earth-htg-node-route-3-option-4" value="1">
+																	(1CP) Western Guard Camp
+																</option>
+																<option id="trace-of-earth-htg-node-route-3-option-5" value="2">
+																	(2CP) Toscani Farm
+																</option>
+																<option id="trace-of-earth-htg-node-route-3-option-6" value="2">
+																	(2CP) Forest of Seclusion
+																</option>
+																<option id="trace-of-earth-htg-node-route-3-option-7" value="1">
+																	(1CP) Ancient Stone Chamber
+																</option>
+																<option id="trace-of-earth-htg-node-route-3-option-8" value="1">
+																	(1CP) Ancient Stone Chamber - Excavation
+																</option>
+																<option id="trace-of-earth-htg-node-route-3-option-9" value="0">
+																	Req: 10 Energy from the Node Manager
+																</option>
+															</optgroup>
+														</select>
+													</div>
+
+
+												<!-- #endregion - Legendary-Beasts-Blood-Trace-of-the-Earth-Node-Link1 -->				
+											</div>
+										<!-- #endregion - Legendary-Beasts-Blood-Trace-of-the-Earth-Nodes-Links -->		
+
+										<br />
+									</div>
+								<!-- #endregion - Legendary-Beasts-Blood-Trace-of-the-Earth-How-To-Get-Nodes -->
+
+
+
+							</div>
+						<!-- #endregion - Legendary-Beasts-Blood-Trace-of-the-Earth-How-To-Get -->
+
+					</div>
+				<!-- #endregion - Legendary-Beasts-Blood-Trace-of-the-Earth-Content -->
+
+
+
+				<!-- #region - Legendary-Beasts-Blood-Group-5 Button -->
+					<div class="button bloods-button">
+
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('lb-blood-group-5-content');">
+
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div>
+
+							<img class="icons icons1 blood-lizard-icon" src="images/icons/bloods/bg5/lizard.webp" alt="Icon" /> Blood Group 5
+						</a>
+
+						<div class="right">
+							<div class="dots">
+								<span class="circleText amount">2</span>
+							</div>
+
+							<a title="Blood Group 5" class="links" href="https://bdocodex.com/us/materialgroup/804/" target="_blank">🔗</a>
+						</div>
+
+					</div>
+				<!-- #endregion - Legendary-Beasts-Blood-Group-5 Button -->
+
+				<!-- #region - Legendary-Beasts-Blood-Group-5-info -->
+					<div id="lb-blood-group-5-content" class="hidden">
+
+						<!-- #region - Legendary-Beasts-Blood-Group-5 Links -->			
+							<div class="links-content">
+
+								<div class="item-worth">
+									Item Name
+
+									<div class="right">
+										Worth
+									</div>
+								</div>
+
+								<div class="item-link">
+									<a title="Lizard Blood" class="links2 grade2" href="https://bdocodex.com/us/item/6208/" target="_blank">
+										<img class="icons icons1" src="images/icons/bloods/bg5/lizard.webp" alt="Icon" /> Lizard
+									</a>
+
+									<div class="right">
+										<div class="dots">
+											<span class="circleText amount">1</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="item-link">
+									<a title="Bat Blood" class="links2 grade2" href="https://bdocodex.com/us/item/6219/" target="_blank">
+										<img class="icons icons1" src="images/icons/bloods/bg5/bat.webp" alt="Icon" /> Bat
+									</a>
+
+									<div class="right">
+										<div class="dots">
+											<span class="circleText amount">2</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="item-link">
+									<a title="Cobra Blood" class="links2 grade2" href="https://bdocodex.com/us/item/6222/" target="_blank">
+										<img class="icons icons1" src="images/icons/bloods/bg5/cobra.webp" alt="Icon" /> Cobra
+									</a>
+
+									<div class="right">
+										<div class="dots">
+											<span class="circleText amount">2</span>
+										</div>
+									</div>
+								</div>
+									
+								<div class="item-link">
+									<a title="Kuku Bird Blood" class="links2 grade2" href="https://bdocodex.com/us/item/6204/" target="_blank">
+										<img class="icons icons1" src="images/icons/bloods/bg5/kuku-bird.webp" alt="Icon" /> Kuku Bird
+									</a>
+
+									<div class="right">
+										<div class="dots">
+											<span class="circleText amount">2</span>
+										</div>
+									</div>
+								</div>
+								
+								<div class="item-link">
+									<a title="Worm Blood" class="links2 grade2" href="https://bdocodex.com/us/item/6209/" target="_blank">
+										<img class="icons icons1" src="images/icons/bloods/bg5/worm.webp" alt="Icon" /> Worm
+									</a>
+
+									<div class="right">
+										<div class="dots">
+											<span class="circleText amount">2</span>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						<!-- #endregion - Legendary-Beasts-Blood-Group-5 Links -->
+
+					</div>
+				<!-- #endregion - Legendary-Beasts-Blood-Group-5-info -->
+
+
+				<!-- #region - Legendary-Beasts-Blood-Used-In Button -->
+					<div class="button used-in-button">			
+						<a title="Content Button" class="button-link gold" href="javascript:toggleDiv('lb-blood-Used-In');">
+			
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+				
+							<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon" /> Used In Recipe 
+						</a>
+			
+			
+						<div class="right">
+
+						</div>
+					</div>
+				<!-- #endregion - Legendary-Beasts-Blood-Used-In Button -->
+		
+				<!-- #region - Legendary-Beasts-Blood-Used-In -->
+					<div id="lb-blood-Used-In" class="hidden used-in-container">
+
+						<!-- #region - Legendary-Beasts-Blood-Used-In-Alchemy Button -->
+							<div class="button item-alchemy-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('lb-blood-used-in-alchemy');">
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									
+									<img class="icons icons1 alchemy-icon" src="images/icons/processing/simple-alchemy.webp" alt="Icon" /> Alchemy
+								</a>
+								
+								<div class="right">
+									<a title="Alchemy Guide" class="links" href="https://grumpygreen.cricket/alchemy/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Legendary-Beasts-Blood-Used-In-Alchemy Button -->
+
+						<!-- #region - Legendary-Beasts-Blood-Used-In-Alchemy -->
+							<div id="lb-blood-used-in-alchemy" class="info hidden">
+							
+								<!-- #region - bg1-items-links -->	
+									<div class="links-content">
+
+										<div class="item-link">
+											<a title="Amity +20%" class="links2 grade3" href="https://bdocodex.com/us/item/664/" target="_blank">
+												<img class="icons icons1 amity-pot-icon" src="images/icons/pots/amity.webp" alt="Icon" /> 
+												Elixir of Amity
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">1</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Movement Speed +2" class="links2 grade3" href="https://bdocodex.com/us/item/690/" target="_blank">
+												 <img class="icons icons1 swiftness-pot-icon" src="images/icons/pots/swiftness.webp" alt="Icon" /> Elixir of Swiftness
+											</a>
+	
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">1</span>
+												</div>
+											</div>
+										</div>
+										
+										<div class="item-link">
+											<a title="Mount EXP +8%" class="links2 grade3" href="https://bdocodex.com/us/item/753/" target="_blank">
+												<img class="icons icons1 training-pot-icon" src="images/icons/pots/training.webp" alt="Icon" /> 
+												Elixir of Training
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">1</span>
+												</div>
+											</div>
+										</div>
+										
+										<div class="item-link">
+											<a title="Oil of Regeneration" class="links2 grade2" href="https://bdocodex.com/us/item/6601/" target="_blank">
+												<img class="icons icons1 oor-icon" src="images/icons/alchemy/oil-of/regeneration.webp" alt="Icon" /> 
+												Oil of Regeneration
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">1</span>
+												</div>
+											</div>
+										</div>
+
+									</div>			
+								<!-- #endregion - bg1-items-links -->									
+							
+							</div>
+						<!-- #endregion - Legendary-Beasts-Blood-Used-In-Alchemy -->
+
+
+						<!-- #region - Legendary-Beasts-Blood-Used-In-Processing Button -->
+							<div class="button processing-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('lb-blood-used-in-processing-content');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div>
+									<span class="processing">
+										<img class="icons processing-icon" src="images/icons/menu/processing.webp" alt="Icon" /> Processing
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Legendary-Beasts-Blood-Used-In-Processing Button -->
+
+						<!-- #region - Legendary-Beasts-Blood-Used-In-Processing -->
+							<div id="lb-blood-used-in-processing-content" class="info hidden">
+
+
+								<!-- #region - Legendary-Beasts-Blood-Used-In-Grinding-Processing Button -->
+									<div class="button processing-grinding-button">
+								
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('lb-blood-grinding-processing');">
+											
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div>
+											<span class="processing-grinding">
+												<img class="icons icons1 processing-grinding-icon" src="images/icons/processing/grinding.webp" alt="Icon" /> Grinding
+											</span>
+										</a>
+										
+										<div class="right">
+											<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+										</div>
+									
+									</div>
+								<!-- #endregion - Legendary-Beasts-Blood-Used-In-Grinding-Processing Button -->
+								
+								<!-- #region - Legendary-Beasts-Blood-Used-In-Grinding-Processing -->
+									<div id="lb-blood-grinding-processing" class="info hidden">
+										<div class="links-content">
+											
+											<div class="item-link">
+												<a title="Mystical Cleaning Oil" class="links2 grade5" href="https://bdocodex.com/us/item/9748/" target="_blank">
+													<img class="icons icons1 mystical-cleaning-oil-icon" src="images/icons/processing/grinding/mystical-cleaning-oil.webp" alt="Icon" /> Mystical Cleaning Oil
+												</a>
+								
+												<div class="right">
+													<div class="dots">
+														<span class="circleText amount">3</span>
+													</div>
+												</div>
+											</div>
+
+											<div class="item-link">
+												<a title="Sturdy Snow White Stone" class="links2 grade3" href="https://bdocodex.com/us/item/5169/" target="_blank">
+													<img class="icons icons1" src="images/icons/processing/grinding/sturdy-snow-white-stone.webp" alt="Icon" /> Sturdy Snow White Stone
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circleText amount">1</span>
+													</div>
+												</div>
+											</div>
+											
+										</div>
+									</div>
+								<!-- #endregion - Legendary-Beasts-Blood-Used-In-Grinding-Processing -->
+
+
+								<!-- #region - Legendary-Beasts-Blood-Used-In-processing-guild Button -->
+									<div class="button processing-guild-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('lb-blood-processing-guild');">
+											
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div>
+											<span class="processing-guild">
+												<img class="icons icons1 processing-guild-icon" src="images/icons/processing/guild.webp" alt="Icon" /> Guild
+											</span>
+										</a>
+										
+										<div class="right">
+											<a title="Guild Guide" class="links" href="https://www.blackdesertfoundry.com/guilds-guide/" target="_blank">🔗</a>
+										</div>
+									
+									</div>
+								<!-- #endregion - Legendary-Beasts-Blood-Used-In-processing-guild Button -->
+
+								<!-- #region - Legendary-Beasts-Blood-Used-In-processing-guild -->
+									<div id="lb-blood-processing-guild" class="info hidden">
+										<div class="links-content">
+
+											<div class="item-link">
+												<a title="[Guild] Desert Alloy Ingot" class="links2 grade4" href="https://bdocodex.com/us/item/9908/" target="_blank">
+													<img class="icons icons1 dai-icon" src="images/icons/designs/guild/desert-alloy-ingot.webp" alt="Icon" /> [Guild] Desert Alloy Ingot
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circleText amount">1</span>
+													</div>
+												</div>
+											</div>
+
+											<div class="item-link">
+												<a title="[Guild] Phoenix Skin" class="links2 grade4" href="https://bdocodex.com/us/item/9908/" target="_blank">
+													<img class="icons icons1 phoenix-skin-icon" src="images/icons/designs/guild/phoenix-skin.webp" alt="Icon" /> [Guild] Phoenix Skin
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circleText amount">2</span>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								<!-- #endregion - Legendary-Beasts-Blood-Used-In-processing-guild -->
+
+
+								<!-- #region - Legendary-Beasts-Blood-Workshop Button -->
+									<div class="button workshop-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('lb-blood-used-in-workshop-content');">
+											
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div>
+											<span class="design-workshop">
+												<img class="icons icons1 design-workshop-icon" src="images/icons/menu/workshop.webp" alt="Icon" /> Workshop
+											</span>
+										</a>
+										
+										<div class="right">
+											<a title="Workshops" class="links" href="https://bdo.altarofgaming.com/workshops/" target="_blank">🔗</a>
+										</div>
+
+									</div>
+								<!-- #endregion - Legendary-Beasts-Blood-Workshop Button -->
+
+								<!-- #region - Legendary-Beasts-Blood-Workshop -->
+									<div id="lb-blood-used-in-workshop-content" class="info hidden">
+
+										<!-- #region - Legendary-Beasts-Blood-Design-Wagon-Parts Button -->
+											<div class="button wagon-part-button">
+
+												<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('lb-blood-design-wagon-part');">
+													
+													<div class="left">
+														<div class="dots">
+															<span class="dot-plus">+</span>
+														</div>
+													</div>
+													<span class="design-wagon-part-text">
+														<img class="icons wagon-part-icon" src="images/icons/menu/workshop/wagon-parts.webp" alt="Icon" /> Wagon Parts
+													</span>
+												</a>
+												
+												<div class="right">
+													<a title="Workshops" class="links" href="https://bdo.altarofgaming.com/workshops/" target="_blank">🔗</a>
+												</div>
+
+											</div>
+										<!-- #endregion - Legendary-Beasts-Blood-Design-Wagon-Parts Button -->
+
+										<!-- #region - Legendary-Beasts-Blood-Design-Wagon-Parts -->
+											<div id="lb-blood-design-wagon-part" class="info hidden">
+												<div class="links-content">
+													
+													<div class="item-link">
+														<a title="Forest Path Wagon Flag" class="links2 grade4" href="https://bdocodex.com/us/item/53609/" target="_blank">
+															<img class="icons icons1 forest-path-wagon-flag-icon" src="images/icons/designs/wagon-parts/forest-path-wagon-flag.webp" alt="Icon" /> Forest Path Wagon Flag
+														</a>
+							
+														<div class="right">
+															<div class="dots">
+																<span class="circleText amount">4</span>
+															</div>
+														</div>
+													</div>
+
+												</div>
+											</div>
+										<!-- #endregion - Legendary-Beasts-Blood-Design-Wagon-Parts -->
+
+									</div>
+								<!-- #endregion - Legendary-Beasts-Blood-Workshop -->								
+
+							</div>
+						<!-- #endregion - Legendary-Beasts-Blood-Used-In-Processing -->
+
+
+
+
+
+
+						<a title="Legendary Beast's Blood" class="links2 grade2" href="https://bdocodex.com/us/item/6351/" target="_blank">And More...</a>		
+					</div>
+				<!-- #endregion - Legendary-Beasts-Blood-Used-In -->
+
+
+				<!-- #region - Legendary-Beasts-Blood-notes-container Button -->
+					<div class="button notes-button">
+
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('lb-blood-notes-container');">
+
+						<div class="left">
+							<div class="dots">
+								<span class="dot-plus">+</span>
+							</div>
+						</div> 
+
+						<img class="icons notes-icon" src="images/icons/menu/notes.webp" alt="Icon" /> Notes
+						</a>
+
+					</div>
+				<!-- #endregion - Legendary-Beasts-Blood-notes-container Button -->
+
+				<!-- #region - Legendary-Beasts-Blood-notes-container -->
+					<div id="lb-blood-notes-container" class="hidden notes-container">
+						
+						<p class="notes-entry">
+							
+						</p>
+
+					</div>
+				<!-- #endregion - Legendary-Beasts-Blood-notes-container -->
+
+			</div>
+		<!-- #endregion - Legendary-Beasts-Blood-info -->
+
+	</div>
+<!-- #endregion - Legendary-Beasts-Blood-Container -->
+
+</body>
+</html>

@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Pine Sap</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="../scripts/jquery/3.6.3.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
+</head>
+<body id="sap-pine-page">
+
+<!-- #region - Sap-Pine-Container -->
+	<div id="sap-pine-container" class="items-container saps" draggable="true" ondragstart="drag(event)">
+
+		<!-- #region - Sap-Pine-Content Button -->
+			<div class="button sap-pine-button top">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-pine-content');">
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div> 
+
+					<span class="sap-pine">
+						<img class="icons icons1 sap-pine-icon" src="images/icons/saps/pine.webp" alt="Icon" /> 
+						Pine Sap
+					</span>
+				</a>
+
+				<div class="right">
+					<a title="Pine Sap" class="links" href="https://bdocodex.com/us/item/5003/" target="_blank">🔗</a>
+				</div>
+
+			</div>
+		<!-- #endregion - Sap-Pine-Content Button -->
+
+		<!-- #region - Sap-Pine-Content -->
+			<div id="sap-pine-content" class="hidden">
+
+				<!-- #region - Sap-Pine-How-To-Get Button -->
+					<div class="button htg-button">
+						<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-pine-htg-content');">
+			
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+			
+							<span class="htg">
+								<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon" /> How to Get 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-Pine-How-To-Get Button -->
+
+				<!-- #region - Sap-Pine-How-To-Get -->
+					<div id="sap-pine-htg-content" class="info hidden">
+
+
+					<!-- #region - Sap-Pine-How-To-Get-Gathering Button -->
+						<div class="button gathering-button">
+
+							<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-pine-htg-gathering-fluid-collecting');">
+
+								<div class="left">
+									<div class="dots">
+										<span class="dot-plus">+</span>
+									</div>
+								</div> 
+
+								<span class="gathering-fluid-collecting">
+									<img title="Fluid Collecting" class="icons icons1 fluid-collecting-icon" src="images/icons/menu/interaction/gathering/fluid-collecting.webp" alt="Icon" /> Gathering 
+								</span>
+							</a>
+
+							<div class="right">
+								<a title="Nodes / Resource Interactive Map" class="links" href="https://www.somethinglovely.net/bdo/" target="_blank">🔗</a>
+							</div>
+
+						</div>
+					<!-- #endregion - Sap-Pine-How-To-Get-Gathering Button -->
+
+					<!-- #region - Sap-Pine-How-To-Get-Gathering -->				
+						<div id="sap-pine-htg-gathering-fluid-collecting" class="info hidden">
+									
+							<!-- #region - Sap-Pine - Gathering Fluid Collector Links -->
+								<div class="links-content">
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://www.somethinglovely.net/bdo/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/timber/pine.webp" alt="Icon" /> Pine Trees
+									</a>
+								</div>
+							<!-- #endregion - Sap-Pine - Gathering Fluid Collector Links -->
+
+						</div>
+					<!-- #endregion - Sap-Pine-How-To-Get-Gathering -->
+
+
+
+						<!-- #region - Sap-Pine-How-To-Get-Nodes Button -->
+							<div class="button nodes-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-pine-htg-nodes');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<img class="icons icons1 nodes-icon" src="images/icons/menu/nodes/nodes.webp" alt="Icon" /> Nodes
+								</a>
+
+								<div class="right">
+									<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Sap-Pine-How-To-Get-Nodes Button -->
+						
+						<!-- #region - Sap-Pine-How-To-Get-Nodes -->
+							<div id="sap-pine-htg-nodes" class="info hidden">
+								
+								<!-- #region - Sap-Pine-Nodes-Links -->			
+									<div class="links-content">
+										<!-- #region - Sap-Pine-Node-Link1 -->
+											<a title="Marie Cave - Lumbering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/910" target="_blank">
+												<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+												Marie Cave - Lumbering
+											</a>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-pine-htg-node-selection-1" class="node-selection">
+													
+													<option id="sap-pine-htg-node-cp-route-1" value="8" selected>
+														Cheapest Route To: Keplan (8CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Trent">
+														<option id="sap-pine-htg-node-route-1-option-1" value="1">
+															(1CP) Tarte Rock Fork
+														</option>
+														<option id="sap-pine-htg-node-route-1-option-2" value="2">
+															(2CP) Abandoned Quarry
+														</option>
+														<option id="sap-pine-htg-node-route-1-option-3" value="1">
+															(1CP) Gehaku Plain
+														</option>
+														<option id="sap-pine-htg-node-route-1-option-4" value="1">
+															(1CP) Primal Giant Post
+														</option>
+														<option id="sap-pine-htg-node-route-1-option-5" value="1">
+															(1CP) Hexe Stone Wall
+														</option>
+														<option id="sap-pine-htg-node-route-1-option-6" value="1">
+															(1CP) Marie Cave
+														</option>
+														<option id="sap-pine-htg-node-route-1-option-7" value="1">
+															(1CP) Marie Cave - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<br />
+											<a title="Khimut Lumber Camp" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1685" target="_blank">
+												<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+												Khimut Lumber Camp - Lumbering
+											</a>
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-pine-htg-node-selection-3" class="node-selection">
+													
+													<option id="sap-pine-htg-node-cp-route-3" value="8" selected>
+														Cheapest Route To: Tarif (8CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Tarif">
+														<option id="sap-pine-htg-node-route-3-option-1" value="1">
+															(1CP) Soldier's Grave
+														</option>
+														<option id="sap-pine-htg-node-route-3-option-2" value="1">
+															(1CP) Tungrad Forest
+														</option>
+														<option id="sap-pine-htg-node-route-3-option-3" value="1">
+															(1CP) Hasrah Cliff
+														</option>
+														<option id="sap-pine-htg-node-route-3-option-4" value="2">
+															(2CP) Khimut Lumber Camp
+														</option>
+														<option id="sap-pine-htg-node-route-3-option-5" value="3">
+															(3CP) Khimut Lumber Camp - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-pine-htg-node-selection-4" class="node-selection">
+													
+													<option id="sap-pine-htg-node-cp-route-4" value="9" selected>
+														Cheapest Route To: Duvencrune (9CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Duvencrune">
+														<option id="sap-pine-htg-node-route-4-option-1" value="2">
+															(2CP) Night Crow Post
+														</option>
+														<option id="sap-pine-htg-node-route-4-option-2" value="2">
+															(2CP) Tshira Ruins
+														</option>
+														<option id="sap-pine-htg-node-route-4-option-3" value="2">
+															(2CP) Khimut Lumber Camp
+														</option>
+														<option id="sap-pine-htg-node-route-4-option-4" value="3">
+															(3CP) Khimut Lumber Camp - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+										<!-- #endregion - Sap-Pine-Node-Link1 -->				
+									</div>
+								<!-- #endregion - Sap-Pine-Nodes-Links -->		
+
+								<br />
+							</div>
+						<!-- #endregion - Sap-Pine-How-To-Get-Nodes -->
+
+
+					</div>
+				<!-- #endregion - Sap-Pine-How-To-Get -->
+
+
+				<!-- #region - Sap-Pine-Used-In-Content-Button -->
+					<div class="button used-in-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-pine-used-in-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="used-in-recipe">
+								<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon" /> Used In Recipe 
+							</span>
+						</a>
+
+
+						<div class="right">
+
+						</div>
+					</div>
+				<!-- #endregion - Sap-Pine-Used-In-Content-Button -->
+
+				<!-- #region - Sap-Pine-Used-In-Content -->
+					<div id="sap-pine-used-in-content" class="hidden used-in-content">
+
+
+						<!-- #region - Sap-Pine-used-in-Alchemy Button -->
+							<div class="button item-alchemy-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-pine-used-in-alchemy');">
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									
+									<img class="icons icons1 alchemy-icon" src="images/icons/processing/simple-alchemy.webp" alt="Icon" /> Alchemy
+								</a>
+								
+								<div class="right">
+									<a title="Alchemy Guide" class="links" href="https://grumpygreen.cricket/alchemy/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Sap-Pine-used-in-Alchemy Button -->
+
+						<!-- #region - Sap-Pine-used-in-used-in-Alchemy -->
+							<div id="sap-pine-used-in-alchemy" class="info hidden">
+								
+								<!-- #region - Sap-Pine-Alchemy-item-links -->	
+									<div class="links-content">
+
+										<div class="item-link">
+											<a title="Defense Nullifying Damage +5 per Back Attack" class="links2 grade3" href="https://bdocodex.com/us/item/680/" target="_blank">
+												<img class="icons icons1 perforation-pot-icon" src="images/icons/pots/perforation.webp" alt="Icon" /> 
+												Elixir of Perforation
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">5</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Mount EXP +8%" class="links2 grade3" href="https://bdocodex.com/us/item/753/" target="_blank">
+												<img class="icons icons1 training-pot-icon" src="images/icons/pots/training.webp" alt="Icon" /> 
+												Elixir of Training
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">4</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Attack Speed +2" class="links2 grade3" href="https://bdocodex.com/us/item/688/" target="_blank">
+												<img class="icons icons1 wind-pot-icon" src="images/icons/pots/wind.webp" alt="Icon" /> Elixir of Wind
+											</a>
+
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">5</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Essence of Destruction" class="links2 grade2" href="https://bdocodex.com/us/item/5216/" target="_blank">
+												<img class="icons icons1 essence-of-destruction-icon" src="images/icons/crystals/essence-of/destruction.webp" alt="Icon" /> 
+												Essence of Destruction
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">4</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Essence of the Sun" class="links2 grade2" href="https://bdocodex.com/us/item/5208/" target="_blank">
+												<img class="icons icons1 eod-icon" src="images/icons/crystals/essence-of/the-sun.webp" alt="Icon" /> 
+												Essence of the Sun
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">4</span>
+												</div>
+											</div>
+										</div>
+
+									</div>			
+								<!-- #endregion - Sap-Pine-Alchemy-item-links -->									
+
+							</div>
+						<!-- #endregion - Sap-Pine-used-in-used-in-Alchemy -->
+
+
+						<!-- #region - Sap-Pine-Used-In-Processing Button -->
+							<div class="button processing-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-pine-htg-processing-content');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									<span class="processing-guild">
+										<img class="icons processing-icon" src="images/icons/menu/processing.webp" alt="Icon" /> Processing
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Sap-Pine-Used-In-Processing Button -->
+
+						<!-- #region - Sap-Pine-Used-In-Processing -->
+							<div id="sap-pine-htg-processing-content" class="info hidden">
+
+
+								<!-- #region - Sap-Pine-Used-In-processing-guild Button -->
+									<div class="button processing-guild-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-pine-processing-guild');">
+											
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+											<span class="processing-guild">
+												<img class="icons icons1 processing-guild-icon" src="images/icons/processing/guild.webp" alt="Icon" /> Guild 
+											</span>
+										</a>
+										
+										<div class="right">
+											<a title="Guild Guide" class="links" href="https://www.blackdesertfoundry.com/guilds-guide/" target="_blank">🔗</a>
+										</div>
+									
+									</div>
+								<!-- #endregion - Sap-Pine-Used-In-processing-guild Button -->
+
+								<!-- #region - Sap-Pine-Used-In-processing-guild -->
+									<div id="sap-pine-processing-guild" class="info hidden">
+										<div class="links-content">
+
+											<div class="item-link">
+												<a title="[Guild] Wax" class="links2 grade3" href="https://bdocodex.com/us/item/9904/" target="_blank">
+													<img class="icons icons1 guild-wax-icon" src="images/icons/designs/guild/wax.webp" alt="Icon" /> [Guild] Wax
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circleText amount">2</span>
+													</div>
+												</div>
+											</div>
+
+
+										</div>
+									</div>		
+								<!-- #endregion - Sap-Pine-Used-In-processing-guild -->
+
+
+
+							</div>
+						<!-- #endregion - Sap-Pine-Used-In-Processing -->
+
+
+						<a title="Pine Sap" class="links2" href=https://bdocodex.com/us/item/5003/ target="_blank">And More...</a>
+					</div>
+				<!-- #endregion - Sap-Pine-Used-In-Content -->
+
+
+
+				<!-- #region - Sap-Pine-Notes-Content-Button -->
+					<div class="button notes-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-pine-notes-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="notes">
+								<img class="icons notes-icon" src="images/icons/menu/notes.webp" alt="Icon" /> Notes 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-Pine-Notes-Content-Button -->
+
+				<!-- #region - Sap-Pine-Notes-Content -->
+					<div id="sap-pine-notes-content" class="hidden notes-content">
+						<p class="notes-entry">
+							-Notes
+						</p>
+						<p class="notes-entry">
+
+						</p>
+					</div>
+				<!-- #endregion - Sap-Pine-Notes-Content -->
+
+
+			</div>
+		<!-- #endregion - Sap-Pine-Content -->
+
+	</div>
+<!-- #endregion - Sap-Pine-Container -->	
+
+</body>
+</html>

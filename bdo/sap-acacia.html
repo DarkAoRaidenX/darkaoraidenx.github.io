@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Acacia Sap</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="../scripts/jquery/3.6.3.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
+</head>
+<body id="sap-acacia-page">
+
+<!-- #region - Sap-Acacia-Container -->
+	<div id="sap-acacia-container" class="items-container saps" draggable="true" ondragstart="drag(event)">
+
+		<!-- #region - Sap-Acacia-Content Button -->
+			<div class="button sap-acacia-button top">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-acacia-content');">
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div> 
+
+					<span class="sap-acacia">
+						<img class="icons icons1 sap-acacia-icon" src="images/icons/saps/acacia.webp" alt="Icon" /> 
+						Acacia Sap
+					</span>
+				</a>
+
+				<div class="right">
+					<a title="Acacia Sap" class="links" href="https://bdocodex.com/us/item/5013/" target="_blank">🔗</a>
+				</div>
+
+			</div>
+		<!-- #endregion - Sap-Acacia-Content Button -->
+
+		<!-- #region - Sap-Acacia-Content -->
+			<div id="sap-acacia-content" class="hidden">
+
+				<!-- #region - Sap-Acacia-How-To-Get Button -->
+					<div class="button htg-button">
+						<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-acacia-htg-content');">
+			
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+			
+							<span class="htg">
+								<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon" /> How to Get 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-Acacia-How-To-Get Button -->
+
+				<!-- #region - Sap-Acacia-How-To-Get -->
+					<div id="sap-acacia-htg-content" class="info hidden">
+
+
+					<!-- #region - Sap-Acacia-How-To-Get-Gathering Button -->
+						<div class="button gathering-button">
+
+							<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-acacia-htg-gathering-fluid-collecting');">
+
+								<div class="left">
+									<div class="dots">
+										<span class="dot-plus">+</span>
+									</div>
+								</div> 
+
+								<span class="gathering-fluid-collecting">
+									<img title="Fluid Collecting" class="icons icons1 fluid-collecting-icon" src="images/icons/menu/interaction/gathering/fluid-collecting.webp" alt="Icon" /> Gathering 
+								</span>
+							</a>
+
+							<div class="right">
+								<a title="Nodes / Resource Interactive Map" class="links" href="https://www.somethinglovely.net/bdo/" target="_blank">🔗</a>
+							</div>
+
+						</div>
+					<!-- #endregion - Sap-Acacia-How-To-Get-Gathering Button -->
+
+					<!-- #region - Sap-Acacia-How-To-Get-Gathering -->				
+						<div id="sap-acacia-htg-gathering-fluid-collecting" class="info hidden">
+									
+							<!-- #region - Sap-Acacia - Gathering Fluid Collector Links -->
+								<div class="links-content">
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10584/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/timber/acacia.webp" alt="Icon" /> Acacia Trees
+									</a>
+								</div>
+							<!-- #endregion - Sap-Acacia - Gathering Fluid Collector Links -->
+
+						</div>
+					<!-- #endregion - Sap-Acacia-How-To-Get-Gathering -->
+
+
+
+						<!-- #region - Sap-Acacia-How-To-Get-Nodes Button -->
+							<div class="button nodes-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-acacia-htg-nodes');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<img class="icons icons1 nodes-icon" src="images/icons/menu/nodes/nodes.webp" alt="Icon" /> Nodes
+								</a>
+
+								<div class="right">
+									<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Sap-Acacia-How-To-Get-Nodes Button -->
+						
+						<!-- #region - Sap-Acacia-How-To-Get-Nodes -->
+							<div id="sap-acacia-htg-nodes" class="info hidden">
+								
+								<!-- #region - Sap-Acacia-Nodes-Links -->			
+									<div class="links-content">
+										<!-- #region - Sap-Acacia-Node-Link1 -->
+											<a title="Stonetail Wasteland" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1219" target="_blank">
+												<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+												Stonetail Wasteland
+											</a>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-acacia-htg-node-selection-1" class="node-selection">
+													
+													<option id="sap-acacia-htg-node-cp-route-1" value="10" selected>
+														Cheapest Route To: Altinova (10CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Altinova">
+														<option id="sap-acacia-htg-node-route-1-option-1" value="1">
+															(1CP) Altinova Gateway
+														</option>
+														<option id="sap-acacia-htg-node-route-1-option-2" value="1">
+															(1CP) Stonebeak Shore
+														</option>
+														<option id="sap-acacia-htg-node-route-1-option-3" value="2">
+															(2CP) Omar Lava Cave
+														</option>
+														<option id="sap-acacia-htg-node-route-1-option-4" value="1">
+															(1CP) Mediah Shore
+														</option>
+														<option id="sap-acacia-htg-node-route-1-option-5" value="1">
+															(1CP) Kusha
+														</option>
+														<option id="sap-acacia-htg-node-route-1-option-6" value="1">
+															(1CP) Stonetail Wasteland
+														</option>
+														<option id="sap-acacia-htg-node-route-1-option-7" value="3">
+															(3CP) Stonetail Wasteland - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-acacia-htg-node-selection-2" class="node-selection">
+													
+													<option id="sap-acacia-htg-node-cp-route-2" value="10" selected>
+														Cheapest Route To: Tarif (10CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Tarif">
+														<option id="sap-acacia-htg-node-route-2-option-1" value="1">
+															(1CP) Soldier's Grave
+														</option>
+														<option id="sap-acacia-htg-node-route-2-option-2" value="1">
+															(1CP) Castle Ruins
+														</option>
+														<option id="sap-acacia-htg-node-route-2-option-3" value="2">
+															(2CP) Kamasylve Temple
+														</option>
+														<option id="sap-acacia-htg-node-route-2-option-4" value="1">
+															(1CP) Ancient Ruins Excavation Site
+														</option>
+														<option id="sap-acacia-htg-node-route-2-option-5" value="1">
+															(1CP) Canyon of Corruption
+														</option>
+														<option id="sap-acacia-htg-node-route-2-option-6" value="1">
+															(1CP) Stonetail Wasteland
+														</option>
+														<option id="sap-acacia-htg-node-route-2-option-7" value="3">
+															(3CP) Stonetail Wasteland - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-acacia-htg-node-selection-3" class="node-selection">
+													
+													<option id="sap-acacia-htg-node-cp-route-3" value="11" selected>
+														Cheapest Route To: Heidel (11CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Heidel">
+														<option id="sap-acacia-htg-node-route-3-option-1" value="3">
+															(3CP) Eastern Border
+														</option>
+														<option id="sap-acacia-htg-node-route-3-option-2" value="2">
+															(2CP) Kamasylve Temple
+														</option>
+														<option id="sap-acacia-htg-node-route-3-option-3" value="1">
+															(1CP) Ancient Ruins Excavation Site
+														</option>
+														<option id="sap-acacia-htg-node-route-3-option-4" value="1">
+															(1CP) Canyon of Corruption
+														</option>
+														<option id="sap-acacia-htg-node-route-3-option-5" value="1">
+															(1CP) Stonetail Wasteland
+														</option>
+														<option id="sap-acacia-htg-node-route-3-option-6" value="3">
+															(3CP) Stonetail Wasteland - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-acacia-htg-node-selection-4" class="node-selection">
+													
+													<option id="sap-acacia-htg-node-cp-route-4" value="10" selected>
+														Cheapest Route To: Velia (14CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Velia">
+														<option id="sap-acacia-htg-node-route-4-option-1" value="1">
+															(1CP) Forest of Plunder
+														</option>
+														<option id="sap-acacia-htg-node-route-4-option-2" value="1">
+															(1CP) Ehwaz Hill
+														</option>
+														<option id="sap-acacia-htg-node-route-4-option-3" value="1">
+															(1CP) Cron Castle Site
+														</option>
+														<option id="sap-acacia-htg-node-route-4-option-4" value="3">
+															(3CP) Mediah Northern Gateway
+														</option>
+														<option id="sap-acacia-htg-node-route-4-option-5" value="1">
+															(1CP) The Mausoleum
+														</option>
+														<option id="sap-acacia-htg-node-route-4-option-6" value="2">
+															(2CP) Mediah Northern Highlands
+														</option>
+														<option id="sap-acacia-htg-node-route-4-option-7" value="1">
+															(1CP) Sausan Garrison
+														</option>
+														<option id="sap-acacia-htg-node-route-4-option-8" value="1">
+															(1CP) Stonetail Wasteland
+														</option>
+														<option id="sap-acacia-htg-node-route-4-option-9" value="3">
+															(3CP) Stonetail Wasteland - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+										<!-- #endregion - Sap-Acacia-Node-Link1 -->				
+									</div>
+								<!-- #endregion - Sap-Acacia-Nodes-Links -->		
+
+								<br />
+							</div>
+						<!-- #endregion - Sap-Acacia-How-To-Get-Nodes -->
+
+
+					</div>
+				<!-- #endregion - Sap-Acacia-How-To-Get -->
+
+
+				<!-- #region - Sap-Acacia-Used-In-Content-Button -->
+					<div class="button used-in-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-acacia-used-in-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="used-in-recipe">
+								<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon" /> Used In Recipe 
+							</span>
+						</a>
+
+
+						<div class="right">
+
+						</div>
+					</div>
+				<!-- #endregion - Sap-Acacia-Used-In-Content-Button -->
+
+				<!-- #region - Sap-Acacia-Used-In-Content -->
+					<div id="sap-acacia-used-in-content" class="hidden used-in-content">
+
+						<!-- #region - Sap-Acacia-Used-In-Processing-Heating Button -->
+							<div class="button processing-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-acacia-used-in-processing-content');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									<span class="processing-guild">
+										<img class="icons processing-icon" src="images/icons/menu/processing.webp" alt="Icon" /> Processing
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Sap-Acacia-Used-In-Processing-Heating Button -->
+
+						<!-- #region - Sap-Acacia-Used-In-Processing-Heating -->
+							<div id="sap-acacia-used-in-processing-content" class="info hidden">
+
+								<!-- #region - Sap-Acacia-Used-In-Processing-Heating Button -->
+									<div class="button processing-heating-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-acacia-used-in-processing-heating');">
+
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+
+											<img class="icons icons1 heating-icon" src="images/icons/processing/heating.webp" alt="Icon" /> Heating 
+										</a>
+
+										<div class="right">
+											
+										</div>
+
+									</div>
+								<!-- #endregion - Sap-Acacia-Used-In-Processing-Heating Button -->
+									
+								<!-- #region - Sap-Acacia-Used-In-Heating -->
+									<div id="sap-acacia-used-in-processing-heating" class="info hidden">
+										
+										<!-- #region - items-sap-acacia-info-Heating -->			
+											<div class="links-content">
+												<!-- #region - Sap-Acacia-AfU Link -->
+
+													<div class="item-link">
+														<a title="Adhesive for Upgrade" class="links2 grade3" href="https://bdocodex.com/us/item/45510/" target="_blank">
+															<img class="icons icons1" src="images/icons/processing/heating/adhesive-for-upgrade.webp" alt="Icon" /> 
+														Adhesive for Upgrade
+														</a>
+
+														<div class="right">
+															<div class="dots">
+																<span class="circleText amount">100</span>
+															</div>
+														</div>
+													</div>
+
+												<!-- #endregion - Sap-Acacia-AfU Link -->
+											</div>
+										<!-- #endregion - items-sap-acacia-info-Heating -->		
+
+									</div>
+								<!-- #endregion - Sap-Acacia-Used-In-Heating -->
+
+							</div>
+						<!-- #endregion - Sap-Acacia-Used-In-Processing-Heating -->
+
+
+						<a title="Acacia Sap" class="links2" href=https://bdocodex.com/us/item/5013/ target="_blank">And More...</a>
+					</div>
+				<!-- #endregion - Sap-Acacia-Used-In-Content -->
+
+
+
+				<!-- #region - Sap-Acacia-Notes-Content-Button -->
+					<div class="button notes-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-acacia-notes-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="notes">
+								<img class="icons notes-icon" src="images/icons/menu/notes.webp" alt="Icon" /> Notes 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-Acacia-Notes-Content-Button -->
+
+				<!-- #region - Sap-Acacia-Notes-Content -->
+					<div id="sap-acacia-notes-content" class="hidden notes-content">
+						<p class="notes-entry">
+							-Notes
+						</p>
+						<p class="notes-entry">
+
+						</p>
+					</div>
+				<!-- #endregion - Sap-Acacia-Notes-Content -->
+
+
+			</div>
+		<!-- #endregion - Sap-Acacia-Content -->
+
+	</div>
+<!-- #endregion - Sap-Acacia-Container -->	
+
+</body>
+</html>

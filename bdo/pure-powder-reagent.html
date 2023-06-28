@@ -1,0 +1,802 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Pure Powder Reagent</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="../scripts/jquery/3.6.3.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>	
+</head>
+<body id="ppr-page">
+
+<!-- #region - Pure-Powder-Reagent-Container -->
+	<div id="ppr-container" class="items-container recipes" draggable="true" ondragstart="drag(event)">
+
+
+		<!-- #region - Recipe-Pure-Powder-Reagent Button -->
+			<div class="button ppr-button top">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('recipe-ppr');">
+
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div> 
+
+					<img class="icons icons1 ppr-icon" src="images/icons/alchemy/pure-powder-reagent.webp" alt="Icon" /> 
+					Pure Powder Reagent
+				</a>
+
+				<div class="right">
+					<a title="Pure Powder Reagent" class="links" href="https://bdocodex.com/us/item/5302/" target="_blank">🔗</a>
+				</div>
+
+
+			</div>
+		<!-- #region - Recipe-Pure-Powder-Reagent Button -->
+
+		<!-- #region - Recipe-Pure-Powder-Reagent -->
+			<div id="recipe-ppr" class="hidden">
+
+				<!-- #region - Recipe-Pure-Powder-Reagent Grass Button -->
+					<div class="button blue-bg4 grass-button">
+
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('ppr-grass');">
+
+						<div class="left">
+							<div class="dots">
+								<span class="dot-plus">+</span>
+							</div>
+						</div> 
+
+						<img class="icons icons1" src="images/icons/gathering/plants/wild-grass.webp" alt="Icon" /> 
+							Grass
+						</a>
+
+
+						<div class="right">
+							<div class="dots">
+								<span class="circleText amount">1</span>
+							</div>
+
+							<a title="Gathering Guide" class="links" href="https://grumpygreen.cricket/bdo-gathering/" target="_blank">🔗</a>
+						</div>
+
+					</div>
+				<!-- #endregion - Recipe-Pure-Powder-Reagent Grass Button -->
+
+				<!-- #region - Recipe-Pure-Powder-Reagent Grass -->
+					<div id="ppr-grass" class="info hidden">
+
+						<div class="item-link">
+							<a title="Weeds" class="links2 grade2" href="https://bdocodex.com/us/item/5600/" target="_blank">
+							<img class="icons icons1" src="images/icons/gathering/plants/weeds.webp" alt="Icon" /> 
+							Weeds
+							</a>
+							
+
+
+							<a title="Wild Grass" class="links2 grade2" href="https://bdocodex.com/us/item/5600/" target="_blank">
+							<img class="icons icons1" src="images/icons/gathering/plants/wild-grass.webp" alt="Icon" /> 
+							Wild Grass
+							</a>
+							
+						</div>
+
+					</div>
+				<!-- #endregion - Recipe-Pure-Powder-Reagent Grass -->
+
+
+				<!-- #region - Recipe-Purified-Water Button -->
+					<div class="button blue-bg4 purified-water-button">
+
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('ppr-pw');">
+
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<img class="icons icons1" src="images/icons/waters/purified.webp" alt="Icon" /> 
+							Purified Water
+
+						</a>
+
+
+						<div class="right">
+
+							<div class="dots">
+								<span class="circleText amount">1</span>
+							</div>
+
+							<a title="Purified Water" class="links" href="https://bdocodex.com/us/item/6656/" target="_blank">🔗</a>
+
+						</div>
+
+					</div>
+				<!-- #endregion - Recipe-Purified-Water Button -->
+
+				<!-- #region - Recipe-Purified-Water -->
+					<div id="ppr-pw" class="info hidden">
+
+							<div class="item-link">
+								<a title="Bottle of Clean Water" class="links2 grade2" href="https://bdocodex.com/us/item/6655/" target="_blank">
+									<img class="icons icons1 bocw-icon" src="images/icons/waters/clean.webp" alt="Icon" /> 
+									Bottle of Clean Water
+								</a>
+								<div class="right">
+									<div class="dots">
+											<span class="circleText amount">1</span>
+									</div>
+
+									<a title="Filtering - Processing Guide" class="links2 grade2" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">
+										<img class="icons icons1" src="images/icons/processing/filtering.webp" alt="Icon" />
+									</a>	
+
+								</div>
+							</div>
+
+							<div class="item-link">
+								<a title="Bottle of River Water" class="links2 grade2" href="https://bdocodex.com/us/item/6653/" target="_blank">
+									<img class="icons icons1 borw-icon" src="images/icons/waters/river.webp" alt="Icon" /> 
+									Bottle of River Water
+								</a>
+								<div class="right">
+									<div class="dots">
+											<span class="circleText amount">1</span>
+									</div>
+
+									<a title="Filtering - Processing Guide" class="links2 grade2" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">
+										<img class="icons icons1" src="images/icons/processing/filtering.webp" alt="Icon" />
+									</a>	
+
+								</div>
+							</div>
+
+					</div>
+				<!-- #endregion - Recipe-Purified-Water -->
+
+
+				<!-- #region - Pure-Powder-Reagent-SAZ Button -->
+					<div class="button blue-bg4 silver-azalea-button">
+
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('ppr-saz');">
+
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<img class="icons icons1" src="images/icons/gathering/plants/silver-azalea.webp" alt="Icon" /> 
+							Silver Azalea
+
+						</a>
+
+						<div class="right">
+
+							<div class="dots">
+								<span class="circleText amount">1</span>
+							</div>
+
+							<a title="Silver Azalea" class="links" href="https://bdocodex.com/us/item/5402/" target="_blank">🔗</a>
+						</div>
+
+					</div>
+				<!-- #endregion - Pure-Powder-Reagent-SAZ Button -->
+
+				<!-- #region - Pure-Powder-Reagent-SAZ -->
+					<div id="ppr-saz" class="info hidden">
+
+						<!-- #region - Pure-Powder-Reagent-SAZ-How-To-Get-Nodes Button -->
+							<div class="button nodes-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('ppr-saz-htg-nodes');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<img class="icons icons1 nodes-icon" src="images/icons/menu/nodes/nodes.webp" alt="Icon" /> Nodes
+								</a>
+
+								<div class="right">
+									<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Pure-Powder-Reagent-SAZ-How-To-Get-Nodes Button -->
+							
+						<!-- #region - Pure-Powder-Reagent-SAZ-How-To-Get-Nodes -->
+							<div id="ppr-saz-htg-nodes" class="info hidden">
+								
+								<!-- #region - Pure-Powder-Reagent-SAZ-Nodes-Links -->			
+									<div class="links-content">
+
+											<a title="Balenos Forest - Gathering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/168" target="_blank">
+												<img class="icons icons1 nodes-gathering-icon" src="images/icons/menu/nodes/gathering.webp" alt="Icon" /> 
+												Balenos Forest - Gathering
+											</a>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="ppr-saz-htg-node-selection-1" class="node-selection">
+
+													<option id="ppr-saz-htg-node-cp-route-1" value="5" selected>
+														Cheapest Route To: Heidel (5CP)
+													</option>
+
+													<optgroup label="Start: (0CP) - Heidel">
+														<option id="ppr-saz-htg-node-route-1-option-1" value="1">
+															(1CP) Bartali Farm
+														</option>
+														<option id="ppr-saz-htg-node-route-1-option-2" value="2">
+															(2CP) Balenos Forest
+														</option>
+														<option id="ppr-saz-htg-node-route-1-option-3" value="2">
+															(2CP) Balenos Forest - Gathering
+														</option>
+													</optgroup>
+
+												</select>
+											</div>
+
+											
+											<br />
+											<a title="Cron Castle Site - Gathering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/155" target="_blank">
+												<img class="icons icons1 nodes-gathering-icon" src="images/icons/menu/nodes/gathering.webp" alt="Icon" /> 
+												Cron Castle Site - Gathering
+											</a>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="ppr-saz-htg-node-selection-2" class="node-selection">
+													
+													<option id="ppr-saz-htg-node-cp-route-2" value="4" selected>
+														Cheapest Route To: Velia (4CP) 
+													</option>
+
+													<optgroup label="Start: (0CP) - Velia">
+														<option id="ppr-saz-htg-node-route-2-option-1" value="1">
+															(1CP) Forest of Plunder
+														</option>
+														<option id="ppr-saz-htg-node-route-2-option-2" value="1">
+															(1CP) Ehwaz Hill
+														</option>
+														<option id="ppr-saz-htg-node-route-2-option-3" value="1">
+															(1CP) Cron Castle Site
+														</option>
+														<option id="ppr-saz-htg-node-route-2-option-4" value="1">
+															(1CP) Cron Castle Site - Gathering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+											
+
+											<br />
+											<a title="Gavinya Coastal Cliff - Gathering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1557" target="_blank">
+												<img class="icons icons1 nodes-gathering-icon" src="images/icons/menu/nodes/gathering.webp" alt="Icon" /> 
+												Gavinya Coastal Cliff - Gathering
+											</a>
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="ppr-saz-htg-node-selection-3" class="node-selection">
+													
+													<option id="ppr-saz-htg-node-cp-route-3" value="9" selected>
+														Cheapest Route To: Arehaza (9CP)
+													</option>
+
+													<optgroup label="Start: (0CP) - Arehaza">
+														<option id="ppr-saz-htg-node-route-3-option-1" value="1">
+															(1CP) Nothern Sand Dune
+														</option>
+														<option id="ppr-saz-htg-node-route-3-option-2" value="3">
+															(3CP) Gavinya Volcano Zone
+														</option>
+														<option id="ppr-saz-htg-node-route-3-option-3" value="2">
+															(2CP) Gavinya Great Crater
+														</option>
+														<option id="ppr-saz-htg-node-route-3-option-4" value="1">
+															(1CP) Gavinya Coastal Cliff
+														</option>
+														<option id="ppr-saz-htg-node-route-3-option-5" value="2">
+															(2CP) Gavinya Coastal Cliff - Gathering
+														</option>
+													</optgroup>
+
+												</select>
+											</div>
+											
+												
+											<br />
+											<a title="Gervish Mountains - Gathering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1676" target="_blank">
+												<img class="icons icons1 nodes-gathering-icon" src="images/icons/menu/nodes/gathering.webp" alt="Icon" /> 
+												Gervish Mountains - Gathering
+											</a>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="ppr-saz-htg-node-selection-4" class="node-selection">
+													
+													<option id="ppr-saz-htg-node-cp-route-4" value="7" selected>
+														Cheapest Route To: Duvencrune (7CP)
+													</option>
+
+													<optgroup label="Start: (0CP) - Duvencrune">
+														<option id="ppr-saz-htg-node-route-4-option-1" value="2">
+															(2CP) Night Crow Post
+														</option>
+														<option id="ppr-saz-htg-node-route-4-option-2" value="2">
+															(2CP) Garmoths Nest
+														</option>
+														<option id="ppr-saz-htg-node-route-4-option-3" value="1">
+															(1CP) Gervish Mountains
+														</option>
+														<option id="ppr-saz-htg-node-route-4-option-4" value="2">
+															(2CP) Gervish Mountains - Gathering
+														</option>
+													</optgroup>
+
+												</select>
+											</div>
+
+
+										
+
+									</div>
+								<!-- #endregion - Pure-Powder-Reagent-SAZ-Nodes-Links -->		
+
+							</div>
+						<!-- #endregion - Pure-Powder-Reagent-SAZ-How-To-Get-Nodes -->
+
+					</div>
+				<!-- #endregion - Pure-Powder-Reagent-SAZ -->
+
+
+				<!-- #region - Pure-Powder-Reagent-Sugar Button -->
+					<div class="button blue-bg4 sugar-button">
+
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('ppr-sugar');">
+
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="move-right">
+								<img class="icons icons1" src="images/icons/vendor/sugar.webp" alt="Icon" /> Sugar
+							</span>
+
+						</a>
+
+
+						<div class="right">
+							
+							<img title="NPC Food Vendor or Innkeeper." class="icons icons1 silver-icon" src="images/icons/menu/currency-silver.webp" alt="Icon" /> 
+
+							<div class="dots">
+								<span class="circleText amount">1</span>
+							</div>
+
+							<a title="Sugar" class="links" href="https://bdocodex.com/us/item/9002/" target="_blank">🔗</a>
+					
+						</div>
+
+
+					</div>
+				<!-- #endregion - Pure-Powder-Reagent-Sugar Button -->
+
+				<!-- #region - Pure-Powder-Reagent-Sugar -->
+					<div id="ppr-sugar" class="info hidden">
+
+						<p class="text">
+							NPC Food Vendor or Innkeeper.
+						</p>
+
+					</div>
+				<!-- #region - Pure-Powder-Reagent-Sugar --> 
+
+
+				<!-- #region - Pure-Powder-Reagent-Used-In Button -->
+					<div class="button used-in-button">
+
+						<a title="Content Button" class="button-link gold" href="javascript:toggleDiv('ppr-used-in-content');">
+
+							<div class="left">
+								<div class="dots">
+								<span class="dot-plus">+</span>
+								</div>
+							</div> 
+							
+							<span class="used-in"> 								
+								<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon" /> Used In Recipe 							
+							</span>
+						</a>
+
+
+						<div class="right">
+
+						</div>
+
+					</div>
+				<!-- #endregion - Pure-Powder-Reagent-Used-In Button -->
+
+
+				<!-- #region - Pure-Powder-Reagent-Used-In -->
+					<div id="ppr-used-in-content" class="used-in-container hidden">
+
+
+
+						<!-- #region - Pure-Powder-Reagent-Used-In-Alchemy Button -->
+							<div class="button item-alchemy-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('ppr-used-in-alchemy');">
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div>
+									
+									<img class="icons icons1 alchemy-icon" src="images/icons/processing/simple-alchemy.webp" alt="Icon" /> Alchemy
+								</a>
+								
+								<div class="right">
+									<a title="Alchemy Guide" class="links" href="https://grumpygreen.cricket/alchemy/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Pure-Powder-Reagent-Used-In-Alchemy Button -->
+
+						<!-- #region - Pure-Powder-Reagent-Used-In-Alchemy -->
+							<div id="ppr-used-in-alchemy" class="info hidden">
+
+						
+								<div class="item-link">
+									<a title="Back Attack Damage +10%" class="links2 grade3" href="https://bdocodex.com/us/item/696/" target="_blank">
+										<img class="icons icons1" src="images/icons/pots/assassination.webp" alt="Icon" /> Elixir of Assassination
+									</a>
+
+									<div class="right">
+										<div class="dots">
+											<span class="circleText amount">5</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="item-link">
+									<a title="Strength EXP +10%" class="links2 grade3" href="https://bdocodex.com/us/item/1188/" target="_blank">
+										<img class="icons icons1" src="images/icons/pots/brawn.webp" alt="Icon" /> Elixir of Brawn
+									</a>
+
+									<div class="right">
+										<div class="dots">
+											<span class="circleText amount">5</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="item-link">
+									<a title="Down Attack Damage +10%" class="links2 grade3" href="https://bdocodex.com/us/item/718/" target="_blank">
+										<img class="icons icons1" src="images/icons/pots/carnage.webp" alt="Icon" /> Elixir of Carnage
+									</a>
+
+									<div class="right">
+										<div class="dots">
+											<span class="circleText amount">7</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="item-link">
+									<a title="Critical Hit Damage +10%" class="links2 grade3" href="https://bdocodex.com/us/item/698/" target="_blank">
+										<img class="icons icons1" src="images/icons/pots/detection.webp" alt="Icon" /> Elixir of Detection
+									</a>
+
+									<div class="right">
+										<div class="dots">
+											<span class="circleText amount">6</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="item-link">
+									<a title="Max Stamina +100" class="links2 grade3" href="https://bdocodex.com/us/item/722/" target="_blank">
+										<img class="icons icons1 endurance-pot-icon" src="images/icons/pots/endurance.webp" alt="Icon" /> 
+										Elixir of Endurance
+									</a>
+									<div class="right">
+										<div class="dots">
+												<span class="circleText amount">1</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="item-link">
+									<a title="MP Recovery Amount +10" class="links2 grade3" href="https://bdocodex.com/us/item/682/" target="_blank">
+										<img class="icons icons1 energy-pot-icon" src="images/icons/pots/death.webp" alt="Icon" /> Elixir of Energy
+									</a>
+
+									<div class="right">
+										<div class="dots">
+											<span class="circleText amount">1</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="item-link">
+									<a title="Max HP +100" class="links2 grade3" href="https://bdocodex.com/us/item/708/" target="_blank">
+										<img class="icons icons1 life-pot-icon" src="images/icons/pots/life.webp" alt="Icon" /> 
+										Elixir of Life
+									</a>
+									<div class="right">
+										<div class="dots">
+												<span class="circleText amount">1</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="item-link">
+									<a title="Air Attack Damage +10%" class="links2 grade3" href="https://bdocodex.com/us/item/720/" target="_blank">
+										<img class="icons icons1" src="images/icons/pots/sky.webp" alt="Icon" /> Elixir of Sky
+									</a>
+
+									<div class="right">
+										<div class="dots">
+											<span class="circleText amount">6</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="item-link">
+									<a title="Damage Received from Monsters -7.5%" class="links2 grade3" href="https://bdocodex.com/us/item/702/" target="_blank">
+										<img class="icons icons1 eow-pot-icon" src="images/icons/pots/will.webp" alt="Icon" /> Elixir of Will
+									</a>
+
+									<div class="right">
+										<div class="dots">
+											<span class="circleText amount">1</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="item-link">
+									<a title="Gem Polisher" class="links2 grade2" href="https://bdocodex.com/us/item/4481/" target="_blank">
+										 <img class="icons icons1 gem-p-icon" src="images/icons/alchemy/gem-polisher.webp" alt="Icon" /> Gem Polisher
+									</a>
+
+									<div class="right">
+										<div class="dots">
+											<span class="circleText amount">1</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="item-link">
+									<a title="Recover +1 HP per hit" class="links2 grade3" href="https://bdocodex.com/us/item/712/" target="_blank">
+										<img class="icons icons1" src="images/icons/pots/grim-reapers.webp" alt="Icon" /> Grim Reaper's Elixir
+									</a>
+
+									<div class="right">
+										<div class="dots">
+											<span class="circleText amount">4</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="item-link">
+									<a title="All AP +2" class="links2 grade2" href="https://bdocodex.com/us/item/45201/" target="_blank">
+										<img class="icons icons1 imperfect-destruction-stone-icon" src="images/icons/alchemy-stone/imperfect-destruction.webp" alt="Icon" />Imperfect Alchemy Stone of Destruction
+									</a>
+									<div class="right">
+										<div class="dots">
+												<span class="circleText amount">10</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="item-link">
+									<a title="Legendary Beast's Blood" class="links2 grade2" href="https://bdocodex.com/us/item/6351/" target="_blank">
+										<img class="icons icons1 blood-legendary-beasts-icon" src="images/icons/bloods/legendary-beasts.webp" alt="Icon" /> Legendary Beast's Blood
+									</a>
+
+									<div class="right">
+										<div class="dots">
+											<span class="circleText amount">1</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="item-link">
+									<a title="Plywood Hardener" class="links2 grade2" href="https://bdocodex.com/us/item/4684/" target="_blank">
+										<img class="icons icons1 plywood-hardener-icon" src="images/icons/alchemy/plywood-hardener.webp" alt="Icon" /> 
+										Plywood Hardener
+									</a>
+									<div class="right">
+										<div class="dots">
+												<span class="circleText amount">1</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="item-link">
+									<a title="Purified Lightstone of Earth" class="links2 grade4" href="https://bdocodex.com/us/item/766011/" target="_blank">
+										<img class="icons icons1 purified-lightstone-earth-icon" src="images/icons/alchemy/lightstones/purified-earth.webp" alt="Icon" /> 
+										Purified Lightstone of Earth
+									</a>
+									<div class="right">
+										<div class="dots">
+												<span class="circleText amount">50</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="item-link">
+									<a title="Purified Lightstone of Flora" class="links2 grade4" href="https://bdocodex.com/us/item/766031/" target="_blank">
+										<img class="icons icons1 purified-lightstone-flora-icon" src="images/icons/alchemy/lightstones/purified-flora.webp" alt="Icon" /> 
+										Purified Lightstone of Flora
+									</a>
+									<div class="right">
+										<div class="dots">
+												<span class="circleText amount">50</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="item-link">
+									<a title="Refined Delotia Reagent" class="links2 grade2" href="https://bdocodex.com/us/item/5606/" target="_blank">
+										<img class="icons icons1 delotia-reagent-icon" src="images/icons/alchemy/refined-delotia-reagent.webp" alt="Icon" /> 
+										Refined Delotia Reagent
+									</a>
+									<div class="right">
+										<div class="dots">
+												<span class="circleText amount">1</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="item-link">
+									<a title="Tyrant's Blood" class="links2 grade2" href="https://bdocodex.com/us/item/6352/" target="_blank">
+										<img class="icons icons1" src="images/icons/bloods/tyrants.webp" alt="Icon" /> 
+										Tyrant's Blood
+									</a>
+
+									<div class="right">
+										<div class="dots">
+											<span class="circleText amount">1</span>
+										</div>
+									</div>
+								</div>
+							
+
+							</div>	
+						<!-- #region - Pure-Powder-Reagent-Used-In-Alchemy -->
+
+
+						<!-- #region - Pure-Powder-Reagent-Used-In-Processing Button -->
+							<div class="button processing-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('ppr-used-in-processing-content');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									<span class="processing-guild">
+										<img class="icons processing-icon" src="images/icons/menu/processing.webp" alt="Icon" /> Processing
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Pure-Powder-Reagent-Used-In-Processing Button -->
+
+						<!-- #region - Pure-Powder-Reagent-Used-In-Processing-Content -->
+							<div id="ppr-used-in-processing-content" class="info hidden">
+
+								<!-- #region - Pure-Powder-Reagent-Used-In-Processing-Grinding Button -->
+									<div class="button processing-grinding-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('ppr-used-in-processing-grinding');">
+
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+
+											<img class="icons icons1 grinding-icon" src="images/icons/processing/grinding.webp" alt="Icon" /> Grinding 
+										</a>
+
+										<div class="right">
+											
+										</div>
+
+									</div>
+								<!-- #endregion - Pure-Powder-Reagent-Used-In-Processing-Grinding Button -->
+									
+								<!-- #region - Pure-Powder-Reagent-Used-In-Grinding -->
+									<div id="ppr-used-in-processing-grinding" class="info hidden">
+										
+										<!-- #region - items-ppr-info-Grinding -->			
+											<div class="links-content">
+
+												<div class="item-link">
+													<a title="Sturdy Snow White Stone" class="links2 grade3" href="https://bdocodex.com/us/item/5169/" target="_blank">
+														<img class="icons icons1" src="images/icons/processing/grinding/sturdy-snow-white-stone.webp" alt="Icon" /> Sturdy Snow White Stone
+													</a>
+
+													<div class="right">
+														<div class="dots">
+															<span class="circleText amount">10</span>
+														</div>
+													</div>
+												</div>
+
+											</div>
+										<!-- #endregion - items-ppr-info-Grinding -->		
+
+									</div>
+								<!-- #endregion - Pure-Powder-Reagent-Used-In-Grinding -->
+
+							</div>
+						<!-- #endregion - Pure-Powder-Reagent-Used-In-Processing-Content -->
+
+
+
+
+						<br />
+						<a title="Pure Powder Reagent" class="links2 grade2" href="https://bdocodex.com/us/item/5302/" target="_blank">And More...</a>
+					</div>
+				<!-- #endregion - Pure-Powder-Reagent-Used-In -->
+
+
+				<!-- #region - Pure-Powder-Reagent-Notes Button -->
+					<div class="button notes-button">
+
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('ppr-notes-content');">
+
+							<div class="left">
+								<div class="dots">
+								<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="notes">
+								<img class="icons icons6" src="images/icons/menu/notes.webp" alt="Icon" /> Notes 
+							</span>
+						</a>
+
+					</div>
+				<!-- #endregion - Pure-Powder-Reagent-Notes Button -->
+
+
+				<!-- #region - Pure-Powder-Reagent-Notes -->
+					<div id="ppr-notes-content" class="notes-container hidden">
+
+						<p class="notes-entry">
+							- Hoe Gather at Behr for Weeds/Wild Grass.
+						</p>
+
+					</div>
+				<!-- #endregion - Pure-Powder-Reagent-Notes -->
+
+			</div>
+		<!-- #endregion - Recipe-Pure-Powder-Reagent -->
+
+
+	</div>
+<!-- #endregion - Pure-Powder-Reagent-Container -->
+
+</body>
+</html>

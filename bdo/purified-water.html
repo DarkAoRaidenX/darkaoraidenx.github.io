@@ -1,0 +1,923 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Purified Water</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="../scripts/jquery/3.6.3.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
+</head>
+<body id="pw-page">
+
+<!-- #region - Purified-Water-Container -->
+	<div id="pw-container" class="items-container fruit-of" draggable="true" ondragstart="drag(event)">
+
+	<!-- #region - Purified-Water-Content Button -->
+		<div class="button pw-button top">
+
+			<a title="Content Button" class="button-link" href="javascript:toggleDiv('pw-content');">
+				<div class="left">
+					<div class="dots">
+						<span class="dot-plus">+</span>
+					</div>
+				</div> 
+
+				<span class="pw">
+					 <img class="icons icons1 pw-icon" src="images/icons/waters/purified.webp" alt="Icon" /> Purified Water
+				</span>
+			</a>
+
+			<div class="right">
+				<a title="Purified Water" class="links" href="https://bdocodex.com/us/item/6656/" target="_blank">🔗</a>
+			</div>
+
+		</div>
+	<!-- #endregion - Purified-Water-Content Button -->
+
+	<!-- #region - Purified-Water-Content -->
+		<div id="pw-content" class="hidden">
+
+			<!-- #region - Purified-Water-How-To-Get Button -->
+				<div class="button htg-button">
+					<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('pw-htg-content');">
+
+						<div class="left">
+							<div class="dots">
+								<span class="dot-plus">+</span>
+							</div>
+						</div> 
+
+						<span class="htg">
+							<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon" /> How to Get 
+						</span>
+					</a>
+				</div>
+			<!-- #endregion - Purified-Water-How-To-Get Button -->
+
+
+			<!-- #region - Purified-Water-How-To-Get -->
+				<div id="pw-htg-content" class="info hidden">
+
+					<!-- #region - Purified-Water-How-To-Get-Nodes Button -->
+						<div class="button nodes-button">
+
+							<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('pw-htg-nodes');">
+
+								<div class="left">
+									<div class="dots">
+										<span class="dot-plus">+</span>
+									</div>
+								</div> 
+
+								<img class="icons icons1 nodes-icon" src="images/icons/menu/nodes/nodes.webp" alt="Icon" /> Nodes
+							</a>
+
+							<div class="right">
+								<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+							</div>
+
+						</div>
+					<!-- #endregion - Purified-Water-How-To-Get-Nodes Button -->
+						
+					<!-- #region - Purified-Water-How-To-Get-Nodes -->
+						<div id="pw-htg-nodes" class="info hidden">
+							
+							<!-- #region - Purified-Water-Nodes-Links -->			
+								<div class="links-content">
+									<!-- #region - Purified-Water-Node-Link1 -->
+	
+										<a title="Kunid's Shelter" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1505" target="_blank">
+											<img class="icons icons1 nodes-gathering-icon" src="images/icons/menu/nodes/gathering.webp" alt="Icon" /> 
+											Kunid's Shelter
+										</a>
+
+										<div class="node-selection-content">
+											<select title="Click for all CP Routes" id="pw-htg-node-selection-1" class="node-selection">
+												
+												<option id="pw-htg-node-cp-route-1" value="9" selected>
+													Cheapest Route To: Shakatu (9CP) 
+												</option>
+
+												<optgroup label="Start: (0CP) - Shakatu">
+													<option id="pw-htg-node-route-1-option-1" value="3">
+														(3CP) Runn Gateway Intersection
+													</option>
+													<option id="pw-htg-node-route-1-option-2" value="1">
+														(1CP) Deserted City of Ruin
+													</option>
+													<option id="pw-htg-node-route-1-option-3" value="1">
+														(1CP) Cadry Ruins
+													</option>
+													<option id="pw-htg-node-route-1-option-4" value="1">
+														(1CP) Kunid's Vacation Spot
+													</option>
+													<option id="pw-htg-node-route-1-option-5" value="3">
+														(3CP) Kunid's Shelter
+													</option>
+												</optgroup>
+											</select>
+										</div>
+										
+										<div class="node-selection-content">
+											<select title="Click for all CP Routes" id="pw-htg-node-selection-2" class="node-selection">
+
+												<option id="pw-htg-node-cp-route-2" value="11" selected>
+													Cheapest Route To: Sand Grain Bazaar (11CP)
+												</option>
+
+												<optgroup label="Start: (0CP) - Sand Grain Bazaar">
+													<option id="pw-htg-node-route-2-option-1" value="1">
+														(1CP) Capotia
+													</option>
+													<option id="pw-htg-node-route-2-option-2" value="3">
+														(3CP) Barhan Gateway
+													</option>
+													<option id="pw-htg-node-route-2-option-3" value="1">
+														(1CP) Taphtar Plain
+													</option>
+													<option id="pw-htg-node-route-2-option-4" value="1">
+														(1CP) Veteran's Canyon
+													</option>
+													<option id="pw-htg-node-route-2-option-5" value="1">
+														(1CP) Cadry Ruins
+													</option>
+													<option id="pw-htg-node-route-2-option-6" value="1">
+														(1CP) Kunid's Vacation Spot
+													</option>
+													<option id="pw-htg-node-route-2-option-7" value="3">
+														(3CP) Kunid's Shelter
+													</option>
+												</optgroup>
+
+											</select>
+										</div>
+
+										<div class="node-selection-content">
+											<select title="Click for all CP Routes" id="pw-htg-node-selection-3" class="node-selection">
+												
+												<option id="pw-htg-node-cp-route-3" value="12" selected>
+													Cheapest Route To: Altinova (12CP)
+												</option>
+
+												<optgroup label="Start: (0CP) - Altinova">
+													<option id="pw-htg-node-route-3-option-1" value="3">
+														(3CP) Altinova Gateway
+													</option>
+													<option id="pw-htg-node-route-3-option-2" value="3">
+														(3CP) Rock Post
+													</option>
+													<option id="pw-htg-node-route-3-option-3" value="1">
+														(1CP) Veteran's Canyon
+													</option>
+													<option id="pw-htg-node-route-3-option-4" value="1">
+														(1CP) Cadry Ruins
+													</option>
+													<option id="pw-htg-node-route-3-option-5" value="1">
+														(1CP) Kunid's Vacation Spot
+													</option>
+													<option id="pw-htg-node-route-3-option-6" value="3">
+														(3CP) Kunid's Shelter
+													</option>
+												</optgroup>
+
+											</select>
+										</div>
+										
+									<!-- #endregion - Purified-Water-Node-Link1 -->				
+									
+									<br />
+
+									<!-- #region - Purified-Water-Node-Link2 -->
+										<a title="Leical Falls" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1506" target="_blank">
+											<img class="icons icons1 nodes-gathering-icon" src="images/icons/menu/nodes/gathering.webp" alt="Icon" /> 
+											Leical Falls
+										</a>
+
+										<div class="node-selection-content">
+											<select title="Click for all CP Routes" id="pw-htg-node-selection-4" class="node-selection">
+												
+												<option id="pw-htg-node-cp-route-4" value="15" selected>
+													Cheapest Route To: Altinova (15CP)
+												</option>
+
+												<optgroup label="Start: (0CP) - Altinova">
+													<option id="pw-htg-node-route-4-option-1" value="3">
+														(3CP) Altinova Gateway
+													</option>
+													<option id="pw-htg-node-route-4-option-2" value="3">
+														(3CP) Rock Post
+													</option>
+													<option id="pw-htg-node-route-4-option-3" value="1">
+														(1CP) Veteran's Canyon
+													</option>
+													<option id="pw-htg-node-route-4-option-4" value="1">
+														(1CP) Cadry Ruins
+													</option>
+													<option id="pw-htg-node-route-4-option-5" value="1">
+														(1CP) Kunid's Vacation Spot
+													</option>
+													<option id="pw-htg-node-route-4-option-6" value="3">
+														(3CP) Kunid's Shelter
+													</option>
+												</optgroup>
+
+											</select>
+										</div>
+
+										<div class="node-selection-content">
+											<select title="Click for all CP Routes" id="pw-htg-node-selection-5" class="node-selection">
+
+												<option id="pw-htg-node-cp-route-5" value="18" selected>
+													Cheapest Route To: Sand Grain Bazaar (18CP)
+												</option>
+
+												<optgroup label="Start: (0CP) - Sand Grain Bazaar">
+													<option id="pw-htg-node-route-5-option-1" value="1">
+														(1CP) Capotia
+													</option>
+													<option id="pw-htg-node-route-5-option-2" value="3">
+														(3CP) Barhan Gateway
+													</option>
+													<option id="pw-htg-node-route-5-option-3" value="1">
+														(1CP) Taphtar Plain
+													</option>
+													<option id="pw-htg-node-route-5-option-4" value="1">
+														(1CP) Veteran's Canyon
+													</option>
+													<option id="pw-htg-node-route-5-option-5" value="1">
+														(1CP) Cadry Ruins
+													</option>
+													<option id="pw-htg-node-route-5-option-6" value="1">
+														(1CP) Kunid's Vacation Spot
+													</option>
+													<option id="pw-htg-node-route-5-option-7" value="3">
+														(3CP) Kunid's Shelter
+													</option>
+												</optgroup>
+
+											</select>
+										</div>
+
+										<div class="node-selection-content">
+											<select title="Click for all CP Routes" id="pw-htg-node-selection-6" class="node-selection">
+												
+												<option id="pw-htg-node-cp-route-6" value="18" selected>
+													Cheapest Route To: Shakatu (18CP) 
+												</option>
+
+												<optgroup label="Start: (0CP) - Shakatu">
+													<option id="pw-htg-node-route-6-option-1" value="3">
+														(3CP) Runn Gateway Intersection
+													</option>
+													<option id="pw-htg-node-route-6-option-2" value="1">
+														(1CP) Deserted City of Ruin
+													</option>
+													<option id="pw-htg-node-route-6-option-3" value="1">
+														(1CP) Cadry Ruins
+													</option>
+													<option id="pw-htg-node-route-6-option-4" value="1">
+														(1CP) Kunid's Vacation Spot
+													</option>
+													<option id="pw-htg-node-route-6-option-5" value="3">
+														(3CP) Kunid's Shelter
+													</option>
+												</optgroup>
+											</select>
+										</div>
+
+										<br />
+									<!-- #endregion - Purified-Water-Node-Link2 -->
+
+								</div>
+							<!-- #endregion - Purified-Water-Nodes-Links -->		
+
+						</div>
+					<!-- #endregion - Purified-Water-How-To-Get-Nodes -->
+
+					<!-- #region - Purified-Water-How-To-Get-Processing Button -->
+						<div class="button processing-button">
+
+							<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('pw-htg-processing-content');">
+								
+								<div class="left">
+									<div class="dots">
+										<span class="dot-plus">+</span>
+									</div>
+								</div> 
+								<span class="processing-guild">
+									<img class="icons processing-icon" src="images/icons/menu/processing.webp" alt="Icon" /> Processing
+								</span>
+							</a>
+							
+							<div class="right">
+								<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+							</div>
+						
+						</div>
+					<!-- #endregion - Purified-Water-How-To-Get-Processing Button -->
+
+					<!-- #region - Purified-Water-How-To-Get-Processing -->
+						<div id="pw-htg-processing-content" class="info hidden">
+							<!-- #region - Purified-Water-How-To-Get-Filtering Button -->
+								<div class="button processing-filtering-button">
+
+									<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('pw-htg-processing-filtering');">
+
+										<div class="left">
+											<div class="dots">
+												<span class="dot-plus">+</span>
+											</div>
+										</div> 
+
+										<img class="icons icons1 filtering-icon" src="images/icons/processing/filtering.webp" alt="Icon" /> Filtering
+									</a>
+
+									<div class="right">
+										<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+									</div>
+
+								</div>
+							<!-- #endregion - Purified-Water-How-To-Get-Filtering Button -->
+								
+							<!-- #region - Purified-Water-How-To-Get-Filtering -->
+								<div id="pw-htg-processing-filtering" class="info hidden">
+									
+									<!-- #region - items-pw-info-filtering -->			
+										<div class="links-content">
+											<div class="item-link">
+												<a title="Bottle of River Water" class="links2 grade2" href="https://bdocodex.com/us/item/6653/" target="_blank">
+														<img class="icons icons1 borw-icon" src="images/icons/waters/river.webp" alt="Icon" /> Bottle of River Water
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circleText amount">1</span>
+													</div>
+												</div>
+
+												<br />
+
+											</div>
+										</div>
+									<!-- #endregion - items-pw-info-filtering -->		
+
+								</div>
+							<!-- #endregion - Purified-Water-How-To-Get-Filtering -->
+						</div>
+					<!-- #endregion - Purified-Water-How-To-Get-Processing -->
+
+				</div>
+			<!-- #endregion - Purified-Water-How-To-Get -->
+
+
+
+			<!-- #region - Purified-Water-Used-In-Content-Button -->
+				<div class="button used-in-button">
+					<a title="Content Button" class="button-link" href="javascript:toggleDiv('pw-used-in-content');">
+						<div class="left">
+							<div class="dots">
+								<span class="dot-plus">+</span>
+							</div>
+						</div> 
+
+						<span class="used-in-recipe">
+							<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon" /> Used In Recipe
+						</span>
+					</a>
+
+
+					<div class="right">
+
+					</div>
+				</div>
+			<!-- #endregion - Purified-Water-Used-In-Content-Button -->
+
+			<!-- #region - Purified-Water-Used-In-Content -->
+				<div id="pw-used-in-content" class="hidden used-in-content">
+
+					<!-- #region - Purified-Water-used-in-Alchemy Button -->
+						<div class="button item-alchemy-button">
+
+							<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('pw-used-in-alchemy');">
+								<div class="left">
+									<div class="dots">
+										<span class="dot-plus">+</span>
+									</div>
+								</div> 
+								
+								 <img class="icons icons1 alchemy-icon" src="images/icons/processing/simple-alchemy.webp" alt="Icon" /> Alchemy
+							</a>
+							
+							<div class="right">
+								<a title="Alchemy Guide" class="links" href="https://grumpygreen.cricket/alchemy/" target="_blank">🔗</a>
+							</div>
+						
+						</div>
+					<!-- #endregion - Purified-Water-used-in-Alchemy Button -->
+
+					<!-- #region - Purified-Water-used-in-used-in-Alchemy -->
+						<div id="pw-used-in-alchemy" class="info hidden">
+							<!-- #region - Purified-Water-Alchemy-item-links -->	
+								<div class="links-content">
+
+									<div class="item-link">
+										<a title="Clear Liquid Reagent" class="links2 grade2" href="https://bdocodex.com/us/item/5301/" target="_blank">
+											 <img class="icons icons1 clr-icon" src="images/icons/alchemy/clear-liquid-reagent.webp" alt="Icon" /> Clear Liquid Reagent
+										</a>
+
+										<div class="right">
+											<div class="dots">
+												<span class="circleText amount">1</span>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-link">
+										<a title="All Damage Reduction +5" class="links2 grade3" href="https://bdocodex.com/us/item/716/" target="_blank">
+											 <img class="icons icons1 de-pot-icon" src="images/icons/pots/defense.webp" alt="Icon" /> Defense Elixir
+										</a>
+
+										<div class="right">
+											<div class="dots">
+												<span class="circleText amount">3</span>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-link">
+										<a title="All AP +5" class="links2 grade3" href="https://bdocodex.com/us/item/704/" target="_blank">
+											 <img class="icons icons1 eof-pot-icon" src="images/icons/pots/fury.webp" alt="Icon" /> Elixir of Fury
+										</a>
+
+										<div class="right">
+											<div class="dots">
+												<span class="circleText amount">3</span>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-link">
+										<a title="Max MP +100" class="links2 grade3" href="https://bdocodex.com/us/item/710/" target="_blank">
+											 <img class="icons icons1 eom-pot-icon" src="images/icons/pots/mentality.webp" alt="Icon" /> Elixir of Mentality
+										</a>
+
+										<div class="right">
+											<div class="dots">
+												<span class="circleText amount">3</span>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-link">
+										<a title="Underwater Breathing +10 sec" class="links2 grade3" href="https://bdocodex.com/us/item/694/" target="_blank">
+											 <img class="icons icons1 eos-pot-icon" src="images/icons/pots/seal.webp" alt="Icon" /> Elixir of Seal
+										</a>
+
+										<div class="right">
+											<div class="dots">
+												<span class="circleText amount">5</span>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-link">
+										<a title="Damage Received from Monsters -7.5%" class="links2 grade3" href="https://bdocodex.com/us/item/702/" target="_blank">
+											<img class="icons icons1 eow-pot-icon" src="images/icons/pots/will.webp" alt="Icon" /> Elixir of Will
+										</a>
+
+										<div class="right">
+											<div class="dots">
+												<span class="circleText amount">3</span>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-link">
+										<a title="Jump Height Up" class="links2 grade3" href="https://bdocodex.com/us/item/684/" target="_blank">
+												<img class="icons icons1 eow2-pot-icon" src="images/icons/pots/wings.webp" alt="Icon" /> Elixir of Wings
+										</a>
+
+										<div class="right">
+											<div class="dots">
+												<span class="circleText amount">5</span>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-link">
+										<a title="Gem Polisher" class="links2 grade2" href="https://bdocodex.com/us/item/4481/" target="_blank">
+											 <img class="icons icons1 gem-p-icon" src="images/icons/alchemy/gem-polisher.webp" alt="Icon" /> Gem Polisher
+										</a>
+
+										<div class="right">
+											<div class="dots">
+												<span class="circleText amount">6</span>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-link">
+										<a title="Extra Damage to Kamasylvian Monsters +12" class="links2 grade3" href="https://bdocodex.com/us/item/740/" target="_blank">
+											 <img class="icons icons1 ge-pot-icon" src="images/icons/pots/griffons.webp" alt="Icon" /> Griffon's Elixir
+										</a>
+
+										<div class="right">
+											<div class="dots">
+												<span class="circleText amount">3</span>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-link">
+										<a title="Oil of Enchantment" class="links2 grade2" href="https://bdocodex.com/us/item/9779/" target="_blank">
+											 <img class="icons icons1 ooe-icon" src="images/icons/alchemy/oil-of/enchantment.webp" alt="Icon" /> Oil of Enchantment
+										</a>
+
+										<div class="right">
+											<div class="dots">
+												<span class="circleText amount">2</span>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-link">
+										<a title="All Evasion +15|Max HP +200|Special Attack Evasion Rate +10%" class="links2 grade5" href="https://bdocodex.com/us/item/1161/" target="_blank">
+											 <img class="icons icons1 poc-pot-icon" src="images/icons/pots/perfume-of-charm.webp" alt="Icon" /> Perfume of Charm
+										</a>
+
+										<div class="right">
+											<div class="dots">
+												<span class="circleText amount">3</span>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-link">
+										<a title="All AP +20|Max HP +200|Attack Speed +5|Casting Speed +5|Movement Speed +5" class="links2 grade5" href="https://bdocodex.com/us/item/734/" target="_blank">
+											 <img class="icons icons1 poc2-pot-icon" src="images/icons/pots/perfume-of-courage.webp" alt="Icon" /> 
+											Perfume of Courage
+										</a>
+
+										<div class="right">
+											<div class="dots">
+												<span class="circleText amount">4</span>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-link">
+										<a title="All Accuracy +15|Ignore All Resistance +3%|Max HP +100|Attack Speed +5|Casting Speed +5|Movement Speed +5" class="links2 grade5" href="https://bdocodex.com/us/item/1200/" target="_blank">
+											 <img class="icons icons1 poi-pot-icon" src="images/icons/pots/perfume-of-insight.webp" alt="Icon" /> Perfume of Insight
+										</a>
+
+										<div class="right">
+											<div class="dots">
+												<span class="circleText amount">3</span>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-link">
+										<a title="Weight Limit +200 LT|Life EXP +20%|Movement Speed +5|Gathering Speed +5|Fishing Speed +5" class="links2 grade5" href="https://bdocodex.com/us/item/735/" target="_blank">
+											 <img class="icons icons1 pos-pot-icon" src="images/icons/pots/perfume-of-swiftness.webp" alt="Icon" /> Perfume of Swiftness
+										</a>
+
+										<div class="right">
+											<div class="dots">
+												<span class="circleText amount">4</span>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-link">
+										<a title="Pure Powder Reagent" class="links2 grade2" href="https://bdocodex.com/us/item/5302/" target="_blank">
+											 <img class="icons icons1 ppr-icon" src="images/icons/alchemy/pure-powder-reagent.webp" alt="Icon" /> Pure Powder Reagent
+										</a>
+
+										<div class="right">
+											<div class="dots">
+												<span class="circleText amount">1</span>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-link">
+										<a title="Special Honey Jar" class="links2 grade5" href="https://bdocodex.com/us/item/54032/" target="_blank">
+											 <img class="icons icons1 shj-icon" src="images/icons/alchemy/special-honey-jar.webp" alt="Icon" /> Special Honey Jar
+										</a>
+
+										<div class="right">
+											<div class="dots">
+												<span class="circleText amount">2</span>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-link">
+										<a title="All Damage Reduction +100" class="links2 grade4" href="https://bdocodex.com/us/item/732/" target="_blank">
+											 <img class="icons icons1 wte-pot-icon" src="images/icons/pots/whale-tendon-elixir.webp" alt="Icon" /> Whale Tendon Elixir
+										</a>
+
+										<div class="right">
+											<div class="dots">
+												<span class="circleText amount">5</span>
+											</div>
+										</div>
+									</div>
+									
+									<div class="item-link">
+										<a title="Recover 500 HP|Recover 300 MP/WP/SP" class="links2 grade3" href="https://bdocodex.com/us/item/575/" target="_blank">
+											 <img class="icons icons1 wtp-pot-icon" src="images/icons/pots/whale-tendon-potion.webp" alt="Icon" /> Whale Tendon Potion
+										</a>
+
+										<div class="right">
+											<div class="dots">
+												<span class="circleText amount">8</span>
+											</div>
+										</div>
+									</div>
+
+								</div>			
+							<!-- #endregion - Purified-Water-Alchemy-item-links -->								
+						</div>
+					<!-- #endregion - Purified-Water-used-in-used-in-Alchemy -->
+
+					<!-- #region - Purified-Water-Used-In-Processing Button -->
+						<div class="button processing-button">
+
+							<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('pw-processing-content');">
+								
+								<div class="left">
+									<div class="dots">
+										<span class="dot-plus">+</span>
+									</div>
+								</div> 
+								<span class="processing-guild">
+									 <img class="icons processing-icon" src="images/icons/menu/processing.webp" alt="Icon" /> Processing
+								</span>
+							</a>
+							
+							<div class="right">
+								<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+							</div>
+						
+						</div>
+					<!-- #endregion - Purified-Water-Used-In-Processing Button -->
+					
+					<!-- #region - Purified-Water-Used-In-Processing -->
+						<div id="pw-processing-content" class="info hidden">
+
+							<!-- #region - Purified-Water-Used-In-processing-guild Button -->
+								<div class="button processing-guild-button">
+
+									<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('pw-processing-guild');">
+										
+										<div class="left">
+											<div class="dots">
+												<span class="dot-plus">+</span>
+											</div>
+										</div> 
+										<span class="processing-guild">
+											<img class="icons icons1 processing-guild-icon" src="images/icons/processing/guild.webp" alt="Icon" /> Guild 
+										</span>
+									</a>
+									
+									<div class="right">
+										<a title="Guild Guide" class="links" href="https://www.blackdesertfoundry.com/guilds-guide/" target="_blank">🔗</a>
+									</div>
+								
+								</div>
+							<!-- #endregion - Purified-Water-Used-In-processing-guild Button -->
+
+							<!-- #region - Purified-Water-Used-In-processing-guild -->
+								<div id="pw-processing-guild" class="info hidden">
+
+									<div class="links-content">
+
+										<div class="item-link">
+											<a title="[Guild] Water for Elephant" class="links2 grade3" href="https://bdocodex.com/us/item/9917/" target="_blank">
+												 <img class="icons icons1 guild-wfe-icon" src="images/icons/designs/guild/water-for-elephant.webp" alt="Icon" /> [Guild] Water for Elephant
+											</a>
+
+											<div class="right">
+
+												<div class="dots">
+													<span class="circleText amount">5</span>
+												</div>
+
+											</div>
+										</div>
+
+									</div>
+
+								</div>		
+							<!-- #endregion - Purified-Water-Used-In-processing-guild -->
+
+
+
+							<!-- #region - Purified-Water-Used-In-Processing-Shaking Button -->
+								<div class="button processing-shaking-button">
+
+									<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('pw-processing-shaking');">
+										
+										<div class="left">
+											<div class="dots">
+												<span class="dot-plus">+</span>
+											</div>
+										</div> 
+										<span class="processing-guild">
+											<img class="icons icons1 shaking-icon" src="images/icons/processing/shaking.webp" alt="Icon" /> Shaking  
+										</span>
+									</a>
+									
+									<div class="right">
+										<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+									</div>
+								
+								</div>
+							<!-- #endregion - Purified-Water-Used-In-Processing-Shaking Button -->
+
+							<!-- #region - Purified-Water-Used-In-Processing-Shaking -->
+								<div id="pw-processing-shaking" class="info hidden">
+
+									<div class="links-content">
+
+										<div class="item-link">
+											<a title="Organic Fertilizer" class="links2 grade2" href="https://bdocodex.com/us/item/16903/" target="_blank">
+												 <img class="icons icons1 guild-wfe-icon" src="images/icons/processing/shaking/organic-fertilizer.webp" alt="Icon" /> Organic Fertilizer
+											</a>
+
+											<div class="right">
+
+												<div class="dots">
+													<span class="circleText amount">2</span>
+												</div>
+
+											</div>
+										</div>	
+
+									</div>
+
+								</div>		
+							<!-- #endregion - Purified-Water-Used-In-Processing-Shaking -->
+
+
+						</div>
+					<!-- #endregion - Purified-Water-Used-In-Processing -->
+
+
+
+
+
+
+
+
+					<!-- #region - Purified-Water-Used-In-Simple-Cooking Button -->
+						<div class="button processing-simple-cooking-button">
+
+							<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('pw-simple-cooking');">
+								
+								<div class="left">
+									<div class="dots">
+										<span class="dot-plus">+</span>
+									</div>
+								</div> 
+								<span class="simple-cooking-used-in">
+									 <img class="icons icons1 processing-guild-icon" src="images/icons/processing/simple-cooking.webp" alt="Icon" /> Simple Cooking 
+								</span>
+							</a>
+							
+							<div class="right">
+								<a title="Simple-Cooking Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+							</div>
+						
+						</div>
+					<!-- #endregion - Purified-Water-Used-In-Simple-Cooking Button -->
+
+
+					<!-- #region - Purified-Water-Used-In-Simple-Cooking -->
+						<div id="pw-simple-cooking" class="info hidden">
+
+							<div class="links-content">
+
+								<div class="item-link">
+									<a title="Cure Frostbite" class="links2 grade3" href="https://bdocodex.com/us/item/9357/" target="_blank">
+										 <img class="icons icons1 citron-tea-icon" src="images/icons/processing/simple-cooking/citron-tea.webp" alt="Icon" /> Citron Tea
+									</a>
+
+									<div class="right">
+
+										<div class="dots">
+											<span class="circleText amount">1</span>
+										</div>
+
+									</div>
+								</div>
+
+								<div class="item-link">
+									<a title="All Damage Reduction +5|Gain Strength EXP" class="links2 grade3" href="https://bdocodex.com/us/item/9314/" target="_blank">
+										 <img class="icons icons1 spirit-eoe-icon" src="images/icons/processing/simple-cooking/spirit-essence-of/earth.webp" alt="Icon" /> Spirit Essence of Earth
+									</a>
+
+									<div class="right">
+
+										<div class="dots">
+											<span class="circleText amount">1</span>
+										</div>
+
+									</div>
+								</div>
+
+								<div class="item-link">
+									<a title="Max HP +100|Gain Health EXP" class="links2 grade3" href="https://bdocodex.com/us/item/9315/" target="_blank">
+										 <img class="icons icons1 spirit-eow-icon" src="images/icons/processing/simple-cooking/spirit-essence-of/water.webp" alt="Icon" /> Spirit Essence of Water
+									</a>
+
+									<div class="right">
+
+										<div class="dots">
+											<span class="circleText amount">1</span>
+										</div>
+
+									</div>
+								</div>
+
+								<div class="item-link">
+									<a title="Attack Speed +1|Casting Speed +1|Gain Breath EXP" class="links2 grade3" href="https://bdocodex.com/us/item/9316/" target="_blank">
+										 <img class="icons icons1 spirit-eow2-icon" src="images/icons/processing/simple-cooking/spirit-essence-of/wind.webp" alt="Icon" /> Spirit Essence of Wind
+									</a>
+
+									<div class="right">
+
+										<div class="dots">
+											<span class="circleText amount">1</span>
+										</div>
+
+									</div>
+								</div>
+
+								<div class="item-link">
+									<a title="Cures Hypothermia" class="links2 grade3" href="https://bdocodex.com/us/item/9316/" target="_blank">
+										 <img class="icons icons1 star-anise-tea-icon" src="images/icons/processing/simple-cooking/star-anise-tea.webp" alt="Icon" /> Star Anise Tea
+									</a>
+
+									<div class="right">
+
+										<div class="dots">
+											<span class="circleText amount">1</span>
+										</div>
+
+									</div>
+								</div>
+	
+							</div>
+							
+						</div>		
+					<!-- #endregion - Purified-Water-Used-In-Simple-Cooking -->					
+
+
+					<a title="Purified Water" class="links2 grade2" href="https://bdocodex.com/us/item/6656/" target="_blank">And More...</a>
+				</div>
+			<!-- #endregion - Purified-Water-Used-In-Content -->
+
+
+
+			<!-- #region - Purified-Water-Notes-Content-Button -->
+				<div class="button notes-button">
+					<a title="Content Button" class="button-link" href="javascript:toggleDiv('pw-notes-content');">
+						<div class="left">
+							<div class="dots">
+								<span class="dot-plus">+</span>
+							</div>
+						</div> 
+
+						<span class="notes">
+							<img class="icons notes-icon" src="images/icons/menu/notes.webp" alt="Icon" /> Notes 
+						</span>
+					</a>
+				</div>
+			<!-- #endregion - Purified-Water-Notes-Content-Button -->
+
+			<!-- #region - Purified-Water-Notes-Content -->
+				<div id="pw-notes-content" class="hidden notes-content">
+					<p class="notes-entry">
+						- Only listed Alchemy recipes that only require <br />Purified Water instead of substitution for other waters, like Mineral Water.
+					</p>
+				</div>
+			<!-- #endregion - Purified-Water-Notes-Content -->
+
+
+		</div>
+	<!-- #endregion - Purified-Water-Content -->
+
+
+	</div>
+<!-- #endregion - Purified-Water-Container -->	
+
+</body>
+</html>

@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Palm Sap</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="../scripts/jquery/3.6.3.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
+</head>
+<body id="sap-palm-page">
+
+<!-- #region - Sap-Palm-Container -->
+	<div id="sap-palm-container" class="items-container saps" draggable="true" ondragstart="drag(event)">
+
+		<!-- #region - Sap-Palm-Content Button -->
+			<div class="button sap-palm-button top">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-palm-content');">
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div> 
+
+					<span class="sap-palm">
+						<img class="icons icons1 sap-palm-icon" src="images/icons/saps/palm.webp" alt="Icon" /> 
+						Palm Sap
+					</span>
+				</a>
+
+				<div class="right">
+					<a title="Palm Sap" class="links" href="https://bdocodex.com/us/item/5015/" target="_blank">🔗</a>
+				</div>
+
+			</div>
+		<!-- #endregion - Sap-Palm-Content Button -->
+
+		<!-- #region - Sap-Palm-Content -->
+			<div id="sap-palm-content" class="hidden">
+
+				<!-- #region - Sap-Palm-How-To-Get Button -->
+					<div class="button htg-button">
+						<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-palm-htg-content');">
+			
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+			
+							<span class="htg">
+								<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon" /> How to Get 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-Palm-How-To-Get Button -->
+
+				<!-- #region - Sap-Palm-How-To-Get -->
+					<div id="sap-palm-htg-content" class="info hidden">
+
+
+					<!-- #region - Sap-Palm-How-To-Get-Gathering Button -->
+						<div class="button gathering-button">
+
+							<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-palm-htg-gathering-fluid-collecting');">
+
+								<div class="left">
+									<div class="dots">
+										<span class="dot-plus">+</span>
+									</div>
+								</div> 
+
+								<span class="gathering-fluid-collecting">
+									<img title="Fluid Collecting" class="icons icons1 fluid-collecting-icon" src="images/icons/menu/interaction/gathering/fluid-collecting.webp" alt="Icon" /> Gathering 
+								</span>
+							</a>
+
+							<div class="right">
+								<a title="Nodes / Resource Interactive Map" class="links" href="https://www.somethinglovely.net/bdo/" target="_blank">🔗</a>
+							</div>
+
+						</div>
+					<!-- #endregion - Sap-Palm-How-To-Get-Gathering Button -->
+
+					<!-- #region - Sap-Palm-How-To-Get-Gathering -->				
+						<div id="sap-palm-htg-gathering-fluid-collecting" class="info hidden">
+									
+							<!-- #region - Sap-Palm - Gathering Fluid Collector Links -->
+								<div class="links-content">
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://www.somethinglovely.net/bdo/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/timber/palm.webp" alt="Icon" /> Palm Trees
+									</a>
+								</div>
+							<!-- #endregion - Sap-Palm - Gathering Fluid Collector Links -->
+
+						</div>
+					<!-- #endregion - Sap-Palm-How-To-Get-Gathering -->
+
+
+
+						<!-- #region - Sap-Palm-How-To-Get-Nodes Button -->
+							<div class="button nodes-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-palm-htg-nodes');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<img class="icons icons1 nodes-icon" src="images/icons/menu/nodes/nodes.webp" alt="Icon" /> Nodes
+								</a>
+
+								<div class="right">
+									<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Sap-Palm-How-To-Get-Nodes Button -->
+						
+						<!-- #region - Sap-Palm-How-To-Get-Nodes -->
+							<div id="sap-palm-htg-nodes" class="info hidden">
+								
+								<!-- #region - Sap-Palm-Nodes-Links -->			
+									<div class="links-content">
+										<!-- #region - Sap-Palm-Node-Link1 -->
+											<a title="Titium Valley - Lumbering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1526" target="_blank">
+												<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+												Titium Valley - Lumbering
+											</a>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-palm-htg-node-selection-1" class="node-selection">
+													
+													<option id="sap-palm-htg-node-cp-route-2" value="6" selected>
+														Cheapest Route To: Muiquun (6CP) (*Neg Karma Req.)
+													</option>
+			
+													<optgroup label="Start: (0CP) - Muiquun (*Neg Karma Req.)">
+														<option id="sap-palm-htg-node-route-2-option-1" value="3">
+															(3CP) Titium Valley
+														</option>
+														<option id="sap-palm-htg-node-route-2-option-2" value="3">
+															(3CP) Titium Valley - Lumbering
+														</option>
+														<option id="sap-palm-htg-node-route-2-option-3" value="0">
+															*To able to talk to the NPCS need be Negative Karma.
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-palm-htg-node-selection-3" class="node-selection">
+													
+													<option id="sap-palm-htg-node-cp-route-3" value="9" selected>
+														Cheapest Route To: Arehaza Town (9CP)
+													</option>
+			
+													<optgroup label="Start: (0CP) - Arehaza Town">
+														<option id="sap-palm-htg-node-route-3-option-1" value="1">
+															(1CP) Central Cantusa
+														</option>
+														<option id="sap-palm-htg-node-route-3-option-2" value="2">
+															(2CP) Cantusa Desert
+														</option>
+														<option id="sap-palm-htg-node-route-3-option-3" value="0">
+															(0CP) Muiquun 
+														</option>
+														<option id="sap-palm-htg-node-route-3-option-4" value="3">
+															(3CP) Titium Valley
+														</option>
+														<option id="sap-palm-htg-node-route-3-option-5" value="3">
+															(3CP) Titium Valley - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-palm-htg-node-selection-4" class="node-selection">
+													
+													<option id="sap-palm-htg-node-cp-route-4" value="10" selected>
+														Cheapest Route To: Valencia City (10CP)
+													</option>
+			
+													<optgroup label="Start: (0CP) - Valencia City">
+														<option id="sap-palm-htg-node-route-4-option-1" value="1">
+															(1CP) Arehaza Palm Forest
+														</option>
+														<option id="sap-palm-htg-node-route-4-option-2" value="0">
+															(0) Arehaza Town
+														</option>
+														<option id="sap-palm-htg-node-route-4-option-3" value="1">
+															(1CP) Central Cantusa
+														</option>
+														<option id="sap-palm-htg-node-route-4-option-4" value="2">
+															(2CP) Cantusa Desert
+														</option>
+														<option id="sap-palm-htg-node-route-4-option-5" value="0">
+															(0CP) Muiquun
+														</option>
+														<option id="sap-palm-htg-node-route-4-option-6" value="3">
+															(3CP) Titium Valley
+														</option>
+														<option id="sap-palm-htg-node-route-4-option-7" value="3">
+															(3CP) Titium Valley - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+										<!-- #endregion - Sap-Palm-Node-Link1 -->				
+									</div>
+								<!-- #endregion - Sap-Palm-Nodes-Links -->		
+
+								<br />
+							</div>
+						<!-- #endregion - Sap-Palm-How-To-Get-Nodes -->
+
+
+					</div>
+				<!-- #endregion - Sap-Palm-How-To-Get -->
+
+
+				<!-- #region - Sap-Palm-Used-In-Content-Button -->
+					<div class="button used-in-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-palm-used-in-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="used-in-recipe">
+								<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon" /> Used In Recipe 
+							</span>
+						</a>
+
+
+						<div class="right">
+
+						</div>
+					</div>
+				<!-- #endregion - Sap-Palm-Used-In-Content-Button -->
+
+				<!-- #region - Sap-Palm-Used-In-Content -->
+					<div id="sap-palm-used-in-content" class="hidden used-in-content">
+
+						<!-- #region - Sap-Palm-Designs Button -->
+							<div class="button design-workshop-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-palm-design-workshop');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									<span class="design-workshop">
+										Workshop <img class="icons icons1 design-workshop-icon" src="images/icons/menu/design-workshop.webp" alt="Icon" /> 
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Workshops" class="links" href="https://bdo.altarofgaming.com/workshops/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Sap-Palm-Designs Button -->
+
+						<!-- #region - Sap-Palm-Designs -->
+							<div id="sap-palm-design-workshop" class="info hidden">
+								<div class="links-content">
+									
+									<div class="item-link">
+										<a title="Desert Fogan Flower Pot" class="links2 grade2" href="https://bdocodex.com/us/item/7325/" target="_blank">
+											<img class="icons icons1 forgan-flower-pot-2-icon" src="images/icons/designs/decorations/desert-forgan-pot-02.webp" alt="Icon" /> Desert Fogan Flower Pot
+										</a>
+
+										<div class="right">
+											<div class="dots">
+												<span class="circleText amount">120</span>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-link">
+										<a title="Desert Fogan Lamp" class="links2 grade2" href="https://bdocodex.com/us/item/24232/" target="_blank">
+											<img class="icons icons1 forgan-flower-pot-2-icon" src="images/icons/designs/decorations/desert-forgan-lamp-01.webp" alt="Icon" /> Desert Fogan Lamp
+										</a>
+
+										<div class="right">
+											<div class="dots">
+												<span class="circleText amount">140</span>
+											</div>
+										</div>
+									</div>
+
+									<div class="item-link">
+										<a title="Kamasylvian Lemoria Drawers" class="links2 grade4" href="https://bdocodex.com/us/item/24862/" target="_blank">
+											<img class="icons icons1 kama-lemoria-drawers-icon" src="images/icons/designs/decorations/kama-lemoria-drawers.webp" alt="Icon" /> Kamasylvian Lemoria Drawers
+										</a>
+
+										<div class="right">
+											<div class="dots">
+												<span class="circleText amount">45</span>
+											</div>
+										</div>
+									</div>
+
+
+
+								</div>
+							</div>		
+						<!-- #endregion - Sap-Palm-Designs -->
+
+
+						<a title="Palm Sap" class="links2" href=https://bdocodex.com/us/item/5015/ target="_blank">And More...</a>
+					</div>
+				<!-- #endregion - Sap-Palm-Used-In-Content -->
+
+
+				<!-- #region - Sap-Palm-Notes-Content-Button -->
+					<div class="button notes-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-palm-notes-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="notes">
+								<img class="icons notes-icon" src="images/icons/menu/notes.webp" alt="Icon" /> Notes 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-Palm-Notes-Content-Button -->
+
+				<!-- #region - Sap-Palm-Notes-Content -->
+					<div id="sap-palm-notes-content" class="hidden notes-content">
+						<p class="notes-entry">
+							-Notes
+						</p>
+						<p class="notes-entry">
+
+						</p>
+					</div>
+				<!-- #endregion - Sap-Palm-Notes-Content -->
+
+
+			</div>
+		<!-- #endregion - Sap-Palm-Content -->
+
+	</div>
+<!-- #endregion - Sap-Palm-Container -->	
+
+</body>
+</html>

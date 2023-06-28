@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Maple Sap</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="../scripts/jquery/3.6.3.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
+</head>
+<body id="sap-maple-page">
+
+<!-- #region - Sap-Maple-Container -->
+	<div id="sap-maple-container" class="items-container saps" draggable="true" ondragstart="drag(event)">
+
+		<!-- #region - Sap-Maple-Content Button -->
+			<div class="button sap-maple-button top">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-maple-content');">
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div> 
+
+					<span class="sap-maple">
+						<img class="icons icons1 sap-maple-icon" src="images/icons/saps/maple.webp" alt="Icon" /> 
+						Maple Sap
+					</span>
+				</a>
+
+				<div class="right">
+					<a title="Maple Sap" class="links" href="https://bdocodex.com/us/item/5002/" target="_blank">🔗</a>
+				</div>
+
+			</div>
+		<!-- #endregion - Sap-Maple-Content Button -->
+
+		<!-- #region - Sap-Maple-Content -->
+			<div id="sap-maple-content" class="hidden">
+
+				<!-- #region - Sap-Maple-How-To-Get Button -->
+					<div class="button htg-button">
+						<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-maple-htg-content');">
+			
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+			
+							<span class="htg">
+								<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon" /> How to Get 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-Maple-How-To-Get Button -->
+
+				<!-- #region - Sap-Maple-How-To-Get -->
+					<div id="sap-maple-htg-content" class="info hidden">
+
+
+					<!-- #region - Sap-Maple-How-To-Get-Gathering Button -->
+						<div class="button gathering-button">
+
+							<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-maple-htg-gathering-fluid-collecting');">
+
+								<div class="left">
+									<div class="dots">
+										<span class="dot-plus">+</span>
+									</div>
+								</div> 
+
+								<span class="gathering-fluid-collecting">
+									<img title="Fluid Collecting" class="icons icons1 fluid-collecting-icon" src="images/icons/menu/interaction/gathering/fluid-collecting.webp" alt="Icon" /> Gathering 
+								</span>
+							</a>
+
+							<div class="right">
+								<a title="Nodes / Resource Interactive Map" class="links" href="https://www.somethinglovely.net/bdo/" target="_blank">🔗</a>
+							</div>
+
+						</div>
+					<!-- #endregion - Sap-Maple-How-To-Get-Gathering Button -->
+
+					<!-- #region - Sap-Maple-How-To-Get-Gathering -->				
+						<div id="sap-maple-htg-gathering-fluid-collecting" class="info hidden">
+									
+							<!-- #region - Sap-Maple - Gathering Fluid Collector Links -->
+								<div class="links-content">
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://www.somethinglovely.net/bdo/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/timber/maple.webp" alt="Icon" /> Maple Trees
+									</a>
+								</div>
+							<!-- #endregion - Sap-Maple - Gathering Fluid Collector Links -->
+
+						</div>
+					<!-- #endregion - Sap-Maple-How-To-Get-Gathering -->
+
+
+
+						<!-- #region - Sap-Maple-How-To-Get-Nodes Button -->
+							<div class="button nodes-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-maple-htg-nodes');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<img class="icons icons1 nodes-icon" src="images/icons/menu/nodes/nodes.webp" alt="Icon" /> Nodes
+								</a>
+
+								<div class="right">
+									<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Sap-Maple-How-To-Get-Nodes Button -->
+						
+						<!-- #region - Sap-Maple-How-To-Get-Nodes -->
+							<div id="sap-maple-htg-nodes" class="info hidden">
+								
+								<!-- #region - Sap-Maple-Nodes-Links -->			
+									<div class="links-content">
+										<!-- #region - Sap-Maple-Node-Link1 -->
+											<a title="Castle Ruins - Lumbering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/907" target="_blank">
+												<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+												Castle Ruins - Lumbering
+											</a>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-maple-htg-node-selection-1" class="node-selection">
+													
+													<option id="sap-maple-htg-node-cp-route-1" value="8" selected>
+														Cheapest Route To: Tarif (3CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Tarif">
+														<option id="sap-maple-htg-node-route-1-option-1" value="1">
+															(1CP) Soldier's Grave
+														</option>
+														<option id="sap-maple-htg-node-route-1-option-2" value="1">
+															(1CP) Castle Ruins
+														</option>
+														<option id="sap-maple-htg-node-route-1-option-3" value="1">
+															(1CP) Castle Ruins - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-maple-htg-node-selection-2" class="node-selection">
+													
+													<option id="sap-maple-htg-node-cp-route-2" value="12" selected>
+														Cheapest Route To: Heidel (7CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Heidel">
+														<option id="sap-maple-htg-node-route-2-option-1" value="3">
+															(3CP) Eastern Border
+														</option>
+														<option id="sap-maple-htg-node-route-2-option-2" value="2">
+															(2CP) Kamasylve Temple
+														</option>
+														<option id="sap-maple-htg-node-route-2-option-3" value="1">
+															(1CP) Castle Ruins
+														</option>
+														<option id="sap-maple-htg-node-route-2-option-4" value="1">
+															(1CP) Castle Ruins - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-maple-htg-node-selection-3" class="node-selection">
+													
+													<option id="sap-maple-htg-node-cp-route-3" value="9" selected>
+														Cheapest Route To: Glish (9CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Glish">
+														<option id="sap-maple-htg-node-route-3-option-1" value="3">
+															(3CP) Southern Cienaga
+														</option>
+														<option id="sap-maple-htg-node-route-3-option-2" value="3">
+															(3CP) Southern Guard Camp
+														</option>
+														<option id="sap-maple-htg-node-route-3-option-3" value="3">
+															(3CP) Eastern Gateway
+														</option>
+														<option id="sap-maple-htg-node-route-3-option-4" value="1">
+															(1CP) Castle Ruins
+														</option>
+														<option id="sap-maple-htg-node-route-3-option-5" value="1">
+															(1CP) Castle Ruins - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<br />
+											<a title="Mediah Northern Highlands - Lumbering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/907" target="_blank">
+												<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+												Mediah Northern Highlands - Lumbering
+											</a>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-maple-htg-node-selection-4" class="node-selection">
+													
+													<option id="sap-maple-htg-node-cp-route-4" value="12" selected>
+														Cheapest Route To: Heidel (12CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Heidel">
+														<option id="sap-maple-htg-node-route-4-option-1" value="3">
+															(3CP) Eastern Border
+														</option>
+														<option id="sap-maple-htg-node-route-4-option-2" value="1">
+															(1CP) Rumbling Land
+														</option>
+														<option id="sap-maple-htg-node-route-4-option-3" value="2">
+															(2CP) Ancient Fissure
+														</option>
+														<option id="sap-maple-htg-node-route-4-option-4" value="1">
+															(1CP) Helms Post
+														</option>
+														<option id="sap-maple-htg-node-route-4-option-5" value="2">
+															(2CP) Mediah Northern Highlands
+														</option>
+														<option id="sap-maple-htg-node-route-4-option-6" value="3">
+															(3CP) Mediah Northern Highlands - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-maple-htg-node-selection-5" class="node-selection">
+													
+													<option id="sap-maple-htg-node-cp-route-5" value="12" selected>
+														Cheapest Route To: Tarif (12CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Tarif">
+														<option id="sap-maple-htg-node-route-5-option-1" value="1">
+															(1CP) Soldier's Grave
+														</option>
+														<option id="sap-maple-htg-node-route-5-option-2" value="1">
+															(1CP) Castle Ruins
+														</option>
+														<option id="sap-maple-htg-node-route-5-option-3" value="2">
+															(2CP) Kamasylve Temple
+														</option>
+														<option id="sap-maple-htg-node-route-5-option-4" value="1">
+															(1CP) Ancient Ruins Excavation Site
+														</option>
+														<option id="sap-maple-htg-node-route-5-option-5" value="1">
+															(1CP) Canyon of Corruption
+														</option>
+														<option id="sap-maple-htg-node-route-5-option-6" value="1">
+															(1CP) Elric Shrine
+														</option>
+														<option id="sap-maple-htg-node-route-5-option-7" value="2">
+															(2CP) Mediah Northern Highlands
+														</option>
+														<option id="sap-maple-htg-node-route-5-option-8" value="3">
+															(3CP) Mediah Northern Highlands - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-maple-htg-node-selection-6" class="node-selection">
+													
+													<option id="sap-maple-htg-node-cp-route-6" value="12" selected>
+														Cheapest Route To: Velia (12CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Velia">
+														<option id="sap-maple-htg-node-route-6-option-1" value="1">
+															(1CP) Forest of Plunder
+														</option>
+														<option id="sap-maple-htg-node-route-6-option-2" value="1">
+															(1CP) Ehwaz Hill
+														</option>
+														<option id="sap-maple-htg-node-route-6-option-3" value="1">
+															(1CP) Cron Castle Site
+														</option>
+														<option id="sap-maple-htg-node-route-6-option-4" value="3">
+															(3CP) Mediah Nothern Gateway
+														</option>
+														<option id="sap-maple-htg-node-route-6-option-5" value="1">
+															(1CP) The Mausoleum
+														</option>
+														<option id="sap-maple-htg-node-route-6-option-6" value="2">
+															(2CP) Mediah Northern Highlands
+														</option>
+														<option id="sap-maple-htg-node-route-6-option-7" value="3">
+															(3CP) Mediah Northern Highlands - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+										<!-- #endregion - Sap-Maple-Node-Link1 -->				
+									</div>
+								<!-- #endregion - Sap-Maple-Nodes-Links -->		
+
+								<br />
+							</div>
+						<!-- #endregion - Sap-Maple-How-To-Get-Nodes -->
+
+
+					</div>
+				<!-- #endregion - Sap-Maple-How-To-Get -->
+
+
+				<!-- #region - Sap-Maple-Used-In-Content-Button -->
+					<div class="button used-in-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-maple-used-in-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="used-in-recipe">
+								<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon" /> Used In Recipe 
+							</span>
+						</a>
+
+
+						<div class="right">
+
+						</div>
+					</div>
+				<!-- #endregion - Sap-Maple-Used-In-Content-Button -->
+
+				<!-- #region - Sap-Maple-Used-In-Content -->
+					<div id="sap-maple-used-in-content" class="hidden used-in-content">
+
+
+						<!-- #region - Sap-Maple-used-in-Alchemy Button -->
+							<div class="button item-alchemy-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-maple-used-in-alchemy');">
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									
+									<img class="icons icons1 alchemy-icon" src="images/icons/processing/simple-alchemy.webp" alt="Icon" /> Alchemy
+								</a>
+								
+								<div class="right">
+									<a title="Alchemy Guide" class="links" href="https://grumpygreen.cricket/alchemy/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Sap-Maple-used-in-Alchemy Button -->
+
+						<!-- #region - Sap-Maple-used-in-used-in-Alchemy -->
+							<div id="sap-maple-used-in-alchemy" class="info hidden">
+								
+								<!-- #region - Sap-Maple-Alchemy-item-links -->	
+									<div class="links-content">
+
+										<div class="item-link">
+											<a title="Extra Damage to Humans +6" class="links2 grade3" href="https://bdocodex.com/us/item/670/" target="_blank">
+												<img class="icons icons1 human-hunt-pot-icon" src="images/icons/pots/human-hunt.webp" alt="Icon" /> 
+												Elixir of Human Hunt
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">4</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Casting Speed +2" class="links2 grade3" href="https://bdocodex.com/us/item/692/" target="_blank">
+												<img class="icons icons1 spells-pot-icon" src="images/icons/pots/spells.webp" alt="Icon" /> 
+												Elixir of Spells
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">3</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Life EXP +10%" class="links2 grade3" href="https://bdocodex.com/us/item/749/" target="_blank">
+												<img class="icons icons1 time-pot-icon" src="images/icons/pots/time.webp" alt="Icon" /> Elixir of Time
+											</a>
+
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">5</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Essence of Nature" class="links2 grade2" href="https://bdocodex.com/us/item/5206/" target="_blank">
+												<img class="icons icons1 essence-of-nature-icon" src="images/icons/crystals/essence-of/nature.webp" alt="Icon" /> Essence of Nature
+											</a>
+
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">4</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Essence of Perfection" class="links2 grade2" href="https://bdocodex.com/us/item/5214/" target="_blank">
+												<img class="icons icons1 essence-of-perfection-icon" src="images/icons/crystals/essence-of/perfection.webp" alt="Icon" /> Essence of Perfection
+											</a>
+
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">4</span>
+												</div>
+											</div>
+										</div>
+										
+										<div class="item-link">
+											<a title="Leather Glaze" class="links2 grade2" href="https://bdocodex.com/us/item/6183/" target="_blank">
+												<img class="icons icons1 leather-glaze-icon" src="images/icons/alchemy/leather-glaze.webp" alt="Icon" /> Leather Glaze
+											</a>
+
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">3</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Magic Crystal of Infinity - Strength" class="links2 grade4" href="https://bdocodex.com/us/item/15120/" target="_blank">
+												<img class="icons icons1 mcoi-strength-icon" src="images/icons/crystals/magic/y-3.webp" alt="Icon" /> Magic Crystal of Infinity - Strength
+											</a>
+
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">3</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Magic Crystal of Infinity - Vigor" class="links2 grade4" href="https://bdocodex.com/us/item/15107/" target="_blank">
+												<img class="icons icons1 mcoi-vigor-icon" src="images/icons/crystals/magic/b-left.webp" alt="Icon" /> Magic Crystal of Infinity - Vigor
+											</a>
+
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">3</span>
+												</div>
+											</div>
+										</div>
+
+									</div>			
+								<!-- #endregion - Sap-Maple-Alchemy-item-links -->									
+
+							</div>
+						<!-- #endregion - Sap-Maple-used-in-used-in-Alchemy -->
+
+
+						<a title="Maple Sap" class="links2" href=https://bdocodex.com/us/item/5002/ target="_blank">And More...</a>
+					</div>
+				<!-- #endregion - Sap-Maple-Used-In-Content -->
+
+
+
+				<!-- #region - Sap-Maple-Notes-Content-Button -->
+					<div class="button notes-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-maple-notes-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="notes">
+								<img class="icons notes-icon" src="images/icons/menu/notes.webp" alt="Icon" /> Notes 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-Maple-Notes-Content-Button -->
+
+				<!-- #region - Sap-Maple-Notes-Content -->
+					<div id="sap-maple-notes-content" class="hidden notes-content">
+						<p class="notes-entry">
+							-Notes
+						</p>
+						<p class="notes-entry">
+
+						</p>
+					</div>
+				<!-- #endregion - Sap-Maple-Notes-Content -->
+
+
+			</div>
+		<!-- #endregion - Sap-Maple-Content -->
+
+	</div>
+<!-- #endregion - Sap-Maple-Container -->	
+
+</body>
+</html>

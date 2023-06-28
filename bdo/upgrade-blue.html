@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Blue Pot Upgrade</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="../scripts/jquery/3.6.3.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>	
+</head>
+<body id="upgrade-blue-page" class="common">
+
+<!-- #region - pot-blue-upgrade-container -->
+<div id="pot-blue-upgrade-container" class="items-container pots" draggable="true" ondragstart="drag(event)">
+
+	<!-- #region - pot-blue-upgrade-info Button -->
+		<div class="button upgrading top">
+
+			<a title="Content Button" class="button-link blue1" href="javascript:toggleDiv('pot-blue-upgrade-content');">
+
+				<div class="left">
+					<div class="dots">
+						<span class="dot-plus">+</span>
+					</div>
+				</div> 
+
+				 <img class="icons icons1" src="images/icons/alchemy/blue-reagent.webp" alt="Icon" /> 
+				Blue Version
+			</a>
+
+			<div class="right top">
+				&nbsp;
+			</div>
+
+		</div>
+	<!-- #endregion - pot-blue-upgrade-info Button -->
+
+	<!-- #region - pot-blue-upgrade-info -->
+		<div id="pot-blue-upgrade-content" class="hidden">
+
+			<span class="button headerBox">
+				- Byproduct of making a Pot or Recipe<span class="grade4">▼</span>
+			</span>
+
+			<p class="gold h2">
+				Simple Alchemy <img title="Simple Alchemy" class="icons icons1" src="images/icons/processing/simple-alchemy.webp" alt="Icon" /> 
+			</p>
+
+			<!-- #region - pot-Blue-Reagent-button -->
+				<div class="blueBg3 button">
+
+					<a class="button-link" href="javascript:toggleDiv('pot-Blue-Reagent');">
+						 <img class="icons icons1" src="images/icons/alchemy/blue-reagent.webp" alt="Icon" /> 
+
+						<div class="left">
+							<div class="dots">
+								<span class="dot-plus">+</span>
+							</div>
+						</div> 
+						Blue Reagent
+					</a>
+
+
+					<div class="dots">
+						<span class="circleText amount">1</span>
+					</div>
+
+					<div class="right">
+						<a title="Blue Reagent" class="links" href="https://bdocodex.com/us/item/4916/" target="_blank">🔗</a>
+					</div>
+
+				</div>
+			<!-- #endregion - pot-Blue-Reagent-button -->
+
+			<!-- #region - pot-Blue-Reagent -->
+				<div id="pot-Blue-Reagent" class="info hidden">
+					- Material Vendor
+				</div>
+			<!-- #endregion - pot-Blue-Reagent -->
+
+			<!-- #region - pot-Blue-Reagent-number -->
+				<div class="blueBg3 button">
+
+					<div class="alignR">
+						Any <span class="grade3">Green</span> Pot
+						<div class="dots">
+							<span class="circleText amount">3</span>
+						</div>
+					</div>
+
+
+					<div class="right">
+						&nbsp;
+					</div>
+
+				</div>
+			<!-- #endregion - pot-Blue-Reagent-number -->
+
+
+		</div>
+	<!-- #endregion - pot-blue-upgrade-info -->
+
+</div>
+<!-- #endregion - pot-blue-upgrade-container -->
+
+</body>
+</html>

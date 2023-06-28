@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Loopy Tree Sap</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="../scripts/jquery/3.6.3.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
+</head>
+<body id="sap-loopy-tree-page">
+
+<!-- #region - Sap-Loopy Tree-Container -->
+	<div id="sap-loopy-tree-container" class="items-container saps" draggable="true" ondragstart="drag(event)">
+
+		<!-- #region - Sap-Loopy Tree-Content Button -->
+			<div class="button sap-loopy-tree-button top">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-loopy-tree-content');">
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div> 
+
+					<span class="sap-loopy-tree">
+						<img class="icons icons1 sap-loopy-tree-icon" src="images/icons/saps/loopy-tree.webp" alt="Icon" /> 
+						Loopy Tree Sap
+					</span>
+				</a>
+
+				<div class="right">
+					<a title="Loopy Tree Sap" class="links" href="https://bdocodex.com/us/item/5018/" target="_blank">🔗</a>
+				</div>
+
+			</div>
+		<!-- #endregion - Sap-Loopy Tree-Content Button -->
+
+		<!-- #region - Sap-Loopy Tree-Content -->
+			<div id="sap-loopy-tree-content" class="hidden">
+
+				<!-- #region - Sap-Loopy Tree-How-To-Get Button -->
+					<div class="button htg-button">
+						<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-loopy-tree-htg-content');">
+			
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+			
+							<span class="htg">
+								<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon" /> How to Get 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-Loopy Tree-How-To-Get Button -->
+
+				<!-- #region - Sap-Loopy Tree-How-To-Get -->
+					<div id="sap-loopy-tree-htg-content" class="info hidden">
+
+
+					<!-- #region - Sap-Loopy Tree-How-To-Get-Gathering Button -->
+						<div class="button gathering-button">
+
+							<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-loopy-tree-htg-gathering-fluid-collecting');">
+
+								<div class="left">
+									<div class="dots">
+										<span class="dot-plus">+</span>
+									</div>
+								</div> 
+
+								<span class="gathering-fluid-collecting">
+									<img title="Fluid Collecting" class="icons icons1 fluid-collecting-icon" src="images/icons/menu/interaction/gathering/fluid-collecting.webp" alt="Icon" /> Gathering 
+								</span>
+							</a>
+
+							<div class="right">
+								<a title="Nodes / Resource Interactive Map" class="links" href="https://www.somethinglovely.net/bdo/" target="_blank">🔗</a>
+							</div>
+
+						</div>
+					<!-- #endregion - Sap-Loopy Tree-How-To-Get-Gathering Button -->
+
+					<!-- #region - Sap-Loopy Tree-How-To-Get-Gathering -->				
+						<div id="sap-loopy-tree-htg-gathering-fluid-collecting" class="info hidden">
+									
+							<!-- #region - Sap-Loopy Tree - Gathering Fluid Collector Links -->
+								<div class="links-content">
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://www.somethinglovely.net/bdo/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/timber/loopy-tree.webp" alt="Icon" /> Loopy Tree Trees
+									</a>
+								</div>
+							<!-- #endregion - Sap-Loopy Tree - Gathering Fluid Collector Links -->
+
+						</div>
+					<!-- #endregion - Sap-Loopy Tree-How-To-Get-Gathering -->
+
+
+
+						<!-- #region - Sap-Loopy Tree-How-To-Get-Nodes Button -->
+							<div class="button nodes-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-loopy-tree-htg-nodes');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<img class="icons icons1 nodes-icon" src="images/icons/menu/nodes/nodes.webp" alt="Icon" /> Nodes
+								</a>
+
+								<div class="right">
+									<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Sap-Loopy Tree-How-To-Get-Nodes Button -->
+						
+						<!-- #region - Sap-Loopy Tree-How-To-Get-Nodes -->
+							<div id="sap-loopy-tree-htg-nodes" class="info hidden">
+								
+								<!-- #region - Sap-Loopy Tree-Nodes-Links -->			
+									<div class="links-content">
+										<!-- #region - Sap-Loopy Tree-Node-Link1 -->
+											<a title="Longleaf Tree Forest" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/907" target="_blank">
+												<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+												Longleaf Tree Forest
+											</a>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-loopy-tree-htg-node-selection-1" class="node-selection">
+													
+													<option id="sap-loopy-tree-htg-node-cp-route-1" value="8" selected>
+														Cheapest Route To: Grána (11CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Grána">
+														<option id="sap-loopy-tree-htg-node-route-1-option-1" value="3">
+															(3CP) Lake Flondor
+														</option>
+														<option id="sap-loopy-tree-htg-node-route-1-option-2" value="1">
+															(1CP) White Wood Forest
+														</option>
+														<option id="sap-loopy-tree-htg-node-route-1-option-3" value="3">
+															(3CP) Tooth Fairy Forest
+														</option>
+														<option id="sap-loopy-tree-htg-node-route-1-option-4" value="2">
+															(2CP) Loopy Tree Forest
+														</option>
+														<option id="sap-loopy-tree-htg-node-route-1-option-5" value="2">
+															(2CP) Loopy Tree Forest - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+										<!-- #endregion - Sap-Loopy Tree-Node-Link1 -->				
+									</div>
+								<!-- #endregion - Sap-Loopy Tree-Nodes-Links -->		
+
+								<br />
+							</div>
+						<!-- #endregion - Sap-Loopy Tree-How-To-Get-Nodes -->
+
+
+					</div>
+				<!-- #endregion - Sap-Loopy Tree-How-To-Get -->
+
+
+				<!-- #region - Sap-Loopy Tree-Used-In-Content-Button -->
+					<div class="button used-in-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-loopy-tree-used-in-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="used-in-recipe">
+								<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon" /> Used In Recipe 
+							</span>
+						</a>
+
+
+						<div class="right">
+
+						</div>
+					</div>
+				<!-- #endregion - Sap-Loopy Tree-Used-In-Content-Button -->
+
+				<!-- #region - Sap-Loopy Tree-Used-In-Content -->
+					<div id="sap-loopy-tree-used-in-content" class="hidden used-in-content">
+
+
+						<!-- #region - Sap-Loopy Tree-used-in-Alchemy Button -->
+							<div class="button item-alchemy-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-loopy-tree-used-in-alchemy');">
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									
+									<img class="icons icons1 alchemy-icon" src="images/icons/processing/simple-alchemy.webp" alt="Icon" /> Alchemy
+								</a>
+								
+								<div class="right">
+									<a title="Alchemy Guide" class="links" href="https://grumpygreen.cricket/alchemy/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Sap-Loopy Tree-used-in-Alchemy Button -->
+
+						<!-- #region - Sap-Loopy Tree-used-in-used-in-Alchemy -->
+							<div id="sap-loopy-tree-used-in-alchemy" class="info hidden">
+								
+								<!-- #region - Sap-Loopy Tree-Alchemy-item-links -->	
+									<div class="links-content">
+
+										<div class="item-link">
+											<a title="Max HP +300 | Critical Hit Rate +5 | Recover +3 MP/WP/SP per hit" class="links2 grade5" href="https://bdocodex.com/us/item/781/" target="_blank">
+												<img class="icons icons1 frenzy-pot-icon" src="images/icons/pots/spirit-perfume.webp" alt="Icon" /> 
+												Spirit Perfume Elixir
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">10</span>
+												</div>
+											</div>
+										</div>
+
+									</div>			
+								<!-- #endregion - Sap-Loopy Tree-Alchemy-item-links -->									
+
+							</div>
+						<!-- #endregion - Sap-Loopy Tree-used-in-used-in-Alchemy -->
+
+
+						<a title="Loopy Tree Sap" class="links2" href=https://bdocodex.com/us/item/5018/ target="_blank">And More...</a>
+					</div>
+				<!-- #endregion - Sap-Loopy Tree-Used-In-Content -->
+
+
+
+				<!-- #region - Sap-Loopy Tree-Notes-Content-Button -->
+					<div class="button notes-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-loopy-tree-notes-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="notes">
+								<img class="icons notes-icon" src="images/icons/menu/notes.webp" alt="Icon" /> Notes 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-Loopy Tree-Notes-Content-Button -->
+
+				<!-- #region - Sap-Loopy Tree-Notes-Content -->
+					<div id="sap-loopy-tree-notes-content" class="hidden notes-content">
+						<p class="notes-entry">
+							-Notes
+						</p>
+						<p class="notes-entry">
+
+						</p>
+					</div>
+				<!-- #endregion - Sap-Loopy Tree-Notes-Content -->
+
+
+			</div>
+		<!-- #endregion - Sap-Loopy Tree-Content -->
+
+	</div>
+<!-- #endregion - Sap-Loopy Tree-Container -->	
+
+</body>
+</html>

@@ -1,0 +1,771 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Monk's Branch</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="../scripts/jquery/3.6.3.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.1.js"></script>
+</head>
+<body id="monks-branch-page">
+
+<!-- #region - Monks-Branch-Container -->
+	<div id="monks-branch-container" class="items-container saps" draggable="true" ondragstart="drag(event)">
+
+		<!-- #region - Monks-Branch-Content Button -->
+			<div class="button monks-branch-button top">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('monks-branch-content');">
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div> 
+
+					<span class="monks-branch">
+						<img class="icons icons1 monks-branch-icon" src="images/icons/nodes/plants/monks-branch.webp" alt="Icon" /> 
+						Monk's Branch
+					</span>
+				</a>
+
+				<div class="right">
+					<a title="Monk's Branch" class="links" href="https://bdocodex.com/us/item/5007/" target="_blank">🔗</a>
+				</div>
+
+			</div>
+		<!-- #endregion - Monks-Branch-Content Button -->
+
+		<!-- #region - Monks-Branch-Content -->
+			<div id="monks-branch-content" class="hidden">
+
+				<!-- #region - Monks-Branch-How-To-Get Button -->
+					<div class="button htg-button">
+						<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('monks-branch-htg-content');">
+			
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+			
+							<span class="htg">
+								<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon" /> How to Get 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Monks-Branch-How-To-Get Button -->
+
+				<!-- #region - Monks-Branch-How-To-Get -->
+					<div id="monks-branch-htg-content" class="info hidden">
+
+
+					<!-- #region - Monks-Branch-How-To-Get-Gathering Button -->
+						<div class="button gathering-button">
+
+							<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('monks-branch-htg-gathering-chopping');">
+
+								<div class="left">
+									<div class="dots">
+										<span class="dot-plus">+</span>
+									</div>
+								</div> 
+
+								<span class="gathering-chopping">
+									<img title="Chopping" class="icons icons1 chopping-icon" src="images/icons/menu/interaction/gathering/chopping.webp" alt="Icon" /> Gathering 
+								</span>
+							</a>
+
+							<div class="right">
+								<a title="Nodes / Resource Interactive Map" class="links" href="https://www.somethinglovely.net/bdo/" target="_blank">🔗</a>
+							</div>
+
+						</div>
+					<!-- #endregion - Monks-Branch-How-To-Get-Gathering Button -->
+
+					<!-- #region - Monks-Branch-How-To-Get-Gathering -->				
+						<div id="monks-branch-htg-gathering-chopping" class="info hidden">
+									
+							<!-- #region - Monks-Branch - Gathering Chopping Links -->
+								<div class="links-content">
+
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10584/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/timber/acacia.webp" alt="Icon" /> Acacia Trees
+									</a>
+
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10537/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/timber/ash.webp" alt="Icon" /> Ash Trees
+									</a>
+
+									<br />
+
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10503/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/timber/birch.webp" alt="Icon" /> Birch Trees
+									</a>
+
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10656/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/cactus.webp" alt="Icon" /> Cactus Trees
+									</a>
+
+									<br />
+
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10511/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/timber/cedar.webp" alt="Icon" /> Cedar Trees
+									</a>
+
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10633/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/date-palm.webp" alt="Icon" /> Date Palm Trees
+									</a>
+
+									<br />
+
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10578/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/timber/elder.webp" alt="Icon" /> Elder Trees
+									</a>
+
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10509/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/timber/fir.webp" alt="Icon" /> Fir Trees
+									</a>
+
+									<br />
+
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10649/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/timber/loopy-tree.webp" alt="Icon" /> Loopy Trees
+									</a>
+
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10525/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/timber/maple.webp" alt="Icon" /> Maple Trees
+									</a>
+
+									<br />
+
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10603/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/timber/moss.webp" alt="Icon" /> Moss Trees
+									</a>
+
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10657/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/timber/palm.webp" alt="Icon" /> Palm Trees
+									</a>
+
+									<br />
+
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10558/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/timber/pine.webp" alt="Icon" /> Pine Trees
+									</a>
+
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://bdocodex.com/us/gatherable/10620/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/timber/white-cedar.webp" alt="Icon" /> White Cedar Trees
+									</a>
+
+								</div>
+							<!-- #endregion - Monks-Branch - Gathering Chopping Links -->
+
+						</div>
+					<!-- #endregion - Monks-Branch-How-To-Get-Gathering -->
+
+
+
+						<!-- #region - Monks-Branch-How-To-Get-Nodes Button -->
+							<div class="button nodes-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('monks-branch-htg-nodes');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<img class="icons icons1 nodes-icon" src="images/icons/menu/nodes/nodes.webp" alt="Icon" /> Nodes
+								</a>
+
+								<div class="right">
+									<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Monks-Branch-How-To-Get-Nodes Button -->
+						
+						<!-- #region - Monks-Branch-How-To-Get-Nodes -->
+							<div id="monks-branch-htg-nodes" class="info hidden">
+								
+								<!-- #region - Monks-Branch-Nodes-Links -->			
+									<div class="links-content">
+										<!-- #region - Monks-Branch-Node-Link1 -->
+											<a title="Forest of Seclusion - Lumbering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/183" target="_blank">
+												<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+												Forest of Seclusion - Lumbering
+											</a>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="monks-branch-htg-node-selection-1" class="node-selection">
+													
+													<option id="monks-branch-htg-node-cp-route-1" value="7" selected>
+														Cheapest Route To: Velia (7CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Velia">
+														<option id="monks-branch-htg-node-route-1-option-1" value="2">
+															(2CP) Bartali Farm
+														</option>
+														<option id="monks-branch-htg-node-route-1-option-2" value="2">
+															(2CP) Toscani Farm
+														</option>
+														<option id="monks-branch-htg-node-route-1-option-3" value="2">
+															(2CP) Forest of Seclusion
+														</option>
+														<option id="monks-branch-htg-node-route-1-option-4" value="1">
+															(1CP) Forest of Seclusion - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<br />
+											<a title="Oze Pass - Lumbering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/952" target="_blank">
+												<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+												Oze Pass - Lumbering
+											</a>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="monks-branch-htg-node-selection-2" class="node-selection">
+													
+													<option id="monks-branch-htg-node-cp-route-2" value="5" selected>
+														Cheapest Route To: Heidel (5CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Heidel">
+														<option id="monks-branch-htg-node-route-2-option-1" value="1">
+															(1CP) Lynch Farm Ruins
+														</option>
+														<option id="monks-branch-htg-node-route-2-option-2" value="2">
+															(2CP) Nothern Plain of Serendia
+														</option>
+														<option id="monks-branch-htg-node-route-2-option-3" value="1">
+															(1CP) Bradie Fortress 
+														</option>
+														<option id="monks-branch-htg-node-route-2-option-3" value="1">
+															(1CP) Oze Pass
+														</option>
+														<option id="monks-branch-htg-node-route-2-option-3" value="1">
+															(1CP) Oze Pass - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="monks-branch-htg-node-selection-3" class="node-selection">
+													
+													<option id="monks-branch-htg-node-cp-route-3" value="5" selected>
+														Cheapest Route To: Keplan (5CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Keplan">
+														<option id="monks-branch-htg-node-route-3-option-1" value="1">
+															(1CP) Keplan Vicinity
+														</option>
+														<option id="monks-branch-htg-node-route-3-option-2" value="2">
+															(2CP) Quarry Byway
+														</option>
+														<option id="monks-branch-htg-node-route-3-option-3" value="1">
+															(1CP) Oze Pass
+														</option>
+														<option id="monks-branch-htg-node-route-3-option-4" value="1">
+															(1CP) Oze Pass - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<br />
+											<a title="Serendia Shrine - Lumbering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/183" target="_blank">
+												<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+												Serendia Shrine - Lumbering
+											</a>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="monks-branch-htg-node-selection-4" class="node-selection">
+													
+													<option id="monks-branch-htg-node-cp-route-4" value="6" selected>
+														Cheapest Route To: Glish (6CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Glish">
+														<option id="monks-branch-htg-node-route-4-option-1" value="1">
+															(1CP) Southern Cienaga
+														</option>
+														<option id="monks-branch-htg-node-route-4-option-2" value="3">
+															(3CP) Southern Guard Camp
+														</option>
+														<option id="monks-branch-htg-node-route-4-option-3" value="1">
+															(1CP) Serendia Shrine
+														</option>
+														<option id="monks-branch-htg-node-route-4-option-4" value="1">
+															(1CP) Serendia Shrine - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<!-- <br />
+											<a title="Forest of Seclusion - Lumbering" class="links2 node-name" href="https://bdocodex.com/us/worldmap/2" target="_blank">
+												<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+												Mountain of Eternal Winter
+											</a>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="monks-branch-htg-node-selection-5" class="node-selection">
+													
+													<option id="monks-branch-htg-node-cp-route-5" value="7" selected>
+														Cheapest Route To: Eilton (7CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Eilton">
+														<option id="monks-branch-htg-node-route-5-option-1" value="2">
+															(2CP) Bartali Farm
+														</option>
+														<option id="monks-branch-htg-node-route-5-option-2" value="2">
+															(2CP) Toscani Farm
+														</option>
+														<option id="monks-branch-htg-node-route-5-option-3" value="2">
+															(2CP) Toscani Farm
+														</option>
+														<option id="monks-branch-htg-node-route-5-option-4" value="2">
+															(2CP) Toscani Farm
+														</option>
+														<option id="monks-branch-htg-node-route-5-option-5" value="2">
+															(2CP) Toscani Farm
+														</option>
+													</optgroup>
+												</select>
+											</div> -->
+
+											
+
+
+										<!-- #endregion - Monks-Branch-Node-Link1 -->				
+									</div>
+								<!-- #endregion - Monks-Branch-Nodes-Links -->		
+
+								<br />
+							</div>
+						<!-- #endregion - Monks-Branch-How-To-Get-Nodes -->
+
+
+					</div>
+				<!-- #endregion - Monks-Branch-How-To-Get -->
+
+
+				<!-- #region - Monks-Branch-Used-In-Content-Button -->
+					<div class="button used-in-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('monks-branch-used-in-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="used-in-recipe">
+								<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon" /> Used In Recipe 
+							</span>
+						</a>
+
+
+						<div class="right">
+
+						</div>
+					</div>
+				<!-- #endregion - Monks-Branch-Used-In-Content-Button -->
+
+				<!-- #region - Monks-Branch-Used-In-Content -->
+					<div id="monks-branch-used-in-content" class="hidden used-in-content">
+
+						<!-- #region - Monks-Branch-Used-In-Alchemy Button -->
+							<div class="button item-alchemy-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('monks-branch-used-in-alchemy');">
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									
+									<img class="icons icons1 alchemy-icon" src="images/icons/processing/simple-alchemy.webp" alt="Icon" /> Alchemy
+								</a>
+								
+								<div class="right">
+									<a title="Alchemy Guide" class="links" href="https://grumpygreen.cricket/alchemy/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Monks-Branch-Used-In-Alchemy Button -->
+
+						<!-- #region - Monks-Branch-Used-In-Alchemy -->
+							<div id="monks-branch-used-in-alchemy" class="info hidden">
+							
+								<!-- #region - bg1-items-links -->	
+									<div class="links-content">
+
+										<div class="item-link">
+											<a title="Recover +1 HP per hit" class="links2 grade3" href="https://bdocodex.com/us/item/712/" target="_blank">
+												<img class="icons icons1" src="images/icons/pots/grim-reapers.webp" alt="Icon" /> Grim Reaper's Elixir
+											</a>
+		
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">2</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="All Evasion +8" class="links2 grade3" href="https://bdocodex.com/us/item/782/" target="_blank">
+												<img class="icons icons1 helix-pot-icon" src="images/icons/pots/helix.webp" alt="Icon" />
+												Helix Elixir
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">3</span>
+												</div>
+											</div>
+										</div>
+										
+										<div class="item-link">
+											<a title="Oil of Fortitude" class="links2 grade2" href="https://bdocodex.com/us/item/6603/" target="_blank">
+												<img class="icons icons1 oof-icon" src="images/icons/alchemy/oil-of/fortitude.webp" alt="Icon" /> 
+												Oil of Fortitude
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">1</span>
+												</div>
+											</div>
+										</div>
+										
+										<div class="item-link">
+											<a title="All Accuracy +15|Ignore All Resistance +3%|Max HP +100|Attack Speed +5|Casting Speed +5|Movement Speed +5" class="links2 grade5" href="https://bdocodex.com/us/item/1200/" target="_blank">
+												 <img class="icons icons1 poi-pot-icon" src="images/icons/pots/perfume-of-insight.webp" alt="Icon" /> Perfume of Insight
+											</a>
+	
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">3</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Tyrant's Blood" class="links2 grade2" href="https://bdocodex.com/us/item/6352/" target="_blank">
+												<img class="icons icons1" src="images/icons/bloods/tyrants.webp" alt="Icon" /> 
+												Tyrant's Blood
+											</a>
+
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">1</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Knowledge Gain Chance +7%" class="links2 grade3" href="https://bdocodex.com/us/item/773/" target="_blank">
+												<img class="icons icons1 weenie-pot-icon" src="images/icons/pots/weenie.webp" alt="Icon" /> 
+												Weenie Elixir
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">5</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Wise Man's Blood" class="links2 grade2" href="https://bdocodex.com/us/item/6355/" target="_blank">
+												<img class="icons icons1 wisemans-blood-icon" src="images/icons/bloods/wise-mans.webp" alt="Icon" /> Wise Man's Blood
+											</a>
+
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">1</span>
+												</div>
+											</div>
+										</div>
+
+									</div>			
+								<!-- #endregion - bg1-items-links -->									
+							
+							</div>
+						<!-- #endregion - Monks-Branch-Used-In-Alchemy -->
+
+
+
+						<!-- #region - Monks-Branch-Used-In-Processing-Guild Button -->
+							<div class="button processing-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('monks-branch-used-in-processing-content');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									<span class="processing-guild">
+										<img class="icons processing-icon" src="images/icons/menu/processing.webp" alt="Icon" /> Processing
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Monks-Branch-Used-In-Processing-Guild Button -->
+
+						<!-- #region - Monks-Branch-Used-In-Processing-Guild -->
+							<div id="monks-branch-used-in-processing-content" class="info hidden">
+
+								<!-- #region - Monks-Branch-Used-In-processing-guild Button -->
+								<div class="button processing-guild-button">
+
+									<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('monks-branch-processing-guild');">
+										
+										<div class="left">
+											<div class="dots">
+												<span class="dot-plus">+</span>
+											</div>
+										</div> 
+										<span class="processing-guild">
+											<img class="icons icons1 processing-guild-icon" src="images/icons/processing/guild.webp" alt="Icon" /> Guild
+										</span>
+									</a>
+									
+									<div class="right">
+										<a title="Guild Guide" class="links" href="https://www.blackdesertfoundry.com/guilds-guide/" target="_blank">🔗</a>
+									</div>
+								
+								</div>
+							<!-- #endregion - Monks-Branch-Used-In-processing-guild Button -->
+
+							<!-- #region - Monks-Branch-Used-In-processing-guild -->
+								<div id="monks-branch-processing-guild" class="info hidden">
+									<div class="links-content">
+
+										<div class="item-link">
+											<a title="[Guild] Wind-laden Flax Cloth" class="links2 grade3" href="https://bdocodex.com/us/item/9910/" target="_blank">
+												<img class="icons icons1 guild-wlfc-icon" src="images/icons/designs/guild/wind-laden-flax-cloth.webp" alt="Icon" /> [Guild] Wind-laden Flax Cloth
+											</a>
+	
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">1</span>
+												</div>
+											</div>
+										</div>	
+
+									</div>
+								</div>		
+							<!-- #endregion - Monks-Branch-Used-In-processing-guild -->
+
+							</div>
+						<!-- #endregion - Monks-Branch-Used-In-Processing-Guild -->
+
+
+						<!-- #region - Monks-Branch-Workshop Button -->
+							<div class="button workshop-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('monks-branch-used-in-workshop-content');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									<span class="design-workshop">
+										<img class="icons icons1 design-workshop-icon" src="images/icons/menu/workshop.webp" alt="Icon" /> Workshop
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Workshops" class="links" href="https://bdo.altarofgaming.com/workshops/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Monks-Branch-Workshop Button -->
+
+						<!-- #region - Monks-Branch-Workshop -->
+							<div id="monks-branch-used-in-workshop-content" class="info hidden">
+							
+								<!-- #region - Monks-Branch-Design-Carpentry Button -->
+									<div class="button carpentry-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('monks-branch-design-carpentry');">
+											
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+											<span class="design-carpentry-text">
+												<img class="icons icons1 carpentry-icon" src="images/icons/menu/workshop/carpentry.webp" alt="Icon" /> Carpentry
+											</span>
+										</a>
+										
+										<div class="right">
+											<a title="Workshops" class="links" href="https://bdo.altarofgaming.com/workshops/" target="_blank">🔗</a>
+										</div>
+
+									</div>
+								<!-- #endregion - Monks-Branch-Design-Carpentry Button -->
+
+								<!-- #region - Monks-Branch-Design-Carpentry -->
+									<div id="monks-branch-design-carpentry" class="info hidden">
+										<div class="links-content">
+											
+											<div class="item-link">
+												<a title="Crio's Fishing Chair" class="links2 grade3" href="https://bdocodex.com/us/item/12831/" target="_blank">
+													<img class="icons icons1 ef-black-breeze-sail-icon" src="images/icons/designs/carpentry/crios-fishing-chair.webp" alt="Icon" /> Crio's Fishing Chair
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circleText amount">20</span>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>		
+								<!-- #endregion - Monks-Branch-Design-Carpentry -->
+
+
+								<!-- #region - Monks-Branch-Design-Tool-Workshop Button -->
+									<div class="button tool-workshop-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('monks-branch-design-tool-workshop');">
+											
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+											<span class="design-tool-workshop-text">
+												<img class="icons icons1 tool-workshop-icon" src="images/icons/menu/workshop/tool-workshop.webp" alt="Icon" /> Tool-Workshop
+											</span>
+										</a>
+										
+										<div class="right">
+											<a title="Workshops" class="links" href="https://bdo.altarofgaming.com/workshops/" target="_blank">🔗</a>
+										</div>
+
+									</div>
+								<!-- #endregion - Monks-Branch-Design-Tool-Workshop Button -->
+
+								<!-- #region - Monks-Branch-Design-Tool-Workshop -->
+									<div id="monks-branch-design-tool-workshop" class="info hidden">
+										<div class="links-content">
+											
+											<div class="item-link">
+												<a title="Auto-fishing Time -10%" class="links2 grade4" href="https://bdocodex.com/us/item/16162/" target="_blank">
+													<img class="icons icons1 balenos-rod-icon" src="images/icons/designs/tool-workshop/fishing-rods/balenos.webp" alt="Icon" /> Balenos Fishing Rod
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circleText amount">9</span>
+													</div>
+												</div>
+											</div>
+
+											<div class="item-link">
+												<a title="Chance to Catch Big Fish +1% (Usable At Fishing Professional 1)" class="links2 grade4" href="https://bdocodex.com/us/item/16164/" target="_blank">
+													<img class="icons icons1 calpheon-rod-icon" src="images/icons/designs/tool-workshop/fishing-rods/calpheon.webp" alt="Icon" /> Calpheon Fishing Rod
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circleText amount">9</span>
+													</div>
+												</div>
+											</div>
+
+											<div class="item-link">
+												<a title="Increase Durability" class="links2 grade4" href="https://bdocodex.com/us/item/16163/" target="_blank">
+													<img class="icons icons1 epheria-rod-icon" src="images/icons/designs/tool-workshop/fishing-rods/epheria.webp" alt="Icon" /> Epheria Fishing Rod
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circleText amount">9</span>
+													</div>
+												</div>
+											</div>
+
+											<div class="item-link">
+												<a title="Chance to Catch Rare Fish +1% (Usable At Fishing Artisan 1)" class="links2 grade4" href="https://bdocodex.com/us/item/16163/" target="_blank">
+													<img class="icons icons1 mediah-rod-icon" src="images/icons/designs/tool-workshop/fishing-rods/mediah.webp" alt="Icon" />  Mediah Fishing Rod
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circleText amount">9</span>
+													</div>
+												</div>
+											</div>
+											
+
+										</div>
+									</div>		
+								<!-- #endregion - Monks-Branch-Design-Tool-Workshop -->
+
+							</div>
+						<!-- #endregion - Monks-Branch-Workshop -->
+
+
+
+						<a title="Monk's Branch" class="links2" href=https://bdocodex.com/us/item/5007/ target="_blank">And More...</a>
+					</div>
+				<!-- #endregion - Monks-Branch-Used-In-Content -->
+
+
+
+				<!-- #region - Monks-Branch-Notes-Content-Button -->
+					<div class="button notes-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('monks-branch-notes-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="notes">
+								<img class="icons notes-icon" src="images/icons/menu/notes.webp" alt="Icon" /> Notes 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Monks-Branch-Notes-Content-Button -->
+
+				<!-- #region - Monks-Branch-Notes-Content -->
+					<div id="monks-branch-notes-content" class="hidden notes-content">
+						<p class="notes-entry">
+							-Notes
+						</p>
+						<p class="notes-entry">
+
+						</p>
+					</div>
+				<!-- #endregion - Monks-Branch-Notes-Content -->
+
+
+			</div>
+		<!-- #endregion - Monks-Branch-Content -->
+
+	</div>
+<!-- #endregion - Monks-Branch-Container -->	
+
+</body>
+</html>

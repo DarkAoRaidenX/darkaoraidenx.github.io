@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Ash Sap</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="../scripts/jquery/3.6.3.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
+</head>
+<body id="sap-ash-page">
+
+<!-- #region - Sap-Ash-Container -->
+	<div id="sap-ash-container" class="items-container saps" draggable="true" ondragstart="drag(event)">
+
+		<!-- #region - Sap-Ash-Content Button -->
+			<div class="button sap-ash-button top">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-ash-content');">
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div> 
+
+					<span class="sap-ash">
+						<img class="icons icons1 sap-ash-icon" src="images/icons/saps/ash.webp" alt="Icon" /> 
+						Ash Sap
+					</span>
+				</a>
+
+				<div class="right">
+					<a title="Ash Sap" class="links" href="https://bdocodex.com/us/item/5001/" target="_blank">🔗</a>
+				</div>
+
+			</div>
+		<!-- #endregion - Sap-Ash-Content Button -->
+
+		<!-- #region - Sap-Ash-Content -->
+			<div id="sap-ash-content" class="hidden">
+
+				<!-- #region - Sap-Ash-How-To-Get Button -->
+					<div class="button htg-button">
+						<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-ash-htg-content');">
+			
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+			
+							<span class="htg">
+								<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon" /> How to Get 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-Ash-How-To-Get Button -->
+
+				<!-- #region - Sap-Ash-How-To-Get -->
+					<div id="sap-ash-htg-content" class="info hidden">
+
+
+					<!-- #region - Sap-Ash-How-To-Get-Gathering Button -->
+						<div class="button gathering-button">
+
+							<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-ash-htg-gathering-fluid-collecting');">
+
+								<div class="left">
+									<div class="dots">
+										<span class="dot-plus">+</span>
+									</div>
+								</div> 
+
+								<span class="gathering-fluid-collecting">
+									<img title="Fluid Collecting" class="icons icons1 fluid-collecting-icon" src="images/icons/menu/interaction/gathering/fluid-collecting.webp" alt="Icon" /> Gathering 
+								</span>
+							</a>
+
+							<div class="right">
+								<a title="Nodes / Resource Interactive Map" class="links" href="https://www.somethinglovely.net/bdo/" target="_blank">🔗</a>
+							</div>
+
+						</div>
+					<!-- #endregion - Sap-Ash-How-To-Get-Gathering Button -->
+
+					<!-- #region - Sap-Ash-How-To-Get-Gathering -->				
+						<div id="sap-ash-htg-gathering-fluid-collecting" class="info hidden">
+									
+							<!-- #region - Sap-Ash - Gathering Fluid Collector Links -->
+								<div class="links-content">
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://www.somethinglovely.net/bdo/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/timber/ash.webp" alt="Icon" /> Ash Trees
+									</a>
+								</div>
+							<!-- #endregion - Sap-Ash - Gathering Fluid Collector Links -->
+
+						</div>
+					<!-- #endregion - Sap-Ash-How-To-Get-Gathering -->
+
+
+
+						<!-- #region - Sap-Ash-How-To-Get-Nodes Button -->
+							<div class="button nodes-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-ash-htg-nodes');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<img class="icons icons1 nodes-icon" src="images/icons/menu/nodes/nodes.webp" alt="Icon" /> Nodes
+								</a>
+
+								<div class="right">
+									<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Sap-Ash-How-To-Get-Nodes Button -->
+						
+						<!-- #region - Sap-Ash-How-To-Get-Nodes -->
+							<div id="sap-ash-htg-nodes" class="info hidden">
+								
+								<!-- #region - Sap-Ash-Nodes-Links -->			
+									<div class="links-content">
+										<!-- #region - Sap-Ash-Node-Link1 -->
+											<a title="Ehwaz Hill" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1219" target="_blank">
+												<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+												Ehwaz Hill
+											</a>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-ash-htg-node-selection-1" class="node-selection">
+													
+													<option id="sap-ash-htg-node-cp-route-1" value="3" selected>
+														Cheapest Route To: Velia (3CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Velia">
+														<option id="sap-ash-htg-node-route-1-option-1" value="1">
+															(1CP) Forest of Plunder
+														</option>
+														<option id="sap-ash-htg-node-route-1-option-2" value="1">
+															(1CP) Ehwaz Hill
+														</option>
+														<option id="sap-ash-htg-node-route-1-option-3" value="1">
+															(1CP) Ehwaz Hill - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-ash-htg-node-selection-2" class="node-selection">
+													
+													<option id="sap-ash-htg-node-cp-route-2" value="9" selected>
+														Cheapest Route To: Heidel (9CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Heidel">
+														<option id="sap-ash-htg-node-route-2-option-1" value="3">
+															(3CP) Northern Guard Camp
+														</option>
+														<option id="sap-ash-htg-node-route-2-option-2" value="3">
+															(3CP) Heidel Pass
+														</option>
+														<option id="sap-ash-htg-node-route-2-option-3" value="1">
+															(1CP) Forest of Plunder
+														</option>
+														<option id="sap-ash-htg-node-route-2-option-4" value="1">
+															(1CP) Ehwaz Hill
+														</option>
+														<option id="sap-ash-htg-node-route-2-option-5" value="2">
+															(1CP) Ehwaz Hill - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+										<!-- #endregion - Sap-Ash-Node-Link1 -->				
+									</div>
+								<!-- #endregion - Sap-Ash-Nodes-Links -->		
+
+								<br />
+							</div>
+						<!-- #endregion - Sap-Ash-How-To-Get-Nodes -->
+
+
+					</div>
+				<!-- #endregion - Sap-Ash-How-To-Get -->
+
+
+				<!-- #region - Sap-Ash-Used-In-Content-Button -->
+					<div class="button used-in-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-ash-used-in-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="used-in-recipe">
+								<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon" /> Used In Recipe 
+							</span>
+						</a>
+
+
+						<div class="right">
+
+						</div>
+					</div>
+				<!-- #endregion - Sap-Ash-Used-In-Content-Button -->
+
+				<!-- #region - Sap-Ash-Used-In-Content -->
+					<div id="sap-ash-used-in-content" class="hidden used-in-content">
+
+
+						<!-- #region - Sap-Ash-used-in-Alchemy Button -->
+							<div class="button item-alchemy-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-ash-used-in-alchemy');">
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									
+									<img class="icons icons1 alchemy-icon" src="images/icons/processing/simple-alchemy.webp" alt="Icon" /> Alchemy
+								</a>
+								
+								<div class="right">
+									<a title="Alchemy Guide" class="links" href="https://grumpygreen.cricket/alchemy/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Sap-Ash-used-in-Alchemy Button -->
+
+						<!-- #region - Sap-Ash-used-in-used-in-Alchemy -->
+							<div id="sap-ash-used-in-alchemy" class="info hidden">
+								
+								<!-- #region - Sap-Ash-Alchemy-item-links -->	
+									<div class="links-content">
+										
+										<div class="item-link">
+											<a title="All Damage Reduction +5" class="links2 grade3" href="https://bdocodex.com/us/item/716/" target="_blank">
+												<img class="icons icons1 de-pot-icon" src="images/icons/pots/defense.webp" alt="Icon" /> 
+												Defense Elixir
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">6</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Amity +20%" class="links2 grade3" href="https://bdocodex.com/us/item/664/" target="_blank">
+												<img class="icons icons1 amity-pot-icon" src="images/icons/pots/amity.webp" alt="Icon" /> 
+												Elixir of Amity
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">6</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Defense Nullifying Damage +5 per Critical Hit" class="links2 grade3" href="https://bdocodex.com/us/item/686/" target="_blank">
+												<img class="icons icons1 eod-pot-icon" src="images/icons/pots/death.webp" alt="Icon" /> Elixir of Death
+											</a>
+
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">7</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="All AP +5" class="links2 grade3" href="https://bdocodex.com/us/item/704/" target="_blank">
+												<img class="icons icons1 eof-pot-icon" src="images/icons/pots/fury.webp" alt="Icon" /> Elixir of Fury
+											</a>
+
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">1</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Max MP +100" class="links2 grade3" href="https://bdocodex.com/us/item/710/" target="_blank">
+												 <img class="icons icons1 eom-pot-icon" src="images/icons/pots/mentality.webp" alt="Icon" /> Elixir of Mentality
+											</a>
+	
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">4</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Jump Height Up" class="links2 grade3" href="https://bdocodex.com/us/item/684/" target="_blank">
+													<img class="icons icons1 eow2-pot-icon" src="images/icons/pots/wings.webp" alt="Icon" /> Elixir of Wings
+											</a>
+
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">1</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Essence of Crimson Flame" class="links2 grade2" href="https://bdocodex.com/us/item/5202/" target="_blank">
+												<img class="icons icons1 essence-of-cf-icon" src="images/icons/crystals/essence-of/crimson-flame.webp" alt="Icon" /> 
+												Essence of Crimson Flame
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">4</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Essence of Enchantment" class="links2 grade2" href="https://bdocodex.com/us/item/5210/" target="_blank">
+												<img class="icons icons1 essence-of-enchantment-icon" src="images/icons/crystals/essence-of/enchantment.webp" alt="Icon" /> 
+												Essence of Enchantment
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">4</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="All Damage Reduction +100" class="links2 grade4" href="https://bdocodex.com/us/item/732/" target="_blank">
+													<img class="icons icons1 wte-pot-icon" src="images/icons/pots/whale-tendon-elixir.webp" alt="Icon" /> Whale Tendon Elixir
+											</a>
+
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">12</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Gathering Speed +2" class="links2 grade3" href="https://bdocodex.com/us/item/724/" target="_blank">
+												 <img class="icons icons1 workers-pot-icon" src="images/icons/pots/workers.webp" alt="Icon" /> Worker's Elixir
+											</a>
+	
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">4</span>
+												</div>
+											</div>
+										</div>
+
+									</div>			
+								<!-- #endregion - Sap-Ash-Alchemy-item-links -->									
+
+							</div>
+						<!-- #endregion - Sap-Ash-used-in-used-in-Alchemy -->
+
+
+						<a title="Ash Sap" class="links2" href=https://bdocodex.com/us/item/5001/ target="_blank">And More...</a>
+					</div>
+				<!-- #endregion - Sap-Ash-Used-In-Content -->
+
+
+
+				<!-- #region - Sap-Ash-Notes-Content-Button -->
+					<div class="button notes-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-ash-notes-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="notes">
+								<img class="icons notes-icon" src="images/icons/menu/notes.webp" alt="Icon" /> Notes 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-Ash-Notes-Content-Button -->
+
+				<!-- #region - Sap-Ash-Notes-Content -->
+					<div id="sap-ash-notes-content" class="hidden notes-content">
+						<p class="notes-entry">
+							-Notes
+						</p>
+						<p class="notes-entry">
+
+						</p>
+					</div>
+				<!-- #endregion - Sap-Ash-Notes-Content -->
+
+
+			</div>
+		<!-- #endregion - Sap-Ash-Content -->
+
+	</div>
+<!-- #endregion - Sap-Ash-Container -->	
+
+</body>
+</html>

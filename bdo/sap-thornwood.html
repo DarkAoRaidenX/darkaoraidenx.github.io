@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Thornwood Sap</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="../scripts/jquery/3.6.3.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
+</head>
+<body id="sap-thornwood-page">
+
+<!-- #region - Sap-Thornwood-Container -->
+	<div id="sap-thornwood-container" class="items-container saps" draggable="true" ondragstart="drag(event)">
+
+		<!-- #region - Sap-Thornwood-Content Button -->
+			<div class="button sap-thornwood-button top">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-thornwood-content');">
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div> 
+
+					<span class="sap-thornwood">
+						<img class="icons icons1 sap-thornwood-icon" src="images/icons/saps/thornwood.webp" alt="Icon" /> 
+						Thornwood Sap
+					</span>
+				</a>
+
+				<div class="right">
+					<a title="Thornwood Sap" class="links" href="https://bdocodex.com/us/item/5023/" target="_blank">🔗</a>
+				</div>
+
+			</div>
+		<!-- #endregion - Sap-Thornwood-Content Button -->
+
+		<!-- #region - Sap-Thornwood-Content -->
+			<div id="sap-thornwood-content" class="hidden">
+
+				<!-- #region - Sap-Thornwood-How-To-Get Button -->
+					<div class="button htg-button">
+						<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-thornwood-htg-content');">
+			
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+			
+							<span class="htg">
+								<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon" /> How to Get 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-Thornwood-How-To-Get Button -->
+
+				<!-- #region - Sap-Thornwood-How-To-Get -->
+					<div id="sap-thornwood-htg-content" class="info hidden">
+
+
+					<!-- #region - Sap-Thornwood-How-To-Get-Gathering Button -->
+						<div class="button gathering-button">
+
+							<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-thornwood-htg-gathering-fluid-collecting');">
+
+								<div class="left">
+									<div class="dots">
+										<span class="dot-plus">+</span>
+									</div>
+								</div> 
+
+								<span class="gathering-fluid-collecting">
+									<img title="Fluid Collecting" class="icons icons1 fluid-collecting-icon" src="images/icons/menu/interaction/gathering/fluid-collecting.webp" alt="Icon" /> Gathering 
+								</span>
+							</a>
+
+							<div class="right">
+								<a title="Nodes / Resource Interactive Map" class="links" href="https://www.somethinglovely.net/bdo/" target="_blank">🔗</a>
+							</div>
+
+						</div>
+					<!-- #endregion - Sap-Thornwood-How-To-Get-Gathering Button -->
+
+					<!-- #region - Sap-Thornwood-How-To-Get-Gathering -->				
+						<div id="sap-thornwood-htg-gathering-fluid-collecting" class="info hidden">
+									
+							<!-- #region - Sap-Thornwood - Gathering Fluid Collector Links -->
+								<div class="links-content">
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://www.somethinglovely.net/bdo/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/timber/thornwood.webp" alt="Icon" /> Thornwood Trees
+									</a>
+								</div>
+							<!-- #endregion - Sap-Thornwood - Gathering Fluid Collector Links -->
+
+						</div>
+					<!-- #endregion - Sap-Thornwood-How-To-Get-Gathering -->
+
+
+
+						<!-- #region - Sap-Thornwood-How-To-Get-Nodes Button -->
+							<div class="button nodes-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-thornwood-htg-nodes');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<img class="icons icons1 nodes-icon" src="images/icons/menu/nodes/nodes.webp" alt="Icon" /> Nodes
+								</a>
+
+								<div class="right">
+									<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Sap-Thornwood-How-To-Get-Nodes Button -->
+						
+						<!-- #region - Sap-Thornwood-How-To-Get-Nodes -->
+							<div id="sap-thornwood-htg-nodes" class="info hidden">
+								
+								<!-- #region - Sap-Thornwood-Nodes-Links -->			
+									<div class="links-content">
+										<!-- #region - Sap-Thornwood-Node-Link1 -->
+											<a title="Shiv Valley Road - Lumbering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/907" target="_blank">
+												<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+												Shiv Valley Road - Lumbering
+											</a>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-thornwood-htg-node-selection-1" class="node-selection">
+													
+													<option id="sap-thornwood-htg-node-cp-route-1" value="4" selected>
+														Cheapest Route To: O'draxxia (4CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - O'draxxia">
+														<option id="sap-thornwood-htg-node-route-1-option-1" value="2">
+															(2CP) Shiv Valley Road
+														</option>
+														<option id="sap-thornwood-htg-node-route-1-option-2" value="2">
+															(2CP) Shiv Valley Road - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<br />
+											<a title="Thornwood Forest - Lumbering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1712" target="_blank">
+												<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+												Thornwood Forest - Lumbering
+											</a>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-thornwood-htg-node-selection-2" class="node-selection">
+													
+													<option id="sap-thornwood-htg-node-cp-route-2" value="14" selected>
+														Cheapest Route To: O'draxxia (14CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - O'draxxia">
+														<option id="sap-thornwood-htg-node-route-2-option-1" value="2">
+															(2CP) Forgotten Mountain
+														</option>
+														<option id="sap-thornwood-htg-node-route-2-option-2" value="3">
+															(2CP) Olun's Valley
+														</option>
+														<option id="sap-thornwood-htg-node-route-2-option-3" value="1">
+															(1CP) Bahit Sanctum
+														</option>
+														<option id="sap-thornwood-htg-node-route-2-option-4" value="3">
+															(3CP) Crypt of Resting Thoughts
+														</option>
+														<option id="sap-thornwood-htg-node-route-2-option-5" value="3">
+															(3CP) Thornwood Forest
+														</option>
+														<option id="sap-thornwood-htg-node-route-2-option-6" value="3">
+															(3CP) Thornwood Forest - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+
+										<!-- #endregion - Sap-Thornwood-Node-Link1 -->				
+									</div>
+								<!-- #endregion - Sap-Thornwood-Nodes-Links -->		
+
+								<br />
+							</div>
+						<!-- #endregion - Sap-Thornwood-How-To-Get-Nodes -->
+
+
+					</div>
+				<!-- #endregion - Sap-Thornwood-How-To-Get -->
+
+
+				<!-- #region - Sap-Thornwood-Used-In-Content-Button -->
+					<div class="button used-in-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-thornwood-used-in-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="used-in-recipe">
+								<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon" /> Used In Recipe 
+							</span>
+						</a>
+
+
+						<div class="right">
+
+						</div>
+					</div>
+				<!-- #endregion - Sap-Thornwood-Used-In-Content-Button -->
+
+				<!-- #region - Sap-Thornwood-Used-In-Content -->
+					<div id="sap-thornwood-used-in-content" class="hidden used-in-content">
+
+
+						<!-- #region - Sap-Thornwood-used-in-Alchemy Button -->
+							<div class="button item-alchemy-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-thornwood-used-in-alchemy');">
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									
+									<img class="icons icons1 alchemy-icon" src="images/icons/processing/simple-alchemy.webp" alt="Icon" /> Alchemy
+								</a>
+								
+								<div class="right">
+									<a title="Alchemy Guide" class="links" href="https://grumpygreen.cricket/alchemy/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Sap-Thornwood-used-in-Alchemy Button -->
+
+						<!-- #region - Sap-Thornwood-used-in-used-in-Alchemy -->
+							<div id="sap-thornwood-used-in-alchemy" class="info hidden">
+								
+								<!-- #region - Sap-Thornwood-Alchemy-item-links -->	
+									<div class="links-content">
+
+										<div class="item-link">
+											<a title="All Damage Reduction +8 | Damage from Monsters -7.5% | All AP -3" class="links2 grade3" href="https://bdocodex.com/us/item/1157/" target="_blank">
+												<img class="icons icons1 armor-pot-icon" src="images/icons/pots/armor.webp" alt="Icon" /> 
+												Elixir of Armor
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">5</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Gathering Item Drop Rate +3% | Constant reduction of MP/WP/SP" class="links2 grade3" href="https://bdocodex.com/us/item/1156/" target="_blank">
+												<img class="icons icons1 labor-pot-icon" src="images/icons/pots/labor.webp" alt="Icon" /> 
+												Elixir of Labor
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">4</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="All Life Skill Mastery +10 | Constant reduction of MP/WP/SP" class="links2 grade3" href="https://bdocodex.com/us/item/1155/" target="_blank">
+												<img class="icons icons1 mastery-pot-icon" src="images/icons/pots/mastery.webp" alt="Icon" /> Elixir of Mastery
+											</a>
+
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">5</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Skill EXP +10% | Movement Speed -2%" class="links2 grade3" href="https://bdocodex.com/us/item/1152/" target="_blank">
+												<img class="icons icons1 skill-pot-icon" src="images/icons/pots/skill.webp" alt="Icon" /> Elixir of Skill
+											</a>
+
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">5</span>
+												</div>
+											</div>
+										</div>
+
+									</div>			
+								<!-- #endregion - Sap-Thornwood-Alchemy-item-links -->									
+
+							</div>
+						<!-- #endregion - Sap-Thornwood-used-in-used-in-Alchemy -->
+
+
+						<a title="Thornwood Sap" class="links2" href=https://bdocodex.com/us/item/5023/ target="_blank">And More...</a>
+					</div>
+				<!-- #endregion - Sap-Thornwood-Used-In-Content -->
+
+
+
+				<!-- #region - Sap-Thornwood-Notes-Content-Button -->
+					<div class="button notes-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-thornwood-notes-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="notes">
+								<img class="icons notes-icon" src="images/icons/menu/notes.webp" alt="Icon" /> Notes 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-Thornwood-Notes-Content-Button -->
+
+				<!-- #region - Sap-Thornwood-Notes-Content -->
+					<div id="sap-thornwood-notes-content" class="hidden notes-content">
+						<p class="notes-entry">
+							-Notes
+						</p>
+						<p class="notes-entry">
+
+						</p>
+					</div>
+				<!-- #endregion - Sap-Thornwood-Notes-Content -->
+
+
+			</div>
+		<!-- #endregion - Sap-Thornwood-Content -->
+
+	</div>
+<!-- #endregion - Sap-Thornwood-Container -->	
+
+</body>
+</html>

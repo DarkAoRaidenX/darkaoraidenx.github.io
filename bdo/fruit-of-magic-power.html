@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Fruit of Magic Power</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="../scripts/jquery/3.6.3.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
+</head>
+<body id="fomp-page">
+
+<!-- #region - FoMP-Container -->
+	<div id="fomp-container" class="items-container fruit-of" draggable="true" ondragstart="drag(event)">
+
+		<!-- #region - FoMP-Content Button -->
+			<div class="button fomp-button top">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('fomp-content');">
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div> 
+
+					<span class="fomp">
+						<img class="icons icons1 fomp-icon" src="images/icons/fruit-of/magic-power.webp" alt="Icon" /> 
+						Fruit of Magic Power
+					</span>
+				</a>
+
+				<div class="right">
+					<a title="Fruit of Magic Power" class="links" href="https://bdocodex.com/us/item/5211/" target="_blank">🔗</a>
+				</div>
+
+			</div>
+		<!-- #endregion - FoMP-Content Button -->
+
+		<!-- #region - FoMP-Content -->
+			<div id="fomp-content" class="hidden">
+
+				<!-- #region - FoMP-How-To-Get Button -->
+					<div class="button htg-button">
+						<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('fomp-htg-content');">
+			
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+			
+							<span class="htg">
+								<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon" /> How to Get 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - FoMP-How-To-Get Button -->
+
+
+				<!-- #region - FoMP-How-To-Get -->
+					<div id="fomp-htg-content" class="info hidden">
+
+						<!-- #region - FoMP-How-To-Get-Farming Button -->
+							<div class="button farming-button">
+								<a title="Content Button" class="button-link gold" href="javascript:toggleDiv('fomp-htg-farming-breeding');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<span class="farming-breeding">
+										<img title="Breeding" class="icons icons1 breeding-icon" src="images/icons/menu/interaction/farming/breeding.webp" alt="Icon" /> Farming 
+									</span>
+								</a>
+
+
+								<div class="right">
+									<a title="Farming Guide" class="links" href="https://grumpygreen.cricket/bdo-farming-guide-eminent/" target="_blank">🔗</a>
+								</div>
+							</div>
+						<!-- #endregion - FoMP-How-To-Get-Farming Button -->
+
+						<!-- #region - FoMP-How-To-Get-Farming -->
+							<div id="fomp-htg-farming-breeding" class="info hidden">
+								<div class="links-content">
+									<a title="Emperor Mushroom" class="links2 grade2" href="https://bdocodex.com/us/item/5413/" target="_blank">
+										<img class="icons icons1 seed-icons" src="images/icons/items/seeds/emperor.webp" alt="Icon" /> Emperor Mushroom
+									</a>
+				
+									<br />
+									<a title="Fortune Teller Mushroom" class="links2 grade2" href="https://bdocodex.com/us/item/5407/" target="_blank">
+										<img class="icons icons1 seed-icons" src="images/icons/items/seeds/fortune-teller.webp" alt="Icon" /> Fortune Teller Mushroom
+									</a>
+
+									<br />
+									<a title="Hump Mushroom" class="links2 grade2" href="https://bdocodex.com/us/item/5416/" target="_blank">
+										<img class="icons icons1 seed-icons" src="images/icons/items/seeds/hump.webp" alt="Icon" /> Hump Mushroom
+									</a>
+
+
+									<a title="Tiger Mushroom" class="links2 grade2" href="https://bdocodex.com/us/item/5412/" target="_blank">
+										<img class="icons icons1 seed-icons" src="images/icons/items/seeds/tiger.webp" alt="Icon" /> Tiger Mushroom
+									</a>
+								</div>
+							</div>
+						<!-- #endregion - FoMP-How-To-Get-Farming -->
+
+						<!-- #region - FoMP-How-To-Get-Gathering Button -->
+							<div class="button gathering-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('fomp-htg-gathering-hoe');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<span class="gathering-hoeing">
+										<img title="Hoeing" class="icons icons1 hoeing-icon" src="images/icons/menu/interaction/gathering/hoeing.webp" alt="Icon" /> Gathering  
+									</span>
+								</a>
+
+								<div class="right">
+									<a title="Nodes / Resource Interactive Map" class="links" href="https://www.somethinglovely.net/bdo/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - FoMP-How-To-Get-Gathering Button -->
+
+						<!-- #region - FoMP-How-To-Get-Gathering -->				
+							<div id="fomp-htg-gathering-hoe" class="info hidden">
+										
+								<!-- #region - FoMP - Gathering Hoe Links -->
+									<div class="links-content">
+										<a title="Wild Herb" class="links2 grade2" href="https://bdocodex.com/us/gatherable/10218/" target="_blank">
+											<img class="icons icons2" src="images/icons/gathering/plants/weeds.webp" alt="Icon" /> Wild Herb
+										</a>
+										<p class="gold">- Hoe Gather at Behr</p>
+									</div>
+								<!-- #endregion - FoMP - Gathering Hoe Links -->
+
+							</div>
+						<!-- #endregion - FoMP-How-To-Get-Gathering -->
+
+					</div>
+				<!-- #endregion - FoMP-How-To-Get -->
+
+
+
+				<!-- #region - FoMP-Used-In-Content-Button -->
+					<div class="button used-in-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('fomp-used-in-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="used-in-recipe">
+								<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon" /> Used In Recipe 
+							</span>
+						</a>
+
+
+						<div class="right">
+
+						</div>
+					</div>
+				<!-- #endregion - FoMP-Used-In-Content-Button -->
+
+				<!-- #region - FoMP-Used-In-Content -->
+					<div id="fomp-used-in-content" class="hidden used-in-content">
+
+						<!-- #region - FoMP-used-in-Alchemy Button -->
+							<div class="button item-alchemy-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('fomp-used-in-alchemy');">
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									
+									<img class="icons icons1 alchemy-icon" src="images/icons/processing/simple-alchemy.webp" alt="Icon" /> Alchemy
+								</a>
+								
+								<div class="right">
+									<a title="Alchemy Guide" class="links" href="https://grumpygreen.cricket/alchemy/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - FoMP-used-in-Alchemy Button -->
+
+						<!-- #region - FoMP-used-in-used-in-Alchemy -->
+							<div id="fomp-used-in-alchemy" class="info hidden">
+								
+								<!-- #region - FoMP-Alchemy-item-links -->	
+									<div class="links-content">
+
+										<div class="item-link">
+											<a title="Oil of Tranquility" class="links2 grade2" href="https://bdocodex.com/us/item/6605/" target="_blank">
+												<img class="icons icons1 oot-icon" src="images/icons/alchemy/oil-of/tranquility.webp" alt="Icon" /> 
+												Oil of Tranquility
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">1</span>
+												</div>
+											</div>
+										</div>
+
+									</div>			
+								<!-- #endregion - FoMP-Alchemy-item-links -->									
+
+							</div>
+						<!-- #endregion - FoMP-used-in-used-in-Alchemy -->
+
+
+						<!-- #region - FoMP-Used-In-Processing Button -->
+							<div class="button processing-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('fomp-used-in-processing-content');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									<span class="processing-guild">
+										<img class="icons processing-icon" src="images/icons/menu/processing.webp" alt="Icon" /> Processing
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - FoMP-Used-In-Processing Button -->
+
+						<!-- #region - FoMP-Used-In-Processing -->
+							<div id="fomp-used-in-processing-content" class="info hidden">
+
+								<!-- #region - FoMP-Used-In-processing-guild Button -->
+									<div class="button processing-guild-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('fomp-processing-guild');">
+											
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+											<span class="processing-guild">
+												<img class="icons icons1 processing-guild-icon" src="images/icons/processing/guild.webp" alt="Icon" /> Guild 
+											</span>
+										</a>
+										
+										<div class="right">
+											<a title="Guild Guide" class="links" href="https://www.blackdesertfoundry.com/guilds-guide/" target="_blank">🔗</a>
+										</div>
+									
+									</div>
+								<!-- #endregion - FoMP-Used-In-processing-guild Button -->
+
+								<!-- #region - FoMP-Used-In-processing-guild -->
+									<div id="fomp-processing-guild" class="info hidden">
+										<div class="links-content">
+											<div class="item-link">
+												<a title="[Guild] Old Moon Magic Neutralizer" class="links2 grade4" href="https://bdocodex.com/us/item/9987/" target="_blank">
+													<img class="icons icons1 ommn-icon" src="images/icons/designs/guild/old-moon-magic-neutrailizer.webp" alt="Icon" /> [Guild] Old Moon Magic Neutralizer
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circleText amount">1</span>
+													</div>
+												</div>
+											</div>	
+										</div>
+									</div>		
+								<!-- #endregion - FoMP-Used-In-processing-guild -->
+									
+							</div>
+						<!-- #endregion - FoMP-Used-In-Processing -->
+
+						<a title="Fruit of Magic Power" class="links2 grade2" href="https://bdocodex.com/us/item/5211/" target="_blank">And More...</a>
+					</div>
+				<!-- #endregion - FoMP-Used-In-Content -->
+
+
+
+				<!-- #region - FoMP-Notes-Content-Button -->
+					<div class="button notes-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('fomp-notes-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="notes">
+								<img class="icons notes-icon" src="images/icons/menu/notes.webp" alt="Icon" /> Notes 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - FoMP-Notes-Content-Button -->
+
+				<!-- #region - FoMP-Notes-Content -->
+					<div id="fomp-notes-content" class="hidden notes-content">
+						<p class="notes-entry">
+							- Only listed Recipes that are in my opinion are <br /> worth it or important.
+						</p>
+						<p class="notes-entry">
+							- <a title="[Guild] Old Moon Magic Neutralizer" class="links2 grade4" href="https://bdocodex.com/us/item/9987/" target="_blank">[Guild] Old Moon Magic Neutralizer</a>, <br />can be switched with any of the "Fruit of".
+						</p>
+					</div>
+				<!-- #endregion - FoMP-Notes-Content -->
+
+
+			</div>
+		<!-- #endregion - FoMP-Content -->
+
+	</div>
+<!-- #endregion - FoMP-Container -->	
+
+</body>
+</html>

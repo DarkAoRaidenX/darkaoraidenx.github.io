@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Fir Sap</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="../scripts/jquery/3.6.3.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
+</head>
+<body id="sap-fir-page">
+
+<!-- #region - Sap-Fir-Container -->
+	<div id="sap-fir-container" class="items-container saps" draggable="true" ondragstart="drag(event)">
+
+		<!-- #region - Sap-Fir-Content Button -->
+			<div class="button sap-fir-button top">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-fir-content');">
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div> 
+
+					<span class="sap-fir">
+						<img class="icons icons1 sap-fir-icon" src="images/icons/saps/fir.webp" alt="Icon" /> 
+						Fir Sap
+					</span>
+				</a>
+
+				<div class="right">
+					<a title="Fir Sap" class="links" href="https://bdocodex.com/us/item/5009/" target="_blank">🔗</a>
+				</div>
+
+			</div>
+		<!-- #endregion - Sap-Fir-Content Button -->
+
+		<!-- #region - Sap-Fir-Content -->
+			<div id="sap-fir-content" class="hidden">
+
+				<!-- #region - Sap-Fir-How-To-Get Button -->
+					<div class="button htg-button">
+						<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-fir-htg-content');">
+			
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+			
+							<span class="htg">
+								<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon" /> How to Get 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-Fir-How-To-Get Button -->
+
+				<!-- #region - Sap-Fir-How-To-Get -->
+					<div id="sap-fir-htg-content" class="info hidden">
+
+
+					<!-- #region - Sap-Fir-How-To-Get-Gathering Button -->
+						<div class="button gathering-button">
+
+							<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-fir-htg-gathering-fluid-collecting');">
+
+								<div class="left">
+									<div class="dots">
+										<span class="dot-plus">+</span>
+									</div>
+								</div> 
+
+								<span class="gathering-fluid-collecting">
+									<img title="Fluid Collecting" class="icons icons1 fluid-collecting-icon" src="images/icons/menu/interaction/gathering/fluid-collecting.webp" alt="Icon" /> Gathering 
+								</span>
+							</a>
+
+							<div class="right">
+								<a title="Nodes / Resource Interactive Map" class="links" href="https://www.somethinglovely.net/bdo/" target="_blank">🔗</a>
+							</div>
+
+						</div>
+					<!-- #endregion - Sap-Fir-How-To-Get-Gathering Button -->
+
+					<!-- #region - Sap-Fir-How-To-Get-Gathering -->				
+						<div id="sap-fir-htg-gathering-fluid-collecting" class="info hidden">
+									
+							<!-- #region - Sap-Fir - Gathering Fluid Collector Links -->
+								<div class="links-content">
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://www.somethinglovely.net/bdo/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/timber/fir.webp" alt="Icon" /> Fir Trees
+									</a>
+								</div>
+							<!-- #endregion - Sap-Fir - Gathering Fluid Collector Links -->
+
+						</div>
+					<!-- #endregion - Sap-Fir-How-To-Get-Gathering -->
+
+
+
+						<!-- #region - Sap-Fir-How-To-Get-Nodes Button -->
+							<div class="button nodes-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-fir-htg-nodes');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<img class="icons icons1 nodes-icon" src="images/icons/menu/nodes/nodes.webp" alt="Icon" /> Nodes
+								</a>
+
+								<div class="right">
+									<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Sap-Fir-How-To-Get-Nodes Button -->
+						
+						<!-- #region - Sap-Fir-How-To-Get-Nodes -->
+							<div id="sap-fir-htg-nodes" class="info hidden">
+								
+								<!-- #region - Sap-Fir-Nodes-Links -->			
+									<div class="links-content">
+										<!-- #region - Sap-Fir-Node-Link1 -->
+											<a title="Mansha Forest - Lumbering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/901" target="_blank">
+												<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+												Mansha Forest - Lumbering
+											</a>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-fir-htg-node-selection-1" class="node-selection">
+													
+													<option id="sap-fir-htg-node-cp-route-1" value="9" selected>
+														Cheapest Route To: Trent (9CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Trent">
+														<option id="sap-fir-htg-node-route-1-option-1" value="1">
+															(1CP) Lumberjack's Rest Area
+														</option>
+														<option id="sap-fir-htg-node-route-1-option-2" value="3">
+															(3CP) Abandoned Monastery
+														</option>
+														<option id="sap-fir-htg-node-route-1-option-3" value="2">
+															(2CP) Tobare's Cabin
+														</option>
+														<option id="sap-fir-htg-node-route-1-option-4" value="2">
+															(2CP) Mansha Forest
+														</option>
+														<option id="sap-fir-htg-node-route-1-option-5" value="1">
+															(1CP) Mansha Forest - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-fir-htg-node-selection-2" class="node-selection">
+													
+													<option id="sap-fir-htg-node-cp-route-2" value="9" selected>
+														Cheapest Route To: Calpheon (10CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Calpheon">
+														<option id="sap-fir-htg-node-route-2-option-1" value="3">
+															(3CP) Northern Guard Camp
+														</option>
+														<option id="sap-fir-htg-node-route-2-option-2" value="3">
+															(3CP) Heidel Pass
+														</option>
+														<option id="sap-fir-htg-node-route-2-option-3" value="1">
+															(1CP) Forest of Plunder
+														</option>
+														<option id="sap-fir-htg-node-route-2-option-4" value="1">
+															(1CP) Ehwaz Hill
+														</option>
+														<option id="sap-fir-htg-node-route-2-option-5" value="2">
+															(1CP) Ehwaz Hill - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<br />
+											<a title="Phoniel's Cabin - Lumbering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/903" target="_blank">
+												<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+												Phoniel's Cabin - Lumbering
+											</a>
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-fir-htg-node-selection-3" class="node-selection">
+													
+													<option id="sap-fir-htg-node-cp-route-3" value="6" selected>
+														Cheapest Route To: Calpheon (6CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Calpheon">
+														<option id="sap-fir-htg-node-route-3-option-1" value="2">
+															(2CP) Babino Farm
+														</option>
+														<option id="sap-fir-htg-node-route-3-option-2" value="1">
+															(1CP) North Kaia Mountaintop
+														</option>
+														<option id="sap-fir-htg-node-route-3-option-3" value="2">
+															(2CP) Phoniel's Cabin
+														</option>
+														<option id="sap-fir-htg-node-route-3-option-4" value="1">
+															(1CP) Phoniel's Cabin - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<br />
+											<a title="Dormann Lumber Camp - Lumbering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1684" target="_blank">
+												<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+												Dormann Lumber Camp - Lumbering
+											</a>
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-fir-htg-node-selection-4" class="node-selection">
+													
+													<option id="sap-fir-htg-node-cp-route-4" value="10" selected>
+														Cheapest Route To: Duvencrune (10CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Duvencrune">
+														<option id="sap-fir-htg-node-route-4-option-1" value="2">
+															(2CP) Night Crow Post
+														</option>
+														<option id="sap-fir-htg-node-route-4-option-2" value="2">
+															(2CP) Garmoths Nest
+														</option>
+														<option id="sap-fir-htg-node-route-4-option-3" value="1">
+															(1CP) Gervish Mountains
+														</option>
+														<option id="sap-fir-htg-node-route-4-option-4" value="2">
+															(2CP) Dormann Lumber Camp
+														</option>
+														<option id="sap-fir-htg-node-route-4-option-5" value="3">
+															(3CP) Dormann Lumber Camp - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+										<!-- #endregion - Sap-Fir-Node-Link1 -->				
+									</div>
+								<!-- #endregion - Sap-Fir-Nodes-Links -->		
+
+								<br />
+							</div>
+						<!-- #endregion - Sap-Fir-How-To-Get-Nodes -->
+
+
+					</div>
+				<!-- #endregion - Sap-Fir-How-To-Get -->
+
+
+				<!-- #region - Sap-Fir-Used-In-Content-Button -->
+					<div class="button used-in-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-fir-used-in-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="used-in-recipe">
+								<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon" /> Used In Recipe 
+							</span>
+						</a>
+
+
+						<div class="right">
+
+						</div>
+					</div>
+				<!-- #endregion - Sap-Fir-Used-In-Content-Button -->
+
+				<!-- #region - Sap-Fir-Used-In-Content -->
+					<div id="sap-fir-used-in-content" class="hidden used-in-content">
+
+
+						<!-- #region - Sap-Fir-used-in-Alchemy Button -->
+							<div class="button item-alchemy-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-fir-used-in-alchemy');">
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									
+									<img class="icons icons1 alchemy-icon" src="images/icons/processing/simple-alchemy.webp" alt="Icon" /> Alchemy
+								</a>
+								
+								<div class="right">
+									<a title="Alchemy Guide" class="links" href="https://grumpygreen.cricket/alchemy/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Sap-Fir-used-in-Alchemy Button -->
+
+						<!-- #region - Sap-Fir-used-in-used-in-Alchemy -->
+							<div id="sap-fir-used-in-alchemy" class="info hidden">
+								
+								<!-- #region - Sap-Fir-Alchemy-item-links -->	
+									<div class="links-content">
+										
+										<div class="item-link">
+											<a title="Extra Damage to Demihumans +10" class="links2 grade3" href="https://bdocodex.com/us/item/678/" target="_blank">
+												<img class="icons icons1 demihuman-pot-icon" src="images/icons/pots/demihuman-hunt.webp" alt="Icon" /> 
+												Elixir of Demihuman Hunt
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">4</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Fishing Speed +2" class="links2 grade3" href="https://bdocodex.com/us/item/726/" target="_blank">
+												<img class="icons icons1 fishers-pot-icon" src="images/icons/pots/fishers.webp" alt="Icon" /> 
+												Fisher's Elixir
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">3</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Luck +2" class="links2 grade3" href="https://bdocodex.com/us/item/674/" target="_blank">
+												<img class="icons icons1 golden-hand-pot-icon" src="images/icons/pots/golden-hand.webp" alt="Icon" /> Golden Hand Elixir
+											</a>
+
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">6</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Plywood Hardener" class="links2 grade2" href="https://bdocodex.com/us/item/4684/" target="_blank">
+												<img class="icons icons1 plywood-hardener-icon" src="images/icons/alchemy/plywood-hardener.webp" alt="Icon" /> 
+												Plywood Hardener
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">4</span>
+												</div>
+											</div>
+										</div>
+
+									</div>			
+								<!-- #endregion - Sap-Fir-Alchemy-item-links -->									
+
+							</div>
+						<!-- #endregion - Sap-Fir-used-in-used-in-Alchemy -->
+
+
+						<a title="Fir Sap" class="links2" href=https://bdocodex.com/us/item/5009/ target="_blank">And More...</a>
+					</div>
+				<!-- #endregion - Sap-Fir-Used-In-Content -->
+
+
+
+				<!-- #region - Sap-Fir-Notes-Content-Button -->
+					<div class="button notes-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-fir-notes-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="notes">
+								<img class="icons notes-icon" src="images/icons/menu/notes.webp" alt="Icon" /> Notes 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-Fir-Notes-Content-Button -->
+
+				<!-- #region - Sap-Fir-Notes-Content -->
+					<div id="sap-fir-notes-content" class="hidden notes-content">
+						<p class="notes-entry">
+							-Notes
+						</p>
+						<p class="notes-entry">
+
+						</p>
+					</div>
+				<!-- #endregion - Sap-Fir-Notes-Content -->
+
+
+			</div>
+		<!-- #endregion - Sap-Fir-Content -->
+
+	</div>
+<!-- #endregion - Sap-Fir-Container -->	
+
+</body>
+</html>

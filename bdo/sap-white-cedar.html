@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>White Cedar Sap</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="../scripts/jquery/3.6.3.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
+</head>
+<body id="sap-white-cedar-page">
+
+<!-- #region - Sap-White Cedar-Container -->
+	<div id="sap-white-cedar-container" class="items-container saps" draggable="true" ondragstart="drag(event)">
+
+		<!-- #region - Sap-White Cedar-Content Button -->
+			<div class="button sap-white-cedar-button top">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-white-cedar-content');">
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div> 
+
+					<span class="sap-white-cedar">
+						<img class="icons icons1 sap-white-cedar-icon" src="images/icons/saps/white-cedar.webp" alt="Icon" /> 
+						White Cedar Sap
+					</span>
+				</a>
+
+				<div class="right">
+					<a title="White Cedar Sap" class="links" href="https://bdocodex.com/us/item/5012/" target="_blank">🔗</a>
+				</div>
+
+			</div>
+		<!-- #endregion - Sap-White Cedar-Content Button -->
+
+		<!-- #region - Sap-White Cedar-Content -->
+			<div id="sap-white-cedar-content" class="hidden">
+
+				<!-- #region - Sap-White Cedar-How-To-Get Button -->
+					<div class="button htg-button">
+						<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-white-cedar-htg-content');">
+			
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+			
+							<span class="htg">
+								<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon" /> How to Get 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-White Cedar-How-To-Get Button -->
+
+				<!-- #region - Sap-White Cedar-How-To-Get -->
+					<div id="sap-white-cedar-htg-content" class="info hidden">
+
+
+					<!-- #region - Sap-White Cedar-How-To-Get-Gathering Button -->
+						<div class="button gathering-button">
+
+							<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-white-cedar-htg-gathering-fluid-collecting');">
+
+								<div class="left">
+									<div class="dots">
+										<span class="dot-plus">+</span>
+									</div>
+								</div> 
+
+								<span class="gathering-fluid-collecting">
+									<img title="Fluid Collecting" class="icons icons1 fluid-collecting-icon" src="images/icons/menu/interaction/gathering/fluid-collecting.webp" alt="Icon" /> Gathering 
+								</span>
+							</a>
+
+							<div class="right">
+								<a title="Nodes / Resource Interactive Map" class="links" href="https://www.somethinglovely.net/bdo/" target="_blank">🔗</a>
+							</div>
+
+						</div>
+					<!-- #endregion - Sap-White Cedar-How-To-Get-Gathering Button -->
+
+					<!-- #region - Sap-White Cedar-How-To-Get-Gathering -->				
+						<div id="sap-white-cedar-htg-gathering-fluid-collecting" class="info hidden">
+									
+							<!-- #region - Sap-White Cedar - Gathering Fluid Collector Links -->
+								<div class="links-content">
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://www.somethinglovely.net/bdo/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/timber/white-cedar.webp" alt="Icon" /> White Cedar Trees
+									</a>
+								</div>
+							<!-- #endregion - Sap-White Cedar - Gathering Fluid Collector Links -->
+
+						</div>
+					<!-- #endregion - Sap-White Cedar-How-To-Get-Gathering -->
+
+
+
+						<!-- #region - Sap-White Cedar-How-To-Get-Nodes Button -->
+							<div class="button nodes-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-white-cedar-htg-nodes');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<img class="icons icons1 nodes-icon" src="images/icons/menu/nodes/nodes.webp" alt="Icon" /> Nodes
+								</a>
+
+								<div class="right">
+									<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Sap-White Cedar-How-To-Get-Nodes Button -->
+						
+						<!-- #region - Sap-White Cedar-How-To-Get-Nodes -->
+							<div id="sap-white-cedar-htg-nodes" class="info hidden">
+								
+								<!-- #region - Sap-White Cedar-Nodes-Links -->			
+									<div class="links-content">
+										<!-- #region - Sap-White Cedar-Node-Link1 -->
+											<a title="Elric Shrine - Lumbering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1215" target="_blank">
+												<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+												Elric Shrine - Lumbering
+											</a>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-white-cedar-htg-node-selection-1" class="node-selection">
+													
+													<option id="sap-white-cedar-htg-node-cp-route-1" value="10" selected>
+														Cheapest Route To: Tarif (10CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Tarif">
+														<option id="sap-white-cedar-htg-node-route-1-option-1" value="1">
+															(1CP) Soldier's Grave
+														</option>
+														<option id="sap-white-cedar-htg-node-route-1-option-2" value="1">
+															(1CP) Castle Ruins
+														</option>
+														<option id="sap-white-cedar-htg-node-route-1-option-3" value="2">
+															(2CP) Kamasylve Temple
+														</option>
+														<option id="sap-white-cedar-htg-node-route-1-option-4" value="1">
+															(1CP) Ancient Ruins Excavation Site
+														</option>
+														<option id="sap-white-cedar-htg-node-route-1-option-5" value="1">
+															(1CP) Canyon of Corruption
+														</option>
+														<option id="sap-white-cedar-htg-node-route-1-option-6" value="1">
+															(1CP) Elric Shrine
+														</option>
+														<option id="sap-white-cedar-htg-node-route-1-option-7" value="3">
+															(3CP) Elric Shrine - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-white-cedar-htg-node-selection-2" class="node-selection">
+													
+												<option id="sap-white-cedar-htg-node-cp-route-2" value="11" selected>
+														Cheapest Route To: Heidel (11CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Heidel">
+														<option id="sap-white-cedar-htg-node-route-2-option-1" value="3">
+															(3CP) Eastern Boarder
+														</option>
+														<option id="sap-white-cedar-htg-node-route-2-option-2" value="2">
+															(2CP) Kamasylve Temple
+														</option>
+														<option id="sap-white-cedar-htg-node-route-2-option-3" value="1">
+															(1CP) Ancient Ruins Excavation Site
+														</option>
+														<option id="sap-white-cedar-htg-node-route-2-option-4" value="1">
+															(1CP) Canyon of Corruption
+														</option>
+														<option id="sap-white-cedar-htg-node-route-2-option-5" value="1">
+															(1CP) Elric Shrine
+														</option>
+														<option id="sap-white-cedar-htg-node-route-2-option-6" value="3">
+															(3CP) Elric Shrine - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-white-cedar-htg-node-selection-3" class="node-selection">
+													
+												<option id="sap-white-cedar-htg-node-cp-route-3" value="13" selected>
+														Cheapest Route To: Velia (13CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Velia">
+														<option id="sap-white-cedar-htg-node-route-3-option-1" value="1">
+															(1CP) Forest of Plunder
+														</option>
+														<option id="sap-white-cedar-htg-node-route-3-option-2" value="1">
+															(1CP) Ehwaz Hill
+														</option>
+														<option id="sap-white-cedar-htg-node-route-3-option-3" value="1">
+															(1CP) Cron Castle Site
+														</option>
+														<option id="sap-white-cedar-htg-node-route-3-option-4" value="3">
+															(3CP) Mediah Northern Gateway
+														</option>
+														<option id="sap-white-cedar-htg-node-route-3-option-5" value="1">
+															(1CP) The Mausoleum
+														</option>
+														<option id="sap-white-cedar-htg-node-route-3-option-6" value="2">
+															(2CP) Mediah Northern Highlands
+														</option>
+														<option id="sap-white-cedar-htg-node-route-3-option-7" value="1">
+															(1CP) Elric Shrine
+														</option>
+														<option id="sap-white-cedar-htg-node-route-3-option-8" value="3">
+															(3CP) Elric Shrine - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<br />
+											<a title="Mediah Northern Highlands - Lumbering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1212" target="_blank">
+												<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+												Mediah Northern Highlands - Lumbering
+											</a>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-white-cedar-htg-node-selection-4" class="node-selection">
+													
+													<option id="sap-white-cedar-htg-node-cp-route-4" value="12" selected>
+														Cheapest Route To: Heidel (12CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Heidel">
+														<option id="sap-white-cedar-htg-node-route-4-option-1" value="3">
+															(3CP) Eastern Border
+														</option>
+														<option id="sap-white-cedar-htg-node-route-4-option-2" value="1">
+															(1CP) Rumbling Land
+														</option>
+														<option id="sap-white-cedar-htg-node-route-4-option-3" value="2">
+															(2CP) Ancient Fissure
+														</option>
+														<option id="sap-white-cedar-htg-node-route-4-option-4" value="1">
+															(1CP) Helms Post
+														</option>
+														<option id="sap-white-cedar-htg-node-route-4-option-5" value="2">
+															(2CP) Mediah Northern Highlands
+														</option>
+														<option id="sap-white-cedar-htg-node-route-4-option-6" value="3">
+															(3CP) Mediah Northern Highlands - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-white-cedar-htg-node-selection-5" class="node-selection">
+													
+													<option id="sap-white-cedar-htg-node-cp-route-5" value="12" selected>
+														Cheapest Route To: Tarif (12CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Tarif">
+														<option id="sap-white-cedar-htg-node-route-5-option-1" value="1">
+															(1CP) Soldier's Grave
+														</option>
+														<option id="sap-white-cedar-htg-node-route-5-option-2" value="1">
+															(1CP) Castle Ruins
+														</option>
+														<option id="sap-white-cedar-htg-node-route-5-option-3" value="2">
+															(2CP) Kamasylve Temple
+														</option>
+														<option id="sap-white-cedar-htg-node-route-5-option-4" value="1">
+															(1CP) Ancient Ruins Excavation Site
+														</option>
+														<option id="sap-white-cedar-htg-node-route-5-option-5" value="1">
+															(1CP) Canyon of Corruption
+														</option>
+														<option id="sap-white-cedar-htg-node-route-5-option-6" value="1">
+															(1CP) Elric Shrine
+														</option>
+														<option id="sap-white-cedar-htg-node-route-5-option-7" value="2">
+															(2CP) Mediah Northern Highlands
+														</option>
+														<option id="sap-white-cedar-htg-node-route-5-option-8" value="3">
+															(3CP) Mediah Northern Highlands - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-white-cedar-htg-node-selection-6" class="node-selection">
+													
+													<option id="sap-white-cedar-htg-node-cp-route-6" value="12" selected>
+														Cheapest Route To: Velia (12CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Velia">
+														<option id="sap-white-cedar-htg-node-route-6-option-1" value="1">
+															(1CP) Forest of Plunder
+														</option>
+														<option id="sap-white-cedar-htg-node-route-6-option-2" value="1">
+															(1CP) Ehwaz Hill
+														</option>
+														<option id="sap-white-cedar-htg-node-route-6-option-3" value="1">
+															(1CP) Cron Castle Site
+														</option>
+														<option id="sap-white-cedar-htg-node-route-6-option-4" value="3">
+															(3CP) Mediah Nothern Gateway
+														</option>
+														<option id="sap-white-cedar-htg-node-route-6-option-5" value="1">
+															(1CP) The Mausoleum
+														</option>
+														<option id="sap-white-cedar-htg-node-route-6-option-6" value="2">
+															(2CP) Mediah Northern Highlands
+														</option>
+														<option id="sap-white-cedar-htg-node-route-6-option-7" value="3">
+															(3CP) Mediah Northern Highlands - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+										<!-- #endregion - Sap-White Cedar-Node-Link1 -->				
+									</div>
+								<!-- #endregion - Sap-White Cedar-Nodes-Links -->		
+
+								<br />
+							</div>
+						<!-- #endregion - Sap-White Cedar-How-To-Get-Nodes -->
+
+
+					</div>
+				<!-- #endregion - Sap-White Cedar-How-To-Get -->
+
+
+				<!-- #region - Sap-White Cedar-Used-In-Content-Button -->
+					<div class="button used-in-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-white-cedar-used-in-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="used-in-recipe">
+								<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon" /> Used In Recipe 
+							</span>
+						</a>
+
+
+						<div class="right">
+
+						</div>
+					</div>
+				<!-- #endregion - Sap-White Cedar-Used-In-Content-Button -->
+
+				<!-- #region - Sap-White Cedar-Used-In-Content -->
+					<div id="sap-white-cedar-used-in-content" class="hidden used-in-content">
+
+
+						<!-- #region - Sap-White Cedar-used-in-Alchemy Button -->
+							<div class="button item-alchemy-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-white-cedar-used-in-alchemy');">
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									
+									<img class="icons icons1 alchemy-icon" src="images/icons/processing/simple-alchemy.webp" alt="Icon" /> Alchemy
+								</a>
+								
+								<div class="right">
+									<a title="Alchemy Guide" class="links" href="https://grumpygreen.cricket/alchemy/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Sap-White Cedar-used-in-Alchemy Button -->
+
+						<!-- #region - Sap-White Cedar-used-in-used-in-Alchemy -->
+							<div id="sap-white-cedar-used-in-alchemy" class="info hidden">
+								
+								<!-- #region - Sap-White Cedar-Alchemy-item-links -->	
+									<div class="links-content">
+
+										<div class="item-link">
+											<a title="All AP +10 | Max Stamina +100 | Max HP +100 | Back Attack Damage +10% | Down Attack Damage +10% | Air Attack Damage +10%" class="links2 grade5" href="https://bdocodex.com/us/item/771/" target="_blank">
+												<img class="icons icons1 deep-sea-pot-icon" src="images/icons/pots/deep-sea.webp" alt="Icon" /> 
+												Elixir of Deep Sea
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">5</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="All Resistance +10% | Damage Reduction +15 | Max HP +100 | Movement Speed 5%" class="links2 grade5" href="https://bdocodex.com/us/item/748/" target="_blank">
+												<img class="icons icons1 khalks-pot-icon" src="images/icons/pots/khalks.webp" alt="Icon" /> 
+												Khalk's Elixir
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">10</span>
+												</div>
+											</div>
+										</div>
+
+									</div>			
+								<!-- #endregion - Sap-White Cedar-Alchemy-item-links -->									
+
+							</div>
+						<!-- #endregion - Sap-White Cedar-used-in-used-in-Alchemy -->
+
+
+
+
+						<!-- #region - White-Cedar-Used-In-Processing Button -->
+							<div class="button processing-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-white-cedar-htg-processing-content');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									<span class="processing-guild">
+										<img class="icons processing-icon" src="images/icons/menu/processing.webp" alt="Icon" /> Processing
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - White-Cedar-Used-In-Processing Button -->
+
+						<!-- #region - White-Cedar-Used-In-Processing -->
+							<div id="sap-white-cedar-htg-processing-content" class="info hidden">
+
+
+								<!-- #region - Sap-White-Cedar-Used-In-processing-guild Button -->
+									<div class="button processing-guild-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-white-cedar-processing-guild');">
+											
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+											<span class="processing-guild">
+												<img class="icons icons1 processing-guild-icon" src="images/icons/processing/guild.webp" alt="Icon" /> Guild 
+											</span>
+										</a>
+										
+										<div class="right">
+											<a title="Guild Guide" class="links" href="https://www.blackdesertfoundry.com/guilds-guide/" target="_blank">🔗</a>
+										</div>
+									
+									</div>
+								<!-- #endregion - Sap-White-Cedar-Used-In-processing-guild Button -->
+
+								<!-- #region - Sap-White-Cedar-Used-In-processing-guild -->
+									<div id="sap-white-cedar-processing-guild" class="info hidden">
+										<div class="links-content">
+
+											<div class="item-link">
+												<a title="[Guild] Iron Core Timber Square" class="links2 grade3" href="https://bdocodex.com/us/item/9907/" target="_blank">
+													<img class="icons icons1 guild-wax-icon" src="images/icons/designs/guild/iron-core-timber-square.webp" alt="Icon" /> [Guild] Iron Core Timber Square
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circleText amount">4</span>
+													</div>
+												</div>
+											</div>
+
+
+										</div>
+									</div>		
+								<!-- #endregion - Sap-White-Cedar-Used-In-processing-guild -->
+
+
+
+								<!-- #region - Sap-White-Cedar-Used-In-Processing-Heating Button -->
+									<div class="button processing-heating-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-white-cedar-used-in-processing-heating');">
+
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+
+											<img class="icons icons1 heating-icon" src="images/icons/processing/heating.webp" alt="Icon" /> Heating  
+										</a>
+
+										<div class="right">
+											
+										</div>
+
+									</div>
+								<!-- #endregion - Sap-White-Cedar-Used-In-Processing-Heating Button -->
+									
+								<!-- #region - Sap-White-Cedar-Used-In-Processing-Heating -->
+									<div id="sap-white-cedar-used-in-processing-heating" class="info hidden">
+										
+										<!-- #region - items-sap-white-cedar-info-Heating -->			
+											<div class="links-content">
+												<!-- #region - Sap-White-Cedar-AfU Link -->
+
+													<div class="item-link">
+														<a title="Adhesive for Upgrade" class="links2 grade3" href="https://bdocodex.com/us/item/45510/" target="_blank">
+															<img class="icons icons1" src="images/icons/processing/heating/adhesive-for-upgrade.webp" alt="Icon" /> 
+														Adhesive for Upgrade
+														</a>
+
+														<div class="right">
+															<div class="dots">
+																<span class="circleText amount">100</span>
+															</div>
+														</div>
+													</div>
+
+													<div class="item-link">
+														<a title="Sticky Blood" class="links2 grade4" href="https://bdocodex.com/us/item/40424/" target="_blank">
+															<img class="icons icons1" src="images/icons/processing/heating/sticky-blood.webp" alt="Icon" /> 
+															Sticky Blood
+														</a>
+
+														<div class="right">
+															<div class="dots">
+																<span class="circleText amount">5</span>
+															</div>
+														</div>
+													</div>
+
+												<!-- #endregion - Sap-White-Cedar-AfU Link -->
+											</div>
+										<!-- #endregion - items-sap-white-cedar-info-Heating -->		
+
+									</div>
+								<!-- #endregion - Sap-White-Cedar-Used-In-Processing-Heating -->
+
+								
+							</div>
+						<!-- #endregion - White-Cedar-Used-In-Processing -->
+
+
+
+						<a title="White Cedar Sap" class="links2" href=https://bdocodex.com/us/item/5012/ target="_blank">And More...</a>
+					</div>
+				<!-- #endregion - Sap-White Cedar-Used-In-Content -->
+
+
+
+				<!-- #region - Sap-White Cedar-Notes-Content-Button -->
+					<div class="button notes-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-white-cedar-notes-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="notes">
+								<img class="icons notes-icon" src="images/icons/menu/notes.webp" alt="Icon" /> Notes 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-White Cedar-Notes-Content-Button -->
+
+				<!-- #region - Sap-White Cedar-Notes-Content -->
+					<div id="sap-white-cedar-notes-content" class="hidden notes-content">
+						<p class="notes-entry">
+							-Notes
+						</p>
+						<p class="notes-entry">
+
+						</p>
+					</div>
+				<!-- #endregion - Sap-White Cedar-Notes-Content -->
+
+
+			</div>
+		<!-- #endregion - Sap-White Cedar-Content -->
+
+	</div>
+<!-- #endregion - Sap-White Cedar-Container -->	
+
+</body>
+</html>

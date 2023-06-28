@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Moss Tree Sap</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="../scripts/jquery/3.6.3.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
+</head>
+<body id="sap-moss-tree-page">
+
+<!-- #region - Sap-Moss Tree-Container -->
+	<div id="sap-moss-tree-container" class="items-container saps" draggable="true" ondragstart="drag(event)">
+
+		<!-- #region - Sap-Moss Tree-Content Button -->
+			<div class="button sap-moss-tree-button top">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-moss-tree-content');">
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div> 
+
+					<span class="sap-moss-tree">
+						<img class="icons icons1 sap-moss-tree-icon" src="images/icons/saps/moss-tree.webp" alt="Icon" /> 
+						Moss Tree Sap
+					</span>
+				</a>
+
+				<div class="right">
+					<a title="Moss Tree Sap" class="links" href="https://bdocodex.com/us/item/5017/" target="_blank">🔗</a>
+				</div>
+
+			</div>
+		<!-- #endregion - Sap-Moss Tree-Content Button -->
+
+		<!-- #region - Sap-Moss Tree-Content -->
+			<div id="sap-moss-tree-content" class="hidden">
+
+				<!-- #region - Sap-Moss Tree-How-To-Get Button -->
+					<div class="button htg-button">
+						<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-moss-tree-htg-content');">
+			
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+			
+							<span class="htg">
+								<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon" /> How to Get 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-Moss Tree-How-To-Get Button -->
+
+				<!-- #region - Sap-Moss Tree-How-To-Get -->
+					<div id="sap-moss-tree-htg-content" class="info hidden">
+
+
+					<!-- #region - Sap-Moss Tree-How-To-Get-Gathering Button -->
+						<div class="button gathering-button">
+
+							<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-moss-tree-htg-gathering-fluid-collecting');">
+
+								<div class="left">
+									<div class="dots">
+										<span class="dot-plus">+</span>
+									</div>
+								</div> 
+
+								<span class="gathering-fluid-collecting">
+									<img title="Fluid Collecting" class="icons icons1 fluid-collecting-icon" src="images/icons/menu/interaction/gathering/fluid-collecting.webp" alt="Icon" /> Gathering 
+								</span>
+							</a>
+
+							<div class="right">
+								<a title="Nodes / Resource Interactive Map" class="links" href="https://www.somethinglovely.net/bdo/" target="_blank">🔗</a>
+							</div>
+
+						</div>
+					<!-- #endregion - Sap-Moss Tree-How-To-Get-Gathering Button -->
+
+					<!-- #region - Sap-Moss Tree-How-To-Get-Gathering -->				
+						<div id="sap-moss-tree-htg-gathering-fluid-collecting" class="info hidden">
+									
+							<!-- #region - Sap-Moss Tree - Gathering Fluid Collector Links -->
+								<div class="links-content">
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://www.somethinglovely.net/bdo/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/timber/moss-tree.webp" alt="Icon" /> Moss Tree Trees
+									</a>
+								</div>
+							<!-- #endregion - Sap-Moss Tree - Gathering Fluid Collector Links -->
+
+						</div>
+					<!-- #endregion - Sap-Moss Tree-How-To-Get-Gathering -->
+
+
+
+						<!-- #region - Sap-Moss Tree-How-To-Get-Nodes Button -->
+							<div class="button nodes-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-moss-tree-htg-nodes');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<img class="icons icons1 nodes-icon" src="images/icons/menu/nodes/nodes.webp" alt="Icon" /> Nodes
+								</a>
+
+								<div class="right">
+									<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Sap-Moss Tree-How-To-Get-Nodes Button -->
+						
+						<!-- #region - Sap-Moss Tree-How-To-Get-Nodes -->
+							<div id="sap-moss-tree-htg-nodes" class="info hidden">
+								
+								<!-- #region - Sap-Moss Tree-Nodes-Links -->			
+									<div class="links-content">
+										<!-- #region - Sap-Moss Tree-Node-Link1 -->
+											<a title="Shady Tree Forest - Lumbering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1635" target="_blank">
+												<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+												Shady Tree Forest - Lumbering
+											</a>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-moss-tree-htg-node-selection-1" class="node-selection">
+													
+													<option id="sap-moss-tree-htg-node-cp-route-1" value="12" selected>
+														Cheapest Route To: Grána (12CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Grána">
+														<option id="sap-moss-tree-htg-node-route-1-option-1" value="3">
+															(3CP) Lake Flondor
+														</option>
+														<option id="sap-moss-tree-htg-node-route-1-option-2" value="1">
+															(1CP) White Wood Forest
+														</option>
+														<option id="sap-moss-tree-htg-node-route-1-option-3" value="1">
+															(1CP) Central Lemoria Camp
+														</option>
+														<option id="sap-moss-tree-htg-node-route-1-option-4" value="3">
+															(3CP) Navarn Steppe
+														</option>
+														<option id="sap-moss-tree-htg-node-route-1-option-5" value="1">
+															(1CP) Shady Tree Forest
+														</option>
+														<option id="sap-moss-tree-htg-node-route-1-option-6" value="3">
+															(3CP) Shady Tree Forest - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+										<!-- #endregion - Sap-Moss Tree-Node-Link1 -->				
+									</div>
+								<!-- #endregion - Sap-Moss Tree-Nodes-Links -->		
+
+								<br />
+							</div>
+						<!-- #endregion - Sap-Moss Tree-How-To-Get-Nodes -->
+
+
+					</div>
+				<!-- #endregion - Sap-Moss Tree-How-To-Get -->
+
+
+				<!-- #region - Sap-Moss Tree-Used-In-Content-Button -->
+					<div class="button used-in-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-moss-tree-used-in-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="used-in-recipe">
+								<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon" /> Used In Recipe 
+							</span>
+						</a>
+
+
+						<div class="right">
+
+						</div>
+					</div>
+				<!-- #endregion - Sap-Moss Tree-Used-In-Content-Button -->
+
+				<!-- #region - Sap-Moss Tree-Used-In-Content -->
+					<div id="sap-moss-tree-used-in-content" class="hidden used-in-content">
+
+
+						<!-- #region - Sap-Moss Tree-used-in-Alchemy Button -->
+							<div class="button item-alchemy-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-moss-tree-used-in-alchemy');">
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									
+									<img class="icons icons1 alchemy-icon" src="images/icons/processing/simple-alchemy.webp" alt="Icon" /> Alchemy
+								</a>
+								
+								<div class="right">
+									<a title="Alchemy Guide" class="links" href="https://grumpygreen.cricket/alchemy/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Sap-Moss Tree-used-in-Alchemy Button -->
+
+						<!-- #region - Sap-Moss Tree-used-in-used-in-Alchemy -->
+							<div id="sap-moss-tree-used-in-alchemy" class="info hidden">
+								
+								<!-- #region - Sap-Moss Tree-Alchemy-item-links -->	
+									<div class="links-content">
+
+										<div class="item-link">
+											<a title="Higher Grade Knowledge Gain Chance +3%" class="links2 grade3" href="https://bdocodex.com/us/item/777/" target="_blank">
+												<img class="icons icons1 looney-pot-icon" src="images/icons/pots/looney.webp" alt="Icon" /> 
+												Looney Elixir
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">4</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Knowledge Gain Chance +7%" class="links2 grade3" href="https://bdocodex.com/us/item/773/" target="_blank">
+												<img class="icons icons1 weenie-pot-icon" src="images/icons/pots/weenie.webp" alt="Icon" /> 
+												Weenie Elixir
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">4</span>
+												</div>
+											</div>
+										</div>
+
+										
+
+									</div>			
+								<!-- #endregion - Sap-Moss Tree-Alchemy-item-links -->									
+
+							</div>
+						<!-- #endregion - Sap-Moss Tree-used-in-used-in-Alchemy -->
+
+
+						<a title="Moss Tree Sap" class="links2" href=https://bdocodex.com/us/item/5017/ target="_blank">And More...</a>
+					</div>
+				<!-- #endregion - Sap-Moss Tree-Used-In-Content -->
+
+
+
+				<!-- #region - Sap-Moss Tree-Notes-Content-Button -->
+					<div class="button notes-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-moss-tree-notes-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="notes">
+								<img class="icons notes-icon" src="images/icons/menu/notes.webp" alt="Icon" /> Notes 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-Moss Tree-Notes-Content-Button -->
+
+				<!-- #region - Sap-Moss Tree-Notes-Content -->
+					<div id="sap-moss-tree-notes-content" class="hidden notes-content">
+						<p class="notes-entry">
+							-Notes
+						</p>
+						<p class="notes-entry">
+
+						</p>
+					</div>
+				<!-- #endregion - Sap-Moss Tree-Notes-Content -->
+
+
+			</div>
+		<!-- #endregion - Sap-Moss Tree-Content -->
+
+	</div>
+<!-- #endregion - Sap-Moss Tree-Container -->	
+
+</body>
+</html>

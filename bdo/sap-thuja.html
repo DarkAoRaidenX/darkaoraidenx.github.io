@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Thuja Sap</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="../scripts/jquery/3.6.3.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
+</head>
+<body id="sap-thuja-page">
+
+<!-- #region - Sap-Thuja-Container -->
+	<div id="sap-thuja-container" class="items-container saps" draggable="true" ondragstart="drag(event)">
+
+		<!-- #region - Sap-Thuja-Content Button -->
+			<div class="button sap-thuja-button top">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-thuja-content');">
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div> 
+
+					<span class="sap-thuja">
+						<img class="icons icons1 sap-thuja-icon" src="images/icons/saps/thuja.webp" alt="Icon" /> 
+						Thuja Sap
+					</span>
+				</a>
+
+				<div class="right">
+					<a title="Thuja Sap" class="links" href="https://bdocodex.com/us/item/5020/" target="_blank">🔗</a>
+				</div>
+
+			</div>
+		<!-- #endregion - Sap-Thuja-Content Button -->
+
+		<!-- #region - Sap-Thuja-Content -->
+			<div id="sap-thuja-content" class="hidden">
+
+				<!-- #region - Sap-Thuja-How-To-Get Button -->
+					<div class="button htg-button">
+						<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-thuja-htg-content');">
+			
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+			
+							<span class="htg">
+								<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon" /> How to Get 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-Thuja-How-To-Get Button -->
+
+				<!-- #region - Sap-Thuja-How-To-Get -->
+					<div id="sap-thuja-htg-content" class="info hidden">
+
+
+					<!-- #region - Sap-Thuja-How-To-Get-Gathering Button -->
+						<div class="button gathering-button">
+
+							<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-thuja-htg-gathering-fluid-collecting');">
+
+								<div class="left">
+									<div class="dots">
+										<span class="dot-plus">+</span>
+									</div>
+								</div> 
+
+								<span class="gathering-fluid-collecting">
+									<img title="Fluid Collecting" class="icons icons1 fluid-collecting-icon" src="images/icons/menu/interaction/gathering/fluid-collecting.webp" alt="Icon" /> Gathering 
+								</span>
+							</a>
+
+							<div class="right">
+								<a title="Nodes / Resource Interactive Map" class="links" href="https://www.somethinglovely.net/bdo/" target="_blank">🔗</a>
+							</div>
+
+						</div>
+					<!-- #endregion - Sap-Thuja-How-To-Get-Gathering Button -->
+
+					<!-- #region - Sap-Thuja-How-To-Get-Gathering -->				
+						<div id="sap-thuja-htg-gathering-fluid-collecting" class="info hidden">
+									
+							<!-- #region - Sap-Thuja - Gathering Fluid Collector Links -->
+								<div class="links-content">
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://www.somethinglovely.net/bdo/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/timber/thuja.webp" alt="Icon" /> Thuja Trees
+									</a>
+								</div>
+							<!-- #endregion - Sap-Thuja - Gathering Fluid Collector Links -->
+
+						</div>
+					<!-- #endregion - Sap-Thuja-How-To-Get-Gathering -->
+
+
+
+						<!-- #region - Sap-Thuja-How-To-Get-Nodes Button -->
+							<div class="button nodes-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-thuja-htg-nodes');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<img class="icons icons1 nodes-icon" src="images/icons/menu/nodes/nodes.webp" alt="Icon" /> Nodes
+								</a>
+
+								<div class="right">
+									<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Sap-Thuja-How-To-Get-Nodes Button -->
+						
+						<!-- #region - Sap-Thuja-How-To-Get-Nodes -->
+							<div id="sap-thuja-htg-nodes" class="info hidden">
+								
+								<!-- #region - Sap-Thuja-Nodes-Links -->			
+									<div class="links-content">
+										<!-- #region - Sap-Thuja-Node-Link1 -->
+
+											<a title="Dormann Lumber Camp - Lumbering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1683" target="_blank">
+												<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+												Dormann Lumber Camp - Lumbering
+											</a>
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-thuja-htg-node-selection-1" class="node-selection">
+													
+													<option id="sap-thuja-htg-node-cp-route-1" value="10" selected>
+														Cheapest Route To: Duvencrune (10CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Duvencrune">
+														<option id="sap-thuja-htg-node-route-1-option-1" value="2">
+															(2CP) Night Crow Post
+														</option>
+														<option id="sap-thuja-htg-node-route-1-option-2" value="2">
+															(2CP) Garmoths Nest
+														</option>
+														<option id="sap-thuja-htg-node-route-1-option-3" value="1">
+															(1CP) Gervish Mountains
+														</option>
+														<option id="sap-thuja-htg-node-route-1-option-4" value="2">
+															(2CP) Dormann Lumber Camp
+														</option>
+														<option id="sap-thuja-htg-node-route-1-option-5" value="3">
+															(3CP) Dormann Lumber Camp - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+										<!-- #endregion - Sap-Thuja-Node-Link1 -->				
+									</div>
+								<!-- #endregion - Sap-Thuja-Nodes-Links -->		
+
+								<br />
+							</div>
+						<!-- #endregion - Sap-Thuja-How-To-Get-Nodes -->
+
+
+					</div>
+				<!-- #endregion - Sap-Thuja-How-To-Get -->
+
+
+				<!-- #region - Sap-Thuja-Used-In-Content-Button -->
+					<div class="button used-in-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-thuja-used-in-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="used-in-recipe">
+								<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon" /> Used In Recipe 
+							</span>
+						</a>
+
+
+						<div class="right">
+
+						</div>
+					</div>
+				<!-- #endregion - Sap-Thuja-Used-In-Content-Button -->
+
+				<!-- #region - Sap-Thuja-Used-In-Content -->
+					<div id="sap-thuja-used-in-content" class="hidden used-in-content">
+
+
+						<!-- #region - Sap-Thuja-used-in-Alchemy Button -->
+							<div class="button item-alchemy-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-thuja-used-in-alchemy');">
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									
+									<img class="icons icons1 alchemy-icon" src="images/icons/processing/simple-alchemy.webp" alt="Icon" /> Alchemy
+								</a>
+								
+								<div class="right">
+									<a title="Alchemy Guide" class="links" href="https://grumpygreen.cricket/alchemy/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Sap-Thuja-used-in-Alchemy Button -->
+
+						<!-- #region - Sap-Thuja-used-in-used-in-Alchemy -->
+							<div id="sap-thuja-used-in-alchemy" class="info hidden">
+								
+								<!-- #region - Sap-Thuja-Alchemy-item-links -->	
+									<div class="links-content">
+
+										<div class="item-link">
+											<a title="All Evasion +8" class="links2 grade3" href="https://bdocodex.com/us/item/782/" target="_blank">
+												<img class="icons icons1 helix-pot-icon" src="images/icons/pots/helix.webp" alt="Icon" /> 
+												Helix Elixir
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">6</span>
+												</div>
+											</div>
+										</div>
+
+									</div>			
+								<!-- #endregion - Sap-Thuja-Alchemy-item-links -->									
+
+							</div>
+						<!-- #endregion - Sap-Thuja-used-in-used-in-Alchemy -->
+
+
+						<!-- #region - Sap-Thuja-Used-In-Processing Button -->
+							<div class="button processing-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-thuja-htg-processing-content');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									<span class="processing-guild">
+										<img class="icons processing-icon" src="images/icons/menu/processing.webp" alt="Icon" /> Processing
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Sap-Thuja-Used-In-Processing Button -->
+
+						<!-- #region - Sap-Thuja-Used-In-Processing -->
+							<div id="sap-thuja-htg-processing-content" class="info hidden">
+
+								<!-- #region - Sap-Thuja-How-To-Get-Alchemy Button -->
+									<div class="button processing-simple-alchemy-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-thuja-htg-processing-simple-alchemy');">
+
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+
+											<img class="icons icons1 simple-alchemy-icon" src="images/icons/processing/simple-alchemy.webp" alt="Icon" /> Simple Alchemy 
+										</a>
+
+										<div class="right">
+											<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+										</div>
+
+									</div>
+								<!-- #endregion - Sap-Thuja-How-To-Get-Alchemy Button -->
+									
+								<!-- #region - Sap-Thuja-How-To-Get-Simple-Alchemy -->
+									<div id="sap-thuja-htg-processing-simple-alchemy" class="info hidden">
+										
+										<!-- #region - items-sap-thuja-info-Simple-Alchemy -->			
+											<div class="links-content">
+
+												<div class="item-link">
+													<a title="Kagtunak" class="links2 grade6" href="https://bdocodex.com/us/item/15668/" target="_blank">
+														<img class="icons icons1" src="images/icons/processing/simple-alchemy/kagtunak.webp" alt="Icon" /> 
+														Kagtunak
+													</a>
+
+													<div class="right">
+														<div class="dots">
+															<span class="circleText amount">5</span>
+														</div>
+													</div>
+												</div>
+
+											</div>
+										<!-- #endregion - items-sap-thuja-info-Simple-Alchemy -->		
+
+									</div>
+								<!-- #endregion - Sap-Thuja-How-To-Get-Simple-Alchemy -->
+
+							</div>
+						<!-- #endregion - Sap-Thuja-Used-In-Processing -->
+
+
+						<a title="Thuja Sap" class="links2" href=https://bdocodex.com/us/item/5020/ target="_blank">And More...</a>
+					</div>
+				<!-- #endregion - Sap-Thuja-Used-In-Content -->
+
+
+
+				<!-- #region - Sap-Thuja-Notes-Content-Button -->
+					<div class="button notes-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-thuja-notes-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="notes">
+								<img class="icons notes-icon" src="images/icons/menu/notes.webp" alt="Icon" /> Notes 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-Thuja-Notes-Content-Button -->
+
+				<!-- #region - Sap-Thuja-Notes-Content -->
+					<div id="sap-thuja-notes-content" class="hidden notes-content">
+						<p class="notes-entry">
+							-Notes
+						</p>
+						<p class="notes-entry">
+
+						</p>
+					</div>
+				<!-- #endregion - Sap-Thuja-Notes-Content -->
+
+
+			</div>
+		<!-- #endregion - Sap-Thuja-Content -->
+
+	</div>
+<!-- #endregion - Sap-Thuja-Container -->	
+
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Name</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="../scripts/jquery/3.6.3.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
+</head>
+<body id="aaa-page">
+
+<!-- #region - AaA-Container -->
+	<div id="aaa-container" class="items-container category" draggable="true" ondragstart="drag(event)">
+
+		<!-- #region - AaA-Content Button -->
+			<div class="button aaa-button top">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('aaa-content');">
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div> 
+
+					<span class="aaa">
+						<img class="icons icons1 aaa-icon" src="images/" alt="Icon" /> 
+						Name
+					</span>
+				</a>
+
+				<div class="right">
+					<a title="Name" class="links" href="link" target="_blank">🔗</a>
+				</div>
+
+			</div>
+		<!-- #endregion - AaA-Content Button -->
+
+		<!-- #region - AaA-Content -->
+			<div id="aaa-content" class="hidden">
+
+				<!-- #region - AaA-How-To-Get Button -->
+					<div class="button htg-button">
+						<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('aaa-htg-content');">
+			
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+			
+							<span class="htg">
+								<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon" /> How to Get 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - AaA-How-To-Get Button -->
+
+				<!-- #region - AaA-How-To-Get -->
+					<div id="aaa-htg-content" class="info hidden">
+
+
+
+
+
+					</div>
+				<!-- #endregion - AaA-How-To-Get -->
+
+
+					<!-- #region - PW-How-To-Get-Nodes Button -->
+						<div class="button nodes-button">
+
+							<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('pw-htg-nodes');">
+
+								<div class="left">
+									<div class="dots">
+										<span class="dot-plus">+</span>
+									</div>
+								</div> 
+
+								<img class="icons icons1 nodes-icon" src="images/icons/menu/nodes/nodes.webp" alt="Icon" /> Nodes
+							</a>
+
+							<div class="right">
+								<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+							</div>
+
+						</div>
+					<!-- #endregion - PW-How-To-Get-Nodes Button -->
+						
+					<!-- #region - PW-How-To-Get-Nodes -->
+						<div id="pw-htg-nodes" class="info hidden">
+							
+							<!-- #region - PW-Nodes-Links -->			
+								<div class="links-content">
+									<!-- #region - PW-Node-Link1 -->
+										<p class="h2 node-name">12CP Altinova/13CP Shakatu</p>
+										<a title="Kunid's Shelter" class="links2" href="https://www.somethinglovely.net/bdo/#node/1505" target="_blank">
+											<img class="icons icons1 nodes-gathering-icon" src="images/icons/menu/nodes/gathering.webp" alt="Icon" /> 
+											Kunid's Shelter
+										</a>
+										<p class="h2 node-notes">- Goes Through Cadry Ruins Node</p>
+									<!-- #endregion - PW-Node-Link1 -->				
+									<br />
+									<!-- #region - PW-Node-Link2 -->
+										<p class="h2 node-name">15CP Altinova</p>
+										<a title="Leical Falls" class="links2" href="https://www.somethinglovely.net/bdo/#node/1506" target="_blank">
+											<img class="icons icons1 nodes-gathering-icon" src="images/icons/menu/nodes/gathering.webp" alt="Icon" /> 
+											Leical Falls
+										</a>		
+										<p class="h2 node-notes">- Goes Through Basilisk Den Node</p>
+									<!-- #endregion - PW-Node-Link2 -->
+								</div>
+							<!-- #endregion - PW-Nodes-Links -->		
+
+						</div>
+					<!-- #endregion - PW-How-To-Get-Nodes -->
+
+
+
+				<!-- #region - AaA-Used-In-Content-Button -->
+					<div class="button used-in-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('aaa-used-in-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="used-in-recipe">
+								<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon" /> Used In Recipe 
+							</span>
+						</a>
+
+
+						<div class="right">
+
+						</div>
+					</div>
+				<!-- #endregion - AaA-Used-In-Content-Button -->
+
+				<!-- #region - AaA-Used-In-Content -->
+					<div id="aaa-used-in-content" class="hidden used-in-content">
+
+
+
+
+
+
+						<a title="Name" class="links2" href="Link" target="_blank">And More...</a>
+					</div>
+				<!-- #endregion - AaA-Used-In-Content -->
+
+
+
+				<!-- #region - AaA-Notes-Content-Button -->
+					<div class="button notes-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('aaa-notes-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="notes">
+								<img class="icons notes-icon" src="images/icons/menu/notes.webp" alt="Icon" /> Notes 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - AaA-Notes-Content-Button -->
+
+				<!-- #region - AaA-Notes-Content -->
+					<div id="aaa-notes-content" class="hidden notes-content">
+						<p class="notes-entry">
+							- Notes
+						</p>
+						<p class="notes-entry">
+
+						</p>
+					</div>
+				<!-- #endregion - AaA-Notes-Content -->
+
+
+			</div>
+		<!-- #endregion - AaA-Content -->
+
+	</div>
+<!-- #endregion - AaA-Container -->	
+
+</body>
+</html>

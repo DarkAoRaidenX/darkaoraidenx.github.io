@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Cactus Sap</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="../scripts/jquery/3.6.3.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
+</head>
+<body id="sap-cactus-page">
+
+<!-- #region - Sap-Cactus-Container -->
+	<div id="sap-cactus-container" class="items-container saps" draggable="true" ondragstart="drag(event)">
+
+		<!-- #region - Sap-Cactus-Content Button -->
+			<div class="button sap-cactus-button top">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-cactus-content');">
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div> 
+
+					<span class="sap-cactus">
+						<img class="icons icons1 sap-cactus-icon" src="images/icons/saps/cactus.webp" alt="Icon" /> 
+						Cactus Sap
+					</span>
+				</a>
+
+				<div class="right">
+					<a title="Cactus Sap" class="links" href="https://bdocodex.com/us/item/5016/" target="_blank">🔗</a>
+				</div>
+
+			</div>
+		<!-- #endregion - Sap-Cactus-Content Button -->
+
+		<!-- #region - Sap-Cactus-Content -->
+			<div id="sap-cactus-content" class="hidden">
+
+				<!-- #region - Sap-Cactus-How-To-Get Button -->
+					<div class="button htg-button">
+						<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-cactus-htg-content');">
+			
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+			
+							<span class="htg">
+								<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon" /> How to Get 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-Cactus-How-To-Get Button -->
+
+				<!-- #region - Sap-Cactus-How-To-Get -->
+					<div id="sap-cactus-htg-content" class="info hidden">
+
+
+					<!-- #region - Sap-Cactus-How-To-Get-Gathering Button -->
+						<div class="button gathering-button">
+
+							<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-cactus-htg-gathering-fluid-collecting');">
+
+								<div class="left">
+									<div class="dots">
+										<span class="dot-plus">+</span>
+									</div>
+								</div> 
+
+								<span class="gathering-fluid-collecting">
+									<img title="Fluid Collecting" class="icons icons1 fluid-collecting-icon" src="images/icons/menu/interaction/gathering/fluid-collecting.webp" alt="Icon" /> Gathering 
+								</span>
+							</a>
+
+							<div class="right">
+								<a title="Nodes / Resource Interactive Map" class="links" href="https://www.somethinglovely.net/bdo/" target="_blank">🔗</a>
+							</div>
+
+						</div>
+					<!-- #endregion - Sap-Cactus-How-To-Get-Gathering Button -->
+
+					<!-- #region - Sap-Cactus-How-To-Get-Gathering -->				
+						<div id="sap-cactus-htg-gathering-fluid-collecting" class="info hidden">
+									
+							<!-- #region - Sap-Cactus - Gathering Fluid Collector Links -->
+								<div class="links-content">
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://www.somethinglovely.net/bdo/" target="_blank">
+										<img class="icons icons2" src="images/icons/gathering/trees/cactus.webp" alt="Icon" /> Cactus Trees
+									</a>
+								</div>
+							<!-- #endregion - Sap-Cactus - Gathering Fluid Collector Links -->
+
+						</div>
+					<!-- #endregion - Sap-Cactus-How-To-Get-Gathering -->
+
+
+
+						<!-- #region - Sap-Cactus-How-To-Get-Nodes Button -->
+							<div class="button nodes-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-cactus-htg-nodes');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<img class="icons icons1 nodes-icon" src="images/icons/menu/nodes/nodes.webp" alt="Icon" /> Nodes
+								</a>
+
+								<div class="right">
+									<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Sap-Cactus-How-To-Get-Nodes Button -->
+						
+						<!-- #region - Sap-Cactus-How-To-Get-Nodes -->
+							<div id="sap-cactus-htg-nodes" class="info hidden">
+								
+								<!-- #region - Sap-Cactus-Nodes-Links -->			
+									<div class="links-content">
+										<!-- #region - Sap-Cactus-Node-Link1 -->
+											<a title="Northern Sand Dune" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1560" target="_blank">
+												<img class="icons icons1 nodes-gathering-icon" src="images/icons/menu/nodes/gathering.webp" alt="Icon" /> 
+												Northern Sand Dune
+											</a>
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-cactus-htg-node-selection-1" class="node-selection">
+													
+													<option id="sap-cactus-htg-node-cp-route-1" value="9" selected>
+														Cheapest Route To: Arehaza Town (3CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Arehaza Town">
+														<option id="sap-cactus-htg-node-route-1-option-1" value="1">
+															(1CP) Northern Sand Dune
+														</option>
+														<option id="sap-cactus-htg-node-route-1-option-2" value="3">
+															(2CP) Northern Sand Dune - Cactus
+														</option>
+													</optgroup>
+												</select>
+											</div>
+											<br />
+											<a title="Martyr's Haven" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1512" target="_blank">
+												<img class="icons icons1 nodes-gathering-icon" src="images/icons/menu/nodes/gathering.webp" alt="Icon" /> 
+												Martyr's Haven
+											</a>
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-cactus-htg-node-selection-2" class="node-selection">
+													
+													<option id="sap-cactus-htg-node-cp-route-2" value="8" selected>
+														Cheapest Route To: Sand Grain Bazaar (6CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Sand Grain Bazaar">
+														<option id="sap-cactus-htg-node-route-2-option-1" value="3">
+															(3CP) Pilgram's Haven
+														</option>
+														<option id="sap-cactus-htg-node-route-2-option-2" value="3">
+															(3CP) Martyr's Haven
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+
+										<!-- #endregion - Sap-Cactus-Node-Link1 -->				
+									</div>
+								<!-- #endregion - Sap-Cactus-Nodes-Links -->		
+
+								<br />
+							</div>
+						<!-- #endregion - Sap-Cactus-How-To-Get-Nodes -->
+
+
+					</div>
+				<!-- #endregion - Sap-Cactus-How-To-Get -->
+
+
+				<!-- #region - Sap-Cactus-Used-In-Content-Button -->
+					<div class="button used-in-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-cactus-used-in-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="used-in-recipe">
+								<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon" /> Used In Recipe 
+							</span>
+						</a>
+
+
+						<div class="right">
+
+						</div>
+					</div>
+				<!-- #endregion - Sap-Cactus-Used-In-Content-Button -->
+
+				<!-- #region - Sap-Cactus-Used-In-Content -->
+					<div id="sap-cactus-used-in-content" class="hidden used-in-content">
+
+
+						<!-- #region - Sap-Cactus-How-To-Get-Processing Button -->
+							<div class="button processing-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-cactus-htg-processing-content');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									<span class="processing-guild">
+										<img class="icons processing-icon" src="images/icons/menu/processing.webp" alt="Icon" /> Processing
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Sap-Cactus-How-To-Get-Processing Button -->
+
+						<!-- #region - Sap-Cactus-How-To-Get-Processing -->
+							<div id="sap-cactus-htg-processing-content" class="info hidden">
+								<!-- #region - Sap-Cactus-How-To-Get-Filtering Button -->
+									<div class="button processing-filtering-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-cactus-htg-processing-filtering');">
+
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+
+											<img class="icons icons1 filtering-icon" src="images/icons/processing/filtering.webp" alt="Icon" /> Filtering 
+										</a>
+
+										<div class="right">
+											<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+										</div>
+
+									</div>
+								<!-- #endregion - Sap-Cactus-How-To-Get-Filtering Button -->
+									
+								<!-- #region - Sap-Cactus-How-To-Get-Filtering -->
+									<div id="sap-cactus-htg-processing-filtering" class="info hidden">
+										
+										<!-- #region - items-sap-cactus-info-filtering -->			
+											<div class="links-content">
+
+												<div class="item-link">	
+													<a title="Purified Water" class="links2 grade2" href="https://bdocodex.com/us/item/6656/" target="_blank">
+															<img class="icons icons1 pw-icon" src="images/icons/waters/purified.webp" alt="Icon" /> Purified Water
+													</a>
+
+													<div class="right">
+														<div class="dots">
+															<span class="circleText amount">5</span>
+														</div>
+													</div>
+												</div>
+												
+											</div>
+										<!-- #endregion - items-sap-cactus-info-filtering -->		
+
+									</div>
+								<!-- #endregion - Sap-Cactus-How-To-Get-Filtering -->
+							</div>
+						<!-- #endregion - Sap-Cactus-How-To-Get-Processing -->
+
+
+						<a title="Cactus Sap" class="links2" href=https://bdocodex.com/us/item/5016/ target="_blank">And More...</a>
+					</div>
+				<!-- #endregion - Sap-Cactus-Used-In-Content -->
+
+
+
+				<!-- #region - Sap-Cactus-Notes-Content-Button -->
+					<div class="button notes-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-cactus-notes-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="notes">
+								<img class="icons notes-icon" src="images/icons/menu/notes.webp" alt="Icon" /> Notes 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-Cactus-Notes-Content-Button -->
+
+				<!-- #region - Sap-Cactus-Notes-Content -->
+					<div id="sap-cactus-notes-content" class="hidden notes-content">
+						<p class="notes-entry">
+							-Notes
+						</p>
+						<p class="notes-entry">
+
+						</p>
+					</div>
+				<!-- #endregion - Sap-Cactus-Notes-Content -->
+
+
+			</div>
+		<!-- #endregion - Sap-Cactus-Content -->
+
+	</div>
+<!-- #endregion - Sap-Cactus-Container -->	
+
+</body>
+</html>

@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Birch Sap</title>
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="scripts/css/common.css" />
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="../scripts/jquery/3.6.3.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
+</head>
+<body id="sap-birch-page">
+
+<!-- #region - Sap-Birch-Container -->
+	<div id="sap-birch-container" class="items-container saps" draggable="true" ondragstart="drag(event)">
+
+		<!-- #region - Sap-Birch-Content Button -->
+			<div class="button sap-birch-button top">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-birch-content');">
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div> 
+
+					<span class="sap-birch">
+						<img class="icons icons1 sap-birch-icon" src="images/icons/saps/birch.webp" alt="Icon" /> 
+						Birch Sap
+					</span>
+				</a>
+
+				<div class="right">
+					<a title="Birch Sap" class="links" href="https://bdocodex.com/us/item/5004/" target="_blank">🔗</a>
+				</div>
+
+			</div>
+		<!-- #endregion - Sap-Birch-Content Button -->
+
+		<!-- #region - Sap-Birch-Content -->
+			<div id="sap-birch-content" class="hidden">
+
+				<!-- #region - Sap-Birch-How-To-Get Button -->
+					<div class="button htg-button">
+						<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-birch-htg-content');">
+			
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+			
+							<span class="htg">
+								<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon" /> How to Get 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-Birch-How-To-Get Button -->
+
+				<!-- #region - Sap-Birch-How-To-Get -->
+					<div id="sap-birch-htg-content" class="info hidden">
+
+
+					<!-- #region - Sap-Birch-How-To-Get-Gathering Button -->
+						<div class="button gathering-button">
+
+							<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-birch-htg-gathering-fluid-collecting');">
+
+								<div class="left">
+									<div class="dots">
+										<span class="dot-plus">+</span>
+									</div>
+								</div> 
+
+								<span class="gathering-fluid-collecting">
+									<img title="Fluid Collecting" class="icons icons1 fluid-collecting-icon" src="images/icons/menu/interaction/gathering/fluid-collecting.webp" alt="Icon" /> Gathering 
+								</span>
+							</a>
+
+							<div class="right">
+								<a title="Nodes / Resource Interactive Map" class="links" href="https://www.somethinglovely.net/bdo/" target="_blank">🔗</a>
+							</div>
+
+						</div>
+					<!-- #endregion - Sap-Birch-How-To-Get-Gathering Button -->
+
+					<!-- #region - Sap-Birch-How-To-Get-Gathering -->				
+						<div id="sap-birch-htg-gathering-fluid-collecting" class="info hidden">
+									
+							<!-- #region - Sap-Birch - Gathering Fluid Collector Links -->
+								<div class="links-content">
+									<a title="Nodes / Resource Interactive Map" class="links2" href="https://www.somethinglovely.net/bdo/" target="_blank">
+										<img class="icons icons1" src="images/icons/gathering/trees/timber/birch.webp" alt="Icon" /> Birch Trees
+									</a>
+								</div>
+							<!-- #endregion - Sap-Birch - Gathering Fluid Collector Links -->
+
+						</div>
+					<!-- #endregion - Sap-Birch-How-To-Get-Gathering -->
+
+
+
+						<!-- #region - Sap-Birch-How-To-Get-Nodes Button -->
+							<div class="button nodes-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-birch-htg-nodes');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<img class="icons icons1 nodes-icon" src="images/icons/menu/nodes/nodes.webp" alt="Icon" /> Nodes
+								</a>
+
+								<div class="right">
+									<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Sap-Birch-How-To-Get-Nodes Button -->
+						
+						<!-- #region - Sap-Birch-How-To-Get-Nodes -->
+							<div id="sap-birch-htg-nodes" class="info hidden">
+								
+								<!-- #region - Sap-Birch-Nodes-Links -->			
+									<div class="links-content">
+										<!-- #region - Sap-Birch-Node-Link1 -->
+											<a title="Bree Tree Ruins" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/840" target="_blank">
+												<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+												Bree Tree Ruins
+											</a>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-birch-htg-node-selection-1" class="node-selection">
+													
+													<option id="sap-birch-htg-node-cp-route-1" value="8" selected>
+														Cheapest Route To: Calpheon (8CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Calpheon">
+														<option id="sap-birch-htg-node-route-1-option-1" value="2">
+															(2CP) Dias Farm
+														</option>
+														<option id="sap-birch-htg-node-route-1-option-2" value="2">
+															(2CP) Northern Wheat Plantation
+														</option>
+														<option id="sap-birch-htg-node-route-1-option-3" value="2">
+															(2CP) Bernianto Farm
+														</option>
+														<option id="sap-birch-htg-node-route-1-option-4" value="1">
+															(1CP) Bree Tree Ruins
+														</option>
+														<option id="sap-birch-htg-node-route-1-option-5" value="1">
+															(1CP) Bree Tree Ruins - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-birch-htg-node-selection-2" class="node-selection">
+													
+													<option id="sap-birch-htg-node-cp-route-2" value="9" selected>
+														Cheapest Route To: Port Ehperia (10CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Port Ehperia">
+														<option id="sap-birch-htg-node-route-2-option-1" value="3">
+															(3CP) Northern Guard Camp
+														</option>
+														<option id="sap-birch-htg-node-route-2-option-2" value="3">
+															(3CP) Heidel Pass
+														</option>
+														<option id="sap-birch-htg-node-route-2-option-3" value="1">
+															(1CP) Forest of Plunder
+														</option>
+														<option id="sap-birch-htg-node-route-2-option-4" value="1">
+															(1CP) Ehwaz Hill
+														</option>
+														<option id="sap-birch-htg-node-route-2-option-5" value="2">
+															(1CP) Ehwaz Hill - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<br />
+											<a title="Khimut Lumber Camp - Lumbering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1686" target="_blank">
+												<img class="icons icons1 nodes-lumbering-icon" src="images/icons/menu/nodes/lumbering.webp" alt="Icon" /> 
+												Khimut Lumber Camp - Lumbering
+											</a>
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-birch-htg-node-selection-3" class="node-selection">
+													
+													<option id="sap-birch-htg-node-cp-route-3" value="8" selected>
+														Cheapest Route To: Tarif (8CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Tarif">
+														<option id="sap-birch-htg-node-route-3-option-1" value="1">
+															(1CP) Soldier's Grave
+														</option>
+														<option id="sap-birch-htg-node-route-3-option-2" value="1">
+															(1CP) Tungrad Forest
+														</option>
+														<option id="sap-birch-htg-node-route-3-option-3" value="1">
+															(1CP) Hasrah Cliff
+														</option>
+														<option id="sap-birch-htg-node-route-3-option-4" value="2">
+															(2CP) Khimut Lumber Camp
+														</option>
+														<option id="sap-birch-htg-node-route-3-option-5" value="3">
+															(3CP) Khimut Lumber Camp - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="sap-birch-htg-node-selection-4" class="node-selection">
+													
+													<option id="sap-birch-htg-node-cp-route-4" value="9" selected>
+														Cheapest Route To: Duvencrune (9CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Duvencrune">
+														<option id="sap-birch-htg-node-route-4-option-1" value="2">
+															(2CP) Night Crow Post
+														</option>
+														<option id="sap-birch-htg-node-route-4-option-2" value="2">
+															(2CP) Tshira Ruins
+														</option>
+														<option id="sap-birch-htg-node-route-4-option-3" value="2">
+															(2CP) Khimut Lumber Camp
+														</option>
+														<option id="sap-birch-htg-node-route-4-option-4" value="3">
+															(3CP) Khimut Lumber Camp - Lumbering
+														</option>
+													</optgroup>
+												</select>
+											</div>
+										<!-- #endregion - Sap-Birch-Node-Link1 -->				
+									</div>
+								<!-- #endregion - Sap-Birch-Nodes-Links -->		
+
+								<br />
+							</div>
+						<!-- #endregion - Sap-Birch-How-To-Get-Nodes -->
+
+
+					</div>
+				<!-- #endregion - Sap-Birch-How-To-Get -->
+
+
+				<!-- #region - Sap-Birch-Used-In-Content-Button -->
+					<div class="button used-in-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-birch-used-in-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="used-in-recipe">
+								<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon" /> Used In Recipe 
+							</span>
+						</a>
+
+
+						<div class="right">
+
+						</div>
+					</div>
+				<!-- #endregion - Sap-Birch-Used-In-Content-Button -->
+
+				<!-- #region - Sap-Birch-Used-In-Content -->
+					<div id="sap-birch-used-in-content" class="hidden used-in-content">
+
+
+						<!-- #region - Sap-Birch-used-in-Alchemy Button -->
+							<div class="button item-alchemy-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('sap-birch-used-in-alchemy');">
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									
+									<img class="icons icons1 alchemy-icon" src="images/icons/processing/simple-alchemy.webp" alt="Icon" /> Alchemy
+								</a>
+								
+								<div class="right">
+									<a title="Alchemy Guide" class="links" href="https://grumpygreen.cricket/alchemy/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Sap-Birch-used-in-Alchemy Button -->
+
+						<!-- #region - Sap-Birch-used-in-used-in-Alchemy -->
+							<div id="sap-birch-used-in-alchemy" class="info hidden">
+								
+								<!-- #region - Sap-Birch-Alchemy-item-links -->	
+									<div class="links-content">
+										
+										<div class="item-link">
+											<a title="HP +3 per Critical Hit" class="links2 grade3" href="https://bdocodex.com/us/item/676/" target="_blank">
+												<img class="icons icons1 draining-pot-icon" src="images/icons/pots/draining.webp" alt="Icon" /> 
+												Elixir of Draining
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">4</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Max Stamina +100" class="links2 grade3" href="https://bdocodex.com/us/item/722/" target="_blank">
+												<img class="icons icons1 endurance-pot-icon" src="images/icons/pots/endurance.webp" alt="Icon" /> 
+												Elixir of Endurance
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">5</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Debuff Resistance Against Monsters +10%" class="links2 grade3" href="https://bdocodex.com/us/item/686/" target="_blank">
+												<img class="icons icons1 resistance-pot-icon" src="images/icons/pots/resistance.webp" alt="Icon" /> Elixir of Resistance
+											</a>
+
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">1</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Underwater Breathing +10 sec" class="links2 grade3" href="https://bdocodex.com/us/item/694/" target="_blank">
+												<img class="icons icons1 seal-pot-icon" src="images/icons/pots/seal.webp" alt="Icon" /> Elixir of Seal
+											</a>
+
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">1</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Movement Speed +2" class="links2 grade3" href="https://bdocodex.com/us/item/690/" target="_blank">
+												 <img class="icons icons1 swiftness-pot-icon" src="images/icons/pots/swiftness.webp" alt="Icon" /> Elixir of Swiftness
+											</a>
+	
+											<div class="right">
+												<div class="dots">
+													<span class="circleText amount">5</span>
+												</div>
+											</div>
+										</div>
+											
+										<div class="item-link">
+											<a title="Essence of Abundance" class="links2 grade2" href="https://bdocodex.com/us/item/5204/" target="_blank">
+												<img class="icons icons1 essence-of-abundance-icon" src="images/icons/crystals/essence-of/abundance.webp" alt="Icon" /> 
+												Essence of Abundance
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">4</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Essence of Magic Power" class="links2 grade2" href="https://bdocodex.com/us/item/5202/" target="_blank">
+												<img class="icons icons1 essence-of-mp-icon" src="images/icons/crystals/essence-of/magic-power.webp" alt="Icon" /> 
+												Essence of Magic Power
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circleText amount">4</span>
+												</div>
+											</div>
+										</div>
+
+									</div>			
+								<!-- #endregion - Sap-Birch-Alchemy-item-links -->									
+
+							</div>
+						<!-- #endregion - Sap-Birch-used-in-used-in-Alchemy -->
+
+
+						<a title="Birch Sap" class="links2" href=https://bdocodex.com/us/item/5004/ target="_blank">And More...</a>
+					</div>
+				<!-- #endregion - Sap-Birch-Used-In-Content -->
+
+
+
+				<!-- #region - Sap-Birch-Notes-Content-Button -->
+					<div class="button notes-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('sap-birch-notes-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="notes">
+								<img class="icons notes-icon" src="images/icons/menu/notes.webp" alt="Icon" /> Notes 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Sap-Birch-Notes-Content-Button -->
+
+				<!-- #region - Sap-Birch-Notes-Content -->
+					<div id="sap-birch-notes-content" class="hidden notes-content">
+						<p class="notes-entry">
+							-Notes
+						</p>
+						<p class="notes-entry">
+
+						</p>
+					</div>
+				<!-- #endregion - Sap-Birch-Notes-Content -->
+
+
+			</div>
+		<!-- #endregion - Sap-Birch-Content -->
+
+	</div>
+<!-- #endregion - Sap-Birch-Container -->	
+
+</body>
+</html>

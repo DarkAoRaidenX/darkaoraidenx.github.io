@@ -10,7 +10,6 @@ body {
 
 }
 
-
 @font-face {
 	font-family: OpenSans;
 	src: url(fonts/opensans-regular.ttf);
@@ -58,6 +57,10 @@ table,tr,td,th,p,img {
 	text-align: center;
 	z-index: 100;
 	font-weight: bold !important;
+}
+
+a.button-link {
+	text-decoration: none;
 }
 
 .nav {
@@ -339,10 +342,6 @@ a.links2:hover {
 	color: #D70A37 !important;	
 }
 
-.yellow {
-	color: #438CCA !important;	
-}
-
 .dotPlus, .white {
 	color: #FFFFFF;	
 }
@@ -478,7 +477,7 @@ a.links2:hover {
 }
 
 /* Dodger Blue */
-.blueBg4 {
+.blue-bg4 {
 	background-color: #4E86BF;	
 }
 
