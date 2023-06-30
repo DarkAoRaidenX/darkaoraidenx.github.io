@@ -179,7 +179,7 @@ li.separator {
 /* #region - colors */
 
 
-.h1, .h2, .h3, .general, .playstyle, .header-link,.presses,.reg-link {
+.h1, .h2, .h3, .header-link, .highlights, .reg-link {
 	color: #f89d06;
 }
 
