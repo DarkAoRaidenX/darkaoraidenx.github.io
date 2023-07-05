@@ -1,3 +1,18 @@
+karl.gg
+
+## DRG Tips by DarkAoRaidenX
+### [https://darkaoraidenx.github.io/drg/tips/index.html](http://https://darkaoraidenx.github.io/drg/tips/index.html)
+
+https://karl.gg/preview/29028#/
+
+													<br><br>
+													<div class="fire h1">
+														Flamethrower Builds
+													</div>
+													<a title="KARL.GG" class="highlighted reg-link" href="https://karl.gg/preview/28954#/" target="_blank">
+														<span class="unstable2">Face Melter</span> <span class="epc2">EPC</span> <span class="balanced2">Heavy Hitter</span>
+													</a>
+
 /* .button a {
 	color: whitesmoke;
 	border: 2px solid #F89D06;
@@ -43,6 +58,8 @@
 Mission Tips
 			You can build eng turrets
 
+
+<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Resupply_Pod" target="_blank">Resupply Pod</a>
 
 <a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Resupply_Pod" target="_blank">Resupply Pod</a>
 

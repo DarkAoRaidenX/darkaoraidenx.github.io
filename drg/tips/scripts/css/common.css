@@ -1,5 +1,5 @@
 body {
-	color: white;
+	color: #fafafa;
 	background:
     #000;
 	border: 0 solid #000;
@@ -386,6 +386,10 @@ li.separator {
 	color: #8d6e63;
 }
 
+.coil-gun {
+	color: #37474f;	
+}
+
 .cyro {
 	color: #03a9f4;
 }
@@ -600,12 +604,24 @@ a.passive-perk2 {
 
 /* #region - overclocks */
 
+.balanced {
+	color: #e9Ca37;
+}
+
 .balanced2 {
 	background-color: #e9Ca37;
 }
 
+.clean, .imgur {
+	color: #379C5d;
+}
+
 .clean2, .imgur {
 	background-color: #379C5d;
+}
+
+.unstable {
+	color: #de3800;
 }
 
 .unstable2 {
@@ -617,55 +633,59 @@ a.passive-perk2 {
 
 /* #region - weapons */
 
-a.auto-cannon2 {
+.auto-cannon2 {
 	background-color: #1b5e20;
 }
 
-a.auto-shotgun2 {
+.auto-shotgun2 {
 	background-color: #8d6e63;
 }
 
-a.axes2 {
+.axes2 {
 	background-color: #78909c;
 }
 
-a.cyro2 {
+.cyro2 {
 	background-color: #03a9f4;
 }
 
-a.deepcore-gk2-2 {
+.deepcore-gk2-2 {
 	background-color: #03a9f4;
 }
 
-a.drak-25-2 {
+.drak-25-2 {
 	background-color: #03a9f4;
 }
 
-a.epc2 {
+.epc2 {
 	background-color: #7e57c2;
 }
 
-a.hurricane2 {
+.hurricane2 {
 	background-color: #2e7d32;
 }
 
-a.m1000-2 {
+.m1000-2 {
 	background-color: #37474f;
 }
 
-a.minigun2 {
+.coil-gun2,.minigun2 {
 	background-color: #263238;
 }
 
-a.smart-rifle2 {
+.shard-diffractor2 {
+	background-color: #d84315;
+}
+
+.smart-rifle2 {
 	background-color: #607d8b;
 }
 
-a.stubby-smg2 {
+.stubby-smg2 {
 	background-color: #2196f3;
 }
 
-a.wave-cooker2 {
+.wave-cooker2 {
 	background-color: #4caf50;
 }
 
