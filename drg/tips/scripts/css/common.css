@@ -79,6 +79,10 @@ ul#nav-dwarves li {
 	text-align: center;
 }
 
+ul#machine-events-nav .h2 {
+	font-size: 32px;
+}
+
 li.separator {
 	display: inline-block;
 	width: 20px;
@@ -295,6 +299,27 @@ li.separator {
 	color: #FFB000;
 }
 
+.machine-events {
+	color: #546e7a;
+}
+
+.ebonite-event {
+	color: #78909c;
+}
+
+.kursite-event {
+	color: #ffeb3b;
+}
+
+.omen-event {
+	color: #757575;
+}
+
+.tritilyte-event {
+	color: #d32f2f;
+}
+
+
 /* #region - mission border colors */
 
 #mission-general-tips {
@@ -335,6 +360,10 @@ li.separator {
 
 #mission-deep-dives {
 	border: 4px solid #FFB000;
+}
+
+#mission-machine-events {
+	border: 4px solid #546e7a;
 }
 
 /* #endregion - mission border colors */
@@ -570,7 +599,7 @@ a.highlighted {
 	color:#000;
 }
 
-a.category,a.highlighted, a.imgur,#tabs-3 a.header-link, .perks a.header-link, a.link-icon, ul#nav-missions a {
+a.category,a.highlighted, a.imgur,#tabs-3 a.header-link, .perks a.header-link, a.link-icon, ul#nav-missions a, ul#machine-events-nav a  {
 	text-decoration: none;
 }
 
@@ -877,7 +906,7 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 
 
 #tabs-5 .columns {
-	margin-top: -360px;
+	margin-top: -400px;
 }
 
 #tabs-6 .columns {
