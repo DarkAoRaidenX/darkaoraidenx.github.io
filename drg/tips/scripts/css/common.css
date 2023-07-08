@@ -50,6 +50,21 @@ ul li {
 	display: inline-block;
 } 
 
+
+#home-page-button {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 4px;
+	width: 100px;
+	height: 25px;
+	background-color: #03a9f4;
+}
+
+#home-page-button:hover {
+	background-color: #03a9f4;
+}
+
 /* #region - nav header buttons */
 #nav-buttons {
 	display: flex;
@@ -816,7 +831,7 @@ a.passive-perk2 {
 	margin: auto;
 	z-index: 200;
 	position: relative;
-	top: 6px;
+	top: 54px;
 }
 
 .columns-container {
@@ -929,19 +944,7 @@ a.passive-perk2 {
 
 /* #region - images */
 
-#home-page-button {
-	display: inline-block;
-	position: absolute;
-	top: 0;
-	left: 4px;
-	width: 100px;
-	height: 25px;
-	border: 2px solid #03a9f4;
-}
 
-#home-page-button:hover {
-	background-color: #03a9f4;
-}
 
 
 
