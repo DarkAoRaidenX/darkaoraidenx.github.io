@@ -56,19 +56,21 @@ ul li {
 	position: absolute;
 	top: 0;
 	left: 4px;
-	width: 100px;
-	height: 25px;
+	width: 215px;
+	height: 45px;
 	background-color: #03a9f4;
 }
 
 #home-page-button:hover {
-	background-color: #0d47a1;
+	background-color: #03a9f4;
 }
 
 /* #region - nav header buttons */
 #nav-buttons {
-	display: flex;
-	justify-content: center;
+	position: relative;
+	top: 50px;
+	left: 4px;
+	width: 215px;
 }
 
 ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
@@ -77,7 +79,8 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 }
 
 ul#nav-header li {
-	margin-left: 10px;
+	display: block;
+	margin-bottom: 4px;
 	height: 45px;
 	background-color: #f89d06;
 	border: 4px solid #f89d06;
@@ -446,7 +449,7 @@ li.separator {
 	color: #8d6e63;
 }
 
-.boomstick,.coil-gun,.minigun {
+.coil-gun {
 	color: #37474f;	
 }
 
@@ -478,6 +481,10 @@ li.separator {
 	color: #29b6f6;
 }
 
+.minigun {
+	color: #37474f;
+}
+
 .sludge {
 	color: #cddc39;
 }
@@ -493,73 +500,6 @@ li.separator {
 .wave-cooker,.general-info-tips,.green,.qol,.verified  {
 	color: #4caf50;	
 }
-
-
-
-/* #endregion - weapons colors */
-
-/* #region - weapons background colors */
-
-.auto-cannon2 {
-	background-color: #1b5e20;
-}
-
-.auto-shotgun2 {
-	background-color: #8d6e63;
-}
-
-.axes2 {
-	background-color: #78909c;
-}
-
-.boomstick2,.coil-gun2,.m1000-2,.minigun2 {
-	background-color: #37474f;
-}
-
-.cyro2 {
-	background-color: #03a9f4;
-}
-
-.deepcore-gk2-2 {
-	background-color: #03a9f4;
-}
-
-.drak-25-2 {
-	background-color: #03a9f4;
-}
-
-.epc2 {
-	background-color: #7e57c2;
-}
-
-.hurricane2 {
-	background-color: #2e7d32;
-}
-
-.m1000-2 {
-	background-color: #29b6f6;
-}
-
-
-.shard-diffractor2 {
-	background-color: #d84315;
-}
-
-.smart-rifle2 {
-	background-color: #607d8b;
-}
-
-.stubby-smg2 {
-	background-color: #2196f3;
-}
-
-.wave-cooker2 {
-	background-color: #4caf50;
-}
-
-/* #endregion - weapons background colors */
-
-
 
 /* #region - equipment border colors */
 
@@ -612,6 +552,8 @@ li.separator {
 }
 
 /* #endregion - equipment border colors */
+
+/* #endregion - weapons colors */
 
 
 /* #region - dwarves | tips colors */
@@ -752,7 +694,65 @@ a.passive-perk2 {
 /* #endregion - overclocks */
 
 
+/* #region - weapons */
 
+.auto-cannon2 {
+	background-color: #1b5e20;
+}
+
+.auto-shotgun2 {
+	background-color: #8d6e63;
+}
+
+.axes2 {
+	background-color: #78909c;
+}
+
+.cyro2 {
+	background-color: #03a9f4;
+}
+
+.deepcore-gk2-2 {
+	background-color: #03a9f4;
+}
+
+.drak-25-2 {
+	background-color: #03a9f4;
+}
+
+.epc2 {
+	background-color: #7e57c2;
+}
+
+.hurricane2 {
+	background-color: #2e7d32;
+}
+
+.m1000-2 {
+	background-color: #37474f;
+}
+
+.coil-gun2,.minigun2 {
+	background-color: #263238;
+}
+
+.shard-diffractor2 {
+	background-color: #d84315;
+}
+
+.smart-rifle2 {
+	background-color: #607d8b;
+}
+
+.stubby-smg2 {
+	background-color: #2196f3;
+}
+
+.wave-cooker2 {
+	background-color: #4caf50;
+}
+
+/* #endregion - weapons */
 
 /* #end region - links - backgrounds */
 
@@ -773,7 +773,7 @@ a.passive-perk2 {
 
 /* #region - tabs-content */
 
-/* #region - tabs background */
+/* #region - tabs backgrounds */
 
 #tabs-1 {
 	background: 
@@ -824,7 +824,8 @@ a.passive-perk2 {
 	no-repeat
 }
 
-/* #endregion - tabs background */
+/* #endregion - tabs backgrounds */
+
 
 .tabs-container {
 	position: absolute;
@@ -835,10 +836,10 @@ a.passive-perk2 {
 }
 
 .tabs-content {
-	margin: auto;
 	z-index: 200;
 	position: relative;
-	top: 54px;
+	top: 0;
+	left: 225px;
 }
 
 .columns-container {
@@ -856,20 +857,20 @@ a.passive-perk2 {
 
 #tab1-content  {	
 	background: rgba(0,0,0,0.85);
-	height: 860px;
+	height: 900px;
 	width: 1575px;
 }
 
 #tab2-content {	
 	background: rgba(0,0,0,0.75);
-	height: 860px;
+	height: 900px;
 	width: 1575px;
 }
 
 
 #tab3-content,#tab4-content,#tab5-content,#tab6-content   {	
 	background: rgba(0,0,0,0.85);
-	height: 860px;
+	height: 900px;
 	width: 1575px;
 }
 
@@ -941,7 +942,7 @@ a.passive-perk2 {
 
 #tabs-7 .columns {	
 	background: rgba(0,0,0,0.80);
-	height: 860px;
+	height: 900px;
 	width: 1575px;
 }
 
