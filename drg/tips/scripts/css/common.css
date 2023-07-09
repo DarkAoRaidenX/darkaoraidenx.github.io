@@ -482,7 +482,7 @@ li.separator {
 	color: #cddc39;
 }
 
-.smart-rifle {
+.smart-rifle,.zhukov {
 	color: #607d8b;
 }
 
@@ -545,7 +545,7 @@ li.separator {
 	background-color: #d84315;
 }
 
-.smart-rifle2 {
+.smart-rifle2,.zhukov2 {
 	background-color: #607d8b;
 }
 
