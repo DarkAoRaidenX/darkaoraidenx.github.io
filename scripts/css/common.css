@@ -1,30 +1,18 @@
 body {
-	color: white;
-	background: 
-    url("") 
-    top left / 100px 100px
-    repeat
-    #1E1E1E;
+	color: #fafafa;
+	background:
+    #000;
 	border: 0 solid #000;
-	font-family: OpenSans, LatoRegular, RobotoBold, Arial, Helvetica, sans-serif;
-
+	font-family: rift-soft-bold, arial, helvetica, sans-serif;
+	text-align: center;
 }
 
 @font-face {
-	font-family: OpenSans;
-	src: url(fonts/opensans-regular.ttf);
+	font-family: rift-soft-bold;
+	src: url(fonts/rift-soft-bold.ttf);
 }
 
-@font-face {
-	font-family: OpenSansBold;
-	src: url(fonts/opensans-bold.ttf);
-}
-
-@font-face {
-	font-family: RobotoBold;
-	src: url(fonts/roboto-bold.ttf);
-}
-
+/* #region - global */
 
 img,fieldset {
 	border: none;
@@ -40,544 +28,995 @@ table,tr,td,th,p,img {
 	padding:0;
 }
 
+/* * { 
+	scrollbar-width: none; 
+} 
 
-
-/* Global */
-
-
-
-#content-container {
-	margin: 0 auto;
-	position: relative;
-	top: 100px;
-	background-color: transparent;
-	width: 800px;
-	vertical-align: top;
-	border: 0px solid #7a8288;
-	text-align: center;
-	z-index: 100;
-	font-weight: bold !important;
-}
-
-a.button-link {
-	text-decoration: none;
-}
-
-.nav {
-	position: relative;
-	top: 10px;
-	width: 750;
-}
-
-.nav-rows {
-	margin-bottom: 4px;
-}
-
-.hidden {
-  display: none;
-}
-
-
-.left {
-	margin-left: 4px;
-	float: left;
-}
-
-
-.right {
-	vertical-align: middle;
-	margin-right: 4px;
-	float: right;
-}
-
-
-.right .spacer {
-	display: inline-block;
-	width: 20px;
-}
-
-.cheapest .spacer {
-	display: inline-block;
-	width: 20px;
-}
-
-
-.right .links, .dotPlus {
-	font-weight: bold;	
-}
-
-
-
-.title {
-	font-size: 64px;
-	text-transform: uppercase;
-	color: #283593;
-}
-
-.username {
-	text-align: center;
-	width: 640px;
-}
-
-
-.tab {
-	text-align: center;
-	width: 250px !important;
-	display: inline-block !important;	
-}
-
-.button {
-	display: block;	
-	color: white;
-	margin-top: 2px;
-	line-height: 48px;
-	text-decoration: none;
-	width: 100%;
-	font-size: 12px;
-	font-weight: bold;
-}
-
-/* .button .left {
-	width: ;
-
+, ::-webkit-scrollbar {
+	display: none;
 } */
 
-span.button {
+.hidden {
+	display: none;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	display: inline-block;
+} 
+
+
+#home-page-button {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 4px;
+	width: 100px;
+	height: 25px;
+	background-color: #03a9f4;
+}
+
+#home-page-button:hover {
+	background-color: #0d47a1;
+}
+
+/* #region - nav header buttons */
+#nav-buttons {
+	display: flex;
+	justify-content: center;
+}
+
+ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
+	border: 4px solid #43a047;
+	background-color: #43a047;
+}
+
+ul#nav-header li {
+	margin-left: 10px;
+	height: 45px;
+	background-color: #f89d06;
+	border: 4px solid #f89d06;
+}
+
+.nav-dwarves-tips li.ui-state-active {
+	text-decoration: underline #f89d06 4px;
+}
+
+
+/* #endregion - nav header buttons */
+
+
+
+ul#nav-general-tips,ul#nav-dwarves,ul#nav-missions {
+	width: 520px;
+	text-align: left;
+	position: relative;
+	left: 60px;
+}
+
+ul#nav-general-tips li,ul#nav-missions li {
+	display: block;
+} 
+
+ul#nav-dwarves {
+	top: 70px;
+	width: 420px;
+}
+
+ul#nav-dwarves li {
+	width: 200px;
+	text-align: center;
+}
+
+ul#machine-events-nav .h2 {
+	font-size: 32px;
+}
+
+li.separator {
+	display: inline-block;
+	width: 20px;
+	font-size: 48px;
+}
+
+.spacer {
+	display: block;
+	height: 8px;
+}
+
+.nav-content-spacer {
+	display: block;
+	height: 48px;
+}
+
+/* #region - text */
+
+.h1 {
+	font-size: 48px;
+	line-height: 50px;
+}
+
+.h2 {
+	font-size: 36px;
+	line-height: 36px;
+}
+
+.h3 {
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.aka {
+	font-size: 24px;
+}
+/* .lazy-move {
+	display: inline-block;
+	margin-right: 50px;
+} */
+
+.text-content {
+	font-size: 24px;
+	line-height: 20px;
+}
+
+#tabs-1 .text-content {
+	font-size: 32px;
+	line-height: 32px;
+}
+
+#tabs-2 .text-content {
+	font-size: 24px;
 	line-height: 24px;
 }
 
 
-.dots {
-	background-color: #262626;
-	border-radius: 50%;
+#tabs-3 .text-content,#tabs-4 .text-content  {
+	font-size: 24px;
+	line-height: 32px;
+}
+
+#tabs-5 .text-content {
+	font-size: 28px;
+	line-height: 28px;
+}
+
+
+#tabs-1 .columns .text-content, #tabs-2 .columns .text-content, #tabs-3 .columns .text-content {
+	font-size: 24px;
+	line-height: 32px;
+}
+
+
+
+#tabs-7 .text-content,#tabs-6 .text-content {
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.equipment .text-content {
+	line-height: 22px;
+	min-height: 700px;
+}
+
+.plus-minus {
 	display: inline-block;
-	line-height: 18px;
-	width: 18px;
-	vertical-align: middle;
-}
-
-.dotBlue {
-	background-color: #0078D7;
-}
-
-.dotGreen {
-	background-color: #5ff369;
+	top: 5px;
+	position: relative;
+ 	font-size: 48px;
+	color: #fff;
 }
 
 
-.dotPlus {
-	font-size: 12px;	
+/* #region - colors */
+
+
+.h1, .h2, .h3, .header-link, .highlights, .reg-link {
+	color: #f89d06;
 }
 
-.top, .potLinks .button {
-	margin-top: 0 !important;
+.h2.active-perk a {
+	color: #4bbfa5;
 }
 
-.hr {
-	height: 2px;
-}
-
-.common .hr {
-	height: 10px;
-}
-
-.hr2 {
-	height: 2px;
-	background-color: #33597F;
+.h2.passive-perk a {
+	color: #b93253;
 }
 
 
-/* .spacer {
-	display: inline-block;
-	width: 25px;
+
+/* #region - names colors */
+
+.active-perk {
+	color: #4bbfa5;
+}
+
+.discord {
+	color: #5865F2;
+}
+
+/* #dwarf-speak .grey2 {
+	background-color: #78909c;
+	color: #000;
+}
+
+#dwarf-speak .green2 {
+	background-color: #4caf50;
+	color: #000;
 } */
 
-.icons {
-	vertical-align: middle;
+.brown {
+	color: #795548;
 }
 
-.icons1 {
-	height: 48px;
-	width: 48px;	
+.grey {
+	color: #9e9e9e;
 }
 
-.icons2 {
-	height: 32px;
-	width: 32px;
-
+.passive-perk {
+	color: #b93253;
 }
 
-.icons3 {
-	height: 20px;
-	width: 20px;
-
+.red, .youtube {
+	color: #ff0000;
 }
 
-.icons4 {
-	height: 16px;
-	width: 20px;
+.white {
+	color: #fff;
 }
 
-.icons5 {
-	height: 22px;
-	width: 30px;
+/* #dwarf-speak .white {
+	background-color: #f5f5f5;
+	color: #000;
+} */
+
+
+/* #region -  dwarves colors */
+
+.driller, .approved {
+	color: #fdd835;
 }
 
-
-.icons6 {
-	height: 20px;
-	width: 24px;
+.engineer {
+	color: #b71c1c;
 }
 
-.h1,h2 {
-	text-align: center;
-	font-weight: bold;
+.gunner {
+	color: #008000;
 }
 
-
-.alignR {
-	margin-left: 26px;
-	display: inline-block;
+.scout {
+	color: #2646FF;
 }
 
+/* #endregion - dwarves colors */
 
-.obtaining {
-	margin-left: 32px;
+/* #region -  mission colors */
+
+.egg-hunt {
+	color: #b8008c;
 }
 
-
-.smallTxt {
-	font-size: 10px;
-	margin-bottom: 4px;
+.elimination-dreads {
+	color: #DBDA00;
 }
 
-
-.info {
-	font-size: 14px;	
+.escort-duty {
+	color: #03FFA1;
 }
 
-a {
-	color: white;
+.industrial-sabotage {
+	color: #BB2BFF;
 }
 
+.morkite {
+	color: #FE9603;
+}
 
+.point-extraction {
+	color: #68C900;
+}
 
-a.buttonLink,a.buttonLink:hover, a.links  {
-	text-decoration: none;
-} 
+.on-site-refining {
+	color: #0070FE;
+}
 
-a.links2:hover {
+.mules {
+	color: #00D6D9;
+}
+
+.deep-dives {
+	color: #FFB000;
+}
+
+.machine-events {
+	color: #546e7a;
+}
+
+.ebonite-event {
+	color: #78909c;
+}
+
+.kursite-event {
+	color: #ffeb3b;
+}
+
+.omen-event {
 	color: #757575;
 }
 
-/* a.links2:hover {
-	color: #4E86BF;
+.tritilyte-event {
+	color: #d32f2f;
 }
- */
 
 
+/* #region - mission border colors */
 
-.btnNoIcon {
- padding: 5px 0 !important;	
- 
+#mission-general-tips {
+	border: 4px solid #f89d06;
 }
 
+#mission-egg-hunt {
+	border: 4px solid #b8008c;
+}
+
+#mission-dreads {
+	border: 4px solid #DBDA00;
+}
+
+#mission-escort-duty {
+	border: 4px solid #03FFA1;
+}
+
+#mission-industrial-sabotage {
+	border: 4px solid #BB2BFF;
+}
+
+#mission-morkite {
+	border: 4px solid #FE9603;
+}
+
+#mission-aquarqs {
+	border: 4px solid #68C900;
+}
+
+#mission-liquid-morkite {
+	border: 4px solid #0070FE;
+}
+
+#mission-mules {
+	border: 4px solid #00D6D9;
+}
+
+#mission-deep-dives {
+	border: 4px solid #FFB000;
+}
+
+#mission-machine-events {
+	border: 4px solid #546e7a;
+}
+
+/* #endregion - mission border colors */
+
+
+
+/* #endregion - mission colors */
+
+
+/* #endregion - names colors */
+
+
+/* #region - gems / minerals colors */
+
+
+.aquarq {
+	color: #2646FF;
+}
+
+.bittergem {
+	color: #ec407a;
+}
+
+.gold, .dwarf-rituals {
+	color: #ffc107;
+}
+
+.jadiz {
+	color: #8bc34a;
+}
+
+.nitra {
+	color: #c62828;
+}
+
+
+
 
-.amount {
-	font-size: 12px;	
-	font-weight: bold;
+
+/* #endregion - gems / minerals colors */
+
+
+/* #region - weapons colors */
+.auto-cannon {
+	color: #1b5e20;
+}
+
+.auto-shotgun {
+	color: #8d6e63;
+}
+
+.boomstick,.coil-gun,.minigun {
+	color: #37474f;	
+}
+
+.cyro {
+	color: #03a9f4;
+}
+
+.deepcore-gk2,.dwarf-lingo, .voltaic-stun-sweeper {
+	color: #1e88e5;
+}
+
+.drak-25,.audio-visual,.suggestion-perks {
+	color: #ba68c8;
+}
+
+.epc {
+	color: #673ab7;	
+}
+
+.fire, .sandbox {
+	color: #de3800;
+}
+
+.hurricane {
+	color: #2e7d32;
+}
+
+.m1000, .misc-mods {
+	color: #29b6f6;
 }
 
-.dragHere {
-	text-align: center;
-	border: 1px dashed #FFFFFF;
-	z-index: -10;
+.sludge {
+	color: #cddc39;
 }
 
+.smart-rifle,.zhukov {
+	color: #607d8b;
+}
+
+.stubby-smg {
+	color: #2196f3;
+}
+
+.wave-cooker,.general-info-tips,.green,.qol,.verified  {
+	color: #4caf50;	
+}
+
+
+
+/* #endregion - weapons colors */
+
+/* #region - weapons background colors */
+
+.auto-cannon2 {
+	background-color: #1b5e20;
+}
+
+.auto-shotgun2 {
+	background-color: #8d6e63;
+}
+
+.axes2 {
+	background-color: #78909c;
+}
 
+.boomstick2,.coil-gun2,.m1000-2,.minigun2 {
+	background-color: #37474f;
+}
+
+.cyro2 {
+	background-color: #03a9f4;
+}
 
+.deepcore-gk2-2 {
+	background-color: #03a9f4;
+}
+
+.drak-25-2 {
+	background-color: #03a9f4;
+}
 
+.epc2 {
+	background-color: #7e57c2;
+}
 
+.hurricane2 {
+	background-color: #2e7d32;
+}
 
-.blue1 {
-	color: #05B4F0;	
+.m1000-2 {
+	background-color: #29b6f6;
 }
 
-.blue2 {
-	color: #438CCA;	
+
+.shard-diffractor2 {
+	background-color: #d84315;
 }
 
-.dark1 {
-	color: #424242;	
+.smart-rifle2,.zhukov2 {
+	background-color: #607d8b;
 }
 
-.amount, .gold {
-	color: #f6c232;	
+.stubby-smg2 {
+	background-color: #2196f3;
 }
 
-.gold2 {
-	color: #FFD800;	
+.wave-cooker2 {
+	background-color: #4caf50;
 }
+
+/* #endregion - weapons background colors */
+
 
 
+/* #region - equipment border colors */
 
-.green1 {
-	color: #64dd17;	
+#driller-equipment-2 {
+	border-top: 4px solid #03a9f4;
 }
 
-.green2 {
-	color: #82A041;	
+#driller-equipment-3 {
+	border-top: 4px solid #de3800;
 }
 
+#driller-equipment-4 {
+	border-top: 4px solid #cddc39;
+}
+
+#engineer-equipment-2 {
+	border-top: 4px solid #8d6e63;
+}
 
-.orange1 {
-	color: #FF8C19;	
+#engineer-equipment-3 {
+	border-top: 4px solid #607d8b;
 }
 
-.red {
-	color: #D70A37 !important;	
+#engineer-equipment-4 {
+	border-top: 4px solid #2196f3;
 }
 
-.red2 {
-	color: #D70A37 !important;	
+#gunner-equipment-2 {
+	border-top: 4px solid #1b5e20;
 }
 
-.dotPlus, .white {
-	color: #FFFFFF;	
+#gunner-equipment-3 {
+	border-top: 4px solid #263238;
 }
 
- .cheapest, .notes, .usedin {
-	background-color: #66463E;	
+#gunner-equipment-4 {
+	border-top: 4px solid #2e7d32;
 }
 
-.cheapest .buttonLink, .notes .buttonLink, .usedin .buttonLink {
-	color: #BEA082 !important;
+#scout-equipment-2 {
+	border-top: 4px solid #1e88e5;
 }
 
+#scout-equipment-3 {
+	border-top: 4px solid #ba68c8;
+}
 
-/* Fruits of */
-.fruit-of {
-	background-color: #284664;	
+#scout-equipment-4 {
+	border-top: 4px solid #29b6f6;
 }
+
+/* #endregion - equipment border colors */
 
-.FoA {
-	background-color: #0097a7;	
+
+/* #region - dwarves | tips colors */
+
+ul#driller-tips li.separator {
+	color: #fdd835;
 }
 
-.FoCF {
-	background-color: #ad1457;	
+
+ul#engineer-tips li.separator {
+	color: #b71c1c;
 }
 
-.FoD {
-	background-color: #d84315;	
+
+ul#gunner-tips li.separator {
+	color: #008000;
 }
+
 
-.FoE {
-	background-color: #8e24aa;	
+ul#scout-tips li.separator {
+	color: #2646FF;;
 }
 
-/* Purple 6a1b9a */
+
+
+/* #region - dwarves | tips colors */
+
+
+/* #region - perks border colors */
+
+#suggested-perks {
+	border: 4px solid #ba68c8;
+}
 
-.FoMP {
-	background-color: #4527a0;	
+#active-perks {
+	border: 4px solid #4bbfa5;
 }
 
-.FoN {
-	background-color: #2e7d32;	
+#passive-perks {
+	border: 4px solid #b93253;
 }
 
-.FoP {
-	background-color: #37474f;	
+
+/* #endregion - perks border colors */
+
+
+/* #region - mods border colors */
+
+#audio-visual-mods {
+	border: 4px solid #ba68c8;
 }
 
+#misc-mods {
+	border: 4px solid #29b6f6;
+}
 
-.FotS {
-	background-color: #BE8C1E;	
+#qol-mods {
+	border: 4px solid #4caf50;
 }
+
+
+/* #endregion - mods border colors */
+
+/* #endregion - colors */
+
+
+/* #region - links */
 
-/* Fruits of End */
+/* #region - global links */
 
+a.category {
+	font-size: 36px;
+	color: #fff;
+}
 
-/* Traces of */
+a.highlighted {
+	color:#000;
+}
 
-.ToA {
-	background-color: #558b2f;	
+a.category,a.highlighted, a.imgur,#tabs-3 a.header-link, .perks a.header-link, a.link-icon, ul#nav-missions a, ul#machine-events-nav a  {
+	text-decoration: none;
 }
 
-.ToB {
-	background-color: #883410;	
+a.highlighted:hover {
+	text-decoration: underline;
 }
 
-.ToC {
-	background-color: #424242;	
+a.imgur,.perks a.link-icon {
+	font-size: 24px;
 }
 
-.ToD {
-	background-color: #eeeeee;	
+a.reg-link {
+	text-decoration: underline;
 }
+
+
+/* #endregion - global links */
+
+/* #region - links - backgrounds */
 
-.ToD2 {
-	background-color: #00695c;	
+a.active-perk2 {
+	background-color: #4bbfa5;
+	color: #000;
 }
 
-.TotE {
-	background-color: #5d4037;	
+a.passive-perk2 {
+	background-color: #b93253;
+	color: #000;
 }
 
-.ToH {
-	background-color: #5c6bc0;	
+
+/* #region - overclocks */
+
+.balanced {
+	color: #e9Ca37;
 }
 
-.ToF {
-	background-color: #2e7d32;	
+.balanced2 {
+	background-color: #e9Ca37;
 }
 
-.ToM {
-	background-color: #ffc400;	
+.clean, .imgur {
+	color: #379C5d;
 }
 
-.ToO {
-	background-color: #f48fb1;	
+.clean2, .imgur {
+	background-color: #379C5d;
 }
 
-.ToS {
-	background-color: #b71c1c;	
+.unstable {
+	color: #de3800;
 }
 
-.ToV {
-	background-color: #26a69a;	
+.unstable2 {
+	background-color: #de3800;
 }
+
+/* #endregion - overclocks */
+
+
+
 
-.ToW {
-	background-color: #00bcd4;	
+/* #end region - links - backgrounds */
+
+
+
+
+
+/* #endregion - links */
+
+
+/* #endregion - text */
+
+
+/* #endregion - global */
+
+
+
+
+/* #region - tabs-content */
+
+/* #region - tabs background */
+
+#tabs-1 {
+	background: 
+    url("https://i.imgur.com/kqBzB0o.jpg") 
+	top center / 1920px 100%
+	no-repeat
 }
 
-/* Fruits of End */
+#tabs-2 {
+	background: 
+    url("https://i.imgur.com/51kKjmk.jpg") 
+	top center / 1920px 100%
+	no-repeat
+}
 
+#tabs-3 {
+	background: 
+    url("https://deeprockgalactic.wiki.gg/images/b/b0/Site-background-light.png") 
+	top center / 1920px 100%
+	no-repeat
+}
 
+#tabs-4 {
+	background: 
+    url("https://i.imgur.com/h6euCEJ.png") 
+	top center / 1920px 1080px
+	no-repeat
+}
 
+#tabs-5 {
+	background: 
+    url("https://i.imgur.com/piaYCAd.jpg") 
+	top center / 1920px 100%
+	no-repeat
+}
 
-.noBG {
-	background-color: transparent !important;
+#tabs-6 {
+	background: 
+    url("https://deeprockgalactic.wiki.gg/images/6/6b/The_Forge_Front.png") 
+	top center / 1920px 100%
+	no-repeat
 }
 
+#tabs-7 {
+	background: 
+    url("https://deeprockgalactic.wiki.gg/images/4/46/Cabin_2.jpg") 
+	top center / 1920px 100%
+	no-repeat
+}
 
-/* Really Dark Blue 19324B */
+/* #endregion - tabs background */
 
-.blueBg1 {
-	background-color: #1E3C5A;	
+.tabs-container {
+	position: absolute;
+	top: 0;
+	z-index: -100;
+	width: 1920px;
+	height: 100%;
 }
 
-.blueBg2, .clr, .ppr {
-	background-color: #284664;	
+.tabs-content {
+	margin: auto;
+	z-index: 200;
+	position: relative;
+	top: 54px;
 }
 
-.blueBg3 {
-	background-color: #33597F;	
+.columns-container {
+	margin-right: 8px;
 }
+
 
-/* Dodger Blue */
-.blue-bg4 {
-	background-color: #4E86BF;	
+.columns,.columns-container {
+	display: inline-block;
+	vertical-align: top;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 
-.blueBg5 {
-	background-color: #1565c0;	
+
+#tab1-content  {	
+	background: rgba(0,0,0,0.85);
+	height: 860px;
+	width: 1575px;
 }
 
-.brownBg1 {
-	background-color: #AA820A;
+#tab2-content {	
+	background: rgba(0,0,0,0.75);
+	height: 860px;
+	width: 1575px;
 }
 
-/* Vinegar - AA820A, 96780A, 82640A, 735A0A, 644B0F */
 
-.darkBg1 {
-	background-color: #2D2D2D;		
+#tab3-content,#tab4-content,#tab5-content,#tab6-content   {	
+	background: rgba(0,0,0,0.85);
+	height: 860px;
+	width: 1575px;
 }
+
 
-.darkBg2 {
-	background-color: #383838;		
+
+#tabs-2 #general-info-tips {
+	border: 4px solid #4caf50;
 }
 
-.darkBg3 {
-	background-color: #4C4C4C;		
+#tabs-2 #dwarf-lingo {
+	border: 4px solid #1e88e5;
 }
 
-.darkBg4 {
-	background-color: #5B5B5B;		
+#tabs-2 #dwarf-rituals {
+	border: 4px solid #ffc107;
 }
 
-.goldBg1 {
-	background-color: #FFD800 !important;	
+#tabs-3 #dwarf-driller {
+	border: 4px solid #fdd835;
 }
 
-.greenBg1 {
-	background-color: #1b5e20 !important;	
+#tabs-3 #dwarf-engineer {
+	border: 4px solid #b71c1c;
 }
 
-.greenBg2 {
-	background-color: #2e7d32 !important;	
+#tabs-3 #dwarf-gunner {
+	border: 4px solid #008000;
 }
 
+#tabs-3 #dwarf-scout {
+	border: 4px solid #2646FF;
+}
 
 
-.orangeBg1 {
-	background-color: #ff6d00 !important;	
+#tabs-1 .columns {	
+	height: 675px;
+	width: 485px;
 }
 
+#tabs-2 .columns,#tabs-3 .columns,#tabs-5 .columns {
+	position: relative;
+	left: 205px;
+	height: 680px;
+	width: 1000px;
+}
 
+#tabs-2 .columns {
+	margin-top: -150px;
+}
 
-.purpleBg {
-	background-color: #320064 !important;		
+#tabs-3 .columns {
+	margin-top: -450px;
 }
 
-.purpleBg2 {
-	background-color: #4527a0 !important;		
+#tabs-4 .columns {	
+	height: 665px;
+	width: 485px;
 }
+
 
+#tabs-5 .columns {
+	margin-top: -400px;
+}
 
+#tabs-6 .columns {
+	height: 520px;
+	width: 485px;
+}
 
-.redBg1 {
-	background-color: #7F0000;		
+#tabs-7 .columns {	
+	background: rgba(0,0,0,0.80);
+	height: 860px;
+	width: 1575px;
 }
+
 
+/* #endregion - tabs-content */
 
-.redBg2 {
-	background-color: #8C0000;		
+
+/* #region - images */
+
+
+
+
+
+img.buttons {
+	width: 200px;
+	height: 45px;
+}
+
+.scroll-down {
+	position: absolute;
+	right: 5px;
+	width: 64px;
+	height: 50px;
 }
 
-.redBg3 {
-	background-color: #8C0000;		
+.perk-icons {
+	width: 32px;
+	height: 32px;
+	position: relative;
+	top: 5px;
 }
 
+.nav-icons {
+	width: 48px;
+	height: 48px;
+	position: relative;
+	top: 8px;
+	left: 10px;
+}
 
-/*
-.submenu1 {
-	margin-left: 8px;	
+#tabs-1 .rock-n-stone,#tabs-2 .rock-n-stone,#tabs-7 .rock-n-stone, #tabs-7 .deep-dive-icon  {
+	width: 40px;
+	height: 52px;
+	position: relative;
+	top: 5px;
 }
 
-.submenu2 {
-	margin-left: 12px;
+#driller-portrait,#engineer-portrait,#gunner-portrait,#scout-portrait {
+	height: 190px;
 }
 
-.submenu3 {
-	margin-left: 16px;
+#driller-portrait {
+	width: 170px;
 }
-*/
 
+#engineer-portrait {
+	width: 140px;
+}
 
-/*
-a.header-links:hover, a.header-links:active {
-	background-color: #285082;
+#gunner-portrait {
+	width: 170px;
 }
 
-a.header-links2:hover, a.header-links2:active {
-	background-color: #19324B;
+#scout-portrait {
+	width: 120px;
 }
 
-a.header-links3:hover, a.header-links3:active {
-	background-color: #19324B;
+#tabs-5 .mission-icons, #tabs-5 .deep-dive-icon {
+	width: 32px;
+	height: 32px;
+	position: relative;
+	top: 5px;
 }
-*/
+
 
-/* Theme End */
+/* #endregion - images */
