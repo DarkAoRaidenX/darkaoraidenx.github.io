@@ -1,18 +1,58 @@
 karl.gg
 
+Deepcore GK2 with Crossbow (No Overclocks)
+M1000 Classic with Crossbow (No Overclocks)
+DRAK-25 with Crossbow (No Overclocks)
+
+
+
+
+
+
+
 ## DRG Tips by DarkAoRaidenX
 ### [https://darkaoraidenx.github.io/drg/tips/index.html](https://darkaoraidenx.github.io/drg/tips/index.html)
 
- Ice Storm & EPC with Heavy Hitter Flames
+Grenades -
+Scout's grenades are pretty decent I just really like the Voltaic Stun Sweeper
 
 
-													<br><br>
-													<div class="fire h1">
-														Flamethrower Builds
-													</div>
-													<a title="KARL.GG" class="highlighted reg-link" href="https://karl.gg/preview/28954#/" target="_blank">
-														<span class="unstable2">Face Melter</span> <span class="epc2">EPC</span> <span class="balanced2">Heavy Hitter</span>
-													</a>
+ 		<br><br>
+									A method/exploit of bringing the <a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Drop_Pod" target="_blank">Drop Pod</a> closer,
+									
+									<br>
+									is to mine down/make a hole, 
+									
+									then get everyone as well as <a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/M.U.L.E." target="_blank">Molly</a> in the hole, 
+									<br>
+									platform over the hole, and then call for it. 
+									<br>
+									
+									<span class="highlights">Do Not</span> dig too close to a cave or <a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/M.U.L.E." target="_blank">Molly</a> will phase through the terrain.
+
+									<br><br>
+									This works because <a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/M.U.L.E." target="_blank">Molly</a> is stuck and cannot get to the <a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Drop_Pod" target="_blank">Drop Pod</a> as intended 
+									<br>
+									so the game spawns it closer to the Dwarves.
+
+<span class="highlights">E</span>
+
+
+													<table id="driller-flame" class="weapon-builds">
+														<tr class="table-headers">
+															<th class="driller-weapons-flame">Overclocks</th>
+															<th class="driller-weapons-flame">No Overclocks</th>
+														</tr>
+														<tr>
+															<td class="driller-weapons-flame overclocks">
+															
+															</td>
+															<td class="driller-weapons-flame no-overclocks">
+
+
+															</td>
+														</tr>
+													</table> 
 
 /* .button a {
 	color: whitesmoke;
