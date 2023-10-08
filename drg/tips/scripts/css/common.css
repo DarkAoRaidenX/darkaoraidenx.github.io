@@ -510,11 +510,23 @@ table, th, td {
 
 
 .aquarq {
-	color: #2646FF;
+	color: #2196f3;
+}
+
+.bismor {
+	color: #ffea00;
 }
 
 .bittergem {
-	color: #ec407a;
+	color: #ff4081;
+}
+
+.croppa {
+	color: #00838f;
+}
+
+.enor-pearl {
+	color: #fafafa;
 }
 
 .gold, .dwarf-rituals {
@@ -522,12 +534,26 @@ table, th, td {
 }
 
 .jadiz {
-	color: #8bc34a;
+	color: #43a047;
+}
+
+.magnite {
+	color: #c62828;
 }
 
 .nitra {
-	color: #c62828;
+	color: #d32f2f;
 }
+
+.red-sugar {
+	color: #e53935;
+}
+
+.umanite {
+	color: #8bc34a;
+}
+
+
 
 
 
@@ -1066,7 +1092,12 @@ a.passive-perk2 {
 
 /* #region - images */
 
-
+.icons {
+	position: relative;
+	top: 5px;
+	width: 32px;
+	height: 32px;
+}
 
 
 
@@ -1083,10 +1114,10 @@ img.buttons {
 }
 
 .perk-icons {
-	width: 32px;
-	height: 32px;
 	position: relative;
 	top: 5px;
+	width: 32px;
+	height: 32px;
 }
 
 .perks-arrow {
