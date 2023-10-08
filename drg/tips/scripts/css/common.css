@@ -300,6 +300,7 @@ table, th, td {
 
 .h1, .h2, .h3, .header-link, .highlights, .reg-link {
 	color: #f89d06;
+	color: #ff9c00;
 }
 
 .h2.active-perk a {
@@ -1086,6 +1087,13 @@ img.buttons {
 	height: 32px;
 	position: relative;
 	top: 5px;
+}
+
+.perks-arrow {
+	width: 14px;
+	height: 21px;
+	position: relative;
+	top: 2px;
 }
 
 .nav-icons {
