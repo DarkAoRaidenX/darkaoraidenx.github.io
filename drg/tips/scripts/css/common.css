@@ -1,7 +1,7 @@
 body {
 	color: #fafafa;
 	background:
-    #000;
+    #212121;
 	border: 0 solid #000;
 	font-family: rift-soft-bold, arial, helvetica, sans-serif;
 	text-align: center;
@@ -175,6 +175,17 @@ li.separator {
 	line-height: 32px;
 }
 
+.sup-text {
+	color: #fafafa;
+	vertical-align: super;
+	font-size: 16px;
+}
+
+.notes-text {
+	font-size: 20px;
+	line-height: 22px;
+}
+
 /* #tabs-2 .text-content {
 	font-size: 24px;
 	line-height: 24px;
@@ -297,6 +308,14 @@ table, th, td {
 
 .h2.passive-perk a {
 	color: #b93253;
+}
+
+.h2.white a {
+	color: #fff;	
+}
+
+.h2.white2 a {
+	color: #fafafa;	
 }
 
 
