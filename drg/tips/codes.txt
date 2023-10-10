@@ -8,7 +8,7 @@ DRAK-25 with Crossbow (No Overclocks)
 
 
 
-
+(Dreadnaughts)
 
 ## DRG Tips by DarkAoRaidenX
 ### [https://darkaoraidenx.github.io/drg/tips/index.html](https://darkaoraidenx.github.io/drg/tips/index.html)
@@ -16,6 +16,13 @@ DRAK-25 with Crossbow (No Overclocks)
 Grenades -
 Scout's grenades are pretty decent I just really like the Voltaic Stun Sweeper
 <br><br>
+
+									<div class="h1">Mission Overview</div>
+
+
+									<br><br>
+									<div class="h1">Mission Tips</div>
+
 											Pressing"<span class="highlights">R</span>" when having the Drills out, cools them down faster.
 
 			<a title="DRG Wiki - Aquarq" class="reg-link aquarq" href="https://deeprockgalactic.wiki.gg/wiki/Aquarq" target="_blank">Aquarq</a>
@@ -29,6 +36,13 @@ Scout's grenades are pretty decent I just really like the Voltaic Stun Sweeper
 			<a title="DRG Wiki - Nitra" class="reg-link nitra" href="https://deeprockgalactic.wiki.gg/wiki/Nitra" target="_blank">Nitra</a>
 			<a title="DRG Wiki - Red Sugar" class="reg-link red-sugar" href="https://deeprockgalactic.wiki.gg/wiki/Red_Sugar" target="_blank">Red Sugar</a>
 			<a title="DRG Wiki - Umanite" class="reg-link umanite" href="https://deeprockgalactic.wiki.gg/wiki/Umanite" target="_blank">Umanite</a>
+
+
+			<a title="DRG Wiki - Alien Egg" class="reg-link alien-egg" href="https://deeprockgalactic.wiki.gg/wiki/Alien_Egg" target="_blank">
+				<img class="icons" src="https://deeprockgalactic.wiki.gg/images/6/69/Alien_egg_icon.png" alt="&nbsp;">
+				Alien Egg
+			</a>
+
 
 			<a title="DRG Wiki - Aquarq" class="reg-link aquarq" href="https://deeprockgalactic.wiki.gg/wiki/Aquarq" target="_blank">
 				<img class="icons" src="https://deeprockgalactic.wiki.gg/images/8/8e/Aquarq_icon.png" alt="&nbsp;">

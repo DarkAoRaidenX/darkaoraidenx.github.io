@@ -12,6 +12,11 @@ body {
 	src: url(fonts/rift-soft-bold.ttf);
 }
 
+@font-face {
+	font-family: acumin-pro-cond-bold;
+	src: url(fonts/acumin-pro-cond-bold.ttf);
+}
+
 /* #region - global */
 
 img,fieldset {
@@ -406,11 +411,11 @@ table, th, td {
 }
 
 .industrial-sabotage {
-	color: #BB2BFF;
+	color: #bb2bff;
 }
 
 .morkite {
-	color: #FE9603;
+	color: #00695c;
 }
 
 .point-extraction {
@@ -473,7 +478,7 @@ table, th, td {
 }
 
 #mission-morkite {
-	border: 4px solid #FE9603;
+	border: 4px solid #00695c;
 }
 
 #mission-aquarqs {
