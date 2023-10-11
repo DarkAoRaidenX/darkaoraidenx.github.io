@@ -137,7 +137,76 @@ Scout's grenades are pretty decent I just really like the Voltaic Stun Sweeper
 
 															</td>
 														</tr>
-													</table> 
+													</table>
+
+													
+													<table id="" class="">
+														<tr class="table-headers">
+															<th class="driller-weapons-flame">Overclocks</th>
+															<th class="driller-weapons-flame">No Overclocks</th>
+														</tr>
+														<tr>
+															<td class="driller-weapons-flame overclocks">
+															
+															</td>
+															<td class="driller-weapons-flame no-overclocks">
+
+
+															</td>
+														</tr>
+													</table>  
+
+													<table id="" class="tips-content">
+														<tr>	
+															<td class="tips">
+																<br>
+																
+																<br><br>
+															</td>
+														</tr>
+														<tr>	
+															<td class="tips">
+																<br>
+																
+																<br><br>
+															</td>
+														</tr>
+														<tr>	
+															<td class="tips">
+																<br>
+																
+																<br><br>
+															</td>
+														</tr>
+														<tr>	
+															<td class="tips">
+																<br>
+																
+																<br><br>
+															</td>
+														</tr>
+														<tr>	
+															<td class="tips">
+																<br>
+																
+																<br><br>
+															</td>
+														</tr>
+														<tr>	
+															<td class="tips">
+																<br>
+																
+																<br><br>
+															</td>
+														</tr>
+														<tr>	
+															<td class="tips">
+																<br>
+																
+																<br><br>
+															</td>
+														</tr>
+													</table>  
 
 /* .button a {
 	color: whitesmoke;
