@@ -820,6 +820,10 @@ ul#scout-tips li.separator {
 
 /* #region - mods border colors */
 
+#mint-mod-program {
+	border: 4px solid #ff9c00;
+}
+
 #audio-visual-mods {
 	border: 4px solid #ba68c8;
 }
@@ -1000,14 +1004,14 @@ a.passive-perk2 {
 	position: relative;
 	top: 54px;
 	width: 1575px;
-	height: 900px;
+	height: 910px;
 }
 
-#tabs-6 .tabs-content {
+/* #tabs-6 .tabs-content {
 	vertical-align: top;
 	overflow-x: hidden;
 	overflow-y: auto;
-}
+} */
 
 .columns-container {
 	margin-right: 8px;
@@ -1098,7 +1102,7 @@ a.passive-perk2 {
 
 #tabs-6 .columns {
 	height: 520px;
-	width: 485px;
+	width: 370px;
 }
 
 #tabs-7 .columns {	
