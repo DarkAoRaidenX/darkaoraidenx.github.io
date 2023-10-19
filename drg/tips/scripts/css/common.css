@@ -1000,7 +1000,13 @@ a.passive-perk2 {
 	position: relative;
 	top: 54px;
 	width: 1575px;
-	height: 880px;
+	height: 900px;
+}
+
+#tabs-6 .tabs-content {
+	vertical-align: top;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 
 .columns-container {
