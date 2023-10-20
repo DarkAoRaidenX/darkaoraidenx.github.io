@@ -1028,16 +1028,12 @@ a.passive-perk2 {
 }
 
 
-#tab1-content  {	
+#tab2-content {	
 	background: rgba(0,0,0,0.85);
 }
 
-#tab2-content {	
-	background: rgba(0,0,0,0.75);
-}
 
-
-#tab3-content,#tab4-content,#tab5-content,#tab6-content   {	
+#tab1-content,#tab3-content,#tab4-content,#tab5-content,#tab6-content   {	
 	background: rgba(0,0,0,0.85);
 }
 
