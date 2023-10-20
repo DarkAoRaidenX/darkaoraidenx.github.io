@@ -288,13 +288,15 @@ table, th, td {
 	border: 4px solid #1b5e20;
 }
 
+.gunner-weapons-hurricane {
+	border: 4px solid #b71c1c;
+}
+
 .gunner-weapons-minigun {
 	border: 4px solid #37474f;
 }
 
-.gunner-weapons-hurricane {
-	border: 4px solid #2e7d32;
-}
+
 
 .scout-weapons-deepcore-gk2 {
 	border: 4px solid #1e88e5;
@@ -618,9 +620,6 @@ table, th, td {
 	color: #de3800;
 }
 
-.hurricane {
-	color: #2e7d32;
-}
 
 .m1000, .misc-mods {
 	color: #29b6f6;
@@ -746,16 +745,19 @@ table, th, td {
 	border-top: 4px solid #607d8b;
 }
 
+/* Auto-Cannon Border-Top Color */
 #gunner-equipment-2 {
-	border-top: 4px solid #263238;
-}
-
-#gunner-equipment-3 {
 	border-top: 4px solid #1b5e20;
 }
 
+/* Hurricane Border-Top Color */
+#gunner-equipment-3 {
+	border-top: 4px solid #b71c1c;
+}
+
+/* Minigun Border-Top Color */
 #gunner-equipment-4 {
-	border-top: 4px solid #2e7d32;
+	border-top: 4px solid #263238;
 }
 
 #scout-equipment-2 {
@@ -781,7 +783,7 @@ ul#driller-tips li.separator {
 }
 
 
-ul#engineer-tips li.separator {
+ul#engineer-tips li.separator,.hurricane {
 	color: #b71c1c;
 }
 
