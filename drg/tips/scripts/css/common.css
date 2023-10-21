@@ -76,8 +76,8 @@ ul li {
 }
 
 ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
-	border: 4px solid #43a047;
-	background-color: #43a047;
+	border: 4px solid #388e3c;
+	background-color: #388e3c;
 }
 
 ul#nav-header li {
@@ -280,19 +280,17 @@ table, th, td {
 	color: #b93253;
 }
 
-.h2.white a {
-	color: #fff;	
-}
 
-.h2.white2 a {
-	color: #fafafa;	
-}
 /* #endregion - header colors */
 
 /* #region - names colors */
 
 .active-perk {
 	color: #4bbfa5;
+}
+
+.approved {
+	color: #eed202;
 }
 
 .discord {
@@ -308,6 +306,10 @@ table, th, td {
 	color: #9e9e9e;
 }
 
+.no-overclocks2 {
+	background-color: #fafafa;
+}
+
 .passive-perk {
 	color: #b93253;
 }
@@ -316,11 +318,11 @@ table, th, td {
 	color: #ff0000;
 }
 
-.white {
+.white,.h2.white a  {
 	color: #fff;
 }
 
-.white2 {
+.white2,.h2.white2 a {
 	color: #fafafa;
 }
 
@@ -366,44 +368,91 @@ table, th, td {
 
 /* #region -  mission colors */
 
-.egg-hunt {
-	color: #b8008c;
-}
-
-.elimination-dreads {
-	color: #dbda00;
-}
-
-.escort-duty {
-	color: #03ffA1;
-}
-
-.industrial-sabotage {
-	color: #bb2bff;
-}
-
-.morkite {
-	color: #00695c;
-}
-
-.point-extraction {
-	color: #68C900;
-}
-
-.on-site-refining {
-	color: #0070fe;
-}
-
-.mules {
-	color: #00d6d9;
+#mission-general-tips {
+	border: 4px solid #ffa000;
 }
 
 .deep-dives {
 	color: #ffb000;
 }
 
+#mission-deep-dives {
+	border: 4px solid #ffb000;
+}
+
+.egg-hunt {
+	color: #b8008c;
+}
+
+#mission-egg-hunt {
+	border: 4px solid #b8008c;
+}
+
+.elimination-dreads {
+	color: #dbda00;
+}
+
+#mission-dreads {
+	border: 4px solid #dbda00;
+}
+
+.escort-duty {
+	color: #03ffA1;
+}
+
+#mission-escort-duty {
+	border: 4px solid #03ffA1;
+}
+
+
+.industrial-sabotage {
+	color: #bb2bff;
+}
+
+#mission-industrial-sabotage {
+	border: 4px solid #bb2bff;
+}
+
+.morkite {
+	color: #00695c;
+}
+
+#mission-morkite {
+	border: 4px solid #00695c;
+}
+
+
+.point-extraction {
+	color: #68C900;
+}
+
+#mission-aquarqs {
+	border: 4px solid #68C900;
+}
+
+.on-site-refining {
+	color: #0070fe;
+}
+
+#mission-liquid-morkite {
+	border: 4px solid #0070fe;
+}
+
+.mules {
+	color: #00d6d9;
+}
+
+#mission-mules {
+	border: 4px solid #00d6d9;
+}
+
+
 .machine-events {
 	color: #546e7a;
+}
+
+#mission-machine-events {
+	border: 4px solid #546e7a;
 }
 
 .ebonite-event {
@@ -423,62 +472,13 @@ table, th, td {
 }
 
 
-/* #region - mission border colors */
-
-#mission-general-tips {
-	border: 4px solid #f89d06;
-}
-
-#mission-egg-hunt {
-	border: 4px solid #b8008c;
-}
-
-#mission-dreads {
-	border: 4px solid #dbda00;
-}
-
-#mission-escort-duty {
-	border: 4px solid #03ffA1;
-}
-
-#mission-industrial-sabotage {
-	border: 4px solid #BB2Bff;
-}
-
-#mission-morkite {
-	border: 4px solid #00695c;
-}
-
-#mission-aquarqs {
-	border: 4px solid #68C900;
-}
-
-#mission-liquid-morkite {
-	border: 4px solid #0070fe;
-}
-
-#mission-mules {
-	border: 4px solid #00d6d9;
-}
-
-#mission-deep-dives {
-	border: 4px solid #ffb000;
-}
-
-#mission-machine-events {
-	border: 4px solid #546e7a;
-}
-
-/* #endregion - mission border colors */
-
-
 
 /* #endregion - mission colors */
 
 /* #region - gems / minerals colors */
 
 .aquarq {
-	color: #2196f3;
+	color: #0091ea;
 }
 
 .bismor {
@@ -494,11 +494,11 @@ table, th, td {
 }
 
 .enor-pearl {
-	color: #fafafa;
+	color: #bdbdbd;
 }
 
-.gold, .dwarf-rituals {
-	color: #ffc107;
+.gold {
+	color: #ffab00;
 }
 
 .jadiz {
@@ -506,11 +506,11 @@ table, th, td {
 }
 
 .magnite {
-	color: #c62828;
+	color: #bf360c;
 }
 
 .nitra {
-	color: #d32f2f;
+	color: #d50000;
 }
 
 .red-sugar {
@@ -522,15 +522,6 @@ table, th, td {
 }
 
 /* #endregion - gems / minerals colors */
-
-.approved {
-	color: #eed202;
-}
-
-
-.no-overclocks2 {
-	background-color: #fafafa;
-}
 
 
 /* #region - weapons colors */
@@ -550,15 +541,19 @@ table, th, td {
 	background-color: #8d6e63;
 }
 
-.axes2 {
-	background-color: #78909c;
+.axes, .deepcore-40mm,.smart-rifle,.subata,.zhukov {
+	color: #607d8b;
 }
 
-.boomstick,.coil-gun,.minigun {
+.axes2,.deepcore-40mm2,.smart-rifle2,.subata2,.zhukov2 {
+	background-color: #607d8b;
+}
+
+.boomstick,.coil-gun {
 	color: #37474f;	
 }
 
-.boomstick2,.coil-gun2,.m1000-2,.minigun2 {
+.boomstick2,.coil-gun2 {
 	background-color: #37474f;
 }
 
@@ -578,15 +573,7 @@ table, th, td {
 	background-color: #03a9f4;
 }
 
-.deepcore-40mm,.smart-rifle,.subata,.zhukov {
-	color: #607d8b;
-}
-
-.deepcore-40mm2,.smart-rifle2,.subata2,.zhukov2 {
-	background-color: #607d8b;
-}
-
-.deepcore-gk2,.dwarf-lingo, .voltaic-stun-sweeper {
+.deepcore-gk2,.dwarf-lingo,.voltaic-stun-sweeper {
 	color: #1e88e5;
 }
 
@@ -632,6 +619,14 @@ table, th, td {
 
 .m1000-2 {
 	background-color: #29b6f6;
+}
+
+.minigun {
+	color: #263238;	
+}
+
+.minigun2 {
+	background-color: #263238;
 }
 
 .shard-diffractor {
@@ -703,7 +698,7 @@ table, th, td {
 }
 
 .gunner-weapons-minigun {
-	border: 4px solid #37474f;
+	border: 4px solid #263238;
 }
 
 .scout-weapons-deepcore-gk2 {
@@ -1015,6 +1010,10 @@ a.passive-perk2 {
 
 #tabs-2 #dwarf-rituals {
 	border: 4px solid #ffc107;
+}
+
+.dwarf-rituals {
+	color: #ffc107;
 }
 
 
