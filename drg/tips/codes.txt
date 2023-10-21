@@ -96,7 +96,21 @@ Scout's grenades are pretty decent I just really like the Voltaic Stun Sweeper
 				Umanite
 			</a>
 
+			<a title="DRG Wiki - Umanite" class="reg-link warnings" href="https://deeprockgalactic.wiki.gg/wiki/Mutators#Swarmageddon" target="_blank">
+				<img class="icons" src="https://deeprockgalactic.wiki.gg/images/3/3e/Warning_swarmageddon_icon.png" alt="&nbsp;">
+				Swarmageddon
+			</a>
 
+
+/* #dwarf-speak .grey2 {
+	background-color: #78909c;
+	color: #000;
+}
+
+#dwarf-speak .green2 {
+	background-color: #4caf50;
+	color: #000;
+} *//* color: #f89d06; */
 
 
 			<a title="DRG Wiki -" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/" target="_blank"></a>
