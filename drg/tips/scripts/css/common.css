@@ -664,7 +664,7 @@ table, th, td {
 
 /* #endregion - weapons colors */
 
-/* #region - weapons border colors */
+/* #region - main weapons border colors */
 .driller-weapons-cyro {
 	border: 4px solid #03a9f4;
 }
@@ -714,30 +714,36 @@ table, th, td {
 }
 /* #endregion - weapons border colors */
 
-/* #region - weapons border top colors */
+/* #region - main weapons border top colors */
 
+/* Cyro-Cannon Border-Top Color */
 #driller-equipment-2 {
 	border-top: 4px solid #03a9f4;
 }
 
+/* Flamethrower Border-Top Color */
 #driller-equipment-3 {
 	border-top: 4px solid #de3800;
 }
 
+/* Sludge Border-Top Color */
 #driller-equipment-4 {
 	border-top: 4px solid #cddc39;
 }
 
+/* Auto Shotgun Border-Top Color */
 #engineer-equipment-2 {
 	border-top: 4px solid #8d6e63;
 }
 
+/* Smart Rifle Border-Top Color */
 #engineer-equipment-3 {
-	border-top: 4px solid #2196f3;
+	border-top: 4px solid #607d8b;
 }
 
+/* Stubby SMG Border-Top Color */
 #engineer-equipment-4 {
-	border-top: 4px solid #607d8b;
+	border-top: 4px solid #2196f3;
 }
 
 /* Auto-Cannon Border-Top Color */
@@ -755,18 +761,22 @@ table, th, td {
 	border-top: 4px solid #263238;
 }
 
+/* DeepCore-GK2 Border-Top Color */
 #scout-equipment-2 {
 	border-top: 4px solid #1e88e5;
 }
 
+/* DRAK-25 Border-Top Color */
 #scout-equipment-3 {
-	border-top: 4px solid #29b6f6;
-
-}
-
-#scout-equipment-4 {
 	border-top: 4px solid #ba68c8;
 }
+
+/* M1000 Border-Top Color */
+#scout-equipment-4 {
+	border-top: 4px solid #29b6f6;
+}
+
+
 
 /* #endregion - equipment border top colors */
 
