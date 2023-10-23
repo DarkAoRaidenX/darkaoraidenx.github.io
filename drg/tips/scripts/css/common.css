@@ -99,8 +99,9 @@ ul#nav-header li {
 ul#nav-general-tips,ul#nav-dwarves,ul#nav-missions {
 	position: relative;
 	left: 45px;
-	width: 420px;
+	width: 415px;
 	text-align: left;
+	/* border-top: 4px solid #546e7a; */
 }
 
 ul#nav-general-tips li,ul#nav-missions li {
@@ -252,15 +253,11 @@ table, th, td {
 	margin:0 auto;
 }
 
-.table-headers th {
+.table-headers th,#tabs-5 .table-headers th {
 	color: #eceff1;
 	font-size: 32px;
+	text-align: center;
 }
-
-
-
-
-
 
 /* #region - colors */
 
@@ -291,13 +288,16 @@ table, th, td {
 	color: #eed202;
 }
 
+.brown {
+	color: #795548;
+}
+
 .discord {
 	color: #5865F2;
 }
 
-
-.brown {
-	color: #795548;
+.enemies,.red-sugar {
+	color: #e53935;
 }
 
 .grey {
@@ -346,7 +346,7 @@ table, th, td {
 }
 
 #tabs-3 #dwarf-engineer {
-	border: 4px solid #b71c1c;
+	border: 4px solid #c62828;
 }
 
 
@@ -474,7 +474,9 @@ table, th, td {
 	color: #d32f2f;
 }
 
-
+#creatures-enemies-content {
+	border: 4px solid #e53935;
+}
 
 /* #endregion - mission colors */
 
@@ -514,10 +516,6 @@ table, th, td {
 
 .nitra {
 	color: #d50000;
-}
-
-.red-sugar {
-	color: #e53935;
 }
 
 .umanite {
@@ -851,6 +849,7 @@ a.imgur,.perks a.link-icon {
 	font-size: 24px;
 }
 
+
 a.reg-link {
 	text-decoration: underline;
 }
@@ -970,7 +969,7 @@ a.passive-perk2 {
 	position: absolute;
 	top: 0;
 	z-index: -100;
-	width: 1920px;
+	width: 100%;
 	height: 100%;
 }
 
@@ -1055,9 +1054,8 @@ a.passive-perk2 {
 	width: 485px;
 }
 
-
 #tabs-5 .columns {
-	margin-top: -400px;
+	margin-top: -442px;
 }
 
 #tabs-6 .columns {
@@ -1084,6 +1082,10 @@ a.passive-perk2 {
 	height: 32px;
 }
 
+#creatures-enemies-tips .icons {
+	width: 128px;
+	height: 128px;
+}
 
 
 img.buttons {
