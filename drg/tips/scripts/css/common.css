@@ -55,15 +55,12 @@ ul li {
 } 
 
 
-#home-page-button {
-	display: inline-block;
-	position: absolute;
-	top: 0;
-	left: 4px;
+/* #home-button-link {
 	width: 100px;
 	height: 25px;
+	color: #fafafa;
 	background-color: #0d47a1;
-}
+} */
 
 /* #home-page-button:hover {
 	background-color: #0d47a1;
@@ -1131,6 +1128,20 @@ a.passive-perk2 {
 	height: 180px;
 }
 
+.og-dread {
+	width: 180px;
+	height: 125px;
+}
+
+.shellback {
+	width: 128px;
+	height: 180px;
+}
+
+.trawler {
+	width: 180px;
+	height: 90px;
+}
 
 img.buttons {
 	width: 200px;

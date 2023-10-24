@@ -1,0 +1,78 @@
+<a title="DRG Wiki - Engineer" class="reg-link engineer" href="https://deeprockgalactic.wiki.gg/wiki/Engineer" target="_blank">Engineer</a>
+<a title="DRG Wiki - Driller" class="reg-link driller" href="https://deeprockgalactic.wiki.gg/wiki/Driller" target="_blank">Driller</a>
+<a title="DRG Wiki - Gunner" class="reg-link gunner" href="https://deeprockgalactic.wiki.gg/wiki/Gunner" target="_blank">Gunner</a>
+<a title="DRG Wiki - Scout" class="reg-link scout" href="https://deeprockgalactic.wiki.gg/wiki/Scout" target="_blank">Scout</a>
+
+
+<a title="DRG Wiki - Aquarq" class="reg-link aquarq" href="https://deeprockgalactic.wiki.gg/wiki/Aquarq" target="_blank">Aquarq</a>
+<a title="DRG Wiki - Bismor" class="reg-link bismor" href="https://deeprockgalactic.wiki.gg/wiki/Bismor" target="_blank">Bismor</a>
+<a title="DRG Wiki - Bittergem" class="reg-link bittergem" href="https://deeprockgalactic.wiki.gg/wiki/Bittergem" target="_blank">Bittergem</a>
+<a title="DRG Wiki - Croppa" class="reg-link croppa" href="https://deeprockgalactic.wiki.gg/wiki/Croppa" target="_blank">Croppa</a>
+<a title="DRG Wiki - Enor Pearl" class="reg-link enor-pearl" href="https://deeprockgalactic.wiki.gg/wiki/Enor_Pearl" target="_blank">Enor Pearl</a>
+<a title="DRG Wiki - Compressed Gold" class="reg-link gold" href="https://deeprockgalactic.wiki.gg/wiki/Gold#Compressed_Gold-0" target="_blank">Compressed Gold</a>
+<a title="DRG Wiki - Jadiz" class="reg-link jadiz" href="https://deeprockgalactic.wiki.gg/wiki/Jadiz" target="_blank">Jadiz</a>
+<a title="DRG Wiki - Magnite" class="reg-link magnite" href="https://deeprockgalactic.wiki.gg/wiki/Magnite" target="_blank">Magnite</a>
+<a title="DRG Wiki - Nitra" class="reg-link nitra" href="https://deeprockgalactic.wiki.gg/wiki/Nitra" target="_blank">Nitra</a>
+<a title="DRG Wiki - Red Sugar" class="reg-link red-sugar" href="https://deeprockgalactic.wiki.gg/wiki/Red_Sugar" target="_blank">Red Sugar</a>
+<a title="DRG Wiki - Umanite" class="reg-link umanite" href="https://deeprockgalactic.wiki.gg/wiki/Umanite" target="_blank">Umanite</a>
+
+
+<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Resupply_Pod" target="_blank">Resupply Pod</a>
+
+
+<a title="DRG Wiki - Alien Egg" class="reg-link alien-egg" href="https://deeprockgalactic.wiki.gg/wiki/Alien_Egg" target="_blank">
+	<img class="icons" src="https://deeprockgalactic.wiki.gg/images/6/69/Alien_egg_icon.png" alt="&nbsp;">
+	Alien Egg
+</a>
+
+
+<a title="DRG Wiki - Aquarq" class="reg-link aquarq" href="https://deeprockgalactic.wiki.gg/wiki/Aquarq" target="_blank">
+	<img class="icons" src="https://deeprockgalactic.wiki.gg/images/8/8e/Aquarq_icon.png" alt="&nbsp;">
+	Aquarq
+</a>
+<a title="DRG Wiki - Bismor" class="reg-link bismor" href="https://deeprockgalactic.wiki.gg/wiki/Bismor" target="_blank">
+	<img class="icons" src="https://deeprockgalactic.wiki.gg/images/3/31/Bismor_icon.png" alt="&nbsp;">
+	Bismor
+</a>
+<a title="DRG Wiki - Bittergem" class="reg-link bittergem" href="https://deeprockgalactic.wiki.gg/wiki/Bittergem" target="_blank">
+	<img class="icons" src="https://deeprockgalactic.wiki.gg/images/4/41/Bittergem_icon.png" alt="&nbsp;">
+	Bittergem
+</a>
+<a title="DRG Wiki - Compressed Gold" class="reg-link gold" href="https://deeprockgalactic.wiki.gg/wiki/Gold#Compressed_Gold-0" target="_blank">
+	<img class="icons" src="https://deeprockgalactic.wiki.gg/images/d/d8/Compressed_gold_icon.png" alt="&nbsp;">
+	Compressed Gold
+</a>
+<a title="DRG Wiki - Croppa" class="reg-link croppa" href="https://deeprockgalactic.wiki.gg/wiki/Croppa" target="_blank">
+	<img class="icons" src="https://deeprockgalactic.wiki.gg/images/4/40/Croppa_icon.png" alt="&nbsp;">
+	Croppa
+</a>
+<a title="DRG Wiki - Enor Pearl" class="reg-link enor-pearl" href="https://deeprockgalactic.wiki.gg/wiki/Enor_Pearl" target="_blank">
+	<img class="icons" src="https://deeprockgalactic.wiki.gg/images/4/41/Enor_pearl_icon.png" alt="&nbsp;">
+	Enor Pearl
+</a>
+
+<a title="DRG Wiki - Jadiz" class="reg-link jadiz" href="https://deeprockgalactic.wiki.gg/wiki/Jadiz" target="_blank">
+	<img class="icons" src="https://deeprockgalactic.wiki.gg/images/8/82/Jadiz_icon.png" alt="&nbsp;">
+	Jadiz
+</a>
+<a title="DRG Wiki - Magnite" class="reg-link magnite" href="https://deeprockgalactic.wiki.gg/wiki/Magnite" target="_blank">
+	<img class="icons" src="https://deeprockgalactic.wiki.gg/images/1/14/Magnite_icon.png" alt="&nbsp;">
+	Magnite
+</a>
+<a title="DRG Wiki - Nitra" class="reg-link nitra" href="https://deeprockgalactic.wiki.gg/wiki/Nitra" target="_blank">
+	<img class="icons" src="https://deeprockgalactic.wiki.gg/images/c/cc/Nitra_icon.png" alt="&nbsp;">
+	Nitra
+</a>
+<a title="DRG Wiki - Red Sugar" class="reg-link red-sugar" href="https://deeprockgalactic.wiki.gg/wiki/Red_Sugar" target="_blank">
+	<img class="icons" src="https://deeprockgalactic.wiki.gg/images/4/47/Red_sugar_icon.png" alt="&nbsp;">
+	Red Sugar
+</a>
+<a title="DRG Wiki - Umanite" class="reg-link umanite" href="https://deeprockgalactic.wiki.gg/wiki/Umanite" target="_blank">
+	<img class="icons" src="https://deeprockgalactic.wiki.gg/images/1/1a/Umanite_icon.png" alt="&nbsp;">
+	Umanite
+</a>
+
+<a title="DRG Wiki - Umanite" class="reg-link warnings" href="https://deeprockgalactic.wiki.gg/wiki/Mutators#Swarmageddon" target="_blank">
+	<img class="icons" src="https://deeprockgalactic.wiki.gg/images/3/3e/Warning_swarmageddon_icon.png" alt="&nbsp;">
+	Swarmageddon
+</a>
