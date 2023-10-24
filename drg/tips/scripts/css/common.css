@@ -202,6 +202,10 @@ table.tips-content {
 	line-height: 22px;
 }
 
+.image-titles {
+	font-size: 32px;
+}
+
 /* #tabs-2 .text-content {
 	font-size: 24px;
 	line-height: 24px;
@@ -1085,6 +1089,41 @@ a.passive-perk2 {
 #creatures-enemies-tips .icons {
 	width: 128px;
 	height: 128px;
+}
+
+.brood-nexus {
+	width: 140px;
+	height: 180px;	
+}
+
+.bulk-det {
+	width: 150px;
+	height: 180px;		
+}
+
+.bulk-det-crassus {
+	width: 150px;
+	height: 180px;		
+}
+
+.exploder {
+	width: 180px;
+	height: 180px;	
+}
+
+.korlok-healing-pod {
+	width: 90px;
+	height: 180px;
+}
+
+.korlok-core-open {
+	width: 180px;
+	height: 180px;
+}
+
+.korlok-sprout {
+	width: 120px;
+	height: 180px;
 }
 
 
