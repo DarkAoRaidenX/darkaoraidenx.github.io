@@ -223,9 +223,14 @@ table.tips-content {
 }
 
 
-#tabs-1 .columns .text-content, #tabs-2 .columns .text-content, #tabs-3 .columns .text-content {
+#tabs-1 .columns .text-content, #tabs-2 .columns .text-content {
 	font-size: 30px;
 	line-height: 32px;
+}
+
+#tabs-3 .columns .text-content {
+	font-size: 32px;
+	line-height: 42px;
 }
 
 #tabs-7 .text-content,#tabs-6 .text-content {
