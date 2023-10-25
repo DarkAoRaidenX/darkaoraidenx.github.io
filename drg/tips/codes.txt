@@ -38,8 +38,26 @@ Scout's grenades are pretty decent I just really like the Voltaic Stun Sweeper
 	color: #000;
 } *//* color: #f89d06; */
 
+<p class="text-content">
+	<span class="highlighted">
+														
+	</span>
+</p>
 
-			<a title="DRG Wiki -" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/" target="_blank"></a>
+		<p class="text-content">
+												<span class="highlighted">
+													As a generic build i go with the 
+													<br>
+													<a title="KARL.GG" class="highlighted reg-link" href="https://karl.gg/preview/33402#/" target="_blank">
+														<span class="auto-cannon2">Auto-Cannon</span> <span class="clean2">Composite Drums</span> 
+														<span class="coil-gun2 white">Coil Gun</span> <span class="balanced2">The Mole</span>
+													</a> 
+													<br>
+													with the Leadbursters grenade.									
+												</span>
+											</p>
+											
+	<a title="DRG Wiki -" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/" target="_blank"></a>
 			<a title="DRG Wiki -" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/" target="_blank"></a>
 
  		<br><br>
