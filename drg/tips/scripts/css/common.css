@@ -77,11 +77,16 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 	background-color: #388e3c;
 }
 
+
+
 ul#nav-header li {
 	margin-left: 10px;
-	height: 45px;
 	background-color: #f89d06;
 	border: 4px solid #f89d06;
+}
+
+ul#nav-header li, img.buttons {
+	height: 45px;
 }
 
 .nav-dwarves-tips li.ui-state-active {
@@ -169,6 +174,10 @@ li.separator {
 	margin-left: 10px;
 	margin-right: 10px;
 }
+
+/* .lingo-definition .fa-external-link {
+	font-size: 24px;
+} */
 /* .lazy-move {
 	display: inline-block;
 	margin-right: 50px;
@@ -195,7 +204,6 @@ table.tips-content {
 }
 
 .sup-text {
-	color: #fafafa;
 	vertical-align: super;
 	font-size: 16px;
 }
@@ -337,7 +345,7 @@ table, th, td {
 	color: #fff;
 }
 
-.white2,.h2.white2 a,.dividers {
+.white2,.h2.white2 a,.dividers,.sup-text {
 	color: #fafafa;
 }
 
@@ -948,49 +956,49 @@ a.passive-perk2 {
 #tabs-1 {
 	background: 
     url("https://i.imgur.com/kqBzB0o.jpg") 
-	top center / 1920px 100%
+	top center / 100% 100%
 	no-repeat
 }
 
 #tabs-2 {
 	background: 
     url("https://i.imgur.com/51kKjmk.jpg") 
-	top center / 1920px 100%
+	top center / 100% 100%
 	no-repeat
 }
 
 #tabs-3 {
 	background: 
     url("https://deeprockgalactic.wiki.gg/images/b/b0/Site-background-light.png") 
-	top center / 1920px 100%
+	top center / 100% 100%
 	no-repeat
 }
 
 #tabs-4 {
 	background: 
     url("https://i.imgur.com/h6euCEJ.png") 
-	top center / 1920px 1080px
+	top center / 100% 1080px
 	no-repeat
 }
 
 #tabs-5 {
 	background: 
     url("https://i.imgur.com/piaYCAd.jpg") 
-	top center / 1920px 100%
+	top center / 100% 100%
 	no-repeat
 }
 
 #tabs-6 {
 	background: 
     url("https://deeprockgalactic.wiki.gg/images/6/6b/The_Forge_Front.png") 
-	top center / 1920px 100%
+	top center / 100% 100%
 	no-repeat
 }
 
 #tabs-7 {
 	background: 
     url("https://deeprockgalactic.wiki.gg/images/4/46/Cabin_2.jpg") 
-	top center / 1920px 100%
+	top center / 100% 100%
 	no-repeat
 }
 
@@ -1090,8 +1098,8 @@ a.passive-perk2 {
 }
 
 #tabs-6 .columns {
-	height: 520px;
 	width: 370px;
+	height: 520px;
 }
 
 #tabs-7 .columns {	
@@ -1140,6 +1148,12 @@ a.passive-perk2 {
 	height: 180px;		
 }
 
+.corruptor2 {
+	width: 480px;
+	height: 192px;
+}
+
+
 .exploder {
 	width: 180px;
 	height: 180px;	
@@ -1179,7 +1193,6 @@ a.passive-perk2 {
 
 img.buttons {
 	width: 200px;
-	height: 45px;
 }
 
 .scroll-down {

@@ -1,0 +1,88 @@
+ul#nav-header li, img.buttons {
+	height: 40px;
+}
+
+img.buttons {
+	width: 180px;
+}
+
+.tabs-content,#tabs-7 .columns {
+	top: 50px;
+	width: 1550px;
+	height: 835px;
+}
+
+ul#nav-general-tips,ul#nav-missions {
+	left: 40px;
+}
+
+/* ul#nav-dwarves,ul#nav-general-tips,ul#nav-missions {
+	width: 300px;
+}
+
+
+ul#nav-general-tips .h1 {
+	font-size: 36px;
+	line-height: 38px;
+} */
+
+/* ul#nav-missions .h2 {
+	font-size: 26px;
+	line-height: 24px;
+} */
+
+
+#tabs-2 .columns,#tabs-3 .columns,#tabs-5 .columns {
+	height: 705px;
+}
+
+/* #tabs-3 .columns {
+	margin-top: -350px;
+} */
+
+/* #tabs-4 .columns {
+	width: 400px;
+} */
+
+/* #tabs-5 .columns {
+	margin-top: -405px;
+} */
+
+#tabs-6 .columns {
+	width: 365px;
+	height: 490px;
+}
+
+ 
+/* ul#nav-dwarves {
+	top: 10px;
+} */
+
+/* ul#nav-dwarves li {
+	width: 120px;
+}
+
+ul#nav-dwarves .h1 {
+	font-size: 36px;
+	line-height: 36px;
+}
+
+#driller-portrait,#engineer-portrait,#gunner-portrait,#scout-portrait {
+	height: 140px;
+}
+
+#driller-portrait {
+	width: 120px;
+}
+
+#engineer-portrait {
+	width: 95px;
+}
+
+#gunner-portrait {
+	width: 120px;
+}
+
+#scout-portrait {
+	width: 85px;
+} */
