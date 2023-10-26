@@ -17,6 +17,9 @@ Grenades -
 Scout's grenades are pretty decent I just really like the Voltaic Stun Sweeper
 <br><br>
 
+<!-- #region -  -->
+
+
 									<div class="h1">Mission Overview</div>
 
 
@@ -25,7 +28,24 @@ Scout's grenades are pretty decent I just really like the Voltaic Stun Sweeper
 
 											Pressing"<span class="highlights">R</span>" when having the Drills out, cools them down faster.
 
-			
+<div class="h2">
+	<div class="image-titles">
+		<a title="DRG Wiki - Q'ronar Youngling" class="enemies link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Q%27ronar_Youngling" target="_blank">
+			Youngling 
+		</a>
+		<span class="white">|</span>
+		<a title="DRG Wiki - Q'ronar Shellback" class="enemies link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Q'ronar_Shellback" target="_blank">
+			Adult Normal
+		</a>
+	</div>
+	<a title="DRG Wiki - Q'ronar Youngling" class="enemies link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Q%27ronar_Youngling" target="_blank">
+		<img class="shellback" src="https://deeprockgalactic.wiki.gg/images/5/51/Q%27ronar_Youngling.png" alt="&nbsp;">	
+		&nbsp;&nbsp;
+	</a>	
+	<a title="DRG Wiki - Q'ronar Shellback" class="enemies link-icon" href="https://deeprockgalactic.wiki.gg/wiki/Q'ronar_Shellback" target="_blank">
+		<img class="shellback" src="https://deeprockgalactic.wiki.gg/images/9/93/Q%27ronar_Shellback.png" alt="&nbsp;">
+	</a>	
+</div>
 
 
 /* #dwarf-speak .grey2 {

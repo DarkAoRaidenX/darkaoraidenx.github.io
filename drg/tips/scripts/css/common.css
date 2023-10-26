@@ -164,6 +164,11 @@ li.separator {
 	font-size: 24px;
 	line-height: 24px;
 }
+
+.dividers {
+	margin-left: 10px;
+	margin-right: 10px;
+}
 /* .lazy-move {
 	display: inline-block;
 	margin-right: 50px;
@@ -332,7 +337,7 @@ table, th, td {
 	color: #fff;
 }
 
-.white2,.h2.white2 a {
+.white2,.h2.white2 a,.dividers {
 	color: #fafafa;
 }
 
@@ -1062,9 +1067,9 @@ a.passive-perk2 {
 
 #tabs-2 .columns,#tabs-3 .columns,#tabs-5 .columns {
 	position: relative;
-	left: 205px;
-	height: 700px;
-	width: 1050px;
+	left: 215px;
+	height: 725px;
+	width: 1075px;
 }
 
 #tabs-2 .columns {
@@ -1118,13 +1123,20 @@ a.passive-perk2 {
 	height: 180px;	
 }
 
-.bulk-det {
-	width: 150px;
-	height: 180px;		
+
+
+.breeder {
+	width: 180px;
+	height: 180px;
 }
 
-.bulk-det-crassus {
-	width: 150px;
+.breeder2 {
+	width: 180px;
+	height: 165px;
+}
+
+.bulk-det,.bulk-det-crassus,.bulk-det-unknown {
+	width: 140px;
 	height: 180px;		
 }
 
@@ -1162,6 +1174,8 @@ a.passive-perk2 {
 	width: 180px;
 	height: 90px;
 }
+
+
 
 img.buttons {
 	width: 200px;
