@@ -20,6 +20,11 @@ Scout's grenades are pretty decent I just really like the Voltaic Stun Sweeper
 <!-- #region -  -->
 
 
+<span title="External Link" class="sup-text">
+	<i class="fa fa-external-link"></i>
+</span>
+
+
 									<div class="h1">Mission Overview</div>
 
 

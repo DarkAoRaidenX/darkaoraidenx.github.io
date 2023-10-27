@@ -7,8 +7,8 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="scripts/css/common.css">
-	<link rel="stylesheet" media="(max-width: 1568px)" href="scripts/css/screen-size-1440.css">
-	<link rel="stylesheet" media="(max-width: 1680px)" href="scripts/css/screen-size-1680.css">
+	<link rel="stylesheet" media="(min-width: 1280px) and (max-width: 1568px)" href="scripts/css/screen-size-1568.css">
+	<link rel="stylesheet" media="(min-width: 1569px) and (max-width: 1680px)" href="scripts/css/screen-size-1680.css">
 	<link rel="stylesheet" href="../../scripts/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="icon" type="image/x-icon" href="images/fav/fav.ico">
 	<script src="../../scripts/jquery/3.7.1.min.js"></script>
@@ -545,7 +545,9 @@
 												<br>
 												<a title="Source - Reddit" class="link-icon" href="https://www.reddit.com/r/DeepRockGalactic/comments/13kfds8/harold/" target="_blank">
 													<span class="lingo-definition">Harold
-														<span title="External Link" class="sup-text"><i class="fa fa-external-link"></i></span>
+														<span title="External Link" class="sup-text">
+															<i class="fa fa-external-link"></i>
+														</span>
 													</span>
 												</a>: <br> 
 												<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Plagueheart#Rockpox_Corruptor" target="_blank">Rockpox Corruptor</a>
@@ -2270,7 +2272,7 @@
 								</a>
 							</div>
 
-							<div id="new-player-text" class="hidden text-content">
+							<div id="new-player-text" class="hidden text-content-container">
 								Here are suggestions on what to level up first.<br>
 								Each Tier needs to be unlocked<br>
 								with a number of certain Perks.<br>
@@ -2737,7 +2739,7 @@
 								</a>
 							</div>
 
-							<div id="multi-player-text" class="hidden text-content">
+							<div id="multi-player-text" class="hidden text-content-container">
 								I feel these are the most useful <br>
 								<span class="active-perk">Active</span> 
 								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Perks" target="_blank"> 
@@ -2825,7 +2827,7 @@
 								</a>
 							</div>
 
-							<div id="solo-player-text" class="hidden text-content">
+							<div id="solo-player-text" class="hidden text-content-container">
 								In my opinion these are most useful<br> 
 								<span class="active-perk">Active</span> 
 								<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Perks" target="_blank"> 
@@ -5487,10 +5489,6 @@
 									</div> 
 
 
-
-
-
-
 								</div>								
 			
 							</div>
@@ -5513,11 +5511,11 @@
 				<!-- <div class="nav-content-spacer">&nbsp;</div> -->
 
 				<div id="tab6-content" class="tabs-content">	
-
-					
+	
 					<div class="h1">
 						MODS
 					</div>
+
 					<div class="text-content-container">
 						As of right now I am only using Quality of Life (QoL)/Visual/Audio Mods (<span class="verified">Verified</span>).<br>
 						These are mods I am using or used in the past. <br>As you can only have up to 50 Mods installed. (It can add up quick!)<br><br>
@@ -5918,7 +5916,6 @@
 
 				</div>
 				
-
 			</div>
 		<!-- #endregion - MODS -->
 
@@ -5939,17 +5936,19 @@
 					
 						<div class="h2">
 							<img title="Rock-N-Stone" class="rock-n-stone" src="images/icons/rock-n-stone.webp" alt="|">
-
 							<a title="https://discord.gg/drg" class="header-link" href="https://discord.gg/drg" target="_blank">
 								Official DRG Discord
+								<span title="External Link" class="sup-text">
+									<i class="fa fa-external-link"></i>
+								</span>
 							</a>
-							
 							<img title="Rock-N-Stone" class="deep-dive-icon" src="https://deeprockgalactic.wiki.gg/images/c/c0/DeepDive_Icon.png" alt="|">
-
 							<a title="https://discord.gg/gUw32ayWGt" class="header-link" href="https://discord.gg/gUw32ayWGt" target="_blank">
 								Modding DRG Discord
+								<span title="External Link" class="sup-text">
+									<i class="fa fa-external-link"></i>
+								</span>
 							</a>
-
 							<img title="Rock-N-Stone" class="rock-n-stone" src="images/icons/rock-n-stone.webp" alt="|">
 						</div>
 						<div class="text-content-container">
@@ -5963,6 +5962,9 @@
 						<div class="h2">
 							<a title="https://deeprockgalactic.wiki.gg/wiki/" class="header-link" href="https://deeprockgalactic.wiki.gg/wiki/" target="_blank">
 								Deep Rock Galactic Wiki
+								<span title="External Link" class="sup-text">
+									<i class="fa fa-external-link"></i>
+								</span>
 							</a>
 						</div>
 
@@ -5974,6 +5976,9 @@
 						<div class="h2">							
 							<a title="https://drg-completionist.com/" class="header-link" href="https://drg-completionist.com/" target="_blank">
 								DRG Completionist
+								<span title="External Link" class="sup-text">
+									<i class="fa fa-external-link"></i>
+								</span>
 							</a>
 						</div>
 
@@ -5983,8 +5988,11 @@
 
 						<br>
 						<div class="h2">							
-							<a title="https://karl.gg/#/" class="header-link" href="https://karl.gg/#/" target="_blank">
+							<a title="KARL.GG" class="header-link" href="https://karl.gg/#/" target="_blank">
 								KARL.GG
+								<span title="External Link" class="sup-text">
+									<i class="fa fa-external-link"></i>
+								</span>
 							</a>
 						</div>
 
@@ -6000,12 +6008,25 @@
 						<div class="text-content-container">
 							<span class="discord">Discord</span>: @<span class="deepcore-gk2">DarkAoRaidenX</span> -
 							<a title="https://discord.gg/UccyzVm5Xq" class="reg-link" href="https://discord.gg/UccyzVm5Xq" target="_blank">
-								My Streaming Discord
-							</a>.
+								My Streaming discord
+								<span title="External Link" class="sup-text">
+									<i class="fa fa-external-link"></i>
+								</span>
+							</a>
 							<br>
-							Also have a <a title="https://discord.gg/UccyzVm5Xq" class="youtube" href="https://www.youtube.com/@raijintribegaming8467" target="_blank">
+							Also have a 
+							<a title="https://www.twitch.tv/darkaoraidenx" class="twitch" href="https://www.twitch.tv/darkaoraidenx" target="_blank">
+								Twitch Channel
+								<span title="External Link" class="sup-text">
+									<i class="fa fa-external-link"></i>
+								</span>
+							</a>&nbsp;
+							<a title="https://discord.gg/UccyzVm5Xq" class="youtube" href="https://www.youtube.com/@raijintribegaming8467" target="_blank">
 								YouTube Channel
-							</a>.
+								<span title="External Link" class="sup-text">
+									<i class="fa fa-external-link"></i>
+								</span>
+							</a>
 							<br>
 							<a title="GitHub Home Page" id="home-button-link" class="reg-link" href="../../index.html">
 								GitHub.io Home Page
@@ -6025,7 +6046,10 @@
 							<br>
 							<a title="DRG WIki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Deep_Rock_Galactic_Wiki:Copyrights" target="_blank">
 								DRG Wiki Copyrights
-							</a>.
+								<span title="External Link" class="sup-text">
+									<i class="fa fa-external-link"></i>
+								</span>
+							</a>
 
 							<br><br>
 							I personally (<span class="deepcore-gk2">DarkAoRaidenX</span>) made the navigation buttons. I added backgrounds to the Perks icons.
@@ -6037,6 +6061,7 @@
 	
 					</div>
 				</div>
+
 			</div>
 		<!-- #endregion - LINKS CREDITS NOTES  -->
 
