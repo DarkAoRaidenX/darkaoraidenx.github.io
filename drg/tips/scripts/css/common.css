@@ -1023,7 +1023,7 @@ a.passive-perk2 {
 	position: relative;
 	top: 54px;
 	width: 1575px;
-	height: 900px;
+	height: 890px;
 }
 
 #tab1-content,#tab2-content,#tab3-content,#tab4-content,#tab5-content,#tab6-content,#tab7-content   {	
@@ -1080,7 +1080,7 @@ a.passive-perk2 {
 }
 
 #tabs-4 .columns {	
-	height: 665px;
+	height: 720px;
 	width: 485px;
 }
 
@@ -1123,8 +1123,6 @@ a.passive-perk2 {
 	width: 140px;
 	height: 180px;	
 }
-
-
 
 .breeder {
 	width: 180px;
