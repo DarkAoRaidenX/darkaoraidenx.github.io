@@ -220,6 +220,11 @@ table.tips-content {
 	line-height: 22px;
 }
 
+#dwarf-lingo-tips .notes-text {
+	font-size: 24px;
+	line-height: 22px;
+}
+
 .image-titles {
 	font-size: 32px;
 }
@@ -960,7 +965,7 @@ a.passive-perk2 {
 
 #tabs-1 {
 	background: 
-    url("https://i.imgur.com/kqBzB0o.jpg") 
+    url("https://i.imgur.com/VrKlgAw.jpg") 
 	top center / 100% 100%
 	no-repeat
 }
@@ -1213,6 +1218,11 @@ img.buttons {
 	position: relative;
 	top: 8px;
 	left: 10px;
+}
+
+.team {
+	width: 450px;
+	height: 250px;	
 }
 
 #tabs-1 .rock-n-stone,#tabs-2 .rock-n-stone,#tabs-7 .rock-n-stone, #tabs-7 .deep-dive-icon  {
