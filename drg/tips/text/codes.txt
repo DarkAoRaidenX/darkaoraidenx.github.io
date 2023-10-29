@@ -13,6 +13,14 @@ DRAK-25 with Crossbow (No Overclocks)
 ## DRG Tips by DarkAoRaidenX
 ### [https://darkaoraidenx.github.io/drg/tips/index.html](https://darkaoraidenx.github.io/drg/tips/index.html)
 
+Driller fdd835
+E       c62828
+G       008000
+S		2646ff
+
+
+
+
 Grenades -
 Scout's grenades are pretty decent I just really like the Voltaic Stun Sweeper
 <br><br>
