@@ -1,6 +1,12 @@
 <a title="DRG Wiki - Engineer" class="reg-link engineer" href="https://deeprockgalactic.wiki.gg/wiki/Engineer" target="_blank">Engineer</a>
 <a title="DRG Wiki - Driller" class="reg-link driller" href="https://deeprockgalactic.wiki.gg/wiki/Driller" target="_blank">Driller</a>
 <a title="DRG Wiki - Gunner" class="reg-link gunner" href="https://deeprockgalactic.wiki.gg/wiki/Gunner" target="_blank">Gunner</a>
+<a title="DRG Wiki - Gunner" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Zipline_Launcher" target="_blank">Zipline Launcher</a>
+
+
+
+
+
 <a title="DRG Wiki - Scout" class="reg-link scout" href="https://deeprockgalactic.wiki.gg/wiki/Scout" target="_blank">Scout</a>
 
 
