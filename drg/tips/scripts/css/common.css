@@ -1160,6 +1160,11 @@ a.passive-perk2 {
 	height: 180px;
 }
 
+#dwarf-lingo .breeder,#dwarf-lingo .plagueheart {
+	width: 300px;
+	height: 300px;
+}
+
 .breeder2 {
 	width: 180px;
 	height: 165px;
@@ -1181,6 +1186,11 @@ a.passive-perk2 {
 	height: 180px;	
 }
 
+.full {
+	width: 480px;
+	height: 272px;		
+}
+
 .korlok-healing-pod {
 	width: 90px;
 	height: 180px;
@@ -1196,14 +1206,40 @@ a.passive-perk2 {
 	height: 180px;
 }
 
-.og-dread {
-	width: 180px;
-	height: 125px;
+.molly-left,.molly-right {
+	width: 300px;
+	height: 250px;	
 }
+
+.molly-up {
+	width: 190px;
+	height: 265px;	
+}
+
+.og-dread {
+	width: 390px;
+	height: 265px;
+}
+
+
+/* #dwarf-lingo .plagueheart {
+	width: 300px;
+	height: 300px;
+} */
 
 .shellback {
 	width: 128px;
 	height: 180px;
+}
+
+#dwarf-lingo .shellback {
+	width: 210px;
+	height: 295px;
+}
+
+.stun-sweeper {
+	width: 100px;
+	height: 265px;
 }
 
 .trawler {
@@ -1211,6 +1247,10 @@ a.passive-perk2 {
 	height: 90px;
 }
 
+#dwarf-lingo .trawler {
+	width: 395px;
+	height: 200px;
+}
 
 
 img.buttons {
@@ -1232,17 +1272,17 @@ img.buttons {
 }
 
 .perks-arrow {
-	width: 14px;
-	height: 21px;
 	position: relative;
 	top: 2px;
+	width: 14px;
+	height: 21px;
 }
 
 .nav-icons {
-	width: 48px;
-	height: 48px;
 	position: relative;
 	top: 8px;
+	width: 48px;
+	height: 48px;
 	left: 10px;
 }
 
