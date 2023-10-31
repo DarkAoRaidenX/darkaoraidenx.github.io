@@ -917,7 +917,7 @@ a.active-perk2,a.highlighted,a.passive-perk2 {
 	color:#000;
 }
 
-a.category,a.highlighted, a.imgur,#tabs-3 a.header-link, .perks a.header-link, a.link-icon, ul#nav-missions a, ul#machine-events-nav a  {
+a.category,a.highlighted,.img-link,#tabs-3 a.header-link, .perks a.header-link, a.link-icon, ul#nav-missions a, ul#machine-events-nav a,.no-underline,.full  {
 	text-decoration: none;
 }
 
@@ -925,7 +925,7 @@ a.highlighted:hover,a.reg-link {
 	text-decoration: underline;
 }
 
-a.imgur,.perks a.link-icon {
+.perks a.link-icon {
 	font-size: 24px;
 }
 
@@ -1175,6 +1175,11 @@ a.passive-perk2 {
 	height: 180px;		
 }
 
+.cargo-crate-battery {
+	width: 255px;
+	height: 155px;	
+}
+
 .corruptor2 {
 	width: 480px;
 	height: 192px;
@@ -1207,13 +1212,13 @@ a.passive-perk2 {
 }
 
 .molly-left,.molly-right {
-	width: 300px;
-	height: 250px;	
+	width: 256px;
+	height: 210px;	
 }
 
 .molly-up {
-	width: 190px;
-	height: 265px;	
+	width: 145px;
+	height: 210px;	
 }
 
 .og-dread {
@@ -1238,8 +1243,8 @@ a.passive-perk2 {
 }
 
 .stun-sweeper {
-	width: 100px;
-	height: 265px;
+	width: 85px;
+	height: 220px;
 }
 
 .trawler {
