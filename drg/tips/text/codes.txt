@@ -18,8 +18,37 @@ E       c62828
 G       008000
 S		2646ff
 
+.ebonite-event {
+	color: #78909c;
+}
 
+.kursite-event {
+	color: #ffeb3b;
+}
 
+.omen-event {
+	color: #757575;
+}
+
+.tritilyte-event {
+	color: #d32f2f;
+}
+
+#ebonite-event-nav li.ui-state-active {
+	text-decoration: underline #78909c 4px;
+}
+
+#kursite-event-nav li.ui-state-active {
+	text-decoration: underline #ffeb3b 4px;
+}
+
+#omen-event-nav li.ui-state-active {
+	text-decoration: underline #757575 4px;
+}
+
+#tritilyte-event-nav li.ui-state-active {
+	text-decoration: underline #d32f2f 4px;
+}
 
 Grenades -
 Scout's grenades are pretty decent I just really like the Voltaic Stun Sweeper
@@ -152,14 +181,16 @@ Scout's grenades are pretty decent I just really like the Voltaic Stun Sweeper
 														</tr>
 													</table>  
 
-													<table id="" class="tips-content">
-														<tr>	
-															<td class="tips">
-																<br>
-																
-																<br><br>
-															</td>
-														</tr>
+<table id="" class="tips-content">
+												<tr>									
+													<td class="tips">
+													
+													</td>
+													<td class="tips image-tips">
+
+													</td>							
+												</tr>
+											</table>
 														<tr>	
 															<td class="tips">
 																<br>

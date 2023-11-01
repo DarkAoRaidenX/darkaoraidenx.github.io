@@ -88,7 +88,6 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 }
 
 
-
 ul#nav-header li {
 	margin-left: 10px;
 	background-color: #f89d06;
@@ -120,6 +119,7 @@ ul#nav-header li {
 #scout-tips li.ui-state-active {
 	text-decoration: underline #2646ff 4px;
 }
+
 
 
 
@@ -177,6 +177,15 @@ li.separator {
 } */
 
 /* #region - text */
+.aka {
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.dividers {
+	margin-left: 10px;
+	margin-right: 10px;
+}
 
 .h1 {
 	font-size: 48px;
@@ -188,27 +197,27 @@ li.separator {
 	line-height: 36px;
 }
 
-.h3 {
+.h3,.header-text {
 	font-size: 24px;
 	line-height: 24px;
 }
 
-.aka {
-	font-size: 24px;
-	line-height: 24px;
+
+.equipment .text-content, .playstyle .text-content {
+	font-size: 32px;
 }
 
-.dividers {
-	margin-left: 10px;
-	margin-right: 10px;
+#machine-events .text-content {
+	font-size: 28px;
 }
+
+/* .text-content-container {
+	font-size: 24px;
+	line-height: 24px;
+} */
 
 /* .lingo-definition .fa-external-link {
 	font-size: 24px;
-} */
-/* .lazy-move {
-	display: inline-block;
-	margin-right: 50px;
 } */
 
 .tips {
@@ -221,10 +230,11 @@ table.tips-content {
 	width: 100%;
 }
 
-.text-content-container {
-	font-size: 24px;
-	line-height: 20px;
+#machine-events table td.image-tips {
+	vertical-align: top;
 }
+
+
 
 #tabs-1 .text-content-container {
 	font-size: 32px;
@@ -272,7 +282,12 @@ table.tips-content {
 	line-height: 32px;
 }
 
-#tabs-3 .columns .text-content-container {
+.builds .text-content-container {
+	font-size: 32px;
+	line-height: 32px;
+}
+
+table.weapon-builds {
 	font-size: 32px;
 	line-height: 42px;
 }
@@ -282,10 +297,10 @@ table.tips-content {
 	line-height: 24px;
 }
 
-.equipment .text-content-container {
+/* .equipment .text-content-container {
 	line-height: 22px;
 	min-height: 700px;
-}
+} */
 
 .plus-minus {
 	display: inline-block;
@@ -308,8 +323,8 @@ table, th, td {
 
 .table-headers th,#tabs-5 .table-headers th {
 	color: #eceff1;
-	font-size: 32px;
-	text-align: center;
+	font-size: 36px;
+	line-height: 42px;
 }
 
 /* #region - colors */
@@ -447,6 +462,8 @@ table, th, td {
 }
 
 
+
+
 /* #endregion - dwarves colors */
 
 /* #region -  mission colors */
@@ -487,6 +504,9 @@ table, th, td {
 	border: 4px solid #03ffA1;
 }
 
+.gunk-seed {
+	color: #f8bbd0;
+}
 
 .industrial-sabotage {
 	color: #bb2bff;
@@ -917,18 +937,17 @@ a.active-perk2,a.highlighted,a.passive-perk2 {
 	color:#000;
 }
 
-a.category,a.highlighted,.img-link,#tabs-3 a.header-link, .perks a.header-link, a.link-icon, ul#nav-missions a, ul#machine-events-nav a,.no-underline,.full  {
+a.category,.img-link,.no-underline,.perks a.header-link,table a.highlighted,#tabs-3 a.header-link,ul#nav-missions a,ul#machine-events-nav a  {
 	text-decoration: none;
 }
 
-a.highlighted:hover,a.reg-link {
+a.highlighted,a.reg-link {
 	text-decoration: underline;
 }
 
-.perks a.link-icon {
+.perks a.img-link {
 	font-size: 24px;
 }
-
 
 
 /* #endregion - global links */
@@ -1057,6 +1076,10 @@ a.passive-perk2 {
 	background: rgba(0,0,0,0.90);
 }
 
+#tabs-3 .tabs-content {
+	background: rgba(0,0,0,0.92);	
+}
+
 /* #tab1-content,#tab2-content,#tab3-content,#tab4-content,#tab5-content,#tab6-content,#tab7-content   {	
 	background: rgba(0,0,0,0.90);
 } */
@@ -1151,8 +1174,8 @@ a.passive-perk2 {
 }
 
 .brood-nexus {
-	width: 140px;
-	height: 180px;	
+	width: 210px;
+	height: 270px;	
 }
 
 .breeder {
@@ -1194,6 +1217,11 @@ a.passive-perk2 {
 .full {
 	width: 480px;
 	height: 272px;		
+}
+
+#machine-events .full {
+	width: 600px;
+	height: 272px;
 }
 
 .korlok-healing-pod {
