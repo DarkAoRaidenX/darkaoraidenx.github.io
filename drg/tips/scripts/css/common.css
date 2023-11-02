@@ -64,17 +64,13 @@ ul li {
 	display: inline-block;
 } 
 
+li.separator {
+	display: inline-block;
+	width: 20px;
+	font-size: 48px;
+}
 
-/* #home-button-link {
-	width: 100px;
-	height: 25px;
-	color: #fafafa;
-	background-color: #0d47a1;
-} */
 
-/* #home-page-button:hover {
-	background-color: #0d47a1;
-} */
 
 /* #region - nav header buttons */
 #nav-buttons {
@@ -97,6 +93,13 @@ ul#nav-header li {
 /* ul#nav-header li, img.buttons {
 	height: 45px;
 } */
+
+
+
+
+/* #endregion - nav header buttons */
+
+/* #region - navs */
 
 /*  Playstyle Tips | Equipment Underline */
 
@@ -121,14 +124,6 @@ ul#nav-header li {
 }
 
 
-
-
-
-
-/* #endregion - nav header buttons */
-
-
-
 ul#nav-general-tips,ul#nav-dwarves,ul#nav-missions {
 	position: relative;
 	left: 45px;
@@ -140,7 +135,7 @@ ul#nav-general-tips,ul#nav-missions {
 	text-align: left;
 }
 
-ul#nav-general-tips li,ul#nav-missions li,.nav-content-spacer {
+ul#nav-general-tips li,ul#nav-missions li {
 	display: block;
 } 
 
@@ -160,21 +155,10 @@ ul#machine-events-nav .h2 {
 	font-size: 32px;
 }
 
-li.separator {
-	display: inline-block;
-	width: 20px;
-	font-size: 48px;
-}
+
+/* #endregion - navs */
 
 
-.nav-content-spacer {
-	height: 48px;
-}
-
-/* .left, .right {
-	display: inline-block;
-	vertical-align: top;
-} */
 
 /* #region - text */
 .aka {
@@ -203,7 +187,7 @@ li.separator {
 }
 
 
-.equipment .text-content, .playstyle .text-content {
+.playstyle .text-content {
 	font-size: 32px;
 }
 
@@ -211,35 +195,14 @@ li.separator {
 	font-size: 28px;
 }
 
-/* .text-content-container {
-	font-size: 24px;
-	line-height: 24px;
-} */
-
-/* .lingo-definition .fa-external-link {
-	font-size: 24px;
-} */
-
-.tips {
-	border-top: 4px solid #546e7a;
-	border-bottom: 4px solid #546e7a;
-	/* height: 50px; */
-}
-
-table.tips-content {
-	width: 100%;
-}
-
-#machine-events table td.image-tips {
-	vertical-align: top;
-}
-
-
-
-#tabs-1 .text-content-container {
+.builds .text-content-container {
 	font-size: 32px;
 	line-height: 32px;
 }
+
+
+
+
 
 .sup-text {
 	vertical-align: super;
@@ -260,15 +223,24 @@ table.tips-content {
 	font-size: 32px;
 }
 
-/* #tabs-2 .text-content-container {
+/* 
+1 Welcome 
+2 General Tips
+3 Dwarves
+4 Perks 
+5 Mission Tips
+6 Mods
+7 Credits / Links
+*/
+#tabs-1 .text-content-container,#tabs-2 .text-content-container {
+	font-size: 32px;
+	line-height: 32px;
+}
+
+
+#tabs-4 .text-content-container,#tabs-6 .text-content-container,#tabs-7 .text-content-container {
 	font-size: 24px;
 	line-height: 24px;
-} */
-
-
-#tabs-2 .text-content-container,#tabs-4 .text-content-container  {
-	font-size: 24px;
-	line-height: 32px;
 }
 
 #tabs-5 .text-content-container {
@@ -277,25 +249,8 @@ table.tips-content {
 }
 
 
-#tabs-1 .columns .text-content-container, #tabs-2 .columns .text-content-container {
-	font-size: 30px;
-	line-height: 32px;
-}
 
-.builds .text-content-container {
-	font-size: 32px;
-	line-height: 32px;
-}
 
-table.weapon-builds {
-	font-size: 32px;
-	line-height: 42px;
-}
-
-#tabs-7 .text-content-container,#tabs-6 .text-content-container {
-	font-size: 24px;
-	line-height: 24px;
-}
 
 /* .equipment .text-content-container {
 	line-height: 22px;
@@ -311,21 +266,9 @@ table.weapon-builds {
 }
 
 
-table, th, td {
-	border-collapse: collapse;
-}
 
-.weapon-builds {
-	display: table;
-	width: 925px;
-	margin:0 auto;
-}
 
-.table-headers th,#tabs-5 .table-headers th {
-	color: #eceff1;
-	font-size: 36px;
-	line-height: 42px;
-}
+
 
 /* #region - colors */
 
@@ -364,6 +307,10 @@ table, th, td {
 	color: #5865F2;
 }
 
+.dwarf-rituals {
+	color: #ffc107;
+}
+
 .enemies,.red-sugar {
 	color: #e53935;
 }
@@ -374,7 +321,6 @@ table, th, td {
 
 .lingo-definition {
 	color: #1e88e5;
-	background-color: transparent;
 }
 
 .no-overclocks2 {
@@ -397,9 +343,9 @@ table, th, td {
 	color: #fff;
 }
 
-.white2,.h2.white2 a,.dividers,.sup-text {
+/* .white2,.h2.white2 a,.dividers,.sup-text,.dwarves-tips span.highlighted {
 	color: #fafafa;
-}
+} */
 
 /* #endregion - names colors */
 
@@ -413,11 +359,6 @@ table, th, td {
 	border: 4px solid #fdd835;
 }
 
-#dwarves-tips-1 span.highlighted {
-	color: #fafafa; 
-	/* color: #212121; 
-	background-color: #fdd835; */
-}
 
 .engineer,ul#engineer-tips li.separator {
 	color: #c62828;
@@ -425,12 +366,6 @@ table, th, td {
 
 #tabs-3 #dwarf-engineer {
 	border: 4px solid #c62828;
-}
-
-#dwarf-engineer-1 span.highlighted {
-	color: #fafafa; 
-	/* color: #212121; 
-	background-color: #c62828; */
 }
 
 .gunner,ul#gunner-tips li.separator {
@@ -441,12 +376,6 @@ table, th, td {
 	border: 4px solid #008000;
 }
 
-#dwarf-gunner-1 span.highlighted {
-	color: #fafafa; 
-	/* color: #212121; 
-	background-color: #008000; */
-}
-
 .scout,ul#scout-tips li.separator {
 	color: #2646ff;
 }
@@ -455,11 +384,6 @@ table, th, td {
 	border: 4px solid #2646ff;
 }
 
-#dwarf-scout-1 span.highlighted {
-	color: #fafafa; 
-	/* color: #212121; 
-	background-color: #2646ff; */
-}
 
 
 
@@ -623,7 +547,6 @@ table, th, td {
 }
 
 /* #endregion - gems / minerals colors */
-
 
 /* #region - weapons colors */
 .auto-cannon {
@@ -1097,10 +1020,9 @@ a.passive-perk2 {
 	border: 4px solid #ffc107;
 }
 
-.dwarf-rituals {
-	color: #ffc107;
-}
 
+
+/* #region - columns */
 
 .columns-container {
 	margin-right: 8px;
@@ -1152,8 +1074,50 @@ a.passive-perk2 {
 	height: 100%;
 }
 
+/* #endregion - columns */
+
+/* #region - tables */
+
+table, th, td {
+	border-collapse: collapse;
+}
 
 
+.table-headers th,#tabs-5 .table-headers th {
+	color: #eceff1;
+	font-size: 36px;
+	line-height: 42px;
+}
+
+.tips {
+	border-top: 4px solid #546e7a;
+	border-bottom: 4px solid #546e7a;
+	/* height: 50px; */
+}
+
+
+
+table.tips-content {
+	width: 100%;
+}
+
+table.weapon-builds {
+	font-size: 32px;
+	line-height: 42px;
+}
+
+#machine-events table td.image-tips {
+	vertical-align: top;
+}
+
+.weapon-builds {
+	display: table;
+	width: 925px;
+	margin:0 auto;
+}
+
+
+/* #endregion - tables */
 
 
 /* #endregion - tabs-content */

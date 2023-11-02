@@ -55,6 +55,12 @@ Scout's grenades are pretty decent I just really like the Voltaic Stun Sweeper
 <br><br>
 
 
+				<div class="nav-content-spacer">&nbsp;</div>
+				.nav-content-spacer {
+	height: 48px;
+	display: block;
+}
+
 
 <br>
 						<img class="team" src="https://i.imgur.com/IOZPLWL.jpg" alt="T.E.A.M: Together Everyone Achieves More!">
@@ -465,6 +471,44 @@ Engineer's Platforms - The Leaning Tower of Cheese-a!
 										<div id="tabs-1" class="tabs-container">
 
 				<div class="nav-content-spacer">&nbsp;</div>
+
+				/* #home-button-link {
+	width: 100px;
+	height: 25px;
+	color: #fafafa;
+	background-color: #0d47a1;
+} */
+
+/* #home-page-button:hover {
+	background-color: #0d47a1;
+} */
+
+
+				#dwarves-tips-1 span.highlighted {
+	color: #fafafa; 
+	/* color: #212121; 
+	background-color: #fdd835; */
+}
+
+#dwarf-engineer-1 span.highlighted {
+	color: #fafafa; 
+	/* color: #212121; 
+	background-color: #c62828; */
+}
+
+#dwarf-gunner-1 span.highlighted {
+	color: #fafafa; 
+	/* color: #212121; 
+	background-color: #008000; */
+}
+
+#dwarf-scout-1 span.highlighted {
+	color: #fafafa; 
+	/* color: #212121; 
+	background-color: #2646ff; */
+}
+
+
 
 				<div id="tab1-content" class="tabs-content">
 						
