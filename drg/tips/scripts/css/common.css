@@ -275,7 +275,7 @@ table.weapon-builds .text-content {
 
 
 /* #region - header colors */
-a.category,.h1, .h2, .h3, .header-link, .highlights, .reg-link {
+a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg-link {
 	color: #ff9c00;
 }
 
@@ -409,7 +409,7 @@ a.category,.h1, .h2, .h3, .header-link, .highlights, .reg-link {
 	border: 4px solid #ffb000;
 }
 
-.egg-hunt {
+.egg-hunt,.alien-egg {
 	color: #b8008c;
 }
 
@@ -1201,6 +1201,11 @@ table.weapon-builds {
 #machine-events .full {
 	width: 600px;
 	height: 272px;
+}
+
+.glow-tree {
+	width: 250px;
+	height: 270px;
 }
 
 .korlok-healing-pod {

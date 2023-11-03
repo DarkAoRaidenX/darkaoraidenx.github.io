@@ -367,6 +367,8 @@ Engineer's Platforms - The Leaning Tower of Cheese-a!
 <br>
 <div class="h2">Info &amp; Tips</div>
 
+enemies
+
 <div class="h2">
 														<a title="Click To Show" class="category" href="#driller-equipment-1">Info</a> |
 													</div>
