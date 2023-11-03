@@ -1195,12 +1195,31 @@ table.weapon-builds {
 
 .full {
 	width: 480px;
-	height: 272px;		
+	height: 272px;
+	transition: transform .2s;			
+}
+
+.full:hover {
+	transform: scale(1.35);
 }
 
 #machine-events .full {
 	width: 600px;
 	height: 272px;
+}
+
+#machine-events .full:hover {
+	transform: scale(1);
+}
+
+.full2 {
+	width: 768px;
+	height: 432px;
+	transition: transform .2s;	
+}
+
+.full2:hover {
+	transform: scale(1.35);
 }
 
 .glow-tree {
