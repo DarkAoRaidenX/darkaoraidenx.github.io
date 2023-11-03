@@ -5,8 +5,9 @@ M1000 Classic with Crossbow (No Overclocks)
 DRAK-25 with Crossbow (No Overclocks)
 
 
+ Two lesser warcrimes, one rightfully good Geneva Contravention. (Generalist Driller Build)
 
-
+https://karl.gg/preview/33697#/
 
 (Dreadnaughts)
 
@@ -350,6 +351,32 @@ Engineer's Platforms - The Leaning Tower of Cheese-a!
 		} );
 	</script>	
 
+	
+/* .equipment .text-content-container {
+	line-height: 22px;
+	min-height: 700px;
+} */
+
+<div class="text-content-container">
+
+<br>
+<div class="h2">Info &amp; Tips</div>
+
+<div class="text-content-container">
+
+<br>
+<div class="h2">Info &amp; Tips</div>
+
+<div class="h2">
+														<a title="Click To Show" class="category" href="#driller-equipment-1">Info</a> |
+													</div>
+
+<br>
+<p class="text-content">
+	&nbsp;
+</p>
+
+</div>
 	<p class="text-content">
 								Propel forward with great speed! <br /><br />
 								<span class="green">Pros</span>: <br />

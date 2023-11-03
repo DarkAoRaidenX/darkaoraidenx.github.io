@@ -107,20 +107,24 @@ ul#nav-header li {
 	text-decoration: underline #f89d06 4px;
 } */
 
-#driller-tips li.ui-state-active {
+#driller-tips li.ui-state-active,#driller-equipment-nav li.ui-state-active {
 	text-decoration: underline #fdd835 4px;
 }
 
-#engineer-tips li.ui-state-active {
+#engineer-tips li.ui-state-active,#engineer-equipment-nav li.ui-state-active {
 	text-decoration: underline #c62828 4px;
 }
 
-#gunner-tips li.ui-state-active {
+#gunner-tips li.ui-state-active,#gunner-equipment-nav li.ui-state-active {
 	text-decoration: underline #008000 4px;
 }
 
-#scout-tips li.ui-state-active {
+#scout-tips li.ui-state-active,#scout-equipment-nav li.ui-state-active {
 	text-decoration: underline #2646ff 4px;
+}
+
+#machine-events-nav li.ui-state-active {
+	text-decoration: underline #546e7a 4px;
 }
 
 
@@ -243,19 +247,16 @@ ul#machine-events-nav .h2 {
 	line-height: 24px;
 }
 
-#tabs-5 .text-content-container {
+
+table.weapon-builds .text-content {
+	font-size: 20px;
+	line-height: 24px;	
+}
+
+#tabs-3 .text-content-container,#tabs-5 .text-content-container {
 	font-size: 28px;
 	line-height: 28px;
 }
-
-
-
-
-
-/* .equipment .text-content-container {
-	line-height: 22px;
-	min-height: 700px;
-} */
 
 .plus-minus {
 	display: inline-block;
@@ -274,7 +275,7 @@ ul#machine-events-nav .h2 {
 
 
 /* #region - header colors */
-.h1, .h2, .h3, .header-link, .highlights, .reg-link {
+a.category,.h1, .h2, .h3, .header-link, .highlights, .reg-link {
 	color: #ff9c00;
 }
 
@@ -347,11 +348,15 @@ ul#machine-events-nav .h2 {
 	color: #fafafa;
 } */
 
+.sup-text {
+	color: #fafafa;	
+}
+
 /* #endregion - names colors */
 
 /* #region -  dwarves colors */
 
-.driller,ul#driller-tips li.separator {
+.driller,ul#driller-tips li.separator,#driller-equipment-nav .h2 {
 	color: #fdd835;
 }
 
@@ -360,7 +365,7 @@ ul#machine-events-nav .h2 {
 }
 
 
-.engineer,ul#engineer-tips li.separator {
+.engineer,ul#engineer-tips li.separator,#engineer-equipment-nav .h2 {
 	color: #c62828;
 }
 
@@ -368,7 +373,7 @@ ul#machine-events-nav .h2 {
 	border: 4px solid #c62828;
 }
 
-.gunner,ul#gunner-tips li.separator {
+.gunner,ul#gunner-tips li.separator,#gunner-equipment-nav .h2 {
 	color: #008000;
 }
 
@@ -376,7 +381,7 @@ ul#machine-events-nav .h2 {
 	border: 4px solid #008000;
 }
 
-.scout,ul#scout-tips li.separator {
+.scout,ul#scout-tips li.separator,#scout-equipment-nav .h2 {
 	color: #2646ff;
 }
 
@@ -853,7 +858,6 @@ ul#machine-events-nav .h2 {
 
 a.category {
 	font-size: 36px;
-	color: #fff;
 }
 
 a.active-perk2,a.highlighted,a.passive-perk2 {
@@ -1040,7 +1044,7 @@ a.passive-perk2 {
 	width: 485px;
 }
 
-#tabs-2 .columns,#tabs-3 .columns,#tabs-5 .columns {
+#tabs-2 .columns,#tabs-3 .columns {
 	position: relative;
 	left: 215px;
 	height: 725px;
@@ -1064,6 +1068,13 @@ a.passive-perk2 {
 	margin-top: -442px;
 }
 
+#tabs-5 .columns {
+	position: relative;
+	left: 215px;
+	height: 750px;
+	width: 1075px;
+}
+
 #tabs-6 .columns {
 	width: 370px;
 	height: 520px;
@@ -1083,10 +1094,13 @@ table, th, td {
 }
 
 
-.table-headers th,#tabs-5 .table-headers th {
-	color: #eceff1;
+.table-headers th,#tabs-5 .table-headers th,.equipment-navs .h2 {
 	font-size: 36px;
 	line-height: 42px;
+}
+
+.table-headers th,#tabs-5 .table-headers th {
+	color: #eceff1;
 }
 
 .tips {
@@ -1101,20 +1115,21 @@ table.tips-content {
 	width: 100%;
 }
 
+
 table.weapon-builds {
+	display: table;
+	width: 925px;
+	margin:0 auto;
 	font-size: 32px;
 	line-height: 42px;
 }
+
 
 #machine-events table td.image-tips {
 	vertical-align: top;
 }
 
-.weapon-builds {
-	display: table;
-	width: 925px;
-	margin:0 auto;
-}
+
 
 
 /* #endregion - tables */
