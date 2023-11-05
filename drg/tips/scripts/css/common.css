@@ -78,17 +78,20 @@ li.separator {
 	justify-content: center;
 }
 
+ul#nav-header li {
+	margin-left: 10px;
+	background-color: #f89d06;
+	border: 4px solid #f89d06;
+	/* border-radius: 25px; */
+}
+
 ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 	background-color: #388e3c;
 	border: 4px solid #388e3c;
 }
 
 
-ul#nav-header li {
-	margin-left: 10px;
-	background-color: #f89d06;
-	border: 4px solid #f89d06;
-}
+
 
 /* ul#nav-header li, img.buttons {
 	height: 45px;
@@ -1103,26 +1106,36 @@ table, th, td {
 	color: #eceff1;
 }
 
+table.weapon-builds {
+	display: table;
+	width: 1025px;
+	margin:0 auto;
+	font-size: 32px;
+	line-height: 42px;
+}
+
+
 .tips {
 	border-top: 4px solid #546e7a;
 	border-bottom: 4px solid #546e7a;
 	/* height: 50px; */
 }
 
+#engineer-stubby-smg .overclocks .highlighted {
+	font-size: 28px;
+	line-height: 32px;
+}
 
+#engineer-smart-rifle .overclocks .highlighted {
+	font-size: 24px;
+	line-height: 28px;
+}
 
 table.tips-content {
 	width: 100%;
 }
 
 
-table.weapon-builds {
-	display: table;
-	width: 925px;
-	margin:0 auto;
-	font-size: 32px;
-	line-height: 42px;
-}
 
 
 #machine-events table td.image-tips {
