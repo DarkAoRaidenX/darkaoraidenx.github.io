@@ -86,8 +86,8 @@ ul#nav-header li {
 }
 
 ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
-	background-color: #388e3c;
-	border: 4px solid #388e3c;
+	background-color: #2e7d32;
+	border: 4px solid #2e7d32;
 }
 
 

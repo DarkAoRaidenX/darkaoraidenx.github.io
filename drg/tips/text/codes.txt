@@ -51,6 +51,15 @@ S		2646ff
 	text-decoration: underline #d32f2f 4px;
 }
 
+
+										<tr>	
+											<td class="tips">
+												<br>
+												[<span class="highlights">R</span>] means Ready.
+												<br><br>
+											</td>
+										</tr>
+
 Grenades -
 Scout's grenades are pretty decent I just really like the Voltaic Stun Sweeper
 <br><br>
