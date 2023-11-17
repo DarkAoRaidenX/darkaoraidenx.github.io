@@ -217,6 +217,20 @@ Scout's grenades are pretty decent I just really like the Voltaic Stun Sweeper
 													</td>							
 												</tr>
 											</table>
+<table id="length-complexity" class="tips-content">
+<tr class="table-headers">
+	<th class="length">Overclocks</th>
+	<th class="complexity">No Overclocks</th>
+</tr>
+<tr>									
+	<td class="tips">
+	
+	</td>
+	<td class="tips">
+
+	</td>							
+</tr>
+</table>
 														<tr>	
 															<td class="tips">
 																<br>

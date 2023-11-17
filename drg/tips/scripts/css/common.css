@@ -168,7 +168,7 @@ ul#machine-events-nav .h2 {
 
 
 /* #region - text */
-.aka {
+.aka,#mission-escort-duty-tips .length-complexity-content .table-headers th {
 	font-size: 24px;
 	line-height: 24px;
 }
@@ -278,7 +278,7 @@ table.weapon-builds .text-content {
 
 
 /* #region - header colors */
-a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg-link {
+a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg-link,#mission-escort-duty-tips .length-complexity-content .table-headers th {
 	color: #ff9c00;
 }
 
@@ -1106,14 +1106,24 @@ table, th, td {
 	color: #eceff1;
 }
 
-table.weapon-builds {
+table.weapon-builds,.length-complexity-content {
 	display: table;
-	width: 1025px;
 	margin:0 auto;
+}
+
+table.weapon-builds {
+	width: 1025px;
 	font-size: 32px;
 	line-height: 42px;
 }
 
+.length-complexity-content {
+	width: 925px;
+}
+
+.length-complexity-content .tips {
+	border: 2px solid #546e7a;
+}
 
 .tips {
 	border-top: 4px solid #546e7a;
@@ -1253,6 +1263,11 @@ table.tips-content {
 .korlok-sprout {
 	width: 120px;
 	height: 180px;
+}
+
+.length-complexity {
+	width: 120px;
+	height: 50px;	
 }
 
 .molly-left,.molly-right {
