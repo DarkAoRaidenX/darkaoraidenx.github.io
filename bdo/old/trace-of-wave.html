@@ -2,205 +2,225 @@
 <html lang="en">
 <head>
 	<title>Trace of Wave</title>
-	<meta charset="UTF-8" />
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
-	<link rel="stylesheet" href="scripts/css/common.css" />
+	<meta charset="UTF-8">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" href="scripts/css/common.css">
 	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
-	<script src="scripts/jquery/3.6.0.js"></script> 
-	<script src="scripts/jquery/plus-minus.js"></script>
-	<script src="scripts/jquery/toggle-div.js"></script>
-	<script src="scripts/jquery/ui-1.13.1.js"></script>
+	<script src="../scripts/jquery/3.7.1.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
 </head>
-<body id="home-page">
+<body id="trace-of-wave-page">
 
-<!-- ToW-container -->
-<div id="ToW-container" class="container bloods" draggable="true" ondragstart="drag(event)">
+<!-- #region - Trace-of-Wave-Container -->
+	<div id="trace-of-wave-container" class="items-container traces" draggable="true" ondragstart="drag(event)">
+
+		<!-- #region - Trace-of-Wave-Content Button -->
+			<div class="button trace-of-wave-button top">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('trace-of-wave-content');">
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div> 
+
+					<span class="trace-of-wave">
+						<img class="icons icons1 trace-of-wave-icon" src="images/icons/traces/wave.webp" alt="Icon"> 
+						Trace of Wave
+					</span>
+				</a>
+
+				<div class="right">
+					<a title="Trace of Wave" class="links" href="https://bdocodex.com/us/item/5953/" target="_blank">🔗</a>
+				</div>
+
+			</div>
+		<!-- #endregion - Trace-of-Wave-Content Button -->
+
+		<!-- #region - Trace-of-Wave-Content -->
+			<div id="trace-of-wave-content" class="hidden">
+
+				<!-- #region - Trace-of-Wave-How-To-Get Button -->
+					<div class="button htg-button">
+						<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-wave-htg-content');">
+			
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+			
+							<span class="htg">
+								<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon"> How to Get 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Trace-of-Wave-How-To-Get Button -->
+
+				<!-- #region - Trace-of-Wave-How-To-Get -->
+					<div id="trace-of-wave-htg-content" class="info hidden">
 
 
-<!-- Item-ToW Button -->
-<div class="button ToW top">
+					<!-- #region - Trace-of-Wave-How-To-Get-Item-Box Button -->
+						<div class="button item-box-button">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Item-ToW');">
+							<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-wave-htg-item-box');">
 
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
+								<div class="left">
+									<div class="dots">
+										<span class="dot-plus">+</span>
+									</div>
+								</div> 
+
+								<span class="item-box">
+									<img class="icons icons1 item-box-icon" src="images/icons/menu/item-box.webp" alt="Icon"> 
+									Item Box
+									</a>
+								</span>
+							</a>
+
+							<div class="right">
+
+							</div>
+
+						</div>
+					<!-- #endregion - Trace-of-Wave-How-To-Get-Item-Box Button -->
+
+					<!-- #region - Trace-of-Wave-How-To-Get-Item-Box -->				
+						<div id="trace-of-wave-htg-item-box" class="info hidden">
+									
+							<!-- #region - Trace-of-Wave - Item-Box Links -->
+								<div class="links-content">
+
+									<a title="Imperial Trace Box" class="links2 grade5" href="https://bdocodex.com/us/item/8072/" target="_blank">
+										<img class="icons icons1" src="images/icons/items/trace-box.webp" alt="Icon"> 
+									   Imperial Trace Box
+									</a>
+
+									<p class="h2 green1">
+										[Daily] [Alchemy] Striving Towards Imperial Delivery
+									</p>
+
+								</div>
+							<!-- #endregion - Trace-of-Wave - Item-Box Links -->
+
+						</div>
+					<!-- #endregion - Trace-of-Wave-How-To-Get-Item-Box -->
+
+
+					</div>
+				<!-- #endregion - Trace-of-Wave-How-To-Get -->
+
+
+				<!-- #region - Trace-of-Wave-Used-In-Content-Button -->
+					<div class="button used-in-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('trace-of-wave-used-in-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="used-in-recipe">
+								<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon"> Used In Recipe 
+							</span>
+						</a>
+
+
+						<div class="right">
+
+						</div>
+					</div>
+				<!-- #endregion - Trace-of-Wave-Used-In-Content-Button -->
+
+				<!-- #region - Trace-of-Wave-Used-In-Content -->
+					<div id="trace-of-wave-used-in-content" class="hidden used-in-content">
+
+
+						<!-- #region - Trace-of-Wave-Designs Button -->
+							<div class="button design-workshop-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-wave-design-workshop');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									<span class="design-workshop">
+										Workshop <img class="icons icons1 design-workshop-icon" src="images/icons/menu/design-workshop.webp" alt="Icon"> 
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Workshops" class="links" href="https://bdo.altarofgaming.com/workshops/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Trace-of-Wave-Designs Button -->
+
+						<!-- #region - Trace-of-Wave-Designs -->
+							<div id="trace-of-wave-design-workshop" class="info hidden">
+								<div class="links-content">
+									
+									<div class="item-link">
+										<a title="Splash Swimming Goggles" class="links2 grade4" href="https://bdocodex.com/us/item/19884/" target="_blank">
+											<img class="icons icons1 splash-goggles-icon" src="images/icons/designs/gear/splash-swimming-goggles.webp" alt="Icon"> Splash Swimming Goggles
+										</a>
+
+										<div class="right">
+											<div class="dots">
+												<span class="circle-text amount">10</span>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>		
+						<!-- #endregion - Trace-of-Wave-Designs -->
+
+						<a title="Trace of Wave" class="links2" href=https://bdocodex.com/us/item/5953/ target="_blank">And More...</a>
+					</div>
+				<!-- #endregion - Trace-of-Wave-Used-In-Content -->
+
+
+
+				<!-- #region - Trace-of-Wave-notes-Content-Button -->
+					<div class="button notes-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('trace-of-wave-notes-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="notes">
+								<img class="icons notes-icon" src="images/icons/menu/notes.webp" alt="Icon"> notes 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Trace-of-Wave-notes-Content-Button -->
+
+				<!-- #region - Trace-of-Wave-notes-Content -->
+					<div id="trace-of-wave-notes-content" class="hidden notes-content">
+						<p class="notes-entry">
+							-notes
+						</p>
+						<p class="notes-entry">
+
+						</p>
+					</div>
+				<!-- #endregion - Trace-of-Wave-notes-Content -->
+
+
+			</div>
+		<!-- #endregion - Trace-of-Wave-Content -->
+
 	</div>
-</div> 
-
-<img class="icons icons1" src="images/icons/traces/wave.png" alt="Icon" />
-Trace of Wave
-</a>
-
-<div class="right">
-
-<div class="dots">
-	<span class="circleText amount">1</span>
-</div>
-
-<a title="Trace of Wave" class="links" href="https://bdocodex.com/us/item/5953/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- Item-ToW Button End -->
-
-<!-- Item-ToW -->
-<div id="Item-ToW" class="hidden">
-
-<!-- Item-ToW-obtaining Button -->
-<div class="button blueBg3">
-
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Item-ToW-obtaining');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-<span class="">
-How to Obtain
-<img class="icons icons1" src="images/icons/traces/wave.png" alt="Icon" />
-</span>
-
-
-</a>
-
-</div>
-<!-- Item-ToW-obtaining Button End -->
-
-<!-- Item-ToW-obtaining -->
-<div id="Item-ToW-obtaining" class="hidden">
-
-
-<!-- ToW-HowToGet-ItemBox Button -->
-<div class="button darkBg2">
-
-<a title="Content Button" class="buttonLink h2 gold" href="javascript:toggleDiv('ToW-HowToGet-ItemBox');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-<img class="icons icons1" src="images/icons/menu/item-box.png" alt="Icon" />
-Item Box
-</a>
-
-<div class="right">
-
-<img class="icons icons1" src="images/icons/traces/wave.png" alt="Icon" />
-
-</div>
-
-</div>
-<!-- ToW-HowToGet-ItemBox Button End -->
-
-<!-- ToW-HowToGet-ItemBox -->
-<div id="ToW-HowToGet-ItemBox" class="info hidden">
-
-<p class="h2 green1">
-Alchemy Daily Reward
-</p>
-
-<a title="Imperial Trace Box" class="gold links2" href="https://bdocodex.com/us/item/8072/" target="_blank">
-<img class="icons icons1" src="images/icons/items/trace-box.png" alt="Icon" />
-Imperial Trace Box
-</a>
-
-</div>
-<!-- ToW-HowToGet-ItemBox End -->
-
-
-
-</div>
-<!-- Item-ToW-obtaining End -->
-
-
-<!-- ToW-Notes-UsedInButton -->
-<div class="button usedin">
-
-<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('ToW-Notes-UsedIn');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-Used In Recipe
-<img class="icons icons6" src="images/icons/menu/checklist-notes.png" alt="Icon" />
-</a>
-
-
-<div class="right">
-
-<a title="Trace of Wave" class="links" href="https://bdocodex.com/us/item/5203/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToW-Notes-UsedInButton End -->
-
-<!-- ToW-Notes-UsedIn -->
-<div id="ToW-Notes-UsedIn" class="hidden usedin-container">
-
-
-
-
-<!-- ToW-Notes-Design Button -->
-<div class="button darkBg2">
-
-<a title="Content Button" class="buttonLink h2 gold" href="javascript:toggleDiv('ToW-Notes-Design');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-<img class="icons icons3" src="images/icons/menu/design.png" alt="Icon" />
-Design
-</a>
-
-<div class="right">
-
-<a title="Trace of Wave" class="links" href="https://bdocodex.com/us/item/5953/" target="_blank">🔗</a>
-
-
-</div>
-
-</div>
-<!-- ToW-Notes-Design Button End -->
-
-<!-- ToW-Notes-Design -->
-<div id="ToW-Notes-Design" class="info hidden">
-
-<a title=" Underwater Breathing +20 sec " class="blue1 links2" href="https://bdocodex.com/us/item/19884/" target="_blank">
-
-<img class="icons icons1" src="images/icons/designs/splash-swimming-goggles.png" alt="Icon" />
-Splash Swimming Goggles
-</a>
-
-<br />
-
-</div>
-<!-- ToW-Notes-Design End -->
-
-
-<a title="Trace of Wave" class="links2" href="https://bdocodex.com/us/item/5953/" target="_blank">And More...</a>
-</div>
-<!-- ToW-Notes-UsedIn End -->
-
-</div>
-<!-- Item-ToW End -->
-
-
-</div>
-<!-- ToW-container End -->
+<!-- #endregion - Trace-of-Wave-Container -->	
 
 </body>
 </html>

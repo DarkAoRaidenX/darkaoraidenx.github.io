@@ -87,6 +87,11 @@ ul li {
 	background: transparent url("../../images/bg/drag-here.webp") no-repeat center 50%;
 }
 
+#elixirs-oluns .columns {
+	background: transparent;
+}
+
+
 
 
 .rows {
@@ -154,12 +159,16 @@ ul li {
 	line-height: 24px;
 	width: 24px;
 	vertical-align: middle;
-	border: 2px solid #bdbdbd;
+	border: 2px solid #546e7a;
 	margin-bottom: 2px;
 }
 
 .dot-plus {
 	font-size: 16px;	
+}
+
+.blank {
+	display: inline-block;
 }
 
 /* #region - containers */
@@ -254,16 +263,36 @@ select, optgroup label, option  {
 	text-transform: uppercase;
 }
 
+.notes a.button-link {
+	margin-right: 20px;
+}
+
 .node-selection-content {
 	margin-top: 4px;
 }
 
 /* #region - text */
-.h1,h2 {
+.h1 {
+	font-size: 24px;
+}
+
+.h2 {
+	font-size: 20px;
+}
+
+.h3 {
+	font-size: 16px;
+}
+
+
+.h1,.h2,.h3 {
 	text-align: center;
 	font-weight: bold;
 }
 
+.pot-effects {
+	font-weight: bold;
+}
 
 .smalltxt {
 	font-size: 16px;
@@ -436,7 +465,7 @@ span.button {
 }
 
 
-.icons1,.ship-anchor-icon,.siege-weapon-icon,.wagon-part-icon {
+.icons1,.ship-anchor-icon,.siege-weapon-icon,.wagon-part-icon,.blank {
 	height: 24px;
 	width: 24px;
 }
@@ -500,7 +529,7 @@ a.button-link,a.button-link:hover, a.links  {
 } 
 
 .links2 {
-	font-size: 20px;
+	font-size: 16px;
 }
 
 a.links2:hover {
@@ -522,9 +551,6 @@ a.links2:hover {
  
 }
 
-.trace-of-memory-button a {
-	color: #000;
-}
 
 /* #endregion - links */
 
@@ -719,57 +745,11 @@ color: #9e9e9e;
 
 /* traces of */
 
-.trace-of-ascension-button {
-	background-color: #558b2f;	
-}
 
-.trace-of-battle-button {
-	background-color: #883410;	
-}
-
-.trace-of-chaos-button {
-	background-color: #424242;	
-}
-
-.trace-of-death-button {
-	background-color: #9e9e9e;	
-}
-
-.trace-of-despair-button {
-	background-color: #00695c;	
-}
-
-.trace-of-the-earth-button {
-	background-color: #5d4037;	
-}
-
-.trace-of-forest-button {
+.trace-of-nature-button {
 	background-color: #2e7d32;	
 }
 
-.trace-of-hunting-button {
-	background-color: #5c6bc0;	
-}
-
-.trace-of-memory-button {
-	background-color: #F2C900;	
-}
-
-.trace-of-origin-button {
-	background-color: #f48fb1;	
-}
-
-.trace-of-savagery-button {
-	background-color: #b71c1c;	
-}
-
-.trace-of-violence-button {
-	background-color: #26a69a;	
-}
-
-.trace-of-wave-button {
-	background-color: #00bcd4;	
-}
 
 /* fruits of end */
 
@@ -784,9 +764,11 @@ color: #9e9e9e;
 	background-color: #1e3c5a;	
 }
 
-.bluebg2, .clr-button, .pw-button {
+.bluebg2, .clr-button {
 	background-color: #284664;	
 }
+
+
 /* 284664 */
 
 .bluebg3 {
@@ -798,7 +780,7 @@ color: #9e9e9e;
 	background-color: #4e86bf;	
 }
 
-.bluebg5,.bdo-home-button,.home-button,.bdocodex-button,.info-button {
+.bluebg5,.bdo-home-button,.home-button,.bdocodex-button,.info-button,.pw-button {
 	background-color: #1565c0;	
 }
 
@@ -814,7 +796,7 @@ color: #9e9e9e;
 	background-color: #41506E;	
 }
 
-.blue-grey-bg2,.design-armor-clothes-button {
+.blue-grey-bg2,.design-armor-clothes-button,.pot-button {
 	background-color: #37474f;	
 }
 
@@ -826,7 +808,7 @@ color: #9e9e9e;
 
 
 
-.brownbg1,.cheapest,.chopping-processing-button,.design-furniture-button,.notes-button,.used-in-button {
+.brownbg1,.cheapest-button,.chopping-processing-button,.design-furniture-button,.notes-button,.used-in-button {
 	background-color: #5d4037;	
 }
 

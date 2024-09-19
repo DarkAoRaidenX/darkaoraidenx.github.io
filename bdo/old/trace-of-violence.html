@@ -2,350 +2,673 @@
 <html lang="en">
 <head>
 	<title>Trace of Violence</title>
-	<meta charset="UTF-8" />
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
-	<link rel="stylesheet" href="scripts/css/common.css" />
+	<meta charset="UTF-8">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" href="scripts/css/common.css">
 	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
-	<script src="scripts/jquery/3.6.0.js"></script> 
-	<script src="scripts/jquery/plus-minus.js"></script>
-	<script src="scripts/jquery/toggle-div.js"></script>
-	<script src="scripts/jquery/ui-1.13.1.js"></script>
+	<script src="../scripts/jquery/3.7.1.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
 </head>
-<body id="home-page">
+<body id="trace-of-violence-page">
 
-<!-- ToV-container -->
-<div id="ToV-container" class="container bloods" draggable="true" ondragstart="drag(event)">
+<!-- #region - Trace-of-Violence-Container -->
+	<div id="trace-of-violence-container" class="items-container traces" draggable="true" ondragstart="drag(event)">
+
+		<!-- #region - Trace-of-Violence-Content Button -->
+			<div class="button trace-of-violence-button top">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('trace-of-violence-content');">
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div> 
+
+					<span class="trace-of-violence">
+						<img class="icons icons1 trace-of-violence-icon" src="images/icons/traces/violence.webp" alt="Icon"> 
+						Trace of Violence
+					</span>
+				</a>
+
+				<div class="right">
+					<a title="Trace of Violence" class="links" href="https://bdocodex.com/us/item/5961/" target="_blank">🔗</a>
+				</div>
+
+			</div>
+		<!-- #endregion - Trace-of-Violence-Content Button -->
+
+		<!-- #region - Trace-of-Violence-Content -->
+			<div id="trace-of-violence-content" class="hidden">
+
+				<!-- #region - Trace-of-Violence-How-To-Get Button -->
+					<div class="button htg-button">
+						<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-violence-htg-content');">
+			
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+			
+							<span class="htg">
+								<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon"> How to Get 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Trace-of-Violence-How-To-Get Button -->
+
+				<!-- #region - Trace-of-Violence-How-To-Get -->
+					<div id="trace-of-violence-htg-content" class="info hidden">
 
 
-<!-- Item-ToV Button -->
-<div class="button ToV top">
+						<!-- #region - Trace-of-Violence-How-To-Get-Item-Box Button -->
+							<div class="button item-box-button">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Item-ToV');">
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-violence-htg-item-box');">
 
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<span class="item-box">
+										<img class="icons icons1 item-box-icon" src="images/icons/menu/item-box.webp" alt="Icon"> 
+										Item Box
+										</a>
+									</span>
+								</a>
+
+								<div class="right">
+
+								</div>
+
+							</div>
+						<!-- #endregion - Trace-of-Violence-How-To-Get-Item-Box Button -->
+
+						<!-- #region - Trace-of-Violence-How-To-Get-Item-Box -->				
+							<div id="trace-of-violence-htg-item-box" class="info hidden">
+										
+								<!-- #region - Trace-of-Violence - Item-Box Links -->
+									<div class="links-content">
+
+										<a title="Imperial Trace Box" class="links2 grade5" href="https://bdocodex.com/us/item/8072/" target="_blank">
+											<img class="icons icons1" src="images/icons/items/trace-box.webp" alt="Icon"> 
+										Imperial Trace Box
+										</a>
+
+										<p class="h2 green1">
+											[Daily] [Alchemy] Striving Towards Imperial Delivery
+										</p>
+
+									</div>
+								<!-- #endregion - Trace-of-Violence - Item-Box Links -->
+
+							</div>
+						<!-- #endregion - Trace-of-Violence-How-To-Get-Item-Box -->
+
+
+						<!-- #region - Trace-of-Violence-How-To-Get-Nodes Button -->
+							<div class="button nodes-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-violence-htg-nodes');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<img class="icons icons1 nodes-icon" src="images/icons/nodes/nodes.webp" alt="Icon"> Nodes
+								</a>
+
+								<div class="right">
+									<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Trace-of-Violence-How-To-Get-Nodes Button -->
+						
+						<!-- #region - Trace-of-Violence-How-To-Get-Nodes -->
+							<div id="trace-of-violence-htg-nodes" class="info hidden">
+								
+								<!-- #region - Trace-of-Violence-Nodes-Links -->			
+									<div class="links-content">
+										<!-- #region - Trace-of-Violence-Node-Link1 -->
+
+											<a title="Mansha Forest - Excavation" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/902" target="_blank">
+												<img class="icons icons1 nodes-excavation-icon" src="images/icons/nodes/excavation.webp" alt="Icon"> 
+												Mansha Forest - Excavation
+											</a>
+											<p class="node-notes smalltxt">
+												Required: 35 Energy from Mansha <br>(Mansha Forest Node Manager)
+											</p>
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="trace-of-violence-htg-node-selection-1" class="node-selection">
+													
+													<option id="trace-of-violence-htg-node-cp-route-1" value="9" selected>
+														Cheapest Route To: Trent (9CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Trent">
+														<option id="trace-of-violence-htg-node-route-1-option-1" value="2">
+															(2CP) Lumberjack Rest Area
+														</option>
+														<option id="trace-of-violence-htg-node-route-1-option-2" value="3">
+															(3CP) Abandoned Monastery
+														</option>
+														<option id="trace-of-violence-htg-node-route-1-option-3" value="2">
+															(2CP) Tobare's Cabin
+														</option>
+														<option id="trace-of-violence-htg-node-route-1-option-4" value="2">
+															(2CP) Mansha Forest
+														</option>
+														<option id="trace-of-violence-htg-node-route-1-option-5" value="1">
+															(1CP) Mansha Forest - Excavation
+														</option>
+														<option id="trace-of-violence-htg-node-route-1-option-6" value="0">
+															Req: 35 Energy from the Node Manager
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="trace-of-violence-htg-node-selection-2" class="node-selection">
+													
+													<option id="trace-of-violence-htg-node-cp-route-2" value="10" selected>
+														Cheapest Route To: Calpheon (10CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Calpheon">
+														<option id="trace-of-violence-htg-node-route-2-option-1" value="2">
+															(2CP) Gabino Farm
+														</option>
+														<option id="trace-of-violence-htg-node-route-2-option-2" value="3">
+															(3CP) North Kaia Pier
+														</option>
+														<option id="trace-of-violence-htg-node-route-2-option-3" value="1">
+															(1CP) Calpheon Castle Site
+														</option>
+														<option id="trace-of-violence-htg-node-route-2-option-4" value="1">
+															(1CP) Catfishman Camp
+														</option>
+														<option id="trace-of-violence-htg-node-route-2-option-5" value="2">
+															(2CP) Mansha Forest
+														</option>
+														<option id="trace-of-violence-htg-node-route-2-option-6" value="1">
+															(1CP) Mansha Forest - Excavation
+														</option>
+														<option id="trace-of-violence-htg-node-route-2-option-7" value="0">
+															Req: 35 Energy from the Node Manager
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<br>
+											<a title="Mountain of Division - Excavation" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1716" target="_blank">
+												<img class="icons icons1 nodes-excavation-icon" src="images/icons/nodes/excavation.webp" alt="Icon"> 
+												Mansha Forest - Excavation
+											</a>
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="trace-of-violence-htg-node-selection-3" class="node-selection">
+													
+													<option id="trace-of-violence-htg-node-cp-route-3" value="9" selected>
+														Cheapest Route To: O'Draxxia (9CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - O'Draxxia">
+														<option id="trace-of-violence-htg-node-route-3-option-1" value="1">
+															(1CP) Forgotten Mountain
+														</option>
+														<option id="trace-of-violence-htg-node-route-3-option-2" value="3">
+															(3CP) Olun's Valley
+														</option>
+														<option id="trace-of-violence-htg-node-route-3-option-3" value="1">
+															(1CP) Bahit Sanctum
+														</option>
+														<option id="trace-of-violence-htg-node-route-3-option-4" value="2">
+															(2CP) Mountain of Division
+														</option>
+														<option id="trace-of-violence-htg-node-route-3-option-5" value="2">
+															(2CP) Mountain of Division - Excavation
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<br>
+											<a title="Star's End - Excavation" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1720" target="_blank">
+												<img class="icons icons1 nodes-excavation-icon" src="images/icons/nodes/excavation.webp" alt="Icon"> 
+												Star's End - Excavation
+											</a>
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="trace-of-death-htg-node-selection-4" class="node-selection">
+													
+													<option id="trace-of-death-htg-node-cp-route-4" value="16" selected>
+														Cheapest Route To: Grána (16CP) <!-- Grana -->
+													</option>
+			
+													<optgroup label="Start: (0CP) - Grána"> 
+														<option id="trace-of-death-htg-node-route-4-option-1" value="3">
+															(3CP) Lake Flondor
+														</option>
+														<option id="trace-of-death-htg-node-route-4-option-2" value="1">
+															(1CP) White Wood Forest
+														</option>
+														<option id="trace-of-death-htg-node-route-4-option-3" value="3">
+															(3CP) Tooth Fairy Forest
+														</option>
+														<option id="trace-of-death-htg-node-route-4-option-4" value="2">
+															(2CP) Loopy Tree Forest
+														</option>
+														<option id="trace-of-death-htg-node-route-4-option-5" value="3">
+															(3CP) Ash Forest
+														</option>
+														<option id="trace-of-death-htg-node-route-4-option-6" value="3">
+															(3CP) Star's End
+														</option>
+														<option id="trace-of-death-htg-node-route-4-option-7" value="1">
+															(1CP) Star's End - Excavation
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="trace-of-death-htg-node-selection-5" class="node-selection">
+													
+													<option id="trace-of-death-htg-node-cp-route-5" value="18" selected>
+														Cheapest Route To: Calpheon (18CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Calpheon">
+														<option id="trace-of-death-htg-node-route-5-option-1" value="2">
+															(2CP) Gabino Farm
+														</option>
+														<option id="trace-of-death-htg-node-route-5-option-2" value="3">
+															(3CP) North Kaia Pier
+														</option>
+														<option id="trace-of-death-htg-node-route-5-option-3" value="1">
+															(1CP) Calpheon Castle Site
+														</option>
+														<option id="trace-of-death-htg-node-route-5-option-4" value="3">
+															(3CP) Calpheon Castle
+														</option>
+														<option id="trace-of-death-htg-node-route-5-option-5" value="2">
+															(2CP) Brelin Farm
+														</option>
+														<option id="trace-of-death-htg-node-route-5-option-6" value="3">
+															(3CP) Calpheon Northwestern Outpost
+														</option>
+														<option id="trace-of-death-htg-node-route-5-option-7" value="3">
+															(3CP) Star's End
+														</option>
+														<option id="trace-of-death-htg-node-route-5-option-8" value="1">
+															(1CP) Star's End - Excavation
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+										<!-- #endregion - Trace-of-Violence-Node-Link1 -->				
+									</div>
+								<!-- #endregion - Trace-of-Violence-Nodes-Links -->		
+
+								<br>
+							</div>
+						<!-- #endregion - Trace-of-Violence-How-To-Get-Nodes -->
+
+
+
+						<!-- #region - Trace-of-Violence-How-To-Get-Processing Button -->
+							<div class="button processing-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-violence-htg-processing-content');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									<span class="processing-guild">
+										<img class="icons processing-icon" src="images/icons/menu/processing.webp" alt="Icon"> Processing
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Trace-of-Violence-How-To-Get-Processing Button -->
+
+						<!-- #region - Trace-of-Violence-How-To-Get-Processing -->
+							<div id="trace-of-violence-htg-processing-content" class="info hidden">
+
+								<!-- #region - Trace-of-Violence-How-To-Get-Processing-Heating Button -->
+									<div class="button processing-heating-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-violence-htg-processing-heating');">
+
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+
+											<img class="icons icons1 heating-icon" src="images/icons/processing/heating.webp" alt="Icon"> Heating  
+										</a>
+
+										<div class="right">
+											<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+										</div>
+
+									</div>
+								<!-- #endregion - Trace-of-Violence-How-To-Get-Processing-Heating Button -->
+									
+								<!-- #region - Trace-of-Violence-How-To-Get-Processing-Heating -->
+									<div id="trace-of-violence-htg-processing-heating" class="info hidden">
+										
+										<!-- #region - items-trace-of-violence-info-Heating -->			
+											<div class="links-content">
+												
+
+												<div class="item-link">
+													<a title="Kalis Weapons" class="links2 grade3" href="https://bdocodex.com/us/item/757455/" target="_blank">
+														<img class="icons icons1" src="images/icons/items/weapons/main-box.webp" alt="Icon"> 
+														Kalis Weapons
+													</a>
+
+													<div class="right">
+
+													</div>
+												</div>
+
+												
+											</div>
+										<!-- #endregion - items-trace-of-violence-info-Heating -->		
+
+									</div>
+								<!-- #endregion - Trace-of-Violence-How-To-Get-Processing-Heating -->
+								
+							</div>
+						<!-- #endregion - Trace-of-Violence-How-To-Get-Processing -->
+
+
+					</div>
+				<!-- #endregion - Trace-of-Violence-How-To-Get -->
+
+
+				<!-- #region - Trace-of-Violence-Used-In-Content-Button -->
+					<div class="button used-in-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('trace-of-violence-used-in-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="used-in-recipe">
+								<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon"> Used In Recipe 
+							</span>
+						</a>
+
+
+						<div class="right">
+
+						</div>
+					</div>
+				<!-- #endregion - Trace-of-Violence-Used-In-Content-Button -->
+
+				<!-- #region - Trace-of-Violence-Used-In-Content -->
+					<div id="trace-of-violence-used-in-content" class="hidden used-in-content">
+
+
+						<!-- #region - Trace-of-Violence-Used-In-Alchemy Button -->
+							<div class="button item-alchemy-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-violence-used-in-alchemy');">
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									
+									<img class="icons icons1 alchemy-icon" src="images/icons/processing/simple-alchemy.webp" alt="Icon"> Alchemy
+								</a>
+								
+								<div class="right">
+									<a title="Alchemy Guide" class="links" href="https://grumpygreen.cricket/alchemy/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Trace-of-Violence-Used-In-Alchemy Button -->
+
+						<!-- #region - Trace-of-Violence-Used-In-Alchemy -->
+							<div id="trace-of-violence-used-in-alchemy" class="info hidden">
+							
+								<!-- #region - trace-of-violence-items-links -->	
+									<div class="links-content">
+
+										<div class="item-link">
+											<a title="Defense Nullifying Damage +5 per Back Attack" class="links2 grade3" href="https://bdocodex.com/us/item/680/" target="_blank">
+												<img class="icons icons1 perforation-pot-icon" src="images/icons/pots/perforation.webp" alt="Icon"> 
+												Elixir of Perforation
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circle-text amount">2</span>
+												</div>
+											</div>
+										</div>
+										
+										<div class="item-link">
+											<a title="All AP +20|Max HP +200|Attack Speed +5|Casting Speed +5|Movement Speed +5" class="links2 grade5" href="https://bdocodex.com/us/item/734/" target="_blank">
+												 <img class="icons icons1 poc2-pot-icon" src="images/icons/pots/perfume-of-courage.webp" alt="Icon"> 
+												Perfume of Courage
+											</a>
+	
+											<div class="right">
+												<div class="dots">
+													<span class="circle-text amount">3</span>
+												</div>
+											</div>
+										</div>
+
+									</div>			
+								<!-- #endregion - trace-of-violence-items-links -->									
+							</div>
+						<!-- #endregion - Trace-of-Violence-Used-In-Alchemy -->						
+
+
+						<!-- #region - Trace-of-Violence-Used-In-Processing Button -->
+							<div class="button processing-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-violence-used-in-processing-content');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									<span class="processing-guild">
+										<img class="icons processing-icon" src="images/icons/menu/processing.webp" alt="Icon"> Processing
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Trace-of-Violence-Used-In-Processing Button -->
+
+						<!-- #region - Trace-of-Violence-Used-In-Processing -->
+							<div id="trace-of-violence-used-in-processing-content" class="info hidden">
+
+
+								<!-- #region - Trace-of-Violence-Used-In-processing-guild Button -->
+									<div class="button processing-guild-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-violence-processing-guild');">
+											
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+											<span class="processing-guild">
+												<img class="icons icons1 processing-guild-icon" src="images/icons/processing/guild.webp" alt="Icon"> Guild 
+											</span>
+										</a>
+										
+										<div class="right">
+											<a title="Guild Guide" class="links" href="https://www.blackdesertfoundry.com/guilds-guide/" target="_blank">🔗</a>
+										</div>
+
+									</div>
+								<!-- #endregion - Trace-of-Violence-Used-In-processing-guild Button -->
+
+								<!-- #region - Trace-of-Violence-Used-In-processing-guild -->
+									<div id="trace-of-violence-processing-guild" class="info hidden">
+										<div class="links-content">
+
+											<div class="item-link">
+												<a title="[Guild] Cloudy Timber" class="links2 grade4" href="https://bdocodex.com/us/item/9974/" target="_blank">
+													<img class="icons icons1 guild-cloudy-timber-icon" src="images/icons/designs/guild/cloudy-timber.webp" alt="Icon"> [Guild] Cloudy Timber
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circle-text amount">10</span>
+													</div>
+												</div>
+											</div>	
+
+										</div>
+									</div>		
+								<!-- #endregion - Trace-of-Violence-Used-In-processing-guild -->
+
+								
+							</div>
+						<!-- #endregion - Trace-of-Violence-Used-In-Processing -->
+
+
+						<!-- #region - Trace-of-Violence-Workshop Button -->
+							<div class="button workshop-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-violence-used-in-workshop-content');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									<span class="design-workshop">
+										<img class="icons icons1 design-workshop-icon" src="images/icons/menu/workshop.webp" alt="Icon"> Workshop
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Workshops" class="links" href="https://bdo.altarofgaming.com/workshops/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Trace-of-Violence-Workshop Button -->
+
+						<!-- #region - Trace-of-Violence-Workshop -->
+							<div id="trace-of-violence-used-in-workshop-content" class="info hidden">
+							
+								<!-- #region - Trace-of-Violence-Design-Siege-Weapon Button -->
+									<div class="button siege-weapon-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-violence-design-siege-weapon');">
+											
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+											<span class="design-siege-weapon-text">
+												<img class="icons siege-weapon-icon" src="images/icons/menu/workshop/siege-weapon.webp" alt="Icon"> Siege Weapon 
+											</span>
+										</a>
+										
+										<div class="right">
+											<a title="Workshops" class="links" href="https://bdo.altarofgaming.com/workshops/" target="_blank">🔗</a>
+										</div>
+
+									</div>
+								<!-- #endregion - Trace-of-Violence-Design-Siege-Weapon Button -->
+
+								<!-- #region - Trace-of-Violence-Design-Siege-Weapon -->
+									<div id="trace-of-violence-design-siege-weapon" class="info hidden">
+										<div class="links-content">
+											
+											<div class="item-link">
+												<a title="Stun your enemy for 10 sec" class="links2 grade2" href="https://bdocodex.com/us/item/56014/" target="_blank">
+													<img class="icons icons1 stun-trap-icon" src="images/icons/designs/traps/stun.webp" alt="Icon"> Stun Trap
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circle-text amount">1</span>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>		
+								<!-- #endregion - Trace-of-Violence-Design-Siege-Weapon -->
+
+
+							</div>
+						<!-- #endregion - Trace-of-Violence-Workshop -->
+
+						<a title="Trace of Violence" class="links2" href=https://bdocodex.com/us/item/5961/ target="_blank">And More...</a>
+					</div>
+				<!-- #endregion - Trace-of-Violence-Used-In-Content -->
+
+
+
+				<!-- #region - Trace-of-Violence-notes-Content-Button -->
+					<div class="button notes-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('trace-of-violence-notes-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="notes">
+								<img class="icons notes-icon" src="images/icons/menu/notes.webp" alt="Icon"> notes 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Trace-of-Violence-notes-Content-Button -->
+
+				<!-- #region - Trace-of-Violence-notes-Content -->
+					<div id="trace-of-violence-notes-content" class="hidden notes-content">
+						<p class="notes-entry">
+							-notes
+						</p>
+						<p class="notes-entry">
+
+						</p>
+					</div>
+				<!-- #endregion - Trace-of-Violence-notes-Content -->
+
+
+			</div>
+		<!-- #endregion - Trace-of-Violence-Content -->
+
 	</div>
-</div> 
-
-<img class="icons icons1" src="images/icons/traces/violence.png" alt="Icon" />
-Trace of Violence
-</a>
-
-<div class="right">
-
-<div class="dots">
-	<span class="circleText amount">1</span>
-</div>
-
-<a title="Trace of Violence" class="links" href="https://bdocodex.com/us/item/5961/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- Item-ToV Button End -->
-
-<!-- Item-ToV -->
-<div id="Item-ToV" class="hidden">
-
-<!-- Item-ToV-obtaining Button -->
-<div class="button blueBg3">
-
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Item-ToV-obtaining');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-<span class="">
-How to Obtain
-<img class="icons icons1" src="images/icons/traces/violence.png" alt="Icon" />
-</span>
-
-
-</a>
-
-</div>
-<!-- Item-ToV-obtaining Button End -->
-
-<!-- Item-ToV-obtaining -->
-<div id="Item-ToV-obtaining" class="hidden">
-
-
-<!-- ToV-HowToGet-Heating Button -->
-<div class="button darkBg2">
-
-<a title="Content Button" class="buttonLink h2 gold" href="javascript:toggleDiv('ToV-HowToGet-Heating');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-Processing: Heating <img class="icons icons1" src="images/icons/processing/heating.png" alt="Icon" />
-</a>
-
-<div class="right">
-
-<a title="Trace of Violence" class="links" href="https://bdocodex.com/us/item/5961/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToV-HowToGet-Heating Button End -->
-
-<!-- ToV-HowToGet-Heating -->
-<div id="ToV-HowToGet-Heating" class="info hidden">
-
-<a title="Kalis Weapons" class="links2" href="https://bdocodex.com/us/item/757455/" target="_blank">
-<img class="icons icons1" src="images/icons/items/weapons/main-box.png" alt="Icon" />
-Kalis Weapons
-</a>
-
-</div>
-<!-- ToV-HowToGet-Heating End -->
-
-<!-- ToV-HowToGet-ItemBox Button -->
-<div class="button darkBg2">
-
-<a title="Content Button" class="buttonLink h2 gold" href="javascript:toggleDiv('ToV-HowToGet-ItemBox');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-<img class="icons icons1" src="images/icons/menu/item-box.png" alt="Icon" />
-Item Box
-</a>
-
-<div class="right">
-
-<a title="Trace of Violence" class="links" href="https://bdocodex.com/us/item/5961/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToV-HowToGet-ItemBox Button End -->
-
-<!-- ToV-HowToGet-ItemBox -->
-<div id="ToV-HowToGet-ItemBox" class="info hidden">
-
-<p class="h2 green1">
-Alchemy Daily Reward
-</p>
-
-<a title="Imperial Trace Box" class="gold links2" href="https://bdocodex.com/us/item/8072/" target="_blank">
-<img class="icons icons1" src="images/icons/items/trace-box.png" alt="Icon" />
-Imperial Trace Box
-</a>
-
-</div>
-<!-- ToV-HowToGet-ItemBox End -->
-
-
-<!-- ToV-HowToGet-Nodes Button -->
-<div class="button darkBg2">
-
-<a title="Content Button" class="buttonLink h2 gold" href="javascript:toggleDiv('ToV-HowToGet-Nodes');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
-Nodes
-</a>
-
-<div class="right">
-
-<div class="dots">
-	<span class="circleText amount">9</span>
-</div>
-
-<a title="Trace of Violence" class="links" href="https://bdocodex.com/us/item/5961/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToV-HowToGet-Nodes Button End -->
-
-<!-- ToV-HowToGet-Nodes -->
-<div id="ToV-HowToGet-Nodes" class="info hidden">
-
-<p class="h2 gold2">9CP Trent/10CP Calpheon</p>
-
-<a title="Mansha Forest - Excavation" class="links2" href="https://www.somethinglovely.net/bdo/#node/902" target="_blank">
-<img class="icons icons1" src="images/icons/nodes/mining.png" alt="Icon" />
-Mansha Forest
-</a>
-<p class="red smallTxt">
-Required: 35 Energy from Mansha 
-<br />
-(Mansha Forest Node Manager)
-</p>
-
-
-<p class="h2 gold2">10CP O'draxxia</p>
-
-<a title="Mountain of Division - Excavation" class="links2" href="https://www.somethinglovely.net/bdo/#node/1716" target="_blank">
-<img class="icons icons1" src="images/icons/nodes/mining.png" alt="Icon" />
-Mountain of Division - Excavation
-</a>
-
-
-<p class="h2 gold2">16CP Grána/18CP Calpheon</p>
-
-<a title="Star's End - Excavation" class="links2" href="https://www.somethinglovely.net/bdo/#node/1720" target="_blank">
-<img class="icons icons1" src="images/icons/nodes/mining.png" alt="Icon" />
-Star's End - Excavation
-</a>
-
-</div>
-<!-- ToV-HowToGet-Nodes End -->
-
-
-</div>
-<!-- Item-ToV-obtaining End -->
-
-
-<!-- ToV-Notes-UsedInButton -->
-<div class="button usedin">
-
-<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('ToV-Notes-UsedIn');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-Used In Recipe
-<img class="icons icons6" src="images/icons/menu/checklist-notes.png" alt="Icon" />
-</a>
-
-
-<div class="right">
-
-<a title="Trace of Violence" class="links" href="https://bdocodex.com/us/item/5203/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToV-Notes-UsedInButton End -->
-
-<!-- ToV-Notes-UsedIn -->
-<div id="ToV-Notes-UsedIn" class="hidden usedin-container">
-
-<!-- ToV-Notes-Alchemy Button -->
-<div class="button darkBg2">
-
-<a title="Content Button" class="buttonLink h2 gold" href="javascript:toggleDiv('ToV-Notes-Alchemy');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-<img class="icons icons1" src="images/icons/processing/simple-alchemy.png" alt="Icon" />
-Alchemy
-</a>
-
-<div class="right">
-
-<a title="Trace of Violence" class="links" href="https://bdocodex.com/us/item/5961/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToV-Notes-Alchemy Button End -->
-
-<!-- ToV-Notes-Alchemy -->
-<div id="ToV-Notes-Alchemy" class="info hidden">
-
-<a title=" Defense Nullifying Damage +5 per Back Attack" class="green1 links2" href="https://bdocodex.com/us/item/680/" target="_blank">
-
-<img class="icons icons1" src="images/icons/pots/perforation.png" alt="Icon" />
-Elixir of Perforation
-</a>
-
-<br />
-
-<a title="All AP +20
-Max HP +200
-Attack Speed +5
-Casting Speed +5
-Movement Speed +5
-" class="gold links2" href="https://bdocodex.com/us/item/734/" target="_blank">
-
-<img class="icons icons1" src="images/icons/pots/perfume-of-courage.png" alt="Icon" />
-Perfume of Courage
-</a>
-
-</div>
-<!-- ToV-Notes-Alchemy End -->
-
-
-
-
-
-<!-- ToV-Notes-Design Button -->
-<div class="button darkBg2">
-
-<a title="Content Button" class="buttonLink h2 gold" href="javascript:toggleDiv('ToV-Notes-Design');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-<img class="icons icons3" src="images/icons/menu/design.png" alt="Icon" />
-Design
-</a>
-
-<div class="right">
-
-<a title="Trace of Violence" class="links" href="https://bdocodex.com/us/item/5961/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToV-Notes-Design Button End -->
-
-<!-- ToV-Notes-Design -->
-<div id="ToV-Notes-Design" class="info hidden">
-
-<a title="Stun Trap" class="links2" href="https://bdocodex.com/us/item/56014/" target="_blank">
-
-<img class="icons icons1" src="images/icons/designs/traps/stun.png" alt="Icon" />
-Stun Trap
-</a>
-
-<br />
-
-</div>
-<!-- ToV-Notes-Design End -->
-
-
-<a title="Trace of Violence" class="links2" href="https://bdocodex.com/us/item/5961/" target="_blank">And More...</a>
-</div>
-<!-- ToV-Notes-UsedIn End -->
-
-</div>
-<!-- Item-ToV End -->
-
-
-</div>
-<!-- ToV-container End -->
+<!-- #endregion - Trace-of-Violence-Container -->	
 
 </body>
 </html>

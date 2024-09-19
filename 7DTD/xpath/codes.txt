@@ -1,0 +1,1477 @@
+<div class="comment">
+									<span class="less-than">&lt;</span>!-- Add a chance to get Water or Yucca Juice from a Cactus. --<span class="greater-than">&gt;</span>
+								</div>
+								<span class="less-than">&lt;</span><span class="tag">append</span> <span class="attribute">xpath</span>=<span class="string">"//block[@name='treeCactus01']"</span><span class="greater-than">&gt;</span>
+								
+								<br><span class="less-than">&lt;</span><span class="tag">drop</span> <span class="attribute">event</span>=<span class="string">"Destroy"</span> <span class="attribute">name</span>=<span class="string">"drinkJarYuccaJuice"</span> <span class="attribute">count</span>=<span class="string">"1,2"</span> <span class="attribute">prob</span>=<span class="string">"0.2"</span> <span class="greater-than">/&gt;</span>
+								
+								
+								<br>
+								<span class="less-than">&lt;</span><span class="tag">drop</span> <span class="attribute">event</span>=<span class="string">"Destroy"</span> <span class="attribute">name</span><span class="attribute">=<span class="string">"drinkJarBoiledWater"</span> <span class="attribute">count</span>=<span class="string">"1,2"</span> <span class="attribute">prob</span>=<span class="string">"0.2"</span> <span class="greater-than">/&gt;</span>
+								
+								<br>
+								<span class="less-than">&lt;/</span>append<span class="greater-than">&gt;</span>
+
+
+								<div class="example-images">
+								<img class="code-example" src="https://i.imgur.com/RsRK6tD.png" alt="append-example">
+								<br>
+								<img class="code-example" src="https://i.imgur.com/DbXWy3A.png" alt="append-results">
+							</div>
+							
+							<div id="appending-code" class="text-content">
+
+								<div class="comment">
+									<span class="less-than">&lt;</span>!-- Added a chance to get Water or Yucca Juice from a Cactus --<span class="greater-than">&gt;</span>
+								</div>
+
+								<div class="code-line1">
+									<span class="less-than">&lt;</span><span class="tag">append</span> <span class="attribute">xpath</span>=<span class="string">"//block[@name='treeCactus01']"</span><span class="greater-than">&gt;</span>
+								</div>
+								
+								<div class="code-line2">
+									<span class="less-than">&lt;</span><span class="tag">drop</span> <span class="attribute">event</span>=<span class="string">"Destroy"</span> <span class="attribute">name</span>=<span class="string">"drinkJarYuccaJuice"</span> <span class="attribute">count</span>=<span class="string">"1,2"</span> <span class="attribute">prob</span>=<span class="string">"0.2"</span> <span class="greater-than">/&gt;</span>
+								</div>
+								
+								<div class="code-line3">
+									<span class="less-than">&lt;</span><span class="tag">drop</span> <span class="attribute">event</span>=<span class="string">"Destroy"</span> <span class="attribute">name</span>=<span class="string">"drinkJarBoiledWater"</span> <span class="attribute">count</span>=<span class="string">"1,2"</span> <span class="attribute">prob</span>=<span class="string">"0.2"</span> <span class="greater-than">/&gt;</span>
+								</div>
+
+								<div class="code-line4">
+									<span class="less-than">&lt;/</span><span class="tag">append</span><span class="greater-than">&gt;</span>
+								</div>
+								
+							</div>
+
+							<br>
+					<div class="h2">
+						<a title="Click To Show" class="header-link hide-show tag" href="javascript:toggleDiv('what-content');">
+							<div class="plus-minus">+</div> <span class="less-than">&lt;</span>Tag<span class="greater-than">&gt;</span>
+						</a>
+					</div>
+					<div id="tag-content" class="hidden">
+						<div class="sub-text">
+							subtext
+						</div>
+	
+javascript:toggleDiv('xpath-basics-content');
+javascript:toggleDiv('functions-content');
+
+						<div class="text-content" class="hidden">
+							<div class="h3">Examples</div>
+							<br>
+							<div id="tag-block" class="code-block">
+								<table id="tag-examples">
+									<tr>
+									  <td id="tag-images">
+										<img class="code-example" src="https://i.imgur.com/D6dK1Ps.png" alt="tag-example">
+										<img class="code-example" src="https://i.imgur.com/aum0cxs.png" alt="tag-results1">
+										<img class="code-example" src="https://i.imgur.com/BM6KyLq.png" alt="tag-results2">
+									  </td>
+									  <td class="text-content">
+	
+										<div id="tag-code" class="code-line-text">
+											<div class="comment">
+												<span class="less-than">&lt;</span>!-- Comment --<span class="greater-than">&gt;</span>
+											</div>
+			
+											<div class="code-line1">
+												
+											</div>
+											
+											<div class="code-line2">
+											
+											</div>
+											
+											<div class="code-line3">
+												
+											</div>
+			
+											<div class="code-line4">
+												
+											</div>
+		
+										</div>
+										
+										<br>
+										<div class="text-content">
+
+
+
+										</div>
+										
+	
+									  </td>
+									</tr>
+								</table> 
+							</div>
+							
+						</div>
+					</div>
+
+					<div class="code-line1">
+												<span class="less-than">&lt;</span><span class="tag">insertBefore</span> <span class="attribute">xpath</span>=<span class="string">"//block[@name='treeCactus01']/property[@name='SortOrder1']"</span><span class="greater-than">&gt;</span>
+											</div>
+											
+											<div class="code-line2">
+												<span class="less-than">&lt;</span><span class="tag">drop</span> <span class="attribute">event</span>=<span class="string">"Destroy"</span> <span class="attribute">name</span>=<span class="string">"drinkJarYuccaJuice"</span> <span class="attribute">count</span>=<span class="string">"1,2"</span> <span class="attribute">prob</span>=<span class="string">"0.2"</span> <span class="greater-than">/&gt;</span>
+											</div>
+											
+											<div class="code-line3">
+												<span class="less-than">&lt;</span><span class="tag">drop</span> <span class="attribute">event</span>=<span class="string">"Destroy"</span> <span class="attribute">name</span>=<span class="string">"drinkJarBoiledWater"</span> <span class="attribute">count</span>=<span class="string">"1,2"</span> <span class="attribute">prob</span>=<span class="string">"0.2"</span> <span class="greater-than">/&gt;</span>
+											</div>
+			
+											<div class="code-line4">
+												<span class="less-than">&lt;/</span><span class="tag">insertBefore</span><span class="greater-than">&gt;</span>
+											</div>
+
+											<br>
+											<div class="h2">
+						<a title="Click To Show/Hide" class="header-link hide-show" href="javascript:toggleDiv('basics-content');">
+							<div class="plus-minus">+</div> Basic Overview
+						</a>
+					</div>
+
+					<div id="basics-content" class="hidden">
+					
+					</div>
+
+					/* #region - copy text button */
+.tooltip {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+	visibility: hidden;
+	width: 140px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px;
+	position: absolute;
+	z-index: 1;
+	bottom: 150%;
+	left: 50%;
+	margin-left: -75px;
+	opacity: 0;
+	transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
+  }
+/* #endregion - copy text button */
+
+
+
+					<br>
+					<div class="h2">
+						<a title="Click To Show/Hide" class="header-link hide-show comment" href="javascript:toggleDiv('comments-content');">
+							<div class="plus-minus">+</div> Comments
+						</a>
+					</div>
+
+					<div id="comments-content" class="hidden">
+						<div class="sub-text">
+							Doesn't affect the code. 
+							<br>
+							Basically you can leave notes saying what this part of the code does what or ToDo notes etc.
+						</div>
+						<div class="text-content">
+	
+							<div id="comment-code-block" class="code-block">
+								<div id="comment" class="text-content">
+									<div class="comment">
+										<span class="less-than">&lt;</span>!-- Anything put in between this is a Comment. --<span class="greater-than">&gt;</span>
+									</div>
+								</div>
+							</div>
+							
+							
+						</div>
+					</div>
+
+					<div class="plus-minus">+</div>
+<a title="Click To Show Content" id="ui-xui-link" class="nav-main-link" href="javascript:showonlyone('ui-xui-notes');">
+					<br><br>
+					<div class="h2">
+						<a title="Click To Show/Hide" class="header-link hide-show" href="javascript:toggleDiv('folders-content');">
+							<div class="plus-minus">+</div> Folder Paths
+						</a>
+					</div>
+					Next you should remember a few folder paths.
+					<br>
+					Once you find all the Folder Locations Pin them to Quick Access.
+					<br>
+					- <span class="tag">Right Click on folder > Pin to Quick Access</span>.
+
+					<div id="folders-content" class="hidden">
+
+						<br>
+						<div class="h2">Vanilla Config Folder</div>
+						Where ever your Steam folder is.
+						<br>
+						Most Common Path
+						<div class="code-block">
+							<span class="tag">C:</span><span class="string">\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Data\Config</span>
+						</div>
+						- You might have to make a Mods folder first. Make sure to name it exactly with a capital M.
+	
+						<br><br>
+						<div class="h2">Mods Folder</div>
+						At this time there is 2 locations to load Mods from.
+						<br> 
+						They posted that the Mods folder will change to the 2nd location
+						<br>
+						but hasn't happened yet.
+	
+						<br><br>
+						Where ever your <span class="tag">Steam</span> folder is.
+						<br>
+						Most Common Path
+						<div class="code-block">
+							<span class="tag">C:</span><span class="string">\Program Files (x86)\Steam\steamapps\common\7 Days To Die</span>
+						</div>
+						- You might have to make a Mods folder first. Make sure to name it exactly with a capital M.
+	
+	
+						
+						<div class="code-block">
+							<span class="tag">%APPDATA%</span>
+							<br>
+							<span class="tag">C:</span><span class="string">\Users\PC-NAME\AppData\Roaming\7DaysToDie\Mods</span>
+						</div>
+						- You might have to make a Mods folder first. Make sure to name it exactly with a capital M.
+	
+						<br><br>
+						<div class="h2">ConfigsDump Folder</div>
+						This folder is to help troubleshoot any problems.
+						<br>
+						It has XML files that game save files load.
+						<br>
+						So you check if your code edits loaded properly etc.
+						
+						
+						<div class="code-block">
+							<span class="tag">%APPDATA%</span>
+							<br>
+							<span class="tag">C:</span><span class="string">\Users\PC-NAME\AppData</span>
+						</div>
+						
+						<br><br>
+						Here is what the Full Path should look like.
+						<div class="code-block">
+							<span class="tag">C:</span><span class="string">\Users\PC-NAME\AppData\Roaming\7DaysToDie\Saves\WorldName\SaveName\ConfigsDump</span>
+							<br>
+							<span class="tag">C:</span><span class="string">\Users\PC-7900x\AppData\Roaming\7DaysToDie\Saves\Navezgane\A21Test\ConfigsDump</span>
+						</div>
+					</div>
+
+					<br><br>
+					<div class="h2">
+						<a title="Click To Show/Hide" class="header-link hide-show" href="javascript:toggleDiv('vscode-content');">
+							<div class="plus-minus">+</div> VS Code Tips
+						</a>
+					</div>
+
+					<div id="vscode-content" class="hidden">
+
+						<div class="h3">
+							Setting Up Visual Studio Code
+						</div>
+						<br>
+						Visual Studio Code has a lot you can do, as such it can be used right out of the box, 
+						<br>
+						however I would like to show you some things to optimize your efficiency.
+						
+						<br><br>
+						Drag and Drop 2 folders into VSC
+						<br>
+						- the Mods folder and the Vanilla Config Folder
+						<br>
+						a dialog box should pop up saying Add to Workspace and one that says Trust, click Yes and trust.
+
+						<br><br>
+						<div class="h3">
+							Saving the Workspace
+						</div>
+						
+
+						<br><br>
+						<div class="h3">
+							Turn of Auto Save
+						</div> 
+						<span class="tag">File > Auto Save</span>
+
+
+						<br><br>
+						<div class="h3">
+							Use a Dark(er) Theme
+						</div> 
+						- Please
+
+						<br><br>
+						<div class="h3">
+							
+						</div> 
+						
+						
+						
+					</div>
+
+					<span class="less-than">&lt;</span><span class="tag">set</span> <span class="attribute">xpath</span>=<span class="string">"//recipe[@name='keystoneBlock']/@craft_time"</span><span class="greater-than">&gt;</span>15<span class="less-than">&lt;</span><span class="slash">/</span><span class="tag">set</span><span class="greater-than">&gt;</span>
+
+						<br>
+											<div class="h2">
+												Files / Folder Path
+											</div>
+
+											<br>
+											<div class="h2">
+												<a title="Click To Show/Hide" class="header-link hide-show" href="javascript:toggleDiv('mods-folders-content');">
+													<div class="plus-minus">+</div>Setup Mod Folder
+												</a>
+											</div>
+
+											<div id="mods-folders-content" class="hidden">
+												
+												<br>
+												<div class="h2">
+													Setup Mod Files
+												</div>
+
+												<div class="text-content">
+													Once you have a "Mods" folder in the right location.
+													<br>
+													inside it make a folder call it whatever you want.
+													<br>
+													Now inside that folder make a folder called "Configs".
+												</div>
+
+												<br>
+												<div class="h3">
+													ModInfo.xml (Required) 
+												</div>
+												<div class="text-content">
+													Now we got to make an XML file called "Modinfo.xml".
+													<br>
+													Easiest just make a new "text" file and rename .txt to .xml
+													<br>
+													Now make sure to have XML files to open with VS Code.
+													<br>
+													So you can double click on it or if not
+													<br>
+													Drag and drop or right click open with with VS Code.
+													<br>
+												</div>
+
+											</div>
+
+											 <td class="text-content">
+	
+										Here is files for
+										<a title="Premade Templates" class="reg-link" href="https://i.imgur.com/yBx7CJK.jpg" target="_blank">
+											Premade Templates.
+										</a>
+
+										<br>
+										<div class="h2">
+											Mod Folder Structure
+										</div>
+
+										<div class="text-content">
+											ModFolderName
+											<br>
+											- Config (Sub Folder)
+											<br>
+											 - XUi (Inside Config Folder)
+											 <br>
+											 - XUi_Common Inside Config (Folder)
+											 <br>
+											 - XUi_Menu (Inside Config Folder)
+											 <br>
+											 - XML Files (Inside Config Folder)
+											 <br>
+											- UIAtlases
+											<br>
+											- ModInfo.xml
+										</div>
+										
+
+
+
+
+
+
+
+	
+									  </td>
+#modding-setup-content .code1 {
+	font-size: 32px;
+	line-height: 36px;
+}
+
+#modding-setup-content .code-line2 {
+	right: 0;
+}
+
+#modding-setup-content .code-line3 {
+	right: 0;
+}
+
+#modding-setup-content .code-line4 {
+	left: 72px;
+}
+
+#modding-setup-content .code-line5 {
+	left: 47px;
+}
+
+#modding-setup-content .code-line6 {
+	left: 45px;
+}
+
+#modding-setup-content .code-line7 {
+	left: 25px;
+}
+
+#modding-setup-content .code-line8 {
+	left: 45px;
+}
+
+									  <div class="code1">
+											<div class="code-line1 code-lines">
+												ModFolderName (Main Folder)
+											</div>
+											
+											<div class="code-line2 code-lines">
+												- Config
+											</div>
+	
+											<div class="code-line3 code-lines">
+												- XUi
+											</div>
+	
+											<div class="code-line4 code-lines">
+												- XUi_Common
+											</div>
+	
+											<div class="code-line5 code-lines">
+												- XUi_Menu
+											</div>
+	
+											<div class="code-line6 code-lines">
+												- XML Files
+											</div>
+	
+											<div class="code-line7 code-lines">
+												- UIAtlases
+											</div>
+	
+											<div class="code-line8 code-lines">
+												- ModInfo.xml
+											</div>
+										</div>
+
+										
+												<br><br>
+												<div class="h2">
+													Example
+												</div>
+												Say you wanted to target a picture in the folders.
+												
+												<br><br>
+												<div class="h2">
+													The Folders
+												</div>
+												pictures > 2023 > Summer > pic069
+												<br>
+												The Path would look like 
+												<br>
+												<span class="less-than">&lt;</span><span class="attribute">xpath</span>=<span class="string">"pictures/2023/Summer/pic069"</span><span class="greater-than">&gt;</span> 
+												<br>
+												- Remember things are case-sensitive. 
+<span class="comment">
+														<span class="less-than">&lt;</span>!-- Element Node. --<span class="greater-than">&gt;</span>
+													</span>
+												</div>
+												
+
+			<div class="h2">
+						<a title="Click To Show/Hide" class="header-link hide-show" href="javascript:toggleDiv('folders-content');">
+							<div class="plus-minus">+</div> <span class="less-than">&lt;</span>Folder Paths<span class="greater-than">&gt;</span>
+						</a>
+					</div>
+
+
+												<br>
+					<div class="h1 content-header">
+						<a title="Click To Show/Hide" class="header-link" href="javascript:showonlyone('xpath-basics-content');">
+							<span class="less-than">&lt;</span><span class="underline">Basics Overview</span><span class="greater-than">&gt;</span>
+						</a>
+					</div>
+
+					<div class="h1 content-header">
+						<a title="Click To Show/Hide" class="header-link" href="javascript:showonlyone('functions-content');">
+							<span class="less-than">&lt;</span><span class="underline">Basics Functions</span><span class="greater-than">&gt;</span>
+						</a>
+					</div>
+
+					<div class="h2">
+								<a title="Click To Show/Hide" class="header-link hide-show" href="javascript:toggleDiv('shorthand-content');">
+									<div class="plus-minus">+</div> Shorthand
+							</div>
+
+							<br>
+							<div class="h2">
+								<a title="Click To Show/Hide" class="header-link hide-show tag" href="javascript:toggleDiv('append-content');">
+									<div class="plus-minus">+</div> <span class="less-than">&lt;</span>Append<span class="greater-than">&gt;</span>
+								</a>
+							</div>
+
+							<br>
+							<div class="h2">
+								<a title="Click To Show/Hide" class="header-link hide-show tag" href="javascript:toggleDiv('insert-content');">
+									<div class="plus-minus">+</div> <span class="less-than">&lt;</span>insertAfter/Before<span class="greater-than">&gt;</span>
+								</a>
+							</div>
+							<br>
+							<div class="h2">
+								<a title="Click To Show/Hide" class="header-link hide-show tag" href="javascript:toggleDiv('removing-content');">
+									<div class="plus-minus">+</div> <span class="less-than">&lt;</span>Removing<span class="greater-than">&gt;</span>
+								</a>
+							</div>
+							<br>
+							<div class="h2">
+								<a title="Click To Show/Hide" class="header-link hide-show tag" href="javascript:toggleDiv('setting-content');">
+									<div class="plus-minus">+</div> <span class="less-than">&lt;</span>Setting<span class="greater-than">&gt;</span>
+								</a>
+							</div>
+
+							<div class="sub-text">
+											 
+											<br>
+											<span class="less-than">&lt;</span><span class="tag">remove</span><span class="greater-than">&gt;</span> or 
+											<span class="less-than">&lt;</span><span class="tag">removeattribute</span><span class="greater-than">&gt;</span>
+										</div>
+					
+					
+					<div id="folders-content" class="hidden">
+
+						<div class="text-content">
+
+							<div id="folders-block" class="code-block">
+								<table id="folders-examples">
+									<tr>
+									<td id="folders-images" class="example-images">
+										<a title="Click for Larger Image" class="img-link" href="https://i.imgur.com/jc81hDO.jpg" target="_blank">
+											<img class="code-example" src="https://i.imgur.com/jc81hDO.jpg" alt="folders-example">
+										</a>
+									</td>
+									<td class="text-content">
+
+										<br>
+										Next you should remember a few folder paths.
+										<br>
+										Once you find all the Folder Locations Pin them to Quick Access.
+										<br>
+										- <span class="tag">Right Click on folder > Pin to Quick Access</span>.
+						
+										<br>
+										<div class="h2">
+											Vanilla Config Folder
+										</div>
+										<div class="text-content">
+											Where ever your Steam folder is.
+										</div>
+										
+										<br>
+										<div class="h3">
+											Most Common Path
+										</div>
+										
+										<div class="code1">
+
+											<div class="code-line1 code-lines">
+												<span class="tag">C:</span>
+												<span class="string">
+													\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Data\Config
+												</span>
+											</div>
+											
+										</div>
+
+										<br>
+										<div class="h2">
+											Mods Folder
+										</div>
+										<div class="text-content">
+
+											At this time there is 2 locations to load Mods from.
+											<br> 
+											They posted that the Mods folder 
+											<br>
+											will change to the 2nd location
+											<br>
+											but hasn't happened yet.
+											
+											<br><br>
+											Where ever your <span class="tag">Steam</span> folder is.
+
+											<br><br>
+											Most Common path
+											<br>
+											1st Location
+											
+										</div>
+										
+										<div class="code2">
+
+											<div class="code-line1 code-lines">
+												<span class="tag">C:</span><span class="string">
+													\Program Files (x86)\Steam\steamapps\common\7 Days To Die
+												</span>
+											</div>
+											
+										</div>
+
+										<div class="text-content">
+											- You might have to make a Mods folder first. 
+											<br>
+											Make sure to name it exactly with a capital M.
+
+											<br><br>
+											the 2nd location 
+											<br>
+											Search for the <span class="tag">AppData</span> Folder or use WIN+R and Copy &amp; Paste
+										</div>
+
+										<div class="code3">
+
+											<div class="code-line1 code-lines">
+												<span class="tag">%APPDATA%</span>
+												<br>
+												<span class="tag">C:</span>
+												<span class="string">
+													\Users\PC-NAME\AppData\Roaming\7DaysToDie\Mods
+												</span>
+											</div>
+											
+										</div>
+
+										<br>
+										<div class="h2">
+											ConfigsDump Folder
+										</div>
+										
+										<div class="text-content">
+											This folder is to help troubleshoot any problems.
+											<br>
+											It has XML files that game save files load.
+											<br>
+											So you check if your code edits loaded properly etc.
+											
+											<br><br>
+											Search for the <span class="tag">AppData</span> Folder or use WIN+R and Copy &amp; Paste
+										</div>
+										
+										<div class="code4">
+
+											<div class="code-line1 code-lines">
+												<span class="tag">%APPDATA%</span>
+												<br>
+												<span class="tag">C:</span><span class="string">\Users\PC-NAME\AppData</span>
+											</div>
+
+											<div class="text-content">
+												Here is what the Full Path should look like.
+											</div>
+											<div class="code-line2 code-lines">
+												<span class="tag">C:</span><span class="string">\Users\PC-NAME\AppData\Roaming\7DaysToDie\Saves\WorldName\SaveName\ConfigsDump</span>
+												<br>
+												<span class="tag">C:</span>
+												<span class="string">\Users\PC-7900x\AppData\Roaming\7DaysToDie\Saves\Navezgane\A21Test\ConfigsDump</span>
+											</div>
+											
+										</div>
+										
+										
+										
+	
+									</td>
+									</tr>
+								</table> 
+							</div>
+
+						</div>
+					</div>
+
+					<br>
+					<div class="h2">
+						<a title="Click To Show/Hide" class="header-link hide-show" href="javascript:toggleDiv('modding-setup-content');">
+							<div class="plus-minus">+</div> <span class="less-than">&lt;</span>Modding Setup<span class="greater-than">&gt;</span>
+						</a>
+					</div>
+					<div id="modding-setup-content" class="hidden">
+						<div class="text-content">
+
+							<div id="modding-setup-block" class="code-block">
+								<table id="modding-setup-examples">
+									<tr>
+
+									<td id="modding-setup-images" class="example-images">
+										<a title="Click for Larger Image" class="img-link" href="https://i.imgur.com/81pcpsO.jpg" target="_blank">
+											<img class="code-example" src="https://i.imgur.com/81pcpsO.jpg" alt="vscode-example1">
+										</a>
+										<a title="Click for Larger Image" class="img-link" href="https://i.imgur.com/Usa7f8E.jpg" target="_blank">
+											<img class="code-example" src="https://i.imgur.com/Usa7f8E.jpg" alt="vscode-example2">
+										</a>
+										
+										<a title="Click for Larger Image" class="img-link" href="https://i.imgur.com/Vkh15lH.png" target="_blank">
+											<img class="code-example" src="https://i.imgur.com/Vkh15lH.png" alt="vscode-example3">
+										</a>
+									</td>
+									<td class="spacer"></td>
+									<td class="text-content">
+	
+										<br>
+										<div class="h2">
+											Modding Folder Structure
+										</div>
+										<div class="text-content">
+											Here is files for
+											<a title="Premade Templates" class="reg-link" href="https://i.imgur.com/yBx7CJK.jpg" target="_blank">
+												Starter Templates</a>. 
+											<br>
+											Once you have the files setup check out XPath Basics.
+											
+											<br><br>
+											When making a new mod 
+											<br>
+											you will need make some folders and files.
+											
+											<br><br>
+											First make a new folder in the "Mods" folder. 
+											<br>
+											Name the folder your Mods name.
+											
+											<br><br>
+											Then in that folder make a folder called "Config".
+											
+											<br><br>
+											In the "Config" folder add whatever XML files you want to edit.
+											<br>
+											If you want to an Item add the "items.xml" etc.
+											
+											<br><br>
+											Then will have to add a "ModInfo.xml" file.
+											<br>
+											The "ModInfo.xml" file is required for the mod to run.
+											
+											
+											
+										</div>
+										
+										
+
+
+
+	
+									</td>
+
+									</tr>
+								</table> 
+							</div>
+
+						</div>
+
+					</div>
+	
+					<br>
+					<div class="h2">
+						<a title="Click To Show/Hide" class="header-link hide-show" href="javascript:toggleDiv('vscode-content');">
+							<div class="plus-minus">+</div> <span class="less-than">&lt;</span>VS Code Setup<span class="greater-than">&gt;</span>
+						</a>
+					</div>
+					<div id="vscode-content" class="hidden">
+
+						<div class="text-content">
+
+							<div id="vscode-block" class="code-block">
+								<table id="vscode-examples">
+									<tr>
+									<td id="vscode-images" class="example-images">
+										<a title="Click for Larger Image" class="img-link" href="https://i.imgur.com/yBx7CJK.jpg" target="_blank">
+											<img class="code-example" src="https://i.imgur.com/yBx7CJK.jpg" alt="vscode-example1">
+										</a>
+										<a title="Click for Larger Image" class="img-link" href="https://i.imgur.com/Usa7f8E.jpg" target="_blank">
+											<img class="code-example" src="https://i.imgur.com/Usa7f8E.jpg" alt="vscode-example2">
+										</a>
+										
+										<a title="Click for Larger Image" class="img-link" href="https://i.imgur.com/Vkh15lH.png" target="_blank">
+											<img class="code-example" src="https://i.imgur.com/Vkh15lH.png" alt="vscode-example3">
+										</a>
+									</td>
+									<td class="text-content">
+	
+											<br>
+											<div class="h2">
+												Setting Up Visual Studio Code
+											</div>
+											<div class="text-content">
+												Visual Studio Code has a lot you can do, 
+												<br>
+												as such it can be used right out of the box, 
+												<br>
+												however I would like to show you some things 
+												<br>
+												to optimize your efficiency.
+
+												
+											</div>
+
+											<br>
+											<div class="h2">
+												Changing the Theme
+											</div>
+											<div class="text-content">
+												Bottom Left Corner > Gear Icon
+												<br>
+												Themes > Color Themes
+												<br>
+												A Drop Down menu should pop up.
+												<br>
+											</div>
+
+											<br>
+											<div class="h2">
+												Making a Workspace
+											</div>
+											<div class="text-content">
+												Workspaces are great for organization. 
+												<br>
+												I make them for whatever I am working on.
+												<br>
+												Different websites or Mods. 
+
+												<br><br>
+												Drag and Drop 2 folders into Visual Studio Code.
+												<br>
+												- the Mods folder and the Vanilla Config Folder
+												
+												<br><br>
+												Dialog boxes should pop up saying 
+												<br>
+												Add to Workspace and one that says Trust, click Yes and Trust.
+											</div>
+
+											<br>
+											<div class="h2">
+												Saving the Workspace
+											</div>
+											<div class="text-content">
+												<span class="tag">File > Save Workspace As...</span>
+												<br>
+												I suggest saving this in your Documents Folder and 
+												<br>
+												then a folder called VSC or something.
+											</div>
+
+											<br>
+											<div class="h2">
+												Turn of Auto Save
+											</div>
+											
+											<div class="text-content">
+												<span class="tag">File > Auto Save</span>
+												<br>
+												This will save your work every so often automatically.
+											</div>
+
+											<br>
+											<div class="h2">
+												Work Flow - Split View
+											</div>
+											
+											<div class="text-content">
+												The way I work is i Split View the files i work on. 
+												<br>
+												With 7 Days mods 
+												<br>
+												I have the Mod files on the left side 
+												<br>
+												and then the Vanilla files on the Right.
+												<br>
+												It makes it easier for me to find and reference files.
+
+												<br><br>
+												Basically Drag files onto the far right side to split.
+											</div>
+	
+									</td>
+									</tr>
+								</table> 
+							</div>
+
+						</div>
+					</div>
+
+
+
+
+<span class="tag">C:</span>
+<span class="string">
+	\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Data\Config
+</span>
+
+<div class="code-line1 code-lines">
+	<span class="tag">C:</span><span class="string">
+		\Program Files (x86)\Steam\steamapps\common\7 Days To Die
+	</span>
+</div>
+
+<div class="code3">
+
+	<div class="code-line1 code-lines">
+		<span class="tag">C:</span>
+		<span class="string">
+			\Users\PC-NAME\AppData\Roaming\7DaysToDie\Mods
+		</span>
+	</div>
+	
+</div>
+
+			
+
+
+
+												<div class="code-line1 code-lines">
+													<span class="tag">%APPDATA%</span>
+													<br>
+													<span class="tag">C:</span><span class="string">\Users\PC-NAME\AppData</span>
+												</div>
+<div class="text-content">
+													Here is what the Full Path should look like.
+												</div>
+												<div class="code-line2 code-lines">
+													<span class="tag">C:</span><span class="string">\Users\PC-NAME\AppData\Roaming\7DaysToDie\Saves\WorldName\SaveName\ConfigsDump</span>
+													<br>
+													<span class="tag">C:</span>
+													<span class="string">\Users\PC-7900x\AppData\Roaming\7DaysToDie\Saves\Navezgane\A21Test\ConfigsDump</span>
+												</div>
+
+
+
+
+
+.code-example:hover {
+	position: absolute;
+	-webkit-transition: all .5s ease-in;
+	-moz-transition: all .5s ease-in;
+	-ms-transition: all .5s ease-in;
+	-o-transition: all .5s ease-in;
+	transition: all .5s ease-in;
+	opacity: 1;
+	transform: scale(1.50);
+	-ms-transform: scale(1.50); /* IE 9 */
+	-webkit-transform: scale(1.50); /* Safari and Chrome */
+	z-index: 10;
+}
+
+
+<!-- #region - Folder Paths Content Left -->
+											<div id="folder-paths-left" class="columns column-left">
+												
+											</div>
+										<!-- #endregion - Folder Paths Content Left -->
+
+<!-- #region - Folder Paths Content Right -->
+											<div id="folder-paths-right" class="columns column-right">
+												
+											</div>
+										<!-- #endregion - Folder Paths Content Right -->
+
+
+											
+											<a title="Add Folder / Trust" class="img-link" href="https://i.imgur.com/Vkh15lH.png" target="_blank">
+												<img class="code-example" src="https://i.imgur.com/Vkh15lH.png" alt="vscode-example3">
+											</a>
+
+										<!-- #region - PageName -->
+											<div id="xpath-basics-1" class="hidden">
+												
+												<!-- #region - PageName Content Left -->
+													<div id="pagename-left" class="columns column-left">
+														PageName Left
+													</div>
+												<!-- #endregion - PageName Content Left -->
+
+												<!-- #region - PageName Content Right -->
+													<div id="pagename-right" class="columns column-right">
+														PageName Right
+													</div>
+												<!-- #endregion - PageName Content Right-->	
+
+											</div>
+										<!-- #endregion - PageName -->
+
+
+
+
+														<br>
+														<h2 class="content-header">
+															XPath Syntax
+														</h2>
+														<div class="text-content">
+															XPath Syntax looks like this 
+															<br>
+															when wanting to edit it for 7 Days to die.
+															<br>
+															//<span class="tag">tagname</span>[@<span class="attribute">attribute</span>=<span class="string">'value'</span>]
+														</div>
+														
+
+
+														<div class="code-line3 code-lines">
+															
+															<span class="comment">
+																<span class="less-than">&lt;</span>!-- <span class="attribute">name=""</span> &amp; <span class="attribute">value=""</span> are Attribute Nodes --<span class="greater-than">&gt;</span>
+															</span>
+														</div>
+														<span class="comment">
+															<span class="less-than">&lt;</span>!-- Start Main Element Node. --<span class="greater-than">&gt;</span>
+														</span>
+														<span class="comment">
+															<span class="less-than">&lt;</span>!-- Element Node. --<span class="greater-than">&gt;</span>
+														</span>
+														<span class="comment">
+															<span class="less-than">&lt;</span>!-- End Main Element Node. --<span class="greater-than">&gt;</span>
+														</span>
+
+
+
+, 
+																	
+																	<br><br>
+																	so anything you reference 
+																	<br>
+																	cannot be referenced BEFORE the bottom.
+
+	<div class="code-line2 code-lines">
+															<span class="less-than">&lt;</span><span class="tag">property</span> <span class="attribute">name</span>=<span class="string">"Extends"</span> <span class="attribute">value</span>=<span class="string">"resourcePaper"</span><span class="greater-than">/&gt;</span>
+														</div>
+
+<input class="text-content" type="text" value="C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die\Data\Config">
+
+<span class="important">
+
+<div class="comment">
+															<span class="less-than">&lt;</span>!-- Anything put in between this is a Comment. --<span class="greater-than">&gt;</span>
+														</div>
+
+														<div class="text-content">
+																	<span class="less-than">&lt;</span><span class="tag">Append</span><span class="greater-than">&gt;</span><span class="less-than">&lt;/</span><span class="tag">Append</span><span class="greater-than">&gt;</span> 
+																	<br>
+																	is a <span class="tag">TAG</span> that you can 
+																	<br>
+																	think of it as it adding to something.
+																	<br>
+																	It adds something to the <span class="important">BOTTOM</span> of a list of things
+																</div>
+																
+																
+																	As you can you see in the 2nd image that it applied the codes 
+																	<br>
+																	to the very bottom of the <span class="string">treeCactus01</span>Block.
+																	<br>
+																	so anything you reference 
+																	<br>
+																	cannot be referenced BEFORE the bottom.
+																	<br>
+
+													<br>
+													<div class="codes-block code1">
+														<div class="code-line1 code-lines">
+															<span class="less-than">&lt;</span><span class="tag">item</span>
+															<span class="attribute">name</span>=
+															<span class="string">"TEST_ITEM_00"</span><span class="greater-than">&gt;</span>
+														</div>
+														
+														<div class="code-line2 code-lines">
+															<span class="less-than">&lt;</span><span class="tag">property</span> <span class="attribute">name</span>=<span class="string">"Extends"</span> <span class="attribute">value</span>=<span class="string">"resourcePaper"</span><span class="greater-than">/&gt;</span>
+														</div>
+														<div class="code-line3 code-lines">
+															<span class="less-than">&lt;/</span><span class="tag">item</span><span class="greater-than">&gt;</span>
+														</div>
+														<div class="code-line4 code-lines">
+															<span class="comment">
+																<span class="less-than">&lt;</span>!-- Start Main Element Node. --<span class="greater-than">&gt;</span>
+															</span>
+															<br>
+															<span class="comment">
+																<span class="less-than">&lt;</span>!-- Element Node. --<span class="greater-than">&gt;</span>
+															</span>
+															<br>
+															<span class="comment">
+																<span class="less-than">&lt;</span>!-- End Main Element Node. --<span class="greater-than">&gt;</span>
+															</span>
+														</div>
+
+														
+													</div>
+													
+																	<div class="text-content">
+														<span class="tag">item</span> is a <span class="tag">Tag</span>.
+														<br>
+														<span class="attribute">name</span>, <span class="attribute">value</span> etc is an <span class="attribute">Attribute</span>
+														<br>
+														<span class="string">TEST_ITEM_00, Extends, resourcePaper</span> is 
+														<br>
+														<span class="string">String Text</span> / <span class="string">Target/Path</span>
+														<br>
+														More examples/explanations
+														<br>
+														under Basic Syntax Functions tab.
+													</div>
+													
+
+		<div class="code-block">
+																
+															</div>
+															<span class="code-explanation-text">
+																
+															</span>
+															<div class="code-block">
+																
+															</div>
+															<span class="code-explanation-text">
+																
+															</span>
+															<div class="code-block">
+																
+															</div>
+															<span class="code-explanation-text">
+																
+															</span>
+															<div class="code-block">
+																
+															</div>
+															<span class="code-explanation-text">
+																
+															</span>
+															<div class="code-block">
+																
+															</div>
+															<span class="code-explanation-text">
+																
+															</span>
+															<div class="code-block">
+																
+															</div>
+
+
+															<br>
+													<h2 class="content-header">
+														Comments
+													</h2>
+
+													<div class="text-content">
+														<div class="comment">
+															<span class="less-than">&lt;</span>!-- Anything put in between this is a Comment. --<span class="greater-than">&gt;</span>
+														</div>
+														Doesn't affect the code.
+														<br>
+														Comments are SAFE to delete.
+														<br>
+														The game doesn't execute it.
+														<br>
+														Basically you can leave notes 
+														<br>
+														saying what this part of the code 
+														<br>
+														does what or ToDo notes etc.
+
+																<span class="code-explanation-text">
+																This is a comment. It will not be read by the game.
+																<br>
+																Basically used for Notes or a TODO list.
+																<br>
+																SAFE to delete.
+																<br>
+																Good practice to leave these for yourself.
+															</span>
+
+
+
+
+<br><br>
+																	<h2>
+																		Notes:
+																	</h2>
+																	Make sure when you are making edits 
+																	<br>
+																	you are in the right XML file. 
+																	<br>
+																	Blocks.xml - <span class="string">/blocks/block</span> 
+																	<br>
+																	Items.xml - <span class="string">/items/item</span>
+																	<br>
+																	Recipe.xml - <span class="string">/recipes/recipe</span>
+																	<br>
+																	Etc.
+
+																	<br><br>
+																	<h2>Shorthand</h2>
+																	using <span class="string">//NodeName</span> instead of <span class="string">/NodeName/NodeName</span>
+
+																	<br>
+																	<h3>Examples</h3>
+																	
+																	<div id="sh-slash-slash-code" class="text-content">
+																		<span class="less-than">&lt;</span><span class="attribute">xpath</span>=<span class="string">"//block"</span><span class="greater-than">&gt;</span> 
+																		<br>
+																		is the same as 
+																		<br>
+																		<span class="less-than">&lt;</span><span class="attribute">xpath</span>=<span class="string">"/blocks/block"</span><span class="greater-than">&gt;</span>
+																	</div>
+
+
+a.discord {
+	color: #5865F2;
+}
+
+/* #notes-container h2 a {
+	text-transform: uppercase;
+} */
+
+
+
+a:hover,#notes-container a.comment:hover,#notes-container a.tag:hover {
+	color: #b71c1c;
+}
+
+
+.cheatsheet-button {
+	background-color: #0d47a1;	
+}
+
+.cheatsheet-button:hover {
+	background-color: #1565c0;	
+}
+
+
+
+
+
+
+
+
+
+
+
+																	
+													<div class="text-content">
+														XPath uses path expressions to select 
+														<br>
+														<span class="important">nodes</span> or <span class="important">node-sets</span> in an XML document.
+
+														<br><br>
+														These path expressions look very much like 
+														<br>
+														the path expressions you use with a PC file systems
+
+														<br><br>
+														Basically think of it like Folder Tree-like structure.
+														<br><br>
+														
+													</div>
+
+						
+													<h2 class="content-header">
+														Example
+													</h2>
+													<div class="text-content">
+														This is what 7 Days to Die XML code structure looks like.
+														<br>
+														Not all Element Nodes have an ending tag.
+														<br>
+														So you just add a forward slash / at the end.
+														<br>
+														As seen in the <span class="tag">property</span> tag.
+													</div>
+
+													<br>
+													<div class="codes-block code1">
+														<div class="code-line1 code-lines">
+															<span class="less-than">&lt;</span><span class="tag">item</span>
+															<span class="attribute">name</span>=
+															<span class="string">"TEST_ITEM_00"</span><span class="greater-than">&gt;</span>
+														</div>
+														
+														<div class="code-line2 code-lines">
+															<span class="less-than">&lt;</span><span class="tag">property</span> <span class="attribute">name</span>=<span class="string">"Extends"</span> <span class="attribute">value</span>=<span class="string">"resourcePaper"</span><span class="greater-than">/&gt;</span>
+														</div>
+														<div class="code-line3 code-lines">
+															<span class="less-than">&lt;/</span><span class="tag">item</span><span class="greater-than">&gt;</span>
+														</div>
+														<div class="code-line4 code-lines">
+															<span class="comment">
+																<span class="less-than">&lt;</span>!-- Start Main Element Node. --<span class="greater-than">&gt;</span>
+															</span>
+															<br>
+															<span class="comment">
+																<span class="less-than">&lt;</span>!-- Element Node. --<span class="greater-than">&gt;</span>
+															</span>
+															<br>
+															<span class="comment">
+																<span class="less-than">&lt;</span>!-- End Main Element Node. --<span class="greater-than">&gt;</span>
+															</span>
+														</div>
+
+														
+													</div>
+													
+
+													<div class="text-content">
+														<span class="tag">item</span> is a <span class="tag">Tag</span>.
+														<br>
+														<span class="attribute">name</span>, <span class="attribute">value</span> etc is an <span class="attribute">Attribute</span>
+														<br>
+														<span class="string">TEST_ITEM_00, Extends, resourcePaper</span> is 
+														<br>
+														<span class="string">String Text</span> / <span class="string">Target/Path</span>
+														<br>
+														More examples/explanations
+														<br>
+														under Basic Syntax Functions tab.
+													</div>
+													
+													<br>
+													<h2 class="content-header">
+														Comments
+													</h2>
+
+													<div class="text-content">
+														<div class="comment">
+															<span class="less-than">&lt;</span>!-- Anything put in between this is a Comment. --<span class="greater-than">&gt;</span>
+														</div>
+														Doesn't affect the code.
+														<br>
+														Comments are SAFE to delete.
+														<br>
+														The game doesn't execute it.
+														<br>
+														Basically you can leave notes 
+														<br>
+														saying what this part of the code 
+														<br>
+														does what or ToDo notes etc.
+													</div>
+
+
+
+<div class="code-text">
+															<span class="tag">item</span> is a <span class="tag">Tag</span>.
+															<br>
+															<span class="attribute">name</span> <span class="attribute">value</span> is an <span class="attribute">Attribute</span>
+															<br>
+															<span class="string">TEST_ITEM_00</span> is <span class="string">String Text</span>
+														</div>
+
+														<br>
+														<div class="h2">
+															XPath Syntax
+														</div>
+														<div class="code-text">
+															XPath Syntax looks like this 
+															<br>
+															when wanting to edit it for 7 Days to die.
+															<br>
+															//<span class="tag">tagname</span>[@<span class="attribute">attribute</span>=<span class="string">'value'</span>]
+														</div>
+
+
+
+<span class="less-than">&lt;</span><span class="tag">Start Tag</span><span class="greater-than">&gt;</span>
+<span class="less-than">&lt;</span><span class="tag">/Endtag</span><span class="greater-than">&gt;</span>
+<span class="string"></span>
+<span class="attribute"></span>
+
+
+
+
+
+<tr>
+											<td class="xml-function">
+												<span class="attribute">Attribute</span>
+											</td>
+											<td class="function-names">
+												<span class="attribute">event</span>="<span class="string">...</span>"
+											</td>
+											<td class="attribute-names">
+												<span class="string">Destroy</span>
+												<br>
+												<span class="string">Fall</span>
+												<br>
+												<span class="string">Harvest</span>
+											</td>
+											<td class="notes">
+												Notes
+											</td>
+										</tr>
+										<tr>
+											<td class="xml-function">
+												<span class="attribute">Attribute</span>
+											</td>
+											<td class="function-names">
+												<span class="attribute">name</span>="<span class="string">...</span>"
+											</td>
+											<td class="attribute-names">
+												<div class="scrolling-content">
+													<span class="string">Animal | Block | Item | Zombie | Name</span>
+												</div>
+											</td>
+											<td class="notes">
+												Notes
+											</td>
+										</tr>
+										<tr>
+											<td class="xml-function">
+												<span class="attribute">Attribute</span>
+											</td>
+											<td class="function-names">
+												<span class="attribute">count</span>="<span class="string">...</span>"
+											</td>
+											<td class="attribute-names">
+												<span class="attribute">count</span>="<span class="string">1</span>"
+												<br>
+												<span class="attribute">count</span>="<span class="string">1,2</span>"
+											</td>
+											<td class="notes">
+												Notes
+											</td>
+										</tr>
+
+
+
+
+
+
+
+
+
+

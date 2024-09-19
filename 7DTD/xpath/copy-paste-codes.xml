@@ -1,0 +1,24 @@
+<item name="TEST_ITEM_00"> <!-- Main Element Node -->
+	<property name="Extends" value="resourcePaper"/> <!-- Element Node -->
+	<property name="CreativeMode" value="None"/> <!-- name=""/value="" - Attribute Node -->
+	<property name="CustomIcon" value="shapeFont3"/>
+	<property name="CustomIconTint" value="FF00FF"/>
+	<property name="Stacknumber" value="500"/>
+	<property name="Tags" value="ammo"/>
+</item>
+
+<set xpath="//item[contains(@name, 'food')]/property[@name='Stacknumber' and (@value='10')]/@value">50</set>
+
+    <!-- 
+        Say you want to only target only certain entries.
+        Sets any item that name contains the words FirstAid.
+        Whether it be medicalFirstAidBandage or medicalFirstAidKit.
+    -->
+    <set xpath="//item[contains(@name, 'FirstAid')]/property[@name='Stacknumber']/@value">100</set>
+
+    <!-- 
+        Say you want to only target only medical items.
+        Sets any item that name starts-with the name medical.
+        So medicalFirstAidBandage but not firstAidMedicalBandage.
+    -->
+    <set xpath="//item[starts-with(@name, 'medical')]/property[@name='Stacknumber']/@value">100</set> 

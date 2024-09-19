@@ -1,0 +1,20 @@
+.comment,#notes-container a.comment,.comment .greater-than,.comment .less-than  {
+	color: #6A9955;
+}
+
+.attribute {
+	color: #9cdcfe;
+}
+
+.string,a.string,input[type=text] {
+	color: #ce9178;
+}
+
+.tag,#notes-container a.tag {
+	color: #569cd6;	
+}
+
+.greater-than,.less-than,.slash {
+	color: #808080;		
+}
+

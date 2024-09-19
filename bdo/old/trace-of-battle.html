@@ -2,360 +2,581 @@
 <html lang="en">
 <head>
 	<title>Trace of Battle</title>
-	<meta charset="UTF-8" />
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
-	<link rel="stylesheet" href="scripts/css/common.css" />
+	<meta charset="UTF-8">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" href="scripts/css/common.css">
 	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
-	<script src="scripts/jquery/3.6.0.js"></script> 
-	<script src="scripts/jquery/plus-minus.js"></script>
-	<script src="scripts/jquery/toggle-div.js"></script>
-	<script src="scripts/jquery/ui-1.13.1.js"></script>
+	<script src="../scripts/jquery/3.7.1.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
 </head>
-<body id="home-page">
+<body id="trace-of-battle-page">
 
-<!-- ToB-container -->
-<div id="ToB-container" class="container bloods" draggable="true" ondragstart="drag(event)">
+<!-- #region - Trace-of-Battle-Container -->
+	<div id="trace-of-battle-container" class="items-container traces" draggable="true" ondragstart="drag(event)">
+
+		<!-- #region - Trace-of-Battle-Content Button -->
+			<div class="button trace-of-battle-button top">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('trace-of-battle-content');">
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div> 
+
+					<span class="trace-of-battle">
+						<img class="icons icons1 trace-of-battle-icon" src="images/icons/traces/battle.webp" alt="Icon"> 
+						Trace of Battle
+					</span>
+				</a>
+
+				<div class="right">
+					<a title="Trace of Battle" class="links" href="https://bdocodex.com/us/item/5958/" target="_blank">🔗</a>
+				</div>
+
+			</div>
+		<!-- #endregion - Trace-of-Battle-Content Button -->
+
+		<!-- #region - Trace-of-Battle-Content -->
+			<div id="trace-of-battle-content" class="hidden">
+
+				<!-- #region - Trace-of-Battle-How-To-Get Button -->
+					<div class="button htg-button">
+						<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-battle-htg-content');">
+			
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+			
+							<span class="htg">
+								<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon"> How to Get 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Trace-of-Battle-How-To-Get Button -->
+
+				<!-- #region - Trace-of-Battle-How-To-Get -->
+					<div id="trace-of-battle-htg-content" class="info hidden">
 
 
-<!-- Item-ToB Button -->
-<div class="button ToB top">
+						<!-- #region - Trace-of-Battle-How-To-Get-Item-Box Button -->
+							<div class="button item-box-button">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Item-ToB');">
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-battle-htg-item-box');">
 
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<span class="item-box">
+										<img class="icons icons1 item-box-icon" src="images/icons/menu/item-box.webp" alt="Icon"> 
+										Item Box
+										</a>
+									</span>
+								</a>
+
+								<div class="right">
+
+								</div>
+
+							</div>
+						<!-- #endregion - Trace-of-Battle-How-To-Get-Item-Box Button -->
+
+						<!-- #region - Trace-of-Battle-How-To-Get-Item-Box -->				
+							<div id="trace-of-battle-htg-item-box" class="info hidden">
+										
+								<!-- #region - Trace-of-Battle - Item-Box Links -->
+									<div class="links-content">
+
+										<a title="Imperial Trace Box" class="links2 grade5" href="https://bdocodex.com/us/item/8072/" target="_blank">
+											<img class="icons icons1" src="images/icons/items/trace-box.webp" alt="Icon"> 
+										Imperial Trace Box
+										</a>
+
+										<p class="h2 green1">
+											[Daily] [Alchemy] Striving Towards Imperial Delivery
+										</p>
+
+									</div>
+								<!-- #endregion - Trace-of-Battle - Item-Box Links -->
+
+							</div>
+						<!-- #endregion - Trace-of-Battle-How-To-Get-Item-Box -->
+
+
+						<!-- #region - Trace-of-Battle-How-To-Get-Nodes Button -->
+							<div class="button nodes-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-battle-htg-nodes');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<img class="icons icons1 nodes-icon" src="images/icons/nodes/nodes.webp" alt="Icon"> Nodes
+								</a>
+
+								<div class="right">
+									<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Trace-of-Battle-How-To-Get-Nodes Button -->
+						
+						<!-- #region - Trace-of-Battle-How-To-Get-Nodes -->
+							<div id="trace-of-battle-htg-nodes" class="info hidden">
+								
+								<!-- #region - Trace-of-Battle-Nodes-Links -->			
+									<div class="links-content">
+										<!-- #region - Trace-of-Battle-Node-Link1 -->
+
+											<a title="Bernianto Farm - Excavation" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/842" target="_blank">
+												<img class="icons icons1 nodes-excavation-icon" src="images/icons/nodes/excavation.webp" alt="Icon"> 
+												Bernianto Farm - Excavation
+											</a>
+											<p class="node-notes smalltxt">
+												35 Energy from Griffian Bernianto <br>(Bernianto Farm Node Manager)
+											</p>
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="trace-of-battle-htg-node-selection-1" class="node-selection">
+													
+													<option id="trace-of-battle-htg-node-cp-route-1" value="7" selected>
+														Cheapest Route To: Calpheon (7CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Calpheon">
+														<option id="trace-of-battle-htg-node-route-1-option-1" value="2">
+															(2CP) Dias Farm
+														</option>
+														<option id="trace-of-battle-htg-node-route-1-option-2" value="2">
+															(2CP) Nothern Wheat Plantation
+														</option>
+														<option id="trace-of-battle-htg-node-route-1-option-3" value="2">
+															(2CP) Bernianto Farm
+														</option>
+														<option id="trace-of-battle-htg-node-route-1-option-4" value="1">
+															(1CP) Bernianto Farm - Excavation
+														</option>
+														<option id="trace-of-battle-htg-node-route-1-option-5" value="0">
+															Req: 35 Energy from the Node Manager
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<br>
+											<a title="Crypt of Resting Thoughts - Excavation" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1709" target="_blank">
+												<img class="icons icons1 nodes-excavation-icon" src="images/icons/nodes/excavation.webp" alt="Icon"> 
+												Crypt of Resting Thoughts - Excavation
+											</a>
+											<p class="required smalltxt">
+												
+											</p>
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="trace-of-battle-htg-node-selection-2" class="node-selection">
+													
+													<option id="trace-of-battle-htg-node-cp-route-2" value="11" selected>
+														Cheapest Route To: O'Draxxia (11CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - O'Draxxia">
+														<option id="trace-of-battle-htg-node-route-2-option-1" value="1">
+															(1CP) Forgotten Mountain
+														</option>
+														<option id="trace-of-battle-htg-node-route-2-option-2" value="3">
+															(3CP) Olun's Valley
+														</option>
+														<option id="trace-of-battle-htg-node-route-2-option-3" value="1">
+															(1CP) Bahit Sanctum
+														</option>
+														<option id="trace-of-battle-htg-node-route-2-option-4" value="3">
+															(3CP) Crypt of Resting Thoughts
+														</option>
+														<option id="trace-of-battle-htg-node-route-2-option-5" value="3">
+															(3CP) Crypt of Resting Thoughts - Excavation
+														</option>
+														<option id="trace-of-battle-htg-node-route-2-option-6" value="0">
+															Req: 
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+
+										<!-- #endregion - Trace-of-Battle-Node-Link1 -->				
+									</div>
+								<!-- #endregion - Trace-of-Battle-Nodes-Links -->		
+
+								<br>
+							</div>
+						<!-- #endregion - Trace-of-Battle-How-To-Get-Nodes -->
+
+
+
+						<!-- #region - Trace-of-Battle-How-To-Get-Processing Button -->
+							<div class="button processing-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-battle-htg-processing-content');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									<span class="processing-guild">
+										<img class="icons processing-icon" src="images/icons/menu/processing.webp" alt="Icon"> Processing
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Trace-of-Battle-How-To-Get-Processing Button -->
+
+						<!-- #region - Trace-of-Battle-How-To-Get-Processing -->
+							<div id="trace-of-battle-htg-processing-content" class="info hidden">
+								
+								<!-- #region - Trace-of-Battle-How-To-Get-Processing-Heating Button -->
+									<div class="button processing-heating-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-battle-htg-processing-heating');">
+
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+
+											<img class="icons icons1 heating-icon" src="images/icons/processing/heating.webp" alt="Icon"> Heating  
+										</a>
+
+										<div class="right">
+											
+										</div>
+
+									</div>
+								<!-- #endregion - Trace-of-Battle-How-To-Get-Processing-Heating Button -->
+									
+								<!-- #region - Trace-of-Battle-How-To-Get-Processing-Heating -->
+									<div id="trace-of-battle-htg-processing-heating" class="info hidden">
+										
+										<!-- #region - items-trace-of-battle-info-Heating -->			
+											<div class="links-content">
+												
+
+												<div class="item-link">
+													<a title="Bares Weapons" class="links2 grade3" href="https://bdocodex.com/us/item/757451/" target="_blank">
+														<img class="icons icons1" src="images/icons/items/weapons/main-box.webp" alt="Icon"> 
+													   Bares Weapons
+													</a>
+
+													<div class="right">
+
+													</div>
+												</div>
+
+												
+											</div>
+										<!-- #endregion - items-trace-of-battle-info-Heating -->		
+
+									</div>
+								<!-- #endregion - Trace-of-Battle-How-To-Get-Processing-Heating -->
+
+							</div>
+						<!-- #endregion - Trace-of-Battle-How-To-Get-Processing -->
+
+
+
+
+					</div>
+				<!-- #endregion - Trace-of-Battle-How-To-Get -->
+
+
+				<!-- #region - Trace-of-Battle-Used-In-Content-Button -->
+					<div class="button used-in-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('trace-of-battle-used-in-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="used-in-recipe">
+								<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon"> Used In Recipe 
+							</span>
+						</a>
+
+
+						<div class="right">
+
+						</div>
+					</div>
+				<!-- #endregion - Trace-of-Battle-Used-In-Content-Button -->
+
+				<!-- #region - Trace-of-Battle-Used-In-Content -->
+					<div id="trace-of-battle-used-in-content" class="hidden used-in-content">
+
+
+						<!-- #region - Trace-of-Battle-Used-In-Alchemy Button -->
+							<div class="button item-alchemy-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-battle-used-in-alchemy');">
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									
+									<img class="icons icons1 alchemy-icon" src="images/icons/processing/simple-alchemy.webp" alt="Icon"> Alchemy
+								</a>
+								
+								<div class="right">
+									<a title="Alchemy Guide" class="links" href="https://grumpygreen.cricket/alchemy/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Trace-of-Battle-Used-In-Alchemy Button -->
+
+						<!-- #region - Trace-of-Battle-Used-In-Alchemy -->
+							<div id="trace-of-battle-used-in-alchemy" class="info hidden">
+							
+								<!-- #region - trace-of-battle-items-links -->	
+									<div class="links-content">
+
+										<div class="item-link">
+											<a title="All DP -5 | All AP +10" class="links2 grade3" href="https://bdocodex.com/us/item/672/" target="_blank">
+												<img class="icons icons1 frenzy-pot-icon" src="images/icons/pots/frenzy.webp" alt="Icon"> 
+												Elixir of Frenzy
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circle-text amount">3</span>
+												</div>
+											</div>
+										</div>
+										
+										<div class="item-link">
+											<a title="Extra Damage to Kamasylvian Monsters +12" class="links2 grade3" href="https://bdocodex.com/us/item/686/" target="_blank">
+												<img class="icons icons1 griffons-pot-icon" src="images/icons/pots/griffons.webp" alt="Icon"> Griffon's Elixir
+											</a>
+		
+											<div class="right">
+												<div class="dots">
+													<span class="circle-text amount">3</span>
+												</div>
+											</div>
+										</div>
+									</div>			
+								<!-- #endregion - trace-of-battle-items-links -->									
+							</div>
+						<!-- #endregion - Trace-of-Battle-Used-In-Alchemy -->						
+
+
+
+
+						<!-- #region - Trace-of-Battle-Workshop Button -->
+							<div class="button workshop-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-battle-used-in-workshop-content');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									<span class="design-workshop">
+										<img class="icons icons1 design-workshop-icon" src="images/icons/menu/workshop.webp" alt="Icon"> Workshop
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Workshops" class="links" href="https://bdo.altarofgaming.com/workshops/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Trace-of-Battle-Workshop Button -->
+
+						<!-- #region - Trace-of-Battle-Workshop -->
+							<div id="trace-of-battle-used-in-workshop-content" class="info hidden">
+							
+								<!-- #region - Trace-of-Battle-Design-Armor-Clothes Button -->
+									<div class="button design-armor-clothes-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-battle-design-armor-clothes');">
+											
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+											<span class="design-armor-clothes-text">
+												Armor/Clothes <img class="icons armor-clothes-icon" src="images/icons/menu/armor.webp" alt="Icon"> 
+											</span>
+										</a>
+										
+										<div class="right">
+											<a title="Workshops" class="links" href="https://bdo.altarofgaming.com/workshops/" target="_blank">🔗</a>
+										</div>
+
+									</div>
+								<!-- #endregion - Trace-of-Battle-Design-Armor-Clothes Button -->
+
+								<!-- #region - Trace-of-Battle-Designs -->
+									<div id="trace-of-battle-design-armor-clothes" class="info hidden">
+										<div class="links-content">
+											
+											<div class="item-link">
+												<a title="Silver Embroidered Trainer's Clothes" class="links2 grade4" href="https://bdocodex.com/us/item/14023/" target="_blank">
+													<img class="icons icons1 ef-cannon-serena-icon" src="images/icons/designs/clothes/silver-embroidered/trainers.webp" alt="Icon"> Silver Embroidered Trainer's Clothes
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circle-text amount">10</span>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>		
+								<!-- #endregion - Trace-of-Battle-Design-Armor-Clothes -->
+
+
+								<!-- #region - Trace-of-Battle-Design-Ships Button -->
+									<div class="button design-ships-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-battle-design-ships');">
+											
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+											<span class="design-ships-text">
+												<img class="icons icons1 design-ships-icon" src="images/icons/menu/workshop/shipyard.webp" alt="Icon"> Shipyard 
+											</span>
+										</a>
+										
+										<div class="right">
+											<a title="Workshops" class="links" href="https://bdo.altarofgaming.com/workshops/" target="_blank">🔗</a>
+										</div>
+
+									</div>
+								<!-- #endregion - Trace-of-Battle-Design-Ships Button -->
+
+								<!-- #region - Trace-of-Battle-Designs -->
+									<div id="trace-of-battle-design-ships" class="info hidden">
+										<div class="links-content">
+											
+											<div class="item-link">
+												<a title="Epheria Frigate: Serena Cannon" class="links2 grade4" href="https://bdocodex.com/us/item/49732/" target="_blank">
+													<img class="icons icons1 ef-cannon-serena-icon" src="images/icons/designs/ship/ef-serena-cannon.webp" alt="Icon"> Frigate: Serena Cannon
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circle-text amount">150</span>
+													</div>
+												</div>
+											</div>
+
+											<div class="item-link">
+												<a title="Epheria Frigate: Zafina Cannon" class="links2 grade4" href="https://bdocodex.com/us/item/49724/" target="_blank">
+													<img class="icons icons1 ef-cannon-zafina-icon" src="images/icons/designs/ship/ef-zafina-cannon.webp" alt="Icon"> Frigate: Zafina Cannon
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circle-text amount">150</span>
+													</div>
+												</div>
+											</div>
+
+											<div class="item-link">
+												<a title="Epheria Sailboat: Elena Cannon" class="links2 grade4" href="https://bdocodex.com/us/item/49715/" target="_blank">
+													<img class="icons icons1 es-cannon-elena-icon" src="images/icons/designs/ship/es-elena-cannon.webp" alt="Icon"> Sailboat: Elena Cannon
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circle-text amount">100</span>
+													</div>
+												</div>
+											</div>
+
+											<div class="item-link">
+												<a title="Epheria Sailboat: Elise Cannon" class="links2 grade4" href="https://bdocodex.com/us/item/49728/" target="_blank">
+													<img class="icons icons1 es-cannon-elena-icon" src="images/icons/designs/ship/es-elise-cannon.webp" alt="Icon"> Sailboat: Elise Cannon
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circle-text amount">100</span>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>		
+								<!-- #endregion - Trace-of-Battle-Designs -->
+
+
+
+
+
+							</div>
+						<!-- #endregion - Trace-of-Battle-Workshop -->
+
+						<a title="Trace of Battle" class="links2" href=https://bdocodex.com/us/item/5958/ target="_blank">And More...</a>
+					</div>
+				<!-- #endregion - Trace-of-Battle-Used-In-Content -->
+
+
+
+				<!-- #region - Trace-of-Battle-notes-Content-Button -->
+					<div class="button notes-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('trace-of-battle-notes-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="notes">
+								<img class="icons notes-icon" src="images/icons/menu/notes.webp" alt="Icon"> notes 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Trace-of-Battle-notes-Content-Button -->
+
+				<!-- #region - Trace-of-Battle-notes-Content -->
+					<div id="trace-of-battle-notes-content" class="hidden notes-content">
+						<p class="notes-entry">
+							-notes
+						</p>
+						<p class="notes-entry">
+
+						</p>
+					</div>
+				<!-- #endregion - Trace-of-Battle-notes-Content -->
+
+
+			</div>
+		<!-- #endregion - Trace-of-Battle-Content -->
+
 	</div>
-</div> 
-
-<img class="icons icons1" src="images/icons/traces/battle.png" alt="Icon" />
-Trace of Battle
-</a>
-
-<div class="right">
-
-<div class="dots">
-	<span class="circleText amount">1</span>
-</div>
-
-<a title="Trace of Battle" class="links" href="https://bdocodex.com/us/item/5958/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- Item-ToB Button End -->
-
-<!-- Item-ToB -->
-<div id="Item-ToB" class="hidden">
-
-<!-- Item-ToB-obtaining Button -->
-<div class="button blueBg3">
-
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Item-ToB-obtaining');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-<span class="">
-How to Obtain
-<img class="icons icons1" src="images/icons/traces/battle.png" alt="Icon" />
-</span>
-
-
-</a>
-
-</div>
-<!-- Item-ToB-obtaining Button End -->
-
-<!-- Item-ToB-obtaining -->
-<div id="Item-ToB-obtaining" class="hidden">
-
-<!-- ToB-HowToGet-Heating Button -->
-<div class="button darkBg2">
-
-<a title="Content Button" class="buttonLink h2 gold" href="javascript:toggleDiv('ToB-HowToGet-Heating');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-Processing: Heating <img class="icons icons1" src="images/icons/processing/heating.png" alt="Icon" />
-</a>
-
-<div class="right">
-
-<a title="Trace of Battle" class="links" href="https://bdocodex.com/us/item/5958/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToB-HowToGet-Heating Button End -->
-
-<!-- ToB-HowToGet-Heating -->
-<div id="ToB-HowToGet-Heating" class="info hidden">
-
-<a title="Bares Weapons" class="links2" href="https://bdocodex.com/us/item/757451/" target="_blank">
-<img class="icons icons1" src="images/icons/items/weapons/main-box.png" alt="Icon" />
-Bares Weapons
-</a>
-
-</div>
-<!-- ToB-HowToGet-Heating End -->
-
-
-<!-- ToB-HowToGet-ItemBox Button -->
-<div class="button darkBg2">
-
-<a title="Content Button" class="buttonLink h2 gold" href="javascript:toggleDiv('ToB-HowToGet-ItemBox');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-<img class="icons icons1" src="images/icons/menu/item-box.png" alt="Icon" />
-Item Box
-</a>
-
-<div class="right">
-
-<a title="Trace of Battle" class="links" href="https://bdocodex.com/us/item/5958/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToB-HowToGet-ItemBox Button End -->
-
-<!-- ToB-HowToGet-ItemBox -->
-<div id="ToB-HowToGet-ItemBox" class="info hidden">
-
-<p class="h2 green1">
-Alchemy Daily Reward
-</p>
-
-<a title="Imperial Trace Box" class="gold links2" href="https://bdocodex.com/us/item/8072/" target="_blank">
-<img class="icons icons1" src="images/icons/items/trace-box.png" alt="Icon" />
-Imperial Trace Box
-</a>
-
-</div>
-<!-- ToB-HowToGet-ItemBox End -->
-
-
-<!-- ToB-HowToGet-Nodes Button -->
-<div class="button darkBg2">
-
-<a title="Content Button" class="buttonLink h2 gold" href="javascript:toggleDiv('ToB-HowToGet-Nodes');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
-Nodes
-</a>
-
-<div class="right">
-
-<div class="dots">
-	<span class="circleText amount">7</span>
-</div>
-
-<a title="Trace of Battle" class="links" href="https://bdocodex.com/us/item/5958/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToB-HowToGet-Nodes Button End -->
-
-<!-- ToB-HowToGet-Nodes -->
-<div id="ToB-HowToGet-Nodes" class="info hidden">
-
-<p class="h2 gold2">7CP Calpheon</p>
-
-<a title="Bernianto Farm - Excavation" class="links2" href="https://www.somethinglovely.net/bdo/#node/842" target="_blank">
-<img class="icons icons1" src="images/icons/nodes/mining.png" alt="Icon" />
-Bernianto Farm
-</a>
-<p class="red smallTxt">
-Required: 35 Energy from Griffian Bernianto
-<br />
-(Bernianto Farm Node Manager)
-</p>
-
-
-</div>
-<!-- ToB-HowToGet-Nodes End -->
-
-
-
-
-
-</div>
-<!-- Item-ToB-obtaining End -->
-
-
-<!-- ToB-Notes-UsedInButton -->
-<div class="button usedin">
-
-<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('ToB-Notes-UsedIn');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-Used In Recipe
-<img class="icons icons6" src="images/icons/menu/checklist-notes.png" alt="Icon" />
-</a>
-
-
-<div class="right">
-
-<a title="Trace of Battle" class="links" href="https://bdocodex.com/us/item/5203/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToB-Notes-UsedInButton End -->
-
-<!-- ToB-Notes-UsedIn -->
-<div id="ToB-Notes-UsedIn" class="hidden usedin-container">
-
-<!-- ToB-Notes-Alchemy Button -->
-<div class="button darkBg2">
-
-<a title="Content Button" class="buttonLink h2 gold" href="javascript:toggleDiv('ToB-Notes-Alchemy');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-<img class="icons icons1" src="images/icons/processing/simple-alchemy.png" alt="Icon" />
-Alchemy
-</a>
-
-<div class="right">
-
-<a title="Trace of Battle" class="links" href="https://bdocodex.com/us/item/5958/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToB-Notes-Alchemy Button End -->
-
-<!-- ToB-Notes-Alchemy -->
-<div id="ToB-Notes-Alchemy" class="info hidden">
-
-<a title="Elixir of Frenzy" class="green1 links2" href="https://bdocodex.com/us/item/672/" target="_blank">
-
-<img class="icons icons1" src="images/icons/pots/frenzy.png" alt="Icon" />
-Elixir of Frenzy
-</a>
-
-<br />
-
-<a title="Griffon's Elixir" class="green1 links2" href="https://bdocodex.com/us/item/740/" target="_blank">
-
-<img class="icons icons1" src="images/icons/pots/griffons.png" alt="Icon" />
-Griffon's Elixir
-</a>
-
-</div>
-<!-- ToB-Notes-Alchemy End -->
-
-
-<!-- ToB-Notes-Design Button -->
-<div class="button darkBg2">
-
-<a title="Content Button" class="buttonLink h2 gold" href="javascript:toggleDiv('ToB-Notes-Design');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-<img class="icons icons3" src="images/icons/menu/design.png" alt="Icon" />
-Design
-</a>
-
-<div class="right">
-
-<a title="Trace of Battle" class="links" href="https://bdocodex.com/us/item/5958/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToB-Notes-Design Button End -->
-
-<!-- ToB-Notes-Design -->
-<div id="ToB-Notes-Design" class="info hidden">
-
-<a title="Epheria Frigate: Serena Cannon" class="blue1 links2" href="https://bdocodex.com/us/item/49732/" target="_blank">
-
-<img class="icons icons1" src="images/icons/designs/boat/ef-serena-cannon.png" alt="Icon" />
-Epheria Frigate: Serena Cannon
-</a>
-
-<br />
-
-<a title="Epheria Frigate: Zafina Cannon" class="links2" href="https://bdocodex.com/us/item/49724/" target="_blank">
-
-<img class="icons icons1" src="images/icons/designs/boat/ef-zafina-cannon.png" alt="Icon" />
-Epheria Frigate: Zafina Cannon
-</a>
-
-<br />
-
-<a title="Epheria Sailboat: Elena Cannon" class="links2" href="https://bdocodex.com/us/item/49715/" target="_blank">
-<img class="icons icons1" src="images/icons/designs/boat/es-elena-cannon.png" alt="Icon" />
-Epheria Sailboat: Elena Cannon
-</a>
-
-<br />
-
-<a title="Epheria Sailbot: Elise Cannon" class="blue1 links2" href="https://bdocodex.com/us/item/49728/" target="_blank">
-
-<img class="icons icons1" src="images/icons/designs/boat/es-elise-cannon.png" alt="Icon" />
-Epheria Sailboat: Elise Cannon
-</a>
-
-<br />
-
-<a title="Silver Embroidered Trainer's Clothes" class="blue1 links2" href="https://bdocodex.com/us/item/14023/" target="_blank">
-
-<img class="icons icons1" src="images/icons/designs/clothes/trainers.png" alt="Icon" />
-Trainer's Clothes
-</a>
-
-
-</div>
-<!-- ToB-Notes-Design End -->
-
-
-<a title="Trace of Battle" class="links2" href="https://bdocodex.com/us/item/5958/" target="_blank">And More...</a>
-</div>
-<!-- ToB-Notes-UsedIn End -->
-
-</div>
-<!-- Item-ToB End -->
-
-
-</div>
-<!-- ToB-container End -->
+<!-- #endregion - Trace-of-Battle-Container -->	
 
 </body>
 </html>

@@ -2,372 +2,586 @@
 <html lang="en">
 <head>
 	<title>Trace of Death</title>
-	<meta charset="UTF-8" />
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
-	<link rel="stylesheet" href="scripts/css/common.css" />
+	<meta charset="UTF-8">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" href="scripts/css/common.css">
 	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
-	<script src="scripts/jquery/3.6.0.js"></script> 
-	<script src="scripts/jquery/plus-minus.js"></script>
-	<script src="scripts/jquery/toggle-div.js"></script>
-	<script src="scripts/jquery/ui-1.13.1.js"></script>
+	<script src="../scripts/jquery/3.7.1.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
 </head>
-<body id="home-page">
+<body id="trace-of-death-page">
 
-<!-- ToD-container -->
-<div id="ToD-container" class="container bloods" draggable="true" ondragstart="drag(event)">
+<!-- #region - Trace-of-Death-Container -->
+	<div id="trace-of-death-container" class="items-container traces" draggable="true" ondragstart="drag(event)">
+
+		<!-- #region - Trace-of-Death-Content Button -->
+			<div class="button trace-of-death-button top">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('trace-of-death-content');">
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div> 
+
+					<span class="trace-of-death">
+						<img class="icons icons1 trace-of-death-icon" src="images/icons/traces/death.webp" alt="Icon"> 
+						Trace of Death
+					</span>
+				</a>
+
+				<div class="right">
+					<a title="Trace of Death" class="links" href="https://bdocodex.com/us/item/5962/" target="_blank">🔗</a>
+				</div>
+
+			</div>
+		<!-- #endregion - Trace-of-Death-Content Button -->
+
+		<!-- #region - Trace-of-Death-Content -->
+			<div id="trace-of-death-content" class="hidden">
+
+				<!-- #region - Trace-of-Death-How-To-Get Button -->
+					<div class="button htg-button">
+						<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-death-htg-content');">
+			
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+			
+							<span class="htg">
+								<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon"> How to Get 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Trace-of-Death-How-To-Get Button -->
+
+				<!-- #region - Trace-of-Death-How-To-Get -->
+					<div id="trace-of-death-htg-content" class="info hidden">
 
 
-<!-- Item-ToD Button -->
-<div class="button ToD top">
+						<!-- #region - Trace-of-Death-How-To-Get-Item-Box Button -->
+							<div class="button item-box-button">
 
-<a title="Content Button" class="buttonLink dark1" href="javascript:toggleDiv('Item-ToD');">
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-death-htg-item-box');">
 
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<span class="item-box">
+										<img class="icons icons1 item-box-icon" src="images/icons/menu/item-box.webp" alt="Icon"> 
+										Item Box
+										</a>
+									</span>
+								</a>
+
+								<div class="right">
+
+								</div>
+
+							</div>
+						<!-- #endregion - Trace-of-Death-How-To-Get-Item-Box Button -->
+
+						<!-- #region - Trace-of-Death-How-To-Get-Item-Box -->				
+							<div id="trace-of-death-htg-item-box" class="info hidden">
+										
+								<!-- #region - Trace-of-Death - Item-Box Links -->
+									<div class="links-content">
+
+										<a title="Imperial Trace Box" class="links2 grade5" href="https://bdocodex.com/us/item/8072/" target="_blank">
+											<img class="icons icons1" src="images/icons/items/trace-box.webp" alt="Icon"> 
+										Imperial Trace Box
+										</a>
+
+										<p class="h2 green1">
+											[Daily] [Alchemy] Striving Towards Imperial Delivery
+										</p>
+
+									</div>
+								<!-- #endregion - Trace-of-Death - Item-Box Links -->
+
+							</div>
+						<!-- #endregion - Trace-of-Death-How-To-Get-Item-Box -->
+
+
+						<!-- #region - Trace-of-Death-How-To-Get-Nodes Button -->
+							<div class="button nodes-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-death-htg-nodes');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<img class="icons icons1 nodes-icon" src="images/icons/nodes/nodes.webp" alt="Icon"> Nodes
+								</a>
+
+								<div class="right">
+									<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Trace-of-Death-How-To-Get-Nodes Button -->
+						
+						<!-- #region - Trace-of-Death-How-To-Get-Nodes -->
+							<div id="trace-of-death-htg-nodes" class="info hidden">
+								
+								<!-- #region - Trace-of-Death-Nodes-Links -->			
+									<div class="links-content">
+										<!-- #region - Trace-of-Death-Node-Link1 -->
+
+											<a title="Star's End - Excavation" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1720" target="_blank">
+												<img class="icons icons1 nodes-excavation-icon" src="images/icons/nodes/excavation.webp" alt="Icon"> 
+												Star's End - Excavation
+											</a>
+											<p class="node-notes smalltxt">
+												
+											</p>
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="trace-of-death-htg-node-selection-1" class="node-selection">
+													
+													<option id="trace-of-death-htg-node-cp-route-1" value="16" selected>
+														Cheapest Route To: Grána (16CP) <!-- Grana -->
+													</option>
+			
+													<optgroup label="Start: (0CP) - Grána"> 
+														<option id="trace-of-death-htg-node-route-1-option-1" value="3">
+															(3CP) Lake Flondor
+														</option>
+														<option id="trace-of-death-htg-node-route-1-option-2" value="1">
+															(1CP) White Wood Forest
+														</option>
+														<option id="trace-of-death-htg-node-route-1-option-3" value="3">
+															(3CP) Tooth Fairy Forest
+														</option>
+														<option id="trace-of-death-htg-node-route-1-option-4" value="2">
+															(2CP) Loopy Tree Forest
+														</option>
+														<option id="trace-of-death-htg-node-route-1-option-5" value="3">
+															(3CP) Ash Forest
+														</option>
+														<option id="trace-of-death-htg-node-route-1-option-6" value="3">
+															(3CP) Star's End
+														</option>
+														<option id="trace-of-death-htg-node-route-1-option-7" value="1">
+															(1CP) Star's End - Excavation
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="trace-of-death-htg-node-selection-2" class="node-selection">
+													
+													<option id="trace-of-death-htg-node-cp-route-2" value="18" selected>
+														Cheapest Route To: Calpheon (18CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Calpheon">
+														<option id="trace-of-death-htg-node-route-2-option-1" value="2">
+															(2CP) Gabino Farm
+														</option>
+														<option id="trace-of-death-htg-node-route-2-option-2" value="3">
+															(3CP) North Kaia Pier
+														</option>
+														<option id="trace-of-death-htg-node-route-2-option-3" value="1">
+															(1CP) Calpheon Castle Site
+														</option>
+														<option id="trace-of-death-htg-node-route-2-option-4" value="3">
+															(3CP) Calpheon Castle
+														</option>
+														<option id="trace-of-death-htg-node-route-2-option-5" value="2">
+															(2CP) Brelin Farm
+														</option>
+														<option id="trace-of-death-htg-node-route-2-option-6" value="3">
+															(3CP) Calpheon Northwestern Outpost
+														</option>
+														<option id="trace-of-death-htg-node-route-2-option-7" value="3">
+															(3CP) Star's End
+														</option>
+														<option id="trace-of-death-htg-node-route-2-option-8" value="1">
+															(1CP) Star's End - Excavation
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+										<!-- #endregion - Trace-of-Death-Node-Link1 -->				
+									</div>
+								<!-- #endregion - Trace-of-Death-Nodes-Links -->		
+
+								<br>
+							</div>
+						<!-- #endregion - Trace-of-Death-How-To-Get-Nodes -->
+
+
+
+						<!-- #region - Trace-of-Death-How-To-Get-Processing Button -->
+							<div class="button processing-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-death-htg-processing-content');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									<span class="processing-guild">
+										<img class="icons processing-icon" src="images/icons/menu/processing.webp" alt="Icon"> Processing
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Trace-of-Death-How-To-Get-Processing Button -->
+
+						<!-- #region - Trace-of-Death-How-To-Get-Processing -->
+							<div id="trace-of-death-htg-processing-content" class="info hidden">
+
+								<!-- #region - Trace-of-Death-How-To-Get-Processing-Heating Button -->
+									<div class="button processing-heating-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-death-htg-processing-heating');">
+
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+
+											<img class="icons icons1 heating-icon" src="images/icons/processing/heating.webp" alt="Icon"> Heating  
+										</a>
+
+										<div class="right">
+
+										</div>
+
+									</div>
+								<!-- #endregion - Trace-of-Death-How-To-Get-Processing-Heating Button -->
+									
+								<!-- #region - Trace-of-Death-How-To-Get-Processing-Heating -->
+									<div id="trace-of-death-htg-processing-heating" class="info hidden">
+										
+										<!-- #region - items-trace-of-death-info-Heating -->			
+											<div class="links-content">
+												
+
+												<div class="item-link">
+													<a title="Seleth Weapons" class="links2 grade3" href="https://bdocodex.com/us/item/757454/" target="_blank">
+														<img class="icons icons1" src="images/icons/items/weapons/main-box.webp" alt="Icon"> 
+														Seleth Weapons
+													</a>
+
+													<div class="right">
+
+													</div>
+												</div>
+
+												
+											</div>
+										<!-- #endregion - items-trace-of-death-info-Heating -->		
+
+									</div>
+								<!-- #endregion - Trace-of-Death-How-To-Get-Processing-Heating -->
+
+							</div>
+						<!-- #endregion - Trace-of-Death-How-To-Get-Processing -->
+
+
+					</div>
+				<!-- #endregion - Trace-of-Death-How-To-Get -->
+
+
+				<!-- #region - Trace-of-Death-Used-In-Content-Button -->
+					<div class="button used-in-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('trace-of-death-used-in-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="used-in-recipe">
+								<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon"> Used In Recipe 
+							</span>
+						</a>
+
+
+						<div class="right">
+
+						</div>
+					</div>
+				<!-- #endregion - Trace-of-Death-Used-In-Content-Button -->
+
+				<!-- #region - Trace-of-Death-Used-In-Content -->
+					<div id="trace-of-death-used-in-content" class="hidden used-in-content">
+
+
+						<!-- #region - Trace-of-Death-Used-In-Alchemy Button -->
+							<div class="button item-alchemy-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-death-used-in-alchemy');">
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									
+									<img class="icons icons1 alchemy-icon" src="images/icons/processing/simple-alchemy.webp" alt="Icon"> Alchemy
+								</a>
+								
+								<div class="right">
+									<a title="Alchemy Guide" class="links" href="https://grumpygreen.cricket/alchemy/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Trace-of-Death-Used-In-Alchemy Button -->
+
+						<!-- #region - Trace-of-Death-Used-In-Alchemy -->
+							<div id="trace-of-death-used-in-alchemy" class="info hidden">
+							
+								<!-- #region - trace-of-death-items-links -->	
+									<div class="links-content">
+
+										<div class="item-link">
+											<a title="Defense Nullifying Damage +5 per Critical Hit" class="links2 grade3" href="https://bdocodex.com/us/item/686/" target="_blank">
+												<img class="icons icons1 eod-pot-icon" src="images/icons/pots/death.webp" alt="Icon"> Elixir of Death
+											</a>
+
+											<div class="right">
+												<div class="dots">
+													<span class="circle-text amount">2</span>
+												</div>
+											</div>
+										</div>
+			
+									</div>			
+								<!-- #endregion - trace-of-death-items-links -->									
+							</div>
+						<!-- #endregion - Trace-of-Death-Used-In-Alchemy -->						
+
+
+						<!-- #region - Trace-of-Death-Used-In-Processing Button -->
+							<div class="button processing-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-death-used-in-processing-content');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									<span class="processing-guild">
+										<img class="icons processing-icon" src="images/icons/menu/processing.webp" alt="Icon"> Processing
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Trace-of-Death-Used-In-Processing Button -->
+
+						<!-- #region - Trace-of-Death-Used-In-Processing -->
+							<div id="trace-of-death-used-in-processing-content" class="info hidden">
+
+								<!-- #region - Trace-of-Death-Used-In-Simple-Alchemy Button -->
+									<div class="button processing-simple-alchemy-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-death-used-in-processing-simple-alchemy');">
+
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+
+											<img class="icons icons1 simple-alchemy-icon" src="images/icons/processing/simple-alchemy.webp" alt="Icon"> Simple Alchemy
+										</a>
+
+										<div class="right">
+											<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+										</div>
+
+									</div>
+								<!-- #endregion - Trace-of-Death-Used-In-Simple-Alchemy Button -->
+									
+								<!-- #region - Trace-of-Death-Used-In-Simple-Alchemy -->
+									<div id="trace-of-death-used-in-processing-simple-alchemy" class="info hidden">
+										
+										<!-- #region - items-trace-of-death-info-Simple-Alchemy -->			
+											<div class="links-content">
+
+												<div class="item-link">
+													<a title="Piece of Image" class="links2 grade6" href="https://bdocodex.com/us/item/4919/" target="_blank">
+														<img class="icons icons1" src="images/icons/processing/simple-alchemy/piece-of-image.webp" alt="Icon"> Piece of Image
+													</a>
+
+													<div class="right">
+														<div class="dots">
+															<span class="circle-text amount">100</span>
+														</div>
+													</div>
+												</div>
+
+											</div>
+										<!-- #endregion - items-trace-of-death-info-Simple-Alchemy -->		
+
+									</div>
+								<!-- #endregion - Trace-of-Death-Used-In-Simple-Alchemy -->
+
+								
+							</div>
+						<!-- #endregion - Trace-of-Death-Used-In-Processing -->
+
+
+						<!-- #region - Trace-of-Death-Workshop Button -->
+							<div class="button workshop-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-death-used-in-workshop-content');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									<span class="design-workshop">
+										<img class="icons icons1 design-workshop-icon" src="images/icons/menu/workshop.webp" alt="Icon"> Workshop
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Workshops" class="links" href="https://bdo.altarofgaming.com/workshops/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Trace-of-Death-Workshop Button -->
+
+						<!-- #region - Trace-of-Death-Workshop -->
+							<div id="trace-of-death-used-in-workshop-content" class="info hidden">
+							
+								<!-- #region - Trace-of-Death-Design-Ships Button -->
+									<div class="button design-ships-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-death-design-ships');">
+											
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+											<span class="design-ships-text">
+												<img class="icons icons1 design-ships-icon" src="images/icons/menu/workshop/shipyard.webp" alt="Icon"> Shipyard 
+											</span>
+										</a>
+										
+										<div class="right">
+											<a title="Workshops" class="links" href="https://bdo.altarofgaming.com/workshops/" target="_blank">🔗</a>
+										</div>
+
+									</div>
+								<!-- #endregion - Trace-of-Death-Design-Ships Button -->
+
+								<!-- #region - Trace-of-Death-Design-Ships -->
+									<div id="trace-of-death-design-ships" class="info hidden">
+										<div class="links-content">
+											
+											<div class="item-link">
+												<a title="Epheria Frigate: Enhanced Black Plating" class="links2 grade4" href="https://bdocodex.com/us/item/49723/" target="_blank">
+													<img class="icons icons1 ef-enhanced-black-plating-icon" src="images/icons/designs/ship/ef-enhanced-black-plating.webp" alt="Icon"> Frigate: Enhanced Black Plating
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circle-text amount">150</span>
+													</div>
+												</div>
+											</div>
+
+											<div class="item-link">
+												<a title="Epheria Frigate: Streamlined Black Plating" class="links2 grade4" href="https://bdocodex.com/us/item/49731/" target="_blank">
+													<img class="icons icons1 ef-streamlined-black-plating-icon" src="images/icons/designs/ship/ef-streamlined-black-plating.webp" alt="Icon"> Frigate: Streamlined Black Plating
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circle-text amount">150</span>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="item-link">
+												<a title="Epheria Sailboat: Enhanced Black Plating" class="links2 grade4" href="https://bdocodex.com/us/item/49714/" target="_blank">
+													<img class="icons icons1 es-enhanced-black-plating-icon" src="images/icons/designs/ship/es-enhanced-black-plating.webp" alt="Icon"> Sailboat: Enhanced Black Plating
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circle-text amount">100</span>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>		
+								<!-- #endregion - Trace-of-Death-Design-Ships -->
+
+							</div>
+						<!-- #endregion - Trace-of-Death-Workshop -->
+
+						<a title="Trace of Death" class="links2" href=https://bdocodex.com/us/item/5962/ target="_blank">And More...</a>
+					</div>
+				<!-- #endregion - Trace-of-Death-Used-In-Content -->
+
+
+
+				<!-- #region - Trace-of-Death-notes-Content-Button -->
+					<div class="button notes-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('trace-of-death-notes-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="notes">
+								<img class="icons notes-icon" src="images/icons/menu/notes.webp" alt="Icon"> notes 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Trace-of-Death-notes-Content-Button -->
+
+				<!-- #region - Trace-of-Death-notes-Content -->
+					<div id="trace-of-death-notes-content" class="hidden notes-content">
+						<p class="notes-entry">
+							-notes
+						</p>
+						<p class="notes-entry">
+
+						</p>
+					</div>
+				<!-- #endregion - Trace-of-Death-notes-Content -->
+
+
+			</div>
+		<!-- #endregion - Trace-of-Death-Content -->
+
 	</div>
-</div> 
-
-<img class="icons icons1" src="images/icons/traces/death.png" alt="Icon" />
-Trace of Death
-</a>
-
-<div class="right">
-
-<div class="dots">
-	<span class="circleText amount">1</span>
-</div>
-
-<a title="Trace of Death" class="links" href="https://bdocodex.com/us/item/5962/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- Item-ToD Button End -->
-
-<!-- Item-ToD -->
-<div id="Item-ToD" class="hidden">
-
-<!-- Item-ToD-obtaining Button -->
-<div class="button blueBg3">
-
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Item-ToD-obtaining');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-<span class="">
-How to Obtain
-<img class="icons icons1" src="images/icons/traces/death.png" alt="Icon" />
-</span>
-
-
-</a>
-
-</div>
-<!-- Item-ToD-obtaining Button End -->
-
-<!-- Item-ToD-obtaining -->
-<div id="Item-ToD-obtaining" class="hidden">
-
-
-<!-- ToD-HowToGet-Heating Button -->
-<div class="button darkBg2">
-
-<a title="Content Button" class="buttonLink h2 gold" href="javascript:toggleDiv('ToD-HowToGet-Heating');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-Processing: Heating <img class="icons icons1" src="images/icons/processing/heating.png" alt="Icon" />
-</a>
-
-<div class="right">
-
-<a title="Trace of Death" class="links" href="https://bdocodex.com/us/item/5962/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToD-HowToGet-Heating Button End -->
-
-<!-- ToD-HowToGet-Heating -->
-<div id="ToD-HowToGet-Heating" class="info hidden">
-
-<a title="Seleth Weapons" class="links2" href="https://bdocodex.com/us/item/757454/" target="_blank">
-<img class="icons icons1" src="images/icons/items/weapons/main-box.png" alt="Icon" />
-Seleth  Weapons
-</a>
-
-</div>
-<!-- ToD-HowToGet-Heating End -->
-
-<!-- ToD-HowToGet-ItemBox Button -->
-<div class="button darkBg2">
-
-<a title="Content Button" class="buttonLink h2 gold" href="javascript:toggleDiv('ToD-HowToGet-ItemBox');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-<img class="icons icons1" src="images/icons/menu/item-box.png" alt="Icon" />
-Item Box
-</a>
-
-<div class="right">
-
-<a title="Trace of Death" class="links" href="https://bdocodex.com/us/item/5962/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToD-HowToGet-ItemBox Button End -->
-
-<!-- ToD-HowToGet-ItemBox -->
-<div id="ToD-HowToGet-ItemBox" class="info hidden">
-
-<p class="h2 green1">
-Alchemy Daily Reward
-</p>
-
-<a title="Imperial Trace Box" class="gold links2" href="https://bdocodex.com/us/item/8072/" target="_blank">
-<img class="icons icons1" src="images/icons/items/trace-box.png" alt="Icon" />
-Imperial Trace Box
-</a>
-
-</div>
-<!-- ToD-HowToGet-ItemBox End -->
-
-
-<!-- ToD-HowToGet-Nodes Button -->
-<div class="button darkBg2">
-
-<a title="Content Button" class="buttonLink h2 gold" href="javascript:toggleDiv('ToD-HowToGet-Nodes');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
-Nodes
-</a>
-
-<div class="right">
-
-<div class="dots">
-	<span class="circleText amount">16</span>
-</div>
-
-<a title="Trace of Death" class="links" href="https://bdocodex.com/us/item/5962/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToD-HowToGet-Nodes Button End -->
-
-<!-- ToD-HowToGet-Nodes -->
-<div id="ToD-HowToGet-Nodes" class="info hidden">
-
-<p class="h2 gold2">16CP Grána/18CP Calpheon</p>
-
-<a title="Star's End - Excavation" class="links2" href="https://www.somethinglovely.net/bdo/#node/1720" target="_blank">
-<img class="icons icons1" src="images/icons/nodes/mining.png" alt="Icon" />
-Star's End - Excavation
-</a>
-
-</div>
-<!-- ToD-HowToGet-Nodes End -->
-
-
-
-</div>
-<!-- Item-ToD-obtaining End -->
-
-
-<!-- ToD-Notes-UsedInButton -->
-<div class="button usedin">
-
-<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('ToD-Notes-UsedIn');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-Used In Recipe
-<img class="icons icons6" src="images/icons/menu/checklist-notes.png" alt="Icon" />
-</a>
-
-
-<div class="right">
-
-<a title="Trace of Death" class="links" href="https://bdocodex.com/us/item/5962/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToD-Notes-UsedInButton End -->
-
-<!-- ToD-Notes-UsedIn -->
-<div id="ToD-Notes-UsedIn" class="hidden usedin-container">
-
-<!-- ToD-Notes-Alchemy Button -->
-<div class="button darkBg2">
-
-<a title="Content Button" class="buttonLink h2 gold" href="javascript:toggleDiv('ToD-Notes-Alchemy');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-<img class="icons icons1" src="images/icons/processing/simple-alchemy.png" alt="Icon" />
-Alchemy
-</a>
-
-<div class="right">
-
-<a title="Trace of Death" class="links" href="https://bdocodex.com/us/item/5962/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToD-Notes-Alchemy Button End -->
-
-<!-- ToD-Notes-Alchemy -->
-<div id="ToD-Notes-Alchemy" class="info hidden">
-
-<a title="Elixir of Death" class="green1 links2" href="https://bdocodex.com/us/item/12/" target="_blank">
-
-<img class="icons icons1" src="images/icons/pots/death.png" alt="Icon" />
-Elixir of Death
-</a>
-
-</div>
-<!-- ToD-Notes-Alchemy End -->
-
-
-<!-- ToD-Notes-Simple-Alchemy Button -->
-<div class="button darkBg2">
-
-<a title="Content Button" class="buttonLink h2 gold" href="javascript:toggleDiv('ToD-Notes-Simple-Alchemy');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-<img class="icons icons1" src="images/icons/processing/simple-alchemy.png" alt="Icon" />
-Simple Alchemy
-</a>
-
-<div class="right">
-
-<a title="Trace of Death" class="links" href="https://bdocodex.com/us/item/5962/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToD-Notes-Simple-Alchemy Button End -->
-
-<!-- ToD-Notes-Simple-Alchemy -->
-<div id="ToD-Notes-Simple-Alchemy" class="info hidden">
-
-<a title="Piece of Image" class="links2" href="https://bdocodex.com/us/item/4919/" target="_blank">
-
-<img class="icons icons1" src="images/icons/processing/simple-alchemy/piece-of-image.png" alt="Icon" />
-Piece of Image
-</a>
-
-<br />
-
-
-
-</div>
-<!-- ToD-Notes-Simple-Alchemy End -->
-
-
-<!-- ToD-Notes-Design Button -->
-<div class="button darkBg2">
-
-<a title="Content Button" class="buttonLink h2 gold" href="javascript:toggleDiv('ToD-Notes-Design');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-<img class="icons icons3" src="images/icons/menu/design.png" alt="Icon" />
-Design
-</a>
-
-<div class="right">
-
-<a title="Trace of Death" class="links" href="https://bdocodex.com/us/item/5962/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToD-Notes-Design Button End -->
-
-<!-- ToD-Notes-Design -->
-<div id="ToD-Notes-Design" class="info hidden">
-
-<a title="Epheria Frigate: Streamlined Black Plating" class="blue1 links2" href="https://bdocodex.com/us/item/49731/" target="_blank">
-
-<img class="icons icons1" src="images/icons/designs/boat/ef-dragon-figurehead.png" alt="Icon" />
-Frigate: Streamlined Black Plating
-</a>
-
-<br />
-
-<a title="Epheria Frigate: Upgraded Black Plating" class="blue1 links2" href="https://bdocodex.com/us/item/49723/" target="_blank">
-
-<img class="icons icons1" src="images/icons/designs/boat/ef-upgraded-black-plating.png" alt="Icon" />
-Epheria Frigate: Upgraded Black Plating
-</a>
-
-<br />
-
-<a title="Epheria Sailboat: Upgraded Black Plating" class="blue1 links2" href="https://bdocodex.com/us/item/49714/" target="_blank">
-
-<img class="icons icons1" src="images/icons/designs/boat/es-upgraded-black-plating.png" alt="Icon" />
-Epheria Sailboat: Upgraded Black Plating
-</a>
-
-<br />
-
-</div>
-<!-- ToD-Notes-Design End -->
-
-
-
-<a title="Trace of Death" class="links2" href="https://bdocodex.com/us/item/5962/" target="_blank">And More...</a>
-</div>
-<!-- ToD-Notes-UsedIn End -->
-
-</div>
-<!-- Item-ToD End -->
-
-
-</div>
-<!-- ToD-container End -->
+<!-- #endregion - Trace-of-Death-Container -->	
 
 </body>
 </html>

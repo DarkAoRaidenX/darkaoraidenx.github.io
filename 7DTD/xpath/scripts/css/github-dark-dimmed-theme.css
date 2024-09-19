@@ -1,0 +1,33 @@
+/* 
+f47067 - Pink/Peach Color used for things like HTML/CSS 
+768390 - Grey Color used for comments
+8ddb8c - Brighter Green used for comments
+4caf50 - Green comments / too clashy
+43a047 - Green comments
+388e3c - Green comments
+6A9955 - Darker Green uses for comments
+*/
+
+.comment,#notes-container a.comment,.comment .greater-than,.comment .less-than  {
+	color: #43a047;
+}
+
+.attribute {
+	color: #6cb6ff;
+}
+
+.string,a.string,input[type=text] {
+	color: #96D0FF;
+}
+
+.tag,#notes-container a.tag {
+	color: #8DDB8C;	
+}
+
+.greater-than,.less-than,.slash {
+	color: #768390;		
+}
+
+.xml-name {
+	color: #f4511e;
+}

@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Elixirs/Pots - OLUNS</title>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" href="scripts/css/common.css">
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="../scripts/jquery/3.7.1.min.js"></script>
+	<script src="../scripts/jquery/allow-drop.js"></script>
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/show-only-one.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
+	<script>
+		$( function() {
+		  $( "#tabs" ).tabs();
+		} );
+	</script>
+</head>
+<body id="elixirs-oluns" class="common">
+
+
+	<!-- #region - Buttons -->
+		<div id="nav-buttons" class="">
+
+			<!-- #region - GitHub Home Button -->
+				<div class="button home-button">
+
+					<a title="GitHub Home Page" class="button-link" href="../index.html">
+
+						 <img class="icons icons1" src="../images/home.webp" alt="Icon"> GitHub
+
+					</a>
+
+					<div class="right">
+					</div>
+
+				</div>
+			<!-- #endregion - GitHub Home Button -->
+
+			<ul>
+				<li>
+					<div class="button bdo-home-button">
+						<a title="Home Page" class="button-link" href="#tabs-1">
+							<img class="icons icons1" src="../images/home.webp" alt="Icon"> BDO Page
+						</a>
+					</div>
+				</li>
+
+				<li>
+					<div class="button alchemy-recipes-button">
+						<a title="Alchemy" class="button-link" href="#tabs-2">
+							<img class="icons icons1 alchemy-icon" src="images/icons/processing/simple-alchemy.webp" alt="Icon"> Alchemy Recipes
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="button cooking-recipes-button">
+						<a title="Cooking" class="button-link" href="#tabs-3">
+							<img class="icons icons1" src="images/icons/processing/simple-cooking.webp" alt="Icon"> Cooking Recipes
+						</a>
+					</div>
+				</li>
+			</ul>
+
+
+			<!-- #region - Thanks Button -->
+				<div class="button bdocodex-button">
+
+				<a title="bdocodex.com" class="button-link" href="https://bdocodex.com/us/" target="_blank">
+
+				 <img class="icons bdocodex-icon" src="images/icons/menu/bdo-codex.webp" alt="Icon"> 
+				Thanks to Kiriak for the help and BDO Codex!
+				</a>
+
+				<div class="right">
+				</div>
+
+				</div>
+			<!-- #endregion - Thanks Button -->
+
+
+			<!-- #region - Info Button -->
+				<div class="button info-button">
+
+					<a title="Click to Show Information" class="button-link" href="javascript:toggleDiv('info-box');">
+						ℹ️
+					</a>
+				
+					<div class="right">
+					</div>
+				
+				</div>
+			<!-- #endregion - Info Button -->
+
+
+		</div>
+	<!-- #endregion - Buttons -->
+
+
+
+	<!-- #region - bdo-recipes-container -->
+		<div id="bdo-recipes-container">
+			<div id="recipes-alchemy-content" class="recipes-container"></div>
+
+				<!-- #region - Columns Left -->
+					<div id="columns-Alchemy-left" class="rows rows-left">
+						<!-- #region - Column 1 - Left -->					
+							<div id="recipes1-Alchemy-left" class="columns" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+								Test
+
+
+
+							</div>
+						<!-- #endregion - Column 1 - Left -->
+
+						<!-- #region - Column 2 - Left -->					
+						<div id="recipes2-Alchemy-left" class="columns" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+							Test
+
+
+
+						</div>
+					<!-- #endregion - Column 2 - Left -->
+					</div> 
+				<!-- #endregion - Columns Left -->
+
+				<!-- #region - Columns right -->
+				<div id="columns-Alchemy-right" class="rows rows-right">
+					<!-- #region - Column 1 - right -->					
+						<div id="recipes1-Alchemy-right" class="columns" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+							Test
+
+
+
+						</div>
+					<!-- #endregion - Column 1 - right -->
+
+					<!-- #region - Column 2 - right -->					
+					<div id="recipes2-Alchemy-right" class="columns" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+						Test
+
+
+
+					</div>
+				<!-- #endregion - Column 2 - right -->
+				</div> 
+			<!-- #endregion - Columns right -->
+
+
+			</div>	
+
+
+		</div>
+	<!-- #endregion - bdo-recipes-container -->
+
+		</div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>7 Days to Die XPath Tutorial/Notes</title>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="darkbluex,darkaoraidenx,7 days to die xpath">
+	<meta name="description" content="7 Days to Die XPath Tutorial/Notes By DarkBlueX/DarkAoRaidenX">
+	<meta property="og:title" content="7 Days to Die XPath Tutorial/Notes By DarkBlueX/DarkAoRaidenX">
+	<meta property="og:description" content="Best way to reach me is Discord. Username: DarkAoRaidenX">
+	<meta property="og:url" content="https://darkaoraidenx.github.io/7-days-xpath/index.html">
+	<meta property="og:image" content="https://i.imgur.com/tFCRzeR.png">
+	<meta property="og:type" content="article">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="../images/fav/favicon.ico">
+	<link rel="stylesheet" href="../scripts/css/common.css">
+	<link rel="stylesheet" href="scripts/css/github-dark-dimmed-theme.css">
+	<link rel="stylesheet" href="../../scripts/fontawesome-free-6.6.0-web/css/all.css">
+	<script src="../../scripts/jquery/3.7.1.min.js"></script> 
+	<script src="../../scripts/jquery/plus-minus.js"></script>
+	<script src="../../scripts/jquery/show-only-one.js"></script>
+	<script src="../../scripts/jquery/tabs.js"></script>
+	<script src="../../scripts/jquery/toggle-div.js"></script>
+	<script src="../../scripts/jquery/ui-1.13.2.js"></script>
+</head>
+<body id="xpath-basics-page" class="common">
+
+	<!-- #region - TOP NAV -->
+		<div class="top-navbar-container">
+			<div id="top-nav-content">
+				<a title="Github Home" href="index.html"><i class="fa fa-fw fa-home"></i> Github Home</a>
+				<div class="dropdown">
+					<button class="dropbtn active"><i class="fa-solid fa-code"></i> XPath Guides
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a title="XPATH Introduction" href="index.html"><i class="fa-solid fa-hand"></i> Introduction</a>
+						<a title="XPATH Prerequisites" href="prereqs.html"><i class="fa-solid fa-laptop-code"></i> Prerequisites</a>
+						<a title="XPATH Basics" class="active" href="xpath-basics.html"><i class="fa-solid fa-code"></i> XPATH Basics</a>
+						<a title="XPATH Advanced" href="xpath-advanced.html"><i class="fa-solid fa-code"></i> XPATH Advanced</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn"><i class="fa-solid fa-file-code"></i> Specific XML Tips
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a title="Blocks.xml" href="blocks.html"><i class="fa-solid fa-file-code"></i> Blocks.xml</a>
+						<a title="Buffs.xml" href="buffs.html"><i class="fa-solid fa-file-code"></i> Buffs.xml</a>
+						<a title="Entityclasses.xml/Entitygroups.xml" href="entityclasses-entitygroups.html"><i class="fa-solid fa-file-code"></i> Entityclasses.xml/Entitygroups.xml</a>
+						<a title="Gameevents.xml" href="gameevents.html"><i class="fa-solid fa-file-code"></i> Gameevents.xml</a>
+						<a title="Gamestages.xml" href="gamestages.html"><i class="fa-solid fa-file-code"></i> Gamestages.xml</a>
+						<a title="Item_Modifiers.xml" href="item_modifiers.html"><i class="fa-solid fa-file-code"></i> Item_Modifiers.xml</a>
+						<a title="Items.xml" href="items.html"><i class="fa-solid fa-file-code"></i> Items.xml</a>
+						<a title="Loadingscreen.xml" href="loadingscreen.html"><i class="fa-solid fa-file-code"></i> Loadingscreen.xml</a>
+						<a title="Localization.txt" href="localization.html"><i class="fa-solid fa-file-code"></i> Localization.txt</a>
+						<a title="Loot.xml" href="loot.html"><i class="fa-solid fa-file-code"></i> Loot.xml</a>
+						<a title="Materials.xml" href="materials.html"><i class="fa-solid fa-file-code"></i> Materials.xml</a>
+						<a title="Nav_Objects.xml" href="nav_objects.html"><i class="fa-solid fa-file-code"></i> Nav_Objects.xml</a>
+						<a title="Progression.xml" href="progression.html"><i class="fa-solid fa-file-code"></i> Progression.xml</a>
+						<a title="Quests.xml" href="quests.html"><i class="fa-solid fa-file-code"></i> Quests.xml</a>
+						<a title="Recipes.xml" href="recipes.html"><i class="fa-solid fa-file-code"></i> Recipes.xml</a>
+						<a title="Sounds.xml" href="sounds.html"><i class="fa-solid fa-file-code"></i> Sounds.xml</a>
+						<a title="Traders.xml" href="traders.html"><i class="fa-solid fa-file-code"></i> Traders.xml</a>
+						<a title="Twitch.xml" href="twitch.html"><i class="fa-solid fa-file-code"></i> Twitch.xml</a>
+						<a title="Ui_Display.xml" href="ui_display.html"><i class="fa-solid fa-file-code"></i> Ui_Display.xml</a>
+						<a title="Ui/XUi" href="ui-xui.html"><i class="fa-solid fa-file-code"></i> Ui/XUi</a>
+						<a title="Vehicles.xml" href="vehicles.html"><i class="fa-solid fa-file-code"></i> Vehicles.xml</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn"><i class="fa-solid fa-link"></i> Resource Links
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a title="My Discord" class="discord-button" href="https://discord.gg/UccyzVm5Xq" target="_blank"><i class="fa-brands fa-discord"></i> DarkAoRaidenX</a>
+						<a title="Official 7 Days to Die" class="discord-button" href="https://discord.com/invite/taYNEUS" target="_blank"><i class="fa-brands fa-discord"></i> Official 7 Days to Die</a>
+						<a title="More Advanced Help" class="discord-button" href="https://discord.gg/3aWeEGrjJK" target="_blank"><i class="fa-brands fa-discord"></i> Guppy's</a>
+						<a title="W3Schools XPath Intro" class="w3schools-button" href="https://www.w3schools.com/xml/xpath_intro.asp" target="_blank"><i class="fa-solid fa-school"></i> W3Schools - XPath Intro</a>
+						<a title="7 Days Wiki - XPath Explained" class="seven-days-wiki-button" href="https://7daystodie.wiki.gg/wiki/XPath_Explained" target="_blank"><i class="fa-solid fa-link"></i> 7 Days Wiki - XPath Explained</a>
+						<a title="Max Fox's Videos - A21+ XML" class="yt-button" href="https://7daystodie.wiki.gg/wiki/XPath_Explained" target="_blank"><i class="fa-brands fa-youtube"></i> Max Fox's Videos - A21+ XML</a>
+						<a title="XPath Cheatsheet 1" class="cheatsheet-button" href="https://devhints.io/xpath" target="_blank"><i class="fa-solid fa-note-sticky"></i> XPath Cheatsheet 1</a>
+						<a title="XPath Cheatsheet 2" class="cheatsheet-button" href="https://quickref.me/xpath.html" target="_blank"><i class="fa-solid fa-note-sticky"></i> XPath Cheatsheet 2</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn"><i class="fa-solid fa-gear"></i> My Mods
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a title="Github" class="github-button" href="mods.html" target="_blank"><i class="fa-brands fa-github"></i> Github</a>
+						<a title="Nexusmods.com" class="nexus-mods-button" href="https://next.nexusmods.com/profile/DarkAoRaidenX/mods?gameId=1059" target="_blank"><i class="fa-solid fa-link"></i> Nexus Mods</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- #endregion - TOP NAV -->
+
+
+	<!-- Content Container -->
+		<div id="content-container">
+
+
+			<div id="xpath-basics-container" class="content-container">
+
+				<!-- #region - xpath-basics -->
+					<div id="xpath-basics-notes">
+
+						<!-- #region - xpath-basics Content -->
+							<div id="xpath-basics" class="showonlyone-content">
+								
+								<br>
+								<h1>
+									<span class="less-than">&lt;</span>Xpath Basics<span class="greater-than">&gt;</span>
+								</h1>
+								<ul id="xpath-basics-nav" class="nav-tabs">
+									<li>
+										<h2 class="content-header">
+											<a title="Click To Show" class="header-link" href="#xpath-basics-1">
+												<span class="less-than">&lt;</span>Basics Overview<span class="greater-than">&gt;</span>
+											</a>
+										</h2>
+									</li>
+									<li>
+										<h2 class="content-header">
+											<a title="Click To Show" class="header-link" href="#xpath-basics-2">
+												<span class="less-than">&lt;</span>Basic Syntax Functions<span class="greater-than">&gt;</span>
+											</a>
+										</h2>
+									</li>
+								</ul>
+								<div id="xpath-basics-block" class="content-container-block">
+
+
+									<!-- #region - XPATH Basics Overview -->
+										<div id="xpath-basics-1" class="hidden">
+											
+											<!-- #region - XPATH Basics Overview Content Left -->
+												<div id="xpath-basics-overview-left" class="columns column-left">
+													<h2 class="content-header">
+														XPath Overview
+													</h2>
+													<div class="text-content">
+														XPath uses path expressions to select 
+														<br>
+														<span class="important">nodes</span> or <span class="important">node-sets</span> in an XML document.
+
+														<br><br>
+														These path expressions look very much like 
+														<br>
+														the path expressions you use with a PC file systems
+
+														<br><br>
+														Basically think of it like Folder Tree-like structure.
+														<br><br>
+													</div>
+
+												
+
+													<h2>
+														Functions
+													</h2>
+													<div class="text-content">
+														7 Days has XML code functions 
+														<br>
+														you can use to change the Vanilla values.
+														<br><br>
+														It doesn't actually touch and change the game files. 
+														<br>
+														The game just reads the files you made and changes it accordingly.
+														<br><br>
+														This is what one of a 7 Days to Die XML Function looks like.
+													</div>
+													<img class="code-example" src="https://i.imgur.com/l28au0X.png" alt="appending-function-code">
+													<div class="text-content">
+														Check out the Basic Syntax tab to learn more.
+													</div>
+
+													<br>
+													<h2>
+														Nodes Explanation
+													</h2>
+													<div class="text-content">
+														As you can see in the example picture this is where 
+														<br>
+														an advanced text editor comes in handy.
+
+														<br><br>
+														They highlight parts of the code in different colors.
+
+														<br><br>
+														<span class="tag">append</span> is a Function <span class="tag">Tag</span>.
+														<br><br>
+														<span class="attribute">xpath</span>,<span class="attribute">event</span>,<span class="attribute">name</span>,<span class="attribute">value</span>,<span class="attribute">count</span>,<span class="attribute">prob</span> are an <span class="attribute">Attribute</span>.
+														<br><br>
+														anything between 
+														<br>
+														double quotes "..." or single quotes '...' are <span class="string">String Text</span>
+													</div>
+
+													<br>
+													<h2>
+														XPath Conditionals 
+													</h2>
+													<div class="text-content">
+														In 99% of cases you will want to work on a specific node 
+														<br>
+														or at least a carefully chosen subset. 
+														
+														<br><br>
+														That is where conditionals come in. 
+														<br>
+														Since everything descriptive in 7D2D XML is put into an attribute, 
+														<br>
+														you will nearly always be using conditionals on attributes, 
+														<br>
+														like looking for a particular item name or block name.
+													</div>
+
+
+												</div>
+											<!-- #endregion - XPATH Basics Overview Content Left -->
+
+											<!-- #region - XPATH Basics Overview Content Right -->
+												<div id="xpath-basics-overview-right" class="columns column-right">
+													<a title="7 Days XPath Structure" class="img-link" href="https://i.imgur.com/pdglj7B.png" target="_blank">
+														<img class="code-example" src="https://i.imgur.com/pdglj7B.png" alt="7 Days XPath Structure">
+													</a>
+													<a title="Folder Structure Example" class="img-link" href="https://i.imgur.com/HqNvm8k.png" target="_blank">
+														<img class="code-example" src="https://i.imgur.com/HqNvm8k.png" alt="folder-structure-example">
+													</a>
+													
+												</div>
+											<!-- #endregion - XPATH Basics Overview Content Right-->	
+
+										</div>
+									<!-- #endregion - XPATH Basics Overview -->
+
+									<!-- #region - Basics Syntax Functions -->
+										<div id="xpath-basics-2" class="hidden">
+											<div id="basic-syntax-functions">
+
+												<!-- #region -  Basic Syntax Functions Nav -->												
+													<ul class="nav-tabs">
+														<li>
+															<h3 class="content-header">
+																<a title="Click To Show" class="header-link tag" href="#basic-syntax-functions-1">
+																	<span class="less-than">&lt;</span>Append<span class="greater-than">&gt;</span>
+																</a>
+															</h3>
+														</li>
+														<li>
+															<h3 class="content-header">
+																<a title="Click To Show" class="header-link tag" href="#basic-syntax-functions-2">
+																	<span class="less-than">&lt;</span>insertAfter/Before<span class="greater-than">&gt;</span>
+																</a>
+															</h3>
+														</li>
+														<li>
+															<h3 class="content-header">
+																<a title="Click To Show" class="header-link tag" href="#basic-syntax-functions-3">
+																	<span class="less-than">&lt;</span>Remove<span class="greater-than">&gt;</span>
+																</a>
+															</h3>
+														</li>
+														<li>
+															<h3 class="content-header">
+																<a title="Click To Show" class="header-link tag" href="#basic-syntax-functions-4">
+																	<span class="less-than">&lt;</span>Set<span class="greater-than">&gt;</span>
+																</a>
+															</h3>
+														</li>
+														<li>
+															<h3 class="content-header">
+																<a title="Click To Show" class="header-link tag" href="#basic-syntax-functions-5">
+																	<span class="less-than">&lt;</span>More Node Explanations<span class="greater-than">&gt;</span>
+																</a>
+															</h3>
+														</li>
+													</ul>
+												<!-- #endregion -  Basic Syntax Functions Nav -->
+
+
+												<!-- #region - Appending -->	
+													<div id="basic-syntax-functions-1" class="hidden">
+														<!-- #region - Appending Content Left -->
+															<div id="apending-left" class="columns column-left">
+																<h2>
+																	<span class="less-than">&lt;</span><span class="tag">Append</span><span class="greater-than">&gt;</span><span class="less-than">&lt;/</span><span class="tag">Append</span><span class="greater-than">&gt;</span>
+																</h2>
+																<div class="text-content">
+																	Is a <span class="tag">TAG</span> that places stuff at the very bottom of a list of things.
+																	<br>
+																	Which depending on what you're trying to do position of nodes matters.
+																</div>
+																
+																<br>
+																<h2 class="content-header">
+																	Examples
+																</h2>
+																<img class="code-example" src="https://i.imgur.com/l28au0X.png" alt="appending-function-code">
+																<div class="text-content">
+																	<h2>
+																		Code Explanation
+																	</h2>
+																	<div class="code-explanation-content">
+			
+																		<div class="code-block">
+																			<div class="comment">
+																				<span class="less-than">&lt;</span>!-- Add a chance to get Water or Yucca Juice from a Cactus --<span class="greater-than">&gt;</span>
+																			</div>
+																		</div>
+			
+																		<span class="code-explanation-text">
+																			This is a comment. It will not be read by the game.
+																			<br>
+																			Basically used for Notes or a TODO list.
+																			<br>
+																			SAFE to delete.
+																			<br>
+																			Good practice to leave these for yourself.
+																		</span>
+																		<div class="code-block">
+																			<span class="less-than">&lt;</span><span class="tag">append</span> <span class="attribute">xpath</span>=<span class="string">"/blocks/block[@name='treeCactus01']"</span><span class="greater-than">&gt;</span>
+																		</div>
+																		<span class="code-explanation-text">
+																			<span class="less-than">&lt;</span><span class="tag">Append</span><span class="greater-than">&gt;</span> <span class="tag">TAG</span> is a function in XML.
+																			<br>
+																			It basically adds to the end of list of things.
+																		</span>
+																		<div class="code-block">
+																			<span class="attribute">xpath</span>=<span class="string">"/blocks/block[@name='treeCactus01']"</span>
+																		</div>
+																		<span class="code-explanation-text">
+																			<span class="attribute">xpath</span>=<span class="string">""</span> is another function 
+																			<br>
+																			that looks for a specific thing 
+																			in a specific directory. 
+																			<br>
+																			It finds a Path in XML.
+																		</span>
+																		<div class="code-block">
+																			<span class="string">"/blocks/block[@name='treeCactus01']"</span>
+																		</div>
+																		<span class="code-explanation-text">
+																			Is the Pathway we are targeting.
+																			<br>
+																			In the Vanilla <span class="important">blocks.xml</span> the nodes are wrapped inside 
+																			<br>
+																			top level node called <span class="less-than">&lt;</span><span class="tag">blocks</span><span class="greater-than">&gt;</span>.
+																			<br><br>
+																			So with use the forward slash / 
+																			<br>
+																			to tell the game to look into that node.
+																			<br><br>
+																			Then after the node name we do another forward slash / 
+																			<br>
+																			tells the game to look at the next thing
+																			<br>
+																			which is a block with the <span class="attribute">name attribute</span> <span class="string">treeCactus01</span>.
+																			<br>
+																			
+																		</span>
+																		<div class="code-block">
+																			<span class="less-than">&lt;</span><span class="tag">drop</span> <span class="attribute">event</span>=<span class="string">"Destroy"</span> <span class="attribute">name</span>=<span class="string">"drinkJarYuccaJuice"</span> <span class="attribute">count</span>=<span class="string">"1,2"</span> <span class="attribute">prob</span>=<span class="string">"0.2"</span><span class="greater-than">/&gt;</span>
+																		</div>
+																		<span class="code-explanation-text">
+																			With this line we are adding a <span class="important">Node</span> called <span class="tag">Drop</span>
+																			<br>
+																			Which you can probably guess what it does.
+																			<br><br>
+																			On the block <span class="string">Destroy</span>
+																			<br>
+																			it adds the item <span class="string">Yucca Juice</span> to the loot list
+																			<br>
+																			and how many it can drop 1 to 2.
+																			<br>
+																			and the probability of it dropping which .2 is 20%.
+																		</span>
+																		<div class="code-block">
+																			<span class="less-than">&lt;/</span><span class="tag">append</span><span class="greater-than">&gt;</span>
+																		</div>
+																		<span class="code-explanation-text">
+																			Is the closing end tag.
+																			<br>
+																			Not all Element Nodes have an ending tag.
+																			<br>
+																			So you just add a forward slash / at the end.
+																			<br>
+																			As seen in the <span class="tag">drop</span> tag.
+																		</span>
+																	</div>
+																</div>	
+																<br>
+																<h2>
+																	Notes:
+																</h2>
+																<div class="text-content">
+																	Make sure when you are making edits 
+																	<br>
+																	you are in the right XML file. 
+																	<br>
+																	Blocks.xml - <span class="string">/blocks/block</span> 
+																	<br>
+																	Items.xml - <span class="string">/items/item</span>
+																	<br>
+																	Recipe.xml - <span class="string">/recipes/recipe</span>
+																	<br>
+																	Etc.
+																</div>
+																
+
+																<br><br>
+																<h2>Shorthand</h2>
+																<div class="text-content">
+																	using <span class="string">//NodeName</span> instead of <span class="string">/NodeName/NodeName</span>
+																</div>
+																
+
+																<br>
+																<h3>Examples</h3>
+																
+																<div class="text-content sh-slash-slash-code">
+																	<span class="less-than">&lt;</span><span class="attribute">xpath</span>=<span class="string">"//block"</span><span class="greater-than">&gt;</span> 
+																	<br>
+																	is the same as 
+																	<br>
+																	<span class="less-than">&lt;</span><span class="attribute">xpath</span>=<span class="string">"/blocks/block"</span><span class="greater-than">&gt;</span>
+																</div>
+
+
+
+
+
+
+
+
+																			
+															</div>
+														<!-- #endregion - Appending Content Left -->
+
+														<!-- #region - Appending Content Right -->
+															<div id="apending-right" class="columns column-right">
+																<img class="code-example" src="https://i.imgur.com/NRso6OD.jpg" alt="append-example-results">
+															</div>
+														<!-- #endregion - Appending Content Right-->	
+													</div>
+												<!-- #endregion - Appending -->	
+
+												<!-- #region - insertAfter/Before -->	
+													<div id="basic-syntax-functions-2" class="hidden">
+														<!-- #region - insertAfter/BeforeContent Left -->
+															<div id="insert-after-before-left" class="columns column-left">
+																<div class="text-content">
+																	<h2>
+																		<span class="less-than">&lt;</span><span class="tag">insertAfter</span><span class="greater-than">&gt;</span><span class="less-than">&lt;/</span><span class="tag">insertAfter</span><span class="greater-than">&gt;</span> <br>
+																		<span class="less-than">&lt;</span><span class="tag">insertBefore</span><span class="greater-than">&gt;</span><span class="less-than">&lt;/</span><span class="tag">insertBefore</span><span class="greater-than">&gt;</span>
+																	</h2>
+																		are <span class="tag">TAGs</span> that 
+																		<br>
+																		places the piece of code either 
+																		<br>
+																		After or Before something you targeted.
+
+																		<br><br>
+																		You use this depending what you are doing.
+																		<br>
+																		As code placement matters,
+																		<br>
+																		depending what you're trying to do.
+																		<br><br>
+																	</div>
+																	<h2>
+																		Example: Placement
+																	</h2>
+																	<div class="code-block">
+
+																	</div>
+
+															</div>
+														<!-- #endregion - insertAfter/BeforeContent Left -->
+
+														<!-- #region - insertAfter/Before Content Right -->
+															<div id="insert-after-before-right" class="columns column-right">
+																insertAfter/Before Right
+															</div>
+														<!-- #endregion - insertAfter/Before Content Right-->	
+													</div>
+												<!-- #endregion - insertAfter/Before -->	
+
+												<!-- #region - Remove -->	
+													<div id="basic-syntax-functions-3" class="hidden">
+														<!-- #region - Remove Content Left -->
+															<div id="remove-left" class="columns column-left">
+																<h2>
+																	<span class="less-than">&lt;</span><span class="tag">remove</span><span class="greater-than">/&gt;</span><br><span class="less-than">&lt;</span><span class="tag">removeattribute</span><span class="greater-than">/&gt;</span>
+																</h2>
+																<div class="text-content">
+																	are <span class="tag">TAGs</span> that 
+
+																	<br><br>
+																	<span class="tag">remove</span> removes whole nodes or block of codes.
+																	<br>
+																	<span class="tag">removeattribute</span> removes a node's <span class="attribute">attribute</span>.
+																</div>
+																	
+															</div>
+														<!-- #endregion - Remove Content Left -->
+
+														<!-- #region - Remove Content Right -->
+															<div id="remove-right" class="columns column-right">
+																Remove Right
+															</div>
+														<!-- #endregion - Remove Content Right-->	
+													</div>
+												<!-- #endregion - Remove -->
+
+												<!-- #region - Set -->	
+													<div id="basic-syntax-functions-4" class="hidden">
+														<!-- #region - Set Content Left -->
+															<div id="set-left" class="columns column-left">
+																<h2>
+																	<span class="less-than">&lt;</span><span class="tag">set</span><span class="greater-than">&gt;</span><span class="less-than">&lt;/</span><span class="tag">set</span><span class="greater-than">&gt;</span>
+																	<br>
+																	<span class="less-than">&lt;</span><span class="tag">setattribute</span><span class="greater-than">&gt;</span><span class="less-than">&lt;/</span><span class="tag">setattribute</span><span class="greater-than">&gt;</span>
+																</h2>
+																<div class="text-content">
+																	are <span class="tag">TAGs</span> that
+
+																	<br><br>
+																	<span class="tag">set</span> sets/changes nodes.
+																	<br>
+																	<span class="tag">setattribute</span> sets/changes nodes attributes.
+																</div>
+																	
+															</div>
+														<!-- #endregion - Set Content Left -->
+
+														<!-- #region - Set Content Right -->
+															<div id="set-right" class="columns column-right">
+																Set Right
+															</div>
+														<!-- #endregion - Set Content Right-->	
+													</div>
+												<!-- #endregion - Set -->
+
+												<!-- #region - Breakdown -->	
+													<div id="basic-syntax-functions-5" class="hidden">
+														<!-- #region - Breakdown Content Left -->
+															<div id="breakdown-left" class="columns column-left">
+																Extends, etc.
+															</div>
+														<!-- #endregion - Breakdown Content Left -->
+
+														<!-- #region - Breakdown Content Right -->
+															<div id="breakdown-right" class="columns column-right">
+																Breakdown Right
+															</div>
+														<!-- #endregion - Breakdown Content Right-->	
+													</div>
+												<!-- #endregion - Breakdown -->													
+
+											</div>
+										</div>
+									<!-- #endregion - Basics Syntax Functions-->
+
+
+								</div>
+							</div>
+						<!-- #endregion - xpath-basics Content -->
+
+					</div>
+				<!-- #endregion - xpath-basics -->
+				
+
+				
+
+			</div>
+			<!-- Notes Container End -->
+
+
+
+		</div>
+	<!-- Content Container End -->
+
+
+</html>

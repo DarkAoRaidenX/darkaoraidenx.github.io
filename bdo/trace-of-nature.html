@@ -1,0 +1,826 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Trace of Nature</title>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" href="scripts/css/common.css">
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="../scripts/jquery/3.7.1.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
+</head>
+<body id="trace-of-nature-page">
+
+<!-- #region - Trace-of-Nature-Container -->
+	<div id="trace-of-nature-container" class="items-container traces" draggable="true" ondragstart="drag(event)">
+
+		<!-- #region - Trace-of-Nature-Content Button -->
+			<div class="button trace-of-nature-button top">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('trace-of-nature-content');">
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div> 
+
+					<span class="trace-of-nature">
+						<img class="icons icons1 trace-of-nature-icon" src="images/icons/traces/nature.webp" alt="Icon"> 
+						Trace of Nature
+					</span>
+				</a>
+
+				<div class="right">
+					<a title="Trace of Nature" class="links" href="https://bdocodex.com/us/item/5960/" target="_blank">🔗</a>
+				</div>
+
+			</div>
+		<!-- #endregion - Trace-of-Nature-Content Button -->
+
+		<!-- #region - Trace-of-Nature-Content -->
+			<div id="trace-of-nature-content" class="hidden">
+
+				<!-- #region - Trace-of-Nature-How-To-Get Button -->
+					<div class="button htg-button">
+						<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-nature-htg-content');">
+			
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+			
+							<span class="htg">
+								<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon"> How to Get 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Trace-of-Nature-How-To-Get Button -->
+
+				<!-- #region - Trace-of-Nature-How-To-Get -->
+					<div id="trace-of-nature-htg-content" class="info hidden">
+
+						<!-- #region - Trace-of-Nature-How-To-Get-Item-Box Button -->
+							<div class="button item-box-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-nature-htg-item-box');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<span class="item-box">
+										<img class="icons icons1 item-box-icon" src="images/icons/menu/item-box.webp" alt="Icon"> 
+										Item Box
+										</a>
+									</span>
+								</a>
+
+								<div class="right">
+
+								</div>
+
+							</div>
+						<!-- #endregion - Trace-of-Nature-How-To-Get-Item-Box Button -->
+
+						<!-- #region - Trace-of-Nature-How-To-Get-Item-Box -->				
+							<div id="trace-of-nature-htg-item-box" class="info hidden">
+										
+								<!-- #region - Trace-of-Nature - Item-Box Links -->
+									<div class="links-content">
+
+										<a title="Imperial Trace Box" class="links2 grade5" href="https://bdocodex.com/us/item/8072/" target="_blank">
+											<img class="icons icons1" src="images/icons/items/trace-box.webp" alt="Icon"> 
+										Imperial Trace Box
+										</a>
+
+										<p class="h3 green1">
+											[Daily] [Alchemy] Striving Towards Imperial Delivery
+										</p>
+
+									</div>
+								<!-- #endregion - Trace-of-Nature - Item-Box Links -->
+
+							</div>
+						<!-- #endregion - Trace-of-Nature-How-To-Get-Item-Box -->
+
+
+
+						<!-- #region - Trace-of-Nature-How-To-Get-Nodes Button -->
+							<div class="button nodes-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-nature-htg-nodes');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<img class="icons icons1 nodes-icon" src="images/icons/nodes/nodes.webp" alt="Icon"> Nodes
+								</a>
+
+								<div class="right">
+									<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Trace-of-Nature-How-To-Get-Nodes Button -->
+						
+						<!-- #region - Trace-of-Nature-How-To-Get-Nodes -->
+							<div id="trace-of-nature-htg-nodes" class="info hidden">
+								
+								<!-- #region - Trace-of-Nature-Nodes-Links -->			
+									<div class="links-content">
+										<!-- #region - Trace-of-Nature-Node-Link1 -->
+
+											<a title="Bernianto Farm - Excavation" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/842" target="_blank">
+												<img class="icons icons1 nodes-excavation-icon" src="images/icons/nodes/excavation.webp" alt="Icon"> 
+												Bernianto Farm - Excavation
+											</a>
+											<p class="node-notes smalltxt">
+												Required: 35 Energy from Griffian Bernianto <br>(Bernianto Farm Node Manager)
+											</p>
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="trace-of-nature-htg-node-selection-1" class="node-selection">
+													
+													<option id="trace-of-nature-htg-node-cp-route-1" value="7" selected>
+														Cheapest Route To: Calpheon (7CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Calpheon">
+														<option id="trace-of-nature-htg-node-route-1-option-1" value="2">
+															(2CP) Dias Farm
+														</option>
+														<option id="trace-of-nature-htg-node-route-1-option-2" value="2">
+															(2CP) Northern Wheat Plantation
+														</option>
+														<option id="trace-of-nature-htg-node-route-1-option-3" value="2">
+															(2CP) Bernianto Farm
+														</option>
+														<option id="trace-of-nature-htg-node-route-1-option-4" value="1">
+															(1CP) Bernianto Farm - Excavation
+														</option>
+														<option id="trace-of-nature-htg-node-route-1-option-5" value="0">
+															Req: 35 Energy from the Node Manager
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+
+
+											<br>
+											<a title="Rhua Tree Stub - Excavation" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1637" target="_blank">
+												<img class="icons icons1 nodes-excavation-icon" src="images/icons/nodes/excavation.webp" alt="Icon"> 
+												Rhua Tree Stub - Excavation
+											</a>
+											<p class="node-notes smalltxt">
+												Required: 35 Energy from Kamasylve Priestess Lunia <br>(Rhua Tree Stub Node Manager)
+											</p>
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="trace-of-nature-htg-node-selection-2" class="node-selection">
+													
+													<option id="trace-of-nature-htg-node-cp-route-2" value="10" selected>
+														Cheapest Route To: Calpheon (10CP)
+													</option>
+			
+													<optgroup label="Start: (0CP) - Calpheon">
+														<option id="trace-of-nature-htg-node-route-2-option-1" value="2">
+															(2CP) Oberen Farm
+														</option>
+														<option id="trace-of-nature-htg-node-route-2-option-2" value="2">
+															(2CP) Bain Farmland
+														</option>
+														<option id="trace-of-nature-htg-node-route-2-option-3" value="1">
+															(1CP) Phoniel's Cabin Entrance
+														</option>
+														<option id="trace-of-nature-htg-node-route-2-option-4" value="3">
+															(3CP) Behr Downstream
+														</option>
+														<option id="trace-of-nature-htg-node-route-2-option-5" value="1">
+															(1CP) Rhua Tree Stub
+														</option>
+														<option id="trace-of-nature-htg-node-route-2-option-6" value="1">
+															(1CP) Rhua Tree Stub - Excavation
+														</option>
+														<option id="trace-of-nature-htg-node-route-2-option-7" value="0">
+															Req: 35 Energy from the Node Manager
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="trace-of-nature-htg-node-selection-3" class="node-selection">
+													
+													<option id="trace-of-nature-htg-node-cp-route-3" value="11" selected>
+														Cheapest Route To: Trent (11CP)
+													</option>
+			
+													<optgroup label="Start: (0CP) - Trent">
+														<option id="trace-of-nature-htg-node-route-3-option-1" value="2">
+															(2CP) Longleaf Tree Sentry Post
+														</option>
+														<option id="trace-of-nature-htg-node-route-3-option-2" value="2">
+															(2CP) Crioville
+														</option>
+														<option id="trace-of-nature-htg-node-route-3-option-3" value="1">
+															(1CP) Longleaf Tree Nature
+														</option>
+														<option id="trace-of-nature-htg-node-route-3-option-4" value="1">
+															(1CP) Behr
+														</option>
+														<option id="trace-of-nature-htg-node-route-3-option-5" value="3">
+															(3CP) Behr Downstream
+														</option>
+														<option id="trace-of-nature-htg-node-route-3-option-6" value="1">
+															(1CP) Rhua Tree Stub
+														</option>
+														<option id="trace-of-nature-htg-node-route-3-option-7" value="1">
+															(1CP) Rhua Tree Stub - Excavation
+														</option>
+														<option id="trace-of-nature-htg-node-route-3-option-8" value="0">
+															Req: 35 Energy from the Node Manager
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+
+											<br>
+											<a title="Tooth Fairy Nature - Excavation" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1637" target="_blank">
+												<img class="icons icons1 nodes-excavation-icon" src="images/icons/nodes/excavation.webp" alt="Icon"> 
+												Tooth Fairy Nature - Excavation
+											</a>
+											<p class="node-notes smalltxt">
+												
+											</p>
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="trace-of-nature-htg-node-selection-4" class="node-selection">
+													
+													<option id="trace-of-nature-htg-node-cp-route-4" value="9" selected>
+														Cheapest Route To: Grána (9CP) <!-- Grana --> 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Grána">
+														<option id="trace-of-nature-htg-node-route-4-option-1" value="3">
+															(3CP) Lake Flondor
+														</option>
+														<option id="trace-of-nature-htg-node-route-4-option-2" value="1">
+															(1CP) White Wood Nature
+														</option>
+														<option id="trace-of-nature-htg-node-route-4-option-3" value="3">
+															(3CP) Tooth Fairy Nature
+														</option>
+														<option id="trace-of-nature-htg-node-route-4-option-4" value="2">
+															(2CP) Tooth Fairy Nature - Excavation
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+
+
+										<!-- #endregion - Trace-of-Nature-Node-Link1 -->				
+									</div>
+								<!-- #endregion - Trace-of-Nature-Nodes-Links -->		
+
+								<br>
+							</div>
+						<!-- #endregion - Trace-of-Nature-How-To-Get-Nodes -->
+
+
+					</div>
+				<!-- #endregion - Trace-of-Nature-How-To-Get -->
+
+
+				<!-- #region - Trace-of-Nature-Used-In-Content-Button -->
+					<div class="button used-in-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('trace-of-nature-used-in-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="used-in-recipe">
+								<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon"> Used In Recipe 
+							</span>
+						</a>
+
+
+						<div class="right">
+
+						</div>
+					</div>
+				<!-- #endregion - Trace-of-Nature-Used-In-Content-Button -->
+
+				<!-- #region - Trace-of-Nature-Used-In-Content -->
+					<div id="trace-of-nature-used-in-content" class="hidden used-in-content">
+
+
+						<!-- #region - Trace-of-Nature-Used-In-Alchemy Button -->
+							<div class="button item-alchemy-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-nature-used-in-alchemy');">
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									
+									<img class="icons icons1 alchemy-icon" src="images/icons/processing/simple-alchemy.webp" alt="Icon"> Alchemy
+								</a>
+								
+								<div class="right">
+									<a title="Alchemy Guide" class="links" href="https://grumpygreen.cricket/alchemy/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Trace-of-Nature-Used-In-Alchemy Button -->
+
+						<!-- #region - Trace-of-Nature-Used-In-Alchemy -->
+							<div id="trace-of-nature-used-in-alchemy" class="info hidden">
+							
+								<!-- #region - trace-of-nature-items-links -->	
+									<div class="links-content">
+
+										<!-- #region - Elixir of Brawn -->
+											<div class="item-link">
+												<a title="Strength EXP +10%" class="links2 grade3" href="https://bdocodex.com/us/item/1188/" target="_blank">
+													<img class="icons icons1" src="images/icons/pots/brawn.webp" alt="Icon"> Elixir of Brawn
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circle-text amount">2</span>
+													</div>
+												</div>
+											</div>
+										<!-- #endregion - Elixir of Brawn -->
+
+										<!-- #region - Elixir of Draining -->
+											<div class="item-link">
+												<a title="HP +3 per Critical Hit" class="links2 grade3" href="https://bdocodex.com/us/item/676/" target="_blank">
+													<img class="icons icons1 draining-pot-icon" src="images/icons/pots/draining.webp" alt="Icon"> Elixir of Draining
+												</a>
+												<div class="right">
+													<div class="dots">
+															<span class="circle-text amount">2</span>
+													</div>
+												</div>
+											</div>
+										<!-- #endregion - Elixir of Draining -->
+
+										<!-- #region - Elixir of Mastery -->
+											<div class="item-link">
+												<a title="All Life Skill Mastery +10 | Constant reduction of MP/WP/SP" class="links2 grade3" href="https://bdocodex.com/us/item/1155/" target="_blank">
+													<img class="icons icons1 mastery-pot-icon" src="images/icons/pots/mastery.webp" alt="Icon"> Elixir of Mastery
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circle-text amount">2</span>
+													</div>
+												</div>
+											</div>
+										<!-- #endregion - Elixir of Mastery -->
+
+										<!-- #region - Elixir of Persistence -->
+											<div class="item-link">
+												<a title="Breath EXP +10%" class="links2 grade3" href="https://bdocodex.com/us/item/1184/" target="_blank">
+													<img class="icons icons1" src="images/icons/pots/persistence.webp" alt="Icon"> Elixir of Persistence
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circle-text amount">2</span>
+													</div>
+												</div>
+											</div>
+										<!-- #endregion - Elixir of Persistence -->
+
+										<!-- #region - Elixir of Sky -->
+											<div class="item-link">
+												<a title="Air Attack Damage +10%" class="links2 grade3" href="https://bdocodex.com/us/item/720/" target="_blank">
+													<img class="icons icons1" src="images/icons/pots/sky.webp" alt="Icon"> Elixir of Sky
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circle-text amount">4</span>
+													</div>
+												</div>
+											</div>
+										<!-- #endregion - Elixir of Sky -->
+
+										<!-- #region - Essence of Abundance -->
+											<div class="item-link">
+												<a title="Essence of Abundance" class="links2 grade2" href="https://bdocodex.com/us/item/5204/" target="_blank">
+													<img class="icons icons1 essence-of-abundance-icon" src="images/icons/crystals/essence-of/abundance.webp" alt="Icon"> 
+													Essence of Abundance
+												</a>
+												<div class="right">
+													<div class="dots">
+															<span class="circle-text amount">2</span>
+													</div>
+												</div>
+											</div>
+										<!-- #endregion - Essence of Abundance -->
+
+										<!-- #region - Essence of Crimson Flame -->										 
+											<div class="item-link">
+												<a title="Essence of Crimson Flame" class="links2 grade2" href="https://bdocodex.com/us/item/5202/" target="_blank">
+													<img class="icons icons1 essence-of-cf-icon" src="images/icons/crystals/essence-of/crimson-flame.webp" alt="Icon"> 
+													Essence of Crimson Flame
+												</a>
+												<div class="right">
+													<div class="dots">
+															<span class="circle-text amount">2</span>
+													</div>
+												</div>
+											</div>
+										<!-- #endregion - Essence of Crimson Flame -->
+
+										<!-- #region - Leather Glaze -->	
+											<div class="item-link">
+												<a title="Leather Glaze" class="links2 grade2" href="https://bdocodex.com/us/item/6183/" target="_blank">
+													<img class="icons icons1 leather-glaze-icon" src="images/icons/alchemy/leather-glaze.webp" alt="Icon"> Leather Glaze
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circle-text amount">3</span>
+													</div>
+												</div>
+											</div>
+										<!-- #endregion - Leather Glaze -->	
+
+										<!-- #region - Wise Man's Blood -->		
+											<div class="item-link">
+												<a title="Wise Man's Blood" class="links2 grade2" href="https://bdocodex.com/us/item/6355/" target="_blank">
+													<img class="icons icons1 wisemans-blood-icon" src="images/icons/bloods/wise-mans.webp" alt="Icon"> Wise Man's Blood
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circle-text amount">1</span>
+													</div>
+												</div>
+											</div>
+										<!-- #endregion - Wise Man's Blood -->	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+									</div>			
+								<!-- #endregion - trace-of-nature-items-links -->									
+							</div>
+						<!-- #endregion - Trace-of-Nature-Used-In-Alchemy -->						
+
+
+
+
+
+
+						<!-- #region - Trace-of-Nature-Used-In-Processing Button -->
+							<div class="button processing-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-nature-used-in-processing-content');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									<span class="processing-guild">
+										<img class="icons processing-icon" src="images/icons/menu/processing.webp" alt="Icon"> Processing
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Trace-of-Nature-Used-In-Processing Button -->
+
+						<!-- #region - Trace-of-Nature-Used-In-Processing -->
+							<div id="trace-of-nature-used-in-processing-content" class="info hidden">
+
+								<!-- #region - Trace-of-Nature-Used-In-processing-guild Button -->
+									<div class="button processing-guild-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-nature-processing-guild');">
+											
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+											<span class="processing-guild">
+												<img class="icons icons1 processing-guild-icon" src="images/icons/processing/guild.webp" alt="Icon"> Guild 
+											</span>
+										</a>
+										
+										<div class="right">
+											<a title="Guild Guide" class="links" href="https://www.blackdesertfoundry.com/guilds-guide/" target="_blank">🔗</a>
+										</div>
+
+									</div>
+								<!-- #endregion - Trace-of-Nature-Used-In-processing-guild Button -->
+
+								<!-- #region - Trace-of-Nature-Used-In-processing-guild -->
+									<div id="trace-of-nature-processing-guild" class="info hidden">
+										<div class="links-content">
+
+											<!-- #region - [Guild] Cloudy Timber -->
+												<div class="item-link">
+													<a title="[Guild] Cloudy Timber" class="links2 grade4" href="https://bdocodex.com/us/item/9974/" target="_blank">
+														<img class="icons icons1 guild-cloudy-timber-icon" src="images/icons/designs/guild/cloudy-timber.webp" alt="Icon"> [Guild] Cloudy Timber
+													</a>
+
+													<div class="right">
+														<div class="dots">
+															<span class="circle-text amount">10</span>
+														</div>
+													</div>
+												</div>	
+											<!-- #endregion - [Guild] Cloudy Timber -->
+
+
+
+
+										</div>
+									</div>		
+								<!-- #endregion - Trace-of-Nature-Used-In-processing-guild -->
+
+								<!-- #region - Trace-of-Nature-Used-In-Processing Button -->
+									<div class="button processing-heating-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-nature-htg-processing-heating');">
+
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+
+											<img class="icons icons1 heating-icon" src="images/icons/processing/heating.webp" alt="Icon"> Heating  
+										</a>
+
+										<div class="right">
+											<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+										</div>
+
+									</div>
+								<!-- #endregion - Trace-of-Nature-Used-In-Processing Button -->
+									
+								<!-- #region - Trace-of-Nature-Used-In-Heating -->
+									<div id="trace-of-nature-htg-processing-heating" class="info hidden">
+										
+										<!-- #region - items-trace-of-nature-info-Heating -->			
+											<div class="links-content">
+												<!-- #region - Trace-of-Nature-AfU Link -->
+
+													<div class="item-link">
+														<a title="Cup of Arid Moonlight" class="links2 grade3" href="https://bdocodex.com/us/item/8141/" target="_blank">
+															<img class="icons icons1" src="images/icons/processing/heating/cup-of-arid-moonlight.webp" alt="Icon"> 
+															Cup of Arid Moonlight
+														</a>
+
+														<div class="right">
+															<div class="dots">
+																<span class="circle-text amount">100</span>
+															</div>
+														</div>
+													</div>
+
+												<!-- #endregion - Trace-of-Nature-AfU Link -->
+											</div>
+										<!-- #endregion - items-trace-of-nature-info-Heating -->		
+
+									</div>
+								<!-- #endregion - Trace-of-Nature-Used-In-Heating -->
+
+
+								<!-- #region - Trace-of-Nature-Used-In-Simple-Alchemy Button -->
+									<div class="button processing-simple-alchemy-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-nature-used-in-processing-simple-alchemy');">
+
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+
+											<img class="icons icons1 simple-alchemy-icon" src="images/icons/processing/simple-alchemy.webp" alt="Icon"> Simple Alchemy
+										</a>
+
+										<div class="right">
+											<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+										</div>
+
+									</div>
+								<!-- #endregion - Trace-of-Nature-Used-In-Simple-Alchemy Button -->
+									
+								<!-- #region - Trace-of-Nature-Used-In-Simple-Alchemy -->
+									<div id="trace-of-nature-used-in-processing-simple-alchemy" class="info hidden">
+										
+										<!-- #region - items-trace-of-nature-info-Simple-Alchemy -->			
+											<div class="links-content">
+
+												<div class="item-link">
+													<a title="Khan's Heart: Life" class="links2 grade6" href="https://bdocodex.com/us/item/45514/" target="_blank">
+														<img class="icons icons1" src="images/icons/processing/simple-alchemy/kh-life.webp" alt="Icon"> Khan's Heart: Life
+													</a>
+
+													<div class="right">
+														<div class="dots">
+															<span class="circle-text amount">100</span>
+														</div>
+													</div>
+												</div>
+
+												<div class="item-link">
+													<a title="Piece of Image" class="links2 grade6" href="https://bdocodex.com/us/item/4919/" target="_blank">
+														<img class="icons icons1" src="images/icons/processing/simple-alchemy/piece-of-image.webp" alt="Icon"> Piece of Image
+													</a>
+
+													<div class="right">
+														<div class="dots">
+															<span class="circle-text amount">100</span>
+														</div>
+													</div>
+												</div>
+
+											</div>
+										<!-- #endregion - items-trace-of-nature-info-Simple-Alchemy -->		
+
+									</div>
+								<!-- #endregion - Trace-of-Nature-Used-In-Simple-Alchemy -->
+								
+							</div>
+						<!-- #endregion - Trace-of-Nature-Used-In-Processing -->
+
+
+						<!-- #region - Trace-of-Nature-Workshop Button -->
+							<div class="button workshop-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-nature-used-in-workshop-content');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									<span class="design-workshop">
+										<img class="icons icons1 design-workshop-icon" src="images/icons/menu/workshop.webp" alt="Icon"> Workshop
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Workshops" class="links" href="https://bdo.altarofgaming.com/workshops/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Trace-of-Nature-Workshop Button -->
+
+						<!-- #region - Trace-of-Nature-Workshop -->
+							<div id="trace-of-nature-used-in-workshop-content" class="info hidden">
+							
+								<!-- #region - Trace-of-Nature-Design-Armor-Clothes Button -->
+									<div class="button design-armor-clothes-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-nature-design-armor-clothes');">
+											
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+											<span class="design-armor-clothes-text">
+												Armor/Clothes <img class="icons armor-clothes-icon" src="images/icons/menu/armor.webp" alt="Icon"> 
+											</span>
+										</a>
+										
+										<div class="right">
+											<a title="Workshops" class="links" href="https://bdo.altarofgaming.com/workshops/" target="_blank">🔗</a>
+										</div>
+
+									</div>
+								<!-- #endregion - Trace-of-Nature-Design-Armor-Clothes Button -->
+
+								<!-- #region - Trace-of-Nature-Designs -->
+									<div id="trace-of-nature-design-armor-clothes" class="info hidden">
+										<div class="links-content">
+
+											<div class="item-link">
+												<a title="[Shai] Florin Herb Gatherer Clothes" class="links2 grade4" href="https://bdocodex.com/us/item/719545/" target="_blank">
+													<img class="icons icons1 ef-cannon-serena-icon" src="images/icons/designs/clothes/shai-florin-herb-gatherer.webp" alt="Icon"> [Shai] Florin Herb Gatherer Clothes
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circle-text amount">20</span>
+													</div>
+												</div>
+											</div>
+
+											<div class="item-link">
+												<a title="Silver Embroidered Farmer's Clothes" class="links2 grade4" href="https://bdocodex.com/us/item/14023/" target="_blank">
+													<img class="icons icons1 ef-cannon-serena-icon" src="images/icons/designs/clothes/silver-embroidered/farmers.webp" alt="Icon"> Silver Embroidered Farmer's Clothes
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circle-text amount">10</span>
+													</div>
+												</div>
+											</div>
+
+											<div class="item-link">
+												<a title="Silver Embroidered Gatherer's Clothes" class="links2 grade4" href="https://bdocodex.com/us/item/14022/" target="_blank">
+													<img class="icons icons1 ef-cannon-serena-icon" src="images/icons/designs/clothes/silver-embroidered/gatherers.webp" alt="Icon"> Silver Embroidered Gatherer's Clothes
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circle-text amount">10</span>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>		
+								<!-- #endregion - Trace-of-Nature-Design-Armor-Clothes -->
+
+							</div>
+						<!-- #endregion - Trace-of-Nature-Workshop -->
+
+						<a title="Trace of Nature" class="links2" href=https://bdocodex.com/us/item/5960/ target="_blank">And More...</a>
+					</div>
+				<!-- #endregion - Trace-of-Nature-Used-In-Content -->
+
+
+
+				<!-- #region - Trace-of-Nature-notes-Content-Button -->
+					<div class="button notes-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('trace-of-nature-notes-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="notes">
+								<img class="icons notes-icon" src="images/icons/menu/notes.webp" alt="Icon"> notes 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Trace-of-Nature-notes-Content-Button -->
+
+				<!-- #region - Trace-of-Nature-notes-Content -->
+					<div id="trace-of-nature-notes-content" class="hidden notes-content">
+						<p class="notes-entry">
+							All the Traces became Traces of Nature.
+						</p>
+						<p class="notes-entry">
+
+						</p>
+					</div>
+				<!-- #endregion - Trace-of-Nature-notes-Content -->
+
+
+			</div>
+		<!-- #endregion - Trace-of-Nature-Content -->
+
+	</div>
+<!-- #endregion - Trace-of-Nature-Container -->	
+
+</body>
+</html>

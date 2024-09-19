@@ -79,7 +79,7 @@ table,tr,td,th,p,img {
 }
 
 .dragIntoBox, .columns {
-	background: transparent url("../../images/drag-here3.png") no-repeat center 50%;
+	background: transparent url("../../images/drag-here3.webp") no-repeat center 50%;
 }
 
 #items {
@@ -156,7 +156,7 @@ scrollbar-width: none;
 }
 
 
-.right .links, .dotPlus {
+.right .links, .dot-plus {
 	font-weight: bold;	
 }
 
@@ -178,9 +178,9 @@ span.button {
 }
 
 
-#pot-Griffons-Notes .button.darkBg1, 
-#pot-Detection-Notes .button.darkBg1,
-#pot-Will-Notes .button.darkBg1  {
+#pot-Griffons-notes .button.darkbg1, 
+#pot-Detection-notes .button.darkbg1,
+#pot-Will-notes .button.darkbg1  {
 	line-height: 16px;
 }
 
@@ -225,7 +225,7 @@ span.button {
 }
 
 
-.dotPlus {
+.dot-plus {
 	font-size: 12px;	
 }
 
@@ -322,7 +322,7 @@ a {
 
 
 
-a.buttonLink,a.buttonLink:hover, a.links  {
+a.button-link,a.button-link:hover, a.links  {
 	text-decoration: none;
 } 
 
@@ -406,7 +406,7 @@ a.links2:hover {
 	color: #438CCA !important;	
 }
 
-.dotPlus, .white {
+.dot-plus, .white {
 	color: #FFFFFF;	
 }
 
@@ -414,7 +414,7 @@ a.links2:hover {
 	background-color: #66463E;	
 }
 
-.cheapest .buttonLink, .notes .buttonLink, .usedin .buttonLink {
+.cheapest .button-link, .notes .button-link, .usedin .button-link {
 	color: #BEA082 !important;
 }
 
@@ -589,41 +589,41 @@ a.links2:hover {
 
 
 
-.noBG {
+.nobg {
 	background-color: transparent !important;
 }
 
 
 /* Really Dark Blue 19324B */
 
-.blueBg1 {
+.bluebg1 {
 	background-color: #1E3C5A;	
 }
 
-.blueBg2, .clr, .ppr {
+.bluebg2, .clr, .ppr {
 	background-color: #284664;	
 }
 
-.blueBg3 {
+.bluebg3 {
 	background-color: #33597F;	
 }
 
 /* Dodger Blue */
-.blueBg4 {
+.bluebg4 {
 	background-color: #4E86BF;	
 }
 
-.blueBg5 {
+.bluebg5 {
 	background-color: #1565c0;	
 }
 
-.brownBg1 {
+.brownbg1 {
 	background-color: #AA820A;
 }
 
 /* Vinegar - AA820A, 96780A, 82640A, 735A0A, 644B0F */
 
-.darkBg1 {
+.darkbg1 {
 	background-color: #2D2D2D;		
 }
 
@@ -639,11 +639,11 @@ a.links2:hover {
 	background-color: #5B5B5B;		
 }
 
-.goldBg1 {
+.goldbg1 {
 	background-color: #FFD800 !important;	
 }
 
-.greenBg1 {
+.greenbg1 {
 	background-color: #1b5e20 !important;	
 }
 
@@ -653,7 +653,7 @@ a.links2:hover {
 
 
 
-.orangeBg1 {
+.orangebg1 {
 	background-color: #ff6d00 !important;	
 }
 
@@ -669,7 +669,7 @@ a.links2:hover {
 
 
 
-.redBg1 {
+.redbg {
 	background-color: #7F0000;		
 }
 

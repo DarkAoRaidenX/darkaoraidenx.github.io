@@ -2,351 +2,656 @@
 <html lang="en">
 <head>
 	<title>Trace of Ascension</title>
-	<meta charset="UTF-8" />
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
-	<link rel="stylesheet" href="scripts/css/common.css" />
+	<meta charset="UTF-8">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" href="scripts/css/common.css">
 	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
-	<script src="scripts/jquery/3.6.0.js"></script> 
-	<script src="scripts/jquery/plus-minus.js"></script>
-	<script src="scripts/jquery/toggle-div.js"></script>
-	<script src="scripts/jquery/ui-1.13.1.js"></script>
+	<script src="../scripts/jquery/3.7.1.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
 </head>
-<body id="home-page">
+<body id="trace-of-ascension-page">
 
-<!-- ToA-container -->
-<div id="ToA-container" class="container bloods" draggable="true" ondragstart="drag(event)">
+<!-- #region - Trace-of-Ascension-Container -->
+	<div id="trace-of-ascension-container" class="items-container traces" draggable="true" ondragstart="drag(event)">
+
+		<!-- #region - Trace-of-Ascension-Content Button -->
+			<div class="button trace-of-ascension-button top">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('trace-of-ascension-content');">
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div> 
+
+					<span class="trace-of-ascension">
+						<img class="icons icons1 trace-of-ascension-icon" src="images/icons/traces/ascension.webp" alt="Icon"> 
+						Trace of Ascension
+					</span>
+				</a>
+
+				<div class="right">
+					<a title="Trace of Ascension" class="links" href="https://bdocodex.com/us/item/5955/" target="_blank">🔗</a>
+				</div>
+
+			</div>
+		<!-- #endregion - Trace-of-Ascension-Content Button -->
+
+		<!-- #region - Trace-of-Ascension-Content -->
+			<div id="trace-of-ascension-content" class="hidden">
+
+				<!-- #region - Trace-of-Ascension-How-To-Get Button -->
+					<div class="button htg-button">
+						<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-ascension-htg-content');">
+			
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+			
+							<span class="htg">
+								<img class="icons qmark-icon" src="images/icons/menu/question-mark.webp" alt="Icon"> How to Get 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Trace-of-Ascension-How-To-Get Button -->
+
+				<!-- #region - Trace-of-Ascension-How-To-Get -->
+					<div id="trace-of-ascension-htg-content" class="info hidden">
 
 
-<!-- Item-ToA Button -->
-<div class="button ToA top">
+						<!-- #region - Trace-of-Ascension-How-To-Get-Item-Box Button -->
+							<div class="button item-box-button">
 
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Item-ToA');">
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-ascension-htg-item-box');">
 
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<span class="item-box">
+										<img class="icons icons1 item-box-icon" src="images/icons/menu/item-box.webp" alt="Icon"> 
+										Item Box
+										</a>
+									</span>
+								</a>
+
+								<div class="right">
+
+								</div>
+
+							</div>
+						<!-- #endregion - Trace-of-Ascension-How-To-Get-Item-Box Button -->
+
+						<!-- #region - Trace-of-Ascension-How-To-Get-Item-Box -->				
+							<div id="trace-of-ascension-htg-item-box" class="info hidden">
+										
+								<!-- #region - Trace-of-Ascension - Item-Box Links -->
+									<div class="links-content">
+
+										<a title="Imperial Trace Box" class="links2 grade5" href="https://bdocodex.com/us/item/8072/" target="_blank">
+											<img class="icons icons1" src="images/icons/items/trace-box.webp" alt="Icon"> 
+										Imperial Trace Box
+										</a>
+
+										<p class="h2 green1">
+											[Daily] [Alchemy] Striving Towards Imperial Delivery
+										</p>
+
+									</div>
+								<!-- #endregion - Trace-of-Ascension - Item-Box Links -->
+
+							</div>
+						<!-- #endregion - Trace-of-Ascension-How-To-Get-Item-Box -->
+
+
+						<!-- #region - Trace-of-Ascension-How-To-Get-Nodes Button -->
+							<div class="button nodes-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-ascension-htg-nodes');">
+
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									<img class="icons icons1 nodes-icon" src="images/icons/nodes/nodes.webp" alt="Icon"> Nodes
+								</a>
+
+								<div class="right">
+									<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Trace-of-Ascension-How-To-Get-Nodes Button -->
+						
+						<!-- #region - Trace-of-Ascension-How-To-Get-Nodes -->
+							<div id="trace-of-ascension-htg-nodes" class="info hidden">
+								
+								<!-- #region - Trace-of-Ascension-Nodes-Links -->			
+									<div class="links-content">
+										<!-- #region - Trace-of-Ascension-Node-Link1 -->
+
+											<a title="Ancient Stone Chamber - Excavation" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/144" target="_blank">
+												<img class="icons icons1 nodes-excavation-icon" src="images/icons/nodes/excavation.webp" alt="Icon"> 
+												Ancient Stone Chamber - Excavation
+											</a>
+											<p class="node-notes smalltxt">
+												Required: 10 Energy from Jarette Domongatt <br>(Ancient Stone Chamber Node Manager)
+											</p>
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="trace-of-ascension-htg-node-selection-1" class="node-selection">
+													
+													<option id="trace-of-ascension-htg-node-cp-route-1" value="8" selected>
+														Cheapest Route To: Velia (8CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Velia">
+														<option id="trace-of-ascension-htg-node-route-1-option-1" value="2">
+															(2CP) Bartali Farm
+														</option>
+														<option id="trace-of-ascension-htg-node-route-1-option-2" value="2">
+															(2CP) Toscani Farm
+														</option>
+														<option id="trace-of-ascension-htg-node-route-1-option-3" value="2">
+															(2CP) Forest of Seclusion
+														</option>
+														<option id="trace-of-ascension-htg-node-route-1-option-4" value="1">
+															(1CP) Ancient Stone Chamber
+														</option>
+														<option id="trace-of-ascension-htg-node-route-1-option-5" value="1">
+															(1CP) Ancient Stone Chamber - Excavation
+														</option>
+														<option id="trace-of-ascension-htg-node-route-1-option-6" value="0">
+															Req: 10 Energy from the Node Manager
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="trace-of-ascension-htg-node-selection-2" class="node-selection">
+													
+													<option id="trace-of-ascension-htg-node-cp-route-2" value="12" selected>
+														Cheapest Route To: Heidel (12CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Heidel">
+														<option id="trace-of-ascension-htg-node-route-2-option-1" value="1">
+															(1CP) Lynch Farm Ruins
+														</option>
+														<option id="trace-of-ascension-htg-node-route-2-option-2" value="1">
+															(1CP) Northern Plain of Serendia
+														</option>
+														<option id="trace-of-ascension-htg-node-route-2-option-3" value="3">
+															(3CP) Biraghi Den
+														</option>
+														<option id="trace-of-ascension-htg-node-route-2-option-4" value="3">
+															(3CP) Bandits Den Byway
+														</option>
+														<option id="trace-of-ascension-htg-node-route-2-option-5" value="2">
+															(2CP) Forest of Seclusion
+														</option>
+														<option id="trace-of-ascension-htg-node-route-2-option-6" value="1">
+															(1CP) Ancient Stone Chamber
+														</option>
+														<option id="trace-of-ascension-htg-node-route-2-option-7" value="1">
+															(1CP) Ancient Stone Chamber - Excavation
+														</option>
+														<option id="trace-of-ascension-htg-node-route-2-option-8" value="0">
+															Req: 10 Energy from the Node Manager
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+											<div class="node-selection-content">
+												<select title="Click for all CP Routes" id="trace-of-ascension-htg-node-selection-3" class="node-selection">
+													
+													<option id="trace-of-ascension-htg-node-cp-route-3" value="12" selected>
+														Cheapest Route To: Olvia (12CP) 
+													</option>
+			
+													<optgroup label="Start: (0CP) - Olvia">
+														<option id="trace-of-ascension-htg-node-route-3-option-1" value="1">
+															(1CP) Casta Farm
+														</option>
+														<option id="trace-of-ascension-htg-node-route-3-option-2" value="1">
+															(1CP) Wold Hills
+														</option>
+														<option id="trace-of-ascension-htg-node-route-3-option-3" value="3">
+															(3CP) Western Gateway
+														</option>
+														<option id="trace-of-ascension-htg-node-route-3-option-4" value="1">
+															(1CP) Western Guard Camp
+														</option>
+														<option id="trace-of-ascension-htg-node-route-3-option-5" value="2">
+															(2CP) Toscani Farm
+														</option>
+														<option id="trace-of-ascension-htg-node-route-3-option-6" value="2">
+															(2CP) Forest of Seclusion
+														</option>
+														<option id="trace-of-ascension-htg-node-route-3-option-7" value="1">
+															(1CP) Ancient Stone Chamber
+														</option>
+														<option id="trace-of-ascension-htg-node-route-3-option-8" value="1">
+															(1CP) Ancient Stone Chamber - Excavation
+														</option>
+														<option id="trace-of-ascension-htg-node-route-3-option-9" value="0">
+															Req: 10 Energy from the Node Manager
+														</option>
+													</optgroup>
+												</select>
+											</div>
+
+										<!-- #endregion - Trace-of-Ascension-Node-Link1 -->				
+									</div>
+								<!-- #endregion - Trace-of-Ascension-Nodes-Links -->		
+
+								<br>
+							</div>
+						<!-- #endregion - Trace-of-Ascension-How-To-Get-Nodes -->
+
+
+
+						<!-- #region - Trace-of-Ascension-How-To-Get-Processing Button -->
+							<div class="button processing-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-ascension-htg-processing-content');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									<span class="processing-guild">
+										<img class="icons processing-icon" src="images/icons/menu/processing.webp" alt="Icon"> Processing
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Trace-of-Ascension-How-To-Get-Processing Button -->
+
+						<!-- #region - Trace-of-Ascension-How-To-Get-Processing -->
+							<div id="trace-of-ascension-htg-processing-content" class="info hidden">
+
+								<!-- #region - Trace-of-Ascension-How-To-Get-Processing-Heating Button -->
+									<div class="button processing-heating-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-ascension-htg-processing-heating');">
+
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+
+											<img class="icons icons1 heating-icon" src="images/icons/processing/heating.webp" alt="Icon"> Heating  
+										</a>
+
+										<div class="right">
+											
+										</div>
+
+									</div>
+								<!-- #endregion - Trace-of-Ascension-How-To-Get-Processing-Heating Button -->
+									
+								<!-- #region - Trace-of-Ascension-How-To-Get-Processing-Heating -->
+									<div id="trace-of-ascension-htg-processing-heating" class="info hidden">
+										
+										<!-- #region - items-trace-of-ascension-info-Heating -->			
+											<div class="links-content">
+												
+
+												<div class="item-link">
+													<a title="Yuria Weapons" class="links2 grade3" href="https://bdocodex.com/us/item/757452/" target="_blank">
+														<img class="icons icons1" src="images/icons/items/weapons/main-box.webp" alt="Icon"> 
+													   Yuria Weapons
+													</a>
+
+													<div class="right">
+
+													</div>
+												</div>
+
+												
+											</div>
+										<!-- #endregion - items-trace-of-ascension-info-Heating -->		
+
+									</div>
+								<!-- #endregion - Trace-of-Ascension-How-To-Get-Processing-Heating -->
+
+							</div>
+						<!-- #endregion - Trace-of-Ascension-How-To-Get-Processing -->
+
+
+					</div>
+				<!-- #endregion - Trace-of-Ascension-How-To-Get -->
+
+
+				<!-- #region - Trace-of-Ascension-Used-In-Content-Button -->
+					<div class="button used-in-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('trace-of-ascension-used-in-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="used-in-recipe">
+								<img class="icons used-in-icon" src="images/icons/menu/checklist-notes.webp" alt="Icon"> Used In Recipe 
+							</span>
+						</a>
+
+
+						<div class="right">
+
+						</div>
+					</div>
+				<!-- #endregion - Trace-of-Ascension-Used-In-Content-Button -->
+
+				<!-- #region - Trace-of-Ascension-Used-In-Content -->
+					<div id="trace-of-ascension-used-in-content" class="hidden used-in-content">
+
+
+						<!-- #region - Trace-of-Ascension-Used-In-Alchemy Button -->
+							<div class="button item-alchemy-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-ascension-used-in-alchemy');">
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									
+									<img class="icons icons1 alchemy-icon" src="images/icons/processing/simple-alchemy.webp" alt="Icon"> Alchemy
+								</a>
+								
+								<div class="right">
+									<a title="Alchemy Guide" class="links" href="https://grumpygreen.cricket/alchemy/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Trace-of-Ascension-Used-In-Alchemy Button -->
+
+						<!-- #region - Trace-of-Ascension-Used-In-Alchemy -->
+							<div id="trace-of-ascension-used-in-alchemy" class="info hidden">
+							
+								<!-- #region - trace-of-ascension-items-links -->	
+									<div class="links-content">
+
+										<div class="item-link">
+											<a title="Air Attack Damage +10%" class="links2 grade3" href="https://bdocodex.com/us/item/720/" target="_blank">
+												<img class="icons icons1" src="images/icons/pots/sky.webp" alt="Icon"> Elixir of Sky
+											</a>
+
+											<div class="right">
+												<div class="dots">
+													<span class="circle-text amount">4</span>
+												</div>
+											</div>
+										</div>
+										
+										<div class="item-link">
+											<a title="Essence of Abundance" class="links2 grade2" href="https://bdocodex.com/us/item/5204/" target="_blank">
+												<img class="icons icons1 essence-of-abundance-icon" src="images/icons/crystals/essence-of/abundance.webp" alt="Icon"> 
+												Essence of Abundance
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circle-text amount">2</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Essence of Crimson Flame" class="links2 grade2" href="https://bdocodex.com/us/item/5202/" target="_blank">
+												<img class="icons icons1 essence-of-cf-icon" src="images/icons/crystals/essence-of/crimson-flame.webp" alt="Icon"> 
+												Essence of Crimson Flame
+											</a>
+											<div class="right">
+												<div class="dots">
+														<span class="circle-text amount">2</span>
+												</div>
+											</div>
+										</div>
+
+										<div class="item-link">
+											<a title="Leather Glaze" class="links2 grade2" href="https://bdocodex.com/us/item/6183/" target="_blank">
+												<img class="icons icons1 leather-glaze-icon" src="images/icons/alchemy/leather-glaze.webp" alt="Icon"> Leather Glaze
+											</a>
+
+											<div class="right">
+												<div class="dots">
+													<span class="circle-text amount">3</span>
+												</div>
+											</div>
+										</div>
+
+
+										<div class="item-link">
+											<a title="Wise Man's Blood" class="links2 grade2" href="https://bdocodex.com/us/item/6355/" target="_blank">
+												<img class="icons icons1 wisemans-blood-icon" src="images/icons/bloods/wise-mans.webp" alt="Icon"> Wise Man's Blood
+											</a>
+
+											<div class="right">
+												<div class="dots">
+													<span class="circle-text amount">1</span>
+												</div>
+											</div>
+										</div>
+
+									</div>			
+								<!-- #endregion - trace-of-ascension-items-links -->									
+							</div>
+						<!-- #endregion - Trace-of-Ascension-Used-In-Alchemy -->						
+
+
+						<!-- #region - Trace-of-Ascension-Used-In-Processing Button -->
+							<div class="button processing-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-ascension-used-in-processing-content');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									<span class="processing-guild">
+										<img class="icons processing-icon" src="images/icons/menu/processing.webp" alt="Icon"> Processing
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Processing Guide" class="links" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">🔗</a>
+								</div>
+							
+							</div>
+						<!-- #endregion - Trace-of-Ascension-Used-In-Processing Button -->
+
+						<!-- #region - Trace-of-Ascension-Used-In-Processing -->
+							<div id="trace-of-ascension-used-in-processing-content" class="info hidden">
+
+
+								<!-- #region - Trace-of-Ascension-Used-In-processing-guild Button -->
+									<div class="button processing-guild-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-ascension-processing-guild');">
+											
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+											<span class="processing-guild">
+												<img class="icons icons1 processing-guild-icon" src="images/icons/processing/guild.webp" alt="Icon"> Guild 
+											</span>
+										</a>
+										
+										<div class="right">
+											<a title="Guild Guide" class="links" href="https://www.blackdesertfoundry.com/guilds-guide/" target="_blank">🔗</a>
+										</div>
+
+									</div>
+								<!-- #endregion - Trace-of-Ascension-Used-In-processing-guild Button -->
+
+								<!-- #region - Trace-of-Ascension-Used-In-processing-guild -->
+									<div id="trace-of-ascension-processing-guild" class="info hidden">
+										<div class="links-content">
+
+											<div class="item-link">
+												<a title="[Guild] Cloudy Timber" class="links2 grade4" href="https://bdocodex.com/us/item/9974/" target="_blank">
+													<img class="icons icons1 guild-cloudy-timber-icon" src="images/icons/designs/guild/cloudy-timber.webp" alt="Icon"> [Guild] Cloudy Timber
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circle-text amount">10</span>
+													</div>
+												</div>
+											</div>	
+
+										</div>
+									</div>		
+								<!-- #endregion - Trace-of-Ascension-Used-In-processing-guild -->
+
+								
+							</div>
+						<!-- #endregion - Trace-of-Ascension-Used-In-Processing -->
+
+
+						<!-- #region - Trace-of-Ascension-Workshop Button -->
+							<div class="button workshop-button">
+
+								<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-ascension-used-in-workshop-content');">
+									
+									<div class="left">
+										<div class="dots">
+											<span class="dot-plus">+</span>
+										</div>
+									</div> 
+									<span class="design-workshop">
+										<img class="icons icons1 design-workshop-icon" src="images/icons/menu/workshop.webp" alt="Icon"> Workshop
+									</span>
+								</a>
+								
+								<div class="right">
+									<a title="Workshops" class="links" href="https://bdo.altarofgaming.com/workshops/" target="_blank">🔗</a>
+								</div>
+
+							</div>
+						<!-- #endregion - Trace-of-Ascension-Workshop Button -->
+
+						<!-- #region - Trace-of-Ascension-Workshop -->
+							<div id="trace-of-ascension-used-in-workshop-content" class="info hidden">
+							
+								<!-- #region - Trace-of-Ascension-Design-Ships Button -->
+									<div class="button design-ships-button">
+
+										<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('trace-of-ascension-design-ships');">
+											
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+											<span class="design-ships-text">
+												<img class="icons icons1 design-ships-icon" src="images/icons/menu/workshop/shipyard.webp" alt="Icon"> Shipyard
+											</span>
+										</a>
+										
+										<div class="right">
+											<a title="Workshops" class="links" href="https://bdo.altarofgaming.com/workshops/" target="_blank">🔗</a>
+										</div>
+
+									</div>
+								<!-- #endregion - Trace-of-Ascension-Design-Ships Button -->
+
+								<!-- #region - Trace-of-Ascension-Design-Ships -->
+									<div id="trace-of-ascension-design-ships" class="info hidden">
+										<div class="links-content">
+											
+											<div class="item-link">
+												<a title="Epheria Frigate: Black Breeze Sail" class="links2 grade4" href="https://bdocodex.com/us/item/49725/" target="_blank">
+													<img class="icons icons1 ef-black-breeze-sail-icon" src="images/icons/designs/ship/ef-black-breeze-sail.webp" alt="Icon"> Frigate: Black Breeze Sail
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circle-text amount">150</span>
+													</div>
+												</div>
+											</div>
+
+											<div class="item-link">
+												<a title="Epheria Sailboat: Black Breeze Sail" class="links2 grade4" href="https://bdocodex.com/us/item/49716/" target="_blank">
+													<img class="icons icons1 es-black-breeze-sail-icon" src="images/icons/designs/ship/es-black-breeze-sail.webp" alt="Icon"> Sailboat: Black Breeze Sail
+												</a>
+
+												<div class="right">
+													<div class="dots">
+														<span class="circle-text amount">100</span>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>		
+								<!-- #endregion - Trace-of-Ascension-Design-Ships -->
+
+							</div>
+						<!-- #endregion - Trace-of-Ascension-Workshop -->
+
+						<a title="Trace of Ascension" class="links2" href=https://bdocodex.com/us/item/5955/ target="_blank">And More...</a>
+					</div>
+				<!-- #endregion - Trace-of-Ascension-Used-In-Content -->
+
+
+
+				<!-- #region - Trace-of-Ascension-notes-Content-Button -->
+					<div class="button notes-button">
+						<a title="Content Button" class="button-link" href="javascript:toggleDiv('trace-of-ascension-notes-content');">
+							<div class="left">
+								<div class="dots">
+									<span class="dot-plus">+</span>
+								</div>
+							</div> 
+
+							<span class="notes">
+								<img class="icons notes-icon" src="images/icons/menu/notes.webp" alt="Icon"> notes 
+							</span>
+						</a>
+					</div>
+				<!-- #endregion - Trace-of-Ascension-notes-Content-Button -->
+
+				<!-- #region - Trace-of-Ascension-notes-Content -->
+					<div id="trace-of-ascension-notes-content" class="hidden notes-content">
+						<p class="notes-entry">
+							-notes
+						</p>
+						<p class="notes-entry">
+
+						</p>
+					</div>
+				<!-- #endregion - Trace-of-Ascension-notes-Content -->
+
+
+			</div>
+		<!-- #endregion - Trace-of-Ascension-Content -->
+
 	</div>
-</div> 
-
-<img class="icons icons1" src="images/icons/traces/ascension.png" alt="Icon" />
-Trace of Ascension
-</a>
-
-<div class="right">
-
-<div class="dots">
-	<span class="circleText amount">1</span>
-</div>
-
-<a title="Trace of Ascension" class="links" href="https://bdocodex.com/us/item/5955/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- Item-ToA Button End -->
-
-<!-- Item-ToA -->
-<div id="Item-ToA" class="hidden">
-
-<!-- Item-ToA-obtaining Button -->
-<div class="button blueBg3">
-
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('Item-ToA-obtaining');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-<span class="">
-How to Obtain
-<img class="icons icons1" src="images/icons/traces/ascension.png" alt="Icon" />
-</span>
-
-
-</a>
-
-</div>
-<!-- Item-ToA-obtaining Button End -->
-
-<!-- Item-ToA-obtaining -->
-<div id="Item-ToA-obtaining" class="hidden">
-
-
-<!-- ToA-HowToGet-Heating Button -->
-<div class="button darkBg2">
-
-<a title="Content Button" class="buttonLink h2 gold" href="javascript:toggleDiv('ToA-HowToGet-Heating');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-Processing: Heating <img class="icons icons1" src="images/icons/processing/heating.png" alt="Icon" />
-</a>
-
-<div class="right">
-
-<a title="Trace of Ascension" class="links" href="https://bdocodex.com/us/item/5955/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToA-HowToGet-Heating Button End -->
-
-<!-- ToA-HowToGet-Heating -->
-<div id="ToA-HowToGet-Heating" class="info hidden">
-
-<a title="Yuria Weapons" class="links2" href="https://bdocodex.com/us/item/757452/" target="_blank">
-<img class="icons icons1" src="images/icons/items/weapons/main-box.png" alt="Icon" />
-Yuria Weapons
-</a>
-
-</div>
-<!-- ToA-HowToGet-Heating End -->
-
-
-<!-- ToA-HowToGet-ItemBox Button -->
-<div class="button darkBg2">
-
-<a title="Content Button" class="buttonLink h2 gold" href="javascript:toggleDiv('ToA-HowToGet-ItemBox');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-<img class="icons icons1" src="images/icons/menu/item-box.png" alt="Icon" />
-Item Box
-</a>
-
-<div class="right">
-
-<a title="Trace of Ascension" class="links" href="https://bdocodex.com/us/item/5955/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToA-HowToGet-ItemBox Button End -->
-
-<!-- ToA-HowToGet-ItemBox -->
-<div id="ToA-HowToGet-ItemBox" class="info hidden">
-
-<p class="h2 green1">
-Alchemy Daily Reward
-</p>
-
-<a title="Imperial Trace Box" class="gold links2" href="https://bdocodex.com/us/item/8072/" target="_blank">
-<img class="icons icons1" src="images/icons/items/trace-box.png" alt="Icon" />
-Imperial Trace Box
-</a>
-
-</div>
-<!-- ToA-HowToGet-ItemBox End -->
-
-
-<!-- ToA-HowToGet-Nodes Button -->
-<div class="button darkBg2">
-
-<a title="Content Button" class="buttonLink h2 gold" href="javascript:toggleDiv('ToA-HowToGet-Nodes');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-<img class="icons icons1" src="images/icons/nodes/connect3.png" alt="Icon" />
-Nodes
-</a>
-
-<div class="right">
-
-<div class="dots">
-	<span class="circleText amount">8</span>
-</div>
-
-<a title="Trace of Ascension" class="links" href="https://bdocodex.com/us/item/5955/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToA-HowToGet-Nodes Button End -->
-
-<!-- ToA-HowToGet-Nodes -->
-<div id="ToA-HowToGet-Nodes" class="info hidden">
-
-<p class="h2 gold2">8CP Velia</p>
-
-<a title="Ancient Stone Chamber" class="links2" href="https://www.somethinglovely.net/bdo/#node/144" target="_blank">
-<img class="icons icons1" src="images/icons/nodes/mining.png" alt="Icon" />
-Ancient Stone Chamber
-</a>
-<p class="red smallTxt">
-Required: 10 Energy from Jarette Domongatt 
-<br />
-(Ancient Stone Chamber Node Manager)
-</p>
-
-</div>
-<!-- ToA-HowToGet-Nodes End -->
-
-
-
-
-
-</div>
-<!-- Item-ToA-obtaining End -->
-
-
-<!-- ToA-Notes-UsedInButton -->
-<div class="button usedin">
-
-<a title="Content Button" class="buttonLink gold" href="javascript:toggleDiv('ToA-Notes-UsedIn');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-Used In Recipe
-<img class="icons icons6" src="images/icons/menu/checklist-notes.png" alt="Icon" />
-</a>
-
-
-<div class="right">
-
-<a title="Trace of Ascension" class="links" href="https://bdocodex.com/us/item/5203/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToA-Notes-UsedInButton End -->
-
-<!-- ToA-Notes-UsedIn -->
-<div id="ToA-Notes-UsedIn" class="hidden usedin-container">
-
-
-<!-- ToA-Notes-Alchemy Button -->
-<div class="button darkBg2">
-
-<a title="Content Button" class="buttonLink h2 gold" href="javascript:toggleDiv('ToA-Notes-Alchemy');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-<img class="icons icons1" src="images/icons/processing/simple-alchemy.png" alt="Icon" />
-Alchemy
-</a>
-
-<div class="right">
-
-<a title="Trace of Ascension" class="links" href="https://bdocodex.com/us/item/5955/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToA-Notes-Alchemy Button End -->
-
-<!-- ToA-Notes-Alchemy -->
-<div id="ToA-Notes-Alchemy" class="info hidden">
-
-<a title="Leather Glaze" class="links2" href="https://bdocodex.com/us/item/6813/" target="_blank">
-
-<img class="icons icons1" src="images/icons/alchemy/leather-glaze.png" alt="Icon" />
-Leather Glaze
-</a>
-
-<br />
-
-<a title="Wise Man's Blood" class="links2" href="https://bdocodex.com/us/item/6355/" target="_blank">
-
-<img class="icons icons1" src="images/icons/bloods/wise-mans.png" alt="Icon" />
-Wise Man's Blood
-</a>
-
-
-
-</div>
-<!-- ToA-Notes-Alchemy End -->
-
-
-<!-- ToA-Notes-Design Button -->
-<div class="button darkBg2">
-
-<a title="Content Button" class="buttonLink h2 gold" href="javascript:toggleDiv('ToA-Notes-Design');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
-	</div>
-</div> 
-
-<img class="icons icons3" src="images/icons/menu/design.png" alt="Icon" />
-Design
-</a>
-
-<div class="right">
-
-<a title="Trace of Ascension" class="links" href="https://bdocodex.com/us/item/5955/" target="_blank">🔗</a>
-
-</div>
-
-</div>
-<!-- ToA-Notes-Design Button End -->
-
-<!-- ToA-Notes-Design -->
-<div id="ToA-Notes-Design" class="info hidden">
-
-<a title="Epheria Frigate: Black Breeze Sail" class="blue1 links2" href="https://bdocodex.com/us/item/49725/" target="_blank">
-
-<img class="icons icons1" src="images/icons/designs/boat/ef-black-breeze-sail.png" alt="Icon" />
-Frigate: Black Breeze Sail
-</a>
-
-<br />
-
-<a title="Epheria Sailbot: Black Breeze Sail" class="blue1 links2" href="https://bdocodex.com/us/item/49716/" target="_blank">
-
-<img class="icons icons1" src="images/icons/designs/boat/es-black-breeze-sail.png" alt="Icon" />
-Sailboat: Black Breeze Sail
-</a>
-
-<br />
-
-<a title="[Guild] Cloudy Timber" class="blue1 links2" href="https://bdocodex.com/us/item/9974/" target="_blank">
-
-<img class="icons icons1" src="images/icons/designs/guild/cloudy-timber.png" alt="Icon" />
-[Guild] Cloudy Timber
-</a>
-
-
-</div>
-<!-- ToA-Notes-Design End -->
-
-
-
-
-
-<a title="Trace of Ascension" class="links2" href="https://bdocodex.com/us/item/5955/" target="_blank">And More...</a>
-</div>
-<!-- ToA-Notes-UsedIn End -->
-
-</div>
-<!-- Item-ToA End -->
-
-
-</div>
-<!-- ToA-container End -->
+<!-- #endregion - Trace-of-Ascension-Container -->	
 
 </body>
 </html>

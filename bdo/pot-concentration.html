@@ -1,0 +1,740 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Concentration Elixir</title>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" href="scripts/css/common.css">
+	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
+	<script src="../scripts/jquery/3.7.1.min.js"></script>
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
+</head>
+<body id="pot-concentration-page">
+
+	<!-- #region pot-concentration-Container -->
+		<div id="pot-concentration-Container" class="items-container pots" draggable="true" ondragstart="drag(event)">
+
+			<!-- #region pot-concentration-Recipe Button -->
+				<div class="button pot-button top">
+
+					<a title="Accuracy +8" class="button-link" href="javascript:toggleDiv('pot-concentration-Recipe-Container');">
+					<div class="left">
+						<div class="dots">
+							<span class="dot-plus">+</span>
+						</div>
+					</div> 
+						<img class="icons icons1" src="images/icons/pots/concentration.webp" alt="Icon">
+						Elixir of Concentration
+					</a>
+
+					<div class="right">
+						<a title="Elixir of Concentration (Accuracy +8)" class="links" href="https://bdocodex.com/us/item/700/" target="_blank">🔗</a>
+					</div>
+
+				</div>
+			<!-- #endregion pot-concentration-Recipe Button -->
+
+			<!-- #region pot-concentration-Recipe-Container -->
+				<div id="pot-concentration-Recipe-Container" class="hidden">
+
+					<!-- #region pot-concentration-effects -->
+						<span class="pot-effects green1">
+							Accuracy +8
+						</span>
+						|
+						<span class="pot-effects blue1">
+							Accuracy +12
+						</span>
+					<!-- #endregion pot-concentration-effects -->
+
+					<!-- #region - Clear-Liquid-Reagent-Container -->
+						<div id=" clr-pot-concentration container" class="items-container recipes">
+
+
+							<!-- #region - Recipe-Clear-Liquid-Reagent Button -->
+								<div class="button clr-button top">
+
+									<a title="Content Button" class="button-link" href="javascript:toggleDiv('recipe-clr-pot-concentration ');">
+
+										<div class="left">
+											<div class="dots">
+												<span class="dot-plus">+</span>
+											</div>
+										</div> 
+
+										<img class="icons icons1 clr-pot-concentration icon" src="images/icons/alchemy/clear-liquid-reagent.webp" alt="Icon"> 
+										Clear Liquid Reagent
+									</a>
+
+									<div class="right">
+										<a title="Clear Liquid Reagent" class="links" href="https://bdocodex.com/us/item/5301/" target="_blank">🔗</a>
+									</div>
+
+
+								</div>
+							<!-- #region - Recipe-Clear-Liquid-Reagent Button -->
+
+							<!-- #region - Recipe-Clear-Liquid-Reagent -->
+								<div id="recipe-clr-pot-concentration" class="hidden">
+
+
+									<!-- #region - Recipe-Clear-Liquid-Reagent Grass Button -->
+										<div class="button blue-bg4 grass-button">
+
+											<a title="Content Button" class="button-link" href="javascript:toggleDiv('clr-pot-concentration-grass');">
+
+											<div class="left">
+												<div class="dots">
+													<span class="dot-plus">+</span>
+												</div>
+											</div> 
+
+											<img class="icons icons1" src="images/icons/gathering/plants/wild-grass.webp" alt="Icon"> 
+												Grass
+											</a>
+
+
+											<div class="right">
+												<div class="dots">
+													<span class="circle-text amount">1</span>
+												</div>
+
+												<a title="Gathering Guide" class="links" href="https://grumpygreen.cricket/bdo-gathering/" target="_blank">🔗</a>
+											</div>
+
+										</div>
+									<!-- #endregion - Recipe-Clear-Liquid-Reagent Grass Button -->
+
+									<!-- #region - Recipe-Clear-Liquid-Reagent Grass -->
+										<div id="clr-pot-concentration-grass" class="info hidden">
+
+											<div class="item-link">
+												<a title="Weeds" class="links2 grade2" href="https://bdocodex.com/us/item/5600/" target="_blank">
+												<img class="icons icons1" src="images/icons/gathering/plants/weeds.webp" alt="Icon"> 
+												Weeds
+												</a>
+												
+												<a title="Wild Grass" class="links2 grade2" href="https://bdocodex.com/us/item/5600/" target="_blank">
+												<img class="icons icons1" src="images/icons/gathering/plants/wild-grass.webp" alt="Icon"> 
+												Wild Grass
+												</a>
+												
+											</div>
+
+										</div>
+									<!-- #endregion - Recipe-Clear-Liquid-Reagent Grass -->
+
+
+									<!-- #region - Recipe-PW Button -->
+										<div class="button blue-bg4 purified-water-button">
+
+											<a title="Content Button" class="button-link" href="javascript:toggleDiv('clr-pot-concentration-pw');">
+
+												<div class="left">
+													<div class="dots">
+														<span class="dot-plus">+</span>
+													</div>
+												</div> 
+
+												<img class="icons icons1" src="images/icons/waters/purified.webp" alt="Icon"> 
+												Purified Water
+
+											</a>
+
+
+											<div class="right">
+
+												<div class="dots">
+													<span class="circle-text amount">1</span>
+												</div>
+
+												<a title="Purified Water" class="links" href="https://bdocodex.com/us/item/6656/" target="_blank">🔗</a>
+
+											</div>
+
+										</div>
+									<!-- #endregion - Recipe-PW Button -->
+
+									<!-- #region - Recipe-PW -->
+										<div id="clr-pot-concentration-pw" class="info hidden">
+
+											<!-- Clear-Liquid-Reagent-BoCW -->
+												<div class="item-link">
+													<a title="Bottle of Clean Water" class="links2 grade2" href="https://bdocodex.com/us/item/6655/" target="_blank">
+														<img class="icons icons1 bocw-icon" src="images/icons/waters/clean.webp" alt="Icon"> 
+														Bottle of Clean Water
+													</a>
+													<div class="right">
+														<div class="dots">
+																<span class="circle-text amount">1</span>
+														</div>
+
+														<a title="Filtering - Processing Guide" class="links2 grade2" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">
+															<img class="icons icons1" src="images/icons/processing/filtering.webp" alt="Icon">
+														</a>	
+
+													</div>
+												</div>
+											<!-- Clear-Liquid-Reagent-BoCW -->
+
+											<!-- Clear-Liquid-Reagent-BoRW -->
+												<div class="item-link">
+													<a title="Bottle of River Water" class="links2 grade2" href="https://bdocodex.com/us/item/6653/" target="_blank">
+														<img class="icons icons1 borw-icon" src="images/icons/waters/river.webp" alt="Icon"> 
+														Bottle of River Water
+													</a>
+													<div class="right">
+														<div class="dots">
+																<span class="circle-text amount">1</span>
+														</div>
+
+														<a title="Filtering - Processing Guide" class="links2 grade2" href="https://grumpygreen.cricket/bdo-processing-guide-t2/" target="_blank">
+															<img class="icons icons1" src="images/icons/processing/filtering.webp" alt="Icon">
+														</a>	
+
+													</div>
+												</div>
+											<!-- Clear-Liquid-Reagent-RW BoRW-->
+
+										</div>
+									<!-- #endregion - Recipe-PW -->
+
+									<!-- #region - Clear-Liquid-Reagent-Salt Button -->
+										<div class="button blue-bg4 salt-button">
+
+											<a title="Content Button" class="button-link" href="javascript:toggleDiv('clr-pot-concentration-salt');">
+
+												<div class="left">
+													<div class="dots">
+														<span class="dot-plus">+</span>
+													</div>
+												</div> 
+
+												<span class="move-right">
+													<img class="icons icons1" src="images/icons/vendor/salt.webp" alt="Icon"> Salt
+												</span>
+											</a>
+
+
+											<div class="right">
+												
+												<img title="NPC Food Vendor or Innkeeper." class="icons icons1 silver-icon" src="images/icons/menu/currency-silver.webp" alt="Icon"> 
+
+												<div class="dots">
+													<span class="circle-text amount">1</span>
+												</div>
+
+												<a title="Salt" class="links" href="https://bdocodex.com/us/item/9001/" target="_blank">🔗</a>
+
+											</div>
+
+
+										</div>
+									<!-- #endregion - Clear-Liquid-Reagent-Salt Button -->
+
+									<!-- #region - Clear-Liquid-Reagent-Salt -->
+										<div id="clr-pot-concentration-salt" class="info hidden">
+
+											<p class="text">
+												NPC Food Vendor or Innkeeper.
+											</p>
+
+										</div>
+									<!-- #endregion - Clear-Liquid-Reagent-Salt --> 
+
+
+									<!-- #region - Clear-Liquid-Reagent-Sunrise-Herb Button -->
+										<div class="button blue-bg4 sunrise-herb-button">
+
+											<a title="Content Button" class="button-link" href="javascript:toggleDiv('clr-pot-concentration-srh');">
+
+												<div class="left">
+													<div class="dots">
+														<span class="dot-plus">+</span>
+													</div>
+												</div> 
+
+												<img class="icons icons1" src="images/icons/gathering/plants/sunrise-herb.webp" alt="Icon"> 
+												Sunrise Herb
+
+											</a>
+
+											<div class="right">
+
+												<div class="dots">
+													<span class="circle-text amount">1</span>
+												</div>
+
+												<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
+											</div>
+
+										</div>
+									<!-- #endregion - Clear-Liquid-Reagent-Sunrise-Herb Button -->
+
+									<!-- #region - Clear-Liquid-Reagent-Sunrise-Herb -->
+										<div id="clr-pot-concentration-srh" class="info hidden">
+
+											<!-- #region - Clear-Liquid-Reagent-Sunrise-Herb-How-To-Get-Nodes Button -->
+												<div class="button nodes-button">
+
+													<a title="Click to Show/Hide Info" class="button-link" href="javascript:toggleDiv('clr-pot-concentration-srh-htg-nodes');">
+
+														<div class="left">
+															<div class="dots">
+																<span class="dot-plus">+</span>
+															</div>
+														</div> 
+
+														<img class="icons icons1 nodes-icon" src="images/icons/nodes/nodes.webp" alt="Icon"> Nodes
+													</a>
+
+													<div class="right">
+														<a title="Nodes Guide" class="links" href="https://www.blackdesertfoundry.com/nodes-guide/" target="_blank">🔗</a>
+													</div>
+
+												</div>
+											<!-- #endregion - Clear-Liquid-Reagent-Sunrise-Herb-How-To-Get-Nodes Button -->
+												
+											<!-- #region - Clear-Liquid-Reagent-Sunrise-Herb-How-To-Get-Nodes -->
+												<div id="clr-pot-concentration-srh-htg-nodes" class="info hidden">
+													
+													<!-- #region - Clear-Liquid-Reagent-Sunrise-Herb-Nodes-Links -->			
+														<div class="links-content">
+
+																<a title="Balenos Forest - Gathering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/168" target="_blank">
+																	<img class="icons icons1 nodes-gathering-icon" src="images/icons/nodes/gathering.webp" alt="Icon"> 
+																	Balenos Forest - Gathering
+																</a>
+
+																<div class="node-selection-content">
+																	<select title="Click for all CP Routes" id="clr-pot-concentration-srh-htg-node-selection-1" class="node-selection">
+
+																		<option id="clr-pot-concentration-srh-htg-node-cp-route-1" value="5" selected>
+																			Cheapest Route To: Heidel (5CP)
+																		</option>
+
+																		<optgroup label="Start: (0CP) - Heidel">
+																			<option id="clr-pot-concentration-srh-htg-node-route-1-option-1" value="1">
+																				(1CP) Bartali Farm
+																			</option>
+																			<option id="clr-pot-concentration-srh-htg-node-route-1-option-2" value="2">
+																				(2CP) Balenos Forest
+																			</option>
+																			<option id="clr-pot-concentration-srh-htg-node-route-1-option-3" value="2">
+																				(2CP) Balenos Forest - Gathering
+																			</option>
+																		</optgroup>
+
+																	</select>
+																</div>
+
+																
+																<br>
+																<a title="Cron Castle Site - Gathering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/155" target="_blank">
+																	<img class="icons icons1 nodes-gathering-icon" src="images/icons/nodes/gathering.webp" alt="Icon"> 
+																	Cron Castle Site - Gathering
+																</a>
+
+																<div class="node-selection-content">
+																	<select title="Click for all CP Routes" id="clr-pot-concentration-srh-htg-node-selection-2" class="node-selection">
+																		
+																		<option id="clr-pot-concentration-srh-htg-node-cp-route-2" value="4" selected>
+																			Cheapest Route To: Velia (4CP) 
+																		</option>
+
+																		<optgroup label="Start: (0CP) - Velia">
+																			<option id="clr-pot-concentration-srh-htg-node-route-2-option-1" value="1">
+																				(1CP) Forest of Plunder
+																			</option>
+																			<option id="clr-pot-concentration-srh-htg-node-route-2-option-2" value="1">
+																				(1CP) Ehwaz Hill
+																			</option>
+																			<option id="clr-pot-concentration-srh-htg-node-route-2-option-3" value="1">
+																				(1CP) Cron Castle Site
+																			</option>
+																			<option id="clr-pot-concentration-srh-htg-node-route-2-option-4" value="1">
+																				(1CP) Cron Castle Site - Gathering
+																			</option>
+																		</optgroup>
+																	</select>
+																</div>
+																
+
+																<br>
+																<a title="Gavinya Coastal Cliff - Gathering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1557" target="_blank">
+																	<img class="icons icons1 nodes-gathering-icon" src="images/icons/nodes/gathering.webp" alt="Icon"> 
+																	Gavinya Coastal Cliff - Gathering
+																</a>
+																<div class="node-selection-content">
+																	<select title="Click for all CP Routes" id="clr-pot-concentration-srh-htg-node-selection-3" class="node-selection">
+																		
+																		<option id="clr-pot-concentration-srh-htg-node-cp-route-3" value="9" selected>
+																			Cheapest Route To: Arehaza (9CP)
+																		</option>
+
+																		<optgroup label="Start: (0CP) - Arehaza">
+																			<option id="clr-pot-concentration-srh-htg-node-route-3-option-1" value="1">
+																				(1CP) Nothern Sand Dune
+																			</option>
+																			<option id="clr-pot-concentration-srh-htg-node-route-3-option-2" value="3">
+																				(3CP) Gavinya Volcano Zone
+																			</option>
+																			<option id="clr-pot-concentration-srh-htg-node-route-3-option-3" value="2">
+																				(2CP) Gavinya Great Crater
+																			</option>
+																			<option id="clr-pot-concentration-srh-htg-node-route-3-option-4" value="1">
+																				(1CP) Gavinya Coastal Cliff
+																			</option>
+																			<option id="clr-pot-concentration-srh-htg-node-route-3-option-5" value="2">
+																				(2CP) Gavinya Coastal Cliff - Gathering
+																			</option>
+																		</optgroup>
+
+																	</select>
+																</div>
+																
+																	
+																<br>
+																<a title="Gervish Mountains - Gathering" class="links2 node-name" href="https://www.somethinglovely.net/bdo/#node/1676" target="_blank">
+																	<img class="icons icons1 nodes-gathering-icon" src="images/icons/nodes/gathering.webp" alt="Icon"> 
+																	Gervish Mountains - Gathering
+																</a>
+
+																<div class="node-selection-content">
+																	<select title="Click for all CP Routes" id="clr-pot-concentration-srh-htg-node-selection-4" class="node-selection">
+																		
+																		<option id="clr-pot-concentration-srh-htg-node-cp-route-4" value="7" selected>
+																			Cheapest Route To: Duvencrune (7CP)
+																		</option>
+
+																		<optgroup label="Start: (0CP) - Duvencrune">
+																			<option id="clr-pot-concentration-srh-htg-node-route-4-option-1" value="2">
+																				(2CP) Night Crow Post
+																			</option>
+																			<option id="clr-pot-concentration-srh-htg-node-route-4-option-2" value="2">
+																				(2CP) Garmoths Nest
+																			</option>
+																			<option id="clr-pot-concentration-srh-htg-node-route-4-option-3" value="1">
+																				(1CP) Gervish Mountains
+																			</option>
+																			<option id="clr-pot-concentration-srh-htg-node-route-4-option-4" value="2">
+																				(2CP) Gervish Mountains - Gathering
+																			</option>
+																		</optgroup>
+
+																	</select>
+																</div>
+
+
+															
+
+														</div>
+													<!-- #endregion - Clear-Liquid-Reagent-Sunrise-Herb-Nodes-Links -->		
+
+												</div>
+											<!-- #endregion - Clear-Liquid-Reagent-Sunrise-Herb-How-To-Get-Nodes -->
+
+										</div>
+									<!-- #endregion - Clear-Liquid-Reagent-Sunrise-Herb -->
+
+									<!-- #region - Clear-Liquid-Reagent-notes Button -->
+										<div class="button notes-button">
+
+											<a title="Content Button" class="button-link" href="javascript:toggleDiv('clr-pot-concentration notes-content');">
+
+												<div class="left">
+													<div class="dots">
+													<span class="dot-plus">+</span>
+													</div>
+												</div> 
+
+												<span class="notes">
+													<img class="icons icons6" src="images/icons/menu/notes.webp" alt="Icon"> notes 
+												</span>
+											</a>
+
+										</div>
+									<!-- #endregion - Clear-Liquid-Reagent-notes Button -->
+
+									<!-- #region - Clear-Liquid-Reagent-notes -->
+										<div id="clr-pot-concentration notes-content" class="notes-container hidden">
+
+											<p class="notes-entry">
+												- Hoe Gather at Behr for Weeds/Wild Grass.
+											</p>
+
+										</div>
+									<!-- #region - Clear-Liquid-Reagent-notes -->
+
+								</div>
+							<!-- #endregion - Recipe-Clear-Liquid-Reagent -->
+
+
+
+
+						</div>
+					<!-- #endregion - Clear-Liquid-Reagent-Container -->
+
+					<!-- #region  pot-concentration-bg-4 Button -->
+						<div class="button bloods-button">
+
+							<a title="Content Button" class="button-link" href="javascript:toggleDiv('pot-concentration-bg-4-items');">
+								<div class="left">
+									<div class="dots">
+										<span class="dot-plus">+</span>
+									</div>
+								</div>
+
+								<img class="icons icons1" src="images/icons/bloods/bg4/troll.webp" alt="Icon">
+								Blood Group 4
+							</a>
+
+							<div class="right">
+
+							<div class="dots">
+								<span class="circle-text amount">1</span>
+							</div>
+
+								<a title="Blood Group 4" class="links" href="https://bdocodex.com/us/materialgroup/15/" target="_blank">🔗</a>
+
+							</div>
+						</div>
+					<!-- #endregion pot-concentration-bg-4 Button End-->
+
+					<!-- #region pot-concentration-bg-4-items -->
+						<div id="pot-concentration-bg-4-items" class="hidden">
+
+						<a title="Bear Blood" class="links2" href="https://bdocodex.com/us/item/6213/" target="_blank">
+							<img class="icons icons1" src="images/icons/bloods/bg4/bear.webp" alt="Icon">
+							Bear
+						</a>
+
+						<br>
+
+						<a title="Dinosaur Blood" class="links2" href="https://bdocodex.com/us/item/6207/" target="_blank">
+							<img class="icons icons1" src="images/icons/bloods/bg4/dinosaur.webp" alt="Icon">
+							Dinosaur (No more?)
+						</a>
+
+						<br>
+
+						<a title="Lion Blood" class="links2" href="https://bdocodex.com/us/item/6223/" target="_blank">
+						<img class="icons icons1" src="images/icons/bloods/bg4/lion.webp" alt="Icon">
+							Lion
+						</a>
+
+						<br>
+
+						<a title="Ogre Blood" class="links2" href="https://bdocodex.com/us/item/6221/" target="_blank">
+						<img class="icons icons1" src="images/icons/bloods/bg4/ogre.webp" alt="Icon">
+							Ogre
+						</a>
+
+						<br>
+
+						<a title="Troll Blood" class="links2" href="https://bdocodex.com/us/item/6220/" target="_blank">
+						<img class="icons icons1" src="images/icons/bloods/bg4/troll.webp" alt="Icon">
+							Troll
+						</a>
+
+						<br>
+
+						<a title="Yak Blood" class="links2" href="https://bdocodex.com/us/item/6225/" target="_blank">
+						<img class="icons icons1" src="images/icons/bloods/bg4/yak.webp" alt="Icon">
+							Yak
+						</a>
+
+
+
+						</div>
+					<!-- #endregion pot-concentration-bg-4-items End -->
+
+				
+
+
+
+
+					<!-- #region pot-concentration-notes Button -->
+						<div class="button notes-button">
+
+							<a title="Content Button" class="button-link" href="javascript:toggleDiv('pot-concentration-notes');">
+
+								<div class="left">
+									<div class="dots">
+										<span class="dot-plus">+</span>
+									</div>
+								</div> 
+									
+									notes
+									<img class="icons icons6" src="images/icons/menu/notes.webp" alt="Icon">
+							</a>
+
+						</div>
+					<!-- #endregion pot-concentration-notes Button End -->
+
+
+					<!-- #region pot-concentration-notes -->
+						<div id="pot-concentration-notes" class="hidden notes-container">
+
+							<!-- #region pot-concentration-notes-Upgraded Button -->
+								<div class="button darkbg1">
+
+									<a title="Advanced Concentration" class="blue1 links2" href="https://bdocodex.com/us/item/701/" target="_blank">
+										<img class="icons icons1" src="images/icons/pots/concentration-advanced.webp" alt="Icon">
+										Advanced Concentration (Acc. +12)
+									</a>
+
+								</div>
+							<!-- #endregion pot-concentration-notes-Upgraded Button End -->
+
+							<!-- #region pot-concentration-Cheapest Button -->
+								<div class="button cheapest-button">
+
+									<a title="Content Button" class="button-link gold" href="javascript:toggleDiv('pot-concentration-Cheapest');">
+
+									<div class="left">
+										<div class="dots">
+										<span class="dot-plus">+</span>
+										</div>
+									</div> 
+
+									Cheapest CP Nodes
+									<img class="icons icons6" src="images/icons/nodes/connect2.webp" alt="Icon">
+									</a>
+
+									<div class="right">
+
+										<div class="dots">
+											<span class="amount">5</span>
+										</div>
+										<a title="Somethinglovely.net" class="links" href="https://www.somethinglovely.net/" target="_blank">🔗</a>
+
+									</div>
+
+								</div>
+							<!-- #endregion pot-concentration-Cheapest Button End -->
+
+							<!-- #region pot-concentration-Cheapest -->
+								<div id="pot-concentration-cheapest" class="hidden">
+
+									<!-- #region pot-concentration-CM-notes Button -->
+										<div class="button bluebg3">
+
+										<a title="Content Button" class="button-link" href="javascript:toggleDiv('pot-concentration-CM-notes');">
+
+										<div class="left">
+											<div class="dots">
+												<span class="dot-plus">+</span>
+											</div>
+										</div> 
+
+										<img class="icons icons1" src="images/icons/mushrooms/cloud.webp" alt="Icon">
+										Cloud Mushroom
+										</a>
+
+										<div class="right">
+
+										<div class="dots">
+											<span class="circle-text amount">2</span>
+										</div>
+
+										<a title="Cloud Mushroom" class="links" href="https://www.somethinglovely.net/bdo/#node/471" target="_blank">🔗</a>
+
+										</div>
+
+
+										</div>
+									<!-- #endregion pot-concentration-CM-notes Button -->
+
+									<!-- #region pot-concentration-CM-notes Button -->
+										<div id="pot-concentration-CM-notes" class="hidden">
+
+											<p class="h2 gold2">2CP Glish</p>
+
+											<a title="Glish Swamps" class="links2" href="https://www.somethinglovely.net/bdo/#node/471" target="_blank">
+												<img class="icons icons5" src="images/icons/nodes/connect2.webp" alt="Icon">
+												Glish Swamps
+											</a>
+
+
+											<p class="h2 gold2">2CP Glish</p>
+
+											<a title="Southern Cienaga" class="links2" href="https://www.somethinglovely.net/bdo/#node/475" target="_blank">
+												<img class="icons icons5" src="images/icons/nodes/connect2.webp" alt="Icon">
+												Southern Cienaga 
+											</a>
+
+										</div>
+									<!-- #endregion pot-concentration-CM-notes Button -->
+
+									<!-- #region pot-concentration-SRH-notes Button -->
+										<div class="button bluebg3">
+
+										<a title="Content Button" class="button-link" href="javascript:toggleDiv('pot-concentration-SRH-notes');">
+
+										<div class="left">
+											<div class="dots">
+											<span class="dot-plus">+</span>
+											</div>
+										</div> 
+
+										<img class="icons icons1" src="images/icons/gathering/plants/sunrise-herb.webp" alt="Icon">
+										Sunrise Herb
+										</a>
+
+										<div class="right">
+
+										<div class="dots">
+											<span class="circle-text amount">3</span>
+										</div>
+
+										<a title="Sunrise Herb" class="links" href="https://bdocodex.com/us/item/5401/" target="_blank">🔗</a>
+
+										</div>
+
+
+										</div>
+									<!-- #endregion pot-concentration-SRH-notes Button -->
+
+									<!-- #region pot-concentration-SRH-notes Button -->
+										<div id="pot-concentration-SRH-notes" class="hidden">
+
+										<p class="h2 gold2">3CP Velia</p>
+
+										<a title="Cron Castle Site" class="links2" href="https://www.somethinglovely.net/bdo/#node/41" target="_blank">
+										<img class="icons icons5" src="images/icons/nodes/connect2.webp" alt="Icon">
+										Cron Castle Site
+										</a>
+
+										<p class="h2 gold2">4CP Velia</p>
+
+										<a title="Balenos Forest" class="links2" href="https://www.somethinglovely.net/bdo/#node/44" target="_blank">
+										<img class="icons icons1" src="images/icons/nodes/connect3.webp" alt="Icon">
+										Balenos Forest
+										</a>
+
+
+
+										</div>
+									<!-- #endregion pot-concentration-SRH-notes Button -->
+
+
+								</div>
+							<!-- #endregion pot-concentration-Cheapest End -->
+
+						</div>
+					<!-- #endregion pot-concentration-notes End -->
+
+
+				</div>
+			<!-- #endregion pot-concentration-Recipe-Container -->
+
+		</div>
+	<!-- #endregion pot-concentration-Container -->
+
+
+</body>
+</html>

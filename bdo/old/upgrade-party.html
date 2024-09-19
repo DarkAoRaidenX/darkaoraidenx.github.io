@@ -2,118 +2,114 @@
 <html lang="en">
 <head>
 	<title>Party Pot</title>
-	<meta charset="UTF-8" />
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
-	<link rel="stylesheet" href="scripts/css/common.css" />
+	<meta charset="UTF-8">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" href="scripts/css/common.css">
 	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
-	<script src="scripts/jquery/3.6.0.js"></script> 
-	<script src="scripts/jquery/plus-minus.js"></script>
-	<script src="scripts/jquery/toggle-div.js"></script>
-	<script src="scripts/jquery/ui-1.13.1.js"></script>	
+	<script src="../scripts/jquery/3.7.1.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>	
 </head>
-<body id="home-page" class="common">
+<body id="upgrade-party-page" class="common">
 
-<!-- pot-Party-Upgrade -->
-<div id="pot-Party-Upgrade" class="container pots" draggable="true" ondragstart="drag(event)">
+<!-- #region - pot-party-upgrade-container -->
+<div id="pot-party-upgrade-container" class="items-container pots" draggable="true" ondragstart="drag(event)">
+
+	<!-- #region - pot-party-upgrade-info Button -->
+		<div class="button upgrading top">
+
+			<a title="Content Button" class="button-link blue1" href="javascript:toggleDiv('pot-party-upgrade-content');">
+
+				<div class="left">
+					<div class="dots">
+						<span class="dot-plus">+</span>
+					</div>
+				</div> 
+
+				 <img class="icons icons1" src="images/icons/vendor/aals-tear.webp" alt="Icon"> 
+				Party Version
+			</a>
+
+			<div class="right top">
+				&nbsp;
+			</div>
+
+		</div>
+	<!-- #endregion - pot-party-upgrade-info Button -->
+
+	<!-- #region - pot-party-upgrade-info -->
+		<div id="pot-party-upgrade-content" class="hidden">
+
+			<p class="gold h2">
+				Simple Alchemy <img title="Simple Alchemy" class="icons icons1" src="images/icons/processing/simple-alchemy.webp" alt="Icon"> 
+			</p>
+
+			<!-- pot-Aals-Tear Button -->
+				<div class="bluebg3 button">
+
+				<a title="Content Button" class="button-link" href="javascript:toggleDiv('pot-Aals-Tear');">
+
+				<div class="left">
+					<div class="dots">
+						<span class="dot-plus">+</span>
+					</div>
+				</div> 
+
+					 <img class="icons icons1" src="images/icons/vendor/aals-tear.webp" alt="Icon"> 
+					Aal's Tear
+				</a>
+
+				<div class="dots">
+					<span class="circle-text amount">1</span>
+				</div>
 
 
-<!-- pot-Party-Upgrade Button -->
-<div class="button darkBg1 top">
 
-<a title="Content Button" class="buttonLink blue1" href="javascript:toggleDiv('Party-Upgrade');">
+				<div class="right">
+					<a title="Aal's Tear" class="links" href="https://bdocodex.com/us/item/4914/" target="_blank">🔗</a>
+				</div>
 
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
+				</div>
+			<!-- pot-Aals-Tear Button End -->
+
+			<!-- pot-Aals-Tear -->
+				<div id="pot-Aals-Tear" class="info hidden">
+					- Material Vendor
+				</div>
+			<!-- pot-Aals-Tear End -->
+
+
+			<!-- pot-party-upgrade-info-Pot-Number -->
+			<div class="button bluebg3">
+
+			<div class="alignR">
+				Any <span class="green1">Green</span> or <span class="grade4">Blue</span> Pot
+
+			<div class="dots">
+				<span class="circle-text amount">2</span>
+			</div>
+
+		</div>
+
+
+	<div class="right">
+		&nbsp;
 	</div>
-</div> 
 
-<img class="icons icons1" src="images/icons/vendor/aals-tear.png" alt="Icon" />
-Party Version
-</a>
-
-<div class="right">
-&nbsp;
-</div>
-
-</div>
-<!-- Party-Upgrade Button End-->
-
-
-
-<!-- Party-Upgrade -->
-<div id="Party-Upgrade" class="hidden">
-
-<p class="gold h2">
-Simple Alchemy<img title="Simple Alchemy" class="icons icons1" src="images/icons/processing/simple-alchemy.png" alt="Icon" />
-</p>
-
-<!-- pot-AT Button -->
-<div class="blueBg3 button">
-
-<a title="Content Button" class="buttonLink" href="javascript:toggleDiv('pot-AT');">
-
-<div class="left">
-	<div class="dots">
-	<span class="dotPlus">+</span>
 	</div>
-</div> 
-
-<img class="icons icons1" src="images/icons/vendor/aals-tear.png" alt="Icon" />
-Aal's Tear
-</a>
-
-<div class="dots">
-	<span class="circleText amount">1</span>
-</div>
+	<!-- pot-party-upgrade-info-Pot-Number End -->
 
 
 
-<div class="right">
-<a title="Aal's Tear" class="links" href="https://bdocodex.com/us/item/4914/" target="_blank">🔗</a>
-</div>
+
+
+		</div>
+	<!-- #endregion - pot-party-upgrade-info -->
 
 </div>
-<!-- pot-AT Button End -->
-
-<!-- pot-AT -->
-<div id="pot-AT" class="info hidden">
-- Material Vendor
-</div>
-<!-- pot-AT End -->
-
-
-<!-- Party-Upgrade-Pot-Number -->
-<div class="button blueBg3">
-
-<div class="alignR">
-Any <span class="green1">Green</span> or <span class="blue1">Blue</span> Pot
-
-<div class="dots">
-	<span class="circleText amount">2</span>
-</div>
-
-</div>
-
-
-<div class="right">
-&nbsp;
-</div>
-
-</div>
-<!-- Party-Upgrade-Pot-Number End -->
-
-
-
-
-
-</div>
-<!-- Party-Upgrade End-->
-
-
-</div>
-<!-- pot-Party-Upgrade End -->
+<!-- #endregion - pot-party-upgrade-container -->
 
 </body>
 </html>

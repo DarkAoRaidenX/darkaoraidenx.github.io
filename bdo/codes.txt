@@ -1,0 +1,51 @@
+<!-- #region - recipes-cooking -->		
+			<div id="tabs-3" class="hidden">
+
+				<div id="compare-link-button2" class="compare-link">
+					<a title="Click to Open Comparison" href="javascript:toggleDiv('compare-container');">
+						Compare <img class="icons icons1 compare-icon" src="images/icons/menu/compare.webp" alt="Icon"> 
+					</a>
+				</div>			
+
+			</div>
+		<!-- #endregion - recipes-cooking-->
+
+        <script>
+		var draggableElements = document.getElementsByClassName("drag-area");
+
+		for(var i = 0; i < draggableElements.length; i++){
+			dragElement(draggableElements[i]);
+		}
+
+		function dragElement(elmnt) {
+			var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+			if (document.getElementsByClassName("drag-area")) {
+				elmnt.onmousedown = dragMouseDown;  
+			} else {
+					elmnt.onmousedown = dragMouseDown;
+			}
+			function dragMouseDown(e) {
+				e = e || window.event;
+				pos3 = parseInt(e.clientX);
+				pos4 = parseInt(e.clientY);
+				document.onmouseup = closeDragElement;
+				document.onmousemove = elementDrag;
+				return false;
+			}
+
+			function elementDrag(e) {
+				e = e || window.event;
+				pos1 = pos3 - parseInt(e.clientX);
+				pos2 = pos4 - parseInt(e.clientY);
+				pos3 = parseInt(e.clientX);
+				pos4 = parseInt(e.clientY);
+				elmnt.parentNode.style.top = (elmnt.parentNode.offsetTop - pos2) + "px";
+				elmnt.parentNode.style.left = (elmnt.parentNode.offsetLeft - pos1) + "px";
+			}
+
+			function closeDragElement() {
+				document.onmouseup = null;
+				document.onmousemove = null;
+			}
+		}
+	</script>
