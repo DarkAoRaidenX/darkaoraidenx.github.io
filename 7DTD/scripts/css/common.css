@@ -544,6 +544,10 @@ h1,h2, h3, h2 a.header-link:hover,.important,#glossary-table th {
 	color: #d50000;
 }
 
+.info-guide h3 {
+	color: #fafafa;
+}
+
 .warning {
 	color: #c62828 !important;
 }
