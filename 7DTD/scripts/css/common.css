@@ -605,6 +605,11 @@ td.attribute-names div.scrolling-content {
 	margin: 0 auto;
 }
 
+td.ui-atlas img {
+	width: 100%;
+	height: 100%;
+}
+
 #map-ore-colors {
 	border-collapse: collapse;
 }
