@@ -168,7 +168,7 @@
 														Contains Overview
 													</h2>
 													<div class="text-content">
-														Contains is a function that targets something(s) really specific.
+														Contains is a function that targets multiple of something(s) really specific.
 														
 														<br><br>
 														<h2 class="examples">
@@ -177,7 +177,22 @@
 															</a>
 														</h2>
 														<div id="contains-example-content1" class="hidden">
-															Example1
+															Say you wanted to do something for just for 
+															<br>
+															Animals and don't want it to affect Zombies.
+															<br><br>
+															Instead of doing 1 by 1 you can do "<span class="highlight">Contains</span>"
+															<br>
+															It will target every "<span class="highlight">Node</span>" name that contains the word "<span class="highlight">animal</span>", 
+															<br>
+															no matter where the word is.
+															<br>
+															"<span class="highlight">animal</span>Bear" - "Bear<span class="highlight">animal</span>"   
+															<br><br>
+															Text Case matters "<span class="highlight">animal</span>" vs "<span class="highlight">Animal</span>".
+															<div class="code-block1">
+																<span class="less-than">&lt;</span><span class="tag">set</span> <span class="attribute">xpath</span>=<span class="string">"/entity_classes/entity_class[contains(@name, 'animal')]/property[@name='TimeStayAfterDeath']/@value"</span><span class="greater-than">&gt;</span>1800<span class="less-than">&lt;/</span><span class="tag">set</span><span class="greater-than">&gt;</span>
+															</div>
 														</div>
 													</div>
 
@@ -221,11 +236,27 @@
 										<div id="xpath-advanced-3" class="hidden">
 											<!-- #region - XPATH Starts-Ends-With Content Left -->
 												<div id="xpath-starts-ends-with-left" class="columns column-left">
-													<h2 class="content-header">
-														Starts-Ends-With Overview
+													<h2>
+														Starts-With Overview
 													</h2>
 													<div class="text-content">
-														Starts-Ends-With 
+														<br><br>
+														<h2 class="examples">
+															<a title="Click To Show/Hide" class="header-link hide-show" href="javascript:toggleDiv('starts-with-example-content1');">
+																<span class="plus-minus-fa"><i class="fa-solid fa-plus"></i></span> Example #1
+															</a>
+														</h2>
+														<div id="starts-with-example-content1" class="hidden">
+															Say you want to change the Stack Size of items but only certain ones.
+															<br>
+															You could use "<span class="highlight">Starts-With</span>".
+
+															<br>
+															Let's target "<span class="highlight">ammo</span>"
+															<div class="code-block1">
+																<span class="less-than">&lt;</span><span class="tag">set</span> <span class="attribute">xpath</span>=<span class="string">"/items/item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']"</span><span class="greater-than">&gt;</span>1800<span class="less-than">&lt;/</span><span class="tag">set</span><span class="greater-than">&gt;</span>
+															</div>
+														</div>	
 													</div>
 
 												</div>
@@ -233,7 +264,14 @@
 
 											<!-- #region - XPATH Starts-Ends-With Content Right -->
 												<div id="xpath-starts-ends-with-right" class="columns column-right">
-													Starts-Ends-With Right
+													<h2>
+														Ends-With Overview
+													</h2>
+													<div class="text-content">
+														Ends-With ummm so niche i have to think of an example...
+														<br>
+														but hopefully you can get the idea how it works.
+													</div>
 													
 												</div>
 											<!-- #endregion - XPATH Starts-Ends-With Content Right-->
