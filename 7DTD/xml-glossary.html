@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>7 Days to Die XPath Tutorial/Notes</title>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="darkbluex,darkaoraidenx,7 days to die xpath">
+	<meta name="description" content="7 Days to Die XPath Tutorial/Notes By DarkBlueX/DarkAoRaidenX">
+	<meta property="og:title" content="7 Days to Die XPath Tutorial/Notes By DarkBlueX/DarkAoRaidenX">
+	<meta property="og:description" content="Best way to reach me is Discord. Username: DarkAoRaidenX">
+	<meta property="og:url" content="https://darkaoraidenx.github.io/7DTD/index.html">
+	<meta property="og:image" content="https://i.imgur.com/tFCRzeR.png">
+	<meta property="og:type" content="website">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="images/fav/favicon.ico">
+	<link rel="stylesheet" href="scripts/css/common.css">
+	<link rel="stylesheet" href="scripts/css/github-dark-dimmed-theme.css">
+	<link rel="stylesheet" href="../scripts/fontawesome-free-6.6.0-web/css/all.css">
+	<link rel="stylesheet" href="../scripts/css/datatables.css">
+	<script src="../scripts/jquery/3.7.1.min.js"></script> 
+	<script src="../scripts/jquery/datatables.js"></script>
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/show-only-one.js"></script>
+	<script src="../scripts/jquery/tabs.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
+</head>
+<body id="xml-glossary-home-page" class="common">
+
+	<!-- #region - TOP NAV -->
+		<div class="top-navbar-container">
+			<div id="top-nav-content">
+				<a title="Github Home" id="github-home-link" href="https://darkaoraidenx.github.io/"><i class="fa fa-fw fa-home"></i> Github Home</a>
+
+				<!-- #region - XPATH GUIDES -->		
+					<div class="dropdown">
+						<button class="dropbtn"><i class="fa-solid fa-code"></i> XPath Guides
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div id="xpath-links" class="dropdown-content">
+							<a title="XPATH Introduction" href="introduction.html"><i class="fa-solid fa-hand"></i> Introduction</a>
+							<a title="XPATH Prerequisites" href="prereqs.html"><i class="fa-solid fa-laptop-code"></i> Prerequisites</a>
+							<a title="XPATH Basics" href="xpath-basics.html"><i class="fa-solid fa-code"></i> XPATH Basics</a>
+							<a title="XPATH Advanced" href="xpath-advanced.html"><i class="fa-solid fa-code"></i> XPATH Advanced</a>
+						</div>
+					</div>
+				<!-- #endregion - XPATH GUIDES -->
+
+				<!-- #region - SPECIFIC XPATH GUIDES -->		
+					<div class="dropdown">
+						<button class="dropbtn"><i class="fa-solid fa-file-code"></i> Specific XML Tips
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div id="specific-xmls-links" class="dropdown-content scrolling-content">
+							<a title="Blocks.xml" href="blocks.html"><i class="fa-solid fa-file-code"></i> Blocks.xml</a>
+							<a title="Buffs.xml" href="buffs.html"><i class="fa-solid fa-file-code"></i> Buffs.xml</a>
+							<a title="Challenges.xml" href="challenges.html"><i class="fa-solid fa-file-code"></i> Challenges.xml</a>
+							<a title="Dialogs.xml" href="dialogs.html"><i class="fa-solid fa-file-code"></i> Dialogs.xml</a>
+							<a title="Entityclasses.xml/Entitygroups.xml" href="entityclasses-entitygroups.html"><i class="fa-solid fa-file-code"></i> Entityclasses.xml/Entitygroups.xml</a>
+							<a title="Gameevents.xml" href="gameevents.html"><i class="fa-solid fa-file-code"></i> Gameevents.xml</a>
+							<a title="Gamestages.xml" href="gamestages.html"><i class="fa-solid fa-file-code"></i> Gamestages.xml</a>
+							<a title="Item_Modifiers.xml" href="item-modifiers.html"><i class="fa-solid fa-file-code"></i> Item_Modifiers.xml</a>
+							<a title="Items.xml" href="items.html"><i class="fa-solid fa-file-code"></i> Items.xml</a>
+							<a title="Loadingscreen.xml" href="loadingscreen.html"><i class="fa-solid fa-file-code"></i> Loadingscreen.xml</a>
+							<a title="Localization.txt" href="localization.html"><i class="fa-solid fa-file-code"></i> Localization.txt</a>
+							<a title="Loot.xml" href="loot.html"><i class="fa-solid fa-file-code"></i> Loot.xml</a>
+							<a title="Materials.xml" href="materials.html"><i class="fa-solid fa-file-code"></i> Materials.xml</a>
+							<a title="Nav_Objects.xml" href="nav-objects.html"><i class="fa-solid fa-file-code"></i> Nav_Objects.xml</a>
+							<a title="Progression.xml" href="progression.html"><i class="fa-solid fa-file-code"></i> Progression.xml</a>
+							<a title="Qualityinfo.xml" href="qualityinfo.html"><i class="fa-solid fa-file-code"></i> Qualityinfo.xml</a>
+							<a title="Quests.xml" href="quests.html"><i class="fa-solid fa-file-code"></i> Quests.xml</a>
+							<a title="Recipes.xml" href="recipes.html"><i class="fa-solid fa-file-code"></i> Recipes.xml</a>
+							<a title="Sounds.xml" href="sounds.html"><i class="fa-solid fa-file-code"></i> Sounds.xml</a>
+							<a title="Traders.xml" href="traders.html"><i class="fa-solid fa-file-code"></i> Traders.xml</a>
+							<a title="Twitch.xml" href="twitch.html"><i class="fa-solid fa-file-code"></i> Twitch.xml</a>
+							<a title="Ui_Display.xml" href="ui-display.html"><i class="fa-solid fa-file-code"></i> Ui_Display.xml</a>
+							<a title="Ui/XUi" href="ui-xui.html"><i class="fa-solid fa-file-code"></i> Ui/XUi</a>
+							<a title="Vehicles.xml" href="vehicles.html"><i class="fa-solid fa-file-code"></i> Vehicles.xml</a>
+						</div>
+					</div>
+				<!-- #endregion - SPECIFIC XPATH GUIDES -->
+				
+				<!-- #region - RESOURCE LINKS -->			
+					<div class="dropdown">
+						<button class="dropbtn active"><i class="fa-solid fa-link"></i> Resource Links
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div id="resources-links" class="dropdown-content">
+							<a title="My Discord" class="discord-button" href="https://discord.gg/UccyzVm5Xq" target="_blank"><i class="fa-brands fa-discord"></i> DarkAoRaidenX</a>
+							<a title="Official 7 Days to Die" class="discord-button" href="https://discord.com/invite/taYNEUS" target="_blank"><i class="fa-brands fa-discord"></i> Official 7 Days to Die</a>
+							<a title="More Advanced Help" class="discord-button" href="https://discord.gg/3aWeEGrjJK" target="_blank"><i class="fa-brands fa-discord"></i> Guppy's</a>
+							<a title="Color Palettes" class="color-palettes" href="color-palettes.html" target="_blank"><i class="fa-solid fa-palette"></i> Color Palettes</a>
+							<a title="Sprite UI Icons" class="sprites-button" href="sprites.html" target="_blank"><i class="fa-solid fa-image"></i> Sprite UI Icons</a>
+							<a title="7 Days XML Glossary" class="xml-glossary-button active" href="xml-glossary.html" target="_blank"><i class="fa-solid fa-book"></i> 7 Days XML Glossary</a>
+							<a title="7 Days to Die Map Renderer" class="map-renderer-button" href="https://kui.github.io/7dtd-map/" target="_blank"><i class="fa-brands fa-github"></i> Map Renderer</a>
+							<a title="W3Schools XPath Intro" class="w3schools-button" href="https://www.w3schools.com/xml/xpath_intro.asp" target="_blank"><i class="fa-solid fa-school"></i> W3Schools - XPath Intro</a>
+							<a title="7 Days Wiki - XPath Explained" class="seven-days-wiki-button" href="https://7daystodie.wiki.gg/wiki/XPath_Explained" target="_blank"><i class="fa-solid fa-link"></i> 7 Days Wiki - XPath Explained</a>
+							<a title="XPath Cheatsheet 1" class="cheatsheet-button" href="https://devhints.io/xpath" target="_blank"><i class="fa-solid fa-note-sticky"></i> XPath Cheatsheet 1</a>
+							<a title="XPath Cheatsheet 2" class="cheatsheet-button" href="https://quickref.me/xpath.html" target="_blank"><i class="fa-solid fa-note-sticky"></i> XPath Cheatsheet 2</a>
+							<a title="Max Fox's Videos - A21+ XML" class="yt-button" href="https://www.youtube.com/playlist?list=PLfY-5aBkL7v_C5XQ4VplyOwYsxjDZEbJm" target="_blank"><i class="fa-brands fa-youtube"></i> Max Fox's Videos - A21+ XML</a>
+						</div>
+					</div>
+				<!-- #endregion - RESOURCE LINKS -->
+				
+				<!-- #region - MY STUFF LINKS -->					
+					<div class="dropdown">
+						<button class="dropbtn"><i class="fa-solid fa-gear"></i> My Mods
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div id="mystuff-links" class="dropdown-content">
+							<a title="Github" class="github-button" href="#"><i class="fa-brands fa-github"></i> Github (WIP)</a>
+							<a title="Nexusmods.com" class="nexus-mods-button" href="https://next.nexusmods.com/profile/DarkAoRaidenX/mods?gameId=1059" target="_blank"><i class="fa-solid fa-link"></i> Nexus Mods</a>
+						</div>
+					</div>
+				<!-- #endregion - MY STUFF LINKS -->				
+
+
+			</div>
+		</div>
+	<!-- #endregion - TOP NAV -->
+
+
+	<!-- #region - CONTENT CONTAINER -->
+		<div id="content-container">
+
+			<!-- #region - XML GLOSSARY CONTAINER -->
+			 
+				<!-- #region - XML GLOSSARY CONTENT -->
+					
+					<div id="xml-glossary-content" class="content-container">
+						
+						<br>
+						<h1>
+							<span class="less-than">&lt;</span>7 Days XML Glossary<span class="greater-than">&gt;</span>
+						</h1>
+						<!-- #region - XML GLOSSARY -->
+							<br>
+							<div id="xml-glossary-block" class="content-container-block">
+
+								<div class="color-guide">
+									<span class="attribute"><i class="fa-solid fa-square-full"></i>Attribute</span>
+									<span class="string"><i class="fa-solid fa-square-full"></i>String</span>
+									<span class="tag"><i class="fa-solid fa-square-full"></i>Tag</span>
+								</div>
+								<table id="glossary-table" class="display searchable-tables">
+									<thead>
+										<tr>
+											<th>XML Function</th>
+											<th>Name</th>
+											<th>Properties</th>
+											<th>Notes</th>
+										</tr>
+									</thead>
+									<tbody>
+										<!-- #region - ATTRIBUTES -->
+
+											<tr>
+												<td class="xml-function"><span class="attribute">Attribute</span></td>
+												<td class="function-names"><span class="attribute">class=" "</span></td>
+												<td class="attribute-names"><span class="string">Properties</span></td>
+												<td class="notes">Notes</td>
+											</tr>
+											<tr>
+												<td class="xml-function"><span class="attribute">Attribute</span></td>
+												<td class="function-names"><span class="attribute">count=" "</span></td>
+												<td class="attribute-names"><span class="string">Properties</span></td>
+												<td class="notes">Notes</td>
+											</tr>
+											<tr>
+												<td class="xml-function"><span class="attribute">Attribute</span></td>
+												<td class="function-names"><span class="attribute">event=" "</span></td>
+												<td class="attribute-names"><span class="string">Properties</span></td>
+												<td class="notes">Notes</td>
+											</tr>
+											<tr>
+												<td class="xml-function"><span class="attribute">Attribute</span></td>
+												<td class="function-names"><span class="attribute">name=" "</span></td>
+												<td class="attribute-names"><span class="string">Properties</span></td>
+												<td class="notes">Notes</td>
+											</tr>
+											<tr>
+												<td class="xml-function"><span class="attribute">Attribute</span></td>
+												<td class="function-names"><span class="attribute">OpenSound=" "</span></td>
+												<td class="attribute-names"><span class="string">Properties</span></td>
+												<td class="notes">Notes</td>
+											</tr>
+											<tr>
+												<td class="xml-function"><span class="attribute">Attribute</span></td>
+												<td class="function-names"><span class="attribute">operation=" "</span></td>
+												<td class="attribute-names">
+													<span class="string">
+														add
+														<br>
+														base_add
+														<br>
+														base_set
+														<br>
+														base_subtract
+														<br>
+														Equals
+														<br>
+														GT
+														<br>
+														GTE
+														<br>
+														LT
+														<br>
+														LTE
+														<br>
+														multiply
+														<br>
+														perc_add
+														<br>
+														perc_set
+														<br>
+														perc_subtract
+														<br>
+														Set
+														<br>
+														</span>
+												</td>
+												<td class="notes">
+													<div class="scrolling-content">
+														Math Operations
+														<br>
+														<span class="string">add</span>
+														<br>
+														-
+														<br><br>
+														<span class="string">base_add</span>
+														<br>
+														-
+														<br><br>
+														<span class="string">base_set</span>
+														<br>
+														-
+														<br><br>
+														<span class="string">base_subtract</span>
+														<br>
+														-
+														<br><br>
+														<span class="string">Equals</span>
+														<br>
+														- Equals
+														<br><br>
+														<span class="string">GT</span>
+														<br>
+														- Greater Than
+														<br><br>
+														<span class="string">GTE</span>
+														<br>
+														- Greater Than Equal
+														<br><br>
+														<span class="string">LT</span>
+														<br>
+														- Less Than
+														<br><br>
+														<span class="string">LTE</span>
+														<br>
+														- Less Than Equal
+														<br><br>
+														<span class="string">multiply</span>
+														<br>
+														-
+														<br>
+														<span class="string">perc_add</span>
+														<br><br>
+														-
+														<br>
+														<span class="string">perc_set</span>
+														<br>
+														-
+														<br><br>
+														<span class="string">perc_subtract</span>
+														<br>
+														- 
+														<br><br>
+														<span class="string">Set</span>
+														<br>
+														- Changes target to whatever was chosen.
+														<br><br>
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td class="xml-function"><span class="attribute">Attribute</span></td>
+												<td class="function-names"><span class="attribute">prob=" "</span></td>
+												<td class="attribute-names">
+													<span class="string">0.01 - 1</span>
+												</td>
+												<td class="notes">
+													Probability
+													<br>
+													Uses numbers <span class="string">0.01 - 1</span> to indicate the percentages.
+													<br>
+													0.01 is 1 Percent, .10 or .1 is 10 Percent and so on.
+												</td>
+											</tr>
+											<tr>
+												<td class="xml-function"><span class="attribute">Attribute</span></td>
+												<td class="function-names"><span class="attribute">stick_chance=" "</span></td>
+												<td class="attribute-names"><span class="string">Properties</span></td>
+												<td class="notes">Notes</td>
+											</tr>
+											<tr>
+												<td class="xml-function"><span class="attribute">Attribute</span></td>
+												<td class="function-names"><span class="attribute">tag=" "</span></td>
+												<td class="attribute-names"><span class="string">Properties</span></td>
+												<td class="notes">Notes</td>
+											</tr>
+											<tr>
+												<td class="xml-function"><span class="attribute">Attribute</span></td>
+												<td class="function-names"><span class="attribute">value=" "</span></td>
+												<td class="attribute-names"><span class="string">Properties</span></td>
+												<td class="notes">Notes</td>
+											</tr>
+											<tr>
+												<td class="xml-function"><span class="attribute">Attribute</span></td>
+												<td class="function-names"><span class="attribute">tool_category=" "</span></td>
+												<td class="attribute-names"><span class="string">Properties</span></td>
+												<td class="notes">Notes</td>
+											</tr>
+											<tr>
+												<td class="xml-function"><span class="attribute">Attribute</span></td>
+												<td class="function-names"><span class="attribute">target=" "</span></td>
+												<td class="attribute-names"><span class="string">Properties</span></td>
+												<td class="notes">Notes</td>
+											</tr>
+											<tr>
+												<td class="xml-function"><span class="attribute">Attribute</span></td>
+												<td class="function-names"><span class="attribute">group_name=" "</span></td>
+												<td class="attribute-names"><span class="string">Properties</span></td>
+												<td class="notes">Notes</td>
+											</tr>
+
+										<!-- #region - ATTRIBUTES -->
+										
+										<!-- #region - FUNCTIONS END TAGS -->
+
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>block<span class="greater-than">&gt;</span><br><span class="less-than">&lt;</span>/block<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>buff<span class="greater-than">&gt;</span><br><span class="less-than">&lt;</span>/buff<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>challenge_entry<span class="greater-than">&gt;</span><br><span class="less-than">&lt;</span>/challenge_entry<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>effect_group<span class="greater-than">&gt;</span><br><span class="less-than">&lt;</span>/effect_group<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>entity_class<span class="greater-than">&gt;</span><br><span class="less-than">&lt;</span>/entity_class<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>grid<span class="greater-than">&gt;</span><br><span class="less-than">&lt;</span>/grid<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>item<span class="greater-than">&gt;</span><br><span class="less-than">&lt;</span>/item<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>item_stack<span class="greater-than">&gt;</span><br><span class="less-than">&lt;</span>/item_stack<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>level_requirements<span class="greater-than">&gt;</span><br><span class="less-than">&lt;</span>/level_requirements<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>panel<span class="greater-than">&gt;</span><br><span class="less-than">&lt;</span>/panel<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>passive_effect<span class="greater-than">&gt;</span><br><span class="less-than">&lt;</span>/passive_effect<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>recipe<span class="greater-than">&gt;</span><br><span class="less-than">&lt;</span>/recipe<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>recipe_stack<span class="greater-than">&gt;</span><br><span class="less-than">&lt;</span>/recipe_stack<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>rect<span class="greater-than">&gt;</span><br><span class="less-than">&lt;</span>/rect<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>savegames_list_entry<span class="greater-than">&gt;</span><br><span class="less-than">&lt;</span>/savegames_list_entry<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>servers_list_header<span class="greater-than">&gt;</span><br><span class="less-than">&lt;</span>/servers_list_header<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>triggered_effect<span class="greater-than">&gt;</span><br><span class="less-than">&lt;</span>/triggered_effect<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>window<span class="greater-than">&gt;</span><br><span class="less-than">&lt;</span>/window<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+										
+
+										<!-- #endregion - FUNCTIONS END TAGS -->
+										
+
+										<!-- #region - FUNCTIONS NO END TAGS -->
+
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>AudioClip/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>AudioSource/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>button/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>category_icon/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>challenge_entry/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>combobox/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>CrouchNoiseScale/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>drop/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>dropdown_entry/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>filledsprite/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>gamepad_icon/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>ingredient/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>label/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>LocalCrouchVolumeScale/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>mainmenubutton/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>MaxRepeatRate/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>MaxVoices/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>NetworkAudioSource/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>NoiseScale/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>passive_effect/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>property/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>recipe_stack/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>requirement/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>savegames_list_entry/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>servers_list_header/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>simplebutton/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>SoundDataNode/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>sprite/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>style/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>style_entry/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>textfield/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>texture/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>togglebutton/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+											<tr><td class="xml-function"><span class="tag">Tag</span></td><td class="function-names"><span class="tag"><span class="less-than">&lt;</span>triggered_effect/<span class="greater-than">&gt;</span></span></td><td class="attribute-names"><span class="tag">Tags</span></td><td class="notes">Notes</td></tr>
+																				
+
+										<!-- #endregion - FUNCTIONS NO END TAGS -->
+										
+										
+									</tbody>
+								</table>
+  
+  
+
+							</div>
+						<!-- #endregion - XML GLOSSARY -->
+
+					</div>
+
+				<!-- #endregion - XML GLOSSARY CONTENT -->
+
+
+			<!-- #endregion - XML GLOSSARY CONTAINER -->
+
+
+		</div>
+	<!-- #endregion - CONTENT CONTAINER -->
+
+
+	<script>
+		$(document).ready( function () {
+			$('#glossary-table').DataTable();
+		} );
+		var table = $('#glossary-table').DataTable( {
+		columnDefs: [{ width: '320px', targets: 0 },
+					{ width: '350px', targets: 1 },
+					{ width: '350px', targets: 2 },
+					{"className": "color", "targets": "_all"},],
+					
+		lengthMenu: [[25, 10, 50, 100, -1],
+					[25, 10, 50, 100, 'All']],
+		});
+	</script>
+
+</html>

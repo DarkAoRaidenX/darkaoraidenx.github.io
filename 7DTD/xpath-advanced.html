@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>7 Days to Die XPath Tutorial XPath Advanced</title>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="darkbluex,darkaoraidenx,7 days to die xpath">
+	<meta name="description" content="7 Days to Die XPath Tutorial/Notes By DarkBlueX/DarkAoRaidenX">
+	<meta property="og:title" content="7 Days to Die XPath Tutorial/Notes By DarkBlueX/DarkAoRaidenX">
+	<meta property="og:description" content="Best way to reach me is Discord. Username: DarkAoRaidenX">
+	<meta property="og:url" content="https://darkaoraidenx.github.io/7DTD/index.html">
+	<meta property="og:image" content="https://i.imgur.com/tFCRzeR.png">
+	<meta property="og:type" content="website">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="images/fav/favicon.ico">
+	<link rel="stylesheet" href="scripts/css/common.css">
+	<link rel="stylesheet" href="scripts/css/github-dark-dimmed-theme.css">
+	<link rel="stylesheet" href="../scripts/fontawesome-free-6.6.0-web/css/all.css">
+	<script src="../scripts/jquery/3.7.1.min.js"></script> 
+	<script src="../scripts/jquery/plus-minus.js"></script>
+	<script src="../scripts/jquery/show-only-one.js"></script>
+	<script src="../scripts/jquery/tabs.js"></script>
+	<script src="../scripts/jquery/toggle-div.js"></script>
+	<script src="../scripts/jquery/ui-1.13.2.js"></script>
+</head>
+<body id="xpath-advanced-page" class="common">
+
+	<!-- #region - TOP NAV -->
+		<div class="top-navbar-container">
+			<div id="top-nav-content">
+				<a title="Github Home" id="github-home-link" href="https://darkaoraidenx.github.io/"><i class="fa fa-fw fa-home"></i> Github Home</a>
+
+				<!-- #region - XPATH GUIDES -->		
+					<div class="dropdown">
+						<button class="dropbtn active"><i class="fa-solid fa-code"></i> XPath Guides
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div id="xpath-links" class="dropdown-content">
+							<a title="XPATH Introduction" href="introduction.html"><i class="fa-solid fa-hand"></i> Introduction</a>
+							<a title="XPATH Prerequisites" href="prereqs.html"><i class="fa-solid fa-laptop-code"></i> Prerequisites</a>
+							<a title="XPATH Basics" href="xpath-basics.html"><i class="fa-solid fa-code"></i> XPATH Basics</a>
+							<a title="XPATH Advanced" class="active" href="xpath-advanced.html"><i class="fa-solid fa-code"></i> XPATH Advanced</a>
+						</div>
+					</div>
+				<!-- #endregion - XPATH GUIDES -->
+
+				<!-- #region - SPECIFIC XPATH GUIDES -->		
+					<div class="dropdown">
+						<button class="dropbtn"><i class="fa-solid fa-file-code"></i> Specific XML Tips
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div id="specific-xmls-links" class="dropdown-content scrolling-content">
+							<a title="Blocks.xml" href="blocks.html"><i class="fa-solid fa-file-code"></i> Blocks.xml</a>
+							<a title="Buffs.xml" href="buffs.html"><i class="fa-solid fa-file-code"></i> Buffs.xml</a>
+							<a title="Challenges.xml" href="challenges.html"><i class="fa-solid fa-file-code"></i> Challenges.xml</a>
+							<a title="Dialogs.xml" href="dialogs.html"><i class="fa-solid fa-file-code"></i> Dialogs.xml</a>
+							<a title="Entityclasses.xml/Entitygroups.xml" href="entityclasses-entitygroups.html"><i class="fa-solid fa-file-code"></i> Entityclasses.xml/Entitygroups.xml</a>
+							<a title="Gameevents.xml" href="gameevents.html"><i class="fa-solid fa-file-code"></i> Gameevents.xml</a>
+							<a title="Gamestages.xml" href="gamestages.html"><i class="fa-solid fa-file-code"></i> Gamestages.xml</a>
+							<a title="Item_Modifiers.xml" href="item-modifiers.html"><i class="fa-solid fa-file-code"></i> Item_Modifiers.xml</a>
+							<a title="Items.xml" href="items.html"><i class="fa-solid fa-file-code"></i> Items.xml</a>
+							<a title="Loadingscreen.xml" href="loadingscreen.html"><i class="fa-solid fa-file-code"></i> Loadingscreen.xml</a>
+							<a title="Localization.txt" href="localization.html"><i class="fa-solid fa-file-code"></i> Localization.txt</a>
+							<a title="Loot.xml" href="loot.html"><i class="fa-solid fa-file-code"></i> Loot.xml</a>
+							<a title="Materials.xml" href="materials.html"><i class="fa-solid fa-file-code"></i> Materials.xml</a>
+							<a title="Nav_Objects.xml" href="nav-objects.html"><i class="fa-solid fa-file-code"></i> Nav_Objects.xml</a>
+							<a title="Progression.xml" href="progression.html"><i class="fa-solid fa-file-code"></i> Progression.xml</a>
+							<a title="Qualityinfo.xml" href="qualityinfo.html"><i class="fa-solid fa-file-code"></i> Qualityinfo.xml</a>
+							<a title="Quests.xml" href="quests.html"><i class="fa-solid fa-file-code"></i> Quests.xml</a>
+							<a title="Recipes.xml" href="recipes.html"><i class="fa-solid fa-file-code"></i> Recipes.xml</a>
+							<a title="Sounds.xml" href="sounds.html"><i class="fa-solid fa-file-code"></i> Sounds.xml</a>
+							<a title="Traders.xml" href="traders.html"><i class="fa-solid fa-file-code"></i> Traders.xml</a>
+							<a title="Twitch.xml" href="twitch.html"><i class="fa-solid fa-file-code"></i> Twitch.xml</a>
+							<a title="Ui_Display.xml" href="ui-display.html"><i class="fa-solid fa-file-code"></i> Ui_Display.xml</a>
+							<a title="Ui/XUi" href="ui-xui.html"><i class="fa-solid fa-file-code"></i> Ui/XUi</a>
+							<a title="Vehicles.xml" href="vehicles.html"><i class="fa-solid fa-file-code"></i> Vehicles.xml</a>
+						</div>
+					</div>
+				<!-- #endregion - SPECIFIC XPATH GUIDES -->
+				
+				<!-- #region - RESOURCE LINKS -->			
+					<div class="dropdown">
+						<button class="dropbtn"><i class="fa-solid fa-link"></i> Resource Links
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div id="resources-links" class="dropdown-content">
+							<a title="My Discord" class="discord-button" href="https://discord.gg/UccyzVm5Xq" target="_blank"><i class="fa-brands fa-discord"></i> DarkAoRaidenX</a>
+							<a title="Official 7 Days to Die" class="discord-button" href="https://discord.com/invite/taYNEUS" target="_blank"><i class="fa-brands fa-discord"></i> Official 7 Days to Die</a>
+							<a title="More Advanced Help" class="discord-button" href="https://discord.gg/3aWeEGrjJK" target="_blank"><i class="fa-brands fa-discord"></i> Guppy's</a>
+							<a title="Color Palettes" class="color-palettes" href="color-palettes.html" target="_blank"><i class="fa-solid fa-palette"></i> Color Palettes</a>
+							<a title="Sprite UI Icons" class="sprites-button" href="sprites.html" target="_blank"><i class="fa-solid fa-image"></i> Sprite UI Icons</a>
+							<a title="7 Days XML Glossary" class="xml-glossary-button" href="xml-glossary.html" target="_blank"><i class="fa-solid fa-book"></i> 7 Days XML Glossary</a>
+							<a title="7 Days to Die Map Renderer" class="map-renderer-button" href="https://kui.github.io/7dtd-map/" target="_blank"><i class="fa-brands fa-github"></i> Map Renderer</a>
+							<a title="W3Schools XPath Intro" class="w3schools-button" href="https://www.w3schools.com/xml/xpath_intro.asp" target="_blank"><i class="fa-solid fa-school"></i> W3Schools - XPath Intro</a>
+							<a title="7 Days Wiki - XPath Explained" class="seven-days-wiki-button" href="https://7daystodie.wiki.gg/wiki/XPath_Explained" target="_blank"><i class="fa-solid fa-link"></i> 7 Days Wiki - XPath Explained</a>
+							<a title="XPath Cheatsheet 1" class="cheatsheet-button" href="https://devhints.io/xpath" target="_blank"><i class="fa-solid fa-note-sticky"></i> XPath Cheatsheet 1</a>
+							<a title="XPath Cheatsheet 2" class="cheatsheet-button" href="https://quickref.me/xpath.html" target="_blank"><i class="fa-solid fa-note-sticky"></i> XPath Cheatsheet 2</a>
+							<a title="Max Fox's Videos - A21+ XML" class="yt-button" href="https://www.youtube.com/playlist?list=PLfY-5aBkL7v_C5XQ4VplyOwYsxjDZEbJm" target="_blank"><i class="fa-brands fa-youtube"></i> Max Fox's Videos - A21+ XML</a>
+						</div>
+					</div>
+				<!-- #endregion - RESOURCE LINKS -->
+				
+				<!-- #region - MY STUFF LINKS -->					
+					<div class="dropdown">
+						<button class="dropbtn"><i class="fa-solid fa-gear"></i> My Mods
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div id="mystuff-links" class="dropdown-content">
+							<a title="Github" class="github-button" href="#"><i class="fa-brands fa-github"></i> Github (WIP)</a>
+							<a title="Nexusmods.com" class="nexus-mods-button" href="https://next.nexusmods.com/profile/DarkAoRaidenX/mods?gameId=1059" target="_blank"><i class="fa-solid fa-link"></i> Nexus Mods</a>
+						</div>
+					</div>
+				<!-- #endregion - MY STUFF LINKS -->				
+
+
+			</div>
+		</div>
+	<!-- #endregion - TOP NAV -->
+
+
+	<!-- Content Container -->
+		<div id="content-container">
+
+
+			<div id="xpath-advanced-container" class="content-container">
+
+				<!-- #region - xpath-advanced -->
+					<div id="xpath-advanced-notes">
+
+						<!-- #region - xpath-advanced Content -->
+							<div id="xpath-advanced" class="showonlyone-content">
+								
+								<br>
+								<h1>
+									<span class="less-than">&lt;</span>Xpath Advanced<span class="greater-than">&gt;</span>
+								</h1>
+								<ul id="xpath-advanced-nav" class="nav-tabs">
+									<li>
+										<h2 class="content-header">
+											<a title="Click To Show" class="header-link" href="#xpath-advanced-1">
+												<span class="less-than">&lt;</span>Contains<span class="greater-than">&gt;</span>
+											</a>
+										</h2>
+									</li>
+									<li>
+										<h2 class="content-header">
+											<a title="Click To Show" class="header-link" href="#xpath-advanced-2">
+												<span class="less-than">&lt;</span>Operators<span class="greater-than">&gt;</span>
+											</a>
+										</h2>
+									</li>
+									<li>
+										<h2 class="content-header">
+											<a title="Click To Show" class="header-link" href="#xpath-advanced-3">
+												<span class="less-than">&lt;</span>Starts-Ends-With<span class="greater-than">&gt;</span>
+											</a>
+										</h2>
+									</li>
+								</ul>
+								<div id="xpath-advanced-block" class="content-container-block">
+
+
+									<!-- #region - XPATH Contains -->
+										<div id="xpath-advanced-1" class="hidden">
+											
+											<!-- #region - XPATH Contains Content Left -->
+												<div id="xpath-contains-left" class="columns column-left">
+													<h2 class="content-header">
+														Contains Overview
+													</h2>
+													<div class="text-content">
+														Contains is a function that targets something(s) really specific.
+														
+														<br><br>
+														<h2 class="examples">
+															<a title="Click To Show/Hide" class="header-link hide-show" href="javascript:toggleDiv('contains-example-content1');">
+																<span class="plus-minus-fa"><i class="fa-solid fa-plus"></i></span> Example #1
+															</a>
+														</h2>
+														<div id="contains-example-content1" class="hidden">
+															Example1
+														</div>
+													</div>
+
+												</div>
+											<!-- #endregion - XPATH Contains Content Left -->
+
+											<!-- #region - XPATH Contains Content Right -->
+												<div id="xpath-contains-right" class="columns column-right">
+													Contains Right
+													
+												</div>
+											<!-- #endregion - XPATH Contains Content Right-->	
+
+										</div>
+									<!-- #endregion - XPATH Contains -->
+
+									<!-- #region - Operators -->
+										<div id="xpath-advanced-2" class="hidden">
+											<!-- #region - XPATH Operators Content Left -->
+												<div id="xpath-operators-left" class="columns column-left">
+													<h2 class="content-header">
+														Operators Overview
+													</h2>
+													<div class="text-content">
+														Operators 
+													</div>
+
+												</div>
+											<!-- #endregion - XPATH Operators Content Left -->
+
+											<!-- #region - XPATH Operators Content Right -->
+												<div id="xpath-operators-right" class="columns column-right">
+													Operators Right
+													
+												</div>
+											<!-- #endregion - XPATH Operators Content Right-->
+										</div>
+									<!-- #endregion - Operators-->
+
+									<!-- #region - Starts-Ends-With -->
+										<div id="xpath-advanced-3" class="hidden">
+											<!-- #region - XPATH Starts-Ends-With Content Left -->
+												<div id="xpath-starts-ends-with-left" class="columns column-left">
+													<h2 class="content-header">
+														Starts-Ends-With Overview
+													</h2>
+													<div class="text-content">
+														Starts-Ends-With 
+													</div>
+
+												</div>
+											<!-- #endregion - XPATH Starts-Ends-With Content Left -->
+
+											<!-- #region - XPATH Starts-Ends-With Content Right -->
+												<div id="xpath-starts-ends-with-right" class="columns column-right">
+													Starts-Ends-With Right
+													
+												</div>
+											<!-- #endregion - XPATH Starts-Ends-With Content Right-->
+										</div>
+									<!-- #endregion - Starts-Ends-With-->
+								</div>
+							</div>
+						<!-- #endregion - xpath-advanced Content -->
+
+					</div>
+				<!-- #endregion - xpath-advanced -->
+
+			</div>
+
+
+		</div>
+	<!-- Content Container End -->
+
+	<script>
+		function myFunction(e) {
+			var copyText = e.target.previousElementSibling;
+			copyText.select();
+			copyText.setSelectionRange(0, 99999)
+			document.execCommand("copy");
+			alert("Copied the text: " + copyText.value);
+		}
+	</script>
+</html>

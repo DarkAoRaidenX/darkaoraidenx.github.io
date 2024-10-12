@@ -1,0 +1,268 @@
+<h2>
+	<span class="less-than">&lt;</span><span class="tag">remove</span><span class="greater-than">/&gt;</span><br><span class="less-than">&lt;</span><span class="tag">removeattribute</span><span class="greater-than">/&gt;</span>
+</h2>
+<div class="text-content">
+	are <span class="tag">TAGs</span> that 
+
+	<br><br>
+
+	<br>
+	
+</div>
+
+	<quality key="0" color="808080"/>
+  <!--Junk -->
+	<quality key="1" color="9C8867"/>
+  <!--Common-->
+	<quality key="2" color="CF7F29"/>
+  <!--Uncommon-->
+	<quality key="3" color="A2A41B"/>
+  <!--Rare-->
+	<quality key="4" color="42C234"/>
+  <!--Epic-->
+	<quality key="5" color="315DCE"/>
+  <!--Legendary-->
+	<quality key="6" color="A42ACC"/>
+
+<h1>
+	<span class="less-than">&lt;</span><span class="tag">set</span><span class="greater-than">&gt;</span><span class="less-than">&lt;/</span><span class="tag">set</span><span class="greater-than">&gt;</span>
+</h1>
+<div class="text-content">
+
+	<span class="tag">set</span> sets/changes already existing nodes.
+
+	<br><br>
+	<div id="set-examples">
+		<h2>Examples</h2>
+		Say you want to change the amount of a recipe ingredient.
+		<br>
+		Let's make the <span class="string">Boiled Meat</span> use less meat.
+		<div id="set-examples-before" class="example-before">
+			<div class="code-block1">
+				<span class="less-than">&lt;</span><span class="tag">set</span> <span class="attribute">xpath</span>=<span class="string">"/recipes/recipe[@name='foodBoiledMeat']/ingredient[@name='foodRawMeat']/@count"</span><span class="greater-than">&gt;</span>1<span class="less-than">&lt;/</span><span class="tag">set</span><span class="greater-than">&gt;</span>
+			</div>
+			<img class="code-example" src="https://i.imgur.com/OHy6fg2.png" alt="code-before">
+			<img class="item-example" src="https://i.imgur.com/rNn6dd5.png" alt="item-before">	
+		</div>
+		
+		<br>
+		<h2>Results</h2>
+		<div id="set-examples-after" class="example-after">
+			Now the <span class="string">Boiled Meat</span> requires 1 meat instead of 5.
+			<br>
+			<img class="code-example" src="https://i.imgur.com/NXFxUTl.png" alt="code-after">
+			<img class="item-example" src="https://i.imgur.com/ME72YkB.png" alt="item-after">
+		</div>
+		
+	</div>
+	
+	
+</div>
+
+
+<h2 class="examples">
+	<a title="Click To Show/Hide" class="header-link hide-show" href="javascript:toggleDiv('set-example-content1');">
+		<span class="plus-minus-fa"><i class="fa-solid fa-plus"></i></span> Example #1
+	</a>
+</h2>
+<div id="set-example-content1" class="hidden">
+	
+</div>
+
+<br>
+																<h2 class="content-header">
+																	Examples
+																</h2>
+																<img class="code-example" src="https://i.imgur.com/l28au0X.png" alt="appending-function-code">
+																<div class="text-content">
+																	<h2>
+																		Code Explanation
+																	</h2>
+																	<div class="code-explanation-content">
+			
+																		<div class="code-block1">
+																			<div class="comment">
+																				<span class="less-than">&lt;</span>!-- Add a chance to get Water or Yucca Juice from a Cactus --<span class="greater-than">&gt;</span>
+																			</div>
+																		</div>
+			
+																		<span class="code-explanation-text">
+																			This is a comment. It will not be read by the game.
+																			<br>
+																			Basically used for Notes or a TODO list.
+																			<br>
+																			SAFE to delete.
+																			<br>
+																			Good practice to leave these for yourself.
+																		</span>
+																		<div class="code-block1">
+																			<span class="less-than">&lt;</span><span class="tag">append</span> <span class="attribute">xpath</span>=<span class="string">"/blocks/block[@name='treeCactus01']"</span><span class="greater-than">&gt;</span>
+																		</div>
+																		<span class="code-explanation-text">
+																			<span class="less-than">&lt;</span><span class="tag">Append</span><span class="greater-than">&gt;</span> <span class="tag">TAG</span> is a function in XML.
+																			<br>
+																			It basically adds to the end of list of things.
+																		</span>
+																		<div class="code-block1">
+																			<span class="attribute">xpath</span>=<span class="string">"/blocks/block[@name='treeCactus01']"</span>
+																		</div>
+																		<span class="code-explanation-text">
+																			<span class="attribute">xpath</span>=<span class="string">""</span> is another function 
+																			<br>
+																			that looks for a specific thing 
+																			in a specific directory. 
+																			<br>
+																			It finds a Path in XML.
+																		</span>
+																		<div class="code-block1">
+																			<span class="string">"/blocks/block[@name='treeCactus01']"</span>
+																		</div>
+																		<span class="code-explanation-text">
+																			Is the Pathway we are targeting.
+																			<br>
+																			In the Vanilla <span class="important">blocks.xml</span> the nodes are wrapped inside 
+																			<br>
+																			top level node called <span class="less-than">&lt;</span><span class="tag">blocks</span><span class="greater-than">&gt;</span>.
+																			<br><br>
+																			So with use the forward slash / 
+																			<br>
+																			to tell the game to look into that node.
+																			<br><br>
+																			Then after the node name we do another forward slash / 
+																			<br>
+																			tells the game to look at the next thing
+																			<br>
+																			which is a block with the <span class="attribute">name attribute</span> <span class="string">treeCactus01</span>.
+																			<br>
+																			
+																		</span>
+																		<div class="code-block1">
+																			<span class="less-than">&lt;</span><span class="tag">drop</span> <span class="attribute">event</span>=<span class="string">"Destroy"</span> <span class="attribute">name</span>=<span class="string">"drinkJarYuccaJuice"</span> <span class="attribute">count</span>=<span class="string">"1,2"</span> <span class="attribute">prob</span>=<span class="string">"0.2"</span><span class="greater-than">/&gt;</span>
+																		</div>
+																		<span class="code-explanation-text">
+																			With this line we are adding a <span class="important">Node</span> called <span class="tag">Drop</span>
+																			<br>
+																			Which you can probably guess what it does.
+																			<br><br>
+																			On the block <span class="string">Destroy</span>
+																			<br>
+																			it adds the item <span class="string">Yucca Juice</span> to the loot list
+																			<br>
+																			and how many it can drop 1 to 2.
+																			<br>
+																			and the probability of it dropping which .2 is 20%.
+																		</span>
+																		<div class="code-block1">
+																			<span class="less-than">&lt;/</span><span class="tag">append</span><span class="greater-than">&gt;</span>
+																		</div>
+																		<span class="code-explanation-text">
+																			Is the closing end tag.
+																			<br>
+																			Not all Element Nodes have an ending tag.
+																			<br>
+																			So you just add a forward slash / at the end.
+																			<br>
+																			As seen in the <span class="tag">drop</span> tag.
+																		</span>
+																	</div>
+																</div>	
+																<br>
+
+<h2 class="examples-notes">
+	<a title="Click To Show/Hide" class="header-link hide-show" href="javascript:toggleDiv('remove-examples-notes-content');">
+		<span class="plus-minus-fa"><i class="fa-solid fa-plus"></i></span> Remove Notes
+	</a>
+</h2>
+<div id="remove-examples-notes-content" class="hidden">
+	Remember there is easy ways to test if your changes works/applied.
+	<br>
+	<h2>
+		1. In-Game Console
+	</h2>
+	When loading the game press <span class="key-presses">F1</span> to open the console. 
+	<br>
+	- It will show <span class="yellow">Warnings</span> of things not applying in <span class="yellow">Yellow</span> text
+	<br>
+	- As well as <span class="red">Errors</span> in <span class="red">Red</span> Text
+
+	<br><br>
+	<h2>
+		2. ConfigsDump Folder
+	</h2>
+	
+	<div class="text-content">
+		This folder is to help troubleshoot any problems.
+		<br>
+		It has XML files that game save files load.
+		<br><br>
+		You check this to see if your code edits loaded properly etc.
+		
+		<br><br>
+		Search for the <span class="tag">AppData</span> Folder 
+		<br>
+		use <span class="tag">WIN</span>+<span class="tag">R</span> and Copy &amp; Paste.
+		<input class="text-content appdata" type="text" value="%APPDATA%\7DaysToDie\Saves" readonly>
+		<button class="copy-text" onclick="myFunction(event)"><i class="fa-solid fa-copy"></i> Copy text</button>
+		<br>
+		Then you look for 
+		<div class="code-block1">
+			<span class="string">WorldName\SaveName\ConfigsDump</span>
+		</div>
+		
+		<br>
+		Example:
+		<div class="code-block1">
+			<span class="string">Navezgane\A22Testing\ConfigsDump</span>
+		</div>
+		
+	</div>
+
+</div>
+
+
+<h2>
+	Notes:
+</h2>
+<div class="text-content">
+	Make sure when you are making edits 
+	<br>
+	you are in the right XML file. 
+	<br>
+	Blocks.xml - <span class="string">/blocks/block</span> 
+	<br>
+	Items.xml - <span class="string">/items/item</span>
+	<br>
+	Recipe.xml - <span class="string">/recipes/recipe</span>
+	<br>
+	Etc.
+</div>
+
+
+<br><br>
+<h2>Shorthand</h2>
+<div class="text-content">
+	using <span class="string">//NodeName</span> instead of <span class="string">/NodeName/NodeName</span>
+</div>
+
+
+<br>
+<h3>Examples</h3>
+
+<div class="text-content sh-slash-slash-code">
+	<span class="less-than">&lt;</span><span class="attribute">xpath</span>=<span class="string">"//block"</span><span class="greater-than">&gt;</span> 
+	<br>
+	is the same as 
+	<br>
+	<span class="less-than">&lt;</span><span class="attribute">xpath</span>=<span class="string">"/blocks/block"</span><span class="greater-than">&gt;</span>
+</div>
+
+
+<h2 class="examples-notes">
+	<a title="Click To Show/Hide" class="header-link hide-show" href="javascript:toggleDiv('name-content');">
+		<span class="plus-minus-fa"><i class="fa-solid fa-plus"></i></span> Name
+	</a>
+</h2>
+<div id="name-content" class="hidden">
+
+
+</div>

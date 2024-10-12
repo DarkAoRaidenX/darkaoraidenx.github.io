@@ -8,11 +8,11 @@ $( function() {
   $( "#xpath-basics" ).tabs();
 } );
 $( function() {
-  $( "#xpath-basics2" ).tabs();
-} );
-$( function() {
   $( "#basic-syntax-functions" ).tabs();
 } );
 $( function() {
   $( "#xpath-advanced" ).tabs();
+} );
+$( function() {
+  $( "#specific-xmls" ).tabs();
 } );

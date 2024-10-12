@@ -354,7 +354,7 @@ table.dataTable thead th,
 table.dataTable thead td,
 table.dataTable tfoot th,
 table.dataTable tfoot td {
-  text-align: left;
+  text-align: center;
 }
 table.dataTable thead th.dt-head-left,
 table.dataTable thead td.dt-head-left,
@@ -413,7 +413,7 @@ table.dataTable tbody td.dt-body-nowrap {
 table.dataTable {
   width: 100%;
   margin: 0 auto;
-  border-spacing: 0;
+  border-spacing: 2px;
   /*
    * Header and footer styles
    */
