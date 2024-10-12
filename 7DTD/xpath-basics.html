@@ -163,7 +163,7 @@
 													<div class="text-content">
 														XPath uses path expressions to select 
 														<br>
-														<span class="important">nodes</span> or <span class="important">node-sets</span> in an XML document.
+														<span class="highlight">nodes</span> or <span class="highlight">node-sets</span> in an XML document.
 
 														<br><br>
 														These path expressions look very much like 
@@ -174,147 +174,194 @@
 														Basically think of it like Folder Tree-like structure.
 														<br><br>
 
-														<h2 class="examples-notes">
-															<a title="Click To Show/Hide" class="header-link hide-show" href="javascript:toggleDiv('xpath-basics-functions-content');">
-																<span class="plus-minus-fa"><i class="fa-solid fa-plus"></i></span> Functions
-															</a>
-														</h2>
-														<div id="xpath-basics-functions-content" class="hidden">
-
-															<div class="text-content">
-																7 Days has XML code functions 
-																<br>
-																you can use to change the Vanilla values.
-																<br><br>
-																It doesn't actually touch and change the game files. 
-																<br>
-																The game just reads the files you made and changes it accordingly.
-																<br><br>
-																This is what one of a 7 Days to Die XML Function looks like.
-															</div>
-															<img class="code-example" src="https://i.imgur.com/l28au0X.png" alt="appending-function-code">
-															<br>
-															Check out the Basic Syntax tab to learn more.
+														<!-- #region - XPATH Basics Overview Content Left -->												
+															<ul class="nav-tabs">
+																<li>
+																	<h4 class="content-header">
+																		<a title="Click To Show" class="header-link tag" href="#xpath-basics-overview-left-1">
+																			<span class="less-than">&lt;</span>Functions<span class="greater-than">&gt;</span>
+																		</a>
+																	</h4>
+																</li>
+																<li>
+																	<h4 class="content-header">
+																		<a title="Click To Show" class="header-link tag" href="#xpath-basics-overview-left-2">
+																			<span class="less-than">&lt;</span>Nodes Explanation<span class="greater-than">&gt;</span>
+																		</a>
+																	</h4>
+																</li>
+																<li>
+																	<h4 class="content-header">
+																		<a title="Click To Show" class="header-link tag" href="#xpath-basics-overview-left-3">
+																			<span class="less-than">&lt;</span>Conditionals<span class="greater-than">&gt;</span>
+																		</a>
+																	</h4>
+																</li>
+																<li>
+																	<h4 class="content-header">
+																		<a title="Click To Show" class="header-link tag" href="#xpath-basics-overview-left-4">
+																			<span class="less-than">&lt;</span>Basics Notes<span class="greater-than">&gt;</span>
+																		</a>
+																	</h4>
+																</li>
+															</ul>
+														<!-- #endregion - XPATH Basics Overview Content Left -->
 															
-														
-														</div>
+															<div id="xpath-basics-overview-left-1" class="hidden">
 
-														
-														<h2 class="examples-notes">
-															<a title="Click To Show/Hide" class="header-link hide-show" href="javascript:toggleDiv('xpath-basics-nodes-explanation-content');">
-																<span class="plus-minus-fa"><i class="fa-solid fa-plus"></i></span> Nodes Explanation
-															</a>
-														</h2>
-														<div id="xpath-basics-nodes-explanation-content" class="hidden">
-
-															<div class="text-content">
-																As you can see in the example picture this is where 
-																<br>
-																an advanced text editor comes in handy.
+																<h2 class="examples-notes">
+																	Functions
+																</h2>
+																<div id="xpath-basics-functions-content">
 		
-																<br><br>
-																They highlight parts of the code in different colors.
-		
-																<br><br>
-																<span class="tag">append</span> is a Function <span class="tag">Tag</span>.
-																<br><br>
-																<span class="attribute">xpath</span>,<span class="attribute">event</span>,<span class="attribute">name</span>,<span class="attribute">value</span>,<span class="attribute">count</span>,<span class="attribute">prob</span> are an <span class="attribute">Attribute</span>.
-																<br><br>
-																anything between 
-																<br>
-																double quotes "..." or single quotes '...' are <span class="string">String Text</span>
-															</div>														
-														
-														</div>
-
-														
-														<h2 class="examples-notes">
-															<a title="Click To Show/Hide" class="header-link hide-show" href="javascript:toggleDiv('xpath-basics-conditionals-content');">
-																<span class="plus-minus-fa"><i class="fa-solid fa-plus"></i></span> XPath Conditionals 
-															</a>
-														</h2>
-														<div id="xpath-basics-conditionals-content" class="hidden">
-
-															<div class="text-content">
-																In 99% of cases you will want to work on a specific node 
-																<br>
-																or at least a carefully chosen subset. 
+																	<div class="text-content">
+																		7 Days has XML code functions 
+																		<br>
+																		you can use to change the Vanilla values.
+																		<br><br>
+																		It doesn't actually touch and change the game files. 
+																		<br>
+																		The game just reads the files you made and changes it accordingly.
+																		<br><br>
+																		This is what one of a 7 Days to Die XML Function looks like.
+																	</div>
+																	<img class="code-example" src="https://i.imgur.com/l28au0X.png" alt="appending-function-code">
+																	<br>
+																	Check out the Basic Syntax tab to learn more.
+																	
 																
-																<br><br>
-																That is where conditionals come in. 
-																<br>
-																Since everything descriptive in 7D2D XML is put into an attribute, 
-																<br>
-																you will nearly always be using conditionals on attributes, 
-																<br>
-																like looking for a particular item name or block name.
+																</div>
+
 															</div>
-														
-														</div>
 
 
-														<h2 class="examples-notes">
-															<a title="Click To Show/Hide" class="header-link hide-show" href="javascript:toggleDiv('xpath-basics-notes-content');">
-																<span class="plus-minus-fa"><i class="fa-solid fa-plus"></i></span> XPath Basics Notes
-															</a>
-														</h2>
-														<div id="xpath-basics-notes-content" class="hidden">
-															Make sure when you are making edits 
-															<br>
-															you are in the right XML file. 
-															<br>
-															Blocks.xml - <span class="string">/blocks/block</span> 
-															<br>
-															Items.xml - <span class="string">/items/item</span>
-															<br>
-															Recipe.xml - <span class="string">/recipes/recipe</span>
-															<br>
-															Etc.
-
-															<br><br>
-															Remember there is easy ways to test if your changes works/applied.
-															<br>
-															<h2>
-																1. In-Game Console
-															</h2>
-															When loading the game press <span class="key-presses">F1</span> to open the console. 
-															<br>
-															- It will show <span class="yellow">Warnings</span> of things not applying in <span class="yellow">Yellow</span> text
-															<br>
-															- As well as <span class="red">Errors</span> in <span class="red">Red</span> Text
-														
-															<br><br>
-															<h2>
-																2. ConfigsDump Folder
-															</h2>
 															
-															<div class="text-content">
-																This folder is to help troubleshoot any problems.
-																<br>
-																It has XML files that game save files load.
-																<br><br>
-																You check this to see if your code edits loaded properly etc.
+															<div id="xpath-basics-overview-left-2" class="hidden">
+
+																<h2 class="examples-notes">
+																	Nodes Explanation
+																</h2>
+																<div id="xpath-basics-nodes-explanation-content">
+		
+																	<div class="text-content">
+																		As you can see in the example pictures
+																		<br>
+																		either on the right or whenever pictures of code is posted 
 																
-																<br><br>
-																Search for the <span class="tag">AppData</span> Folder 
-																<br>
-																use <span class="tag">WIN</span>+<span class="tag">R</span> and Copy &amp; Paste.
-																<input class="text-content appdata" type="text" value="%APPDATA%\7DaysToDie\Saves" readonly>
-																<button class="copy-text" onclick="myFunction(event)"><i class="fa-solid fa-copy"></i> Copy text</button>
-																<br>
-																Then you look for 
-																<div class="code-block1">
-																	<span class="string">WorldName\SaveName\ConfigsDump</span>
+																		<br>
+																		this is where an advanced text editor comes in handy.
+				
+																		<br><br>
+																		They highlight parts of the code in different colors.
+				
+																		<br><br>
+																		<span class="tag">append</span> is a Function <span class="tag">Tag</span>.
+																		<br><br>
+																		<span class="attribute">xpath</span>,<span class="attribute">event</span>,<span class="attribute">name</span>,<span class="attribute">value</span>,<span class="attribute">count</span>,<span class="attribute">prob</span> are an <span class="attribute">Attribute</span>.
+																		<br><br>
+																		anything between 
+																		<br>
+																		double quotes "..." or single quotes '...' are <span class="string">String Text</span>
+																	</div>														
+																
 																</div>
-																
-																Example:
-																<div class="code-block1">
-																	<span class="string">Navezgane\A22Testing\ConfigsDump</span>
-																</div>
-																
+
 															</div>
-														
-														</div>														
+
+
+
+															<div id="xpath-basics-overview-left-3" class="hidden">
+																
+																<h2 class="examples-notes">
+																	XPath Conditionals
+																</h2>
+																<div id="xpath-basics-conditionals-content">
+		
+																	<div class="text-content">
+																		In 99% of cases you will want to work on a specific node 
+																		<br>
+																		or at least a carefully chosen subset. 
+																		
+																		<br><br>
+																		That is where conditionals come in. 
+																		<br>
+																		Since everything descriptive in 7D2D XML is put into an attribute, 
+																		<br>
+																		you will nearly always be using conditionals on attributes, 
+																		<br>
+																		like looking for a particular item name or block name.
+																	</div>
+																
+																</div>
+
+															</div>
+
+
+															<div id="xpath-basics-overview-left-4" class="hidden">
+																
+																<h2 class="examples-notes">
+																	XPath Basics Notes
+																</h2>
+																<div id="xpath-basics-notes-content">
+																	Make sure when you are making edits 
+																	<br>
+																	you are in the right XML file. 
+																	<br>
+																	Blocks.xml - <span class="string">/blocks/block</span> 
+																	<br>
+																	Items.xml - <span class="string">/items/item</span>
+																	<br>
+																	Recipe.xml - <span class="string">/recipes/recipe</span>
+																	<br>
+																	Etc.
+		
+																	<br><br>
+																	Remember there is easy ways to test if your changes works/applied.
+																	
+																	<br><br>
+																	<h2>
+																		1. In-Game Console
+																	</h2>
+																	When loading the game press <span class="key-presses">F1</span> to open the console. 
+																	<br>
+																	- It will show <span class="yellow">Warnings</span> of things not applying in <span class="yellow">Yellow</span> text
+																	<br>
+																	- As well as <span class="red">Errors</span> in <span class="red">Red</span> Text
+																
+																	<br><br>
+																	<h2>
+																		2. ConfigsDump Folder
+																	</h2>
+																	
+																	<div class="text-content">
+																		This folder is to help troubleshoot any problems.
+																		<br>
+																		It has XML files that game save files load.
+																		<br><br>
+																		You check this to see if your code edits loaded properly etc.
+																		
+																		<br><br>
+																		Search for the <span class="tag">AppData</span> Folder 
+																		<br>
+																		use <span class="tag">WIN</span>+<span class="tag">R</span> and Copy &amp; Paste.
+																		<input class="text-content appdata" type="text" value="%APPDATA%\7DaysToDie\Saves" readonly>
+																		<button class="copy-text" onclick="myFunction(event)"><i class="fa-solid fa-copy"></i> Copy text</button>
+																		<br>
+																		Then you look for 
+																		<div class="code-block1">
+																			<span class="string">WorldName\SaveName\ConfigsDump</span>
+																		</div>
+																		
+																		Example:
+																		<div class="code-block1">
+																			<span class="string">Navezgane\A22Testing\ConfigsDump</span>
+																		</div>
+																		
+																	</div>
+																
+																</div>	
+
+															</div>
 
 
 													</div>
@@ -341,7 +388,7 @@
 										<div id="xpath-basics-2" class="hidden">
 											<div id="basic-syntax-functions">
 
-												<!-- #region -  Basic Syntax Functions Nav -->												
+												<!-- #region - Basic Syntax Functions Nav -->												
 													<ul class="nav-tabs">
 														<li>
 															<h3 class="content-header">
@@ -379,7 +426,7 @@
 															</h3>
 														</li>
 													</ul>
-												<!-- #endregion -  Basic Syntax Functions Nav -->
+												<!-- #endregion - Basic Syntax Functions Nav -->
 
 
 												<!-- #region - Appending -->	
@@ -471,7 +518,7 @@
 																		<span class="code-explanation-text">
 																			Is the Pathway we are targeting.
 																			<br>
-																			In the Vanilla <span class="important">blocks.xml</span> the nodes are wrapped inside 
+																			In the Vanilla <span class="highlight">blocks.xml</span> the nodes are wrapped inside 
 																			<br>
 																			top level node called <span class="less-than">&lt;</span><span class="tag">blocks</span><span class="greater-than">&gt;</span>.
 																			<br><br>
@@ -491,7 +538,7 @@
 																			<span class="less-than">&lt;</span><span class="tag">drop</span> <span class="attribute">event</span>=<span class="string">"Destroy"</span> <span class="attribute">name</span>=<span class="string">"drinkJarYuccaJuice"</span> <span class="attribute">count</span>=<span class="string">"1,2"</span> <span class="attribute">prob</span>=<span class="string">"0.2"</span><span class="greater-than">/&gt;</span>
 																		</div>
 																		<span class="code-explanation-text">
-																			With this line we are adding a <span class="important">Node</span> called <span class="tag">Drop</span>
+																			With this line we are adding a <span class="highlight">Node</span> called <span class="tag">Drop</span>
 																			<br>
 																			Which you can probably guess what it does.
 																			<br><br>

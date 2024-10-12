@@ -8,6 +8,9 @@ $( function() {
   $( "#xpath-basics" ).tabs();
 } );
 $( function() {
+  $( "#xpath-basics-overview-left" ).tabs();
+} );
+$( function() {
   $( "#basic-syntax-functions" ).tabs();
 } );
 $( function() {

@@ -32,6 +32,26 @@ f47067 - Pink/Peach Color used for things like HTML/CSS
 	color: #f4511e;
 }
 
-.highlight {
+h1,h2, h3, h2.examples a.header-link, h2.examples-notes a.header-link,h2 a.header-link:hover,.searchable-tables th {
+	color: #1e88e5;
+}
+
+.highlight,.red {
 	color: #d50000;
+}
+
+.info-guide h3 {
+	color: #fafafa;
+}
+
+.warning {
+	color: #c62828 !important;
+}
+
+.yellow {
+	color: #ffff00;
+}
+
+a.active, .dropdown button.active {
+	background-color: #d50000;
 }
