@@ -564,8 +564,10 @@ h3,.color-guide,.searchable-tables th {
 }
 
 h1,h2, h3, h2.examples a.header-link, h2.examples-notes a.header-link,h2 a.header-link:hover,.important,.searchable-tables th,.red {
-	color: #d50000;
+	color: #1e88e5;
 }
+
+/* #region - #d50000 */
 
 #remove-examples .code-block1,
 #set-examples .code-block1, #setattribute-examples .code-block1 {
