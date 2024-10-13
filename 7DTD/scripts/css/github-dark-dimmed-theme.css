@@ -44,10 +44,6 @@ h1,h2, h3, h2.examples a.header-link, h2.examples-notes a.header-link,h2 a.heade
 	color: #fafafa;
 }
 
-.warning {
-	color: #c62828 !important;
-}
-
 .yellow {
 	color: #ffff00;
 }
@@ -55,3 +51,13 @@ h1,h2, h3, h2.examples a.header-link, h2.examples-notes a.header-link,h2 a.heade
 a.active, .dropdown button.active {
 	background-color: #d50000;
 }
+
+
+
+
+
+
+
+/* .warning {
+	color: #c62828 !important;
+} */
