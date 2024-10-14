@@ -1,4 +1,5 @@
 @import "github-dark-dimmed-theme.css";
+@import "../../../scripts/css/layout.css";
 
 /* #region - GLOBAL */
 body {
@@ -70,38 +71,7 @@ table,tr,td,th,p,img {
 /* #region - links */
 
 
-a:link {
-	color: #1e88e5;
-}
 
-a.discord {
-	color: #5865F2;
-}
-
-a.youtube {
-	color: #d50000;
-}
-
-h2 a.header-link {
-	color: #fafafa;
-}
-
-
-
-/* visited link */
-a:visited {
-	color: #1e88e5;
-}
-
-/* mouse over link */
-a:hover {
-	color: #b71c1c;
-}
-
-/* selected link */
-a:active {
-	color: #1e88e5;
-}
 
 
 .header-link {
@@ -119,7 +89,7 @@ ul {
 }
  
 
-#content-container,.content-container, .content-container-block, .code-block1,.code-block2, .codes-block,.code-example,.item-example {
+#content-container,.content-container, .content-container-block, .code-block1,.code-block2, .codes-block,.img-example,.item-example {
 	position: relative;
 	margin: 0 auto;
 }
@@ -192,31 +162,10 @@ ul {
 
 /* #region - NAVS GLOBAL */
 
-#main-nav-container {
-	display: inline-block;
-	border-right: 2px solid #7a8288;
-	border-bottom: 2px solid #7a8288;
-	width: 400px;
-}
+
 
 /* 	margin: 0 auto; */
-.main-nav-containers {
-	width: 380px;
-	background-color: transparent;
-	text-align: center;
-}
 
-.nav-buttons {
-	background-color: #0d47a1;
-	border: none;
-	padding: 8px 16px;
-	cursor: pointer;
-	margin: 4px 2px;
-}
-
-.nav-buttons:hover {
-	background-color: #1565c0;	
-}
 
 .discord-button {
 	background-color: #5865F2;	
@@ -293,9 +242,6 @@ a.nav-main-link,a.nav-resource-link {
 	width: 990px;
 }
 
-
-
-
 /* The dropdown container */
 .dropdown {
 	float: left;
@@ -324,7 +270,7 @@ a.nav-main-link,a.nav-resource-link {
 	background-color: #1565c0;
 	min-width: 210px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
+	z-index: 100;
 }
 
 #specific-xmls-links.dropdown-content {
@@ -592,21 +538,32 @@ h4.content-header {
 
 /* #endregion - text */
 
-
+.break {
+	height: 10px;
+}
 
 
 /* #region - images */
 
-.code-example,.item-example {
+.img-example,.item-example {
 	display: block;
 	width: 675px;
+	z-index: 1;
+}
+.img-example-enlarge,.item-example:hover {
+	position: absolute;
+	-moz-transform: scale(1.25);
+	-webkit-transform: scale(1.25);
+	transform: scale(1.25);
+	z-index: 10;
 }
 
-.column-right .code-example {
+
+.column-right .img-example {
 	width: 800px;
 }
 
-#set-examples .code-example {
+#set-examples .img-example {
 	width: 98%;
 }
 

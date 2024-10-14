@@ -27,9 +27,9 @@
 
 
 								<div class="example-images">
-								<img class="code-example" src="https://i.imgur.com/RsRK6tD.png" alt="append-example">
+								<img class="img-example" src="https://i.imgur.com/RsRK6tD.png" alt="append-example">
 								<br>
-								<img class="code-example" src="https://i.imgur.com/DbXWy3A.png" alt="append-results">
+								<img class="img-example" src="https://i.imgur.com/DbXWy3A.png" alt="append-results">
 							</div>
 							
 							<div id="appending-code" class="text-content">
@@ -77,9 +77,9 @@ javascript:toggleDiv('functions-content');
 								<table id="tag-examples">
 									<tr>
 									  <td id="tag-images">
-										<img class="code-example" src="https://i.imgur.com/D6dK1Ps.png" alt="tag-example">
-										<img class="code-example" src="https://i.imgur.com/aum0cxs.png" alt="tag-results1">
-										<img class="code-example" src="https://i.imgur.com/BM6KyLq.png" alt="tag-results2">
+										<img class="img-example" src="https://i.imgur.com/D6dK1Ps.png" alt="tag-example">
+										<img class="img-example" src="https://i.imgur.com/aum0cxs.png" alt="tag-results1">
+										<img class="img-example" src="https://i.imgur.com/BM6KyLq.png" alt="tag-results2">
 									  </td>
 									  <td class="text-content">
 	
@@ -122,6 +122,29 @@ javascript:toggleDiv('functions-content');
 						</div>
 					</div>
 
+					#main-nav-container {
+	display: inline-block;
+	border-right: 2px solid #7a8288;
+	border-bottom: 2px solid #7a8288;
+	width: 400px;
+}
+.main-nav-containers {
+	width: 380px;
+	background-color: transparent;
+	text-align: center;
+}
+
+.nav-buttons {
+	background-color: #cacaca;
+}
+
+/* .nav-buttons:hover {
+	background-color: #1565c0;	
+} */
+
+/* .nav-buttons:hover {
+	background-color:rgba(0, 0, 0, 0.5);	
+} */
 					<div class="code-line1">
 												<span class="less-than">&lt;</span><span class="tag">insertBefore</span> <span class="attribute">xpath</span>=<span class="string">"//block[@name='treeCactus01']/property[@name='SortOrder1']"</span><span class="greater-than">&gt;</span>
 											</div>
@@ -592,7 +615,7 @@ javascript:toggleDiv('functions-content');
 									<tr>
 									<td id="folders-images" class="example-images">
 										<a title="Click for Larger Image" class="img-link" href="https://i.imgur.com/jc81hDO.jpg" target="_blank">
-											<img class="code-example" src="https://i.imgur.com/jc81hDO.jpg" alt="folders-example">
+											<img class="img-example" src="https://i.imgur.com/jc81hDO.jpg" alt="folders-example">
 										</a>
 									</td>
 									<td class="text-content">
@@ -748,14 +771,14 @@ javascript:toggleDiv('functions-content');
 
 									<td id="modding-setup-images" class="example-images">
 										<a title="Click for Larger Image" class="img-link" href="https://i.imgur.com/81pcpsO.jpg" target="_blank">
-											<img class="code-example" src="https://i.imgur.com/81pcpsO.jpg" alt="vscode-example1">
+											<img class="img-example" src="https://i.imgur.com/81pcpsO.jpg" alt="vscode-example1">
 										</a>
 										<a title="Click for Larger Image" class="img-link" href="https://i.imgur.com/Usa7f8E.jpg" target="_blank">
-											<img class="code-example" src="https://i.imgur.com/Usa7f8E.jpg" alt="vscode-example2">
+											<img class="img-example" src="https://i.imgur.com/Usa7f8E.jpg" alt="vscode-example2">
 										</a>
 										
 										<a title="Click for Larger Image" class="img-link" href="https://i.imgur.com/Vkh15lH.png" target="_blank">
-											<img class="code-example" src="https://i.imgur.com/Vkh15lH.png" alt="vscode-example3">
+											<img class="img-example" src="https://i.imgur.com/Vkh15lH.png" alt="vscode-example3">
 										</a>
 									</td>
 									<td class="spacer"></td>
@@ -829,14 +852,14 @@ javascript:toggleDiv('functions-content');
 									<tr>
 									<td id="vscode-images" class="example-images">
 										<a title="Click for Larger Image" class="img-link" href="https://i.imgur.com/yBx7CJK.jpg" target="_blank">
-											<img class="code-example" src="https://i.imgur.com/yBx7CJK.jpg" alt="vscode-example1">
+											<img class="img-example" src="https://i.imgur.com/yBx7CJK.jpg" alt="vscode-example1">
 										</a>
 										<a title="Click for Larger Image" class="img-link" href="https://i.imgur.com/Usa7f8E.jpg" target="_blank">
-											<img class="code-example" src="https://i.imgur.com/Usa7f8E.jpg" alt="vscode-example2">
+											<img class="img-example" src="https://i.imgur.com/Usa7f8E.jpg" alt="vscode-example2">
 										</a>
 										
 										<a title="Click for Larger Image" class="img-link" href="https://i.imgur.com/Vkh15lH.png" target="_blank">
-											<img class="code-example" src="https://i.imgur.com/Vkh15lH.png" alt="vscode-example3">
+											<img class="img-example" src="https://i.imgur.com/Vkh15lH.png" alt="vscode-example3">
 										</a>
 									</td>
 									<td class="text-content">
@@ -1021,7 +1044,7 @@ javascript:toggleDiv('functions-content');
 
 											
 											<a title="Add Folder / Trust" class="img-link" href="https://i.imgur.com/Vkh15lH.png" target="_blank">
-												<img class="code-example" src="https://i.imgur.com/Vkh15lH.png" alt="vscode-example3">
+												<img class="img-example" src="https://i.imgur.com/Vkh15lH.png" alt="vscode-example3">
 											</a>
 
 										<!-- #region - PageName -->
@@ -1504,7 +1527,7 @@ HIDE Show
 																<br><br>
 																This is what one of a 7 Days to Die XML Function looks like.
 															</div>
-															<img class="code-example" src="https://i.imgur.com/l28au0X.png" alt="appending-function-code">
+															<img class="img-example" src="https://i.imgur.com/l28au0X.png" alt="appending-function-code">
 															<br>
 															Check out the Basic Syntax tab to learn more.
 															

@@ -1,79 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>DarkAoRaidenX's GitHub</title>
+	<title>DarkAoRaidenX's GitHub Home Page</title>
 	<meta charset="UTF-8">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
+	<meta name="keywords" content="darkbluex github,darkaoraidenx github,">
+	<meta name="description" content="DarkBlueX/DarkAoRaidenX GitHub">
+	<meta property="og:title" content="DarkBlueX/DarkAoRaidenX GitHub">
+	<meta property="og:description" content="Best way to reach me is Discord. Username: DarkAoRaidenX">
+	<meta property="og:url" content="https://darkaoraidenx.github.io/index.html">
+	<meta property="og:image" content="https://i.imgur.com/tFCRzeR.png">
+	<meta property="og:type" content="website">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="images/fav/favicon.ico">
 	<link rel="stylesheet" href="scripts/css/common.css">
-	<link rel="icon" type="image/x-icon" href="images/fav/alchemy.ico">
-	<script src="scripts/jquery/allow-drop.js"></script>
-	<script src="scripts/jquery/3.7.0-min.js"></script> 
+	<link rel="stylesheet" href="scripts/fontawesome-free-6.6.0-web/css/all.css">
+	<script src="scripts/jquery/3.7.1.min.js"></script> 
 	<script src="scripts/jquery/plus-minus.js"></script>
 	<script src="scripts/jquery/show-only-one.js"></script>
+	<script src="scripts/jquery/tabs.js"></script>
 	<script src="scripts/jquery/toggle-div.js"></script>
-	<script src="scripts/jquery/ui-1.13.2.js"></script>	
+	<script src="scripts/jquery/ui-1.13.2.js"></script>
 </head>
-<body id="home-page" class="common">
+<body id="github-home-page" class="common">
 
-<!-- Content Container -->
-<div id="content-container">
+	<!-- #region - TOP NAV -->
+		<div class="top-navbar-container">
+			<div id="top-nav-content">
+				<a title="Github Home" id="github-home-link" href="https://darkaoraidenx.github.io/"><i class="fa fa-fw fa-home"></i> Github Home</a>
 
-<div class="title">
-	<img class="username" src="images/username.png" alt="DarkAoRaidenX - GitHub">
-</div>
 
-<!-- Nav -->
-<div class="nav">
+				
+				<!-- #region -GITHUB  WEB PAGES LINKS -->			
+					<div class="dropdown">
+						<button class="dropbtn"><i class="fa-solid fa-link"></i> GitHub Pages
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div id="resources-links" class="dropdown-content">
+							<a title="7 Days to Die" class="seven-days-button" href="/7DTD/index.html"><i class="fa-solid fa-link"></i> 7 Days to Die - Home Page</a>
+							<!-- <a title="7 Days to Die XPath Guides" class="seven-days-button" href="/7DTD/xpath-basics.html"><i class="fa-solid fa-link"></i> 7 Days to Die - XPath Guides</a> -->
+							<a title="BDO / Black Desert Online" class="bdo-button" href="#"><i class="fa-solid fa-link"></i> Black Desert Online [WIP]</a>
+							<a title="DRG Tips" class="drg-button" href="/drg/tips/index.html"><i class="fa-solid fa-link"></i> Deep Rock Galactic Tips</a>
+						</div>
+					</div>
+				<!-- #endregion - GITHUB WEB PAGES LINKS -->
+				
+				<!-- #region - CONTACT INFO LINKS -->					
+					<div class="dropdown">
+						<button class="dropbtn"><i class="fa-solid fa-envelope"></i> Social Info
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div id="mystuff-links" class="dropdown-content">
+							<a title="My Discord" class="discord-button" href="https://discord.gg/UccyzVm5Xq" target="_blank"><i class="fa-brands fa-discord"></i> DarkAoRaidenX</a>
+							<a title="My Twitch" class="twitch-button" href="https://www.twitch.tv/darkaoraidenx" target="_blank"><i class="fa-brands fa-twitch"></i> Twitch</a>
+							<a title="My YouTube Channel" class="yt-button" href="https://www.youtube.com/channel/UCCQOQjamR4XSf8AIFOz6krg" target="_blank"><i class="fa-brands fa-youtube"></i> Raijin Tribe Gaming </a>
+						</div>
+					</div>
+				<!-- #endregion - CONTACT INFO LINKS -->				
 
-	<div id="nav-row-1" class="nav-rows">
 
-		<a title="7 Days Mods" class="button-link" href="https://www.nexusmods.com/7daystodie/users/96342523?tab=user+files" target="_blank">
-		 <img class="home-buttons" src="images/buttons/v2/7-days-mods.jpg" alt="7 Days Mods - Nexus Mods">
-		</a>
-		
-		<a title="BDO Recipes" class="button-link" href="bdo/recipes.html" target="_blank">
-		 <img class="home-buttons" src="images/buttons/v2/bdo-recipes.jpg" alt="BDO - Recipes">
-		</a>
-		
-		
-		<a title="DRG Rock-N-Stone Tips" class="button-link" href="drg/tips/index.html" target="_blank">
-			<img class="home-buttons" src="images/buttons/v2/drg-tips.webp" alt="DRG - TIPS">
-		</a>
-		
-		
-		
-	</div>
-		
-	<div id="nav-row-2" class="nav-rows">
-	
-	<a title="Streaming Discord" class="button-link" href="https://discord.gg/UccyzVm5Xq" target="_blank">
-			<img class="home-buttons" src="images/buttons/v2/discord.jpg" alt="Streaming Discord - UccyzVm5Xq">
-	</a>
-	
-	
-	<a title="Twitch" class="button-link" href="https://www.twitch.tv/darkaoraidenx" target="_blank">
-			<img class="home-buttons" src="images/buttons/v2/twitch.jpg" alt="Twitch - DarkAoRaidenX">
-	</a>
-	
-	
-	<a title="RaijinTribe Gaming" class="button-link" href="https://www.youtube.com/channel/UCCQOQjamR4XSf8AIFOz6krg" target="_blank">
-			<img class="home-buttons" src="images/buttons/v2/yt.jpg" alt="YouTube - UCCQOQjamR4XSf8AIFOz6krg">
-	</a>
-	<br>
-	One of these days this will be updated!
-	
-	</div>
+			</div>
+		</div>
+	<!-- #endregion - TOP NAV -->
 
 
 
+	<!-- #region - CONTENT CONTAINER -->
+		<div id="content-container">
 
-</div>
-<!-- Nav End -->
+			<div class="title">
+				<img class="username" src="images/username.png" alt="DarkAoRaidenX - GitHub">
+			</div>
 
 
-</div>
-<!-- Content Container End -->
+		</div>
+	<!-- #endregion - CONTENT CONTAINER -->
+
 
 </body>
 </html>
