@@ -145,6 +145,11 @@ javascript:toggleDiv('functions-content');
 /* .nav-buttons:hover {
 	background-color:rgba(0, 0, 0, 0.5);	
 } */
+a.nav-main-link,a.nav-resource-link {
+	display: block;
+	font-size: 24px;
+	color: white;
+}
 					<div class="code-line1">
 												<span class="less-than">&lt;</span><span class="tag">insertBefore</span> <span class="attribute">xpath</span>=<span class="string">"//block[@name='treeCactus01']/property[@name='SortOrder1']"</span><span class="greater-than">&gt;</span>
 											</div>
