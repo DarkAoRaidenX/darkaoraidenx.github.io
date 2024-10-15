@@ -85,7 +85,9 @@ a.active, .dropdown button.active {
 
 
 
-
+.searchable-tables th {
+	background-color: #1E1E1E;
+}
 
 
 
