@@ -1,0 +1,150 @@
+
+/* #region - GLOBAL */
+body {
+	color: white;
+	background: 
+    url("") 
+    top left / 100px 100px
+    repeat
+    #282A35;
+	border: 0 solid #000;
+	font-family: RobotoRegular, RobotoBold, LatoRegular, Arial, Helvetica, sans-serif;
+
+}
+
+@font-face {
+	font-family: Consola;
+	src: url(fonts/consola.TTF);
+}
+
+@font-face {
+	font-family: LatoRegular;
+	src: url(fonts/lato-regular.ttf);
+}
+
+@font-face {
+	font-family: OpenSansBold;
+	src: url(fonts/opensans-bold.ttf);
+}
+
+@font-face {
+	font-family: OpenSansBold;
+	src: url(fonts/opensans-bold.ttf);
+}
+
+@font-face {
+	font-family: RobotoRegular;
+	src: url(fonts/roboto-regular.ttf);
+}
+
+@font-face {
+	font-family: RobotoBold;
+	src: url(fonts/roboto-bold.ttf);
+}
+
+
+img,fieldset {
+	border: none;
+}
+
+/* null margins and padding to give good cross-browser baseline */
+html,body,address,blockquote,div,
+form,fieldset,caption,
+h1,h2,h3,h4,h5,h6,
+hr,ul,li,ol,ul,
+table,tr,td,th,p,img {
+	margin:0;
+	padding:0;
+}
+
+
+.hidden {
+	display: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/* #endregion - GLOBAL */
+
+
+
+
+/* #region - TOP NAV */
+
+/* Navbar container */
+.top-navbar-container {
+	overflow: hidden;
+	background-color: #212121;
+}
+
+/* Links inside the top-navbar */
+.top-navbar-container a {
+	float: left;
+	text-decoration: none;
+}
+
+.top-navbar-container a,.dropdown .dropbtn,.dropdown-content a {
+	color: white;
+	padding: 14px 16px;
+	font-size: 20px;
+}
+
+
+
+/* The dropdown container */
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+	border: none;
+	outline: none;
+	background-color: inherit;
+	font-family: inherit; /* Important for vertical align on mobile phones */
+	margin: 0; /* Important for vertical align on mobile phones */
+	cursor: pointer;
+}
+
+.top-navbar-container a:link, .top-navbar-container a:visited {
+    color: #fafafa;
+}
+
+/* Add a red background color to top-navbar links on hover */
+.top-navbar-container a:hover, .dropdown:hover .dropbtn,.dropdown-content a:hover {
+    color: #fafafa;
+	background-color: #0d47a1;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #1565c0;
+	min-width: 210px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 100;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	float: none;;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+} 
+
+
+
+
+/* #endregion - TOP NAV */
