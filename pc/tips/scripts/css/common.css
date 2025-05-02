@@ -1,0 +1,299 @@
+@import "../../../../scripts/css/layout.css";
+
+
+
+
+/* #region - links */
+
+.header-link {
+	line-height: 75px;
+}
+
+#main-nav-container a,.header-link,.img-link {
+	text-decoration: none;
+}
+
+/* #endregion - links */
+
+
+#content-container,.content-container, .content-container-block, .code-block1,.code-block2, .codes-block,.img-example,.item-example {
+	position: relative;
+	margin: 0 auto;
+}
+
+#content-container {
+	top: 0;
+	background-color: transparent;
+	width: 1890px;
+	vertical-align: top;
+	border: 2px solid #7a8288;
+	/* text-align: center; */
+}
+
+.columns {
+	display: inline-block;
+}
+
+.columns,.content-container {
+	vertical-align: top;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+/* W 1470px */
+/* H 1050px */
+.content-container {
+	min-height: 1200px;
+	border: 0 solid #7a8288;
+	text-align: center;
+}
+
+/* #region - code text */
+.content-container-block {
+	background-color: #262626;
+	border: 1px solid #000;
+	width: 1800px;
+	min-height: 1000px;
+	line-height: 36px;
+}
+
+.showonlyone-content .columns {
+	width: 850px;
+	min-height: 2000px;
+	border: 2px solid #7a8288;
+}
+
+
+.plus-minus,.examples .plus-minus-fa,.examples-notes .plus-minus-fa {
+	display: inline-block;
+	top: 5px;
+	position: relative;
+	color: #fafafa;
+}
+
+.examples .plus-minus-fa {
+ 	font-size: 40px;
+	top: 0;
+}
+
+
+.spacer-width {
+	display: inline-block;
+	width: 20px;
+}
+
+.scrolling-content {
+	overflow-x: hidden; /* Hide horizontal scrollbar */
+	overflow-y: scroll; /* Add vertical scrollbar */
+}
+
+/* #region - NAVS GLOBAL */
+
+
+
+
+
+/* #endregion - NAVS GLOBAL */
+
+/* #region - TOP NAV */
+
+#top-nav-content {
+	margin: 0 auto;
+	text-align: center;
+	width: 25%;
+}
+
+
+#specific-xmls-links.dropdown-content {
+	height: 560px;
+	/* height: 100%; */
+}
+
+
+/* #endregion - TOP NAV */
+
+
+
+/* #region - text */
+
+
+
+
+/* #endregion - text */
+
+.break {
+	height: 10px;
+}
+
+
+/* #region - images */
+
+
+
+
+/* #endregion - images */
+
+
+/* #region - Tables */
+
+
+#glossary-table td.attribute-names {
+	text-align: left;
+}
+
+td.attribute-names .scrolling-content {
+	height: 100%;
+	overflow-y: hidden;
+}
+
+td.notes .scrolling-content {
+ height: 420px;
+}
+
+.tables {
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+img#ui-atlas,img#death_message_twitch,#ui_game_symbol_twitch_boss_bar {
+	width: 100%;
+	height: 100%;
+}
+
+/* #region - ORE COLORS */
+
+/* #map-ore-colors {
+	border-collapse: collapse;
+} */
+
+#color-palettes-content th, #color-palettes-content td {
+	font-size: 32px;
+	border: 2px solid #263238;
+}
+
+#color-palettes-content th {
+	background-color: #b71c1c;
+}
+
+#color-palettes-content td {
+	font-size: 24px;
+	width: 250px;
+	height: 250px;
+}
+
+#ore-nitrate-default,#ore-oil-shale-default,#ore-nitrate-1 {
+	color: #000;
+}
+
+#ore-coal-default {
+	background-color: #000;
+}
+
+#ore-iron-default {
+	background-color: #784600;
+}
+
+#ore-lead-default {
+	background-color: #466E78;
+}
+
+#ore-nitrate-default {
+	background-color: #fff;
+}
+
+#ore-oil-shale-default {
+	background-color: #E6B478;
+}
+
+#ore-coal-1 {
+	background-color: #374650;
+}
+
+#ore-iron-1 {
+	background-color: #784600;
+}
+
+#ore-lead-1 {
+	background-color: #C0C0C0;
+}
+
+#ore-nitrate-1 {
+	background-color: #fff;
+}
+
+#ore-oil-shale-1 {
+	background-color: #009678;
+}
+
+/* #endregion - ORE COLORS */
+
+/* #region - QUALITY COLORS */
+
+#quality-colors-block .row1 .color-palettes-bg1 {
+	background-color: #808080;
+}
+
+#quality-colors-block .row1 .color-palettes-bg2 {
+	background-color: #9C8867;
+}
+
+#quality-colors-block .row1 .color-palettes-bg3 {
+	background-color: #CF7F29;
+}
+
+#quality-colors-block .row1 .color-palettes-bg4 {
+	background-color: #A2A41B;
+}
+
+#quality-colors-block .row1 .color-palettes-bg5 {
+	background-color: #42C234;
+}
+
+#quality-colors-block .row1 .color-palettes-bg6 {
+	background-color: #315DCE;
+}
+
+#quality-colors-block .row1 .color-palettes-bg7 {
+	background-color: #A42ACC;
+}
+
+#quality-colors-block .row2 .color-palettes-bg1 {
+	background-color: #808080;
+}
+
+#quality-colors-block .row2 .color-palettes-bg2 {
+	background-color: #9C8867;
+}
+
+#quality-colors-block .row2 .color-palettes-bg3 {
+	background-color: #CF7F29;
+}
+
+#quality-colors-block .row2 .color-palettes-bg4 {
+	background-color: #A2A41B;
+}
+
+#quality-colors-block .row2 .color-palettes-bg5 {
+	background-color: #42C234;
+}
+
+#quality-colors-block .row2 .color-palettes-bg6 {
+	background-color: #315DCE;
+}
+
+#quality-colors-block .row2 .color-palettes-bg7 {
+	background-color: #A42ACC;
+}
+
+/* #endregion - QUALITY COLORS */
+
+/* #region - TEXT COLORS */
+/* #endregion - TEXT COLORS */
+
+
+/* #endregion - Tables */
+
+  
+
+
+

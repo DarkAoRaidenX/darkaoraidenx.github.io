@@ -201,6 +201,7 @@ ul {
 
 #top-nav-content {
 	margin: 0 auto;
+	text-align: center;
 	width: 25%; /* 990px */
 }
 
@@ -209,57 +210,7 @@ ul {
 
 
 
-.bdo-button {
-	background-color: #263238;	
-}
 
-.discord-button {
-	background-color: #5865F2;	
-}
-
-.drg-button {
-	background-color: #388e3c;	
-}
-
-/* .discord-button:hover {
-	background-color: #5E6EFF;	
-} */
-
-.seven-days-button {
-	background-color: #b71c1c;	
-}
-
-/* .seven-days-wiki-button:hover {
-	background-color: #c62828;	
-} */
-
-.twitch-button {
-	background-color: #9146FF;	
-}
-
-.yt-button {
-	background-color: #d50000;	
-}
-
-/* .yt-button:hover {
-	background-color: #ff0000;	
-} */
-
-.w3schools-button {
-	background-color: #058255;	
-}
-
-.w3schools-button:hover {
-	background-color: #069963;	
-}
-
-.cheatsheet-button {
-	background-color: #1565c0;	
-}
-
-/* .cheatsheet-button:hover {
-	background-color: #1565c0;	
-} */
 
 
 a.nav-main-link,a.nav-resource-link {

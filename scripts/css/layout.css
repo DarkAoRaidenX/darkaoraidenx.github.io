@@ -1,7 +1,7 @@
 
 /* #region - GLOBAL */
 body {
-	color: white;
+	color: #fafafa;
 	background: 
     url("") 
     top left / 100px 100px
@@ -86,7 +86,7 @@ ul {
 }
 
 .top-navbar-container a,.dropdown .dropbtn,.dropdown-content a {
-	color: white;
+	color: #fafafa;
 	padding: 14px 16px;
 	font-size: 20px;
 }
@@ -110,7 +110,7 @@ ul {
 }
 
 .top-navbar-container a:link, .top-navbar-container a:visited {
-    color: #fafafa;
+    color: #fafafa;	
 }
 
 /* Add a red background color to top-navbar links on hover */
@@ -145,6 +145,153 @@ ul {
 } 
 
 
+.bdo-button {
+	background-color: #263238;	
+}
+
+.pc-tips-button {
+	color: #000 !important;
+	background-color: #FCC243;	
+}
+
+.discord-button {
+	background-color: #5865F2;	
+}
+
+.drg-button {
+	background-color: #388e3c;	
+}
+
+/* .discord-button:hover {
+	background-color: #5E6EFF;	
+} */
+
+
+.seven-days-button {
+	background-color: #b71c1c;	
+}
+
+/* .seven-days-wiki-button:hover {
+	background-color: #c62828;	
+} */
+
+.twitch-button {
+	background-color: #9146FF;	
+}
+
+.yt-button {
+	background-color: #d50000;	
+}
+
+/* .yt-button:hover {
+	background-color: #ff0000;	
+} */
+
+.w3schools-button {
+	background-color: #058255;	
+}
+
+.w3schools-button:hover {
+	background-color: #069963;	
+}
+
+.cheatsheet-button {
+	background-color: #1565c0;	
+}
+
+/* .cheatsheet-button:hover {
+	background-color: #1565c0;	
+} */
 
 
 /* #endregion - TOP NAV */
+
+
+
+/* #region - Text Global */
+
+.italic {
+	font-style: italic;
+}
+
+.pros {
+	color: #388e3c;
+}
+
+.highlight,.cons,.red {
+	color: #d20000;
+}
+
+h1,h2, h3, h2.examples a.header-link, h2.examples-notes a.header-link,h2 a.header-link:hover,.searchable-tables th {
+	color: #1976d2;
+}
+
+
+.info-guide h3 {
+	color: #fafafa;
+}
+
+
+a.active, .dropdown button.active {
+	background-color: #d50000;
+}
+
+
+
+.searchable-tables th {
+	background-color: #1E1E1E;
+}
+
+.yellow {
+	color: #ffff00;
+}
+
+
+/* .warning {
+	color: #c62828 !important;
+} */
+
+/* #endregion - Text Global */
+
+/* #region - LINK COLORS GLOBAL */
+
+/* active - selected link */
+a:link,a:visited,a:active {
+	color: #03a9f4;
+}
+
+a.discord {
+	color: #5865F2;
+}
+
+a.youtube {
+	color: #d50000;
+}
+
+
+/* mouse over link */
+a:hover {
+	color: #b71c1c;
+}
+
+h2 a.header-link {
+	color: #96D0FF;
+}
+
+/* #endregion - LINK COLORS GLOBAL */
+
+/* #region - DATA TABLE */
+
+.page-header,.dt-column-title {
+	font-weight: 800;
+	font-size: 32px;
+}
+
+
+
+
+
+
+
+
+/* #endregion - DATA TABLE */

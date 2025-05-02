@@ -8,40 +8,12 @@ f47067 - Pink/Peach Color used for things like HTML/CSS
 6A9955 - Darker Green uses for comments
 */
 
-/* #region - LINK COLORS GLOBAL */
 
-/* active - selected link */
-a:link,a:visited,a:active {
-	color: #03a9f4;
-}
-
-a.discord {
-	color: #5865F2;
-}
-
-a.youtube {
-	color: #d50000;
-}
-
-
-/* mouse over link */
-a:hover {
-	color: #b71c1c;
-}
-
-
-
-/* #endregion - LINK COLORS GLOBAL */
-
-h2 a.header-link {
-	color: #96D0FF;
-}
+/* #region - XML / VSC COLORS */
 
 .comment,#notes-container a.comment,.comment .greater-than,.comment .less-than  {
 	color: #43a047;
 }
-
-
 
 .string,a.string,input[type=text] {
 	color: #96D0FF;
@@ -63,34 +35,13 @@ h2 a.header-link {
 	color: #f4511e;
 }
 
-h1,h2, h3, h2.examples a.header-link, h2.examples-notes a.header-link,h2 a.header-link:hover,.searchable-tables th {
-	color: #1976d2;
-}
-
-.highlight,.red {
-	color: #d50000;
-}
-
-.info-guide h3 {
-	color: #fafafa;
-}
-
-.yellow {
-	color: #ffff00;
-}
-
-a.active, .dropdown button.active {
-	background-color: #d50000;
-}
+/* #endregion - XML / VSC COLORS */
 
 
 
-.searchable-tables th {
-	background-color: #1E1E1E;
-}
 
 
 
-/* .warning {
-	color: #c62828 !important;
-} */
+
+
+
