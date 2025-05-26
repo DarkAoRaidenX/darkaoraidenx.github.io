@@ -19,12 +19,12 @@ body {
 
 @font-face {
 	font-family: rift-soft-bold;
-	src: url(fonts/rift-soft-bold.ttf);
+	src: url(../../../../fonts/rift-soft-bold.ttf);
 }
 
 @font-face {
 	font-family: acumin-pro-cond-bold;
-	src: url(fonts/acumin-pro-cond-bold.ttf);
+	src: url(../../../../fonts/acumin-pro-cond-bold.ttf);
 }
 
 /* #region - global */
