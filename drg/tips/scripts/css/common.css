@@ -76,10 +76,11 @@ li.separator {
 #nav-buttons {
 	display: flex;
 	justify-content: center;
+	background-color: #f89d06; /* Remove this line if want to go back to old nav style */
 }
 
 ul#nav-header li {
-	margin-left: 10px;
+	margin-left: -3px; /* 10px if want to go back to old nav style */
 	background-color: #f89d06;
 	border: 4px solid #f89d06;
 	/* border-radius: 25px; */
@@ -385,11 +386,11 @@ a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg
 }
 
 .scout,ul#scout-tips li.separator,#scout-equipment-nav .h2 {
-	color: #2646ff;
+	color: #1976d2; /* 2646ff */
 }
 
 #tabs-3 #dwarf-scout {
-	border: 4px solid #2646ff;
+	border: 4px solid #1976d2;
 }
 
 
