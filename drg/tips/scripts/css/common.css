@@ -76,7 +76,7 @@ li.separator {
 #nav-buttons {
 	display: flex;
 	justify-content: center;
-	background-color: #f89d06; /* Remove this line if want to go back to old nav style */
+	background-color: transparent; /* Remove this line if want to go back to old nav style */
 }
 
 ul#nav-header li {
