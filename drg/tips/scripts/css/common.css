@@ -245,8 +245,12 @@ ul#machine-events-nav .h2 {
 	line-height: 32px;
 }
 
+#tabs-4 .text-content-container {
+	font-size: 24px;
+	line-height: 32px;
+}
 
-#tabs-4 .text-content-container,#tabs-6 .text-content-container,#tabs-7 .text-content-container {
+#tabs-6 .text-content-container,#tabs-7 .text-content-container {
 	font-size: 24px;
 	line-height: 24px;
 }
