@@ -54,6 +54,15 @@ hr,ul,li,ol,ul,p,img {
 	display: none;
 }
 
+.left {
+	display: inline-block;
+}
+.right {
+	position: relative;
+	display: inline-block;
+}
+
+
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -65,28 +74,28 @@ ul li {
 } 
 
 li.separator {
-	display: inline-block;
 	width: 20px;
-	font-size: 48px;
+	font-size: 40px;
+	margin-right: -10px;
 }
 
 
 
 /* #region - nav header buttons */
-#nav-buttons {
+#nav-main-buttons {
 	display: flex;
 	justify-content: center;
 	background-color: transparent; /* Remove this line if want to go back to old nav style */
 }
 
-ul#nav-header li {
+ul#nav-main-header li {
 	margin-left: -3px; /* 10px if want to go back to old nav style */
 	background-color: #f89d06;
 	border: 4px solid #f89d06;
 	/* border-radius: 25px; */
 }
 
-ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
+ul#nav-main-header li:hover,ul#nav-main-header li.ui-state-active  {
 	background-color: #2e7d32;
 	border: 4px solid #2e7d32;
 }
@@ -94,7 +103,7 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 
 
 
-/* ul#nav-header li, img.buttons {
+/* ul#nav-main-header li, img.buttons {
 	height: 45px;
 } */
 
@@ -105,38 +114,213 @@ ul#nav-header li:hover,ul#nav-header li.ui-state-active  {
 
 /* #region - navs */
 
-/*  Playstyle Tips | Equipment Underline */
 
-/* .nav-dwarves-tips li.ui-state-active {
-	text-decoration: underline #f89d06 4px;
-} */
+li#nav-buried-gems-enor-pearl,li#nav-buried-gems-error-cube {
+	margin-left: 5px;
+} 
 
-#driller-tips li.ui-state-active,#driller-equipment-nav li.ui-state-active {
+/*  Gameplay Tips */
+
+#general-tips-2 li.ui-state-active,#nav-gameplay-tips li.ui-state-active {
 	text-decoration: underline #fdd835 4px;
 }
 
-#engineer-tips li.ui-state-active,#engineer-equipment-nav li.ui-state-active {
-	text-decoration: underline #c62828 4px;
+
+/*  Nav Resources  */
+li.ui-state-active#nav-resources-minerals {
+	text-decoration: underline #00695c 4px;
 }
 
-#gunner-tips li.ui-state-active,#gunner-equipment-nav li.ui-state-active {
-	text-decoration: underline #008000 4px;
+li.ui-state-active#nav-resources-buried-gems {
+	text-decoration: underline #8d6e63 4px;
 }
 
-#scout-tips li.ui-state-active,#scout-equipment-nav li.ui-state-active {
-	text-decoration: underline #2646ff 4px;
+li.ui-state-active#nav-resources-beer-materials {
+	text-decoration: underline #e65100 4px;
 }
 
-#machine-events-nav li.ui-state-active {
+li.ui-state-active#nav-resources-matrix-cores {
+	text-decoration: underline #9e9e9e 4px;
+}
+
+/*  Nav Buried Gems */
+
+li.ui-state-active#nav-buried-gems-bittergem {
+	text-decoration: underline #ff4081 4px;
+}
+
+li.ui-state-active#nav-buried-gems-gold {
+	text-decoration: underline #ffab00 4px;
+}
+
+li.ui-state-active#nav-buried-gems-enor-pearl {
+	text-decoration: underline #bdbdbd 4px;
+}
+
+li.ui-state-active#nav-buried-gems-jadiz {
+	text-decoration: underline #43a047 4px;
+}
+
+li.ui-state-active#nav-buried-gems-error-cube {
 	text-decoration: underline #546e7a 4px;
 }
 
+/*  Nav Minerals  */
+li.ui-state-active#nav-minerals-bismor {
+	text-decoration: underline #ffea00 4px;
+}
 
-ul#nav-general-tips,ul#nav-dwarves,ul#nav-missions {
+li.ui-state-active#nav-minerals-croppa {
+	text-decoration: underline #00838f 4px;
+}
+
+li.ui-state-active#nav-minerals-gold {
+	text-decoration: underline #ffab00 4px;
+}
+
+li.ui-state-active#nav-minerals-magnite {
+	text-decoration: underline #bf360c 4px;
+}
+
+li.ui-state-active#nav-minerals-nitra {
+	text-decoration: underline #d50000 4px;
+}
+
+li.ui-state-active#nav-minerals-phazyonite {
+	text-decoration: underline #8e24aa 4px;
+}
+
+li.ui-state-active#nav-minerals-red-sugar {
+	text-decoration: underline #e53935 4px;
+}
+
+li.ui-state-active#nav-minerals-umanite {
+	text-decoration: underline #8bc34a 4px;
+}
+
+
+/*  Playstyle Tips | Equipment Underline */
+
+/*  Driller Tips */
+#nav-driller-tips li.ui-state-active {
+	text-decoration: underline #fbc02d 4px;
+}
+
+/*  Driller Equipment */
+li.ui-state-active#nav-driller-info {
+	text-decoration: underline #fdd835 4px;
+}
+
+li.ui-state-active#nav-driller-cyro {
+	text-decoration: underline #03a9f4 4px;
+}
+
+li.ui-state-active#nav-driller-flamethrower {
+	text-decoration: underline #de3800 4px;
+}
+
+li.ui-state-active#nav-driller-sludge-pump {
+	text-decoration: underline #cddc39 4px;
+}
+
+/*  Engineer Tips */
+#nav-engineer-tips li.ui-state-active {
+	text-decoration: underline #b71c1c 4px;
+}
+
+/*  Engineer Equipment */
+li.ui-state-active#nav-engineer-info {
+	text-decoration: underline #c62828 4px;
+}
+
+li.ui-state-active#nav-engineer-shotgun {
+	text-decoration: underline #8d6e63 4px;
+}
+
+li.ui-state-active#nav-engineer-smart-rifle {
+	text-decoration: underline #607d8b 4px;
+}
+
+li.ui-state-active#nav-engineer-stubby-smg {
+	text-decoration: underline #2196f3 4px;
+}
+
+/*  Gunner Tips */
+#nav-gunner-tips li.ui-state-active {
+	text-decoration: underline #008000 4px;
+}
+
+/*  Gunner Equipment */
+li.ui-state-active#nav-gunner-info {
+	text-decoration: underline #008000 4px;
+}
+
+li.ui-state-active#nav-gunner-autocannon {
+	text-decoration: underline #1b5e20 4px;
+}
+
+li.ui-state-active#nav-gunner-hurricane {
+	text-decoration: underline #607d8b 4px;
+}
+
+li.ui-state-active#nav-gunner-minigun {
+	text-decoration: underline #2196f3 4px;
+}
+
+/*  Scout Tips */
+#nav-scout-tips li.ui-state-active {
+	text-decoration: underline #2646ff 4px;
+}
+
+/*  Scout Equipment */
+li.ui-state-active#nav-scout-info {
+	text-decoration: underline #2646ff 4px;
+}
+
+li.ui-state-active#nav-scout-deepcore-gk2 {
+	text-decoration: underline #1565c0 4px;
+}
+
+li.ui-state-active#nav-scout-drak {
+	text-decoration: underline #9c27b0 4px;
+}
+
+li.ui-state-active#nav-scout-m1000 {
+	text-decoration: underline #0288d1 4px;
+}
+
+
+
+
+/*  Nav Machine Events  */
+
+li.ui-state-active#nav-machine-event-info {
+	text-decoration: underline #ff9c00 4px;
+}
+
+li.ui-state-active#nav-ebonite-event{
+	text-decoration: underline #78909c 4px;
+}
+
+li.ui-state-active#nav-kursite-event {
+	text-decoration: underline #ffeb3b 4px;
+}
+
+li.ui-state-active#nav-omen-event {
+	text-decoration: underline #757575 4px;
+}
+
+li.ui-state-active#nav-tritilyte-event {
+	text-decoration: underline #d32f2f 4px;
+}
+
+
+ul#nav-general-tips,ul#nav-missions {
 	position: relative;
 	left: 45px;
 	width: 415px;
-	/* border-top: 4px solid #546e7a; */
+	/* border-top: 4px solid #546e7a;  */
+	/* Used to see if even */
 }
 
 ul#nav-general-tips,ul#nav-missions {
@@ -147,19 +331,19 @@ ul#nav-general-tips li,ul#nav-missions li {
 	display: block;
 } 
 
-ul#nav-dwarves {
-	top: 40px;
-}
-
 ul#nav-general-tips {
 	top: 10px;
 }
 
-ul#nav-dwarves li {
+ul#nav-main-dwarves-tips li {
 	width: 200px;
 }
 
-ul#machine-events-nav .h2 {
+ul.nav-equipment {
+	line-height: 56px;
+}
+
+ul#nav-machine-events .h2 {
 	font-size: 32px;
 }
 
@@ -169,15 +353,6 @@ ul#machine-events-nav .h2 {
 
 
 /* #region - text */
-.aka,#mission-escort-duty-tips .length-complexity-content .table-headers th {
-	font-size: 24px;
-	line-height: 24px;
-}
-
-.dividers {
-	margin-left: 10px;
-	margin-right: 10px;
-}
 
 .h1 {
 	font-size: 48px;
@@ -185,11 +360,32 @@ ul#machine-events-nav .h2 {
 }
 
 .h2 {
+	font-size: 40px;
+	line-height: 40px;
+}
+
+#nav-gameplay-tips .h2,#nav-resources-tips .h2,#buried-gems-tips .h2 {
+	line-height: 48px;
+}
+
+#nav-buried-gems-tips .h2,ul#nav-mineral-tips li.separator {
+	font-size: 32px;
+}
+
+#nav-minerals-tips .h2 {
+	font-size: 28px;
+}
+
+ul#nav-missions .h2 {
 	font-size: 36px;
-	line-height: 36px;
 }
 
 .h3,.header-text {
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.aka,#mission-escort-duty-tips .length-complexity-content .table-headers th{
 	font-size: 24px;
 	line-height: 24px;
 }
@@ -209,9 +405,6 @@ ul#machine-events-nav .h2 {
 }
 
 
-
-
-
 .sup-text {
 	vertical-align: super;
 	font-size: 16px;
@@ -222,14 +415,18 @@ ul#machine-events-nav .h2 {
 	line-height: 22px;
 }
 
-#dwarf-lingo-tips .notes-text {
+table#dwarf-lingo-tips .notes-text {
 	font-size: 24px;
 	line-height: 22px;
 }
 
 .image-titles {
-	font-size: 32px;
+	text-align: center;
 }
+
+/* #bulk-dets.image-titles {
+	font-size: 24px;	
+} */
 
 /* 
 1 Welcome 
@@ -240,26 +437,23 @@ ul#machine-events-nav .h2 {
 6 Mods
 7 Credits / Links
 */
-#tabs-1 .text-content-container,#tabs-2 .text-content-container {
+#tabs-1 .text-content-container {
 	font-size: 32px;
 	line-height: 32px;
 }
+
+#tabs-2 .text-content-container, #tabs-6 .text-content-container,#tabs-7 .text-content-container {
+	font-size: 24px;
+	line-height: 24px;
+}
+
 
 #tabs-4 .text-content-container {
 	font-size: 24px;
 	line-height: 32px;
 }
 
-#tabs-6 .text-content-container,#tabs-7 .text-content-container {
-	font-size: 24px;
-	line-height: 24px;
-}
 
-
-table.weapon-builds .text-content {
-	font-size: 20px;
-	line-height: 24px;	
-}
 
 #tabs-3 .text-content-container,#tabs-5 .text-content-container {
 	font-size: 28px;
@@ -283,7 +477,7 @@ table.weapon-builds .text-content {
 
 
 /* #region - header colors */
-a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg-link,#mission-escort-duty-tips .length-complexity-content .table-headers th {
+a.category,.general-missions-tips,.gameplay-tips,.h1, .h2, .h3, .header-link, .highlights, .reg-link,li.separator,#mission-escort-duty-tips .length-complexity-content .table-headers th {
 	color: #ff9c00;
 }
 
@@ -300,13 +494,18 @@ a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg
 
 /* #region - names colors */
 
-.active-perk {
+.active-perk,.malt-star {
 	color: #4bbfa5;
 }
 
-.approved {
+.approved,.resources-beer-materials {
 	color: #eed202;
 }
+
+.resources-beer-materials {
+	color: #e65100;
+}
+
 
 .brown {
 	color: #795548;
@@ -316,32 +515,32 @@ a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg
 	color: #5865F2;
 }
 
-.dwarf-rituals {
-	color: #ffc107;
-}
-
 .enemies,.red-sugar {
 	color: #e53935;
 }
 
-.grey {
-	color: #9e9e9e;
+.dark-grey {
+	color: #263238;
 }
 
-.lingo-definition {
-	color: #1e88e5;
+.grey,.gameplay-mission-equipment,.resources-matrix-cores {
+	color: #9e9e9e;
 }
 
 .no-overclocks2 {
 	background-color: #fafafa;
 }
 
-.passive-perk {
+.passive-perk,.barely-bulb {
 	color: #b93253;
 }
 
 .red,.warnings,.youtube {
 	color: #ff0000;
+}
+
+.yeast-cone {
+	color: #283593;
 }
 
 .twitch {
@@ -364,7 +563,7 @@ a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg
 
 /* #region -  dwarves colors */
 
-.driller,ul#driller-tips li.separator,#driller-equipment-nav .h2 {
+.driller,ul#nav-driller-tips li.separator {
 	color: #fdd835;
 }
 
@@ -373,7 +572,7 @@ a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg
 }
 
 
-.engineer,ul#engineer-tips li.separator,#engineer-equipment-nav .h2 {
+.engineer,ul#engineer-tips li.separator,#nav-engineer-equipment .h2 {
 	color: #c62828;
 }
 
@@ -389,7 +588,7 @@ a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg
 	border: 4px solid #008000;
 }
 
-.scout,ul#scout-tips li.separator,#scout-equipment-nav .h2 {
+.scout,ul#scout-tips li.separator,#nav-scout-equipment .h2 {
 	color: #1976d2; /* 2646ff */
 }
 
@@ -405,15 +604,12 @@ a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg
 
 /* #region -  mission colors */
 
-#mission-general-tips {
-	border: 4px solid #ffa000;
-}
 
-.deep-dives {
+.deep-dives,.heavy-extraction {
 	color: #ffb000;
 }
 
-#mission-deep-dives {
+#mission-deep-dives,#mission-heavy-extraction {
 	border: 4px solid #ffb000;
 }
 
@@ -453,7 +649,7 @@ a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg
 	border: 4px solid #bb2bff;
 }
 
-.morkite {
+.morkite,.resources-minerals {
 	color: #00695c;
 }
 
@@ -487,7 +683,7 @@ a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg
 }
 
 
-.machine-events {
+.machine-events,.error-cube {
 	color: #546e7a;
 }
 
@@ -527,7 +723,7 @@ a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg
 	color: #ffea00;
 }
 
-.bittergem {
+.bittergem,.resources-tips,.starch-nut  {
 	color: #ff4081;
 }
 
@@ -555,7 +751,11 @@ a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg
 	color: #d50000;
 }
 
-.umanite {
+.phazyonite {
+	color: #8e24aa;
+}
+
+.umanite,.dwarf-rituals,.gameplay-environment {
 	color: #8bc34a;
 }
 
@@ -563,14 +763,14 @@ a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg
 
 /* #region - weapons colors */
 .auto-cannon {
-	color: #1b5e20;
+	color: #2e7d32;
 }
 
 .auto-cannon2 {
 	background-color: #1b5e20;
 }
 
-.auto-shotgun,.boltshark,.bulldog {
+.auto-shotgun,.boltshark,.bulldog,.resources-buried-gems {
 	color: #8d6e63;
 }
 
@@ -610,7 +810,7 @@ a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg
 	background-color: #03a9f4;
 }
 
-.deepcore-gk2,.dwarf-lingo,.voltaic-stun-sweeper {
+.deepcore-gk2,#nav-dwarf-lingo .h1 a, #dwarf-lingo .h1,.gameplay-dwarves,.voltaic-stun-sweeper {
 	color: #1e88e5;
 }
 
@@ -659,7 +859,7 @@ a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg
 }
 
 .minigun {
-	color: #37474f;	
+	color: #546e7a;	
 }
 
 .minigun2 {
@@ -690,7 +890,7 @@ a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg
 	background-color: #2196f3;
 }
 
-.wave-cooker,.general-info-tips,.green,.qol,.verified  {
+.wave-cooker,.dwarves-gameplay,.general-info-tips,.green,.qol,.verified  {
 	color: #4caf50;	
 }
 
@@ -727,7 +927,7 @@ a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg
 }
 
 .gunner-weapons-auto-cannon {
-	border: 4px solid #1b5e20;
+	border: 4px solid #2e7d32;
 }
 
 .gunner-weapons-hurricane {
@@ -735,7 +935,7 @@ a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg
 }
 
 .gunner-weapons-minigun {
-	border: 4px solid #263238;
+	border: 4px solid #546e7a;
 }
 
 .scout-weapons-deepcore-gk2 {
@@ -743,7 +943,7 @@ a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg
 }
 
 .scout-weapons-drak-25 {
-	border: 4px solid #ba68c8;
+	border: 4px solid #9c27b0;
 }
 
 .scout-weapons-m1000 {
@@ -785,7 +985,7 @@ a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg
 
 /* Auto-Cannon Border-Top Color */
 #gunner-equipment-2 {
-	border-top: 4px solid #1b5e20;
+	border-top: 4px solid #2e7d32;
 }
 
 /* Hurricane Border-Top Color */
@@ -795,7 +995,7 @@ a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg
 
 /* Minigun Border-Top Color */
 #gunner-equipment-4 {
-	border-top: 4px solid #263238;
+	border-top: 4px solid #546e7a;
 }
 
 /* DeepCore-GK2 Border-Top Color */
@@ -864,15 +1064,17 @@ a.category,.general-missions-tips,.h1, .h2, .h3, .header-link, .highlights, .reg
 
 /* #region - global links */
 
-a.category {
+/* Info Equipment Tab */
+
+/* a.category {
 	font-size: 36px;
-}
+} */
 
 a.active-perk2,a.highlighted,a.passive-perk2 {
 	color:#000;
 }
 
-a.category,.img-link,.no-underline,.perks a.header-link,table a.highlighted,#tabs-3 a.header-link,ul#nav-missions a,ul#machine-events-nav a  {
+a.category,.img-link,.no-underline,.perks a.header-link,table a.highlighted,#tabs-3 a.header-link,ul#nav-gameplay-tips a,#general-tips-4 ul a,ul#nav-missions a,ul#nav-machine-events a  {
 	text-decoration: none;
 }
 
@@ -936,7 +1138,16 @@ a.passive-perk2 {
 
 /* #endregion - global */
 
+/* #region - main content */
 
+
+#dwarves-tips {
+	position: relative;
+	top: 25px;
+}
+
+
+/* #endregion - main content */
 
 /* #region - tabs-content */
 
@@ -944,7 +1155,7 @@ a.passive-perk2 {
 
 #tabs-1 {
 	background: 
-    url("https://i.imgur.com/VrKlgAw.jpg") 
+    url("https://i.imgur.com/0Zqd7a2.jpg") 
 	top center / 100% 100%
 	no-repeat
 }
@@ -1002,12 +1213,12 @@ a.passive-perk2 {
 }
 
 .tabs-content {
+	position: relative;
 	margin: auto;
 	z-index: 200;
-	position: relative;
 	top: 54px;
 	width: 1575px;
-	height: 865px;
+	height: 975px; /* 100% */
 	background: rgba(0,0,0,0.75);
 }
 
@@ -1024,12 +1235,20 @@ a.passive-perk2 {
 	border: 4px solid #4caf50;
 }
 
+#tabs-2 #gameplay-tips {
+	border: 4px solid #ff9c00;
+}
+
+#tabs-2 #resources-tips {
+	border: 4px solid #ff4081;
+}
+
 #tabs-2 #dwarf-lingo {
 	border: 4px solid #1e88e5;
 }
 
 #tabs-2 #dwarf-rituals {
-	border: 4px solid #ffc107;
+	border: 4px solid #8bc34a;
 }
 
 
@@ -1040,7 +1259,8 @@ a.passive-perk2 {
 	margin-right: 8px;
 }
 
-.columns,.columns-container {
+.columns,.columns-container,.column-left,.column-right {
+	position: relative;
 	display: inline-block;
 	vertical-align: top;
 	overflow-x: hidden;
@@ -1052,32 +1272,42 @@ a.passive-perk2 {
 	width: 485px;
 }
 
-#tabs-2 .columns,#tabs-3 .columns {
-	position: relative;
+#tabs-2 .columns {
 	left: 215px;
-	height: 725px;
 	width: 1075px;
 }
 
-#tabs-2 .columns {
-	margin-top: -155px;
+#tabs-2 .columns,#tabs-3 .columns,#tabs-5 .columns {
+	height: 825px;
 }
 
 #tabs-3 .columns {
-	margin-top: -462px;
+	width: 1100px;
 }
 
+#tabs-3 .column-left {
+	height: 550px;
+	width: 420px;
+}
+
+
+#tabs-2 .columns {
+	margin-top: -315px;
+}
+
+/* #tabs-3 .columns {
+	margin-top: -462px;
+} */
+
 #tabs-4 .columns {	
-	height: 720px;
+	height: 800px;
 	width: 500px;
 }
 
 #tabs-5 .columns {
-	position: relative;
 	left: 215px;
-	height: 750px;
 	width: 1075px;
-	margin-top: -442px;
+	margin-top: -444px;
 }
 
 #tabs-6 .columns {
@@ -1099,9 +1329,9 @@ table, th, td {
 }
 
 
-.table-headers th,#tabs-5 .table-headers th,.equipment-navs .h2 {
-	font-size: 36px;
-	line-height: 42px;
+.table-headers th,#tabs-5 .table-headers th {
+	font-size: 48px;
+	line-height: 56px;
 }
 
 .table-headers th,#tabs-5 .table-headers th {
@@ -1114,23 +1344,38 @@ table.weapon-builds,.length-complexity-content {
 }
 
 table.weapon-builds {
-	width: 1025px;
-	font-size: 32px;
-	line-height: 42px;
+	line-height: 36px;
+	width: 1000px;
 }
 
-.length-complexity-content {
+table.weapon-builds .text-content {
+	font-size: 20px;
+	line-height: 24px;	
+}
+
+table.weapon-builds .highlighted {
+	color: #fafafa;
+}
+
+table.length-complexity-content {
 	width: 925px;
 }
 
-.length-complexity-content .tips {
+table.length-complexity-content td.tips {
+	vertical-align: middle;
 	border: 2px solid #546e7a;
 }
 
 .tips {
-	border-top: 4px solid #546e7a;
-	border-bottom: 4px solid #546e7a;
+	border: 4px solid #546e7a;
+	vertical-align: top;
+/* 	border-top: 4px solid #546e7a;
+	border-bottom: 4px solid #546e7a; */
 	/* height: 50px; */
+}
+
+td.text-tips {
+	width: 500px;
 }
 
 #engineer-stubby-smg .overclocks .highlighted {
@@ -1172,66 +1417,8 @@ table.tips-content {
 	height: 32px;
 }
 
-#creatures-enemies-tips .icons {
-	width: 128px;
-	height: 128px;
-}
-
-.brood-nexus {
-	width: 210px;
-	height: 270px;	
-}
-
-.breeder {
-	width: 180px;
-	height: 180px;
-}
-
-#dwarf-lingo .breeder,#dwarf-lingo .plagueheart {
-	width: 300px;
-	height: 300px;
-}
-
-.breeder2 {
-	width: 180px;
-	height: 165px;
-}
-
-.bulk-det,.bulk-det-crassus,.bulk-det-unknown {
-	width: 140px;
-	height: 180px;		
-}
-
-.cargo-crate-battery {
-	width: 255px;
-	height: 155px;	
-}
-
-.corruptor2 {
-	width: 480px;
-	height: 192px;
-}
-
-
-.exploder {
-	width: 180px;
-	height: 180px;	
-}
-
-td.tips img {
-	transition: transform .2s;	
-}
-
-td.tips img:hover {
-	transform: scale(1.50);
-	z-index: 100;
-}
-
-table#escort-length-complexity td.tips img:hover {
- transform: scale(1.00);
-}
-
 .full {
+	vertical-align: top;
 	width: 480px;
 	height: 272px;
 	/* transition: transform .2s;			 */
@@ -1260,6 +1447,91 @@ table#escort-length-complexity td.tips img:hover {
 	transform: scale(1.35);
 }
 
+.tall {
+	width: 35%;
+	height: 75%;
+}
+
+img.buttons {
+	width: 200px;
+}
+
+.scroll-down {
+	position: absolute;
+	right: 5px;
+	width: 64px;
+	height: 50px;
+}
+
+.creatures-enemies-tips .icons {
+	width: 128px;
+	height: 128px;
+}
+
+.brood-nexus {
+	width: 210px;
+	height: 270px;	
+}
+
+.breeder {
+	width: 180px;
+	height: 180px;
+}
+
+#dwarf-lingo .breeder,#dwarf-lingo .plagueheart {
+	width: 300px;
+	height: 300px;
+}
+
+.breeder2 {
+	width: 180px;
+	height: 165px;
+}
+
+.bulk-det,.bulk-det-crassus,.bulk-det-unknown {
+	width: 205px;
+	height: 245px;		
+}
+
+.full.cargo-crate-battery {
+	width: 255px;
+	height: 155px;	
+}
+
+.corruptor2 {
+	width: 480px;
+	height: 192px;
+}
+
+
+.exploder {
+	width: 180px;
+	height: 180px;	
+}
+
+td.tips img.full {
+	transition: transform .2s;	
+}
+
+td.tips img.full:hover {
+	transform: scale(1.25);
+	z-index: 100;
+}
+
+#buried-gems-tips td.tips img.full:hover {
+	transform: scale(1.20);
+}
+
+
+
+.beer-mats {
+	width: 250px;
+	height: 250px;
+}
+
+
+
+
 .glow-tree {
 	width: 250px;
 	height: 270px;
@@ -1285,6 +1557,10 @@ table#escort-length-complexity td.tips img:hover {
 	height: 50px;	
 }
 
+.mini-mule {
+	width: 300px;
+}
+
 .molly-left,.molly-right {
 	width: 256px;
 	height: 210px;	
@@ -1300,11 +1576,6 @@ table#escort-length-complexity td.tips img:hover {
 	height: 265px;
 }
 
-
-/* #dwarf-lingo .plagueheart {
-	width: 300px;
-	height: 300px;
-} */
 
 .shellback {
 	width: 128px;
@@ -1332,15 +1603,8 @@ table#escort-length-complexity td.tips img:hover {
 }
 
 
-img.buttons {
-	width: 200px;
-}
-
-.scroll-down {
-	position: absolute;
-	right: 5px;
-	width: 64px;
-	height: 50px;
+.minehead {
+ height: 300px;
 }
 
 .perk-icons {
@@ -1357,7 +1621,7 @@ img.buttons {
 	height: 21px;
 }
 
-.nav-icons {
+.nav-icons, .h1 a.reg-link .nav-icons {
 	position: relative;
 	top: 8px;
 	width: 48px;
@@ -1365,9 +1629,12 @@ img.buttons {
 	left: 10px;
 }
 
-.team {
-	width: 450px;
-	height: 250px;	
+
+a.reg-link .nav-icons,a.img-link .nav-icons,#nav-minerals-tips .nav-icons {
+	top: 4px;
+	width: 24px;
+	height: 24px;
+	left: 4px;
 }
 
 #tabs-1 .rock-n-stone,#tabs-2 .rock-n-stone,#tabs-7 .rock-n-stone, #tabs-7 .deep-dive-icon  {

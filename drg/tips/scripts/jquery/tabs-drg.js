@@ -6,6 +6,23 @@ $( function() {
    $( "#general-tips" ).tabs();
  } );
 
+$( function() {
+  $( "#gameplay-tips" ).tabs();
+} );
+
+$( function() {
+  $( "#resources-tips" ).tabs();
+} );
+
+$( function() {
+  $( "#minerals-tips" ).tabs();
+} );
+
+$( function() {
+  $( "#buried-gems-tips" ).tabs();
+} );
+
+
  $( function() {
    $( "#dwarves-tips" ).tabs();
  } );
@@ -43,7 +60,7 @@ $( function() {
  } );
 
  $( function() {
-   $( "#mission" ).tabs();
+   $( "#mission-tips" ).tabs();
  } );
 
  $( function() {
