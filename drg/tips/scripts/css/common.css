@@ -260,11 +260,11 @@ li.ui-state-active#nav-gunner-autocannon {
 }
 
 li.ui-state-active#nav-gunner-hurricane {
-	text-decoration: underline #607d8b 4px;
+	text-decoration: underline #b71c1c 4px;
 }
 
 li.ui-state-active#nav-gunner-minigun {
-	text-decoration: underline #2196f3 4px;
+	text-decoration: underline #546e7a 4px;
 }
 
 /*  Scout Tips */
@@ -314,26 +314,14 @@ li.ui-state-active#nav-tritilyte-event {
 	text-decoration: underline #d32f2f 4px;
 }
 
-
-ul#nav-general-tips,ul#nav-missions {
-	position: relative;
-	left: 45px;
-	width: 415px;
-	/* border-top: 4px solid #546e7a;  */
-	/* Used to see if even */
-}
-
-ul#nav-general-tips,ul#nav-missions {
+ul#nav-general-info-tips,ul#nav-missions {
 	text-align: left;
 }
 
-ul#nav-general-tips li,ul#nav-missions li {
+ul#nav-general-info-tips li,ul#nav-missions li {
 	display: block;
 } 
 
-ul#nav-general-tips {
-	top: 10px;
-}
 
 ul#nav-main-dwarves-tips li {
 	width: 200px;
@@ -442,7 +430,7 @@ table#dwarf-lingo-tips .notes-text {
 	line-height: 32px;
 }
 
-#tabs-2 .text-content-container, #tabs-6 .text-content-container,#tabs-7 .text-content-container {
+#tabs-3 .text-content-container, #tabs-6 .text-content-container,#tabs-7 .text-content-container {
 	font-size: 24px;
 	line-height: 24px;
 }
@@ -563,38 +551,39 @@ a.category,.general-missions-tips,.gameplay-tips,.h1, .h2, .h3, .header-link, .h
 
 /* #region -  dwarves colors */
 
+#dwarf-driller-tips-content {
+	border: 4px solid #fdd835;
+}
+
 .driller,ul#nav-driller-tips li.separator {
 	color: #fdd835;
 }
 
-#tabs-3 #dwarf-driller {
-	border: 4px solid #fdd835;
+#dwarf-engineer-tips-content {
+	border: 4px solid #c62828;
 }
-
 
 .engineer,ul#engineer-tips li.separator,#nav-engineer-equipment .h2 {
 	color: #c62828;
 }
 
-#tabs-3 #dwarf-engineer {
-	border: 4px solid #c62828;
+#dwarf-gunner-tips-content {
+	border: 4px solid #008000;
 }
 
 .gunner,ul#gunner-tips li.separator,#gunner-equipment-nav .h2 {
 	color: #008000;
 }
 
-#tabs-3 #dwarf-gunner {
-	border: 4px solid #008000;
+#dwarf-scout-tips-content {
+	border: 4px solid #1976d2;
 }
 
 .scout,ul#scout-tips li.separator,#nav-scout-equipment .h2 {
 	color: #1976d2; /* 2646ff */
 }
 
-#tabs-3 #dwarf-scout {
-	border: 4px solid #1976d2;
-}
+
 
 
 
@@ -1074,7 +1063,7 @@ a.active-perk2,a.highlighted,a.passive-perk2 {
 	color:#000;
 }
 
-a.category,.img-link,.no-underline,.perks a.header-link,table a.highlighted,#tabs-3 a.header-link,ul#nav-gameplay-tips a,#general-tips-4 ul a,ul#nav-missions a,ul#nav-machine-events a  {
+a.category,.img-link,.no-underline,.perks a.header-link,table a.highlighted,#tabs-2 a.header-link,ul#nav-gameplay-tips a,#general-tips-4 ul a,ul#nav-missions a,ul#nav-machine-events a  {
 	text-decoration: none;
 }
 
@@ -1162,14 +1151,14 @@ a.passive-perk2 {
 
 #tabs-2 {
 	background: 
-    url("https://i.imgur.com/51kKjmk.jpg") 
+    url("https://deeprockgalactic.wiki.gg/images/b/b0/Site-background-light.png") 
 	top center / 100% 100%
 	no-repeat
 }
 
 #tabs-3 {
 	background: 
-    url("https://deeprockgalactic.wiki.gg/images/b/b0/Site-background-light.png") 
+    url("https://i.imgur.com/51kKjmk.jpg") 
 	top center / 100% 100%
 	no-repeat
 }
@@ -1222,7 +1211,7 @@ a.passive-perk2 {
 	background: rgba(0,0,0,0.75);
 }
 
-#tabs-3 .tabs-content {
+#tabs-2 .tabs-content {
 	background: rgba(0,0,0,0.80);	
 }
 
@@ -1231,23 +1220,23 @@ a.passive-perk2 {
 } */
 
 
-#tabs-2 #general-info-tips {
+#tabs-3 #general-info-tips {
 	border: 4px solid #4caf50;
 }
 
-#tabs-2 #gameplay-tips {
+#tabs-3 #gameplay-tips {
 	border: 4px solid #ff9c00;
 }
 
-#tabs-2 #resources-tips {
+#tabs-3 #resources-tips {
 	border: 4px solid #ff4081;
 }
 
-#tabs-2 #dwarf-lingo {
+#tabs-3 #dwarf-lingo {
 	border: 4px solid #1e88e5;
 }
 
-#tabs-2 #dwarf-rituals {
+#tabs-3 #dwarf-rituals {
 	border: 4px solid #8bc34a;
 }
 
@@ -1272,28 +1261,21 @@ a.passive-perk2 {
 	width: 485px;
 }
 
-#tabs-2 .columns {
-	left: 215px;
-	width: 1075px;
-}
-
 #tabs-2 .columns,#tabs-3 .columns,#tabs-5 .columns {
-	height: 825px;
-}
-
-#tabs-3 .columns {
+	height: 850px;
 	width: 1100px;
 }
 
-#tabs-3 .column-left {
+#tabs-2 .column-left,#tabs-3 .column-left {
 	height: 550px;
 	width: 420px;
 }
 
-
-#tabs-2 .columns {
-	margin-top: -315px;
+#tabs-5 .column-left {
+	height: 445px;
+	width: 420px;
 }
+
 
 /* #tabs-3 .columns {
 	margin-top: -462px;
@@ -1302,12 +1284,6 @@ a.passive-perk2 {
 #tabs-4 .columns {	
 	height: 800px;
 	width: 500px;
-}
-
-#tabs-5 .columns {
-	left: 215px;
-	width: 1075px;
-	margin-top: -444px;
 }
 
 #tabs-6 .columns {
@@ -1528,8 +1504,6 @@ td.tips img.full:hover {
 	width: 250px;
 	height: 250px;
 }
-
-
 
 
 .glow-tree {

@@ -28,19 +28,19 @@ $( function() {
  } );
 
  $( function() {
-   $( "#dwarf-driller" ).tabs();
+   $( "#dwarf-driller-tips-content" ).tabs();
  } );
 
  $( function() {
-   $( "#dwarf-engineer" ).tabs();
+   $( "#dwarf-engineer-tips-content" ).tabs();
  } );
 
  $( function() {
-   $( "#dwarf-gunner" ).tabs();
+   $( "#dwarf-gunner-tips-content" ).tabs();
  } );
 
  $( function() {
-   $( "#dwarf-scout" ).tabs();
+   $( "#dwarf-scout-tips-content" ).tabs();
  } );
 
  $( function() {
