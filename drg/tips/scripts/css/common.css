@@ -430,6 +430,11 @@ table#dwarf-lingo-tips .notes-text {
 	line-height: 32px;
 }
 
+#tabs-2 .text-content-container,#tabs-5 .text-content-container {
+	font-size: 28px;
+	line-height: 28px;
+}
+
 #tabs-3 .text-content-container, #tabs-6 .text-content-container,#tabs-7 .text-content-container {
 	font-size: 24px;
 	line-height: 24px;
@@ -439,13 +444,6 @@ table#dwarf-lingo-tips .notes-text {
 #tabs-4 .text-content-container {
 	font-size: 24px;
 	line-height: 32px;
-}
-
-
-
-#tabs-3 .text-content-container,#tabs-5 .text-content-container {
-	font-size: 28px;
-	line-height: 28px;
 }
 
 .plus-minus {
@@ -1275,7 +1273,6 @@ a.passive-perk2 {
 	height: 445px;
 	width: 420px;
 }
-
 
 /* #tabs-3 .columns {
 	margin-top: -462px;
