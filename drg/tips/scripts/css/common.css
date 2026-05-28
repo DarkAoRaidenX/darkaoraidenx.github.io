@@ -125,10 +125,6 @@ ul#nav-general-info-tips li,ul#nav-missions li {
 	line-height: 75px;
 }
 
-#nav-buried-gems-tips li,#nav-minerals-tips li {
-	line-height: 64px;
-}
-
 ul#nav-machine-events .h2 {
 	font-size: 32px;
 }
@@ -190,9 +186,7 @@ ul#nav-machine-events li.nav-separator {
 	font-size: 32px;
 }
 
-#nav-minerals-tips {
-	font-size: 28px;
-}
+
 
 .h3,.header-text {
 	font-size: 24px;
@@ -204,9 +198,7 @@ ul#nav-machine-events li.nav-separator {
 	line-height: 24px;
 }
 
-#machine-events .text-content {
-	font-size: 28px;
-}
+
 
 .sup-text {
 	vertical-align: super;
@@ -1040,10 +1032,7 @@ table.tips-content {
 }
 
 
-#machine-events .full {
-	width: 600px;
-	height: 272px;
-}
+
 
 /* #machine-events .full:hover {
 	transform: scale(1);
@@ -1227,7 +1216,7 @@ td.tips img.full:hover {
 }
 
 
-ul .nav-icons  {
+ul .nav-icons,.h1 a.reg-link .nav-icons  {
 	position: relative;
 	top: 8px;
 	width: 48px;
@@ -1242,12 +1231,6 @@ a.reg-link .nav-icons,a.img-link .nav-icons,#nav-minerals-tips .nav-icons {
 	left: 4px;
 }
 
-.h1 a.reg-link .nav-icons {
-	top: 12px;
-	width: 64px;
-	height: 64px;
-	left: 8px;
-}
 
 body#home-page .rock-n-stone,body#dwarves-classes-tips .rock-n-stone,body#links .rock-n-stone, body#links .deep-dive-icon  {
 	width: 40px;

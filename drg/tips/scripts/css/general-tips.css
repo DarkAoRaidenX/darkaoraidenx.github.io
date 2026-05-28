@@ -79,6 +79,14 @@ li.ui-state-active#nav-gameplay-environment a {
 
 /* #endregion - Nav Gameplay Tips */
 
+#nav-minerals-tips {
+	font-size: 24px;
+	/* Has to be 24px or less the scrollbar makes the nave go down */
+}
+
+#nav-buried-gems-tips li,#nav-minerals-tips li {
+	line-height: 64px;
+}
 
 #resources-tips li.separator,#resources-tips-1 li.separator {
 	position: relative;

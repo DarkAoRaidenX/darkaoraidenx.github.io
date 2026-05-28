@@ -50,6 +50,15 @@ table.length-complexity-content td.tips {
 	border: 2px solid #546e7a;
 }
 
+#machine-events .text-content {
+	font-size: 28px;
+}
+
+#machine-events .full {
+	width: 600px;
+	height: 272px;
+}
+
 /* #region -  mission border colors */
 
 #mission-deep-dives,#mission-heavy-extraction {
