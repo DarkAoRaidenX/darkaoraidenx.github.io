@@ -1229,7 +1229,11 @@ a.reg-link .nav-icons,a.img-link .nav-icons,#nav-minerals-tips .nav-icons {
 }
 
 
-body#home-page .rock-n-stone,body#dwarves-classes-tips .rock-n-stone,body#links .rock-n-stone, body#links .deep-dive-icon  {
+body#home-page .rock-n-stone,
+body#dwarves-classes-tips .rock-n-stone,
+body#general-tips .rock-n-stone, 
+body#links .rock-n-stone, 
+body#links .deep-dive-icon  {
 	width: 40px;
 	height: 52px;
 	position: relative;

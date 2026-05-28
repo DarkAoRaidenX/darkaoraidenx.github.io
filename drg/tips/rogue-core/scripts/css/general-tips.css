@@ -7,23 +7,27 @@ body#general-tips {
 	background-size: cover;
 }
 
-body#general-tips #general-info-tips {
+#general-info-tips {
 	border: 4px solid #4caf50;
 }
 
-body#general-tips #gameplay-tips {
+#gameplay-tips {
 	border: 4px solid #ff9c00;
 }
 
-body#general-tips #resources-tips {
+#creatures-enemies-content {
+	border: 4px solid #e53935;
+}
+
+#resources-tips {
 	border: 4px solid #ff4081;
 }
 
-body#general-tips #dwarf-lingo {
+#dwarf-lingo {
 	border: 4px solid #1e88e5;
 }
 
-body#general-tips #dwarf-rituals {
+#dwarf-rituals {
 	border: 4px solid #8bc34a;
 }
 
@@ -46,7 +50,7 @@ li.ui-state-active#nav-creatures-enemies a {
 }
 
 li.ui-state-active#nav-resources a {
-	color: #ff4081;
+	color: #68C900;
 }
 
 li.ui-state-active#nav-dwarf-lingo a {
@@ -79,11 +83,6 @@ li.ui-state-active#nav-gameplay-environment a {
 
 /* #endregion - Nav Gameplay Tips */
 
-#nav-minerals-tips {
-	font-size: 24px;
-	/* Has to be 24px or less the scrollbar makes the nave go down */
-}
-
 #nav-buried-gems-tips li,#nav-minerals-tips li {
 	line-height: 64px;
 }
@@ -97,79 +96,38 @@ li.ui-state-active#nav-gameplay-environment a {
 	font-size: 24px;
 }
 
+table.differences {
+	font-size: 24px;
+}
+
+table.differences td.drg .h2 {
+	color: #ff9c00;
+}
+
 /* #region - Nav Resources Colors */
-li.ui-state-active#nav-resources-buried-gems a {
-	color: #8d6e63;
-}
-
-li.ui-state-active#nav-resources-minerals a {
-	color: #00695c;
-}
-
-li.ui-state-active#nav-resources-beer-materials a {
-	color: #e65100;
-}
-
-li.ui-state-active#nav-resources-matrix-cores a {
-	color: #9e9e9e;
-}
 
 /* #endregion - Nav Resources Colors */
 
 /* #region - Nav Buried Gems Colors */
-li.ui-state-active#nav-buried-gems-bittergem a {
-	color: #ff4081;
+li.ui-state-active#nav-resources-buried-gems a {
+	color: #8d6e63;
 }
 
-li.ui-state-active#nav-buried-gems-gold a {
-	color: #ffab00;
+li.ui-state-active#nav-buried-gems-expenite a {
+	color: #68C900;
 }
 
-li.ui-state-active#nav-buried-gems-enor-pearl a {
-	color: #bdbdbd;
-}
-
-li.ui-state-active#nav-buried-gems-jadiz a {
-	color: #43a047;
-}
-
-li.ui-state-active#nav-buried-gems-error-cube a {
-	color: #546e7a;
-}
 /* #endregion - Nav Buried Gems Colors */
 
 /* #region - Nav Minerals Colors */
-li.ui-state-active#nav-minerals-bismor a {
-	color: #ffea00;
+li.ui-state-active#nav-resources-minerals a {
+	color: #68C900;
 }
 
-li.ui-state-active#nav-minerals-croppa a {
-	color: #00838f;
+li.ui-state-active#nav-minerals-expenite a {
+	color: #68C900;
 }
 
-li.ui-state-active#nav-minerals-gold a {
-	color: #ffab00;
-}
-
-li.ui-state-active#nav-minerals-magnite a {
-	color: #bf360c;
-}
-
-li.ui-state-active#nav-minerals-nitra a {
-	color: #d50000;
-}
-
-li.ui-state-active#nav-minerals-phazyonite a {
-	color: #8e24aa;
-}
-
-li.ui-state-active#nav-minerals-red-sugar a {
-	color: #e53935;
-}
-
-li.ui-state-active#nav-minerals-umanite a {
-	color: #8bc34a;
-}
 /* #endregion - Nav Minerals Colors */
 
 

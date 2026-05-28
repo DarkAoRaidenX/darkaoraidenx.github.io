@@ -19,7 +19,7 @@ ul#nav-main-dwarves-tips li {
 	width: 200px;
 }
 
-#nav-scout-throwables-content {
+#nav-slicer-throwables-content {
 	font-size: 32px;
 }
 
@@ -81,979 +81,36 @@ body#dwarves-classes-tips .column-left {
 
 /* #region -  Dwarves colors */
 
-#dwarves-tips-1 li.nav-separator,
-.nav-dwarves-tips#nav-driller-tips li.ui-state-active a,
-li.ui-state-active#nav-main-driller-info a,
-li.ui-state-active#nav-main-driller-equipment a {
-	color: #fdd835;
+#dwarves-tips-1 li.nav-separator {
+	color: #31caf3;
 }
 
-#dwarves-tips-2 li.nav-separator,
-.nav-dwarves-tips#nav-engineer-tips li.ui-state-active a,
-li.ui-state-active#nav-main-engineer-info a,
-li.ui-state-active#nav-main-engineer-equipment a {
-	color: #c62828;
-	/* b71c1c darker red*/
+#dwarves-tips-2 li.nav-separator {
+	color: #f4d637;
 }
 
-#dwarves-tips-3 li.nav-separator,
-.nav-dwarves-tips#nav-gunner-tips li.ui-state-active a,
-li.ui-state-active#nav-main-gunner-info a,
-li.ui-state-active#nav-main-gunner-equipment a {
-	color: #008000;
+#dwarves-tips-3 li.nav-separator {
+	color: #d1ceba;
 }
 
-#dwarves-tips-4 li.nav-separator,
-.nav-dwarves-tips#nav-scout-tips li.ui-state-active a,
-li.ui-state-active#nav-main-scout-info a,
-li.ui-state-active#nav-main-scout-equipment a {
-	color: #1976d2;
-	/* 2646ff darker blue  */
+#dwarves-tips-4 li.nav-separator {
+	color: #05ec46;
 }
+
+#dwarves-tips-5 li.nav-separator {
+	color: #d43c00;
+}
+
 
 /* #endregion - Dwarves colors */
 
 /* #region - NAVS */
 
-/* #region - Driller */
-
-/*  Driller Playstyle Tips | Equipment Loadouts */
-li.ui-state-active#nav-main-driller-primary a {
-	color: #1e88e5;
-}
-
-li.ui-state-active#nav-main-driller-secondary a {
-	color: #2e7d32;
-}
-
-li.ui-state-active#nav-main-driller-throwables a {
-	color: #d84315;
-}
-
-/*  Driller Primary */
-li.ui-state-active#nav-driller-cyro a,
-ul#nav-main-driller-cyro-tips li.ui-state-active a {
-	color: #03a9f4;
-}
-
-li.ui-state-active#nav-driller-flamethrower a,
-ul#nav-main-driller-flamethrower-tips li.ui-state-active a  {
-	color: #de3800;
-}
-
-li.ui-state-active#nav-driller-sludge-pump a,
-ul#nav-main-driller-sludge-pump-tips li.ui-state-active a {
-	color: #cddc39;
-}
-
-/*  Driller Secondary */
-li.ui-state-active#nav-driller-epc a,
-ul#nav-main-driller-epc-tips li.ui-state-active a {
-	color: #7e57c2;
-}
-
-li.ui-state-active#nav-driller-subata a,
-ul#nav-main-driller-subata-tips li.ui-state-active a {
-	color: #1e88e5;
-}
-
-li.ui-state-active#nav-driller-wave-cooker a,
-ul#nav-main-driller-wave-cooker-tips li.ui-state-active a {
-	color: #4caf50;
-}
-
-/*  Driller Equipment */
-li.ui-state-active#nav-driller-drills a {
-	color: #8d6e63;
-}
-
-li.ui-state-active#nav-driller-c4 a {
-	color: #43a047;
-}
-
-li.ui-state-active#nav-driller-armor-rig a {
-	color: #fdd835;
-}
-
-/*  Driller Throwables */
-li.ui-state-active#nav-driller-he-grenade a {
-	color: #bf360c;
-}
-
-li.ui-state-active#nav-driller-axes a {
-	color: #607d8b;
-}
-
-li.ui-state-active#nav-driller-neurotoxin-grenade a {
-	color: #ffeb3b;
-}
-
-li.ui-state-active#nav-driller-ripper a {
-	color: #2e7d32;
-}
-
-/* #endregion - Driller Playstyle Tips | Equipment Loadouts */ 
-
-/* #region - Engineer */
-
-/*  Engineer Playstyle Tips | Equipment Loadouts */
-li.ui-state-active#nav-main-engineer-primary a {
-	color: #1e88e5;
-}
-
-li.ui-state-active#nav-main-engineer-secondary a {
-	color: #2e7d32;
-}
-
-li.ui-state-active#nav-main-engineer-throwables a {
-	color: #d84315;
-}
-
-
-/*  Engineer Primary */
-li.ui-state-active#nav-engineer-auto-shotgun a,
-ul#nav-main-engineer-auto-shotgun-tips li.ui-state-active a {
-	color: #8d6e63;
-}
-
-li.ui-state-active#nav-engineer-smart-rifle a,
-ul#nav-main-engineer-smart-rifle-tips li.ui-state-active a  {
-	color: #2e7d32;
-}
-
-li.ui-state-active#nav-engineer-stubby-smg a,
-ul#nav-main-engineer-stubby-smg-tips li.ui-state-active a {
-	color: #2196f3;
-}
-
-/*  Engineer Secondary */
-li.ui-state-active#nav-engineer-breach-cutter a,
-ul#nav-main-engineer-breach-cutter-tips li.ui-state-active a {
-	color: #ba68c8;
-}
-
-li.ui-state-active#nav-engineer-deepcore-40mm a,
-ul#nav-main-engineer-deepcore-40mm-tips li.ui-state-active a {
-	color: #616161;
-}
-
-li.ui-state-active#nav-engineer-shard-diffractor a,
-ul#nav-main-engineer-shard-diffractor-tips li.ui-state-active a {
-	color: #d84315;
-}
-
-/*  Engineer Equipment */
-li.ui-state-active#nav-engineer-platform-gun a {
-	color: #fbc02d;
-}
-
-li.ui-state-active#nav-engineer-sentry a {
-	color: #388e3c;
-}
-
-li.ui-state-active#nav-engineer-armor-rig a {
-	color: #c62828;
-}
-
-/*  Engineer Throwables */
-li.ui-state-active#nav-engineer-lure a {
-	color: #4caf50;
-}
-
-li.ui-state-active#nav-engineer-plasma-burster a {
-	color: #ba68c8;
-}
-
-li.ui-state-active#nav-engineer-proximity-mine a {
-	color: #d84315;
-}
-
-li.ui-state-active#nav-engineer-shredder-drones a {
-	color: #607d8b;
-}
-
-/* #endregion - Engineer */
-
-/* #region - Gunner */
-
-/* Gunner Playstyle Tips | Equipment Loadouts */
-li.ui-state-active#nav-main-gunner-primary a {
-	color: #1e88e5;
-}
-
-li.ui-state-active#nav-main-gunner-secondary a {
-	color: #2e7d32;
-}
-
-li.ui-state-active#nav-main-gunner-throwables a {
-	color: #d84315;
-}
-
-/*  Gunner Primary */
-li.ui-state-active#nav-gunner-autocannon a,
-ul#nav-main-gunner-autocannon-tips li.ui-state-active a {
-	color: #1b5e20;
-}
-
-li.ui-state-active#nav-gunner-hurricane a,
-ul#nav-main-gunner-hurricane-tips li.ui-state-active a  {
-	color: #de3800;
-}
-
-li.ui-state-active#nav-gunner-minigun a,
-ul#nav-main-gunner-minigun-tips li.ui-state-active a {
-	color: #546e7a;
-}
-
-/*  Gunner Secondary */
-li.ui-state-active#nav-gunner-brt7 a,
-ul#nav-main-gunner-brt7-tips li.ui-state-active a {
-	color: #546e7a;
-}
-
-li.ui-state-active#nav-gunner-bulldog-revolver a,
-ul#nav-main-gunner-bulldog-revolver-tips li.ui-state-active a {
-	color: #795548;
-}
-
-li.ui-state-active#nav-gunner-coil-gun a,
-ul#nav-main-gunner-coil-gun-tips li.ui-state-active a {
-	color: #8d6e63;
-}
-
-/*  Gunner Equipment */
-li.ui-state-active#nav-gunner-zip-line-launcher a {
-	color: #ef6c00;
-}
-
-li.ui-state-active#nav-gunner-shield-generator a {
-	color: #43a047;
-}
-
-li.ui-state-active#nav-gunner-armor-rig a {
-	color: #008000;
-}
-
-/*  Gunner Throwables */
-li.ui-state-active#nav-gunner-cluster-grenade a {
-	color: #558b2f;
-}
-
-li.ui-state-active#nav-gunner-incendiary-grenade a {
-	color: #f4511e;
-}
-
-li.ui-state-active#nav-gunner-leadburster a {
-	color: #795548;
-}
-
-li.ui-state-active#nav-gunner-sticky-grenade a {
-	color: #4caf50;
-}
-
-
-/* #endregion - Gunner Playstyle Tips | Equipment Loadouts */
-
-/* #region - Scout */
-
-/* Scout Playstyle Tips | Equipment Loadouts */
-li.ui-state-active#nav-main-scout-primary a {
-	color: #1e88e5;
-}
-
-li.ui-state-active#nav-main-scout-secondary a {
-	color: #2e7d32;
-}
-
-li.ui-state-active#nav-main-scout-throwables a {
-	color: #d84315;
-}
-
-/*  Scout Primary */
-li.ui-state-active#nav-scout-deepcore-gk2 a,
-ul#nav-main-scout-deepcore-gk2-tips li.ui-state-active a {
-	color: #1565c0;
-}
-
-li.ui-state-active#nav-scout-drak-25 a,
-ul#nav-main-scout-drak-25-tips li.ui-state-active a  {
-	color: #ba68c8;
-}
-
-li.ui-state-active#nav-scout-m1000 a,
-ul#nav-main-scout-m1000-tips li.ui-state-active a {
-	color: #0288d1;
-}
-
-/*  Scout Secondary */
-li.ui-state-active#nav-scout-boltshark a,
-ul#nav-main-scout-boltshark-tips li.ui-state-active a {
-	color: #8d6e63;
-}
-
-li.ui-state-active#nav-scout-boomstick a,
-ul#nav-main-scout-boomstick-tips li.ui-state-active a {
-	color: #795548;
-}
-
-li.ui-state-active#nav-scout-zhukov a,
-ul#nav-main-scout-zhukov-tips li.ui-state-active a {
-	color: #00796b;
-}
-
-/*  Scout Equipment */
-
-li.ui-state-active#nav-scout-grappling-hook a {
-	color: #2e7d32;
-}
-
-li.ui-state-active#nav-scout-flare-gun a {
-	color: #fdd835;
-}
-
-li.ui-state-active#nav-scout-armor-rig a {
-	color: #1976d2;
-}
-
-/*  Scout Throwables */
-li.ui-state-active#nav-scout-cyro-grenade a {
-	color: #03a9f4;
-}
-
-li.ui-state-active#nav-scout-ifg a {
-	color: #26c6da;
-}
-
-li.ui-state-active#nav-scout-pheromone-canister a {
-	color: #ffeb3b;
-}
-
-li.ui-state-active#nav-scout-voltaic-stun-sweeper a {
-	color: #1e88e5;
-}
-
-
-/* #endregion - Scout Playstyle Tips | Equipment Loadouts  */
 
 /* #endregion - NAVS */
 
 /* #region - Equipment|Weapons Border-Top Colors */
 
-/* #region - Driller Equipment|Weapons Border-Top Colors */
-
-/* #region - Driller Primary Border-Top Colors */
-
-/* Cyro-Cannon Border-Top Color */
-#driller-primary-loadouts-0 {
-	border-top: 4px solid #03a9f4;
-}
-
-/* Flamethrower Border-Top Color */
-#driller-primary-loadouts-1 {
-	border-top: 4px solid #de3800;
-}
-
-/* Sludge Pump Border-Top Color */
-#driller-primary-loadouts-2 {
-	border-top: 4px solid #cddc39;
-}
-/* #endregion - Driller Primary Border-Top Colors */
-
-/* #region - Driller Secondary Border-Top Colors */
-
-/* EPC Border-Top Color */
-#driller-secondary-loadouts-0 {
-	border-top: 4px solid #7e57c2;
-}
-
-/* Subata Border-Top Color */
-#driller-secondary-loadouts-1 {
-	border-top: 4px solid #607d8b;
-}
-
-/* Wave Cooker Border-Top Color */
-#driller-secondary-loadouts-2 {
-	border-top: 4px solid #4caf50;
-}
-
-/* #endregion - Driller Secondary Border-Top Colors */
-
-/* #region - Driller Equipment Border-Top Colors */
-
-/* Drills Border-Top Color */
-#driller-equipment-content-0 {
-	border-top: 4px solid #8d6e63;
-}
-
-/* Satchel Charge (C4) Border-Top Color */
-#driller-equipment-content-1 {
-	border-top: 4px solid #43a047;
-}
-
-/* "Mole" Armor Rig Border-Top Color */
-#driller-equipment-content-2 {
-	border-top: 4px solid #fdd835;
-}
-
-/* #endregion - Driller Equipment Border-Top Colors */
-
-/* #region - Driller Throwables Border-Top Colors */
-
-/* High Explosive Grenade Border-Top Color */
-#driller-throwables-content-0 {
-	border-top: 4px solid #bf360c;
-}
-
-/* Impact Axes Border-Top Color */
-#driller-throwables-content-1 {
-	border-top: 4px solid #607d8b;
-}
-
-/* Neurotoxin Grenade Border-Top Color */
-#driller-throwables-content-2 {
-	border-top: 4px solid #ffeb3b;
-}
-
-/* Springloaded Ripper Border-Top Color */
-#driller-throwables-content-3 {
-	border-top: 4px solid #2e7d32;
-}
-
-/* #endregion - Driller Throwables Border-Top Colors */
-
-/* #endregion - Driller Equipment|Weapons Border-Top Colors */
-
-/* #region - Engineer Equipment|Weapons Border-Top Colors */
-
-/* #region - Engineer Primary Border-Top Colors */
-
-/* Auto Shotgun Border-Top Color */
-#engineer-primary-loadouts-0 {
-	border-top: 4px solid #8d6e63;
-}
-
-/* Smart Rifle Border-Top Color */
-#engineer-primary-loadouts-1 {
-	border-top: 4px solid #2e7d32;
-}
-
-/* Stubby SMG Border-Top Color */
-#engineer-primary-loadouts-2 {
-	border-top: 4px solid #2196f3;
-}
-
-/* #endregion - Engineer Primary Border-Top Colors */
-
-/* #region - Engineer Secondary Border-Top Colors */
-
-/* Breach Cutter Border-Top Color */
-#engineer-secondary-loadouts-0 {
-	border-top: 4px solid #ba68c8;
-}
-
-/* Deepcore 40mm Border-Top Color */
-#engineer-secondary-loadouts-1 {
-	border-top: 4px solid #616161;
-}
-
-/* Shard Diffractor Border-Top Color */
-#engineer-secondary-loadouts-2 {
-	border-top: 4px solid #d84315;
-}
-
-/* #endregion - Engineer Secondary Border-Top Colors */
-
-/* #region - Engineer Equipment Border-Top Colors */
-
-/* Platform Gun Border-Top Color */
-#engineer-equipment-content-0 {
-	border-top: 4px solid #fbc02d;
-}
-
-/* Sentry Border-Top Color */
-#engineer-equipment-content-1 {
-	border-top: 4px solid #388e3c;
-}
-
-/* "Owl" Armor Rig Border-Top Color */
-#engineer-equipment-content-2 {
-	border-top: 4px solid #b71c1c;
-}
-
-/* #endregion - Engineer Equipment Border-Top Colors */
-
-/* #region - Engineer Throwables Border-Top Colors */
-
-/* Lure Border-Top Color */
-#engineer-throwables-content-0 {
-	border-top: 4px solid #4caf50;
-}
-
-/* Plasma Burster Border-Top Color */
-#engineer-throwables-content-1 {
-	border-top: 4px solid #ba68c8;
-}
-
-/* Proximity Mine Border-Top Color */
-#engineer-throwables-content-2 {
-	border-top: 4px solid #d84315;
-}
-
-/* Shredder Drones Border-Top Color */
-#engineer-throwables-content-3 {
-	border-top: 4px solid #607d8b;
-}
-
-/* #endregion - Engineer Throwables Border-Top Colors */
-
-/* #endregion - Engineer Equipment|Weapons Border-Top Colors */
-
-/* #region - Gunner Equipment|Weapons Border-Top Colors */
-
-/* #region - Gunner Primary Border-Top Colors */
-
-/* autocannon Border-Top Color */
-#gunner-primary-loadouts-0 {
-	border-top: 4px solid #2e7d32;
-}
-
-/* Hurricane Border-Top Color */
-#gunner-primary-loadouts-1 {
-	border-top: 4px solid #b71c1c;
-}
-
-/* Minigun Border-Top Color */
-#gunner-primary-loadouts-2 {
-	border-top: 4px solid #546e7a;
-}
-
-/* #endregion - Gunner Primary Border-Top Colors */
-
-/* #region - Gunner Secondary Border-Top Colors */
-
-/* BRT7 Border-Top Color */
-#gunner-secondary-loadouts-0 {
-	border-top: 4px solid #546e7a;
-}
-
-/* Bulldog Revolver Border-Top Color */
-#gunner-secondary-loadouts-1 {
-	border-top: 4px solid #795548;
-}
-
-/* Coil Gun Border-Top Color */
-#gunner-secondary-loadouts-2 {
-	border-top: 4px solid #8d6e63;
-}
-
-/* #endregion - Gunner Secondary Border-Top Colors */
-
-/* #region - Gunner Equipment Border-Top Colors */
-
-/* Zip Line Launcher Border-Top Color */
-#gunner-equipment-content-0 {
-	border-top: 4px solid #ef6c00;
-}
-
-/* Shield Generator Border-Top Color */
-#gunner-equipment-content-1 {
-	border-top: 4px solid #43a047;
-}
-
-/* "Barracuda" Armor Rig Border-Top Color */
-#gunner-equipment-content-2 {
-	border-top: 4px solid #008000;
-}
-
-/* #endregion - Gunner Equipment Border-Top Colors */
-
-/* #region - Gunner Throwables Border-Top Colors */
-
-/* Cluster Grenade Border-Top Color */
-#gunner-throwables-content-0 {
-	border-top: 4px solid #558b2f;
-}
-
-/* Incendiary Grenade Border-Top Color */
-#gunner-throwables-content-1 {
-	border-top: 4px solid #f4511e;
-}
-
-/* Leadburster Border-Top Color */
-#gunner-throwables-content-2 {
-	border-top: 4px solid #795548;
-}
-
-/* Sticky Grenade Border-Top Color */
-#gunner-throwables-content-3 {
-	border-top: 4px solid #4caf50;
-}
-
-/* #endregion - Gunner Throwables Border-Top Colors */
-
-/* #endregion - Gunner Equipment|Weapons Border-Top Colors */
-
-/* #region - Scout Equipment|Weapons Border-Top Colors */
-
-/* #region - Scout Primary Border-Top Colors */
-
-/* DeepCore-GK2 Border-Top Color */
-#scout-primary-loadouts-0 {
-	border-top: 4px solid #1e88e5;
-}
-
-/* DRAK-25 Border-Top Color */
-#scout-primary-loadouts-1 {
-	border-top: 4px solid #ba68c8;
-}
-
-/* M1000 Border-Top Color */
-#scout-primary-loadouts-2 {
-	border-top: 4px solid #29b6f6;
-}
-
-/* #endregion - Scout Primary Border-Top Colors */
-
-/* #region - Scout Secondary Border-Top Colors */
-
-/* Boltshark Border-Top Color */
-#scout-secondary-loadouts-0 {
-	border-top: 4px solid #8d6e63;
-}
-
-/* Boomstick Border-Top Color */
-#scout-secondary-loadouts-1 {
-	border-top: 4px solid #795548;
-}
-
-/* Zhukov Border-Top Color */
-#scout-secondary-loadouts-2 {
-	border-top: 4px solid #00796b;
-}
-
-/* #endregion - Scout Secondary Border-Top Colors */
-
-/* #region - Scout Equipment Border-Top Colors */
-
-/* Grappling Hook Border-Top Color */
-#scout-equipment-content-0 {
-	border-top: 4px solid #2e7d32;
-}
-
-/* Flare Gun Border-Top Color */
-#scout-equipment-content-1 {
-	border-top: 4px solid #fdd835;
-}
-
-/* "Fox" Armor Rig Border-Top Color */
-#scout-equipment-content-2 {
-	border-top: 4px solid #1976d2;
-}
-
-/* #endregion - Scout Equipment Border-Top Colors */
-
-/* #region - Scout Throwables Border-Top Colors */
-
-
-
-/* #endregion - Scout Throwables Border-Top Colors */
-
-/* #endregion - Scout Equipment|Weapons Border-Top Colors */
-
-/* #endregion - Equipment|Weapons Border-Top Colors */
-
-/* #region - Loadouts Table Borders */
-
-/* #region - Driller Loadouts Table Borders */
-
-/* #region - Driller Primary Table Borders */
-
-.driller-cyro-tables th,.driller-cyro-tables td {
-	border: 4px solid #03a9f4;
-}
-
-.driller-flamethrower-tables th,.driller-flamethrower-tables td {
-	border: 4px solid #de3800;
-}
-
-.driller-sludge-pump-tables th,.driller-sludge-pump-tables td {
-	border: 4px solid #cddc39;
-}
-
-/* #endregion - Driller Primary Table Borders */
-
-/* #region - Driller Secondary Table Borders */
-
-.driller-epc-tables td,.driller-epc-tables th {
-	border: 4px solid #7e57c2;
-}
-
-.driller-subata-tables td,.driller-subata-tables th {
-	border: 4px solid #1e88e5;
-}
-
-.driller-wave-cooker-tables td,
-.driller-wave-cooker-tables th {
-	border: 4px solid #4caf50;
-}
-
-/* #endregion - Driller Secondary Table Borders */
-
-/* #region - Driller Equipment Table Borders */
-
-.driller-drills td {
-	border: 4px solid #8d6e63;
-}
-
-.driller-c4 td {
-	border: 4px solid #43a047;
-}
-
-#dwarf-driller-tips-content,.driller-armor-rig td {
-	border: 4px solid #fdd835;
-}
-
-/* #endregion - Driller Equipment Table Borders */
-
-/* #region - Driller Throwables Table Borders */
-
-.driller-he-grenade td {
-	border: 4px solid #bf360c;
-}
-
-.driller-axes td {
-	border: 4px solid #607d8b;
-}
-
-.driller-neurotoxin-grenade td {
-	border: 4px solid #ffeb3b;
-}
-
-.driller-ripper td {
-	border: 4px solid #2e7d32;
-}
-
-/* #endregion - Driller Throwables Table Borders */
-
-/* #endregion - Driller Loadouts Table Borders */
-
-/* #region - Engineer Loadouts Table Borders */
-
-/* #region - Engineer Primary Table Borders */
-
-.engineer-auto-shotgun-tables th,
-.engineer-auto-shotgun-tables td {
-	border: 4px solid #8d6e63;
-}
-
-.engineer-smart-rifle-tables th,.engineer-smart-rifle-tables td {
-	border: 4px solid #2e7d32;
-}
-
-.engineer-stubby-smg-tables th,.engineer-stubby-smg-tables td {
-	border: 4px solid #2196f3;
-}
-
-/* #endregion - Engineer Primary Table Borders */
-
-/* #region - Engineer Secondary Table Borders */
-
-.engineer-breach-cutter-tables td,.engineer-breach-cutter-tables th {
-	border: 4px solid #ba68c8;
-}
-
-.engineer-deepcore-40mm-tables td,.engineer-deepcore-40mm-tables th {
-	border: 4px solid #616161;
-}
-
-.engineer-shard-diffractor-tables td,
-.engineer-shard-diffractor-tables th {
-	border: 4px solid #d84315;
-}
-
-/* #endregion - Engineer Secondary Table Borders */
-
-/* #region - Engineer Equipment Table Borders */
-
-.engineer-platform-gun td {
-	border: 4px solid #fbc02d;
-}
-
-.engineer-sentry td {
-	border: 4px solid #388e3c;
-}
-
-#dwarf-engineer-tips-content,.engineer-armor-rig td {
-	border: 4px solid #c62828;
-}
-
-/* #endregion - Engineer Equipment Table Borders */
-
-/* #region - Engineer Throwables Table Borders */
-
-.engineer-lure td {
-	border: 4px solid #4caf50;
-}
-
-.engineer-plasma-burster td {
-	border: 4px solid #ba68c8;
-}
-
-.engineer-proximity-mine td {
-	border: 4px solid #d84315;
-}
-
-.engineer-shredder-drones td {
-	border: 4px solid #607d8b;
-}
-
-/* #endregion - Engineer Throwables Table Borders */
-
-/* #endregion - Engineer Loadouts Table Borders */
-
-/* #region - Gunner Loadouts Table Borders */
-
-/* #region - Gunner Primary Table Borders */
-
-.gunner-autocannon-tables th,.gunner-autocannon-tables td {
-	border: 4px solid #1b5e20;
-}
-
-.gunner-hurricane-tables th,.gunner-hurricane-tables td {
-	border: 4px solid #de3800;
-}
-
-.gunner-minigun-tables th,.gunner-minigun-tables td {
-	border: 4px solid #546e7a;
-}
-
-/* #endregion - Gunner Primary Table Borders */
-
-/* #region - Gunner Secondary Table Borders */
-
-.gunner-brt7-tables td,.gunner-brt7-tables th {
-	border: 4px solid #546e7a;
-}
-
-.gunner-bulldog-revolver-tables td,.gunner-bulldog-revolver-tables th {
-	border: 4px solid #795548;
-}
-
-.gunner-coil-gun-tables td,.gunner-coil-gun-tables th {
-	border: 4px solid #8d6e63;
-}
-
-/* #endregion - Gunner Secondary Table Borders */
-
-/* #region - Gunner Equipment Table Borders */
-
-.gunner-zip-line-launcher td {
-	border: 4px solid #ef6c00;
-}
-
-.gunner-shield-generator td {
-	border: 4px solid #43a047;
-}
-
-#dwarf-gunner-tips-content,.gunner-armor-rig td {
-	border: 4px solid #008000;
-}
-
-/* #endregion - Gunner Equipment Table Borders */
-
-/* #region - Gunner Throwables Table Borders */
-
-.gunner-cluster-grenade td {
-	border: 4px solid #558b2f;
-}
-
-.gunner-incendiary-grenade td {
-	border: 4px solid #f4511e;
-}
-
-.gunner-leadburster td {
-	border: 4px solid #795548;
-}
-
-.gunner-sticky-grenade td {
-	border: 4px solid #4caf50;
-}
-
-/* #endregion - Gunner Throwables Table Borders */
-
-/* #endregion - Gunner Loadouts Table Borders */
-
-/* #region - Scout Loadouts Table Borders */
-
-/* #region - Scout Primary Table Borders */
-
-.scout-deepcore-gk2-tables th,.scout-deepcore-gk2-tables td {
-	border: 4px solid #1e88e5;
-}
-
-.scout-drak-25-tables th, .scout-drak-25-tables td {
-	border: 4px solid #ba68c8;
-}
-
-.scout-m1000-tables th,.scout-m1000-tables td {
-	border: 4px solid #29b6f6;
-}
-
-/* #endregion - Scout Primary Table Borders */
-
-/* #region - Scout Secondary Table Borders */
-
-.scout-boltshark-tables td,.scout-boltshark-tables th {
-	border: 4px solid #8d6e63;
-}
-
-.scout-boomstick-tables td,.scout-boomstick-tables th {
-	border: 4px solid #795548;
-}
-
-.scout-zhukov-tables td,.scout-zhukov-tables th {
-	border: 4px solid #00796b;
-}
-
-/* #endregion - Scout Secondary Table Borders */
-
-/* #region - Scout Equipment Table Borders */
-
-.scout-grappling-hook td {
-	border: 4px solid #2e7d32;
-}
-
-.scout-flare-gun td {
-	border: 4px solid #fdd835;
-}
-
-#dwarf-scout-tips-content,.scout-armor-rig td {
-	border: 4px solid #1976d2;
-}
-
-/* #endregion - Scout Equipment Table Borders */
-
-/* #region - Scout Throwables Table Borders */
-
-.scout-cyro-grenade td {
-	border: 4px solid #03a9f4;
-}
-
-.scout-ifg td {
-	border: 4px solid #26c6da;
-}
-
-.scout-pheromone-canister td {
-	border: 4px solid #ffeb3b;
-}
-
-.scout-voltaic-stun-sweeper td {
-	border: 4px solid #1e88e5;
-}
-
-/* #endregion - Scout Throwables Table Borders */
-
-/* #endregion - Scout Loadouts Table Borders */
 
 /* #endregion - Dwarves Loadouts Table Borders */
 
@@ -1095,13 +152,13 @@ li.ui-state-active#nav-scout-voltaic-stun-sweeper a {
 	height: 384px;		
 }
 
-#driller-he-grenade-tips .he-grenade-img,
-#driller-neurotoxin-grenade-tips .neurotoxin-grenade-img,
-#engineer-lure-tips .lure-img,
-#engineer-plasma-burster-tips .plasma-burster-img,
-#engineer-proximity-mine-tips .proximity-mine-img,
-#gunner-sticky-grenade-tips .sticky-grenade-img,
-#scout-cyro-grenade-tips .cyro-grenade-img
+#falconer-he-grenade-tips .he-grenade-img,
+#falconer-neurotoxin-grenade-tips .neurotoxin-grenade-img,
+#guardian-lure-tips .lure-img,
+#guardian-plasma-burster-tips .plasma-burster-img,
+#guardian-proximity-mine-tips .proximity-mine-img,
+#retcon-sticky-grenade-tips .sticky-grenade-img,
+#slicer-cyro-grenade-tips .cyro-grenade-img
 {
 	width: 300px;
 	height: 400px;	
@@ -1109,27 +166,27 @@ li.ui-state-active#nav-scout-voltaic-stun-sweeper a {
 
 /* #region - Driller Image Tips */
 
-#driller-epc-tips .epc-img {
+#falconer-epc-tips .epc-img {
 	width: 350px;
 	height: 310px;	
 }
 
-#driller-subata-tips .subata-img {
+#falconer-subata-tips .subata-img {
 	width: 335px;
 	height: 310px;	
 }
 
-#driller-c4-tips .c4-img {
+#falconer-c4-tips .c4-img {
 	width: 315px;
 	height: 430px;	
 }
 
-#driller-axes-tips .axes-img {
+#falconer-axes-tips .axes-img {
 	width: 290px;
 	height: 460px;	
 }
 
-#driller-ripper-tips .ripper-img {
+#falconer-ripper-tips .ripper-img {
 	width: 280px;
 	height: 460px;	
 }
@@ -1140,12 +197,12 @@ li.ui-state-active#nav-scout-voltaic-stun-sweeper a {
 
 /* #region - Engineer Image Tips */
 
-#engineer-stubby-smg-tips .stubby-smg-img {
+#guardian-stubby-smg-tips .stubby-smg-img {
 	width: 480px;
 	height: 355px;	
 }
 
-#engineer-sentry-tips .sentry-img {
+#guardian-sentry-tips .sentry-img {
 	width: 320px;
 	height: 410px;	
 }
@@ -1159,53 +216,53 @@ li.ui-state-active#nav-scout-voltaic-stun-sweeper a {
 
 /* #endregion - Gunner Image Tips */
 
-#gunner-minigun-tips .minigun-img {
+#retcon-minigun-tips .minigun-img {
 	width: 430px;
 	height: 225px;	
 }
 
-#gunner-cluster-grenade-tips .cluster-grenade-img {
+#retcon-cluster-grenade-tips .cluster-grenade-img {
 	width: 220px;
 	height: 435px;	
 }
 
-#gunner-incendiary-grenade-tips .incendiary-grenade-img {
+#retcon-incendiary-grenade-tips .incendiary-grenade-img {
 	width: 170px;
 	height: 435px;		
 }
 
-#gunner-leadburster-tips .leadburster-img {
+#retcon-leadburster-tips .leadburster-img {
 	width: 160px;
 	height: 455px;		
 }
 
 /* #region - Scout Image Tips */
 
-#scout-deepcore-gk2-tips .deepcore-gk2-img {
+#slicer-deepcore-gk2-tips .deepcore-gk2-img {
 	width: 530px;
 	height: 365px;		
 }
 
-#scout-m1000-tips .m1000-img {
+#slicer-m1000-tips .m1000-img {
 	height: 170px;		
 }
 
-#scout-grappling-hook-tips .grappling-hook-img {
+#slicer-grappling-hook-tips .grappling-hook-img {
 	width: 495px;
 	height: 370px;		
 }
 
-#scout-ifg-tips .ifg-img {
+#slicer-ifg-tips .ifg-img {
 	width: 330px;
 	height: 305px;		
 }
 
-#scout-pheromone-canister-tips .pheromone-canister-img {
+#slicer-pheromone-canister-tips .pheromone-canister-img {
 	width: 220px;
 	height: 400px;		
 }
 
-#scout-voltaic-stun-sweeper-tips .voltaic-stun-sweeper-img {
+#slicer-voltaic-stun-sweeper-tips .voltaic-stun-sweeper-img {
 	width: 170px;
 	height: 440px;		
 }

@@ -84,7 +84,6 @@ img,fieldset {
 }
 
 
-
 /* #endregion - global */
 
 .overclock-builds-content {
@@ -208,6 +207,7 @@ li#nav-buried-gems-enor-pearl,li#nav-buried-gems-error-cube {
 
 
 #nav-buried-gems-tips,
+#nav-minerals-tips,
 ul#nav-mineral-tips li.nav-separator,
 ul#nav-machine-events li.nav-separator {
 	font-size: 32px;
@@ -308,6 +308,11 @@ li.nav-separator,
 	color: #6bb7dd;
 }
 
+.drg-wiki {
+	color: #ff9c00;
+}
+
+
 
 
 
@@ -316,6 +321,22 @@ li.nav-separator,
 /* #region - names colors */
 
 /* #region - dwarves colors */
+
+.driller {
+	color: #fdd835;
+}
+
+.engineer {
+	color: #c62828;	
+}
+
+.scout {
+	color: #1976d2;	
+}
+
+.gunner {
+	color: #008000;
+}
 
 .falconer {
 	color: #31caf3;
@@ -378,9 +399,6 @@ li.nav-separator,
 	color: #ffb000;
 }
 
-.expenite {
-	color: #68C900;
-}
 
 .mules {
 	color: #00d6d9;
@@ -399,6 +417,9 @@ li.nav-separator,
 /* #region - gems / minerals colors & More */
 
 
+.expenite {
+	color: #68C900;
+}
 
 .c4,.shield-generator {
 	color: #43a047;
@@ -788,6 +809,11 @@ body#links .columns {
 
 /* #region - tables */
 
+table {
+	display: table;
+	margin:0 auto;
+}
+
 table, th, td {
 	border-collapse: collapse;
 }
@@ -951,7 +977,11 @@ a.reg-link .nav-icons,a.img-link .nav-icons,#nav-minerals-tips .nav-icons {
 }
 
 
-body#home-page .rock-n-stone,body#dwarves-classes-tips .rock-n-stone,body#links .rock-n-stone, body#links .deep-dive-icon  {
+body#home-page .rock-n-stone,
+body#dwarves-classes-tips .rock-n-stone,
+body#general-tips .rock-n-stone, 
+body#links .rock-n-stone, 
+body#links .deep-dive-icon  {
 	width: 40px;
 	height: 52px;
 	position: relative;
