@@ -1,7 +1,7 @@
 body#dwarves-classes-tips {
 	background: 
 	#212121
-    url("https://deeprockgalactic.wiki.gg/images/b/b0/Site-background-light.png") 
+    url("https://deeprockgalactic.wiki.gg/images/Skin-Body-Background-Rogue-Core-Keyart.jpg") 
 	top center / 100% 100%
 	no-repeat;
 	background-size: cover;
@@ -11,28 +11,12 @@ body#dwarves-classes-tips .tabs-content {
 	background: rgba(0,0,0,0.90);	
 }
 
-.reg-link {
-	color: #78909c;
-}
-
 ul.nav-dwarves-tips,ul.nav-builds-tips {
 	font-size: 48px;
 }
 
 ul#nav-main-dwarves-tips li {
 	width: 200px;
-}
-
-#nav-main-driller-epc-tips,
-#nav-main-engineer-auto-shotgun-tips,
-#nav-main-gunner-autocannon-tips {
-	font-size: 40px;
-}
-
-#nav-main-gunner-autocannon-tips,
-#nav-main-gunner-hurricane-tips,
-#nav-main-gunner-minigun-tips {
-	font-size: 36px;
 }
 
 #nav-scout-throwables-content {
@@ -66,6 +50,8 @@ table.overclock-colors-key .background-text {
 	background-color: transparent;
 }
 
+
+
 table.weapon-tips,
 table.weapon-builds {
 	width: 1050px;
@@ -85,6 +71,11 @@ table.weapon-builds {
 #dwarves-tips {
 	position: relative;
 	top: 25px;
+}
+
+body#dwarves-classes-tips .column-left {
+	height: 800px;
+	width: 420px;
 }
 
 
@@ -1069,24 +1060,32 @@ li.ui-state-active#nav-scout-voltaic-stun-sweeper a {
 
 /* #region - Images */
 
-#driller-portrait,#engineer-portrait,#gunner-portrait,#scout-portrait {
-	height: 190px;
+#falconer-portrait,
+#guardian-portrait,
+#retcon-portrait,
+#slicer-portrait,
+#spotter-portrait {
+	height: 200px;
 }
 
-#driller-portrait {
-	width: 170px;
+#falconer-portrait {
+	width: 180px;
 }
 
-#engineer-portrait {
-	width: 140px;
+#guardian-portrait {
+	width: 180px;
 }
 
-#gunner-portrait {
-	width: 170px;
-}
-
-#scout-portrait {
+#retcon-portrait {
 	width: 120px;
+}
+
+#slicer-portrait {
+	width: 200px;
+}
+
+#spotter-portrait {
+	width: 190px;
 }
 
 /* #region - Image Tips */
