@@ -1,0 +1,18 @@
+body#home-page {
+	background: 
+	#212121
+    url("https://i.imgur.com/9K3HI9q.jpg") 
+	top center / 100% 100%
+	no-repeat;
+	background-size: cover;
+}
+
+body#home-page .text-content-container {
+	font-size: 32px;
+	line-height: 32px;
+}
+
+body#home-page .columns {	
+	height: 675px;
+	width: 485px;
+}

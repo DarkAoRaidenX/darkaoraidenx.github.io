@@ -23,28 +23,6 @@ body {
 	text-align: center;
 }
 
-/* #region - Body background */
-
-body#home-page {
-	background: 
-	#212121
-    url("https://i.imgur.com/9K3HI9q.jpg") 
-	top center / 100% 100%
-	no-repeat;
-	background-size: cover;
-}
-
-body#links {
-	background: 
-	#212121
-    url("https://deeprockgalactic.wiki.gg/images/4/46/Cabin_2.jpg") 
-	top center / 100% 100%
-	no-repeat;
-	background-size: cover;
-}
-
-/* #endregion - Body background */
-
 body,
 .nav-dwarves-tips a,
 #general-tips-content-container ul a,
@@ -259,10 +237,6 @@ table#dwarf-lingo-tips .notes-text {
 6 Mods
 7 Credits / Links
 */
-body#home-page .text-content-container {
-	font-size: 32px;
-	line-height: 32px;
-}
 
 body#general-tips .text-content-container {
 	font-size: 32px;
@@ -776,11 +750,6 @@ a.highlighted,a.reg-link {
 	vertical-align: top;
 	overflow-x: hidden;
 	overflow-y: auto;
-}
-
-body#home-page .columns {	
-	height: 675px;
-	width: 485px;
 }
 
 body#dwarves-classes-tips .columns,

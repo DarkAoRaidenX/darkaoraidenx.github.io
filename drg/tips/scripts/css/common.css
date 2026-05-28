@@ -237,10 +237,6 @@ table#dwarf-lingo-tips .notes-text {
 6 Mods
 7 Credits / Links
 */
-body#home-page .text-content-container {
-	font-size: 32px;
-	line-height: 32px;
-}
 
 body#general-tips .text-content-container {
 	font-size: 32px;
@@ -836,27 +832,6 @@ a.passive-perk2 {
 
 /* #region - tabs-content */
 
-/* #region - Body background */
-
-body#home-page {
-	background: 
-	#212121
-    url("https://i.imgur.com/0Zqd7a2.jpg") 
-	top center / 100% 100%
-	no-repeat;
-	background-size: cover;
-}
-
-body#links {
-	background: 
-	#212121
-    url("https://deeprockgalactic.wiki.gg/images/4/46/Cabin_2.jpg") 
-	top center / 100% 100%
-	no-repeat;
-	background-size: cover;
-}
-
-/* #endregion - Body background */
 
 .tabs-container {
 	position: absolute;
@@ -890,10 +865,6 @@ body#links {
 	overflow-y: auto;
 }
 
-body#home-page .columns {	
-	height: 675px;
-	width: 485px;
-}
 
 body#dwarves-classes-tips .columns,
 body#general-tips .columns,

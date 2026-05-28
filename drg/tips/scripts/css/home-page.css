@@ -1,0 +1,23 @@
+/* #region - Body background */
+
+body#home-page {
+	background: 
+	#212121
+    url("https://i.imgur.com/0Zqd7a2.jpg") 
+	top center / 100% 100%
+	no-repeat;
+	background-size: cover;
+}
+
+/* #endregion - Body background */
+
+body#home-page .text-content-container {
+	font-size: 32px;
+	line-height: 32px;
+}
+
+
+body#home-page .columns {	
+	height: 675px;
+	width: 485px;
+}
