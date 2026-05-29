@@ -23,7 +23,11 @@ body {
 	text-align: center;
 }
 
-body,
+body {
+	color: #9e9e9e;	
+	/* #b3ada4 - other grey */
+}
+
 .nav-dwarves-tips a,
 #general-tips-content-container ul a,
 .nav-loadouts a,

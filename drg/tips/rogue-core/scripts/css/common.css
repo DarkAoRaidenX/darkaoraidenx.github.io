@@ -23,7 +23,11 @@ body {
 	text-align: center;
 }
 
-body,
+body {
+	color: #9e9e9e;	
+	/* #b3ada4 - other grey */
+}
+
 .nav-dwarves-tips a,
 #general-tips-content-container ul a,
 .nav-loadouts a,
@@ -230,7 +234,9 @@ table#dwarf-lingo-tips .notes-text {
 7 Credits / Links
 */
 
-body#general-tips .text-content-container {
+body#general-tips .text-content-container,
+.general-loadouts-info,
+.playstyle-content .text-content {
 	font-size: 32px;
 }
 
@@ -240,9 +246,14 @@ body#links .text-content-container {
 	line-height: 24px;
 }
 
+
+.info-content .text-content {
+	font-size: 24px;
+	line-height: 24px;
+}
+
 .general-loadouts-info,
 .playstyle-content .text-content {
-	font-size: 32px;
 	line-height: 36px;
 }
 
@@ -357,9 +368,49 @@ li.nav-separator,
 
 /* #endregion - names colors */
 
+.artifacts {
+	color: #da4542;	
+}
+
+.common {
+	color: #b3ada4;	
+}
+
+.uncommon  {
+	color: #24f28b;	
+}
+
+.rare {
+	color: #46a2f2;	
+}
+
+.epic {
+	color: #c66cc6;	
+}
+
+.legendary {
+	color: #e28b3c;	
+}
+
 
 
 /* #region -  mission colors */
+
+.active-perk {
+	color: #4bbfa5;
+}
+
+.active-perk2 {
+	background-color: #4bbfa5;
+}
+
+.passive-perk {
+	color: #b93253;
+}
+
+.passive-perk2 {
+	background-color: #b93253;
+}
 
 .gauntlets {
 	color: #ffb000;

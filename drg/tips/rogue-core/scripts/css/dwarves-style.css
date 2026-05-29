@@ -86,9 +86,17 @@ body#dwarves-classes-tips .column-left {
 	color: #31caf3;
 }
 
+#dwarf-falconer-tips-content {
+	border: 4px solid #31caf3;
+}
+
 #dwarves-tips-2 li.nav-separator,
 .nav-dwarves-tips#nav-guardian-tips li.ui-state-active a {
 	color: #f4d637;
+}
+
+#dwarf-guardian-tips-content {
+	border: 4px solid #f4d637;
 }
 
 #dwarves-tips-3 li.nav-separator,
@@ -96,15 +104,28 @@ body#dwarves-classes-tips .column-left {
 	color: #d1ceba;
 }
 
+#dwarf-retcon-tips-content {
+	border: 4px solid #d1ceba;
+}
+
 #dwarves-tips-4 li.nav-separator,
 .nav-dwarves-tips#nav-slicer-tips li.ui-state-active a {
 	color: #05ec46;
+}
+
+#dwarf-slicer-tips-content {
+	border: 4px solid #05ec46;
 }
 
 #dwarves-tips-5 li.nav-separator,
 .nav-dwarves-tips#nav-spotter-tips li.ui-state-active a {
 	color: #d43c00;
 }
+
+#dwarf-spotter-tips-content {
+	border: 4px solid #d43c00;
+}
+
 
 
 /* #endregion - Dwarves colors */
