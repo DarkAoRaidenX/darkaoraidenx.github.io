@@ -178,7 +178,12 @@ body#dwarves-classes-tips .column-left {
 	height: 384px;		
 }
 
-
+.h1 a .dwarves-icons {
+	position: relative;
+	top: 8px;
+	width: 48px;
+	height: 48px;		
+}
 
 
 
