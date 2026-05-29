@@ -64,14 +64,6 @@ img,fieldset {
 
 /* #endregion - global */
 
-.overclock-builds-content {
-	background-color: #263238;
-	width: 625px;
-	height: 115px;
-	font-size: 32px;
-	line-height: 32px;
-}
-
 
 /* .key-square {
 	width: 128px;
@@ -895,7 +887,7 @@ table.tips-content {
 }
 
 img.buttons {
-	width: 200px;
+	width: 185px;
 }
 
 .scroll-down {
@@ -930,8 +922,15 @@ td.tips img.full:hover {
 }
 
 
-ul .nav-icons,.h1 a.reg-link .nav-icons  {
+a.reg-link .nav-icons,
+a.img-link .nav-icons,
+ul .nav-icons,
+.h1 a.reg-link .nav-icons,
+#nav-minerals-tips .nav-icons {
 	position: relative;
+}
+
+ul .nav-icons,.h1 a.reg-link .nav-icons  {
 	top: 8px;
 	width: 48px;
 	height: 48px;
@@ -940,6 +939,7 @@ ul .nav-icons,.h1 a.reg-link .nav-icons  {
 
 
 a.reg-link .nav-icons,a.img-link .nav-icons,#nav-minerals-tips .nav-icons {
+	top: 4px;
 	width: 32px;
 	height: 32px;
 	left: 4px;
