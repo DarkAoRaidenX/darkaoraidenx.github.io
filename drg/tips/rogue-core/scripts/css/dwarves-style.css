@@ -81,23 +81,28 @@ body#dwarves-classes-tips .column-left {
 
 /* #region -  Dwarves colors */
 
-#dwarves-tips-1 li.nav-separator {
+#dwarves-tips-1 li.nav-separator,
+.nav-dwarves-tips#nav-falconer-tips li.ui-state-active a {
 	color: #31caf3;
 }
 
-#dwarves-tips-2 li.nav-separator {
+#dwarves-tips-2 li.nav-separator,
+.nav-dwarves-tips#nav-guardian-tips li.ui-state-active a {
 	color: #f4d637;
 }
 
-#dwarves-tips-3 li.nav-separator {
+#dwarves-tips-3 li.nav-separator,
+.nav-dwarves-tips#nav-retcon-tips li.ui-state-active a {
 	color: #d1ceba;
 }
 
-#dwarves-tips-4 li.nav-separator {
+#dwarves-tips-4 li.nav-separator,
+.nav-dwarves-tips#nav-slicer-tips li.ui-state-active a {
 	color: #05ec46;
 }
 
-#dwarves-tips-5 li.nav-separator {
+#dwarves-tips-5 li.nav-separator,
+.nav-dwarves-tips#nav-spotter-tips li.ui-state-active a {
 	color: #d43c00;
 }
 
@@ -152,122 +157,8 @@ body#dwarves-classes-tips .column-left {
 	height: 384px;		
 }
 
-#falconer-he-grenade-tips .he-grenade-img,
-#falconer-neurotoxin-grenade-tips .neurotoxin-grenade-img,
-#guardian-lure-tips .lure-img,
-#guardian-plasma-burster-tips .plasma-burster-img,
-#guardian-proximity-mine-tips .proximity-mine-img,
-#retcon-sticky-grenade-tips .sticky-grenade-img,
-#slicer-cyro-grenade-tips .cyro-grenade-img
-{
-	width: 300px;
-	height: 400px;	
-}
-
-/* #region - Driller Image Tips */
-
-#falconer-epc-tips .epc-img {
-	width: 350px;
-	height: 310px;	
-}
-
-#falconer-subata-tips .subata-img {
-	width: 335px;
-	height: 310px;	
-}
-
-#falconer-c4-tips .c4-img {
-	width: 315px;
-	height: 430px;	
-}
-
-#falconer-axes-tips .axes-img {
-	width: 290px;
-	height: 460px;	
-}
-
-#falconer-ripper-tips .ripper-img {
-	width: 280px;
-	height: 460px;	
-}
 
 
-
-/* #endregion - Driller Image Tips */
-
-/* #region - Engineer Image Tips */
-
-#guardian-stubby-smg-tips .stubby-smg-img {
-	width: 480px;
-	height: 355px;	
-}
-
-#guardian-sentry-tips .sentry-img {
-	width: 320px;
-	height: 410px;	
-}
-
-
-
-
-/* #endregion - Engineer Image Tips */
-
-/* #region - Gunner Image Tips */
-
-/* #endregion - Gunner Image Tips */
-
-#retcon-minigun-tips .minigun-img {
-	width: 430px;
-	height: 225px;	
-}
-
-#retcon-cluster-grenade-tips .cluster-grenade-img {
-	width: 220px;
-	height: 435px;	
-}
-
-#retcon-incendiary-grenade-tips .incendiary-grenade-img {
-	width: 170px;
-	height: 435px;		
-}
-
-#retcon-leadburster-tips .leadburster-img {
-	width: 160px;
-	height: 455px;		
-}
-
-/* #region - Scout Image Tips */
-
-#slicer-deepcore-gk2-tips .deepcore-gk2-img {
-	width: 530px;
-	height: 365px;		
-}
-
-#slicer-m1000-tips .m1000-img {
-	height: 170px;		
-}
-
-#slicer-grappling-hook-tips .grappling-hook-img {
-	width: 495px;
-	height: 370px;		
-}
-
-#slicer-ifg-tips .ifg-img {
-	width: 330px;
-	height: 305px;		
-}
-
-#slicer-pheromone-canister-tips .pheromone-canister-img {
-	width: 220px;
-	height: 400px;		
-}
-
-#slicer-voltaic-stun-sweeper-tips .voltaic-stun-sweeper-img {
-	width: 170px;
-	height: 440px;		
-}
-
-/* #endregion - Scout Image Tips */
 
 
 
