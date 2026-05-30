@@ -7,6 +7,12 @@ body#general-tips {
 	background-size: cover;
 }
 
+
+ul li.separator {
+	font-size: 36px;
+	color: #f89d06;
+}
+
 #general-info-tips {
 	border: 4px solid #4caf50;
 }
@@ -33,10 +39,7 @@ body#general-tips {
 
 
 
-ul li.separator {
-	font-size: 36px;
-	color: #f89d06;
-}
+
 
 /* #region - Nav General Info Tips */
 li.ui-state-active#nav-general-tips a {

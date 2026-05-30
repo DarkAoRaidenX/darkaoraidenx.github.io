@@ -7,6 +7,11 @@ body#general-tips {
 	background-size: cover;
 }
 
+
+ul#nav-general-info-tips li {
+	display: block;
+} 
+
 #general-info-tips {
 	border: 4px solid #4caf50;
 }
@@ -126,6 +131,10 @@ li.ui-state-active#nav-resources-minerals a {
 
 li.ui-state-active#nav-minerals-expenite a {
 	color: #68C900;
+}
+
+li.ui-state-active#nav-minerals-red-sugar a {
+	color: #e53935;
 }
 
 /* #endregion - Nav Minerals Colors */

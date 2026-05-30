@@ -117,9 +117,7 @@ ul#nav-general-info-tips,ul#nav-missions {
 	text-align: left;
 }
 
-ul#nav-general-info-tips li,ul#nav-missions li {
-	display: block;
-} 
+
 
 #nav-gameplay-tips li {
 	line-height: 75px;
@@ -1006,7 +1004,10 @@ body#links .deep-dive-icon  {
 }
 
 
-
+.reaperworm {
+	width: 200px;
+	height: 260px; 
+}
 
 
 
