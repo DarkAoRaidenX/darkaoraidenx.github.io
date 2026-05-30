@@ -28,7 +28,15 @@ $( function() {
 } );
 
 $( function() {
+  $( "#falconer-info-content" ).tabs();
+} );
+
+$( function() {
   $( "#dwarf-guardian-tips-content" ).tabs();
+} );
+
+$( function() {
+  $( "#guardian-info-content" ).tabs();
 } );
 
 $( function() {
@@ -36,11 +44,23 @@ $( function() {
 } );
 
 $( function() {
+  $( "#retcon-info-content" ).tabs();
+} );
+
+$( function() {
   $( "#dwarf-slicer-tips-content" ).tabs();
 } );
 
 $( function() {
+  $( "#slicer-info-content" ).tabs();
+} );
+
+$( function() {
   $( "#dwarf-spotter-tips-content" ).tabs();
+} );
+
+$( function() {
+  $( "#spotter-info-content" ).tabs();
 } );
 
 

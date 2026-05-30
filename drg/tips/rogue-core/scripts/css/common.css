@@ -234,9 +234,7 @@ table#dwarf-lingo-tips .notes-text {
 7 Credits / Links
 */
 
-body#general-tips .text-content-container,
-.general-loadouts-info,
-.playstyle-content .text-content {
+body#general-tips .text-content-container {
 	font-size: 32px;
 }
 
@@ -252,10 +250,7 @@ body#links .text-content-container {
 	line-height: 24px;
 }
 
-.general-loadouts-info,
-.playstyle-content .text-content {
-	line-height: 36px;
-}
+
 
 
 
@@ -824,6 +819,7 @@ body#links .columns {
 table {
 	display: table;
 	margin:0 auto;
+	width: 1050px;
 }
 
 table, th, td {
@@ -977,13 +973,14 @@ a.reg-link .nav-icons,
 a.img-link .nav-icons,
 ul .nav-icons,
 .h1 a.reg-link .nav-icons,
-#nav-minerals-tips .nav-icons {
+#nav-minerals-tips .nav-icons,
+.header-icons {
 	position: relative;
 }
 
-ul .nav-icons,.h1 a.reg-link .nav-icons  {
+ul .nav-icons,.h1 a.reg-link .nav-icons,.header-icons  {
 	top: 8px;
-	width: 48px;
+	/* width: 48px; */
 	height: 48px;
 	left: 0;
 }
