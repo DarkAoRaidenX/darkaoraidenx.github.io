@@ -11,7 +11,7 @@ body#dwarves-classes-tips .tabs-content {
 	background: rgba(0,0,0,0.90);	
 }
 
-ul.nav-dwarves-tips,ul.nav-builds-tips {
+ul#nav-main-dwarves-tips li,ul.nav-dwarves-tips,ul.nav-builds-tips {
 	font-size: 48px;
 }
 
