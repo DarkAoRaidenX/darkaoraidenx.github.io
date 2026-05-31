@@ -6,3 +6,106 @@ body#missions-tips {
 	no-repeat;
 	background-size: cover;	
 }
+
+body#missions-tips .column-left {
+	width: 285px;
+	height: 445px;
+}
+
+ul#nav-missions li {
+	display: block;
+}
+
+#nav-missions li,
+#nav-bosses li a {
+	background-color: #263238;
+}
+
+#nav-missions li.line-break {
+	height: 4px;
+	background-color: transparent;
+}
+
+.column-right {
+	font-size: 32px;
+	line-height: 32px;
+}
+
+/* .bosses .h1 {
+	background-color: #263238;
+} */
+
+
+/* #region -  mission border colors */
+
+#missions-general-tips-content {
+	border: 4px solid #4caf50;
+}
+
+#mission-bosses-content {
+	border: 4px solid #e53935;
+}
+
+#mission-gauntlets {
+	border: 4px solid #ffb000;
+}
+
+/* #endregion -  mission border colors */
+
+/* #region - Nav Missions Link Colors */
+
+li.ui-state-active#nav-missions-general-tips a {
+	color: #4caf50;
+}
+
+li.ui-state-active#nav-missions-bosses a {
+	color: #e53935;
+}
+
+li.ui-state-active#nav-missions-gotoorak a {
+	color: #e53935;
+}
+
+li.ui-state-active#nav-missions-molaktula a {
+	color: #e53935;
+}
+
+li.ui-state-active#nav-missions-ramok a {
+	color: #e53935;
+}
+
+
+
+
+/* #endregion - Nav Missions Link Colors */
+
+
+.reaperworm {
+	width: 200px;
+	height: 260px; 
+}
+
+.gotoorak-img1 {
+	width: 405px;
+	height: 350px; 
+}
+
+.molaktula-img1 {
+	width: 370px;
+	height: 350px; 
+}
+
+.ramok-img1 {
+	width: 240px;
+	height: 260px; 
+}
+
+#bosses-icon .h1 .icons-bosses {
+	width: 64px;
+	height: 64px;
+	vertical-align: middle;
+}
+
+td#bosses-icon .h1 {
+	font-size: 64px;
+}

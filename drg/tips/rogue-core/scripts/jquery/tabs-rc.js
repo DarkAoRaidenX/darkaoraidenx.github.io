@@ -68,3 +68,8 @@ $( function() {
   $( "#mission-tips" ).tabs();
 } );
 
+$( function() {
+  $( "#mission-bosses-content" ).tabs();
+} );
+
+

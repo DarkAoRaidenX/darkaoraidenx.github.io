@@ -234,12 +234,6 @@ $( function() {
 
 
 
-
-
-
-
-
-
 $( function() {
   $( "#mission-tips" ).tabs();
 } );

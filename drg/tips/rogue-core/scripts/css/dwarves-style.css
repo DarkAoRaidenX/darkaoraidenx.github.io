@@ -23,6 +23,12 @@ ul#nav-main-dwarves-tips li {
 	font-size: 32px;
 }
 
+.nav-dwarves-tips a,
+.nav-loadouts a,
+.nav-builds-tips a {
+	background-color: #263238;
+}
+
 ul.nav-dwarves-tips,ul.nav-loadouts,ul.nav-builds-tips {
 	line-height: 72px;
 }

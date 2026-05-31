@@ -10,7 +10,26 @@ body#general-tips {
 
 ul#nav-general-info-tips li {
 	display: block;
-} 
+}
+/* #nav-general-info-tips li {
+	position: relative;
+	top: 10px;
+} */
+
+#nav-general-info-tips li,
+#nav-gameplay-info li a {
+	background-color: #263238;
+}
+
+#nav-general-info-tips li.line-break {
+	height: 4px;
+	background-color: transparent;
+}
+
+body#general-tips .column-left {
+	height: 550px;
+	width: 410px;
+}
 
 #general-info-tips {
 	border: 4px solid #4caf50;
