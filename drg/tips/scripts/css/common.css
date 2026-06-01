@@ -219,11 +219,6 @@ ul#nav-machine-events li.nav-separator {
 	line-height: 22px;
 }
 
-table#dwarf-lingo-tips .notes-text {
-	font-size: 24px;
-	line-height: 22px;
-}
-
 .image-titles {
 	text-align: center;
 }
@@ -241,25 +236,6 @@ table#dwarf-lingo-tips .notes-text {
 6 Mods
 7 Credits / Links
 */
-
-body#general-tips .text-content-container {
-	font-size: 32px;
-}
-
-body#mods .text-content-container,
-body#links .text-content-container {
-	font-size: 24px;
-	line-height: 24px;
-}
-
-.general-loadouts-info,
-.playstyle-content .text-content {
-	font-size: 32px;
-	line-height: 36px;
-}
-
-
-
 
 .plus-minus {
 	display: inline-block;
@@ -1213,11 +1189,8 @@ a.reg-link .nav-icons,a.img-link .nav-icons,#nav-minerals-tips .nav-icons {
 }
 
 
-body#home-page .rock-n-stone,
-body#dwarves-classes-tips .rock-n-stone,
-body#general-tips .rock-n-stone, 
-body#links .rock-n-stone, 
-body#links .deep-dive-icon  {
+.rock-n-stone, 
+.deep-dive-icon  {
 	width: 40px;
 	height: 52px;
 	position: relative;
