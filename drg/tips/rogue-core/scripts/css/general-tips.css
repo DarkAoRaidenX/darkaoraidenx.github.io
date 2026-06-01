@@ -10,14 +10,15 @@ body#general-tips {
 
 ul#nav-general-info-tips li {
 	display: block;
+	font-size: 48px;
+	line-height: 50px;
 }
-/* #nav-general-info-tips li {
-	position: relative;
-	top: 10px;
-} */
+
 
 #nav-general-info-tips li,
-#nav-gameplay-info li a {
+#nav-gameplay-tips li,
+#nav-resources-tips li,
+#resources-tips li {
 	background-color: #263238;
 }
 
@@ -35,30 +36,33 @@ body#general-tips .column-left {
 	border: 4px solid #4caf50;
 }
 
-#gameplay-tips {
-	border: 4px solid #ff9c00;
+#nav-gameplay-tips li {
+	line-height: 75px;
 }
 
-#creatures-enemies-content {
-	border: 4px solid #e53935;
+#nav-gameplay-tips li,#nav-resources-tips li {
+	font-size: 40px;
 }
 
-#resources-tips {
-	border: 4px solid #ff4081;
+#nav-buried-gems-tips,
+#nav-minerals-tips,
+ul#nav-mineral-tips li.nav-separator {
+	font-size: 32px;
 }
 
-#dwarf-lingo {
-	border: 4px solid #1e88e5;
+#nav-buried-gems-tips li,#nav-minerals-tips li {
+	line-height: 64px;
 }
 
-#dwarf-rituals {
-	border: 4px solid #8bc34a;
+#resources-tips li.separator,#resources-tips-1 li.separator {
+	position: relative;
 }
 
-ul li.separator {
-	font-size: 36px;
-	color: #f89d06;
+#resources-tips-1 li.separator {
+	left: 4px;
+	font-size: 24px;
 }
+
 
 /* #region - Nav General Info Tips */
 li.ui-state-active#nav-general-tips a {
@@ -107,18 +111,35 @@ li.ui-state-active#nav-gameplay-environment a {
 
 /* #endregion - Nav Gameplay Tips */
 
-#nav-buried-gems-tips li,#nav-minerals-tips li {
-	line-height: 64px;
+/* #region - Border Colors */
+
+#gameplay-tips {
+	border: 4px solid #ff9c00;
 }
 
-#resources-tips li.separator,#resources-tips-1 li.separator {
-	position: relative;
+#creatures-enemies-content {
+	border: 4px solid #e53935;
 }
 
-#resources-tips-1 li.separator {
-	left: 4px;
-	font-size: 24px;
+#resources-tips {
+	border: 4px solid #ff4081;
 }
+
+#dwarf-lingo {
+	border: 4px solid #1e88e5;
+}
+
+#dwarf-rituals {
+	border: 4px solid #8bc34a;
+}
+
+/* #endregion - Border Colors */
+
+body#general-tips .text-content-container {
+	font-size: 32px;
+}
+
+/* #region - Tables */
 
 table.differences {
 	font-size: 24px;
@@ -127,6 +148,13 @@ table.differences {
 table.differences td.drg .h2 {
 	color: #ff9c00;
 }
+
+table#dwarf-lingo-tips .notes-text {
+	font-size: 24px;
+	line-height: 22px;
+}
+
+/* #endregion - Tables */
 
 /* #region - Nav Resources Colors */
 

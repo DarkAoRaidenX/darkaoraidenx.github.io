@@ -29,6 +29,12 @@ ul#nav-main-dwarves-tips li {
 	background-color: #263238;
 }
 
+.nav-dwarves-tips a,
+.nav-loadouts a,
+.nav-builds-tips a {
+	border: 4px solid #263238;
+}
+
 ul.nav-dwarves-tips,ul.nav-loadouts,ul.nav-builds-tips {
 	line-height: 72px;
 }
@@ -111,6 +117,7 @@ body#dwarves-classes-tips .column-left {
 
 /* #region -  Dwarves colors */
 
+ul.navs a.falconer,
 #dwarves-tips-1 li.nav-separator,
 .nav-dwarves-tips#nav-falconer-tips li.ui-state-active a,
 .nav-dwarves-tips#nav-falconer-info li.ui-state-active a {
@@ -121,6 +128,7 @@ body#dwarves-classes-tips .column-left {
 	border: 4px solid #31caf3;
 }
 
+ul.navs a.guardian,
 #dwarves-tips-2 li.nav-separator,
 .nav-dwarves-tips#nav-guardian-tips li.ui-state-active a,
 .nav-dwarves-tips#nav-guardian-info li.ui-state-active a {
@@ -131,6 +139,7 @@ body#dwarves-classes-tips .column-left {
 	border: 4px solid #f4d637;
 }
 
+ul.navs a.retcon,
 #dwarves-tips-3 li.nav-separator,
 .nav-dwarves-tips#nav-retcon-tips li.ui-state-active a,
 .nav-dwarves-tips#nav-retcon-info li.ui-state-active a {
@@ -141,6 +150,7 @@ body#dwarves-classes-tips .column-left {
 	border: 4px solid #d1ceba;
 }
 
+ul.navs a.slicer,
 #dwarves-tips-4 li.nav-separator,
 .nav-dwarves-tips#nav-slicer-tips li.ui-state-active a,
 .nav-dwarves-tips#nav-slicer-info li.ui-state-active a {
@@ -151,6 +161,7 @@ body#dwarves-classes-tips .column-left {
 	border: 4px solid #05ec46;
 }
 
+ul.navs a.spotter,
 #dwarves-tips-5 li.nav-separator,
 .nav-dwarves-tips#nav-spotter-tips li.ui-state-active a,
 .nav-dwarves-tips#nav-spotter-info li.ui-state-active a {

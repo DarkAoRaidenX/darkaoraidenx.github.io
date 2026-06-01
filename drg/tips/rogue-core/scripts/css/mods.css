@@ -6,3 +6,29 @@ body#mods {
 	no-repeat;
 	background-size: cover;	
 }
+
+body#mods .text-content-container {
+	font-size: 24px;
+	line-height: 24px;
+}
+
+/* #region - mods border colors */
+
+#mint-mod-program {
+	border: 4px solid #ff9c00;
+}
+
+#audio-visual-mods {
+	border: 4px solid #ba68c8;
+}
+
+#misc-mods {
+	border: 4px solid #29b6f6;
+}
+
+#qol-mods {
+	border: 4px solid #4caf50;
+}
+
+
+/* #endregion - mods border colors */
