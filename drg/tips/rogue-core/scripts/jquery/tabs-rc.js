@@ -69,7 +69,14 @@ $( function() {
 } );
 
 $( function() {
-  $( "#mission-bosses-content" ).tabs();
+  $( "#missions-bosses-content" ).tabs();
 } );
 
+$( function() {
+  $( "#missions-events-content" ).tabs();
+} );
+
+$( function() {
+  $( "#missions-side-objects-content" ).tabs();
+} );
 

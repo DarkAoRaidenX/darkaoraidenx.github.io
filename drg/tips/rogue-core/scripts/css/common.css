@@ -224,11 +224,12 @@ ul.navs li a,
 .highlights,
 li.nav-separator,
 .beards,
-.drg-wiki-rc {
+.drg-wiki-rc,
+table th {
 	color: #6bb7dd;
 }
 
-.drg-wiki {
+.drg-wiki,a.drg-wiki {
 	color: #ff9c00;
 }
 
@@ -417,7 +418,7 @@ li.nav-separator,
 	background-color: #2e7d32;
 }
 
-.autocannon2,.grappling-hook2,.smart-rifle2 {
+.autocannon2,.brt7-2,.grappling-hook2,.smart-rifle2 {
 	background-color: #1b5e20;
 }
 
@@ -447,10 +448,6 @@ li.nav-separator,
 
 .brt7 {
 	color: #1b5e20;
-}
-
-.brt7-2 {
-	background-color: #1b5e20;
 }
 
 .cyro,.cyro-grenade {
