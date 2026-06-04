@@ -16,9 +16,9 @@ ul#nav-general-info-tips li {
 
 
 #nav-general-info-tips li,
-#nav-gameplay-tips li,
-#nav-resources-tips li,
-#resources-tips li {
+#nav-gameplay-tips li a,
+#nav-resources-tips li a,
+#resources-tips li a {
 	background-color: #263238;
 }
 
@@ -26,6 +26,11 @@ ul#nav-general-info-tips li {
 	height: 4px;
 	background-color: transparent;
 }
+
+#nav-gameplay-tips li a {
+	line-height: 75px;
+}
+
 
 body#general-tips .column-left {
 	height: 550px;
@@ -36,9 +41,7 @@ body#general-tips .column-left {
 	border: 4px solid #4caf50;
 }
 
-#nav-gameplay-tips li {
-	line-height: 75px;
-}
+
 
 #nav-gameplay-tips li,#nav-resources-tips li {
 	font-size: 40px;
