@@ -189,6 +189,10 @@ li#nav-buried-gems-enor-pearl,li#nav-buried-gems-error-cube {
 	line-height: 40px;
 }
 
+.text-content {
+	font-size: 24px;
+	line-height: 24px;
+}
 
 #nav-buried-gems-tips,
 ul#nav-mineral-tips li.nav-separator,
