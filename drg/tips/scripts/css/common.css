@@ -144,13 +144,14 @@ li#nav-buried-gems-enor-pearl,li#nav-buried-gems-error-cube {
 
 .nav-dwarves-tips a,
 .nav-loadouts a,
-.nav-builds-tips a,
-#general-tips-content-container ul a {
+.nav-builds-tips a {
 	background-color: #263238;
 	border: 4px solid #263238;
 }
 
-
+.background-text {
+	background-color: #263238;
+}
 
 
 /* #endregion - Navs Global | Specific */
@@ -716,11 +717,7 @@ li.nav-separator,
 
 /* #region - links */
 
-.background-text,
-#nav-missions li a,
-#nav-machine-events li a {
-	background-color: #263238;
-}
+
 
 /* #region - global links */
 

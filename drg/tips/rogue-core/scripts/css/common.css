@@ -100,7 +100,7 @@ ul#nav-main-header li:hover,ul#nav-main-header li.nav-main-active  {
 
 /* #endregion - nav header buttons */
 
-ul#nav-general-info-tips,ul#nav-missions {
+ul#nav-general-info-tips {
 	text-align: left;
 }
 
@@ -698,10 +698,9 @@ a.highlighted,a.reg-link {
 }
 
 body#dwarves-classes-tips .columns,
-body#general-tips .columns,
-body#missions-tips .columns {
+body#general-tips .columns {
 	height: 850px;
-	width: 1100px;
+	width: 1125px;
 }
 
 

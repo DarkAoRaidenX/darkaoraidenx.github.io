@@ -12,11 +12,11 @@ img.buttons {
 	height: 835px;
 }
 
-ul#nav-general-tips,ul#nav-missions {
+ul#nav-general-tips,ul#nav {
 	left: 40px;
 }
 
-/* ul#nav-dwarves,ul#nav-general-tips,ul#nav-missions {
+/* ul#nav-dwarves,ul#nav-general-tips,ul#nav {
 	width: 300px;
 }
 
@@ -26,7 +26,7 @@ ul#nav-general-tips .h1 {
 	line-height: 38px;
 } */
 
-/* ul#nav-missions .h2 {
+/* ul#nav .h2 {
 	font-size: 26px;
 	line-height: 24px;
 } */

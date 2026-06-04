@@ -22,7 +22,7 @@ body#missions-tips .mission-icons, body#missions-tips .deep-dive-icon {
 
 
 body#missions-tips .column-left {
-	height: 445px;
+	height: 525px;
 	width: 420px;
 }
 
@@ -30,6 +30,17 @@ body#missions-tips .column-left {
 ul#nav-missions .h2 {
 	font-size: 36px;
 }
+
+#nav-missions li.line-break {
+	height: 4px;
+	background-color: transparent;
+}
+
+#nav-missions li,
+#nav-machine-events li {
+	background-color: #263238;
+}
+
 
 #mission-escort-duty-tips .length-complexity-content .table-headers th {
 	font-size: 24px;

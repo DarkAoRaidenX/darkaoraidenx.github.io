@@ -12,28 +12,34 @@ body#missions-tips .column-left {
 	height: 445px;
 }
 
-ul#nav-missions li {
+body#missions-tips .columns {
+	height: 850px;
+	width: 1200px;
+}
+
+ul#nav-main-missions li {
+	text-align: left;
 	display: block;
 }
 
-#nav-missions li,
+#nav-main-missions li,
 #nav-bosses li a,
-#nav-missions-events li a,
-#nav-missions-side-objects li a {
+ul#nav-main-events li a,
+#nav-main-side-objects li a {
 	background-color: #263238;
 }
 
-#nav-missions li.line-break {
+#nav-main-missions li.line-break {
 	height: 4px;
 	background-color: transparent;
 }
 
-#nav-missions-events .h2 {
+ul#nav-main-events .h2 {
 	font-size: 24px;
 	line-height: 32px;
 }
 
-ul#nav-missions-events .nav-icons {
+ul#nav-main-events .nav-icons {
 	top: 4px;
 	/* width: 48px; */
 	height: 24px;
@@ -76,47 +82,47 @@ ul#nav-missions-events .nav-icons {
 
 /* #region - Nav Missions Link Colors */
 
-li.ui-state-active#nav-missions-general-tips a {
+li.ui-state-active#nav-general-tips-link a {
 	color: #4caf50;
 }
 
-li.ui-state-active#nav-missions-bosses a,
-li.ui-state-active#nav-missions-gotoorak a,
-li.ui-state-active#nav-missions-molaktula a {
+li.ui-state-active#nav-bosses-link a,
+li.ui-state-active#nav-gotoorak a,
+li.ui-state-active#nav-molaktula a {
 	color: #e53935;
 }
 
 
-li.ui-state-active#nav-missions-ramok a {
+li.ui-state-active#nav-ramok a {
 	color: #e53935;
 }
 
-li.ui-state-active#nav-missions-events a {
+li.ui-state-active#nav-events-link a {
 	color: #68C900;
 }
 
-#nav-missions-events li.ui-state-active a {
+ul#nav-main-events li.ui-state-active a {
 	color: #68C900;
 }
 
 
-li.ui-state-active#nav-missions-side-objects a {
+li.ui-state-active#nav-side-objects-link a {
 	color: #616161;
 }
 
-li.ui-state-active#nav-missions-cameras a {
+li.ui-state-active#nav-cameras a {
 	color: #616161;
 }
 
-li.ui-state-active#nav-missions-data-terminals a {
+li.ui-state-active#nav-data-terminals a {
 	color: #f4511e;
 }
 
-li.ui-state-active#nav-missions-expenite-buckets a {
+li.ui-state-active#nav-expenite-buckets a {
 	color: #68C900;
 }
 
-li.ui-state-active#nav-missions-mules a {
+li.ui-state-active#nav-mules a {
 	color: #bf360c;
 }
 

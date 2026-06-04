@@ -11,6 +11,19 @@ body#general-tips .text-content-container {
 	font-size: 32px;
 }
 
+#nav-general-info-tips li,
+#nav-gameplay-tips li a,
+#nav-resources-tips li a,
+#resources-tips li a {
+	background-color: #263238;
+}
+
+
+#nav-general-info-tips li.line-break {
+	height: 4px;
+	background-color: transparent;
+}
+
 .general-loadouts-info,
 .playstyle-content .text-content {
 	font-size: 32px;
