@@ -32,7 +32,7 @@ body {
 #general-tips-content-container ul a,
 .nav-loadouts a,
 .nav-builds-tips a,
-#nav-missions li a,
+#nav-main-missions li a,
 #nav-machine-events a,
 .sup-text,
 .white {
@@ -122,11 +122,11 @@ ul#nav-main-header li:hover,ul#nav-main-header li.nav-main-active  {
 
 /* #endregion - nav header buttons */
 
-ul#nav-general-info-tips,ul#nav-missions {
+ul#nav-general-info-tips,ul#nav-main-missions {
 	text-align: left;
 }
 
-ul#nav-general-info-tips li,ul#nav-missions li {
+ul#nav-general-info-tips li,ul#nav-main-missions li {
 	display: block;
 } 
 
@@ -742,7 +742,7 @@ body#dwarves-classes-tips ul a,
 #general-tips-content-container ul a,
 ul#nav-gameplay-tips a,
 #general-tips-4 ul a,
-ul#nav-missions a,
+ul#nav-main-missions a,
 ul#nav-machine-events a  {
 	text-decoration: none;
 }

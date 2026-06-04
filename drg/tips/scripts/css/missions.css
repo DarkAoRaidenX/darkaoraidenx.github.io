@@ -27,16 +27,16 @@ body#missions-tips .column-left {
 }
 
 
-ul#nav-missions .h2 {
+ul#nav-main-missions .h2 {
 	font-size: 36px;
 }
 
-#nav-missions li.line-break {
+#nav-main-missions li.line-break {
 	height: 4px;
 	background-color: transparent;
 }
 
-#nav-missions li,
+#nav-main-missions li,
 #nav-machine-events li {
 	background-color: #263238;
 }
@@ -117,47 +117,47 @@ table.length-complexity-content td.tips {
 
 /* #region - Nav Missions Link Colors */
 
-li.ui-state-active#nav-missions-egg-hunt a {
+li.ui-state-active#nav-egg-hunt-link a {
 	color: #b8008c;
 }
 
-li.ui-state-active#nav-missions-dreadnoughts a {
+li.ui-state-active#nav-dreadnoughts-link a {
 	color: #dbda00;
 }
 
-li.ui-state-active#nav-missions-escort a {
+li.ui-state-active#nav-escort-link a {
 	color: #03ffA1;
 }
 
-li.ui-state-active#nav-missions-heavy-extraction a {
+li.ui-state-active#nav-heavy-extraction-link a {
 	color: #ffb000;
 }
 
-li.ui-state-active#nav-missions-industrial-sabotage a {
+li.ui-state-active#nav-industrial-sabotage-link a {
 	color: #bb2bff;
 }
 
-li.ui-state-active#nav-missions-morkite a {
+li.ui-state-active#nav-morkite-link a {
 	color: #00695c;
 }
 
-li.ui-state-active#nav-missions-on-site-refining a {
+li.ui-state-active#nav-on-site-refining-link a {
 	color: #0070fe;
 }
 
-li.ui-state-active#nav-missions-point-extraction a {
+li.ui-state-active#nav-point-extraction-link a {
 	color: #68C900;
 }
 
-li.ui-state-active#nav-missions-mules a {
+li.ui-state-active#nav-mules-link a {
 	color: #00d6d9;
 }
 
-li.ui-state-active#nav-missions-deep-dives a {
+li.ui-state-active#nav-deep-dives-link a {
 	color: #ffb000;
 }
 
-li.ui-state-active#nav-missions-machine-events a {
+li.ui-state-active#nav-machine-events-link a {
 	color: #546e7a;
 }
 
