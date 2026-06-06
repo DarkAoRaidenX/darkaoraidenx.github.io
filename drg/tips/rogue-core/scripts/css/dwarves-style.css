@@ -77,13 +77,19 @@ table.skills-content,table.weapon-tips {
 }
 
 
-table.weapon-builds {
-	font-size: 32px;
+table.weapon-builds,.loadouts-content .table-headers {
 	line-height: 40px;
 }
 
+
+table.weapon-builds,
+.loadouts-content .table-headers, 
 .perk-decks-comments {
 	font-size: 32px;
+}
+
+table.loadout-builds td {
+	font-size: 24px;
 }
 
 #dwarves-tips {

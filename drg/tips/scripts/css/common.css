@@ -122,11 +122,11 @@ ul#nav-main-header li:hover,ul#nav-main-header li.nav-main-active  {
 
 /* #endregion - nav header buttons */
 
-ul#nav-general-info-tips,ul#nav-main-missions {
+ul#nav-main-general-info-tips,ul#nav-main-missions {
 	text-align: left;
 }
 
-ul#nav-general-info-tips li,ul#nav-main-missions li {
+ul#nav-main-general-info-tips li,ul#nav-main-missions li {
 	display: block;
 } 
 
@@ -176,7 +176,7 @@ li#nav-buried-gems-enor-pearl,li#nav-buried-gems-error-cube {
 
 /* #region - text */
 
-.h1,#nav-general-info-tips li {
+.h1,#nav-main-general-info-tips li {
 	font-size: 48px;
 	line-height: 50px;
 }

@@ -100,7 +100,7 @@ ul#nav-main-header li:hover,ul#nav-main-header li.nav-main-active  {
 
 /* #endregion - nav header buttons */
 
-ul#nav-general-info-tips {
+ul#nav-main-general-info-tips {
 	text-align: left;
 }
 
@@ -410,7 +410,7 @@ table th {
 /* #endregion - gems / minerals colors & More */
 
 /* #region - Weapons Colors & More */
-.autocannon,.grappling-hook,.ripper,.smart-rifle,.text-secondary {
+.autocannon,.beltstrom,.grappling-hook,.ripper,.smart-rifle,.text-secondary {
 	color: #2e7d32;
 }
 

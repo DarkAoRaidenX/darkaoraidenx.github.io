@@ -11,15 +11,14 @@ body#general-tips .text-content-container {
 	font-size: 32px;
 }
 
-#nav-general-info-tips li,
+#nav-main-general-info-tips li,
 #nav-gameplay-tips li a,
-#nav-resources-tips li a,
-#resources-tips li a {
+#resources-tips-container li a {
 	background-color: #263238;
 }
 
 
-#nav-general-info-tips li.line-break {
+#nav-main-general-info-tips li.line-break {
 	height: 4px;
 	background-color: transparent;
 }
@@ -35,27 +34,27 @@ table#dwarf-lingo-tips .notes-text {
 	line-height: 22px;
 }
 
-#general-info-tips {
+#general-info-tips-container {
 	border: 4px solid #4caf50;
 }
 
-#gameplay-tips {
+#gameplay-tips-container {
 	border: 4px solid #ff9c00;
 }
 
-#creatures-enemies-content {
+#creatures-enemies-container {
 	border: 4px solid #e53935;
 }
 
-#resources-tips {
+#resources-tips-container {
 	border: 4px solid #ff4081;
 }
 
-#dwarf-lingo {
+#dwarf-lingo-container {
 	border: 4px solid #1e88e5;
 }
 
-#dwarf-rituals {
+#dwarf-rituals-container {
 	border: 4px solid #8bc34a;
 }
 

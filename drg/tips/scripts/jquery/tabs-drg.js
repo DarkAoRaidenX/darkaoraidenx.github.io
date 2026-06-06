@@ -3,11 +3,11 @@ $( function() {
 } );
 
 $( function() {
-$( "#gameplay-tips" ).tabs();
+$( "#gameplay-tips-container" ).tabs();
 } );
 
 $( function() {
-$( "#resources-tips" ).tabs();
+$( "#resources-tips-container" ).tabs();
 } );
 
 $( function() {

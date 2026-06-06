@@ -8,21 +8,20 @@ body#general-tips {
 }
 
 
-ul#nav-general-info-tips li {
+ul#nav-main-general-info-tips li {
 	display: block;
 	font-size: 48px;
 	line-height: 50px;
 }
 
 
-#nav-general-info-tips li,
+#nav-main-general-info-tips li,
 #nav-gameplay-tips li a,
-#nav-resources-tips li a,
 #resources-tips li a {
 	background-color: #263238;
 }
 
-#nav-general-info-tips li.line-break {
+#nav-main-general-info-tips li.line-break {
 	height: 4px;
 	background-color: transparent;
 }
@@ -125,7 +124,7 @@ li.ui-state-active#nav-gameplay-environment a {
 }
 
 #resources-tips {
-	border: 4px solid #ff4081;
+	border: 4px solid #68C900;
 }
 
 #dwarf-lingo {
