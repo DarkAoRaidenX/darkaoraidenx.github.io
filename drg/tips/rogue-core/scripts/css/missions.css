@@ -74,7 +74,7 @@ ul#nav-main-events .nav-icons {
 	border: 4px solid #616161;
 }
 
-#mission-gauntlets {
+#missions-gauntlets {
 	border: 4px solid #ffb000;
 }
 
@@ -126,6 +126,9 @@ li.ui-state-active#nav-mules a {
 	color: #bf360c;
 }
 
+li.ui-state-active#nav-link-gauntlets a {
+	color: #ffb000;
+}
 
 
 /* #endregion - Nav Missions Link Colors */
