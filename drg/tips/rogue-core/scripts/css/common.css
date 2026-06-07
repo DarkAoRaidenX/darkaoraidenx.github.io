@@ -356,7 +356,7 @@ table th {
 	background-color: #b93253;
 }
 
-.gauntlets {
+.gauntlets, a.gauntlets {
 	color: #ffb000;
 }
 
@@ -422,7 +422,12 @@ table th {
 	background-color: #1b5e20;
 }
 
-.auto-shotgun,.boltshark,.coil-gun,.drills,.resources-buried-gems {
+.auto-shotgun,
+.boltshark,
+.coil-gun,
+.drills,
+.mm4-charge-blaster,
+.resources-buried-gems {
 	color: #8d6e63;
 }
 
