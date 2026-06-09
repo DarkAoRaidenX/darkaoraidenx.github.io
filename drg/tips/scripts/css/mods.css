@@ -8,6 +8,87 @@ body#mods {
 }
 
 body#mods .text-content-container {
-	font-size: 24px;
-	line-height: 24px;
+	font-size: 32px;
+	line-height: 32px;
 }
+
+#nav-main-mods li {
+	font-size: 48px;
+	line-height: 50px;
+}
+
+#nav-main-mods li a {
+	color: #fafafa;
+	text-decoration: none;
+	/* #eceff1 another white */
+}
+
+#nav-main-mods li {
+	background-color: #263238;
+}
+
+body#mods .columns {
+	height: 850px;
+	width: 1250px;
+}
+
+#mods-info-container {
+	border: 4px solid #ff9c00;
+}
+
+#mods-audio-visual-container {
+	border: 4px solid #ba68c8;
+}
+
+#mods-misc-container {
+	border: 4px solid #29b6f6;
+}
+
+#mods-qol-container {
+	border: 4px solid #4caf50;
+}
+
+#mods-mint-container {
+	border: 4px solid #3eb489;
+}
+
+li.ui-state-active#nav-link-info a {
+	color: #ff9c00;
+}
+
+li.ui-state-active#nav-link-audio-visual a {
+	color: #ba68c8;
+}
+
+li.ui-state-active#nav-link-misc a {
+	color: #29b6f6;
+}
+
+li.ui-state-active#nav-link-qol a {
+	color: #4caf50;
+}
+
+li.ui-state-active#nav-link-mint a {
+	color: #3eb489;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

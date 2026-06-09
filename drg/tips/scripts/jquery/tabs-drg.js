@@ -241,3 +241,7 @@ $( function() {
 $( function() {
   $( "#machine-events" ).tabs();
 } );
+
+$( function() {
+  $( "#mods-content" ).tabs();
+} );
