@@ -53,6 +53,10 @@ ul.nav-loadouts {
 	line-height: 48px;
 }
 
+#dwarves-tips,table.loadout-builds .fa-circle {
+	position: relative;
+}
+
 table td {
 	vertical-align: top;
 }
@@ -88,12 +92,33 @@ table.weapon-builds,
 	font-size: 32px;
 }
 
+table.loadout-builds {
+	min-height: 500px;
+}
+
+table.loadout-builds th {
+	height: 20px;
+}
+
 table.loadout-builds td {
+	width: 500px;
 	font-size: 24px;
 }
 
+table.loadout-builds .plus-minus {
+	font-size: 64px;
+}
+
+table.loadout-builds .fa-circle {
+	top: -4px;
+	font-size: 12px;
+}
+
+table.loadout-builds span.h2 {
+	font-size: 32px;
+}
+
 #dwarves-tips {
-	position: relative;
 	top: 25px;
 }
 

@@ -259,23 +259,23 @@ table th {
 	color: #008000;
 }
 
-.falconer {
+.falconer,a.falconer {
 	color: #31caf3;
 }
 
-.guardian {
+.guardian,a.guardian {
 	color: #f4d637;	
 }
 
-.retcon {
+.retcon,a.retcon {
 	color: #d1ceba;
 }
 
-.slicer {
+.slicer,a.slicer {
 	color: #05ec46;
 }
 
-.spotter {
+.spotter,a.spotter {
 	color: #d43c00;	
 }
 
@@ -312,27 +312,27 @@ table th {
 
 /* #endregion - names colors */
 
-.artifacts {
+.artifacts,a.artifacts {
 	color: #da4542;	
 }
 
-.common {
+.common,a.common {
 	color: #b3ada4;	
 }
 
-.uncommon  {
+.uncommon,a.uncommon {
 	color: #24f28b;	
 }
 
-.rare {
+.rare,a.rare {
 	color: #46a2f2;	
 }
 
-.epic {
+.epic,a.epic {
 	color: #c66cc6;	
 }
 
-.legendary {
+.legendary,a.legendary {
 	color: #e28b3c;	
 }
 
