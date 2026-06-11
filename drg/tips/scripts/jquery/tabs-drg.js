@@ -239,7 +239,7 @@ $( function() {
 } );
 
 $( function() {
-  $( "#machine-events" ).tabs();
+  $( "#machine-events-container" ).tabs();
 } );
 
 $( function() {

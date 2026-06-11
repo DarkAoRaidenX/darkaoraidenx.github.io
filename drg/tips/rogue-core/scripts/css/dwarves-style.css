@@ -114,6 +114,10 @@ table.loadout-builds .fa-circle {
 	font-size: 12px;
 }
 
+table.loadout-builds .h1 {
+	line-height: 64px;
+}
+
 table.loadout-builds span.h2 {
 	font-size: 32px;
 }
