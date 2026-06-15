@@ -130,6 +130,10 @@ table.searchable-tables img.full {
 	width: 50%;
 	height: 50%;
 }
+#trident-des .weapon-image img.full {
+	width: 90%;
+}
+
 #satchel-charge-c4 .equipment-image img.full,
 #shield-generator .equipment-image img.full {
 	width: 25%;
