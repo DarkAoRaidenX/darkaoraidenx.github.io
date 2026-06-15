@@ -7,17 +7,50 @@ body#general-tips {
 	background-size: cover;
 }
 
+body#general-tips .column-left {
+	height: 550px;
+	width: 350px;
+}
+
+body#general-tips .columns {
+	height: 850px;
+	width: 1190px;
+}
 
 ul#nav-main-general-info-tips li {
 	display: block;
-	font-size: 48px;
 	line-height: 50px;
+}
+
+ul#nav-gear-tips .nav-icons,
+ul#nav-upgrades-tips .nav-icons  {
+	top: 4px;
+	/* width: 48px; */
+	height: 40px;
+	left: 0;
+}
+
+#nav-resources-tips li,
+#nav-buried-gems-tips,
+#nav-minerals-tips {
+	font-size: 48px;
+}
+
+#nav-gear-tips li
+,#nav-upgrades-tips li {
+	font-size: 40px;
+}
+
+ul#nav-main-general-info-tips li {
+	font-size: 40px;
 }
 
 
 #nav-main-general-info-tips li,
 #nav-gameplay-tips li a,
-#resources-tips li a {
+#resources-tips li a,
+#nav-gear-tips li a,
+#nav-upgrades-tips li a {
 	background-color: #263238;
 }
 
@@ -30,27 +63,22 @@ ul#nav-main-general-info-tips li {
 	line-height: 75px;
 }
 
-
-body#general-tips .column-left {
-	height: 550px;
-	width: 410px;
+#gear-tips-content .hidden.text-content-container,
+#upgrades-tips-content .hidden.text-content-container {
+	margin:0 auto;
+	width: 290px;
+	background-color: #212121;
 }
+
 
 #general-info-tips {
 	border: 4px solid #4caf50;
 }
 
-
-
-#nav-gameplay-tips li,#nav-resources-tips li {
+#nav-gameplay-tips li {
 	font-size: 40px;
 }
 
-#nav-buried-gems-tips,
-#nav-minerals-tips,
-ul#nav-mineral-tips li.nav-separator {
-	font-size: 32px;
-}
 
 #nav-buried-gems-tips li,#nav-minerals-tips li {
 	line-height: 64px;
@@ -63,6 +91,63 @@ ul#nav-mineral-tips li.nav-separator {
 #resources-tips-1 li.separator {
 	left: 4px;
 	font-size: 24px;
+}
+
+#gear-tips-content,
+#upgrades-tips-content {
+	font-size: 24px;
+}
+
+#gear-tips-content .hidden.text-content-container,
+#upgrades-tips-content .hidden.text-content-container {
+	font-size: 20px;
+}
+
+
+table.searchable-tables th {
+	font-size: 48px;
+	line-height: 40px;
+	background-color: #212121;
+}
+
+table.searchable-tables td {
+	vertical-align: top;
+	font-size: 24px;
+	line-height: 32px;
+}
+
+#weapons-data td {
+	height: 610px;
+}
+
+#traversal-tools-data td,
+#support-tools-data td {
+	height: 550px;
+}
+
+
+table.searchable-tables img.full {
+	width: 50%;
+	height: 50%;
+}
+#satchel-charge-c4 .equipment-image img.full,
+#shield-generator .equipment-image img.full {
+	width: 25%;
+}
+
+table.searchable-tables .sup-text {
+	font-size: 24px;
+}
+
+body#general-tips table.dataTable > tbody > tr > th, 
+body#general-tips table.dataTable > tbody > tr > td {
+	padding: 0;
+}
+
+
+.h2 .plus-minus {
+	position: relative;
+	top: 4px;
 }
 
 
@@ -83,6 +168,14 @@ li.ui-state-active#nav-resources a {
 	color: #68C900;
 }
 
+li.ui-state-active#nav-main-gear a {
+	color: #616161;
+}
+
+li.ui-state-active#nav-main-upgrades a {
+	color: #e28b3c;
+}
+
 li.ui-state-active#nav-dwarf-lingo a {
 	color: #1e88e5;
 }
@@ -91,7 +184,6 @@ li.ui-state-active#nav-dwarf-rituals a {
 	color: #8bc34a;
 }
 /* #endregion - Nav General Info Tips */
-
 
 /* #region - Nav Gameplay Tips */
 
@@ -125,6 +217,14 @@ li.ui-state-active#nav-gameplay-environment a {
 
 #resources-tips {
 	border: 4px solid #68C900;
+}
+
+#gear-tips-content {
+	border: 4px solid #616161;
+}
+
+#upgrades-tips-content {
+	border: 4px solid #e28b3c;
 }
 
 #dwarf-lingo {
@@ -188,6 +288,33 @@ li.ui-state-active#nav-minerals-red-sugar a {
 
 /* #endregion - Nav Minerals Colors */
 
+/* #region - Nav Weapons and More Tips */
+
+li.ui-state-active#nav-weapons-tips a {
+	color: #607d8b;
+}
+
+li.ui-state-active#nav-traversal-tools-tips a {
+	color: #8d6e63;
+}
+
+li.ui-state-active#nav-support-tools-tips a {
+	color: #2e7d32;
+}
+
+li.ui-state-active#nav-grenades-tips a {
+	color: #d84315;
+}
+
+li.ui-state-active#nav-player-upgrades-tips a {
+	color: #68C900;
+}
+
+li.ui-state-active#nav-cooper-upgrades-tips a {
+	color: #68C900;
+}
+
+/* #endregion - Nav Weapons and More Tips */
 
 #resources-tips-2 .tips-content,#resources-tips-3 .tips-content {
 	position: relative;
@@ -197,3 +324,29 @@ li.ui-state-active#nav-minerals-red-sugar a {
 /* #region - Border Colors */
 
 /* #endregion - Border Colors */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

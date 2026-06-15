@@ -161,6 +161,13 @@ ul#nav-main-general-info-tips {
 	line-height: 22px;
 }
 
+.hover-over {
+	cursor: help;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+
+
 .image-titles {
 	text-align: center;
 }
@@ -468,7 +475,8 @@ table th {
 }
 
 .deepcore-40mm2 {
-	background-color: #607d8b;
+	background-color: #616161;
+	/* 607d8b - lighter grey */
 }
 
 .deepcore-gk2,.text-primary,.dwarf-lingo,.subata, #dwarf-lingo .h1,#dwarf-lingo .h1 a,.gameplay-dwarves,.voltaic-stun-sweeper {
@@ -702,11 +710,7 @@ a.highlighted,a.reg-link {
 	overflow-y: auto;
 }
 
-body#dwarves-classes-tips .columns,
-body#general-tips .columns {
-	height: 850px;
-	width: 1125px;
-}
+
 
 
 body#mods .columns {
@@ -892,12 +896,21 @@ ul .nav-icons,
 	position: relative;
 }
 
-ul .nav-icons,.h1 a.reg-link .nav-icons,.header-icons  {
+ul .nav-icons  {
+	top: 4px;
+	/* width: 48px; */
+	height: 48px;
+	left: 0;
+}
+
+.h1 a.reg-link .nav-icons,.header-icons  {
 	top: 8px;
 	/* width: 48px; */
 	height: 48px;
 	left: 0;
 }
+
+
 
 
 a.reg-link .nav-icons,a.img-link .nav-icons,#nav-minerals-tips .nav-icons {

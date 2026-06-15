@@ -18,6 +18,14 @@ $( function() {
 $( "#buried-gems-tips" ).tabs();
 } );
 
+$( function() {
+$( "#gear-tips-content" ).tabs();
+} );
+
+$( function() {
+$( "#upgrades-tips-content" ).tabs();
+} );
+
 
 $( function() {
   $( "#dwarves-tips" ).tabs();

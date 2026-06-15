@@ -126,6 +126,11 @@ table.loadout-builds span.h2 {
 	top: 25px;
 }
 
+body#dwarves-classes-tips .columns {
+	height: 850px;
+	width: 1125px;
+}
+
 body#dwarves-classes-tips .column-left {
 	height: 810px;
 	width: 420px;
