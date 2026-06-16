@@ -23,7 +23,7 @@ ul#nav-main-general-info-tips li {
 }
 
 ul#nav-gear-tips .nav-icons,
-ul#nav-upgrades-tips .nav-icons  {
+ul#nav-main-upgrades-tips .nav-icons  {
 	top: 4px;
 	/* width: 48px; */
 	height: 40px;
@@ -36,8 +36,9 @@ ul#nav-upgrades-tips .nav-icons  {
 	font-size: 48px;
 }
 
-#nav-gear-tips li
-,#nav-upgrades-tips li {
+#nav-gear-tips li,
+#nav-main-upgrades-tips li,
+#nav-player-upgrades-rarities li {
 	font-size: 40px;
 }
 
@@ -50,7 +51,8 @@ ul#nav-main-general-info-tips li {
 #nav-gameplay-tips li a,
 #resources-tips li a,
 #nav-gear-tips li a,
-#nav-upgrades-tips li a {
+#nav-main-upgrades-tips li a,
+#nav-player-upgrades-rarities li a {
 	background-color: #263238;
 }
 
@@ -125,6 +127,62 @@ table.searchable-tables td {
 	height: 550px;
 }
 
+.upgrades-data .nav-icons  {
+	position: relative;
+	top: 4px;
+	/* width: 48px; */
+	height: 32px;
+	left: 0;
+}
+
+
+
+li.ui-state-active#nav-rarity-common a,
+body#general-tips #upgrades-common .h1.common,
+body#general-tips #upgrades-common .h1.common a {
+	color: #BeB18c;
+}
+
+li.ui-state-active#nav-rarity-uncommon a,
+body#general-tips #upgrades-uncommon .h1.uncommon,
+body#general-tips #upgrades-uncommon .h1.uncommon a {
+	color: #24f28b;
+}
+
+li.ui-state-active#nav-rarity-rare a,
+body#general-tips #upgrades-rare .h1.rare,
+body#general-tips #upgrades-rare .h1.rare a {
+	color: #46a2f2;
+}
+
+li.ui-state-active#nav-rarity-epic a,
+body#general-tips #upgrades-epic .h1.epic,
+body#general-tips #upgrades-epic .h1.epic a {
+	color: #c66cc6;
+}
+
+li.ui-state-active#nav-rarity-legendary a,
+body#general-tips #upgrades-legendary .h1.legendary,
+body#general-tips #upgrades-legendary .h1.legendary a {
+	color: #e28b3c;
+}
+
+li.ui-state-active#nav-rarity-artifacts a,
+body#general-tips #upgrades-artifacts .h1.artifacts,
+body#general-tips #upgrades-artifacts .h1.artifacts a {
+	color: #da4542;
+}
+
+body#general-tips .upgrades-data .h3 {
+	color: #fafafa;
+}
+
+#upgrades-image .h1 a.reg-link .nav-icons {
+	top: 8px;
+	width: 48px;
+	height: 64px;
+	left: 0;
+}
 
 table.searchable-tables img.full {
 	width: 50%;

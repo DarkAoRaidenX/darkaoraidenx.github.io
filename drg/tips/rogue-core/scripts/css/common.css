@@ -141,8 +141,8 @@ ul#nav-main-general-info-tips {
 
 
 .h3,.header-text {
-	font-size: 24px;
-	line-height: 24px;
+	font-size: 32px;
+	line-height: 32px;
 }
 
 .aka {
@@ -213,7 +213,8 @@ body {
 
 ul.navs li a,
 .sup-text,
-.white {
+.white,
+.h1 .white {
 	color: #fafafa;
 	/* #eceff1 another white */
 }
@@ -324,7 +325,11 @@ table th {
 }
 
 .common,a.common {
-	color: #b3ada4;	
+	color: #BeB18c;	
+}
+
+.common2 {
+	background-color: #BeB18c;
 }
 
 .uncommon,a.uncommon {
@@ -891,6 +896,8 @@ a.reg-link .nav-icons,
 a.img-link .nav-icons,
 ul .nav-icons,
 .h1 a.reg-link .nav-icons,
+.h1 .nav-icons,
+.h3 .nav-icons,
 #nav-minerals-tips .nav-icons,
 .header-icons {
 	position: relative;
@@ -903,7 +910,8 @@ ul .nav-icons  {
 	left: 0;
 }
 
-.h1 a.reg-link .nav-icons,.header-icons  {
+.h1 .nav-icons,
+.header-icons  {
 	top: 8px;
 	/* width: 48px; */
 	height: 48px;
@@ -911,9 +919,19 @@ ul .nav-icons  {
 }
 
 
+.h3 .nav-icons  {
+	top: 4px;
+	/* width: 48px; */
+	height: 32px;
+	left: 0;
+}
 
 
-a.reg-link .nav-icons,a.img-link .nav-icons,#nav-minerals-tips .nav-icons {
+
+
+a.reg-link .nav-icons,
+a.img-link .nav-icons,
+#nav-minerals-tips .nav-icons {
 	top: 4px;
 	width: 32px;
 	height: 32px;

@@ -280,6 +280,50 @@
 												<tr>
 													
 													<td class="drg tips">
+														Prestiges: 
+														<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Promotion" target="_blank">
+															<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Promotion_StarGold.png" alt="Image">
+															Promotions
+														</a>
+
+													</td>
+
+													
+													<td class="drg-rc tips">
+														Prestiges: 
+														<a title="DRG Wiki: Rogue Core" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Ascension" target="_blank">
+															<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Promotion_StarGold.png" alt="Image">
+															Ascensions
+														</a>
+														
+													</td>
+
+												</tr>
+												<tr>
+													
+													<td class="drg tips">
+														Currency: 
+														<a title="DRG Wiki" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Credits" target="_blank">
+															<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Credit.png" alt="Image">
+															Credits
+														</a>
+
+													</td>
+
+													
+													<td class="drg-rc tips">
+														Currency: 
+														<a title="DRG Wiki: Rogue Core" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Resources#Merits" target="_blank">
+															<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Resource_Merit.png" alt="Image">
+															Merits
+														</a>
+														
+													</td>
+
+												</tr>
+												<tr>
+													
+													<td class="drg tips">
 
 														<div class="h2">
 															Gameplay
@@ -356,28 +400,7 @@
 													</td>
 
 												</tr>
-												<tr>
-													
-													<td class="drg tips">
-
-														<a title="Credits" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Credits" target="_blank">
-															<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Credit.png" alt="Image">
-															Credits
-														</a>
-
-													</td>
-
-													
-													<td class="drg-rc tips">
-
-														<a title="Merits" class="reg-link" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Resources#Merits" target="_blank">
-															<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Resource_Merit.png" alt="Image">
-															Merits
-														</a>
-														
-													</td>
-
-												</tr>
+												
 												
 											</table>
 
@@ -4454,7 +4477,7 @@
 													</div>
 
 													<span class="highlights">+50%</span>
-													<img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Upgrade_Ricoshet.png" alt="Image">
+													<img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_AmmoBoost.png" alt="Image">
 													<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('shock-striker-ammo-carried');">
 														Ammo Carried<div class="plus-minus">+</div>
 														<br> 
@@ -6593,11 +6616,24 @@
 													<span class="highlights">+35%</span>
 													<img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Upgrade_Speed.png" alt="Image">
 													Reload Speed
+
 													<br>
-													<span class="highlights">+50%</span> 
+													<span class="highlights">+50%</span>
 													<img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_AmmoBoost.png" alt="Image">
-													Ammo Carried
-													<br>
+													<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('flare-gun-ammo-carried');">
+														Ammo Carried<div class="plus-minus">+</div>
+														<br> 
+													</a>
+													<div id="flare-gun-ammo-carried" class="hidden text-content-container">
+														Max Ammo
+														<br>
+														How much ammunition 
+														<br>
+														you can carry with 
+														<br>
+														the given weapon.
+													</div>
+
 													<span class="highlights">+100%</span> Rate of Fire
 
 												</td>
@@ -6682,10 +6718,23 @@
 													<span class="highlights">+35%</span>
 													<img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Upgrade_Speed.png" alt="Image">
 													Reload Speed
+
 													<br>
-													<span class="highlights">+50%</span> 
+													<span class="highlights">+50%</span>
 													<img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_AmmoBoost.png" alt="Image">
-													Ammo Carried
+													<a title="Click To Show" class="header-link hide-show" href="javascript:toggleDiv('platform-gun-ammo-carried');">
+														Ammo Carried<div class="plus-minus">+</div>
+														<br> 
+													</a>
+													<div id="platform-gun-ammo-carried" class="hidden text-content-container">
+														Max Ammo
+														<br>
+														How much ammunition 
+														<br>
+														you can carry with 
+														<br>
+														the given weapon.
+													</div>
 													
 
 												</td>
@@ -8300,8 +8349,8 @@
 
 						<div id="upgrades-tips-content" class="columns">
 
-							<!-- Nav - Gear -->
-								<ul id="nav-upgrades-tips" class="navs">
+							<!-- Nav - Upgrades -->
+								<ul id="nav-main-upgrades-tips" class="navs">
 
 									<li id="nav-player-upgrades-tips">
 										<a title="Click To Show" class="header-link" href="#player-upgrades-tips">
@@ -8322,8 +8371,3047 @@
 								</ul>
 
 								<div id="player-upgrades-tips" class="hidden">
-									Player
 
+									<div class="h2">
+										Updated: Update 1 - 06-17-2026
+									</div>
+									<ul id="nav-player-upgrades-rarities" class="navs">
+
+										<li id="nav-rarity-common">
+											<a title="Click To Show" class="header-link" href="#rarity-common">
+												Common
+											</a>
+										</li>
+
+										<li class="nav-separator">|</li>
+
+										<li id="nav-rarity-uncommon">
+											<a title="Click To Show" class="header-link" href="#rarity-uncommon">
+												Uncommon
+											</a>
+										</li>
+
+										<li class="nav-separator">|</li>
+
+										<li id="nav-rarity-rare">
+											<a title="Click To Show" class="header-link" href="#rarity-rare">
+												Rare
+											</a>
+										</li>
+
+										<li class="nav-separator">|</li>
+
+										<li id="nav-rarity-epic">
+											<a title="Click To Show" class="header-link" href="#rarity-epic">
+												Epic
+											</a>
+										</li>
+
+										<li class="nav-separator">|</li>
+
+										<li id="nav-rarity-legendary">
+											<a title="Click To Show" class="header-link" href="#rarity-legendary">
+												Legendary
+											</a>
+										</li>
+
+										<li class="nav-separator">|</li>
+
+										<li id="nav-rarity-artifacts">
+											<a title="Click To Show" class="header-link" href="#rarity-artifacts">
+												Artifacts
+											</a>
+										</li>
+									</ul>
+									
+									<div id="rarity-common" class="hidden">
+										<table id="upgrades-common" class="display searchable-tables upgrades-data">
+											<thead>
+												<tr>
+													<th>Upgrade</th>
+													<th>Notes</th>
+												</tr>
+											</thead>
+											<tbody>
+
+												<!-- #region - Common -->
+													<tr id="common-adaptability">
+														<td class="upgrades-image">
+															<div class="h1 common">
+																<span class="hidden">Tier 1</span>
+																Common
+															</div>
+															<div class="h1 common">
+																<a title="DRG Wiki: Rogue Core" class="common" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Adaptability.png" alt="Image">
+																	Adaptability
+																</a>
+															</div>
+															<div class="h3">
+																Everytime you hit an <span class="enemies">enemy</span> you get 
+																<br>
+																<span class="green">+1%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_CriticalChance_Colored.png" alt="Image"> Critical Chance 
+																<br>
+																until you inflict a Critical Hit. 
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="common-adhesive-snare">
+														<td class="upgrades-image">
+															<div class="h1 common">
+																<span class="hidden">Tier 1</span>
+																Common
+															</div>
+															<div class="h1 common">
+																<a title="DRG Wiki: Rogue Core" class="common" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_StickyTrap.png" alt="Image">
+																	Adhesive Snare
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+50%</span> chance 
+																<br>
+																to spawn an Adhesive Snare on kill 
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															
+															<br><br>
+															Adhesive Snare does 
+															<br>
+															<span class="highlights">99%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Upgrade_Slowdown_Colored.png" alt="Image"> Slowdown. 
+														</td>
+													</tr>
+													<tr id="common-blaze-charge">
+														<td class="upgrades-image">
+															<div class="h1 common">
+																<span class="hidden">Tier 1</span>
+																Common
+															</div>
+															<div class="h1 common">
+																<a title="DRG Wiki: Rogue Core" class="common" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="images/icons/blank.webp" alt="Image">
+																	Blaze Charge
+																</a>
+															</div>
+															<div class="h3">
+																Enemies set on <span class="fire">Fire</span> in Medium Range gives 
+																
+																<br>
+																<span class="green">+75%</span> Ability Recharge Rate for <span class="highlights">12s</span>.
+
+																<br><br>
+																The effect stacks.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Medium Range is
+														</td>
+													</tr>
+													<tr id="common-burning-propagation">
+														<td class="upgrades-image">
+															<div class="h1 common">
+																<span class="hidden">Tier 1</span>
+																Common
+															</div>
+															<div class="h1 common">
+																<a title="DRG Wiki: Rogue Core" class="common" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_BurningExposure.png" alt="Image">
+																	Burning Propagation
+																</a>
+															</div>
+															<div class="h3">
+																Damage you deal to <span class="fire">burning</span> <span class="enemies">enemies</span> 
+																<br>
+																is applied as additional <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Element_Fire_Colored.png" alt="Image"> Fire 
+																<br>
+																in a <span class="green">+3m</span> around target 
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="common-combo-strike">
+														<td class="upgrades-image">
+															<div class="h1 common">
+																<span class="hidden">Tier 1</span>
+																Common
+															</div>
+															<div class="h1 common">
+																<a title="DRG Wiki: Rogue Core" class="common" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Combo_Strike.png" alt="Image">
+																	Combo Strike
+																</a>
+															</div>
+															<div class="h3">
+																Dealing <span class="highlights">Melee</span> damage replenishes 
+																<br>
+																<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_ExtractOre.png" alt="Image"> Power Attack by 
+																<span class="green">+25%</span>
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need Power Attack Cooldown Icon
+														</td>
+													</tr>
+													<tr id="common-counter">
+														<td class="upgrades-image">
+															<div class="h1 common">
+																<span class="hidden">Tier 1</span>
+																Common
+															</div>
+															<div class="h1 common">
+																<a title="DRG Wiki: Rogue Core" class="common" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="images/icons/blank.webp" alt="Image">
+																	Counter
+																</a>
+															</div>
+															<div class="h3">
+																Blocking an attack reflects 
+																<br>
+																<span class="green">+100</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Upgrade_DamageGeneral.png" alt="Image"> 
+																Melee Damage back at the attacker.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Wrong Melee Damage Icon?
+															<br>
+															Subzero Rage seems to have the right icon.
+														</td>
+													</tr>
+													<tr id="common-critical-stun">
+														<td class="upgrades-image">
+															<div class="h1 common">
+																<span class="hidden">Tier 1</span>
+																Common
+															</div>
+															<div class="h1 common">
+																<a title="DRG Wiki: Rogue Core" class="common" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="images/icons/blank.webp" alt="Image">
+																	Critical Stun
+																</a>
+															</div>
+															<div class="h3">
+																Critical Hits Stun for <span class="green">+1.5s</span>
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="common-double-up">
+														<td class="upgrades-image">
+															<div class="h1 common">
+																<span class="hidden">Tier 1</span>
+																Common
+															</div>
+															<div class="h1 common">
+																<a title="DRG Wiki: Rogue Core" class="common" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="images/icons/blank.webp" alt="Image">
+																	Double Up
+																</a>
+															</div>
+															<div class="h3">
+																Causing an Explosion 
+																<br>
+																has a <span class="green">+25%</span> chance 
+																<br>
+																to spawn another one
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="common-ember-attuned">
+														<td class="upgrades-image">
+															<div class="h1 common">
+																<span class="hidden">Tier 1</span>
+																Common
+															</div>
+															<div class="h1 common">
+																<a title="DRG Wiki: Rogue Core" class="common" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="images/icons/blank.webp" alt="Image">
+																	Ember Attuned
+																</a>
+															</div>
+															<div class="h3">
+																Enemies is set on Fire in <span class="highlights">Medium Range</span> gives 
+																<br>
+																<span class="green">+20%</span> Critical Chance for <span class="highlights">10s</span>.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Medium Range is
+														</td>
+													</tr>
+													<tr id="common-fish-in-a-barrel">
+														<td class="upgrades-image">
+															<div class="h1 common">
+																<span class="hidden">Tier 1</span>
+																Common
+															</div>
+															<div class="h1 common">
+																<a title="DRG Wiki: Rogue Core" class="common" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_FishInABarrel.png" alt="Image">
+																	Fish In A Barrel
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+50%</span> Damage against 
+																<br>
+																stunned targets
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="common-flashbang">
+														<td class="upgrades-image">
+															<div class="h1 common">
+																<span class="hidden">Tier 1</span>
+																Common
+															</div>
+															<div class="h1 common">
+																<a title="DRG Wiki: Rogue Core" class="common" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="images/icons/blank.webp" alt="Image">
+																	Flashbang
+																</a>
+															</div>
+															<div class="h3">
+																Explosions 
+																<br>
+																<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Upgrade_Stun_Colored.png" alt="Image"> Stun for <span class="green">+1.5s</span>
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Medium Range is
+														</td>
+													</tr>
+													<tr id="common-frost-harvest">
+														<td class="upgrades-image">
+															<div class="h1 common">
+																<span class="hidden">Tier 1</span>
+																Common
+															</div>
+															<div class="h1 common">
+																<a title="DRG Wiki: Rogue Core" class="common" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_FishInABarrel.png" alt="Image">
+																	Frost Harvest
+																</a>
+															</div>
+															<div class="h3">
+																Killing medium or large frozen targets awards 
+																<br>
+																<span class="green">+3</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_StoneSkin.png" alt="Image"> Stone Skin.
+																<br>
+																Critical kills triples it.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="common-hemoforge">
+														<td class="upgrades-image">
+															<div class="h1 common">
+																<span class="hidden">Tier 1</span>
+																Common
+															</div>
+															<div class="h1 common">
+																<a title="DRG Wiki: Rogue Core" class="common" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Hypoglycaemia.png" alt="Image">
+																	Hemoforge
+																</a>
+															</div>
+															<div class="h3">
+																Killing an enemy while you have less than 
+																<br>
+																<span class="highlights">50%</span> of Max Health 
+																<br>
+																creates <span class="green">+1</span> Red Sugar Chunk
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="common-magic-missiles">
+														<td class="upgrades-image">
+															<div class="h1 common">
+																<span class="hidden">Tier 1</span>
+																Common
+															</div>
+															<div class="h1 common">
+																<a title="DRG Wiki: Rogue Core" class="common" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Magic_Missiles.png" alt="Image">
+																	Magic Missiles
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+10%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Magic_Missiles.png" alt="Image"> Magic Missile cast chance 
+																<br>
+																every time you fire a weapon
+															</div>	
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="common-mercy-trigger">
+														<td class="upgrades-image">
+															<div class="h1 common">
+																<span class="hidden">Tier 1</span>
+																Common
+															</div>
+															<div class="h1 common">
+																<a title="DRG Wiki: Rogue Core" class="common" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Magic_Missiles.png" alt="Image">
+																	Mercy Trigger
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+50%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_WeakpointDamage_Colored.png" alt="Image"> Weakpoint Damage 
+																<br>
+																against enemies 
+																<br>
+																under <span class="highlights">50%</span> health.
+															</div>	
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="common-subzero-rage">
+														<td class="upgrades-image">
+															<div class="h1 common">
+																<span class="hidden">Tier 1</span>
+																Common
+															</div>
+															<div class="h1 common">
+																<a title="DRG Wiki: Rogue Core" class="common" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_SubzeroSurge.png" alt="Image">
+																	Subzero Rage
+																</a>
+															</div>
+															<div class="h3">
+																For every frozen enemy within Short Range 
+																<br>
+																you get <span class="green">+10</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Damage_MeleeDamage.png" alt="Image"> Melee Damage
+															</div>	
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Short Range is
+														</td>
+													</tr>
+													<tr id="common-suppressing-fire">
+														<td class="upgrades-image">
+															<div class="h1 common">
+																<span class="hidden">Tier 1</span>
+																Common
+															</div>
+															<div class="h1 common">
+																<a title="DRG Wiki: Rogue Core" class="common" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_SuppressingFire.png" alt="Image">
+																	Suppressing Fire
+																</a>
+															</div>
+															<div class="h3">
+																Damaging an enemy applies 
+																<br>
+																<span class="green">+1</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_SuppressingFire.png" alt="Image"> Suppressing Fire stack
+															</div>	
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="common-ticking-bomb">
+														<td class="upgrades-image">
+															<div class="h1 common">
+																<span class="hidden">Tier 1</span>
+																Common
+															</div>
+															<div class="h1 common">
+																<a title="DRG Wiki: Rogue Core" class="common" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_TickingBomb.png" alt="Image">
+																	Ticking Bomb
+																</a>
+															</div>
+															<div class="h3">
+																Explode after 
+																<br>
+																taking <span class="highlights">50</span> accumulated damage with
+																<br>
+																<span class="green">+200</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Damage_Type_Explosion_RC.png" alt="Image"> Explosion Damage.
+																<br>
+																Damages enemies in Short Range
+															</div>	
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Short Range is
+														</td>
+													</tr>
+													<tr id="common-vampire">
+														<td class="upgrades-image">
+															<div class="h1 common">
+																<span class="hidden">Tier 1</span>
+																Common
+															</div>
+															<div class="h1 common">
+																<a title="DRG Wiki: Rogue Core" class="common" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Vampire.png" alt="Image">
+																	Vampire
+																</a>
+															</div>
+															<div class="h3">
+																Killing a medium or larger sized creature 
+																<br>
+																with Melee Damage
+																<br>
+																replenishes <span class="green">+7</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Health.png" alt="Image"> Health
+															</div>	
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="common-vigor-charger">
+														<td class="upgrades-image">
+															<div class="h1 common">
+																<span class="hidden">Tier 1</span>
+																Common
+															</div>
+															<div class="h1 common">
+																<a title="DRG Wiki: Rogue Core" class="common" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="images/icons/blank.webp" alt="Image">
+																	Vigor Charger
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+10%</span> Ability Cooldown 
+																<br>
+																per <span class="highlights">10%</span> current health
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need Ability Cooldown Icon
+														</td>
+													</tr>
+												<!-- #endregion - Common -->
+
+											</tbody>
+										</table>
+									</div>
+
+									<div id="rarity-uncommon" class="hidden">
+										<table id="upgrades-uncommon" class="display searchable-tables upgrades-data">
+											<thead>
+												<tr>
+													<th>Upgrade</th>
+													<th>Notes</th>
+												</tr>
+											</thead>
+											<tbody>
+
+												<!-- #region - Uncommon -->
+													<tr id="uncommon-armor-boost">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Armor.png" alt="Image">
+																	Armor Boost
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+12</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Armor.png" alt="Image"> Armor
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="uncommon-better-red-sugar">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_LevelUp_Better_Red_Sugar.png" alt="Image">
+																	Better Red Sugar
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+75%</span> Health from Red Sugar
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need Health Icon
+														</td>
+													</tr>
+													<tr id="uncommon-boom-youre-dead">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Boom_Youre_Dead.png" alt="Image">
+																	Boom! You're Dead!
+																</a>
+															</div>
+															<div class="h3">
+																Killing enemies 
+																<br>
+																make them explode, dealing
+																<br>
+																<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Damage_Type_Explosion_RC.png" alt="Image"> Explosion Damage
+																<br>
+																equal to
+																<br>
+																<img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Upgrade_DamageGeneral.png" alt="Image"> Killing Blow Damage
+																<br>
+																<span class="green">+1.5m</span> Explosion Radius
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="uncommon-burning-blood">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="images/icons/blank.webp" alt="Image">
+																	Burning Blood
+																</a>
+															</div>
+															<div class="h3">
+																Killing a burning enemy spawns
+																<br>
+																a puddle of <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Hot_Feet.png" alt="Image"> Sticky Flames that lasts <span class="green">+10s</span>
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="uncommon-crippling-strike">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Crippling_Strike.png" alt="Image">
+																	Crippling Strike
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+1.5s</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Upgrade_Stun_Colored.png" alt="Image"> Stun to all melee damage
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="uncommon-crit-amp">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="images/icons/blank.webp" alt="Image">
+																	Crit Amp
+																</a>
+															</div>
+															<div class="h3">
+																Critical Hits against Stunned enemies deal 
+																<br>
+																<span class="green">+100%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_CriticalDamage_Colored.png" alt="Image"> Critical Hit Damage
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="uncommon-critical-hit-chance">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Critical_Hit_Chance.png" alt="Image">
+																	Critical Hit Chance
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+10%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_CriticalChance_Colored.png" alt="Image"> Critical Hit Chance
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="uncommon-damage-reflection">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="images/icons/blank.webp" alt="Image">
+																	Damage Reflection
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+20</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Upgrade_DamageGeneral.png" alt="Image"> Melee Damage to 
+																<br>
+																enemies attacking you in melee
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Wrong Melee Damage Icon?
+															<br>
+															Subzero Rage seems to have the right icon.
+														</td>
+													</tr>
+													<tr id="uncommon-expert-reviver">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="images/icons/blank.webp" alt="Image">
+																	Expert Reviver
+																</a>
+															</div>
+															<div class="h3">
+																Reviving an ally grants you both 
+																<br>
+																<span class="green">+40</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_StoneSkin.png" alt="Image"> Stone Skin and <span class="green">+10%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Health.png" alt="Image"> Health
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="uncommon-flanking">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Health.png" alt="Image">
+																	Flanking
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+50%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_CriticalDamage_Colored.png" alt="Image"> Critical Hit Chance 
+																<br>
+																against enemies not targeting you
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="uncommon-healthy">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Health.png" alt="Image">
+																	Healthy
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+20</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Health.png" alt="Image"> Base Health
+																<br>
+																<span class="highlights">100%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Health.png" alt="Image"> Health Replenished
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="uncommon-impact-radiance">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="images/icons/blank.webp" alt="Image">
+																	Impact Radiance
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+10%</span> Chance to spread target's
+																<br>
+																Slow, Stun and Elemental Build-up on hit 
+																<br>
+																to enemies in Short Range.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Short Range is
+														</td>
+													</tr>
+													<tr id="uncommon-impact-sparks">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="images/icons/blank.webp" alt="Image">
+																	Impact Sparks
+																</a>
+															</div>
+															<div class="h3">
+																Damaging Electrocuted targets spawns up to 
+																<br>
+																<span class="green">+5</span> Impact Sparks, based on damage dealt.
+																<br>
+																<span class="highlights">1s</span> cooldown.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Impact Sparks are
+														</td>
+													</tr>
+													<tr id="uncommon-radiance">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="images/icons/blank.webp" alt="Image">
+																	Radiance
+																</a>
+															</div>
+															<div class="h3">
+																Damaging stunned enemies makes them Flash. 
+																<br>
+																Flash stuns enemies in Short Range for <span class="green">+1.5s</span>.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Short Range is
+														</td>
+													</tr>
+													<tr id="uncommon-reloading-trick">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_ReloadingTrick.png" alt="Image">
+																	Reloading Trick
+																</a>
+															</div>
+															<div class="h3">
+																The first +1 ammo in your magazine get 
+																<br>
+																<span class="highlights">100%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_CriticalChance_Colored.png" alt="Image">  Critical Hit Chance 
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+
+															<br><br>
+															Great for Weapons with 
+															<br>
+															only 1 Magazine Size.
+
+															<br><br>
+															Would need X amount of your 
+															<br>
+															Magazine Size to be worth it.
+														</td>
+													</tr>
+													<tr id="uncommon-repositioning">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Repositioning.png" alt="Image">
+																	Repositioning
+																</a>
+															</div>
+															<div class="h3">
+																Reloading grants <span class="highlights">45%</span> Movement Speed for <span class="green">+2s</span>.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need Movement Icon
+														</td>
+													</tr>
+													<tr id="uncommon-riposte">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="images/icons/blank.webp" alt="Image">
+																	Riposte
+																</a>
+															</div>
+															<div class="h3">
+																Blocking an attack fully recharges <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_ExplosingStrike.png" alt="Image"> Power Attack
+																<br>
+																and grants <span class="highlights">45%</span> Movement Speed for <span class="green">+2s</span>.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need Movement Icon
+														</td>
+													</tr>
+													<tr id="uncommon-sharpshooter">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Sharpshooter.png" alt="Image">
+																	Sharpshooter
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+50%</span> <img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_WeakpointDamage_Colored.png" alt="Image"> Weakpoint Damage against 
+																<br>
+																targets in Long Range.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Long Range is
+														</td>
+													</tr>
+													<tr id="uncommon-spore-release">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_SporeRelease.png" alt="Image">
+																	Spore Release
+																</a>
+															</div>
+															<div class="h3">
+																Killing poisoned targets releases a <span class="green">+5s</span> 
+																<img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Poison_Aura.png" alt="Image"> Poison Cloud
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="uncommon-steadfast-surge">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_SteadfastSurge.png" alt="Image">
+																	Steadfast Surge
+																</a>
+															</div>
+															<div class="h3">
+																Standing still provides <span class="green">+250%</span> Ability Recharge Rate
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Omg it got better!
+															<br>
+															Need Ability Recharge Icon
+														</td>
+													</tr>
+													<tr id="uncommon-stunning-recharge">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_StunningRecharge.png" alt="Image">
+																	Stunning Recharge
+																</a>
+															</div>
+															<div class="h3">
+																Stunning an enemy replenishes 
+																<br>
+																<span class="green">+10%</span> Ability Cooldown 
+																<br>
+																<span class="highlights">0.5s</span> Cooldown
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need Ability Cooldown Icon
+														</td>
+													</tr>
+													<tr id="uncommon-sweet-surrender">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Sweet_Surrender.png" alt="Image">
+																	Sweet Surrender
+																</a>
+															</div>
+															<div class="h3">
+																<span class="highlights">20%</span> Chance to create
+																<br>
+																<span class="green">+1</span> Red Sugar Chunk 
+																<br>
+																when killing a medium or larger sized enemy
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need Red Sugar Chunk Icon
+														</td>
+													</tr>
+													<tr id="uncommon-thermal-targeting">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="images/icons/blank.webp" alt="Image">
+																	Thermal Targeting
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+20%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_CriticalChance_Colored.png" alt="Image"> Critical Hit Chance against Burning targets
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need Red Sugar Chunk Icon
+														</td>
+													</tr>
+													<tr id="uncommon-ticking-bomb">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_TickingBomb.png" alt="Image">
+																	Ticking Bomb
+																</a>
+															</div>
+															<div class="h3">
+																Explode after taking 
+																<br>
+																<span class="highlights">50</span> accumulated damage with 
+																<br>
+																<span class="green">+300</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Damage_Type_Explosion_RC.png" alt="Image"> Explosion Damage.
+
+																<br><br>
+																Damages enemies in Short Range
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Short Range is
+														</td>
+													</tr>
+													<tr id="uncommon-volatile-combustion">
+														<td class="upgrades-image">
+															<div class="h1 uncommon">
+																<span class="hidden">Tier 2</span>
+																Uncommon
+															</div>
+															<div class="h1 uncommon">
+																<a title="DRG Wiki: Rogue Core" class="uncommon" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_VolatileCombustion.png" alt="Image">
+																	Volatile Combustion
+																</a>
+															</div>
+															<div class="h3">
+																Killing a burning enemy makes it 
+																<br>
+																explode with <span class="green">+80</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Damage_Type_Explosion_RC.png" alt="Image"> Explosion Damage.
+
+																<br><br>
+																The Explosion spreads <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Element_Fire_Colored.png" alt="Image"> Fire.
+
+																<br><br>
+																Affects enemies in Short Range
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Short Range is
+														</td>
+													</tr>
+												<!-- #endregion - Uncommon -->
+
+											</tbody>
+										</table>
+									</div>
+									
+									<div id="rarity-rare" class="hidden">
+										<table id="upgrades-rare" class="display searchable-tables upgrades-data">
+											<thead>
+												<tr>
+													<th>Upgrade</th>
+													<th>Notes</th>
+												</tr>
+											</thead>
+											<tbody>
+
+												<!-- #region - Rare -->
+													<tr id="rare-armor-boost">
+														<td class="upgrades-image">
+															<div class="h1 rare">
+																<span class="hidden">Tier 3</span>
+																Rare
+															</div>
+															<div class="h1 rare">
+																<a title="DRG Wiki: Rogue Core" class="rare" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Armor.png" alt="Image">
+																	Armor Boost
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+18</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Armor.png" alt="Image"> Armor
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="rare-better-red-sugar">
+														<td class="upgrades-image">
+															<div class="h1 rare">
+																<span class="hidden">Tier 3</span>
+																Rare
+															</div>
+															<div class="h1 rare">
+																<a title="DRG Wiki: Rogue Core" class="rare" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_LevelUp_Better_Red_Sugar.png" alt="Image">
+																	Better Red Sugar
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+100%</span> Health from Red Sugar
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need Health Icon
+														</td>
+													</tr>
+													<tr id="rare-block-charger">
+														<td class="upgrades-image">
+															<div class="h1 rare">
+																<span class="hidden">Tier 3</span>
+																Rare
+															</div>
+															<div class="h1 rare">
+																<a title="DRG Wiki: Rogue Core" class="rare" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="images/icons/blank.webp" alt="Image">
+																	Block Charger
+																</a>
+															</div>
+															<div class="h3">
+																Every successful Block grants 
+																<br>
+																<span class="green">+5</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Armor.png" alt="Image"> Armor
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="rare-brittle">
+														<td class="upgrades-image">
+															<div class="h1 rare">
+																<span class="hidden">Tier 3</span>
+																Rare
+															</div>
+															<div class="h1 rare">
+																<a title="DRG Wiki: Rogue Core" class="rare" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Brittle.png" alt="Image">
+																	Brittle
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+50</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Brittle.png" alt="Image"> Shatter Chance 
+																<br>
+																to frozen enemies.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="rare-concussive-strike">
+														<td class="upgrades-image">
+															<div class="h1 rare">
+																<span class="hidden">Tier 3</span>
+																Rare
+															</div>
+															<div class="h1 rare">
+																<a title="DRG Wiki: Rogue Core" class="rare" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="images/icons/blank.webp" alt="Image">
+																	Concussive Strike
+																</a>
+															</div>
+															<div class="h3">
+																Your Power Attack 
+																<br>
+																stuns enemies within Medium Range 
+																<br>
+																for <span class="green">+1.5s</span>
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Medium Range is
+														</td>
+													</tr>
+													<tr id="rare-critical-burn">
+														<td class="upgrades-image">
+															<div class="h1 rare">
+																<span class="hidden">Tier 3</span>
+																Rare
+															</div>
+															<div class="h1 rare">
+																<a title="DRG Wiki: Rogue Core" class="rare" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_CriticalBurn.png" alt="Image">
+																	Critical Burn
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+50%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Element_Fire_Colored.png" alt="Image"> Fire to all Critical Hits
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="rare-critical-hit-chance">
+														<td class="upgrades-image">
+															<div class="h1 rare">
+																<span class="hidden">Tier 3</span>
+																Rare
+															</div>
+															<div class="h1 rare">
+																<a title="DRG Wiki: Rogue Core" class="rare" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Critical_Hit_Chance.png" alt="Image">
+																	Critical Hit Chance
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+15%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_CriticalChance_Colored.png" alt="Image"> Critical Hit Chance
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="rare-duck-and-weave">
+														<td class="upgrades-image">
+															<div class="h1 rare">
+																<span class="hidden">Tier 3</span>
+																Rare
+															</div>
+															<div class="h1 rare">
+																<a title="DRG Wiki: Rogue Core" class="rare" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_DuckAndWave.png" alt="Image">
+																	Duck And Weave
+																</a>
+															</div>
+															<div class="h3">
+																While sprinting you get 
+																<br>
+																<span class="green">+25%</span> Block Chance
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need Block Chance Icon
+														</td>
+													</tr>
+													<tr id="rare-emp-engine">
+														<td class="upgrades-image">
+															<div class="h1 rare">
+																<span class="hidden">Tier 3</span>
+																Rare
+															</div>
+															<div class="h1 rare">
+																<a title="DRG Wiki: Rogue Core" class="rare" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_BoltDash.png" alt="Image">
+																	Emp Engine
+																</a>
+															</div>
+															<div class="h3">
+																Emit an Electric Pulse every <span class="highlights">3s</span>, 
+																<br>
+																dealing <span class="green">+25</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Element_Electricity_Colored.png" alt="Image"> Electric Damage in Short Range.
+																
+																<br><br>
+																Pulse rate scales with velocity.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="rare-foul-blood">
+														<td class="upgrades-image">
+															<div class="h1 rare">
+																<span class="hidden">Tier 3</span>
+																Rare
+															</div>
+															<div class="h1 rare">
+																<a title="DRG Wiki: Rogue Core" class="rare" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Cold_Blood.png" alt="Image">
+																	Foul Blood
+																</a>
+															</div>
+															<div class="h3">
+																When taking damage apply
+																<br>
+																<span class="green">+20</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Element_Poison_Colored.png" alt="Image"> Poison to enemies in Short Range.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Short Range is
+														</td>
+													</tr>
+													<tr id="rare-healthy">
+														<td class="upgrades-image">
+															<div class="h1 rare">
+																<span class="hidden">Tier 3</span>
+																Rare
+															</div>
+															<div class="h1 rare">
+																<a title="DRG Wiki: Rogue Core" class="rare" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Health.png" alt="Image">
+																	Healthy
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+30</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Health.png" alt="Image"> Base Health
+																<br>
+																<span class="highlights">100%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Health.png" alt="Image"> Health Replenished
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="rare-hot-feet">
+														<td class="upgrades-image">
+															<div class="h1 rare">
+																<span class="hidden">Tier 3</span>
+																Rare
+															</div>
+															<div class="h1 rare">
+																<a title="DRG Wiki: Rogue Core" class="rare" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Hot_Feet.png" alt="Image">
+																	Hot Feet
+																</a>
+															</div>
+															<div class="h3">
+																Spawn <span class="green">+5s</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Hot_Feet.png" alt="Image"> Sticky Flames while moving
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="rare-ionization-infusion">
+														<td class="upgrades-image">
+															<div class="h1 rare">
+																<span class="hidden">Tier 3</span>
+																Rare
+															</div>
+															<div class="h1 rare">
+																<a title="DRG Wiki: Rogue Core" class="rare" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="images/icons/blank.webp" alt="Image">
+																	Ionization Infusion
+																</a>
+															</div>
+															<div class="h3">
+																Push <span class="green">+1</span> Stack of Ionized on hit.
+																<br>
+																Stacks up to 150 times.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need Ionized Icon.
+														</td>
+													</tr>
+													<tr id="rare-magazine-routed-toxin">
+														<td class="upgrades-image">
+															<div class="h1 rare">
+																<span class="hidden">Tier 3</span>
+																Rare
+															</div>
+															<div class="h1 rare">
+																<a title="DRG Wiki: Rogue Core" class="rare" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="images/icons/blank.webp" alt="Image">
+																	Magazine Routed Toxin
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+1.5%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Element_Poison_Colored.png" alt="Image"> Poison per 1% 
+																<br>
+																Ammo missing from your magazine.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="rare-marksmans-loop">
+														<td class="upgrades-image">
+															<div class="h1 rare">
+																<span class="hidden">Tier 3</span>
+																Rare
+															</div>
+															<div class="h1 rare">
+																<a title="DRG Wiki: Rogue Core" class="rare" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_ReturnOnInvestment.png" alt="Image">
+																	Marksman's Loop
+																</a>
+															</div>
+															<div class="h3">
+																Weakpoint hits moves <span class="green">+1</span> Ammo 
+																<br>
+																into your equipped weapon's magazine
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="rare-oozing-arsenal">
+														<td class="upgrades-image">
+															<div class="h1 rare">
+																<span class="hidden">Tier 3</span>
+																Rare
+															</div>
+															<div class="h1 rare">
+																<a title="DRG Wiki: Rogue Core" class="rare" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_OozingArsenal.png" alt="Image">
+																	Oozing Arsenal
+																</a>
+															</div>
+															<div class="h3">
+																Reloading a weapon emits a 
+																<br>
+																<span class="green">+4m</span> radius <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_OozingArsenal.png" alt="Image"> Toxic Pulse
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="rare-poison-aura">
+														<td class="upgrades-image">
+															<div class="h1 rare">
+																<span class="hidden">Tier 3</span>
+																Rare
+															</div>
+															<div class="h1 rare">
+																<a title="DRG Wiki: Rogue Core" class="rare" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Poison_Aura.png" alt="Image">
+																	Poison Aura
+																</a>
+															</div>
+															<div class="h3">
+																Moving around releases a 
+																<br>
+																<span class="green">+5s</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Poison_Aura.png" alt="Image"> Poison Cloud.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="rare-shock-armor">
+														<td class="upgrades-image">
+															<div class="h1 rare">
+																<span class="hidden">Tier 3</span>
+																Rare
+															</div>
+															<div class="h1 rare">
+																<a title="DRG Wiki: Rogue Core" class="rare" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_ShieldOvercharge.png" alt="Image">
+																	Shock Armor
+																</a>
+															</div>
+															<div class="h3">
+																Deal <span class="green">+1%</span> active <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Element_Electricity_Colored.png" alt="Image"> Electricity 
+																<br>
+																for every <span class="highlights">1</span> armor
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="rare-ticking-bomb">
+														<td class="upgrades-image">
+															<div class="h1 rare">
+																<span class="hidden">Tier 3</span>
+																Rare
+															</div>
+															<div class="h1 rare">
+																<a title="DRG Wiki: Rogue Core" class="rare" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_TickingBomb.png" alt="Image">
+																	Ticking Bomb
+																</a>
+															</div>
+															<div class="h3">
+																Explode after taking 
+																<br>
+																<span class="highlights">50</span> accumulated damage with 
+																<br>
+																<span class="green">+500</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Damage_Type_Explosion_RC.png" alt="Image"> Explosion Damage.
+
+																<br><br>
+																Damages enemies in Short Range
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Short Range is
+														</td>
+													</tr>
+													<tr id="rare-wayward-sparks">
+														<td class="upgrades-image">
+															<div class="h1 rare">
+																<span class="hidden">Tier 3</span>
+																Rare
+															</div>
+															<div class="h1 rare">
+																<a title="DRG Wiki: Rogue Core" class="rare" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_WaywardSparks.png" alt="Image">
+																	Wayward Sparks
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+1</span> Wayward Spark is automatically fired while
+																<br>
+																you have active <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Armor.png" alt="Image"> Armor.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Short Range is
+														</td>
+													</tr>
+												<!-- #endregion - Rare -->	
+
+											</tbody>
+										</table>
+									</div>
+									
+									<div id="rarity-epic" class="hidden">
+										<table id="upgrades-epic" class="display searchable-tables upgrades-data">
+											<thead>
+												<tr>
+													<th>Upgrade</th>
+													<th>Notes</th>
+												</tr>
+											</thead>
+											<tbody>
+
+												<!-- #region - Epic -->
+													<tr id="epic-8-ff-booster">
+														<td class="upgrades-image">
+															<div class="h1 epic">
+																<span class="hidden">Tier 4</span>
+																Epic
+															</div>
+															<div class="h1 epic">
+																<a title="DRG Wiki: Rogue Core" class="epic" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_8FFBooster.png" alt="Image">
+																	8-ff Booster
+																</a>
+															</div>
+															<div class="h3">
+																When in Proximity you and your allies 
+																<br>
+																recover <span class="green">+1</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Armor.png" alt="Image"> Armor per second.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Proximity means
+														</td>
+													</tr>
+													<tr id="epic-air-jump">
+														<td class="upgrades-image">
+															<div class="h1 epic">
+																<span class="hidden">Tier 4</span>
+																Epic
+															</div>
+															<div class="h1 epic">
+																<a title="DRG Wiki: Rogue Core" class="epic" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Air_Jump.png" alt="Image">
+																	Air Jump
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+1</span> Jumps while Airborne
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="epic-armor-boost">
+														<td class="upgrades-image">
+															<div class="h1 epic">
+																<span class="hidden">Tier 4</span>
+																Epic
+															</div>
+															<div class="h1 epic">
+																<a title="DRG Wiki: Rogue Core" class="epic" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Armor.png" alt="Image">
+																	Armor Boost
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+24</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Armor.png" alt="Image"> Armor
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="epic-better-red-sugar">
+														<td class="upgrades-image">
+															<div class="h1 epic">
+																<span class="hidden">Tier 4</span>
+																Epic
+															</div>
+															<div class="h1 epic">
+																<a title="DRG Wiki: Rogue Core" class="epic" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_LevelUp_Better_Red_Sugar.png" alt="Image">
+																	Better Red Sugar
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+150%</span> Health from Red Sugar
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need Health Icon
+														</td>
+													</tr>
+													<tr id="epic-blood-rush">
+														<td class="upgrades-image">
+															<div class="h1 epic">
+																<span class="hidden">Tier 4</span>
+																Epic
+															</div>
+															<div class="h1 epic">
+																<a title="DRG Wiki: Rogue Core" class="epic" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_BloodRush.png" alt="Image">
+																	Blood Rush
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+3%</span> <img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Upgrade_DamageGeneral.png" alt="Image"> Damage per <span class="highlights">10%</span> current health
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="epic-cooling-unit">
+														<td class="upgrades-image">
+															<div class="h1 epic">
+																<span class="hidden">Tier 4</span>
+																Epic
+															</div>
+															<div class="h1 epic">
+																<a title="DRG Wiki: Rogue Core" class="epic" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_CoolingUnit.png" alt="Image">
+																	Cooling Unit
+																</a>
+															</div>
+															<div class="h3">
+																For every <span class="highlights">1</span> Stone Skin active 
+																<br>
+																you apply <span class="green">+1</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Element_Ice_Colored.png" alt="Image"> Ice per second 
+																<br>
+																to enemies in Short Range.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+
+															<br><br>
+															Old one was way better!
+
+															<br><br>
+															This combos with <span class="epic">Cyro Drain</span>.
+
+															<br><br>
+															It should have the 
+															<br>
+															Stone Skin icon.
+
+															<br><br>
+															Short Range is
+														</td>
+													</tr>
+													<tr id="epic-critical-hit-chance">
+														<td class="upgrades-image">
+															<div class="h1 epic">
+																<span class="hidden">Tier 4</span>
+																Epic
+															</div>
+															<div class="h1 epic">
+																<a title="DRG Wiki: Rogue Core" class="epic" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Critical_Hit_Chance.png" alt="Image">
+																	Critical Hit Chance
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+30%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_CriticalChance_Colored.png" alt="Image"> Critical Hit Chance
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="epic-critical-shot">
+														<td class="upgrades-image">
+															<div class="h1 epic">
+																<span class="hidden">Tier 4</span>
+																Epic
+															</div>
+															<div class="h1 epic">
+																<a title="DRG Wiki: Rogue Core" class="epic" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_CriticalShot.png" alt="Image">
+																	Critical Shot
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+30%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_CriticalChance_Colored.png" alt="Image"> Critical Hit Chance 
+																<br>
+																on Weakpoint Hit.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															
+															<br><br>
+															Should probably have the 
+															<br>
+															Weakpoint Icon.
+														</td>
+													</tr>
+													<tr id="epic-critical-strike">
+														<td class="upgrades-image">
+															<div class="h1 epic">
+																<span class="hidden">Tier 4</span>
+																Epic
+															</div>
+															<div class="h1 epic">
+																<a title="DRG Wiki: Rogue Core" class="epic" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_CriticalStrike.png" alt="Image">
+																	Critical Strike
+																</a>
+															</div>
+															<div class="h3">
+																Critical hits are reflected to other enemies 
+																<br>
+																within <span class="green">+4</span> meters of the target.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="epic-cryo-drain">
+														<td class="upgrades-image">
+															<div class="h1 epic">
+																<span class="hidden">Tier 4</span>
+																Epic
+															</div>
+															<div class="h1 epic">
+																<a title="DRG Wiki: Rogue Core" class="epic" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_CyroDrain.png" alt="Image">
+																	Cryo Drain
+																</a>
+															</div>
+															<div class="h3">
+																For every frozen enemy within Short Range 
+																<br>
+																you replenish <span class="green">+1</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_StoneSkin.png" alt="Image"> Stone Skin per second
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+
+															<br><br>
+															This combos with <span class="epic">Cooling Unit</span>.
+
+															<br><br>
+															Short Range is
+														</td>
+													</tr>
+													<tr id="epic-damage-dam">
+														<td class="upgrades-image">
+															<div class="h1 epic">
+																<span class="hidden">Tier 4</span>
+																Epic
+															</div>
+															<div class="h1 epic">
+																<a title="DRG Wiki: Rogue Core" class="epic" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_DamageDam.png" alt="Image">
+																	Damage Dam
+																</a>
+															</div>
+															<div class="h3">
+																Taking health damage grants 
+																<br>
+																<span class="highlights">100%</span> Block Chance for <span class="green">+1s</span>.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need Block Chanced Icon
+														</td>
+													</tr>
+													<tr id="epic-decoy">
+														<td class="upgrades-image">
+															<div class="h1 epic">
+																<span class="hidden">Tier 4</span>
+																Epic
+															</div>
+															<div class="h1 epic">
+																<a title="DRG Wiki: Rogue Core" class="epic" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Decoy.png" alt="Image">
+																	Decoy
+																</a>
+															</div>
+															<div class="h3">
+																When your armor is depleted 
+																<br>
+																you spawn <span class="green">+1 </span> decoy.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need Block Chanced Icon
+														</td>
+													</tr>
+													<tr id="epic-defensive-fighting">
+														<td class="upgrades-image">
+															<div class="h1 epic">
+																<span class="hidden">Tier 4</span>
+																Epic
+															</div>
+															<div class="h1 epic">
+																<a title="DRG Wiki: Rogue Core" class="epic" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_DefensiveFighting.png" alt="Image">
+																	Defensive Fighting
+																</a>
+															</div>
+															<div class="h3">
+																Dealing melee damage grants 
+																<br>
+																<span class="highlights">100%</span> Block Chance for <span class="green">+2s</span>.
+
+																<br><br>
+																<span class="highlights">3s</span> Cooldown
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="epic-defibrillation">
+														<td class="upgrades-image">
+															<div class="h1 epic">
+																<span class="hidden">Tier 4</span>
+																Epic
+															</div>
+															<div class="h1 epic">
+																<a title="DRG Wiki: Rogue Core" class="epic" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Defibrillation.png" alt="Image">
+																	Defibrillation
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+100%</span> Revive Speed
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need Revive Speed Icon
+														</td>
+													</tr>
+													<tr id="epic-gun-link">
+														<td class="upgrades-image">
+															<div class="h1 epic">
+																<span class="hidden">Tier 4</span>
+																Epic
+															</div>
+															<div class="h1 epic">
+																<a title="DRG Wiki: Rogue Core" class="epic" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Gun_Link.png" alt="Image">
+																	Gun Link
+																</a>
+															</div>
+															<div class="h3">
+																When in proximity you and allies 
+																<br>
+																deal <span class="green">+33%</span> Damage
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Proximity means
+														</td>
+													</tr>
+													<tr id="epic-healthy">
+														<td class="upgrades-image">
+															<div class="h1 epic">
+																<span class="hidden">Tier 4</span>
+																Epic
+															</div>
+															<div class="h1 epic">
+																<a title="DRG Wiki: Rogue Core" class="epic" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Health.png" alt="Image">
+																	Healthy
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+50</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Health.png" alt="Image"> Base Health
+																<br>
+																<span class="highlights">100%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Health.png" alt="Image"> Health Replenished
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="epic-magazine-overdrive">
+														<td class="upgrades-image">
+															<div class="h1 epic">
+																<span class="hidden">Tier 4</span>
+																Epic
+															</div>
+															<div class="h1 epic">
+																<a title="DRG Wiki: Rogue Core" class="epic" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_ClipBooster.png" alt="Image">
+																	Magazine Overdrive
+																</a>
+															</div>
+															<div class="h3">
+																Every <span class="highlights">1%</span> Ammo missing in your <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_ClipBooster.png" alt="Image"> Magazine 
+																<br>
+																provides <span class="green">+1%</span> <img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Upgrade_DamageGeneral.png" alt="Image"> Damage
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need Ammo Icon.
+														</td>
+													</tr>
+													<tr id="epic-magnetic-propulsion">
+														<td class="upgrades-image">
+															<div class="h1 epic">
+																<span class="hidden">Tier 4</span>
+																Epic
+															</div>
+															<div class="h1 epic">
+																<a title="DRG Wiki: Rogue Core" class="epic" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_MagneticPropulsion.png" alt="Image">
+																	Magnetic Propulsion
+																</a>
+															</div>
+															<div class="h3">
+																Every <span class="highlights">6</span> active Armor provides 
+																<br>
+																<span class="green">+3%</span> Sprint Speed
+																<br>
+																<span class="green">+3%</span> Jump Height
+																<br>
+																<span class="highlights">100%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Armor.png" alt="Image"> Armor Restored.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need 
+															<br>
+															Sprint Speed Icon 
+															<br>
+															Jump Height Icon
+														</td>
+													</tr>
+													<tr id="epic-poison-extraction">
+														<td class="upgrades-image">
+															<div class="h1 epic">
+																<span class="hidden">Tier 4</span>
+																Epic
+															</div>
+															<div class="h1 epic">
+																<a title="DRG Wiki: Rogue Core" class="epic" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_PoisonExtraction.png" alt="Image">
+																	Poison Extraction
+																</a>
+															</div>
+															<div class="h3">
+																Dealing poison damage to enemies
+																<br>
+																within a <span class="highlights">5m</span> radius restores
+																<br>
+																<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Health.png" alt="Image"> Health equal to damage dealt.
+
+																<br><br>
+																<span class="green">+5m</span> Poison Extraction Range
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Probably needs the Poison Icon.
+															<br>
+															Extraction Range is
+														</td>
+													</tr>
+													<tr id="epic-shock-charger">
+														<td class="upgrades-image">
+															<div class="h1 epic">
+																<span class="hidden">Tier 4</span>
+																Epic
+															</div>
+															<div class="h1 epic">
+																<a title="DRG Wiki: Rogue Core" class="epic" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_ShockCharger.png" alt="Image">
+																	Shock Charger
+																</a>
+															</div>
+															<div class="h3">
+																Being in Short Range of electrified enemies 
+																<br>
+																replenishes <span class="green">+10</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Armor.png" alt="Image"> Armor per second.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Short Range is
+														</td>
+													</tr>
+													<tr id="epic-snapfire-extraction">
+														<td class="upgrades-image">
+															<div class="h1 epic">
+																<span class="hidden">Tier 4</span>
+																Epic
+															</div>
+															<div class="h1 epic">
+																<a title="DRG Wiki: Rogue Core" class="epic" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Sweet_Surrender.png" alt="Image">
+																	Snapfire Extraction
+																</a>
+															</div>
+															<div class="h3">
+																Weakpoint hits create 
+																<br>
+																<span class="green">+2</span> Red Sugar Chunks
+																
+																<br><br>
+																<span class="highlights">1.5s</span> Cooldown
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Is it still 20 HP per chunk?
+															<br>
+															Need Red Sugar Chunks Icon.
+															<br>
+														</td>
+													</tr>
+													<tr id="epic-warden">
+														<td class="upgrades-image">
+															<div class="h1 epic">
+																<span class="hidden">Tier 4</span>
+																Epic
+															</div>
+															<div class="h1 epic">
+																<a title="DRG Wiki: Rogue Core" class="epic" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Warden.png" alt="Image">
+																	Warden
+																</a>
+															</div>
+															<div class="h3">
+																While in proximity you and allies 
+																<br>
+																under <span class="highlights">50%</span> Health recover <span class="green">+3%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Health.png" alt="Image"> Health per second
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Promixity is
+														</td>
+													</tr>
+												<!-- #endregion - Epic -->
+
+											</tbody>
+										</table>
+									</div>
+									
+									<div id="rarity-legendary" class="hidden">
+										<table id="upgrades-legendary" class="display searchable-tables upgrades-data">
+											<thead>
+												<tr>
+													<th>Upgrade</th>
+													<th>Notes</th>
+												</tr>
+											</thead>
+											<tbody>
+
+												<!-- #region - Legendary -->
+													<tr id="legendary-armor-battery">
+														<td class="upgrades-image">
+															<div class="h1 legendary">
+																<span class="hidden">Tier 5</span>
+																Legendary
+															</div>
+															<div class="h1 legendary">
+																<a title="DRG Wiki: Rogue Core" class="legendary" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_ArmorBattery.png" alt="Image">
+																	Armor Battery
+																</a>
+															</div>
+															<div class="h3">
+																While below <span class="highlights">20%</span> of max armor 
+																<br>
+																you replenish <span class="green">+5</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Armor.png" alt="Image"> Armor per second. 
+																
+																<br><br>
+																<span class="highlights">3s</span> cooldown on hit.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="legendary-bio-charge">
+														<td class="upgrades-image">
+															<div class="h1 legendary">
+																<span class="hidden">Tier 5</span>
+																Legendary
+															</div>
+															<div class="h1 legendary">
+																<a title="DRG Wiki: Rogue Core" class="legendary" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Biocharge.png" alt="Image">
+																	Bio Charge
+																</a>
+															</div>
+															<div class="h3">
+																Killing an enemy replenishes 
+																<br>
+																<span class="green">+10</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Armor.png" alt="Image"> Armor
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="legendary-bio-energy">
+														<td class="upgrades-image">
+															<div class="h1 legendary">
+																<span class="hidden">Tier 5</span>
+																Legendary
+															</div>
+															<div class="h1 legendary">
+																<a title="DRG Wiki: Rogue Core" class="legendary" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Bio_Energy.png" alt="Image">
+																	Bio Energy
+																</a>
+															</div>
+															<div class="h3">
+																Killing an enemy 
+																<br>
+																converts <span class="green">+1%</span> of its Max Health 
+																<br>
+																into replenished Ammo
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need Ammo Icon.
+														</td>
+													</tr>
+													<tr id="legendary-critical-block">
+														<td class="upgrades-image">
+															<div class="h1 legendary">
+																<span class="hidden">Tier 5</span>
+																Legendary
+															</div>
+															<div class="h1 legendary">
+																<a title="DRG Wiki: Rogue Core" class="legendary" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="images/icons/blank.webp" alt="Image">
+																	Critical Block
+																</a>
+															</div>
+															<div class="h3">
+																<span class="highlights">50%</span> Block Chance 
+																<br>
+																for <span class="green">+5s</span> on Critical Hit.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need Block Chance Icon.
+														</td>
+													</tr>
+													<tr id="legendary-exposing-strike">
+														<td class="upgrades-image">
+															<div class="h1 legendary">
+																<span class="hidden">Tier 5</span>
+																Legendary
+															</div>
+															<div class="h1 legendary">
+																<a title="DRG Wiki: Rogue Core" class="legendary" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_ExplosingStrike.png" alt="Image">
+																	Exposing Strike
+																</a>
+															</div>
+															<div class="h3">
+																Dealing melee damage applies 
+																<br>
+																+3s <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_ExplosingStrike.png" alt="Image"> Exposing Strike
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Exposing Strike is
+														</td>
+													</tr>
+													<tr id="legendary-fountain-of-youth">
+														<td class="upgrades-image">
+															<div class="h1 legendary">
+																<span class="hidden">Tier 5</span>
+																Legendary
+															</div>
+															<div class="h1 legendary">
+																<a title="DRG Wiki: Rogue Core" class="legendary" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Artifact_FountainOfYouth.png" alt="Image">
+																	Fountain of Youth
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+5</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Health.png" alt="Image"> Health replenishes 
+																<br>
+																every <span class="highlights">5</span> seconds.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="legendary-immunity-buffer">
+														<td class="upgrades-image">
+															<div class="h1 legendary">
+																<span class="hidden">Tier 5</span>
+																Legendary
+															</div>
+															<div class="h1 legendary">
+																<a title="DRG Wiki: Rogue Core" class="legendary" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_ImmunityBuffer.png" alt="Image">
+																	Immunity Buffer
+																</a>
+															</div>
+															<div class="h3">
+																Gain <span class="green">+2s</span> of <span class="highlights">100%</span> Block Chance 
+																<br>
+																after using your Class Ability.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need Block Chance Icon.
+														</td>
+													</tr>
+													<tr id="legendary-in-the-zone">
+														<td class="upgrades-image">
+															<div class="h1 legendary">
+																<span class="hidden">Tier 5</span>
+																Legendary
+															</div>
+															<div class="h1 legendary">
+																<a title="DRG Wiki: Rogue Core" class="legendary" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_InTheZone.png" alt="Image">
+																	In The Zone
+																</a>
+															</div>
+															<div class="h3">
+																Critical Hits grant 
+																<br>
+																<span class="green">+25%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_CriticalChance_Colored.png" alt="Image"> Critical Hit Chance
+																<br>
+																<span class="green">+25%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_CriticalDamage_Colored.png" alt="Image">
+																Critical Hit Damage
+																<br>
+																<span class="highlights">5s</span> Duration
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="legendary-precision-regen">
+														<td class="upgrades-image">
+															<div class="h1 legendary">
+																<span class="hidden">Tier 5</span>
+																Legendary
+															</div>
+															<div class="h1 legendary">
+																<a title="DRG Wiki: Rogue Core" class="legendary" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Hyper_Efficiency.png" alt="Image">
+																	Precision Regen
+																</a>
+															</div>
+															<div class="h3">
+																Hitting a weakpoint 
+																<br>
+																replenishes <span class="green">+5</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Armor.png" alt="Image"> Armor 
+																
+																<br><br>
+																<span class="highlights">1s</span> Cooldown.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+												<!-- #endregion - Legendary -->
+
+											</tbody>
+										</table>
+									</div>
+									
+									<div id="rarity-artifacts" class="hidden">
+										<table id="upgrades-artifacts" class="display searchable-tables upgrades-data">
+											<thead>
+												<tr>
+													<th>Upgrade</th>
+													<th>Notes</th>
+												</tr>
+											</thead>
+											<tbody>
+
+												<!-- #region - Artifacts -->
+													<tr id="artifact-bastion">
+														<td class="upgrades-image">
+															<div class="h1 artifacts">
+																<span class="hidden">Tier 6</span>
+																Artifact
+															</div>
+															<div class="h1 artifacts">
+																<a title="DRG Wiki: Rogue Core" class="artifacts" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_Hyper_Efficiency.png" alt="Image">
+																	Bastion
+																</a>
+															</div>
+															<div class="h3">
+																Standing still provides 
+																<br>
+																<span class="green">+50%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_CriticalChance_Colored.png" alt="Image"> Critical Hit Chance 
+																<br>
+																<span class="green">+50%</span> Block Chance
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="artifact-brawler">
+														<td class="upgrades-image">
+															<div class="h1 artifacts">
+																<span class="hidden">Tier 6</span>
+																Artifact
+															</div>
+															<div class="h1 artifacts">
+																<a title="DRG Wiki: Rogue Core" class="artifacts" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Artifact_MeleeFocus.png" alt="Image">
+																	Brawler
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+250%</span> Power Attack Recharge Rate 
+
+																<br><br>
+																Dealing Melee Damage awards 
+																<br>
+																<span class="highlights">2-18</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_StoneSkin.png" alt="Image"> Stone Skin based on Damage dealt
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="artifact-caching">
+														<td class="upgrades-image">
+															<div class="h1 artifacts">
+																<span class="hidden">Tier 6</span>
+																Artifact
+															</div>
+															<div class="h1 artifacts">
+																<a title="DRG Wiki: Rogue Core" class="artifacts" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Artifact_Caching.png" alt="Image">
+																	Caching
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+100%</span> <img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Upgrade_DamageGeneral.png" alt="Image"> Damage from overkill 
+																<br>
+																is stored and added to the next damage you deal. 
+																
+																<br><br>
+																Stored overkill damage decays over time.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="artifact-ceramic-defence">
+														<td class="upgrades-image">
+															<div class="h1 artifacts">
+																<span class="hidden">Tier 6</span>
+																Artifact
+															</div>
+															<div class="h1 artifacts">
+																<a title="DRG Wiki: Rogue Core" class="artifacts" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Artifact_CeramicDefence.png" alt="Image">
+																	Ceramic Defence
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+5%</span> Damage Resistance for 
+																<br>
+																every <span class="highlights">10%</span> HP active.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need Damage Resistance Icon.
+														</td>
+													</tr>
+													<tr id="artifact-cqc-protocol">
+														<td class="upgrades-image">
+															<div class="h1 artifacts">
+																<span class="hidden">Tier 6</span>
+																Artifact
+															</div>
+															<div class="h1 artifacts">
+																<a title="DRG Wiki: Rogue Core" class="artifacts" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Artifact_CQCProtocol.png" alt="Image">
+																	CQC Protocol
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+3%</span> <img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Upgrade_DamageGeneral.png" alt="Image"> Melee Damage for every 
+																<br>
+																<span class="highlights">1%</span> missing Ammo
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Needs the Melee Damage Icon instead.
+														</td>
+													</tr>
+													<tr id="artifact-elementalist">
+														<td class="upgrades-image">
+															<div class="h1 artifacts">
+																<span class="hidden">Tier 6</span>
+																Artifact
+															</div>
+															<div class="h1 artifacts">
+																<a title="DRG Wiki: Rogue Core" class="artifacts" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Artifact_Elementalist.png" alt="Image">
+																	Elementalist
+																</a>
+															</div>
+															<div class="h3">
+																Every time you reload or overheat a weapon 
+																<br>
+																it gets imbued with a random 
+																<br>
+																<span class="green">+50%</span> elemental bonus
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="artifact-extreme-vigor">
+														<td class="upgrades-image">
+															<div class="h1 artifacts">
+																<span class="hidden">Tier 6</span>
+																Artifact
+															</div>
+															<div class="h1 artifacts">
+																<a title="DRG Wiki: Rogue Core" class="artifacts" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Artifact_ExtremeVigor.png" alt="Image">
+																	Extreme Vigor
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+50</span> Health Regeneration Threshold
+																<br>
+																<span class="red">-2s</span> Health Regeneration Delay
+																<br>
+																<span class="green">+10x</span> Health Regeneration Rate
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="artifact-frenzy">
+														<td class="upgrades-image">
+															<div class="h1 artifacts">
+																<span class="hidden">Tier 6</span>
+																Artifact
+															</div>
+															<div class="h1 artifacts">
+																<a title="DRG Wiki: Rogue Core" class="artifacts" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Artifact_Frenzy.png" alt="Image">
+																	Frenzy
+																</a>
+															</div>
+															<div class="h3">
+																Killing any enemy provides 
+																<br>
+																<span class="green">+20%</span> Damage
+																<br>
+																<span class="red">-5%</span> Damage Resistance
+																<br>
+																<span class="green">6s</span> Duration
+
+																<br><br>
+																Stacks
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="artifact-frontline-medic">
+														<td class="upgrades-image">
+															<div class="h1 artifacts">
+																<span class="hidden">Tier 6</span>
+																Artifact
+															</div>
+															<div class="h1 artifacts">
+																<a title="DRG Wiki: Rogue Core" class="artifacts" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Artifact_FrontlineMedic.png" alt="Image">
+																	Frontline Medic
+																</a>
+															</div>
+															<div class="h3">
+																When an ally goes down you get 
+																<br>
+																<span class="green">+50%</span> Revive Speed
+																<br>
+																<span class="green">+99</span> Stone Skin
+
+																<br><br>
+																<span class="green">5m</span> Cooldown.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need Revive Speed Icon.
+														</td>
+													</tr>
+													<tr id="artifact-glass-cannon">
+														<td class="upgrades-image">
+															<div class="h1 artifacts">
+																<span class="hidden">Tier 6</span>
+																Artifact
+															</div>
+															<div class="h1 artifacts">
+																<a title="DRG Wiki: Rogue Core" class="artifacts" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Artifact_GlassCannon.png" alt="Image">
+																	Glass Cannon
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+150%</span> <img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Upgrade_DamageGeneral.png" alt="Image"> Damage 
+																<br>
+																<span class="red">-75%</span> Health Multiplier
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need Health Multiplier Icon.
+														</td>
+													</tr>
+													<tr id="artifact-heavy-landing">
+														<td class="upgrades-image">
+															<div class="h1 artifacts">
+																<span class="hidden">Tier 6</span>
+																Artifact
+															</div>
+															<div class="h1 artifacts">
+																<a title="DRG Wiki: Rogue Core" class="artifacts" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Artifact_HeavyLanding.png" alt="Image">
+																	Heavy Landing
+																</a>
+															</div>
+															<div class="h3">
+																Instead of taking fall damage 
+																<br>
+																you deal explosion damage on impact.
+
+																<br><br>
+																Damage and Radius scales with downwards velocity.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="artifact-pro">
+														<td class="upgrades-image">
+															<div class="h1 artifacts">
+																<span class="hidden">Tier 6</span>
+																Artifact
+															</div>
+															<div class="h1 artifacts">
+																<a title="DRG Wiki: Rogue Core" class="artifacts" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Artifact_Pro.png" alt="Image">
+																	Pro
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+10%</span> <img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Upgrade_Speed.png" alt="Image"> Reload Speed
+																<br>
+																<span class="green">+5%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_CriticalChance_Colored.png" alt="Image">  Critical Hit Chance
+																<br>
+																<span class="green">+10%+</span> Health Multiplier
+																<br>
+																<span class="green">+10%</span> Sprinting Speed
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need
+															<br>
+															Health Multiplier Icon 
+															<br>
+															Sprinting Speed Icon
+														</td>
+													</tr>
+													<tr id="artifact-rampage">
+														<td class="upgrades-image">
+															<div class="h1 artifacts">
+																<span class="hidden">Tier 6</span>
+																Artifact
+															</div>
+															<div class="h1 artifacts">
+																<a title="DRG Wiki: Rogue Core" class="artifacts" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Artifact_Rampage.png" alt="Image">
+																	Rampage
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+1%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_CriticalChance_Colored.png" alt="Image"> Critical Hit Chance per kill. 
+																<br>
+																Getting hit reduces bonus by <span class="red">1%</span>.
+
+																<br><br>
+																Bonus decays over time
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="artifact-safety-first">
+														<td class="upgrades-image">
+															<div class="h1 artifacts">
+																<span class="hidden">Tier 6</span>
+																Artifact
+															</div>
+															<div class="h1 artifacts">
+																<a title="DRG Wiki: Rogue Core" class="artifacts" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Artifact_SafetyFirst.png" alt="Image">
+																	Safety First
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+25%</span> Health.
+																<br>
+																<span class="green">+25%</span> Armor.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+														</td>
+													</tr>
+													<tr id="artifact-snipers-mark">
+														<td class="upgrades-image">
+															<div class="h1 artifacts">
+																<span class="hidden">Tier 6</span>
+																Artifact
+															</div>
+															<div class="h1 artifacts">
+																<a title="DRG Wiki: Rogue Core" class="artifacts" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_RC_Upgrades_SnipersMark.png" alt="Image">
+																	Snipers Mark
+																</a>
+															</div>
+															<div class="h3">
+																Weakpoint hits to targets in Long Range 
+																<br>
+																marks it, giving all hits 
+																<br>
+																<span class="green">100%</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_CriticalChance_Colored.png" alt="Image">  Critical Hit Chance 
+																<br>
+																for <span class="green">5s</span>.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Long Range is
+														</td>
+													</tr>
+													<tr id="artifact-super-strapped">
+														<td class="upgrades-image">
+															<div class="h1 artifacts">
+																<span class="hidden">Tier 6</span>
+																Artifact
+															</div>
+															<div class="h1 artifacts">
+																<a title="DRG Wiki: Rogue Core" class="artifacts" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Artifact_SuperStrapped.png" alt="Image">
+																	Super Strapped
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+100%</span> Max Ammo 
+																<br>
+																<span class="green">+100%</span> Max Grenade Count
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need Max Ammo Icon
+														</td>
+													</tr>
+													<tr id="artifact-symbiotic">
+														<td class="upgrades-image">
+															<div class="h1 artifacts">
+																<span class="hidden">Tier 6</span>
+																Artifact
+															</div>
+															<div class="h1 artifacts">
+																<a title="DRG Wiki: Rogue Core" class="artifacts" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Artifact_Symbiotic.png" alt="Image">
+																	Symbiotic
+																</a>
+															</div>
+															<div class="h3">
+																While in proximity you and allies 
+																<br>
+																gain <span class="green">50%</span> Block Chance
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Proxity is
+															<br>
+															Need Block Chance Icon
+														</td>
+													</tr>
+													<tr id="artifact-tarred-hands">
+														<td class="upgrades-image">
+															<div class="h1 artifacts">
+																<span class="hidden">Tier 6</span>
+																Artifact
+															</div>
+															<div class="h1 artifacts">
+																<a title="DRG Wiki: Rogue Core" class="artifacts" href="https://deeprockgalactic.wiki.gg/wiki/Rogue_Core:Upgrades#Player_Upgrades" target="_blank">
+																	<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Artifact_TarredHands.png" alt="Image">
+																	Tarred Hands
+																</a>
+															</div>
+															<div class="h3">
+																<span class="green">+50%</span> <img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Upgrade_Speed.png" alt="Image"> Reload Speed
+																<br>
+																<span class="green">+50%</span> Interaction Speed
+																<br>
+																<span class="green">+50%</span> Revive Speed.
+															</div>
+														</td>
+															
+														<td class="upgrades-notes">
+															Anything with a <span class="highlights">+</span> stacks.
+															<br>
+															Need
+															<br>
+															Interaction Icon
+															<br>
+															Revive Icon
+														</td>
+													</tr>
+												<!-- #endregion - Artifacts -->
+
+											</tbody>
+										</table>
+									</div>
 									
 								</div>
 
@@ -8709,8 +11797,28 @@
 							{ width: '250px', targets: 1 },
 							{"className": "color", "targets": "_all"},],
 
-				lengthMenu: [[100, -1],
-							[100, 'All']],
+				lengthMenu: [[200, -1],
+							[200, 'All']],
+				layout: {
+					topStart: 'info',
+					top2Start: 'pageLength',
+					topEnd: 'paging',
+					top2End: 'search',
+					bottomStart: 'info',
+					bottom2Start: 'pageLength',
+					bottomEnd: 'paging',
+					bottom2End: 'search'
+				}
+			
+			});
+
+			var table = $('.upgrades-data').DataTable( {
+				columnDefs: [{ width: '500px', targets: 0 },
+							{ width: '400px', targets: 1 },
+							{"className": "color", "targets": "_all"},],
+
+				lengthMenu: [[30, -1],
+							[30, 'All']],
 				layout: {
 					topStart: 'info',
 					top2Start: 'pageLength',
@@ -8730,8 +11838,8 @@
 						{ width: '200px', targets: 2 },
 						{"className": "color", "targets": "_all"},],
 
-			lengthMenu: [[100, -1],
-						[100, 'All']],
+			lengthMenu: [[200, -1],
+						[200, 'All']],
 			layout: {
 				topStart: 'info',
 				top2Start: 'pageLength',

@@ -26,6 +26,10 @@ $( function() {
 $( "#upgrades-tips-content" ).tabs();
 } );
 
+$( function() {
+$( "#player-upgrades-tips" ).tabs();
+} );
+
 
 $( function() {
   $( "#dwarves-tips" ).tabs();
