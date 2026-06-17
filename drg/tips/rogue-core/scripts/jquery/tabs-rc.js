@@ -92,3 +92,6 @@ $( function() {
   $( "#missions-side-objects-content" ).tabs();
 } );
 
+$( function() {
+  $( "#mods-content" ).tabs();
+} );

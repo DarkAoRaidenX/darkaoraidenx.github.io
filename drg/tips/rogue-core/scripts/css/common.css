@@ -310,6 +310,10 @@ table th {
 	color: #9e9e9e;
 }
 
+.mint {
+	color: #3eb489;
+}
+
 .red,.warnings,.youtube {
 	color: #ff0000;
 }
