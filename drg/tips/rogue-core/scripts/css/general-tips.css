@@ -135,6 +135,14 @@ table.searchable-tables td {
 	left: 0;
 }
 
+.upgrades-image .h1 .nav-icons {
+	top: 4px;
+	/* width: 48px; */
+	height: 48px;
+	left: 0;
+}
+
+
 
 
 li.ui-state-active#nav-rarity-common a,
@@ -177,12 +185,7 @@ body#general-tips .upgrades-data .h3 {
 	color: #fafafa;
 }
 
-#upgrades-image .h1 a.reg-link .nav-icons {
-	top: 8px;
-	width: 48px;
-	height: 64px;
-	left: 0;
-}
+
 
 table.searchable-tables img.full {
 	width: 50%;
