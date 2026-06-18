@@ -142,7 +142,9 @@ table.searchable-tables td {
 	left: 0;
 }
 
-
+.upgrades-data .fa-circle {
+	font-size: 16px;
+}
 
 
 li.ui-state-active#nav-rarity-common a,
@@ -179,6 +181,10 @@ li.ui-state-active#nav-rarity-artifacts a,
 body#general-tips #upgrades-artifacts .h1.artifacts,
 body#general-tips #upgrades-artifacts .h1.artifacts a {
 	color: #da4542;
+}
+
+li.ui-state-active#nav-upgrades-removed a {
+	color: #b3ada4;	
 }
 
 body#general-tips .upgrades-data .h3 {
