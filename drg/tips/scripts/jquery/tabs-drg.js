@@ -51,7 +51,7 @@ $( function() {
 } );
 
 $( function() {
-  $( "#nav-driller-cyro-tips-content" ).tabs();
+  $( "#nav-driller-cryo-tips-content" ).tabs();
 } );
 
 $( function() {

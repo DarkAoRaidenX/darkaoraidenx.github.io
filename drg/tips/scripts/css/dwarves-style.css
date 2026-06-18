@@ -140,8 +140,8 @@ li.ui-state-active#nav-main-driller-throwables a {
 }
 
 /*  Driller Primary */
-li.ui-state-active#nav-driller-cyro a,
-ul#nav-main-driller-cyro-tips li.ui-state-active a {
+li.ui-state-active#nav-driller-cryo a,
+ul#nav-main-driller-cryo-tips li.ui-state-active a {
 	color: #03a9f4;
 }
 
@@ -425,7 +425,7 @@ li.ui-state-active#nav-scout-armor-rig a {
 }
 
 /*  Scout Throwables */
-li.ui-state-active#nav-scout-cyro-grenade a {
+li.ui-state-active#nav-scout-cryo-grenade a {
 	color: #03a9f4;
 }
 
@@ -452,7 +452,7 @@ li.ui-state-active#nav-scout-voltaic-stun-sweeper a {
 
 /* #region - Driller Primary Border-Top Colors */
 
-/* Cyro-Cannon Border-Top Color */
+/* Cryo-Cannon Border-Top Color */
 #driller-primary-loadouts-0 {
 	border-top: 4px solid #03a9f4;
 }
@@ -777,7 +777,7 @@ li.ui-state-active#nav-scout-voltaic-stun-sweeper a {
 
 /* #region - Driller Primary Table Borders */
 
-.driller-cyro-tables th,.driller-cyro-tables td {
+.driller-cryo-tables th,.driller-cryo-tables td {
 	border: 4px solid #03a9f4;
 }
 
@@ -1044,7 +1044,7 @@ li.ui-state-active#nav-scout-voltaic-stun-sweeper a {
 
 /* #region - Scout Throwables Table Borders */
 
-.scout-cyro-grenade td {
+.scout-cryo-grenade td {
 	border: 4px solid #03a9f4;
 }
 
@@ -1102,7 +1102,7 @@ li.ui-state-active#nav-scout-voltaic-stun-sweeper a {
 #engineer-plasma-burster-tips .plasma-burster-img,
 #engineer-proximity-mine-tips .proximity-mine-img,
 #gunner-sticky-grenade-tips .sticky-grenade-img,
-#scout-cyro-grenade-tips .cyro-grenade-img
+#scout-cryo-grenade-tips .cryo-grenade-img
 {
 	width: 300px;
 	height: 400px;	
