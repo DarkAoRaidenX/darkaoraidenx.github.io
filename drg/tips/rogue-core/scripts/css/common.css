@@ -72,7 +72,9 @@ ul li {
 	display: inline-block;
 } 
 
-ul.navs li a,a.img-link  {
+ul.navs li a,
+a.img-link,
+.no-underline  {
 	text-decoration: none;
 }
 
@@ -895,30 +897,32 @@ td.tips img.full:hover {
 	height: 220px;
 }
 
-
+.nav-icons,
 a.reg-link .nav-icons,
 a.img-link .nav-icons,
 ul .nav-icons,
 .h1 a.reg-link .nav-icons,
 .h1 .nav-icons,
+.h2 .nav-icons,
 .h3 .nav-icons,
 #nav-minerals-tips .nav-icons,
 .header-icons {
 	position: relative;
 }
 
-ul .nav-icons  {
-	top: 4px;
+ul .nav-icons,
+.h1 .nav-icons,
+.header-icons {
+	top: 8px;
 	/* width: 48px; */
 	height: 48px;
 	left: 0;
 }
 
-.h1 .nav-icons,
-.header-icons  {
+.h2 .nav-icons  {
 	top: 8px;
 	/* width: 48px; */
-	height: 48px;
+	height: 40px;
 	left: 0;
 }
 

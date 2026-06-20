@@ -36,7 +36,11 @@ $( function() {
 } );
 
 $( function() {
-  $( "#dwarf-falconer-tips-content" ).tabs();
+  $( "#falconer-tips-content" ).tabs();
+} );
+
+$( function() {
+  $( "#falconer-loadouts-content" ).tabs();
 } );
 
 $( function() {
@@ -44,7 +48,11 @@ $( function() {
 } );
 
 $( function() {
-  $( "#dwarf-guardian-tips-content" ).tabs();
+  $( "#guardian-tips-content" ).tabs();
+} );
+
+$( function() {
+  $( "#guardian-loadouts-content" ).tabs();
 } );
 
 $( function() {
@@ -52,15 +60,24 @@ $( function() {
 } );
 
 $( function() {
-  $( "#dwarf-retcon-tips-content" ).tabs();
+  $( "#retcon-tips-content" ).tabs();
+} );
+
+$( function() {
+  $( "#retcon-loadouts-content" ).tabs();
 } );
 
 $( function() {
   $( "#retcon-info-content" ).tabs();
 } );
 
+
 $( function() {
-  $( "#dwarf-slicer-tips-content" ).tabs();
+  $( "#slicer-tips-content" ).tabs();
+} );
+
+$( function() {
+  $( "#slicer-loadouts-content" ).tabs();
 } );
 
 $( function() {
@@ -68,8 +85,13 @@ $( function() {
 } );
 
 $( function() {
-  $( "#dwarf-spotter-tips-content" ).tabs();
+  $( "#spotter-tips-content" ).tabs();
 } );
+
+$( function() {
+  $( "#spotter-loadouts-content" ).tabs();
+} );
+
 
 $( function() {
   $( "#spotter-info-content" ).tabs();

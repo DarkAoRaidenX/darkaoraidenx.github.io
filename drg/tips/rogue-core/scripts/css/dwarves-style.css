@@ -11,11 +11,26 @@ body#dwarves-classes-tips .tabs-content {
 	background: rgba(0,0,0,0.90);	
 }
 
-ul#nav-main-dwarves-tips li,ul.nav-dwarves-tips,ul.nav-builds-tips {
+ul#nav-dwarves-classes-tips li,
+ul.nav-dwarves-tips,
+ul.nav-builds-tips {
 	font-size: 48px;
 }
 
-ul#nav-main-dwarves-tips li {
+.loadouts-content .nav-dwarves-tips {
+	font-size: 32px;
+}
+
+.loadouts-content .nav-dwarves-tips .nav-icons {
+	position: relative;
+	top: 4px;
+	/* width: 48px; */
+	height: 32px;
+	left: 0;
+}
+
+
+ul#nav-dwarves-classes-tips li {
 	width: 200px;
 }
 
@@ -75,19 +90,20 @@ table.weapon-builds {
 	width: 1050px;
 }
 
-table.skills-content,table.weapon-tips {
+table.skills-content,
+table.weapon-tips {
 	font-size: 24px;
 	line-height: 32px;
 }
 
 
-table.weapon-builds,.loadouts-content .table-headers {
+table.weapon-builds,
+.loadouts-content .table-headers {
 	line-height: 40px;
 }
 
 
 table.weapon-builds,
-.loadouts-content .table-headers, 
 .perk-decks-comments {
 	font-size: 32px;
 }
@@ -118,8 +134,18 @@ table.loadout-builds .h1 {
 	line-height: 64px;
 }
 
-table.loadout-builds span.h2 {
-	font-size: 32px;
+table.loadout-builds .h1 .background-text {
+	text-decoration: none;
+}
+
+table.loadout-builds .text-content-container {
+	position: relative;
+	top: -20px;
+}
+
+
+.loadout-builds-upgrades .h3 {
+	color: #9e9e9e;
 }
 
 #dwarves-tips {
@@ -158,61 +184,59 @@ body#dwarves-classes-tips .column-left {
 /* #region -  Dwarves colors */
 
 ul.navs a.falconer,
-#dwarves-tips-1 li.nav-separator,
-.nav-dwarves-tips#nav-falconer-tips li.ui-state-active a,
-.nav-dwarves-tips#nav-falconer-info li.ui-state-active a {
+#falconer-tips-content-container li.nav-separator,
+.falconer-navs li.ui-state-active a {
 	color: #31caf3;
 }
 
-#dwarf-falconer-tips-content {
+#falconer-tips-content {
 	border: 4px solid #31caf3;
 }
 
 ul.navs a.guardian,
-#dwarves-tips-2 li.nav-separator,
-.nav-dwarves-tips#nav-guardian-tips li.ui-state-active a,
-.nav-dwarves-tips#nav-guardian-info li.ui-state-active a {
+#guardian-tips-content-container li.nav-separator,
+.guardian-navs li.ui-state-active a {
 	color: #f4d637;
 }
 
-#dwarf-guardian-tips-content {
+#guardian-tips-content {
 	border: 4px solid #f4d637;
 }
 
 ul.navs a.retcon,
-#dwarves-tips-3 li.nav-separator,
+#retcon-tips-content-container li.nav-separator,
 .nav-dwarves-tips#nav-retcon-tips li.ui-state-active a,
-.nav-dwarves-tips#nav-retcon-info li.ui-state-active a {
+.retcon-navs li.ui-state-active a {
 	color: #d1ceba;
 }
 
-#dwarf-retcon-tips-content {
+#retcon-tips-content {
 	border: 4px solid #d1ceba;
 }
 
 ul.navs a.slicer,
-#dwarves-tips-4 li.nav-separator,
-.nav-dwarves-tips#nav-slicer-tips li.ui-state-active a,
-.nav-dwarves-tips#nav-slicer-info li.ui-state-active a {
+#slicer-tips-content-container li.nav-separator,
+.slicer-navs li.ui-state-active a {
 	color: #05ec46;
 }
 
-#dwarf-slicer-tips-content {
+#slicer-tips-content {
 	border: 4px solid #05ec46;
 }
 
 ul.navs a.spotter,
-#dwarves-tips-5 li.nav-separator,
-.nav-dwarves-tips#nav-spotter-tips li.ui-state-active a,
-.nav-dwarves-tips#nav-spotter-info li.ui-state-active a {
+#spotter-tips-content-container li.nav-separator,
+.spotter-navs li.ui-state-active a {
 	color: #d43c00;
 }
 
-#dwarf-spotter-tips-content {
+#spotter-tips-content {
 	border: 4px solid #d43c00;
 }
 
-
+.upgrades-loadouts .h3 {
+	color: #9e9e9e;
+}
 
 /* #endregion - Dwarves colors */
 
