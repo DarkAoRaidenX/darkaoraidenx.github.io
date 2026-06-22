@@ -324,6 +324,30 @@ table th {
 	color: #9146FF;
 }
 
+.crit1 {
+	color: #FF5621;	
+}
+
+.crit2 {
+	color: #39AE4F;	
+}
+
+.crit3 {
+	color: #3C47E6;	
+}
+
+.crit4 {
+	color: #FFD200;	
+}
+
+.crit5 {
+	color: #FF00D4;	
+}
+
+.crit6 {
+	color: #494949;	
+}
+
 /* #endregion - names colors */
 
 .artifacts,a.artifacts {
@@ -637,6 +661,9 @@ ul#nav-main-header li,
 	background-color: #263238;
 }
 
+.background-text2 {
+	background-color: #212121;
+}
 
 /* #endregion - background colors */
 
