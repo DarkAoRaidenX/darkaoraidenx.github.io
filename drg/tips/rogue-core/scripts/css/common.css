@@ -321,32 +321,61 @@ table th {
 }
 
 .twitch {
-	color: #9146FF;
+	color: #9146Ff;
 }
 
 .crit1 {
-	color: #FF5621;	
+	color: #ff5621;	
 }
 
 .crit2 {
-	color: #39AE4F;	
+	color: #39ae4f;	
 }
 
 .crit3 {
-	color: #3C47E6;	
+	color: #3c47e6;	
 }
 
 .crit4 {
-	color: #FFD200;	
+	color: #ffd200;	
 }
 
 .crit5 {
-	color: #FF00D4;	
+	color: #ff00d4;	
 }
 
 .crit6 {
 	color: #494949;	
 }
+
+/* #region - ascension colors */
+
+.bronze {
+	color: #a26234;	
+}
+
+.silver {
+	color: #7e8ea2;	
+}
+
+.gold {
+	color: #a27608;	
+}
+
+.platinum {
+	color: #a29965;	
+}
+
+.diamond {
+	color: #3199a2;	
+}
+
+.legendary-border {
+	color: #BD2F13;	
+}
+
+
+/* #endregion - ascension colors */
 
 /* #endregion - names colors */
 
