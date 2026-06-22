@@ -932,6 +932,7 @@ ul .nav-icons,
 .h1 .nav-icons,
 .h2 .nav-icons,
 .h3 .nav-icons,
+.h4 .nav-icons,
 #nav-minerals-tips .nav-icons,
 .header-icons {
 	position: relative;
@@ -954,10 +955,17 @@ ul .nav-icons,
 }
 
 
-.h3 .nav-icons  {
+.h3 .nav-icons {
 	top: 4px;
 	/* width: 48px; */
 	height: 32px;
+	left: 0;
+}
+
+.h4 .nav-icons   {
+	top: 4px;
+	/* width: 48px; */
+	height: 24px;
 	left: 0;
 }
 
