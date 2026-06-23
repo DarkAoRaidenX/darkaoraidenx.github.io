@@ -209,8 +209,11 @@ ul#nav-main-general-info-tips {
 
 
 body {
-	color: #9e9e9e;	
-	/* #b3ada4 - other grey */
+	color: #bdbdbd;	
+	/* 	#bdbdbd - 400
+		#9e9e9e - 500
+		#b3ada4 - other grey 
+	*/
 }
 
 ul.navs li a,
@@ -300,7 +303,9 @@ table th {
 	color: #5865F2;
 }
 
-.enemies,.red-sugar {
+.enemies,
+a.enemies,
+.red-sugar {
 	color: #e53935;
 }
 

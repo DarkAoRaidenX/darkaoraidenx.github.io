@@ -14,7 +14,7 @@ body#missions-tips .column-left {
 
 body#missions-tips .columns {
 	height: 850px;
-	width: 1200px;
+	width: 1225px;
 }
 
 ul#nav-main-missions li {
@@ -140,8 +140,13 @@ li.ui-state-active#nav-link-gauntlets a {
 }
 
 .gotoorak-img1 {
-	width: 405px;
-	height: 350px; 
+	width: 30%;
+	height: 100%; 
+}
+
+.gotoorak-img2 {
+	width: 40%;
+	height: 100%; 
 }
 
 .molaktula-img1 {
@@ -149,7 +154,12 @@ li.ui-state-active#nav-link-gauntlets a {
 	height: 350px; 
 }
 
-.ramok-img1 {
+.molaktula-img2 {
+	width: 370px;
+	height: 350px; 
+}
+
+.ramok-img2 {
 	width: 240px;
 	height: 260px; 
 }
