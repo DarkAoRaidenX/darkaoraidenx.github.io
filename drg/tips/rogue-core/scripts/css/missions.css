@@ -47,8 +47,8 @@ ul#nav-main-events .nav-icons {
 }
 
 .column-right {
-	font-size: 32px;
-	line-height: 32px;
+	font-size: 24px;
+	line-height: 24px;
 }
 
 /* .bosses .h1 {
@@ -161,6 +161,11 @@ li.ui-state-active#nav-link-gauntlets a {
 
 .ramok-img2 {
 	width: 240px;
+	height: 260px; 
+}
+
+.ramok-img3 {
+	width: 35%;
 	height: 260px; 
 }
 
