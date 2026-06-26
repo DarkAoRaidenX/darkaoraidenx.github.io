@@ -130,6 +130,10 @@ li.ui-state-active#nav-link-gauntlets a {
 	color: #ffb000;
 }
 
+.bosses table td {
+	width: 500px;
+}
+
 
 /* #endregion - Nav Missions Link Colors */
 

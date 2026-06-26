@@ -694,11 +694,11 @@ a.enemies,
 /* #region - background colors */
 
 ul#nav-main-header li,
-.background-text {
+.background {
 	background-color: #263238;
 }
 
-.background-text2 {
+.background2 {
 	background-color: #212121;
 }
 

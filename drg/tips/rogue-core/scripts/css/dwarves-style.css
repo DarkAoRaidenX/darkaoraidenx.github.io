@@ -81,7 +81,7 @@ table.overclock-colors-key td {
 	border: 0 solid #546e7a;
 }
 
-table.overclock-colors-key .background-text {
+table.overclock-colors-key .background {
 	background-color: transparent;
 }
 
@@ -134,7 +134,7 @@ table.loadout-builds .h1 {
 	line-height: 64px;
 }
 
-table.loadout-builds .h1 .background-text {
+table.loadout-builds .h1 .background {
 	text-decoration: none;
 }
 
