@@ -1,7 +1,7 @@
 body#general-tips {
 	background: 
 	#212121
-    url("https://i.imgur.com/91BublI.jpg") 
+    url("https://i.imgur.com/91BublI.jpeg") 
 	top center / 100% 100%
 	no-repeat;
 	background-size: cover;
@@ -193,16 +193,25 @@ body#general-tips .upgrades-data .h3 {
 
 
 
-table.searchable-tables img.full {
+table.searchable-tables img.weapons {
+	width: 90%;
+	height: 50%;
+}
+
+#cadna-field-projector .weapon-image img.weapons {
+	width: 75%;
+}
+
+table.searchable-tables img.traversal-tools,
+table.searchable-tables img.support-tools,
+table.searchable-tables img.grenades {
 	width: 50%;
 	height: 50%;
 }
-#trident-des .weapon-image img.full {
-	width: 90%;
-}
 
-#satchel-charge-c4 .equipment-image img.full,
-#shield-generator .equipment-image img.full {
+
+#satchel-charge-c4 .equipment-image img.support-tools,
+#shield-generator .equipment-image img.support-tools {
 	width: 25%;
 }
 

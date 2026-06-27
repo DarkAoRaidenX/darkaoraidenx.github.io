@@ -231,11 +231,12 @@ ul.navs li a,
 
 
 /* #region - header colors */
+a:link,
+a:visited,
 .general-missions-tips,
 .gameplay-tips,
 .h1, .h2, .h3, 
 .h1 a, .h2 a, .h3 a,
-.reg-link,
 .header-link,
 .highlights,
 li.nav-separator,
@@ -302,7 +303,8 @@ table th {
 	color: #795548;
 }
 
-.discord {
+.discord,
+a.discord {
 	color: #5865F2;
 }
 
@@ -324,11 +326,12 @@ a.enemies,
 	color: #3eb489;
 }
 
-.red,.warnings,.youtube {
+.red,.warnings,.youtube,a.youtube  {
 	color: #ff0000;
 }
 
-.twitch {
+.twitch,
+a.twitch {
 	color: #9146Ff;
 }
 
@@ -861,18 +864,124 @@ table.tips-content {
 	height: 48px;
 }
 
+/* 
+Zoom Level 2 - 1440p
+Zoom Level 3 - 1080p
+Zoom Level 4 - 1000px under / Squareish
+*/
 
 
-.full {
+img.zoom {
 	vertical-align: top;
-	width: 480px;
-	height: 272px;
-	/* transition: transform .2s;			 */
+	transition: transform .2s;	
+	/* width: 480px;
+	height: 272px; */
+	/* transition: transform .2s; */
 }
 
-/* .full:hover {
+
+
+.zoom-level1 {
+	zoom: .1;
+}
+
+.zoom-level2 {
+	zoom: .2;
+}
+
+img.zoom-level2:hover {
+	transform: scale(1.20);
+	z-index: 100;
+}
+
+.zoom-level2-5 {
+	zoom: .25;
+}
+
+img.zoom-level2-5:hover {
+	transform: scale(1.25);
+	z-index: 100;
+}
+
+.zoom-level3 {
+	zoom: .3;
+}
+
+img.zoom-level3:hover {
+	transform: scale(1.50);
+	z-index: 100;
+}
+
+.zoom-level4 {
+	zoom: .4;
+}
+
+img.zoom-level4:hover {
+	transform: scale(1.30);
+	z-index: 100;
+}
+
+.zoom-level5 {
+	zoom: .5;
+}
+
+img.zoom-level5:hover {
+	transform: scale(1.25);
+	z-index: 100;
+}
+
+
+.zoom-level6 {
+	zoom: .6;
+}
+
+img.zoom-level6:hover {
+	transform: scale(1.25);
+	z-index: 100;
+}
+
+.zoom-level57 {
+	zoom: .7;
+}
+
+img.zoom-level7:hover {
+	transform: scale(1.25);
+	z-index: 100;
+}
+
+.zoom-level8 {
+	zoom: .8;
+}
+
+img.zoom-level8:hover {
+	transform: scale(1.25);
+	z-index: 100;
+}
+
+.zoom-level9 {
+	zoom: .9;
+}
+
+img.zoom-level9:hover {
+	transform: scale(1.25);
+	z-index: 100;
+}
+
+.zoom-level10 {
+	zoom: 1;
+}
+
+img.zoom-level10:hover {
+	transform: scale(1.25);
+	z-index: 100;
+}
+
+/* .zoom:hover {
 	transform: scale(1.35);
 } */
+
+
+
 
 .overclock-icons,.weapon-icons {
 	position: relative;
@@ -911,16 +1020,6 @@ table.tips-content {
 
 
 
-.full2 {
-	width: 768px;
-	height: 432px;
-	transition: transform .2s;	
-}
-
-.full2:hover {
-	transform: scale(1.35);
-}
-
 .tall {
 	width: 35%;
 	height: 75%;
@@ -942,18 +1041,7 @@ img.buttons {
 	height: 128px;
 }
 
-td.tips img.full {
-	transition: transform .2s;	
-}
 
-td.tips img.full:hover {
-	transform: scale(1.20);
-	z-index: 100;
-}
-
-#buried-gems-tips td.tips img.full:hover {
-	transform: scale(1.20);
-}
 
 
 .stun-sweeper {
@@ -1026,7 +1114,6 @@ a.img-link .nav-icons,
 	position: relative;
 	top: 5px;
 }
-
 
 
 
