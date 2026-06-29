@@ -858,16 +858,8 @@ table.tips-content {
 
 /* #region - images */
 
-.icons {
-	position: relative;
-	top: 5px;
-	width: 32px;
-	height: 32px;
-}
-
-.h1 .icons {
-	width: 48px;
-	height: 48px;
+img.buttons {
+	width: 185px;
 }
 
 /* 
@@ -880,12 +872,7 @@ Zoom Level 4 - 1000px under / Squareish
 img.zoom {
 	vertical-align: top;
 	transition: transform .2s;	
-	/* width: 480px;
-	height: 272px; */
-	/* transition: transform .2s; */
 }
-
-
 
 .zoom-level1 {
 	zoom: .1;
@@ -982,11 +969,6 @@ img.zoom-level10:hover {
 	z-index: 100;
 }
 
-/* .zoom:hover {
-	transform: scale(1.35);
-} */
-
-
 
 
 .overclock-icons,.weapon-icons {
@@ -1024,16 +1006,12 @@ img.zoom-level10:hover {
 	width: 96px;
 }
 
-
-
 .tall {
 	width: 35%;
 	height: 75%;
 }
 
-img.buttons {
-	width: 185px;
-}
+
 
 .scroll-down {
 	position: absolute;
@@ -1047,13 +1025,22 @@ img.buttons {
 	height: 128px;
 }
 
-
-
-
 .stun-sweeper {
 	width: 85px;
 	height: 220px;
 }
+
+.icons {
+	position: relative;
+	top: 5px;
+	width: 32px;
+	height: 32px;
+}
+
+/* .h1 .icons {
+	width: 48px;
+	height: 48px;
+} */
 
 .nav-icons,
 a.reg-link .nav-icons,
@@ -1064,16 +1051,15 @@ ul .nav-icons,
 .h2 .nav-icons,
 .h3 .nav-icons,
 .h4 .nav-icons,
-#nav-minerals-tips .nav-icons,
-.header-icons {
+#nav-minerals-tips .nav-icons {
 	position: relative;
 }
 
 ul .nav-icons,
-.h1 .nav-icons,
-.header-icons {
+.h1 .icons,
+.h1 .nav-icons {
 	top: 8px;
-	/* width: 48px; */
+	width: 48px;
 	height: 48px;
 	left: 0;
 }

@@ -289,25 +289,25 @@ ul.navs a.spotter,
 	height: 384px;		
 }
 
-.h1 a .dwarves-icons,.table-headers .header-icons {
+.h1 a .dwarves-icons,.table-headers .icons {
 	position: relative; 
 }
 
-.h1 a .dwarves-icons,.h1 .header-icons {
+.h1 a .dwarves-icons,.h1 .icons {
 	top: 8px;	
 }
 
-.h1 a .dwarves-icons,.h1 .header-icons,.perk-deck-all-in {
+.h1 a .dwarves-icons,.h1 .icons,.perk-deck-all-in {
 	width: 48px;
 	height: 48px;		
 }
 
-table.skills-content .header-icons {
-	/* width: 64px; */
+table.skills-content .icons {
+	width: 64px;
 	height: 64px;
 }
 
-table.skills-content .table-headers .header-icons {
+table.skills-content .table-headers .icons {
 	top: 4px;
 	width: 64px;
 }
