@@ -49,6 +49,10 @@ img,fieldset {
 	display: inline-block;
 }
 
+table,
+.info-popup {
+	margin: 0 auto;
+}
 
 /* #endregion - global */
 
@@ -250,7 +254,11 @@ table th {
 	color: #ff9c00;
 }
 
-
+.tooltips-container {
+	background-color: #000;
+	font-size: 24px;
+	width: 400px;
+}
 
 
 
@@ -807,7 +815,6 @@ body#links .columns {
 
 table {
 	display: table;
-	margin:0 auto;
 	width: 1050px;
 }
 

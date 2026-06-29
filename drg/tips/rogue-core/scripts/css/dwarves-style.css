@@ -68,7 +68,8 @@ ul.nav-loadouts {
 	line-height: 48px;
 }
 
-#dwarves-tips,table.loadout-builds .fa-circle {
+#dwarves-tips,
+table.loadout-builds .fa-circle {
 	position: relative;
 }
 

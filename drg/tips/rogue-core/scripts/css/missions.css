@@ -51,6 +51,12 @@ ul#nav-main-events .nav-icons {
 	line-height: 24px;
 }
 
+#missions-general-tips-content .fa-circle {
+	position: relative;
+	top: -2px;
+	font-size: 16px;
+}
+
 /* .bosses .h1 {
 	background-color: #263238;
 } */
