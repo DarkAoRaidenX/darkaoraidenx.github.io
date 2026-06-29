@@ -8709,7 +8709,7 @@
 															<div class="h3">
 																Dealing <span class="highlights">Melee</span> damage replenishes 
 																<br>
-																<span class="green">+25%</span> <img class="nav-icons" src="images/icons/Icon_RC_Upgrades_Cooldown.png" alt="Image"> Power Attack Cooldown 
+																<span class="green">+25%</span> <img class="tooltips icons" src="images/icons/Icon_RC_Upgrades_Cooldown.png" data-template="cooldown-tooltip" alt="Image"> Power Attack Cooldown 
 																
 															</div>
 														</td>
@@ -8760,7 +8760,7 @@
 																</a>
 															</div>
 															<div class="h3">
-																Critical Hits Stun for <span class="green">+1.5s</span>
+																Critical Hits <img class="tooltips icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Upgrade_Stun_Colored.png" data-template="stun-tooltip" alt="Image"> Stun for <span class="green">+1.5s</span>
 															</div>
 														</td>
 															
@@ -8839,7 +8839,7 @@
 																</a>
 															</div>
 															<div class="h3">
-																<span class="green">+50%</span> Damage against 
+																<span class="green">+50%</span> <img class="tooltips icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Upgrade_DamageGeneral.png" data-template="damage-tooltip" alt="Image"> Damage against 
 																<br>
 																stunned targets
 															</div>
@@ -8863,7 +8863,7 @@
 															<div class="h3">
 																Explosions 
 																<br>
-																<img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Upgrade_Stun_Colored.png" alt="Image"> Stun for <span class="green">+1.5s</span>
+																<img class="tooltips icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Upgrade_Stun_Colored.png" data-template="stun-tooltip" alt="Image"> Stun for <span class="green">+1.5s</span>
 															</div>
 														</td>
 															
@@ -9087,7 +9087,7 @@
 																</a>
 															</div>
 															<div class="h3">
-																<span class="green">+10%</span> <img class="nav-icons" src="images/icons/Icon_RC_Upgrades_Cooldown.png" alt="Image"> Ability Cooldown 
+																<span class="green">+10%</span> <img class="tooltips icons" src="images/icons/Icon_RC_Upgrades_Cooldown.png" data-template="cooldown-tooltip" alt="Image"> Ability Cooldown 
 																<br>
 																per <span class="highlights">10%</span> current health
 															</div>
@@ -9221,7 +9221,7 @@
 																</a>
 															</div>
 															<div class="h3">
-																<span class="green">+1.5s</span> <img class="nav-icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Upgrade_Stun_Colored.png" alt="Image"> Stun to all melee damage
+																<span class="green">+1.5s</span> <img class="tooltips icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Upgrade_Stun_Colored.png" data-template="stun-tooltip" alt="Image"> Stun to all melee damage
 															</div>
 														</td>
 															
@@ -9380,7 +9380,6 @@
 																Slow, Stun and Elemental Build-up on hit 
 																<br>
 																to enemies in 
-																<br>
 																<img class="tooltips nav-icons" src="images/icons/info.webp" data-template="short-range-tooltip" alt="Image"> Short Range.
 															</div>
 														</td>
@@ -9436,7 +9435,7 @@
 																<br>
 																makes them Flash. 
 																<br>
-																Flash stuns enemies in 
+																Flash stuns <img class="tooltips icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Upgrade_Stun_Colored.png" data-template="stun-tooltip" alt="Image"> enemies in 
 																<br>
 																<img class="tooltips nav-icons" src="images/icons/info.webp" data-template="short-range-tooltip" alt="Image"> Short Range for <span class="green">+1.5s</span>.
 															</div>
@@ -9453,6 +9452,9 @@
 															[RC:EA : 01.01 + 146012]
 															<br>
 															Renamed Radiance to Blinding Flash
+															
+															<br><br>
+															Stun icon on wrong side?
 														</td>
 													</tr>
 													<tr id="uncommon-reloading-trick">
@@ -9628,7 +9630,7 @@
 															<div class="h3">
 																Stunning an enemy replenishes 
 																<br>
-																<span class="green">+10%</span> <img class="nav-icons" src="images/icons/Icon_RC_Upgrades_Cooldown.png" alt="Image"> Ability Cooldown 
+																<span class="green">+10%</span> <img class="tooltips icons" src="images/icons/Icon_RC_Upgrades_Cooldown.png" data-template="cooldown-tooltip" alt="Image"> Ability Cooldown 
 																<br>
 																<span class="highlights">0.5s</span> Cooldown
 															</div>
@@ -9878,6 +9880,9 @@
 															Anything with a <span class="green">+</span>/<span class="red">-</span> stacks.
 															<br>
 															Medium Range is 0-10m
+
+															<br><br>
+															Should it have the Stuns icon?
 														</td>
 													</tr>
 													<tr id="rare-critical-burn">
@@ -12489,6 +12494,123 @@
 
 	<div id="tooltips-content" class="hidden">
 
+		<!-- #region - ELEMENTAL DAMAGES -->
+			<div id="acid-tooltip">
+				<div class="tooltips-container">
+					<div class="h1">
+						<img class="icons" src="images/icons/Icon_Element_Corrosive_Colored.png" alt="Image">
+						Acid 
+					</div>
+					<span class="highlights">Corrodes</span> enemy armor and 
+					<br>
+					deals minor damage over time. 
+					<br>
+					Can be applied multiple times for <span class="highlights">greater potency</span>.
+
+					<br><br>
+					Acid is added as a bonus percent enhancement 
+					<br>
+					proportional to Damage or applied as pure Acid.
+
+				</div>
+			</div>
+
+			<div id="electricity-tooltip">
+				<div class="tooltips-container">
+					<div class="h1">
+						<img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Element_Electricity_Colored.png" alt="Image">
+						Electricity 
+					</div>
+					<span class="highlights">Electrocutes</span> enemies, 
+					<br>
+					slowing their attacks and movement 
+					<br>
+					while dealing damage over time.
+
+					<br><br>
+					Electricity is added as a bonus percent enhancement 
+					<br>
+					proportional to Damage or applied as pure Electricity.
+
+				</div>
+			</div>
+
+			<div id="fire-tooltip">
+				<div class="tooltips-container">
+					<div class="h1">
+						<img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Element_Fire_Colored.png" alt="Image">
+						Fire 
+					</div>
+					Heats enemies, making them <span class="highlights">burn</span> and 
+					<br>
+					take heavy damage over time.
+
+					<br><br>
+					Fire is added as a bonus percent enhancement 
+					<br>
+					proportional to Damage or applied as pure Fire.
+
+				</div>
+			</div>
+
+			<div id="ice-tooltip">
+				<div class="tooltips-container">
+					<div class="h1">
+						<img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Element_Ice_Colored.png" alt="Image">
+						Ice
+					</div>
+					Cools enemies, <span class="highlights">freezing</span> them solid 
+					<br>
+					and doubling the damage they take.
+
+					<br><br>
+					Ice is added as a bonus percent enhancement 
+					<br>
+					proportional to Damage or applied as pure Ice.
+
+				</div>
+			</div>
+
+			<div id="poison-tooltip">
+				<div class="tooltips-container">
+					<div class="h1">
+						<img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Element_Poison_Colored.png" alt="Image">
+						Poison
+					</div>
+					<span class="highlights">Poisons</span> enemies, reducing their damage and 
+					<br>
+					occasionally causes them to stagger. 
+					<br>
+					The effect lasts a long time but deals minimal damage.
+
+					<br><br>
+					Poison is added as a bonus percent enhancement 
+					<br>
+					proportional to Damage or applied as pure Poison.
+
+				</div>
+			</div>
+
+			<div id="radiation-tooltip">
+				<div class="tooltips-container">
+					<div class="h1">
+						<img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Element_Radiation_Colored.png" alt="Image">
+						Radiation 
+					</div>
+					<span class="highlights">Irradiates</span> enemies and 
+					<br>
+					grows temporary weakpoints on them.
+
+					<br><br>
+					Radiation is added as a bonus percent enhancement 
+					<br>
+					proportional to Damage or applied as pure Radiation.
+
+				</div>
+			</div>
+
+		<!-- #endregion - ELEMENTAL DAMAGES -->
+
 		<!-- #region - RANGES -->
 			<div id="proximity-range-tooltip">
 				<div class="tooltips-container">
@@ -12559,6 +12681,26 @@
 					is still effective at protecting Health 
 					<br>
 					as long as it remains.
+
+				</div>
+			</div>
+
+			<div id="cooldown-tooltip">
+				<div class="tooltips-container">
+					<div class="h1">
+						<img class="tooltips icons" src="images/icons/Icon_RC_Upgrades_Cooldown.png" data-template="stun-tooltip" alt="Image">
+						Cooldown
+					</div>
+					Cooldown is the recharge rate for a 
+					<br>
+					portion of an ability or effect 
+					<br>
+					to be ready to trigger or use. 
+
+					<br><br>
+					Cooldown is usually measured in seconds but 
+					<br>
+					can be sped up or recharged in some circumstances.
 
 				</div>
 			</div>
@@ -12757,6 +12899,21 @@
 				</div>
 			</div>
 
+			<div id="stun-tooltip">
+				<div class="tooltips-container">
+					<div class="h1">
+						<img class="tooltips icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Upgrade_Stun_Colored.png" data-template="stun-tooltip" alt="Image">
+						Stun
+					</div>
+					Stun stops an enemy in their track 
+					<br>
+					for a short duration, 
+					<br>
+					and makes them unable to act.
+
+				</div>
+			</div>
+
 			<div id="wayward-sparks-tooltip">
 				<div class="tooltips-container">
 					<div class="h1">
@@ -12780,124 +12937,7 @@
 			
 		<!-- #endregion - UPGRADES -->
 
-		<!-- #region - ELEMENTAL DAMAGES -->
-			<div id="acid-tooltip">
-				<div class="tooltips-container">
-					<div class="h1">
-						<img class="icons" src="images/icons/Icon_Element_Corrosive_Colored.png" alt="Image">
-						Acid 
-					</div>
-					<span class="highlights">Corrodes</span> enemy armor and 
-					<br>
-					deals minor damage over time. 
-					<br>
-					Can be applied multiple times for <span class="highlights">greater potency</span>.
-
-					<br><br>
-					Acid is added as a bonus percent enhancement 
-					<br>
-					proportional to Damage or applied as pure Acid.
-
-				</div>
-			</div>
-
-			<div id="electricity-tooltip">
-				<div class="tooltips-container">
-					<div class="h1">
-						<img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Element_Electricity_Colored.png" alt="Image">
-						Electricity 
-					</div>
-					<span class="highlights">Electrocutes</span> enemies, 
-					<br>
-					slowing their attacks and movement 
-					<br>
-					while dealing damage over time.
-
-					<br><br>
-					Electricity is added as a bonus percent enhancement 
-					<br>
-					proportional to Damage or applied as pure Electricity.
-
-				</div>
-			</div>
-
-			<div id="fire-tooltip">
-				<div class="tooltips-container">
-					<div class="h1">
-						<img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Element_Fire_Colored.png" alt="Image">
-						Fire 
-					</div>
-					Heats enemies, making them <span class="highlights">burn</span> and 
-					<br>
-					take heavy damage over time.
-
-					<br><br>
-					Fire is added as a bonus percent enhancement 
-					<br>
-					proportional to Damage or applied as pure Fire.
-
-				</div>
-			</div>
-
-			<div id="ice-tooltip">
-				<div class="tooltips-container">
-					<div class="h1">
-						<img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Element_Ice_Colored.png" alt="Image">
-						Ice
-					</div>
-					Cools enemies, <span class="highlights">freezing</span> them solid 
-					<br>
-					and doubling the damage they take.
-
-					<br><br>
-					Ice is added as a bonus percent enhancement 
-					<br>
-					proportional to Damage or applied as pure Ice.
-
-				</div>
-			</div>
-
-			<div id="poison-tooltip">
-				<div class="tooltips-container">
-					<div class="h1">
-						<img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Element_Poison_Colored.png" alt="Image">
-						Poison
-					</div>
-					<span class="highlights">Poisons</span> enemies, reducing their damage and 
-					<br>
-					occasionally causes them to stagger. 
-					<br>
-					The effect lasts a long time but deals minimal damage.
-
-					<br><br>
-					Poison is added as a bonus percent enhancement 
-					<br>
-					proportional to Damage or applied as pure Poison.
-
-				</div>
-			</div>
-
-			<div id="radiation-tooltip">
-				<div class="tooltips-container">
-					<div class="h1">
-						<img class="icons" src="https://deeprockgalactic.wiki.gg/images/Icon_Element_Radiation_Colored.png" alt="Image">
-						Radiation 
-					</div>
-					<span class="highlights">Irradiates</span> enemies and 
-					<br>
-					grows temporary weakpoints on them.
-
-					<br><br>
-					Radiation is added as a bonus percent enhancement 
-					<br>
-					proportional to Damage or applied as pure Radiation.
-
-				</div>
-			</div>
-
-		<!-- #endregion - ELEMENTAL DAMAGES -->
-
-
+		
 
 	</div>
 
