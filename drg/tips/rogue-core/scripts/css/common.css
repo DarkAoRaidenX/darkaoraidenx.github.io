@@ -267,21 +267,23 @@ table th {
 
 /* #region - dwarves colors */
 
-.driller {
+.driller,a.driller {
 	color: #fdd835;
 }
 
-.engineer {
+.engineer,a.engineer {
 	color: #c62828;	
 }
 
-.scout {
+.gunner,a.gunner {
+	color: #008000;
+}
+
+.scout,a.scout {
 	color: #1976d2;	
 }
 
-.gunner {
-	color: #008000;
-}
+
 
 .falconer,a.falconer {
 	color: #31caf3;
@@ -310,8 +312,7 @@ table th {
 	color: #795548;
 }
 
-.discord,
-a.discord {
+.discord,a.discord {
 	color: #5865F2;
 }
 
@@ -970,40 +971,9 @@ img.zoom-level10:hover {
 }
 
 
-
-.overclock-icons,.weapon-icons {
-	position: relative;
-}
-.overclock-icons {
-	top: 10px;
-	left: 4px;
-	width: 48px;
-	height: 48px;
-}
-
-.key-overclock-icons {
-	width: 128px;
-	height: 128px;
-}
-
-.weapon-icons {
-	top: 10px;
-	width: 48px;
-	height: 48px;
-}
-
-.epc-icon {
-	width: 64px;
-}
-
-.shard-diffractor-icon,
-.coil-gun-icon,
-.subata-icon {
-	width: 72px;
-}
-
-.boomstick-icon {
-	width: 96px;
+.stun-sweeper {
+	width: 85px;
+	height: 220px;
 }
 
 .tall {
@@ -1011,7 +981,7 @@ img.zoom-level10:hover {
 	height: 75%;
 }
 
-
+/* #region - ICONS */
 
 .scroll-down {
 	position: absolute;
@@ -1020,14 +990,7 @@ img.zoom-level10:hover {
 	height: 50px;
 }
 
-.stun-sweeper {
-	width: 85px;
-	height: 220px;
-}
 
-.icons {
-	position: relative;
-}
 
 .tips .icons,
 .weapon-upgrades .icons,
@@ -1037,27 +1000,18 @@ img.zoom-level10:hover {
 	height: 32px;
 }
 
-a.img-link .icons {
-	top: 4px;
-	width: 32px;
-	height: 32px;
-	left: 4px;
-}
-
 
 ul .icons,
 .h1 .icons {
 	top: 8px;
 	/* width: 48px; */
 	height: 48px;
-	left: 0;
 }
 
 .h2 .icons  {
 	top: 8px;
 	/* width: 48px; */
 	height: 40px;
-	left: 0;
 }
 
 
@@ -1065,30 +1019,30 @@ ul .icons,
 	top: 4px;
 	/* width: 48px; */
 	height: 32px;
-	left: 0;
 }
 
 .h4 .icons   {
 	top: 4px;
 	/* width: 48px; */
 	height: 24px;
-	left: 0;
-}
-
-.creatures-enemies-tips .icons {
-	width: 128px;
-	height: 128px;
 }
 
 
 .rock-n-stone, 
 .deep-dive-icon  {
+	top: 5px;
 	width: 40px;
 	height: 52px;
-	position: relative;
-	top: 5px;
 }
 
 
+.icons,
+.rock-n-stone, 
+.deep-dive-icon  {
+	position: relative;
+	left: 0;
+}
+
+/* #endregion - ICONS */
 
 /* #endregion - images */
