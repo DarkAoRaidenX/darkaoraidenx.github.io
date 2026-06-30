@@ -21,34 +21,42 @@ body#general-tips .columns {
 	font-size: 48px;
 }
 
-ul#nav-main-general-info-tips li {
-	display: block;
-	line-height: 50px;
-}
 
-ul#nav-gear-tips .nav-icons,
-ul#nav-main-upgrades-tips .nav-icons  {
+
+ul#nav-gear-tips .icons,
+ul#nav-main-upgrades-tips .icons,
+li .icons.expenite,
+.h1 .icons.expenite,
+li .icons.red-sugar,
+.h1 .icons.red-sugar  {
 	top: 4px;
 	/* width: 48px; */
 	height: 40px;
 	left: 0;
 }
 
-/* #nav-resources-tips li,
+#nav-resources-tips li,
 #nav-buried-gems-tips,
 #nav-minerals-tips {
 	font-size: 48px;
-} */
-
-#nav-gear-tips li,
-#nav-main-upgrades-tips li,
-#nav-player-upgrades-rarities li {
-	font-size: 40px;
 }
 
 ul#nav-main-general-info-tips li {
 	font-size: 40px;
 }
+
+ul#nav-main-general-info-tips li {
+	display: block;
+	line-height: 50px;
+}
+
+#nav-gameplay-tips li,
+#nav-gear-tips li,
+#nav-main-upgrades-tips li,
+#nav-player-upgrades-rarities li {
+	font-size: 48px;
+}
+
 
 
 #nav-main-general-info-tips li,
@@ -79,10 +87,6 @@ ul#nav-main-general-info-tips li {
 
 #general-info-tips {
 	border: 4px solid #4caf50;
-}
-
-#nav-gameplay-tips li {
-	font-size: 40px;
 }
 
 
@@ -131,7 +135,7 @@ table.searchable-tables td {
 	height: 550px;
 }
 
-#common-adhesive-snare .upgrades-notes .nav-icons  {
+#common-adhesive-snare .upgrades-notes .icons  {
 	position: relative;
 	top: 4px;
 	/* width: 48px; */
@@ -139,7 +143,7 @@ table.searchable-tables td {
 	left: 0;
 }
 
-.upgrades-image .h1 .nav-icons {
+.upgrades-image .h1 .icons {
 	top: 4px;
 	/* width: 48px; */
 	height: 48px;

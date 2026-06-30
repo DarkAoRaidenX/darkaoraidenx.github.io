@@ -21,7 +21,7 @@ ul.nav-builds-tips {
 	font-size: 32px;
 }
 
-.loadouts-content .nav-dwarves-tips .nav-icons {
+.loadouts-content .nav-dwarves-tips .icons {
 	position: relative;
 	top: 4px;
 	width: 32px;
@@ -49,6 +49,7 @@ ul#nav-dwarves-classes-tips li {
 .nav-builds-tips a {
 	border: 4px solid #263238;
 }
+
 
 ul.nav-dwarves-tips,ul.nav-loadouts,ul.nav-builds-tips {
 	line-height: 72px;
