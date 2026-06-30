@@ -1030,12 +1030,14 @@ img.zoom-level10:hover {
 	height: 220px;
 }
 
-.icons {
+.weapon-upgrades .icons,
+.searchable-tables .icons {
 	position: relative;
 	top: 5px;
-	width: 32px;
+	/* width: 32px; */
 	height: 32px;
 }
+
 
 /* .h1 .icons {
 	width: 48px;
@@ -1085,7 +1087,6 @@ ul .nav-icons,
 	height: 24px;
 	left: 0;
 }
-
 
 
 
