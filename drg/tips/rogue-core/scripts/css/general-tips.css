@@ -17,6 +17,10 @@ body#general-tips .columns {
 	width: 1190px;
 }
 
+.nav-separator {
+	font-size: 48px;
+}
+
 ul#nav-main-general-info-tips li {
 	display: block;
 	line-height: 50px;
@@ -30,11 +34,11 @@ ul#nav-main-upgrades-tips .nav-icons  {
 	left: 0;
 }
 
-#nav-resources-tips li,
+/* #nav-resources-tips li,
 #nav-buried-gems-tips,
 #nav-minerals-tips {
 	font-size: 48px;
-}
+} */
 
 #nav-gear-tips li,
 #nav-main-upgrades-tips li,

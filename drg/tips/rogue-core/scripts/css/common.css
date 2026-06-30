@@ -1020,53 +1020,40 @@ img.zoom-level10:hover {
 	height: 50px;
 }
 
-.creatures-enemies-tips .icons {
-	width: 128px;
-	height: 128px;
-}
-
 .stun-sweeper {
 	width: 85px;
 	height: 220px;
 }
 
+.icons {
+	position: relative;
+}
+
+.tips .icons,
 .weapon-upgrades .icons,
 .searchable-tables .icons {
-	position: relative;
 	top: 5px;
 	/* width: 32px; */
 	height: 32px;
 }
 
-
-/* .h1 .icons {
-	width: 48px;
-	height: 48px;
-} */
-
-.nav-icons,
-a.reg-link .nav-icons,
-a.img-link .nav-icons,
-ul .nav-icons,
-.h1 a.reg-link .nav-icons,
-.h1 .nav-icons,
-.h2 .nav-icons,
-.h3 .nav-icons,
-.h4 .nav-icons,
-#nav-minerals-tips .nav-icons {
-	position: relative;
+a.img-link .icons {
+	top: 4px;
+	width: 32px;
+	height: 32px;
+	left: 4px;
 }
 
-ul .nav-icons,
-.h1 .icons,
-.h1 .nav-icons {
+
+ul .icons,
+.h1 .icons {
 	top: 8px;
 	/* width: 48px; */
 	height: 48px;
 	left: 0;
 }
 
-.h2 .nav-icons  {
+.h2 .icons  {
 	top: 8px;
 	/* width: 48px; */
 	height: 40px;
@@ -1074,29 +1061,23 @@ ul .nav-icons,
 }
 
 
-.h3 .nav-icons {
+.h3 .icons {
 	top: 4px;
 	/* width: 48px; */
 	height: 32px;
 	left: 0;
 }
 
-.h4 .nav-icons   {
+.h4 .icons   {
 	top: 4px;
 	/* width: 48px; */
 	height: 24px;
 	left: 0;
 }
 
-
-
-a.reg-link .nav-icons,
-a.img-link .nav-icons,
-#nav-minerals-tips .nav-icons {
-	top: 4px;
-	width: 32px;
-	height: 32px;
-	left: 4px;
+.creatures-enemies-tips .icons {
+	width: 128px;
+	height: 128px;
 }
 
 
