@@ -1059,7 +1059,7 @@ ul .nav-icons,
 .h1 .icons,
 .h1 .nav-icons {
 	top: 8px;
-	width: 48px;
+	/* width: 48px; */
 	height: 48px;
 	left: 0;
 }
